@@ -1,0 +1,611 @@
+{
+  "source": "/Users/kloping/projects/repcendo/docs/character-assets/muscle-overlay-v1/female/greek-female-muscles.glb",
+  "meshCount": 1,
+  "vertices": 30731,
+  "triangles": 49278,
+  "bounds": {
+    "min": [
+      -0.09842056781053543,
+      -0.24164435267448425,
+      4.9985828809440136e-08
+    ],
+    "max": [
+      0.0984208732843399,
+      0.24164390563964844,
+      0.9796478748321533
+    ]
+  },
+  "meshes": [
+    {
+      "name": "tripo_node_5c5c5c2e-1d32-4c17-9236-12000c121520",
+      "vertices": 30731,
+      "triangles": 49278,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "materials": [
+        "Muscle_00_marble",
+        "Muscle_01_pectoralis_major",
+        "Muscle_02_deltoid_anterior",
+        "Muscle_03_deltoid_lateral",
+        "Muscle_04_deltoid_posterior",
+        "Muscle_05_biceps_brachii",
+        "Muscle_06_triceps_brachii",
+        "Muscle_07_forearm_flexors",
+        "Muscle_08_forearm_extensors",
+        "Muscle_09_rectus_abdominis",
+        "Muscle_10_external_oblique",
+        "Muscle_11_trapezius",
+        "Muscle_12_latissimus_dorsi",
+        "Muscle_13_gluteus_maximus",
+        "Muscle_14_quadriceps",
+        "Muscle_15_hamstrings",
+        "Muscle_16_gastrocnemius",
+        "Muscle_17_tibialis_anterior"
+      ],
+      "armatures": [
+        "Armature"
+      ],
+      "unweightedVertices": 0,
+      "boneWeightRange": [
+        0.9999998733401299,
+        1.0000001043081284
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Muscle_00_marble",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_01_pectoralis_major",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_02_deltoid_anterior",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_03_deltoid_lateral",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_04_deltoid_posterior",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_05_biceps_brachii",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_06_triceps_brachii",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_07_forearm_flexors",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_08_forearm_extensors",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_09_rectus_abdominis",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_10_external_oblique",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_11_trapezius",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_12_latissimus_dorsi",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_13_gluteus_maximus",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_14_quadriceps",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_15_hamstrings",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_16_gastrocnemius",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    },
+    {
+      "name": "Muscle_17_tibialis_anterior",
+      "textureImages": [
+        {
+          "name": "muscle-albedo",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "muscle-normal",
+          "size": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    }
+  ],
+  "armatures": [
+    {
+      "name": "Armature",
+      "bones": [
+        {
+          "name": "Root",
+          "parent": null
+        },
+        {
+          "name": "mixamorig:Hips",
+          "parent": "Root"
+        },
+        {
+          "name": "mixamorig:LeftUpLeg",
+          "parent": "mixamorig:Hips"
+        },
+        {
+          "name": "mixamorig:LeftLeg",
+          "parent": "mixamorig:LeftUpLeg"
+        },
+        {
+          "name": "mixamorig:LeftFoot",
+          "parent": "mixamorig:LeftLeg"
+        },
+        {
+          "name": "mixamorig:LeftToeBase",
+          "parent": "mixamorig:LeftFoot"
+        },
+        {
+          "name": "mixamorig:RightUpLeg",
+          "parent": "mixamorig:Hips"
+        },
+        {
+          "name": "mixamorig:RightLeg",
+          "parent": "mixamorig:RightUpLeg"
+        },
+        {
+          "name": "mixamorig:RightFoot",
+          "parent": "mixamorig:RightLeg"
+        },
+        {
+          "name": "mixamorig:RightToeBase",
+          "parent": "mixamorig:RightFoot"
+        },
+        {
+          "name": "mixamorig:Spine",
+          "parent": "mixamorig:Hips"
+        },
+        {
+          "name": "mixamorig:Spine1",
+          "parent": "mixamorig:Spine"
+        },
+        {
+          "name": "mixamorig:Spine2",
+          "parent": "mixamorig:Spine1"
+        },
+        {
+          "name": "mixamorig:LeftShoulder",
+          "parent": "mixamorig:Spine2"
+        },
+        {
+          "name": "mixamorig:LeftArm",
+          "parent": "mixamorig:LeftShoulder"
+        },
+        {
+          "name": "mixamorig:LeftForeArm",
+          "parent": "mixamorig:LeftArm"
+        },
+        {
+          "name": "mixamorig:LeftHand",
+          "parent": "mixamorig:LeftForeArm"
+        },
+        {
+          "name": "mixamorig:Neck",
+          "parent": "mixamorig:Spine2"
+        },
+        {
+          "name": "mixamorig:Head",
+          "parent": "mixamorig:Neck"
+        },
+        {
+          "name": "mixamorig:RightShoulder",
+          "parent": "mixamorig:Spine2"
+        },
+        {
+          "name": "mixamorig:RightArm",
+          "parent": "mixamorig:RightShoulder"
+        },
+        {
+          "name": "mixamorig:RightForeArm",
+          "parent": "mixamorig:RightArm"
+        },
+        {
+          "name": "mixamorig:RightHand",
+          "parent": "mixamorig:RightForeArm"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "visualReviewRequired": true,
+  "performanceCompatibility": "not established by this inspection",
+  "poseCheck": {
+    "scope": "diagnostic joint flexion only; not an exercise or full range-of-motion certification",
+    "poses": {
+      "upper-body": {
+        "rotationsWorldAxisDegrees": {
+          "mixamorig:LeftArm": [
+            [
+              1,
+              0,
+              0
+            ],
+            35
+          ],
+          "mixamorig:RightArm": [
+            [
+              1,
+              0,
+              0
+            ],
+            -35
+          ],
+          "mixamorig:LeftForeArm": [
+            [
+              0,
+              1,
+              0
+            ],
+            -65
+          ],
+          "mixamorig:RightForeArm": [
+            [
+              0,
+              1,
+              0
+            ],
+            -65
+          ]
+        },
+        "finiteDeformedVertices": true,
+        "maximumVertexDistance": 0.504771964745266,
+        "maximumVertexDisplacement": 0.3374390713235078,
+        "movedVertexCount": 9398
+      },
+      "lower-body": {
+        "rotationsWorldAxisDegrees": {
+          "mixamorig:LeftUpLeg": [
+            [
+              0,
+              1,
+              0
+            ],
+            -40
+          ],
+          "mixamorig:LeftLeg": [
+            [
+              0,
+              1,
+              0
+            ],
+            70
+          ],
+          "mixamorig:RightUpLeg": [
+            [
+              0,
+              1,
+              0
+            ],
+            -15
+          ],
+          "mixamorig:RightLeg": [
+            [
+              0,
+              1,
+              0
+            ],
+            30
+          ]
+        },
+        "finiteDeformedVertices": true,
+        "maximumVertexDistance": 0.5161353614508603,
+        "maximumVertexDisplacement": 0.16850395654771885,
+        "movedVertexCount": 14898
+      }
+    },
+    "finiteDeformedVertices": true,
+    "diagnosticAction": "QA_JointFlexion_NOT_Exercise",
+    "actionFrames": [
+      1,
+      97
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "source": "/Users/kloping/projects/repcendo/docs/character-assets/greek-athletes-v1/female/source/model.glb",
+  "meshCount": 1,
+  "vertices": 27816,
+  "triangles": 49278,
+  "bounds": {
+    "min": [
+      -0.09870799630880356,
+      -0.24173034727573395,
+      -0.4898987412452698
+    ],
+    "max": [
+      0.0981333777308464,
+      0.24155783653259277,
+      0.48974940180778503
+    ]
+  },
+  "meshes": [
+    {
+      "name": "tripo_node_5c5c5c2e-1d32-4c17-9236-12000c121520",
+      "vertices": 27816,
+      "triangles": 49278,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "materials": [
+        "tripo_material_5c5c5c2e-1d32-4c17-9236-12000c121520"
+      ],
+      "armatures": [],
+      "unweightedVertices": null,
+      "boneWeightRange": null
+    }
+  ],
+  "materials": [
+    {
+      "name": "tripo_material_5c5c5c2e-1d32-4c17-9236-12000c121520",
+      "textureImages": [
+        {
+          "name": "Color_5c5c5c2e-1d32-4c17-9236-12000c121520",
+          "size": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "ORM_5c5c5c2e-1d32-4c17-9236-12000c121520",
+          "size": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "NormalGL_5c5c5c2e-1d32-4c17-9236-12000c121520",
+          "size": [
+            4096,
+            4096
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    }
+  ],
+  "armatures": [],
+  "actions": [],
+  "visualReviewRequired": true,
+  "performanceCompatibility": "not established by this inspection"
+}

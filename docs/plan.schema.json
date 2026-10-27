@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://repcendo.local/plan.schema.json",
+  "title": "Repcendo Training Plan v1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{1,80}$"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100000
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "goal": {
+      "type": "string",
+      "maxLength": 2000
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 10000
+    },
+    "weeks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/week"
+      },
+      "minItems": 1,
+      "maxItems": 52
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "revision",
+    "name",
+    "goal",
+    "weeks"
+  ],
+  "$defs": {
+    "week": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "week": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 52
+        },
+        "focus": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "workouts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/workout"
+          },
+          "minItems": 1,
+          "maxItems": 14
+        }
+      },
+      "required": [
+        "week",
+        "focus",
+        "workouts"
+      ]
+    },
+    "workout": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{1,80}$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 10000
+        },
+        "exercises": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/exercise"
+          },
+          "minItems": 1,
+          "maxItems": 30
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "exercises"
+      ]
+    },
+    "exercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{1,80}$"
+        },
+        "exerciseID": {
+          "type": "string",
+          "description": "Exact string ID from the bundled exercise catalog."
+        },
+        "displayName": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 5000
+        },
+        "sets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/set"
+          },
+          "minItems": 1,
+          "maxItems": 30
+        }
+      },
+      "required": [
+        "id",
+        "exerciseID",
+        "sets"
+      ]
+    },
+    "set": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "repsMin": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "repsMax": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "weightKg": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 2000
+        },
+        "rir": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "restSeconds": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1800
+        }
+      },
+      "required": [
+        "repsMin",
+        "repsMax",
+        "restSeconds"
+      ]
+    }
+  },
+  "description": "Semantic checks also require contiguous ordered weeks, unique workout/slot IDs within their parent, known exercise IDs, and repsMax >= repsMin. Use plan-check for full validation."
+}

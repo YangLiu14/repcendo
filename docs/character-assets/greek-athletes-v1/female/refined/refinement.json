@@ -1,0 +1,22 @@
+{
+  "source": [
+    {
+      "mesh": "tripo_node_5c5c5c2e-1d32-4c17-9236-12000c121520",
+      "verticesBefore": 27816,
+      "changedVertices": 1284,
+      "maxWorldDisplacement": 0.00886057587150043,
+      "region": "two localized front breast-band patches",
+      "topologyUVAndSkinGroupsPreserved": true
+    }
+  ],
+  "rig": [
+    {
+      "mesh": "tripo_node_5c5c5c2e-1d32-4c17-9236-12000c121520",
+      "verticesBefore": 27816,
+      "changedVertices": 1284,
+      "maxWorldDisplacement": 0.008860576714995546,
+      "region": "two localized front breast-band patches",
+      "topologyUVAndSkinGroupsPreserved": true
+    }
+  ]
+}

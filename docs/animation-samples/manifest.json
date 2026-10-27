@@ -1,0 +1,102 @@
+{
+  "fps": 24,
+  "frames": 120,
+  "duration_seconds": 5,
+  "size": [
+    1280,
+    960
+  ],
+  "provenance": "Original procedural meshes and motion; no upstream media.",
+  "review_status": "Visual prototypes; not professionally reviewed.",
+  "samples": {
+    "squat": {
+      "number": "01",
+      "title": "杠铃深蹲",
+      "en": "BARBELL BACK SQUAT",
+      "id": "0043",
+      "muscles": [
+        [
+          "股四头肌",
+          "大腿前侧"
+        ],
+        [
+          "臀大肌",
+          "臀部后侧"
+        ]
+      ],
+      "note": [
+        "膝、髋共同屈伸",
+        "脚部保持固定"
+      ],
+      "phases": [
+        "准备",
+        "下蹲",
+        "底部",
+        "站起"
+      ],
+      "files": {
+        "gif": "squat.gif",
+        "mp4": "squat.mp4",
+        "blend": "squat.blend"
+      }
+    },
+    "bench": {
+      "number": "02",
+      "title": "杠铃卧推",
+      "en": "BARBELL BENCH PRESS",
+      "id": "0025",
+      "muscles": [
+        [
+          "胸大肌",
+          "胸部前侧"
+        ]
+      ],
+      "note": [
+        "肱三头肌、三角肌前束协同",
+        "本片仅突出胸大肌"
+      ],
+      "phases": [
+        "准备",
+        "下放",
+        "底部",
+        "推起"
+      ],
+      "files": {
+        "gif": "bench.gif",
+        "mp4": "bench.mp4",
+        "blend": "bench.blend"
+      }
+    },
+    "row": {
+      "number": "03",
+      "title": "坐姿绳索划船",
+      "en": "SEATED CABLE ROW · CLOSE GRIP",
+      "id": "0861",
+      "muscles": [
+        [
+          "背阔肌",
+          "背部两侧"
+        ],
+        [
+          "菱形肌 / 中斜方肌",
+          "肩胛骨之间 · 区域示意"
+        ]
+      ],
+      "note": [
+        "采用窄握动作示意",
+        "手肘向后，绳索连接握把"
+      ],
+      "phases": [
+        "准备",
+        "拉回",
+        "收缩位",
+        "回放"
+      ],
+      "files": {
+        "gif": "row.gif",
+        "mp4": "row.mp4",
+        "blend": "row.blend"
+      }
+    }
+  }
+}

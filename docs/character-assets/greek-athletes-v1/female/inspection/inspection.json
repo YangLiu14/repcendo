@@ -1,0 +1,261 @@
+{
+  "source": "/Users/kloping/projects/repcendo/docs/character-assets/greek-athletes-v1/female/refined/rig.glb",
+  "meshCount": 1,
+  "vertices": 27816,
+  "triangles": 49278,
+  "bounds": {
+    "min": [
+      -0.09842056035995483,
+      -0.24164429306983948,
+      2.116867108270526e-07
+    ],
+    "max": [
+      0.09842094779014587,
+      0.24164405465126038,
+      0.9796479940414429
+    ]
+  },
+  "meshes": [
+    {
+      "name": "tripo_node_5c5c5c2e-1d32-4c17-9236-12000c121520",
+      "vertices": 27816,
+      "triangles": 49278,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "materials": [
+        "tripo_material_5c5c5c2e-1d32-4c17-9236-12000c121520"
+      ],
+      "armatures": [
+        "Armature"
+      ],
+      "unweightedVertices": 0,
+      "boneWeightRange": [
+        0.9999998658895493,
+        1.0000001192092896
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "tripo_material_5c5c5c2e-1d32-4c17-9236-12000c121520",
+      "textureImages": [
+        {
+          "name": "Color_5c5c5c2e-1d32-4c17-9236-12000c121520",
+          "size": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "ORM_5c5c5c2e-1d32-4c17-9236-12000c121520",
+          "size": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "NormalGL_5c5c5c2e-1d32-4c17-9236-12000c121520",
+          "size": [
+            4096,
+            4096
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    }
+  ],
+  "armatures": [
+    {
+      "name": "Armature",
+      "bones": [
+        {
+          "name": "Root",
+          "parent": null
+        },
+        {
+          "name": "mixamorig:Hips",
+          "parent": "Root"
+        },
+        {
+          "name": "mixamorig:LeftUpLeg",
+          "parent": "mixamorig:Hips"
+        },
+        {
+          "name": "mixamorig:LeftLeg",
+          "parent": "mixamorig:LeftUpLeg"
+        },
+        {
+          "name": "mixamorig:LeftFoot",
+          "parent": "mixamorig:LeftLeg"
+        },
+        {
+          "name": "mixamorig:LeftToeBase",
+          "parent": "mixamorig:LeftFoot"
+        },
+        {
+          "name": "mixamorig:RightUpLeg",
+          "parent": "mixamorig:Hips"
+        },
+        {
+          "name": "mixamorig:RightLeg",
+          "parent": "mixamorig:RightUpLeg"
+        },
+        {
+          "name": "mixamorig:RightFoot",
+          "parent": "mixamorig:RightLeg"
+        },
+        {
+          "name": "mixamorig:RightToeBase",
+          "parent": "mixamorig:RightFoot"
+        },
+        {
+          "name": "mixamorig:Spine",
+          "parent": "mixamorig:Hips"
+        },
+        {
+          "name": "mixamorig:Spine1",
+          "parent": "mixamorig:Spine"
+        },
+        {
+          "name": "mixamorig:Spine2",
+          "parent": "mixamorig:Spine1"
+        },
+        {
+          "name": "mixamorig:LeftShoulder",
+          "parent": "mixamorig:Spine2"
+        },
+        {
+          "name": "mixamorig:LeftArm",
+          "parent": "mixamorig:LeftShoulder"
+        },
+        {
+          "name": "mixamorig:LeftForeArm",
+          "parent": "mixamorig:LeftArm"
+        },
+        {
+          "name": "mixamorig:LeftHand",
+          "parent": "mixamorig:LeftForeArm"
+        },
+        {
+          "name": "mixamorig:Neck",
+          "parent": "mixamorig:Spine2"
+        },
+        {
+          "name": "mixamorig:Head",
+          "parent": "mixamorig:Neck"
+        },
+        {
+          "name": "mixamorig:RightShoulder",
+          "parent": "mixamorig:Spine2"
+        },
+        {
+          "name": "mixamorig:RightArm",
+          "parent": "mixamorig:RightShoulder"
+        },
+        {
+          "name": "mixamorig:RightForeArm",
+          "parent": "mixamorig:RightArm"
+        },
+        {
+          "name": "mixamorig:RightHand",
+          "parent": "mixamorig:RightForeArm"
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "visualReviewRequired": true,
+  "performanceCompatibility": "not established by this inspection",
+  "poseCheck": {
+    "scope": "diagnostic joint flexion only; not an exercise or full range-of-motion certification",
+    "poses": {
+      "upper-body": {
+        "rotationsWorldAxisDegrees": {
+          "mixamorig:LeftArm": [
+            [
+              1,
+              0,
+              0
+            ],
+            35
+          ],
+          "mixamorig:RightArm": [
+            [
+              1,
+              0,
+              0
+            ],
+            -35
+          ],
+          "mixamorig:LeftForeArm": [
+            [
+              0,
+              1,
+              0
+            ],
+            -65
+          ],
+          "mixamorig:RightForeArm": [
+            [
+              0,
+              1,
+              0
+            ],
+            -65
+          ]
+        },
+        "finiteDeformedVertices": true,
+        "maximumVertexDistance": 0.5047723166858086,
+        "maximumVertexDisplacement": 0.3374388243058741,
+        "movedVertexCount": 8204
+      },
+      "lower-body": {
+        "rotationsWorldAxisDegrees": {
+          "mixamorig:LeftUpLeg": [
+            [
+              0,
+              1,
+              0
+            ],
+            -40
+          ],
+          "mixamorig:LeftLeg": [
+            [
+              0,
+              1,
+              0
+            ],
+            70
+          ],
+          "mixamorig:RightUpLeg": [
+            [
+              0,
+              1,
+              0
+            ],
+            -15
+          ],
+          "mixamorig:RightLeg": [
+            [
+              0,
+              1,
+              0
+            ],
+            30
+          ]
+        },
+        "finiteDeformedVertices": true,
+        "maximumVertexDistance": 0.5161357489489136,
+        "maximumVertexDisplacement": 0.16850398418285467,
+        "movedVertexCount": 13663
+      }
+    },
+    "finiteDeformedVertices": true,
+    "diagnosticAction": "QA_JointFlexion_NOT_Exercise",
+    "actionFrames": [
+      1,
+      97
+    ]
+  }
+}

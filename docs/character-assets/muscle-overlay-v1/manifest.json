@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "representation": "surface muscle texture overlays; no independent anatomical volumes",
+  "muscleGroups": 17,
+  "characters": [
+    "male",
+    "female"
+  ],
+  "rigNodesPerCharacter": 23,
+  "textureResolution": [
+    2048,
+    2048
+  ],
+  "inputAssets": "../greek-athletes-v1/",
+  "fiberGeneration": "built-in image_gen",
+  "fiberPrompt": "shared/fiber-prompt.txt",
+  "fiberSha256": "11aba40b7b459d50306c654c240482894f471ab0f0586fd886b7bd9eea5a703b",
+  "tripoCreditsConsumed": 0,
+  "preview": "index.html",
+  "validation": "validation.json",
+  "verifiedUI": [
+    "male/female switch retaining selection",
+    "single chest group",
+    "17-group display",
+    "bench-press related-muscle preset",
+    "return to white marble",
+    "skeleton test toggle"
+  ],
+  "remaining": [
+    "professional anatomy review",
+    "individual left/right IDs",
+    "volumetric/deep muscles",
+    "iOS runtime integration and performance testing"
+  ]
+}

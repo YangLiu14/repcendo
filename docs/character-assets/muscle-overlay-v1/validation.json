@@ -1,0 +1,543 @@
+{
+  "characters": [
+    {
+      "sex": "male",
+      "status": "passed",
+      "triangles": 48498,
+      "rigNodes": 23,
+      "materials": 18,
+      "atlasIDs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "masks": [
+        {
+          "group": "pectoralis_major",
+          "nonzeroPixels": 57375
+        },
+        {
+          "group": "deltoid_anterior",
+          "nonzeroPixels": 64733
+        },
+        {
+          "group": "deltoid_lateral",
+          "nonzeroPixels": 22811
+        },
+        {
+          "group": "deltoid_posterior",
+          "nonzeroPixels": 49430
+        },
+        {
+          "group": "biceps_brachii",
+          "nonzeroPixels": 51467
+        },
+        {
+          "group": "triceps_brachii",
+          "nonzeroPixels": 35314
+        },
+        {
+          "group": "forearm_flexors",
+          "nonzeroPixels": 43262
+        },
+        {
+          "group": "forearm_extensors",
+          "nonzeroPixels": 77060
+        },
+        {
+          "group": "rectus_abdominis",
+          "nonzeroPixels": 19046
+        },
+        {
+          "group": "external_oblique",
+          "nonzeroPixels": 42863
+        },
+        {
+          "group": "trapezius",
+          "nonzeroPixels": 51220
+        },
+        {
+          "group": "latissimus_dorsi",
+          "nonzeroPixels": 57676
+        },
+        {
+          "group": "gluteus_maximus",
+          "nonzeroPixels": 84237
+        },
+        {
+          "group": "quadriceps",
+          "nonzeroPixels": 122160
+        },
+        {
+          "group": "hamstrings",
+          "nonzeroPixels": 182065
+        },
+        {
+          "group": "gastrocnemius",
+          "nonzeroPixels": 55881
+        },
+        {
+          "group": "tibialis_anterior",
+          "nonzeroPixels": 15309
+        }
+      ],
+      "files": [
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/all-back.png",
+          "bytes": 978071,
+          "sha256": "7cb8745f98bdc4941164ccb0755bdf5ececa507aa6e9b830e18bb19df6f7e44c"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/all-front.png",
+          "bytes": 960585,
+          "sha256": "7e7a6447d8942089cf02a4e206075b01a15157033c6c8c0e4f56a88ee273d309"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/back-back.png",
+          "bytes": 908670,
+          "sha256": "233a6ad83a88889399771d169b833dcae8c450276440719336d524ca323a5055"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/chest-front.png",
+          "bytes": 906941,
+          "sha256": "3f413d33c227db4e39a9a80d793c4725d8135d4f301997cc653588d0d9f2edc8"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/deformation-validation.json",
+          "bytes": 12485,
+          "sha256": "1dc270180f8867fc2199a0a66ba8387a397a97b35de3cbc671df2ab3174208e5"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/greek-male-muscles.blend",
+          "bytes": 20270322,
+          "sha256": "122c617a54e76832d6060522ecb7eb800533954e88597e54a090db69b59772cd"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/greek-male-muscles.glb",
+          "bytes": 10388680,
+          "sha256": "83d438b82402f24de93f2dfa0b6624865745abe968b29aaf3fcaf2c065d9256d"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/legs-back.png",
+          "bytes": 916564,
+          "sha256": "ce9178167055d1a10578772d6ef8725929c45a849de96f5bc15972bb50846024"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/legs-front.png",
+          "bytes": 907489,
+          "sha256": "1b6a496e4caf449ed629b9b06ab5faf7969a0e17834d69ada57325612a2de92e"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/manifest.json",
+          "bytes": 2783,
+          "sha256": "e91ce737d8ef00f26150960c3a3af6f0bf42048c33769ebcffa6f53a91aac80c"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/press-front.png",
+          "bytes": 913910,
+          "sha256": "3ebaffab4d4520fe73547b7710ac82b56a0b26d145d62bbb30cc04d2c97481dc"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/squat-front.png",
+          "bytes": 905617,
+          "sha256": "3c5eb81dd0e00bdd89fbda23c447af0835782d65ed5ea922009986447a089c99"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/marble-basecolor.png",
+          "bytes": 15329748,
+          "sha256": "0788540cc6f9b8961563314316bbbd3f488391032a4fb2a4b7ef1bd716b56873"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/01-pectoralis_major.png",
+          "bytes": 102720,
+          "sha256": "d376834a901b77720ea1c694b0a4d94e576271c838a80be1a0efae6955c3da33"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/02-deltoid_anterior.png",
+          "bytes": 117304,
+          "sha256": "0b986751581bcc0940ec1270bf5bcb7d5524a97ca29c4934bec8ea400eb19485"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/03-deltoid_lateral.png",
+          "bytes": 86025,
+          "sha256": "5033ea20176dc82025eeba74b887c2a9f4c285e885ac2761346e3da0f2c82270"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/04-deltoid_posterior.png",
+          "bytes": 93304,
+          "sha256": "3bebe273921994fde2452808a88be3e10f803da8b8fd5eec2c25a1a877030afb"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/05-biceps_brachii.png",
+          "bytes": 105860,
+          "sha256": "dc7fd674c17b85e2130b5fac0111c723b73716017bf68937a6dab8481605f7ef"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/06-triceps_brachii.png",
+          "bytes": 95196,
+          "sha256": "3bb399d85918b6b502054ba14f64ebbd13c9638bec3483abc2af0b57c6b68d41"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/07-forearm_flexors.png",
+          "bytes": 99870,
+          "sha256": "814c72a797b8d55fb460b873b80470ea49c358348440c816471dca3111cd0349"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/08-forearm_extensors.png",
+          "bytes": 111763,
+          "sha256": "f23b0649e213d5bf25fdc05174e733ca7fffc0371debf5170d57f1de8c43c038"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/09-rectus_abdominis.png",
+          "bytes": 85550,
+          "sha256": "2fa06ba6e89aa2c6870f9bfc9cc2d49d96111ce4d86b28331262847432eef85a"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/10-external_oblique.png",
+          "bytes": 94297,
+          "sha256": "301a0351245587f3289f8147e2b8e4a96dea2a39291ef7f3dd00f3da67783a75"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/11-trapezius.png",
+          "bytes": 95463,
+          "sha256": "74ef988012169a76216537d2d5d6fd2523db9398032e75fb70651dae164d3b21"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/12-latissimus_dorsi.png",
+          "bytes": 92541,
+          "sha256": "f298205a04d5d0a1dbabda8413dab83be2644f0f204449aefe09b86f39587267"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/13-gluteus_maximus.png",
+          "bytes": 101725,
+          "sha256": "e9fc5fb8329a7ca0b86763e4172cca0e51690fbf36490d3b7685495eec448101"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/14-quadriceps.png",
+          "bytes": 115005,
+          "sha256": "f0b4f7deaf40903c8cd636378022865e27ca2a048f0272e982df7ef05b4e9db9"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/15-hamstrings.png",
+          "bytes": 155147,
+          "sha256": "ad90db34c542f907d3e94c518aca2a68d0c790cb5b95b9e7f8bd4ba0f4fcc43d"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/16-gastrocnemius.png",
+          "bytes": 94759,
+          "sha256": "936866b4c4f1ec276e1441df2eb752bc699c17664f6a901d171e012e25b37972"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/masks/17-tibialis_anterior.png",
+          "bytes": 77804,
+          "sha256": "dc84c657a76b20502ab5c02d94393a23b551420bce4a74fae754c5b568320635"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/muscle-albedo.png",
+          "bytes": 5764159,
+          "sha256": "645be972972ed0ed6fa0616bda33a74fb7a66b95056a0d7624dc21937ea0dd77"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/muscle-coverage.png",
+          "bytes": 650061,
+          "sha256": "833a4f3c12a86c6e22b889df2f4dd6140dfc284f7806a7352eaa558732d9209f"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/muscle-id.png",
+          "bytes": 201287,
+          "sha256": "8d1034deb3ffe5408764fd61ae3f011162b25c8f0820c6c4cee75b0b2146a1d1"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/male/textures/muscle-normal.png",
+          "bytes": 2369286,
+          "sha256": "67523d9d5ea791ca268cdd88bb4de5ecf1e620631a5e0cbe3e01066743c90d75"
+        }
+      ]
+    },
+    {
+      "sex": "female",
+      "status": "passed",
+      "triangles": 49278,
+      "rigNodes": 23,
+      "materials": 18,
+      "atlasIDs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "masks": [
+        {
+          "group": "pectoralis_major",
+          "nonzeroPixels": 89480
+        },
+        {
+          "group": "deltoid_anterior",
+          "nonzeroPixels": 56076
+        },
+        {
+          "group": "deltoid_lateral",
+          "nonzeroPixels": 23487
+        },
+        {
+          "group": "deltoid_posterior",
+          "nonzeroPixels": 41895
+        },
+        {
+          "group": "biceps_brachii",
+          "nonzeroPixels": 42925
+        },
+        {
+          "group": "triceps_brachii",
+          "nonzeroPixels": 35357
+        },
+        {
+          "group": "forearm_flexors",
+          "nonzeroPixels": 56026
+        },
+        {
+          "group": "forearm_extensors",
+          "nonzeroPixels": 69086
+        },
+        {
+          "group": "rectus_abdominis",
+          "nonzeroPixels": 35822
+        },
+        {
+          "group": "external_oblique",
+          "nonzeroPixels": 73129
+        },
+        {
+          "group": "trapezius",
+          "nonzeroPixels": 60157
+        },
+        {
+          "group": "latissimus_dorsi",
+          "nonzeroPixels": 71272
+        },
+        {
+          "group": "gluteus_maximus",
+          "nonzeroPixels": 119895
+        },
+        {
+          "group": "quadriceps",
+          "nonzeroPixels": 92435
+        },
+        {
+          "group": "hamstrings",
+          "nonzeroPixels": 124438
+        },
+        {
+          "group": "gastrocnemius",
+          "nonzeroPixels": 74153
+        },
+        {
+          "group": "tibialis_anterior",
+          "nonzeroPixels": 29913
+        }
+      ],
+      "files": [
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/all-back.png",
+          "bytes": 964021,
+          "sha256": "e1d83d59bc22276581fae28bb2f0b6cdaedbdcfc37191a5d69ce59e5104e4cd7"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/all-front.png",
+          "bytes": 947122,
+          "sha256": "ffd96724875ef955f54e68841985fdfad8df561d449dc01565c05067103ffa7f"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/back-back.png",
+          "bytes": 889889,
+          "sha256": "f8117774bb87267f39e2dc574d86898c138692ab1219bed7e1f596d8d3765e14"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/chest-front.png",
+          "bytes": 891641,
+          "sha256": "3645a042866f85d9b953e9ee583f963d0941d28649d18f30d10dd1aa65357761"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/deformation-validation.json",
+          "bytes": 12488,
+          "sha256": "13fda9979b8c8b66e5ac78cdc453ce02f0ee63b20ca7b0c18f191e62ec694dea"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/greek-female-muscles.blend",
+          "bytes": 19604763,
+          "sha256": "b173b0f0f7e74e42c41673110634474ef122834db41c246ed11fdd81fe39745a"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/greek-female-muscles.glb",
+          "bytes": 10306784,
+          "sha256": "8b3561c2c9d645a5a66210fd8f2935269638c03f5d8f0e913d25c3b636d1ce5c"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/legs-back.png",
+          "bytes": 905186,
+          "sha256": "67b95a8bfe24d2fb336aa30ba8b5239e0877f0237f764fd68d11b91646e8656f"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/legs-front.png",
+          "bytes": 896770,
+          "sha256": "a002910bff33f7cfa96a55116d12162da893db4786a889937b82b97da9cfa4cc"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/manifest.json",
+          "bytes": 2791,
+          "sha256": "0dd25424a3bb30653afecae8323195631698185ac25e3c6715a71622658fae0c"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/press-front.png",
+          "bytes": 897410,
+          "sha256": "337f857de7e85ebcd68f265654557305894e9276307d5f8962e51d950e78ed0e"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/squat-front.png",
+          "bytes": 896251,
+          "sha256": "f50a6de56856035daa57075cbfcc4fab222b24f700d0ceed57808aca38b35220"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/marble-basecolor.png",
+          "bytes": 12996313,
+          "sha256": "1046edfc37f0d2333fdb8bec1586f16b994c002c32153fa8fae0a2b04681d1b1"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/01-pectoralis_major.png",
+          "bytes": 119890,
+          "sha256": "72a0dcf82234df2b20c156cb12a716c226e4e98180c89fac29934358fb30314b"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/02-deltoid_anterior.png",
+          "bytes": 118512,
+          "sha256": "722da6c554ff8e17e8c9067e6642c4745746976a791d0e14b6054b512de6a974"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/03-deltoid_lateral.png",
+          "bytes": 89257,
+          "sha256": "f8db1407286950c0acd4e7af306c05eef28c7278e7abcffcfe956a17379edf25"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/04-deltoid_posterior.png",
+          "bytes": 89807,
+          "sha256": "390b3a5a4b21b3311b0a588439f585b655c2d080c86125770e9f9314b1333b17"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/05-biceps_brachii.png",
+          "bytes": 99258,
+          "sha256": "3723a48a0cd068513fda4402d02b5c1721f2184f4d25d5e87abd1677c6948a82"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/06-triceps_brachii.png",
+          "bytes": 92976,
+          "sha256": "80ef1e1eeb419628225bbaec3ae91d41fa3fbde46cd2a3bf15702d9215e0c2c6"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/07-forearm_flexors.png",
+          "bytes": 110773,
+          "sha256": "048ef34366adfa8ab54cc919e2d580b0b2d1d7623c95255f052577b15b5670f7"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/08-forearm_extensors.png",
+          "bytes": 113112,
+          "sha256": "6c359154b21e745745b3219870d0532abde076d03c15e6d5d3c39d8d9b2feeb6"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/09-rectus_abdominis.png",
+          "bytes": 99157,
+          "sha256": "fffd1df6e71654c11dcf91b50a589023fd24df1709fc903e81be4489a261bf76"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/10-external_oblique.png",
+          "bytes": 109146,
+          "sha256": "d369c4f7efaa9d682163e4448d936d12ae5752ecbd0667c2db4c0cce13e89a62"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/11-trapezius.png",
+          "bytes": 102869,
+          "sha256": "c96929e207d31171f578590af9e3666d01c908cd626b682c278ff266479618fd"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/12-latissimus_dorsi.png",
+          "bytes": 108088,
+          "sha256": "ca5628732f3be5b94598b3b667ac4aae5cd68fb9e35249dc3a39ec9f51b7651b"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/13-gluteus_maximus.png",
+          "bytes": 107541,
+          "sha256": "3a64724b1654ba17bd4f25820a7dad2425e84153ce345e84ec802fd2da01dcf7"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/14-quadriceps.png",
+          "bytes": 105260,
+          "sha256": "bc99d5abef33d18c68d086bf222d85b7d73f61d8db5d150748de69eb57d80b0f"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/15-hamstrings.png",
+          "bytes": 132173,
+          "sha256": "8384ca422f911bfdad0a60b3f89ba33702d01af16cd852064361bb66b15cb665"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/16-gastrocnemius.png",
+          "bytes": 97681,
+          "sha256": "1ba0d548ef62891f2a0620d2d1c97b683833e8a613d04923dbb4962ea9df0ea7"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/masks/17-tibialis_anterior.png",
+          "bytes": 85058,
+          "sha256": "aeb776ed91052ef2a4afc79009901336d54bb7ddf40250631c2165a048798a7b"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/muscle-albedo.png",
+          "bytes": 5466965,
+          "sha256": "4f2f9573d01a920c7299458c0b5e7c301caa2ce8ff762b67e7dd736f7d2d8203"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/muscle-coverage.png",
+          "bytes": 694508,
+          "sha256": "216b1b2c9fe53ac0c872bdd366178fdecd850fead3f37b0a5ebb0e82ddace7ac"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/muscle-id.png",
+          "bytes": 215400,
+          "sha256": "f96389358f7c4a08bc7d650e5867729643f42ac529baa0116474b332d0c7547a"
+        },
+        {
+          "path": "docs/character-assets/muscle-overlay-v1/female/textures/muscle-normal.png",
+          "bytes": 2538551,
+          "sha256": "e0e318098398aece4dc5369cedc40ccf149dd434d962afbbb6617e590712c482"
+        }
+      ]
+    }
+  ],
+  "checks": "GLB structure, skin attributes, triangle totals, embedded maps, ID atlas and 17 nonempty disjoint UV masks per character"
+}

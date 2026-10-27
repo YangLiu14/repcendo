@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+._*
+
+# Swift and Xcode build output / local workspace state
+.build/
+.swiftpm/
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcresult/
+*.xcarchive/
+*.ipa
+*.dSYM/
+
+# Local environments, dependencies and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+.venv/
+venv/
+node_modules/
+.tripo/
+tripo-out/
+*.p12
+*.pfx
+*.pem
+*.mobileprovision
+
+# Python caches and generated logs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# Blender backups and reproducible inspection intermediates.
+# Keep final .blend / .glb assets, textures, previews and inspection reports.
+*.blend[0-9]*
+docs/character-assets/**/motion-frames/
+docs/character-assets/**/inspection/character.blend
+docs/character-assets/**/source-inspection/character.blend

@@ -1,0 +1,67 @@
+{
+  "source": "/Users/kloping/projects/repcendo/docs/character-assets/greek-athletes-v1/male/source/model.glb",
+  "meshCount": 1,
+  "vertices": 27438,
+  "triangles": 48498,
+  "bounds": {
+    "min": [
+      -0.09833916276693344,
+      -0.27475497126579285,
+      -0.48962917923927307
+    ],
+    "max": [
+      0.09884904325008392,
+      0.27432146668434143,
+      0.48974332213401794
+    ]
+  },
+  "meshes": [
+    {
+      "name": "tripo_node_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+      "vertices": 27438,
+      "triangles": 48498,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "materials": [
+        "tripo_material_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd"
+      ],
+      "armatures": [],
+      "unweightedVertices": null,
+      "boneWeightRange": null
+    }
+  ],
+  "materials": [
+    {
+      "name": "tripo_material_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+      "textureImages": [
+        {
+          "name": "Color_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+          "size": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "ORM_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+          "size": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "NormalGL_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+          "size": [
+            4096,
+            4096
+          ]
+        }
+      ],
+      "hasNormalMapNode": true
+    }
+  ],
+  "armatures": [],
+  "actions": [],
+  "visualReviewRequired": true,
+  "performanceCompatibility": "not established by this inspection"
+}

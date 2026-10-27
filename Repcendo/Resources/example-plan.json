@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "id": "demo-cycle",
+  "revision": 1,
+  "name": "渐强 · 示例周期",
+  "goal": "体验导入、记录和导出的完整流程",
+  "notes": "示例仅演示数据格式和周间变化，不是为你制定的训练方案。重量留空，请用自己的计划替换。",
+  "weeks": [
+    {
+      "week": 1,
+      "focus": "熟悉记录流程",
+      "workouts": [
+        {
+          "id": "a",
+          "name": "训练 A",
+          "notes": "这是格式演示，请按自己的正式计划训练。",
+          "exercises": [
+            {
+              "id": "a-1",
+              "exerciseID": "0025",
+              "displayName": "杠铃卧推",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            },
+            {
+              "id": "a-2",
+              "exerciseID": "0861",
+              "displayName": "坐姿绳索划船",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "name": "训练 B",
+          "notes": "这是格式演示，请按自己的正式计划训练。",
+          "exercises": [
+            {
+              "id": "b-1",
+              "exerciseID": "0043",
+              "displayName": "杠铃深蹲",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            },
+            {
+              "id": "b-2",
+              "exerciseID": "0085",
+              "displayName": "杠铃罗马尼亚硬拉",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus": "体验次数目标的变化",
+      "workouts": [
+        {
+          "id": "a",
+          "name": "训练 A",
+          "notes": "这是格式演示，请按自己的正式计划训练。",
+          "exercises": [
+            {
+              "id": "a-1",
+              "exerciseID": "0025",
+              "displayName": "杠铃卧推",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            },
+            {
+              "id": "a-2",
+              "exerciseID": "0861",
+              "displayName": "坐姿绳索划船",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "name": "训练 B",
+          "notes": "这是格式演示，请按自己的正式计划训练。",
+          "exercises": [
+            {
+              "id": "b-1",
+              "exerciseID": "0043",
+              "displayName": "杠铃深蹲",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            },
+            {
+              "id": "b-2",
+              "exerciseID": "0085",
+              "displayName": "杠铃罗马尼亚硬拉",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 9,
+                  "repsMax": 11,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus": "体验下一阶段目标",
+      "workouts": [
+        {
+          "id": "a",
+          "name": "训练 A",
+          "notes": "这是格式演示，请按自己的正式计划训练。",
+          "exercises": [
+            {
+              "id": "a-1",
+              "exerciseID": "0025",
+              "displayName": "杠铃卧推",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            },
+            {
+              "id": "a-2",
+              "exerciseID": "0861",
+              "displayName": "坐姿绳索划船",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "name": "训练 B",
+          "notes": "这是格式演示，请按自己的正式计划训练。",
+          "exercises": [
+            {
+              "id": "b-1",
+              "exerciseID": "0043",
+              "displayName": "杠铃深蹲",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            },
+            {
+              "id": "b-2",
+              "exerciseID": "0085",
+              "displayName": "杠铃罗马尼亚硬拉",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus": "体验减量周的安排",
+      "workouts": [
+        {
+          "id": "a",
+          "name": "训练 A",
+          "notes": "这是格式演示，请按自己的正式计划训练。",
+          "exercises": [
+            {
+              "id": "a-1",
+              "exerciseID": "0025",
+              "displayName": "杠铃卧推",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            },
+            {
+              "id": "a-2",
+              "exerciseID": "0861",
+              "displayName": "坐姿绳索划船",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "name": "训练 B",
+          "notes": "这是格式演示，请按自己的正式计划训练。",
+          "exercises": [
+            {
+              "id": "b-1",
+              "exerciseID": "0043",
+              "displayName": "杠铃深蹲",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            },
+            {
+              "id": "b-2",
+              "exerciseID": "0085",
+              "displayName": "杠铃罗马尼亚硬拉",
+              "notes": null,
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

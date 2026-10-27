@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Repcendo · 希腊雕塑人物</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f0e9;color:#292820;font:16px/1.65 system-ui,-apple-system,sans-serif}main{max-width:1160px;margin:auto;padding:48px 28px}h1{font-family:Georgia,serif;font-weight:500;font-size:38px;line-height:1.2;margin:12px 0}p{max-width:800px;color:#626052}.eyebrow{font-size:12px;letter-spacing:.2em;color:#817654}.grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:30px}article{background:#fffdf8;border:1px solid #ded9ca;border-radius:12px;overflow:hidden}.body{padding:22px}h2{margin:0;font-weight:500}video{display:block;width:100%;max-height:590px;background:#898b8b}a{color:#786029;text-underline-offset:4px}nav{display:flex;flex-wrap:wrap;gap:18px;margin:14px 0}.stats{font-size:14px;color:#737064}.details{display:grid;grid-template-columns:1fr 1fr;gap:8px}.details img{display:block;width:100%;border-radius:5px}summary{cursor:pointer;padding:10px 0;color:#786029}footer{margin:30px 0;font-size:14px;color:#737064}@media(max-width:700px){.grid{grid-template-columns:1fr}main{padding:28px 16px}h1{font-size:30px}}
+</style>
+<main>
+<div class="eyebrow">REPCENDO / CHARACTER ASSETS / 01</div>
+<h1>希腊雕塑，开始运动。</h1>
+<nav><a href="../muscle-overlay-v1/">打开可切换肌群的 3D 预览 →</a></nav>
+<p>两份选定形象已生成真实 3D 网格并绑定人体骨架。下面是 Blender 实际渲染的关节检查：抬臂、屈肘、屈髋、屈膝。</p>
+<p class="stats">检查片段用于查看蒙皮效果，并非健身教学。点击播放查看。</p>
+<div class="grid">
+<article>
+<video controls loop muted playsinline preload="metadata" poster="male/preview-front.png" src="male/rig-check.mp4" aria-label="男性骨架变形检查"></video>
+<div class="body"><h2>男性 · Greek athlete</h2><div class="stats">48,498 三角面 · 23 骨架节点 · 全顶点蒙皮</div>
+<nav><a href="male/greek-male.blend">Blender 源文件</a><a href="male/greek-male-rigged.glb">带骨架 GLB</a><a href="male/greek-male-source.glb">原始 GLB</a></nav>
+<details><summary>查看骨架位置与背面</summary><div class="details"><img src="male/preview-skeleton.png" alt="男性实际骨架正面投影"><img src="male/inspection/view-neg-x.png" alt="男性模型背面"></div></details>
+<a href="../../character-concepts/greek-sculptures/greek-male.png">已保存的设计三视图 ↗</a></div>
+</article>
+<article>
+<video controls loop muted playsinline preload="metadata" poster="female/preview-front.png" src="female/rig-check.mp4" aria-label="女性骨架变形检查"></video>
+<div class="body"><h2>女性 · Greek athlete</h2><div class="stats">49,278 三角面 · 23 骨架节点 · 全顶点蒙皮</div>
+<nav><a href="female/greek-female.blend">Blender 源文件</a><a href="female/greek-female-rigged.glb">带骨架 GLB</a><a href="female/greek-female-source.glb">无骨架 GLB</a></nav>
+<div class="stats">已抹平胸部衣料下的局部凸起，骨架和蒙皮保留。</div>
+<details><summary>查看骨架位置与背面</summary><div class="details"><img src="female/preview-skeleton.png" alt="女性实际骨架正面投影"><img src="female/inspection/view-neg-x.png" alt="女性模型背面"></div></details>
+<a href="../../character-concepts/greek-sculptures/greek-female.png">已保存的设计三视图 ↗</a></div>
+</article></div>
+<footer>目前不含独立手指、IK 控制器与肌群高亮。女性背部发髻被生成模型简化，原始设计保留以供精修。<br><a href="README.md">完整使用说明与验证范围</a> · <a href="manifest.json">资产清单</a> · 生成与绑定共使用 170 credits。</footer>
+</main></html>

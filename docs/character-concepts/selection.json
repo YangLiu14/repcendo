@@ -1,0 +1,21 @@
+{
+  "previous_round_retained": {
+    "file": "c-sculpted-human.png",
+    "description": "用户确认保留白色雕塑那张；仅为保留备选，不作为新设计的基准。"
+  },
+  "round_2_direction": "全新、更具个性的独立角色设计，不以白模作为基准。",
+  "round_2_selected": null,
+  "generation_mode": "built-in image_gen",
+  "round_2_prompts": "round-2/prompts.json",
+  "current_direction": "白色大理石、希腊雕塑风格，制作男性与女性配套形象。",
+  "current_candidates": [
+    "greek-sculptures/greek-male.png",
+    "greek-sculptures/greek-female.png"
+  ],
+  "current_prompts": "greek-sculptures/prompts.json",
+  "current_selected": [
+    "greek-sculptures/greek-male.png",
+    "greek-sculptures/greek-female.png"
+  ],
+  "selected_on": "2026-10-27"
+}

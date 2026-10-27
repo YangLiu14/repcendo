@@ -1,0 +1,170 @@
+{
+  "sex": "female",
+  "source": "docs/character-assets/greek-athletes-v1/female/greek-female-rigged.glb",
+  "vertices": 27816,
+  "triangles": 49278,
+  "rigNodes": 23,
+  "unweightedVertices": 0,
+  "groups": [
+    {
+      "id": 0,
+      "key": "marble",
+      "name": "白色雕塑",
+      "faces": 31419
+    },
+    {
+      "id": 1,
+      "key": "pectoralis_major",
+      "name": "胸大肌",
+      "faces": 1711
+    },
+    {
+      "id": 2,
+      "key": "deltoid_anterior",
+      "name": "三角肌前束",
+      "faces": 1159
+    },
+    {
+      "id": 3,
+      "key": "deltoid_lateral",
+      "name": "三角肌中束",
+      "faces": 238
+    },
+    {
+      "id": 4,
+      "key": "deltoid_posterior",
+      "name": "三角肌后束",
+      "faces": 516
+    },
+    {
+      "id": 5,
+      "key": "biceps_brachii",
+      "name": "肱二头肌",
+      "faces": 923
+    },
+    {
+      "id": 6,
+      "key": "triceps_brachii",
+      "name": "肱三头肌",
+      "faces": 563
+    },
+    {
+      "id": 7,
+      "key": "forearm_flexors",
+      "name": "前臂屈肌群",
+      "faces": 670
+    },
+    {
+      "id": 8,
+      "key": "forearm_extensors",
+      "name": "前臂伸肌群",
+      "faces": 696
+    },
+    {
+      "id": 9,
+      "key": "rectus_abdominis",
+      "name": "腹直肌",
+      "faces": 447
+    },
+    {
+      "id": 10,
+      "key": "external_oblique",
+      "name": "腹外斜肌",
+      "faces": 1165
+    },
+    {
+      "id": 11,
+      "key": "trapezius",
+      "name": "斜方肌",
+      "faces": 792
+    },
+    {
+      "id": 12,
+      "key": "latissimus_dorsi",
+      "name": "背阔肌",
+      "faces": 1728
+    },
+    {
+      "id": 13,
+      "key": "gluteus_maximus",
+      "name": "臀大肌",
+      "faces": 2139
+    },
+    {
+      "id": 14,
+      "key": "quadriceps",
+      "name": "股四头肌群",
+      "faces": 1301
+    },
+    {
+      "id": 15,
+      "key": "hamstrings",
+      "name": "腘绳肌群",
+      "faces": 2383
+    },
+    {
+      "id": 16,
+      "key": "gastrocnemius",
+      "name": "腓肠肌",
+      "faces": 1011
+    },
+    {
+      "id": 17,
+      "key": "tibialis_anterior",
+      "name": "胫骨前肌",
+      "faces": 417
+    }
+  ],
+  "textureSize": 2048,
+  "presets": {
+    "all": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "chest": [
+      1
+    ],
+    "back": [
+      11,
+      12
+    ],
+    "legs": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "press": [
+      1,
+      2,
+      6
+    ],
+    "row": [
+      4,
+      5,
+      11,
+      12
+    ],
+    "squat": [
+      13,
+      14
+    ],
+    "marble": []
+  },
+  "representation": "approximate surface-region illustration; not volumetric anatomical muscles"
+}

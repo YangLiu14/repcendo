@@ -1,0 +1,83 @@
+{
+  "squat": {
+    "media": {
+      "mp4": {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 960,
+        "nb_frames": "120",
+        "duration": "5.000000",
+        "r_frame_rate": "24/1"
+      },
+      "gif": {
+        "codec_name": "gif",
+        "width": 960,
+        "height": 720,
+        "nb_frames": "80",
+        "duration": "5.000000",
+        "r_frame_rate": "16/1"
+      }
+    },
+    "clipped_frames": [],
+    "motion": {
+      "frames_checked": 121,
+      "limb_length_errors": [],
+      "loop_position_error_m": 0.0,
+      "review": "Numerical checks only; professional movement review pending"
+    }
+  },
+  "bench": {
+    "media": {
+      "mp4": {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 960,
+        "nb_frames": "120",
+        "duration": "5.000000",
+        "r_frame_rate": "24/1"
+      },
+      "gif": {
+        "codec_name": "gif",
+        "width": 960,
+        "height": 720,
+        "nb_frames": "80",
+        "duration": "5.000000",
+        "r_frame_rate": "16/1"
+      }
+    },
+    "clipped_frames": [],
+    "motion": {
+      "frames_checked": 121,
+      "limb_length_errors": [],
+      "loop_position_error_m": 0.0,
+      "review": "Numerical checks only; professional movement review pending"
+    }
+  },
+  "row": {
+    "media": {
+      "mp4": {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 960,
+        "nb_frames": "120",
+        "duration": "5.000000",
+        "r_frame_rate": "24/1"
+      },
+      "gif": {
+        "codec_name": "gif",
+        "width": 960,
+        "height": 720,
+        "nb_frames": "80",
+        "duration": "5.000000",
+        "r_frame_rate": "16/1"
+      }
+    },
+    "clipped_frames": [],
+    "motion": {
+      "frames_checked": 121,
+      "limb_length_errors": [],
+      "loop_position_error_m": 0.0,
+      "review": "Numerical checks only; professional movement review pending"
+    }
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "status": "complete",
+  "selected_concepts": [
+    {
+      "path": "docs/character-concepts/greek-sculptures/greek-male.png",
+      "sha256": "b74d1abdca89ce01ad50513de94a4ab960255300ddf21f4f4f31b7816f496a7a"
+    },
+    {
+      "path": "docs/character-concepts/greek-sculptures/greek-female.png",
+      "sha256": "ef557883851a932377b2595f115b8b0f4596c02e79e242c43f0de3ac7afcea7e"
+    }
+  ],
+  "pipeline_reference": "Whimphony character-ensemble-3d-v0.1",
+  "cli": "tripo-cli@0.5.2",
+  "balance_before": 615,
+  "generation": {
+    "model": "v3.1-20260211",
+    "texture": true,
+    "pbr": true,
+    "face_limit": 50000,
+    "geometry_quality": "detailed",
+    "texture_quality": "detailed",
+    "model_seed": 20261027,
+    "texture_seed": 20261027
+  },
+  "rig": {
+    "model": "v1.0-20240301",
+    "rig_type": "biped",
+    "spec": "mixamo",
+    "out_format": "glb"
+  },
+  "characters": {
+    "male": {
+      "files": [
+        {
+          "path": "docs/character-assets/greek-athletes-v1/male/greek-male-source.glb",
+          "bytes": 10688288,
+          "sha256": "97ff00186df8d2b8555520e9f444e39d95efd30b033ac767c201c6b432724396"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/male/greek-male-rigged.glb",
+          "bytes": 10953624,
+          "sha256": "d2fc67ea37f05aca791cccb0fa86a4d5d4e0ff99afdab037b0b8a95a44593c12"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/male/greek-male.blend",
+          "bytes": 11985315,
+          "sha256": "baf2544596cc52c25203bf906acb581b7dfc077d6b2d87ff46796a2fbb492bac"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/male/preview-front.png",
+          "bytes": 869769,
+          "sha256": "5a45349b8f22282bdf599b3a78bf19a7dad0df59f5270bbd8a612ccca3cc2719"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/male/preview-skeleton.png",
+          "bytes": 825125,
+          "sha256": "108a7c874f75201bf6ce2d65b8f6e4dad7f4e80e7300a60d8d48df718a805fb6"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/male/rig-check.mp4",
+          "bytes": 79125,
+          "sha256": "21d41a9a87e4f9f5d38769d50b01a855416a42a5caf57a5bb9b0eaad6ce848d6"
+        }
+      ],
+      "tasks": [
+        {
+          "stage": "generation",
+          "id": "3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+          "status": "success",
+          "credits": 60
+        },
+        {
+          "stage": "rig-check",
+          "id": "7bb0aa0d-d72c-4e3c-9229-68eb4dfb9bd9",
+          "status": "success",
+          "credits": 0
+        },
+        {
+          "stage": "rig",
+          "id": "d1d2cda1-4c57-4073-8b6d-a2fa396a82c8",
+          "status": "success",
+          "credits": 25
+        }
+      ],
+      "triangles": 48498,
+      "localRefinement": null,
+      "vertices": 27438,
+      "rigNodes": 23,
+      "skins": 1,
+      "embeddedTextureImages": 3,
+      "textureDetails": [
+        {
+          "name": "tripo_material_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+          "textureImages": [
+            {
+              "name": "Color_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+              "size": [
+                4096,
+                4096
+              ]
+            },
+            {
+              "name": "ORM_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+              "size": [
+                4096,
+                4096
+              ]
+            },
+            {
+              "name": "NormalGL_3a2e09a1-acf8-4258-a4b8-a42aea33d3dd",
+              "size": [
+                4096,
+                4096
+              ]
+            }
+          ],
+          "hasNormalMapNode": true
+        }
+      ],
+      "unweightedVertices": 0,
+      "poseChecks": {
+        "scope": "diagnostic joint flexion only; not an exercise or full range-of-motion certification",
+        "poses": {
+          "upper-body": {
+            "rotationsWorldAxisDegrees": {
+              "mixamorig:LeftArm": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                35
+              ],
+              "mixamorig:RightArm": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                -35
+              ],
+              "mixamorig:LeftForeArm": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                -65
+              ],
+              "mixamorig:RightForeArm": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                -65
+              ]
+            },
+            "finiteDeformedVertices": true,
+            "maximumVertexDistance": 0.5064222746175989,
+            "maximumVertexDisplacement": 0.35662685761509433,
+            "movedVertexCount": 7715
+          },
+          "lower-body": {
+            "rotationsWorldAxisDegrees": {
+              "mixamorig:LeftUpLeg": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                -40
+              ],
+              "mixamorig:LeftLeg": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                70
+              ],
+              "mixamorig:RightUpLeg": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                -15
+              ],
+              "mixamorig:RightLeg": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                30
+              ]
+            },
+            "finiteDeformedVertices": true,
+            "maximumVertexDistance": 0.5122146701334038,
+            "maximumVertexDisplacement": 0.16219902396322816,
+            "movedVertexCount": 12678
+          }
+        },
+        "finiteDeformedVertices": true,
+        "diagnosticAction": "QA_JointFlexion_NOT_Exercise",
+        "actionFrames": [
+          1,
+          97
+        ]
+      },
+      "blenderBounds": {
+        "min": [
+          -0.09859412908554077,
+          -0.27453821897506714,
+          -3.3212927519343793e-07
+        ],
+        "max": [
+          0.0985938161611557,
+          0.2745383679866791,
+          0.9793720841407776
+        ]
+      },
+      "creditsConsumed": 85
+    },
+    "female": {
+      "files": [
+        {
+          "path": "docs/character-assets/greek-athletes-v1/female/greek-female-source.glb",
+          "bytes": 9793584,
+          "sha256": "ace0213cb7caf3b8423451ce62fb8ced3e1fab3aa6040b76a240f2942fe841c1"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/female/greek-female-rigged.glb",
+          "bytes": 10357764,
+          "sha256": "ce84010ca4c9dcc011cb3ee13d0907d2d90d3853ce4a946d9aa2775cb3454900"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/female/greek-female.blend",
+          "bytes": 11432455,
+          "sha256": "4335e350fc42e4e1aab6d868957545d41a1531896c26570241c0ac05fa0f06b6"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/female/preview-front.png",
+          "bytes": 857175,
+          "sha256": "ea56cd17dc747b952f2ec354a76f3f6afc89dcf9d420640cae12d60517ff0880"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/female/preview-skeleton.png",
+          "bytes": 820664,
+          "sha256": "3029444c379804078cc8150adf216defc760a5147e2485604be8cfa53242f598"
+        },
+        {
+          "path": "docs/character-assets/greek-athletes-v1/female/rig-check.mp4",
+          "bytes": 75204,
+          "sha256": "8fee010fda18862a3acb7229493caeace505aaa4e1272676227786119d9de23c"
+        }
+      ],
+      "tasks": [
+        {
+          "stage": "generation",
+          "id": "5c5c5c2e-1d32-4c17-9236-12000c121520",
+          "status": "success",
+          "credits": 60
+        },
+        {
+          "stage": "rig-check",
+          "id": "cc93ecd5-2c82-47da-bb72-7ba001ee715b",
+          "status": "success",
+          "credits": 0
+        },
+        {
+          "stage": "rig",
+          "id": "53168342-50a8-4ecf-8639-ef55714c12b3",
+          "status": "success",
+          "credits": 25
+        }
+      ],
+      "triangles": 49278,
+      "localRefinement": {
+        "source": [
+          {
+            "mesh": "tripo_node_5c5c5c2e-1d32-4c17-9236-12000c121520",
+            "verticesBefore": 27816,
+            "changedVertices": 1284,
+            "maxWorldDisplacement": 0.00886057587150043,
+            "region": "two localized front breast-band patches",
+            "topologyUVAndSkinGroupsPreserved": true
+          }
+        ],
+        "rig": [
+          {
+            "mesh": "tripo_node_5c5c5c2e-1d32-4c17-9236-12000c121520",
+            "verticesBefore": 27816,
+            "changedVertices": 1284,
+            "maxWorldDisplacement": 0.008860576714995546,
+            "region": "two localized front breast-band patches",
+            "topologyUVAndSkinGroupsPreserved": true
+          }
+        ]
+      },
+      "vertices": 27816,
+      "rigNodes": 23,
+      "skins": 1,
+      "embeddedTextureImages": 3,
+      "textureDetails": [
+        {
+          "name": "tripo_material_5c5c5c2e-1d32-4c17-9236-12000c121520",
+          "textureImages": [
+            {
+              "name": "Color_5c5c5c2e-1d32-4c17-9236-12000c121520",
+              "size": [
+                4096,
+                4096
+              ]
+            },
+            {
+              "name": "ORM_5c5c5c2e-1d32-4c17-9236-12000c121520",
+              "size": [
+                4096,
+                4096
+              ]
+            },
+            {
+              "name": "NormalGL_5c5c5c2e-1d32-4c17-9236-12000c121520",
+              "size": [
+                4096,
+                4096
+              ]
+            }
+          ],
+          "hasNormalMapNode": true
+        }
+      ],
+      "unweightedVertices": 0,
+      "poseChecks": {
+        "scope": "diagnostic joint flexion only; not an exercise or full range-of-motion certification",
+        "poses": {
+          "upper-body": {
+            "rotationsWorldAxisDegrees": {
+              "mixamorig:LeftArm": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                35
+              ],
+              "mixamorig:RightArm": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                -35
+              ],
+              "mixamorig:LeftForeArm": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                -65
+              ],
+              "mixamorig:RightForeArm": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                -65
+              ]
+            },
+            "finiteDeformedVertices": true,
+            "maximumVertexDistance": 0.5047723166858086,
+            "maximumVertexDisplacement": 0.3374388243058741,
+            "movedVertexCount": 8204
+          },
+          "lower-body": {
+            "rotationsWorldAxisDegrees": {
+              "mixamorig:LeftUpLeg": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                -40
+              ],
+              "mixamorig:LeftLeg": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                70
+              ],
+              "mixamorig:RightUpLeg": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                -15
+              ],
+              "mixamorig:RightLeg": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                30
+              ]
+            },
+            "finiteDeformedVertices": true,
+            "maximumVertexDistance": 0.5161357489489136,
+            "maximumVertexDisplacement": 0.16850398418285467,
+            "movedVertexCount": 13663
+          }
+        },
+        "finiteDeformedVertices": true,
+        "diagnosticAction": "QA_JointFlexion_NOT_Exercise",
+        "actionFrames": [
+          1,
+          97
+        ]
+      },
+      "blenderBounds": {
+        "min": [
+          -0.09842056035995483,
+          -0.24164429306983948,
+          2.116867108270526e-07
+        ],
+        "max": [
+          0.09842094779014587,
+          0.24164405465126038,
+          0.9796479940414429
+        ]
+      },
+      "creditsConsumed": 85
+    }
+  },
+  "creditsConsumed": 170,
+  "validation": "Blender 5.2.1 import, weights, finite deformation, four-view and flexion visual review",
+  "limitations": [
+    "23-node body rig; individual finger bones and facial expressions are not included.",
+    "Automatic triangulated topology and skin weights may need correction at extreme poses.",
+    "Single-front reconstruction approximates back details; female rear bun is simplified.",
+    "Diagnostic motion is not an exercise. No IK controls, equipment contact, muscle masks or finished exercise clips yet.",
+    "Master assets retain 4K textures and provider-normalized scale; iOS runtime optimization is untested."
+  ],
+  "balance_after": 445
+}
