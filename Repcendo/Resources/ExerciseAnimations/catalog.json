@@ -1,0 +1,53 @@
+{
+  "0043": {
+    "title": "杠铃深蹲",
+    "variants": {
+      "male": {
+        "video": "0043-male.mp4",
+        "videoSHA256": "b73937fb11f30468917fd49b5318577e45327a426f14682c3bf59db29bb7bc13",
+        "poster": "0043-male-poster.png",
+        "posterSHA256": "8d1c254f24fdae67427c607ecad0a7a33631b0caa5d6726b8636aa830a2c6dc0"
+      },
+      "female": {
+        "video": "0043-female.mp4",
+        "videoSHA256": "06bb1b40d8441489de6aa571214dd526093226a29853f38db18c5e327bec482b",
+        "poster": "0043-female-poster.png",
+        "posterSHA256": "fb68b561516ed3ef85d73dc0213df6b2176c835c991143d70878b04da3789197"
+      }
+    }
+  },
+  "0025": {
+    "title": "杠铃卧推",
+    "variants": {
+      "male": {
+        "video": "0025-male.mp4",
+        "videoSHA256": "f3d0069bf7ba65cc1e521824c4f403933c54df9804b98369b3bb65b11e4f400c",
+        "poster": "0025-male-poster.png",
+        "posterSHA256": "baeb9755039162645d6f5d1eea5714ccfcd7f0253d6763916e877aac0685d6cb"
+      },
+      "female": {
+        "video": "0025-female.mp4",
+        "videoSHA256": "b6f38905754df05d393e21e4654acdebfa87f4b95601b9c7516c098682d80d2a",
+        "poster": "0025-female-poster.png",
+        "posterSHA256": "1a7d04528b773853f5e888a203384be3dfa2f28a73c6753f028577bf166ad54c"
+      }
+    }
+  },
+  "0861": {
+    "title": "坐姿绳索划船",
+    "variants": {
+      "male": {
+        "video": "0861-male.mp4",
+        "videoSHA256": "8809084bda265546722f067fd974d0eff5cfc1c0bc92a811e92f15f01166100f",
+        "poster": "0861-male-poster.png",
+        "posterSHA256": "54a8df1409f6b252979acbeae0be9fecefe64e060f1fb782b66955a2bfdec874"
+      },
+      "female": {
+        "video": "0861-female.mp4",
+        "videoSHA256": "4e8f7893af4d0ac7c53db6d640e5faa9e0b1ff2bb2550cda96121b19abbb7b8d",
+        "poster": "0861-female-poster.png",
+        "posterSHA256": "42248b6a7ac250259d010d8e210f0bde4606dd2962e028b59b87f67823d4bf1c"
+      }
+    }
+  }
+}

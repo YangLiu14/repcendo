@@ -31,7 +31,11 @@ struct WorkoutView: View {
                     ForEach(draft.exercises) { exercise in
                         Section {
                             if let detail = store.catalogByID[exercise.exerciseID] {
-                                NavigationLink(value: detail) { Label("动作说明", systemImage: "info.circle").font(.subheadline) }
+                                NavigationLink(value: detail) {
+                                    Label(ExerciseAnimation.catalog[detail.id] == nil ? "动作说明" : "动作示范与说明",
+                                          systemImage: ExerciseAnimation.catalog[detail.id] == nil ? "info.circle" : "play.rectangle")
+                                        .font(.subheadline)
+                                }.accessibilityIdentifier("workout-demo-\(detail.id)")
                             }
                             if let original = draft.plannedWorkout.exercises.first(where: { $0.id == exercise.sourceSlotID }),
                                original.exerciseID != exercise.exerciseID {

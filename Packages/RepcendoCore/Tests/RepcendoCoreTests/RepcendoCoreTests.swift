@@ -26,6 +26,23 @@ final class RepcendoCoreTests: XCTestCase {
         XCTAssertTrue(items.allSatisfy { !$0.instructions.isEmpty })
     }
 
+    func testCatalogClassificationCoversEveryExerciseAndSeparatesGlutesFromThighs() throws {
+        let items = try catalog()
+        let grouped = Dictionary(grouping: items, by: \.category)
+        XCTAssertNil(grouped[.other], "New upstream body parts need an explicit browsing category.")
+        XCTAssertEqual(grouped.values.flatMap { $0 }.count, items.count)
+        XCTAssertTrue(items.allSatisfy { Exercise.targetNames[$0.target] != nil })
+        XCTAssertEqual(grouped[.glutes]?.count, 144)
+        XCTAssertEqual(grouped[.thighs]?.count, 83)
+        XCTAssertEqual(items.first { $0.id == "0025" }?.category, .chest)
+        XCTAssertEqual(items.first { $0.id == "0861" }?.category, .back)
+        XCTAssertEqual(items.first { $0.id == "0043" }?.category, .glutes)
+        var future = try XCTUnwrap(items.first)
+        future.bodyPart = "unknown"; future.target = "unknown"
+        XCTAssertEqual(future.category, .other)
+        XCTAssertEqual(future.targetDisplayName, "unknown")
+    }
+
     func testExampleHasDifferentWeeklyTargetsAndDeload() throws {
         let plan = try plan()
         XCTAssertEqual(plan.weeks.count, 4)
