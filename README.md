@@ -83,3 +83,17 @@ Exercise data is in `third_party/exercises-dataset/data/exercises.json`. See the
 python3 Scripts/prepare_resources.py
 python3 Scripts/generate_project.py
 ```
+
+## 原创动作动画
+
+已制作希腊雕塑风格的深蹲、卧推、坐姿划船，男女各一版，包含五指骨架、肌群材质和可编辑场景。目前为独立资产，尚未接入 App。
+
+- [制作流水线与新增动作步骤](docs/animation-pipeline.md)
+- [六段动作样片与验证说明](docs/animation-samples-v2/README.md)
+- [可复用男女骨架资产](docs/character-assets/hand-rig-v1/README.md)
+
+使用安装了 Pillow 的 Python 和 PATH 中的 Blender / ffmpeg / ffprobe：
+
+```sh
+python3 Scripts/animation_samples/pipeline.py --mode full
+```

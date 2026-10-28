@@ -1,0 +1,46 @@
+{
+  "shoulder_revision": 1,
+  "version": 1,
+  "source": "../muscle-overlay-v1/",
+  "source_untouched": true,
+  "characters": {
+    "male": {
+      "body_bones": 23,
+      "new_finger_bones": 30,
+      "total_bones": 53,
+      "vertices": 24246,
+      "triangles": 48498,
+      "action": "Hands_Open_Close",
+      "open_frames": [
+        1,
+        21,
+        121
+      ],
+      "closed_frames": [
+        61,
+        81
+      ],
+      "blend_has_muscle_switches": true,
+      "glb_material": "ivory marble; use muscle-overlay-v1 atlas for runtime muscle display"
+    },
+    "female": {
+      "body_bones": 23,
+      "new_finger_bones": 30,
+      "total_bones": 53,
+      "vertices": 24641,
+      "triangles": 49278,
+      "action": "Hands_Open_Close",
+      "open_frames": [
+        1,
+        21,
+        121
+      ],
+      "closed_frames": [
+        61,
+        81
+      ],
+      "blend_has_muscle_switches": true,
+      "glb_material": "ivory marble; use muscle-overlay-v1 atlas for runtime muscle display"
+    }
+  }
+}

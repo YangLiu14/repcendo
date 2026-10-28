@@ -1,0 +1,2915 @@
+{
+  "status": "passed",
+  "test": "deformed triangle mesh; 3-ray parity for shaft penetration; bilateral upper-back contact; neck skin vs rigid torso",
+  "errors": [],
+  "samples": {
+    "male": [
+      {
+        "frame": 1,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 2,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 3,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 4,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 5,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 6,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 7,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 8,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 9,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.7726726833498965e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699690010398626,
+          "right": 0.002226336393505335
+        }
+      },
+      {
+        "frame": 10,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.5886748369909214e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700106777250767,
+          "right": 0.0022263103164732456
+        }
+      },
+      {
+        "frame": 11,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.414264045062609e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699366375803947,
+          "right": 0.0022263021674007177
+        }
+      },
+      {
+        "frame": 12,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.5506679368948475e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869924297556281,
+          "right": 0.0022262309212237597
+        }
+      },
+      {
+        "frame": 13,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.7058681593674086e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869989722967148,
+          "right": 0.002226404380053282
+        }
+      },
+      {
+        "frame": 14,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.589448174967141e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869977382943034,
+          "right": 0.0022261354606598616
+        }
+      },
+      {
+        "frame": 15,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.672010162577512e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698460664600134,
+          "right": 0.002226082608103752
+        }
+      },
+      {
+        "frame": 16,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.656102462525754e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698218520730734,
+          "right": 0.0022261301055550575
+        }
+      },
+      {
+        "frame": 17,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.77825663829564e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869891934096813,
+          "right": 0.0022261764388531446
+        }
+      },
+      {
+        "frame": 18,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.6532545127290493e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869947114959359,
+          "right": 0.00222640298306942
+        }
+      },
+      {
+        "frame": 19,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.5811260398373775e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699177782982588,
+          "right": 0.0022261773701757193
+        }
+      },
+      {
+        "frame": 20,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.394929999179457e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700504917651415,
+          "right": 0.0022263515274971724
+        }
+      },
+      {
+        "frame": 21,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.789859998358914e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699743561446667,
+          "right": 0.002226065844297409
+        }
+      },
+      {
+        "frame": 22,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 7.17773637421509e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700134716928005,
+          "right": 0.0022262735292315483
+        }
+      },
+      {
+        "frame": 23,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.589448174967141e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869867719709873,
+          "right": 0.0022261992562562227
+        }
+      },
+      {
+        "frame": 24,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.65306457046606e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698756359517574,
+          "right": 0.002226168056949973
+        }
+      },
+      {
+        "frame": 25,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.595677136014181e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869965974241495,
+          "right": 0.0022261980921030045
+        }
+      },
+      {
+        "frame": 26,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.789859998358914e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699839022010565,
+          "right": 0.0022261396516114473
+        }
+      },
+      {
+        "frame": 27,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028702563140541315,
+          "right": 0.002226379234343767
+        }
+      },
+      {
+        "frame": 28,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.6043025909175706e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870055614039302,
+          "right": 0.0022263138089329004
+        }
+      },
+      {
+        "frame": 29,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.998574662724586e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698183596134186,
+          "right": 0.0022262658458203077
+        }
+      },
+      {
+        "frame": 30,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.50038865127412e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699859976768494,
+          "right": 0.0022262081038206816
+        }
+      },
+      {
+        "frame": 31,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.607189189466895e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869861200451851,
+          "right": 0.0022261582780629396
+        }
+      },
+      {
+        "frame": 32,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.777820964108429e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028697303496301174,
+          "right": 0.0022261955309659243
+        }
+      },
+      {
+        "frame": 33,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699031099677086,
+          "right": 0.0022262909915298223
+        }
+      },
+      {
+        "frame": 34,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.8556239451075793e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870009746402502,
+          "right": 0.0022263822611421347
+        }
+      },
+      {
+        "frame": 35,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 5.964188604411334e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699603863060474,
+          "right": 0.002226215088739991
+        }
+      },
+      {
+        "frame": 36,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.68709654559452e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870108699426055,
+          "right": 0.00222618505358696
+        }
+      },
+      {
+        "frame": 37,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.625800379273883e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028697706293314695,
+          "right": 0.0022260998375713825
+        }
+      },
+      {
+        "frame": 38,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.5345666249355753e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698176611214876,
+          "right": 0.0022262055426836014
+        }
+      },
+      {
+        "frame": 39,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.851502351514272e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870165277272463,
+          "right": 0.002226408803835511
+        }
+      },
+      {
+        "frame": 40,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 5.985093640832253e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028702232521027327,
+          "right": 0.00222631823271513
+        }
+      },
+      {
+        "frame": 41,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.893282151065409e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699578251689672,
+          "right": 0.0022262469865381718
+        }
+      },
+      {
+        "frame": 42,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.950388890968503e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698835521936417,
+          "right": 0.0022264039143919945
+        }
+      },
+      {
+        "frame": 43,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.699743350147223e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699878603219986,
+          "right": 0.002226149430498481
+        }
+      },
+      {
+        "frame": 44,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.048598775649781e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869877964258194,
+          "right": 0.0022263354621827602
+        }
+      },
+      {
+        "frame": 45,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.980232238769531e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698332607746124,
+          "right": 0.0022260816767811775
+        }
+      },
+      {
+        "frame": 46,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.789280498024284e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698944952338934,
+          "right": 0.002226342214271426
+        }
+      },
+      {
+        "frame": 47,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.8072758457015166e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.00286996946670115,
+          "right": 0.0022263124119490385
+        }
+      },
+      {
+        "frame": 48,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.580157094220508e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028697983361780643,
+          "right": 0.0022263273131102324
+        }
+      },
+      {
+        "frame": 49,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.510359225993074e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700423426926136,
+          "right": 0.0022262048441916704
+        }
+      },
+      {
+        "frame": 50,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.981163415870451e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699119575321674,
+          "right": 0.0022261457052081823
+        }
+      },
+      {
+        "frame": 51,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.120361505653251e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698118403553963,
+          "right": 0.0022260986734181643
+        }
+      },
+      {
+        "frame": 52,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4980460412005157e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870152937248349,
+          "right": 0.002226355252787471
+        }
+      },
+      {
+        "frame": 53,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4268772415671244e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698607347905636,
+          "right": 0.002226326847448945
+        }
+      },
+      {
+        "frame": 54,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.634178031930877e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699729591608047,
+          "right": 0.0022262532729655504
+        }
+      },
+      {
+        "frame": 55,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.988602387924728e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870058175176382,
+          "right": 0.002226256299763918
+        }
+      },
+      {
+        "frame": 56,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 5.9627923294058e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700516559183598,
+          "right": 0.0022264537401497364
+        }
+      },
+      {
+        "frame": 57,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699205722659826,
+          "right": 0.002226305892691016
+        }
+      },
+      {
+        "frame": 58,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699205722659826,
+          "right": 0.002226305892691016
+        }
+      },
+      {
+        "frame": 59,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699205722659826,
+          "right": 0.002226305892691016
+        }
+      },
+      {
+        "frame": 60,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699205722659826,
+          "right": 0.002226305892691016
+        }
+      },
+      {
+        "frame": 61,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699205722659826,
+          "right": 0.002226305892691016
+        }
+      },
+      {
+        "frame": 62,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699205722659826,
+          "right": 0.002226305892691016
+        }
+      },
+      {
+        "frame": 63,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699205722659826,
+          "right": 0.002226305892691016
+        }
+      },
+      {
+        "frame": 64,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699205722659826,
+          "right": 0.002226305892691016
+        }
+      },
+      {
+        "frame": 65,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699205722659826,
+          "right": 0.002226305892691016
+        }
+      },
+      {
+        "frame": 66,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 5.9627923294058e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700516559183598,
+          "right": 0.0022264537401497364
+        }
+      },
+      {
+        "frame": 67,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.988602387924728e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870058175176382,
+          "right": 0.002226256299763918
+        }
+      },
+      {
+        "frame": 68,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.634178031930877e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699729591608047,
+          "right": 0.0022262532729655504
+        }
+      },
+      {
+        "frame": 69,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4268772415671244e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698607347905636,
+          "right": 0.002226326847448945
+        }
+      },
+      {
+        "frame": 70,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4980460412005157e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870152937248349,
+          "right": 0.002226355252787471
+        }
+      },
+      {
+        "frame": 71,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.120361505653251e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698118403553963,
+          "right": 0.0022260986734181643
+        }
+      },
+      {
+        "frame": 72,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.981163415870451e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699119575321674,
+          "right": 0.0022261457052081823
+        }
+      },
+      {
+        "frame": 73,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.510359225993074e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700423426926136,
+          "right": 0.0022262048441916704
+        }
+      },
+      {
+        "frame": 74,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.580157094220508e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028697983361780643,
+          "right": 0.0022263273131102324
+        }
+      },
+      {
+        "frame": 75,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.8072758457015166e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.00286996946670115,
+          "right": 0.0022263124119490385
+        }
+      },
+      {
+        "frame": 76,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.789280498024284e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698944952338934,
+          "right": 0.002226342214271426
+        }
+      },
+      {
+        "frame": 77,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.980232238769531e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698332607746124,
+          "right": 0.0022260816767811775
+        }
+      },
+      {
+        "frame": 78,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.048598775649781e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869877964258194,
+          "right": 0.0022263354621827602
+        }
+      },
+      {
+        "frame": 79,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.699743350147223e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699878603219986,
+          "right": 0.002226149430498481
+        }
+      },
+      {
+        "frame": 80,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.950388890968503e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698835521936417,
+          "right": 0.0022264039143919945
+        }
+      },
+      {
+        "frame": 81,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.893282151065409e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699578251689672,
+          "right": 0.0022262469865381718
+        }
+      },
+      {
+        "frame": 82,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 5.985093640832253e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028702232521027327,
+          "right": 0.00222631823271513
+        }
+      },
+      {
+        "frame": 83,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.851502351514272e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870165277272463,
+          "right": 0.002226408803835511
+        }
+      },
+      {
+        "frame": 84,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.5345666249355753e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698176611214876,
+          "right": 0.0022262055426836014
+        }
+      },
+      {
+        "frame": 85,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.625800379273883e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028697706293314695,
+          "right": 0.0022260998375713825
+        }
+      },
+      {
+        "frame": 86,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.68709654559452e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870108699426055,
+          "right": 0.00222618505358696
+        }
+      },
+      {
+        "frame": 87,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 5.964188604411334e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699603863060474,
+          "right": 0.002226215088739991
+        }
+      },
+      {
+        "frame": 88,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.8556239451075793e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870009746402502,
+          "right": 0.0022263822611421347
+        }
+      },
+      {
+        "frame": 89,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.4778081697696283e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699031099677086,
+          "right": 0.0022262909915298223
+        }
+      },
+      {
+        "frame": 90,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.777820964108429e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028697303496301174,
+          "right": 0.0022261955309659243
+        }
+      },
+      {
+        "frame": 91,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.607189189466895e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869861200451851,
+          "right": 0.0022261582780629396
+        }
+      },
+      {
+        "frame": 92,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.50038865127412e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699859976768494,
+          "right": 0.0022262081038206816
+        }
+      },
+      {
+        "frame": 93,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.998574662724586e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698183596134186,
+          "right": 0.0022262658458203077
+        }
+      },
+      {
+        "frame": 94,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.6043025909175706e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002870055614039302,
+          "right": 0.0022263138089329004
+        }
+      },
+      {
+        "frame": 95,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028702563140541315,
+          "right": 0.002226379234343767
+        }
+      },
+      {
+        "frame": 96,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.789859998358914e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699839022010565,
+          "right": 0.0022261396516114473
+        }
+      },
+      {
+        "frame": 97,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.595677136014181e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869965974241495,
+          "right": 0.0022261980921030045
+        }
+      },
+      {
+        "frame": 98,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.65306457046606e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698756359517574,
+          "right": 0.002226168056949973
+        }
+      },
+      {
+        "frame": 99,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.589448174967141e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869867719709873,
+          "right": 0.0022261992562562227
+        }
+      },
+      {
+        "frame": 100,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 7.17773637421509e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700134716928005,
+          "right": 0.0022262735292315483
+        }
+      },
+      {
+        "frame": 101,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.789859998358914e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699743561446667,
+          "right": 0.002226065844297409
+        }
+      },
+      {
+        "frame": 102,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.394929999179457e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700504917651415,
+          "right": 0.0022263515274971724
+        }
+      },
+      {
+        "frame": 103,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.5811260398373775e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699177782982588,
+          "right": 0.0022261773701757193
+        }
+      },
+      {
+        "frame": 104,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.6532545127290493e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869947114959359,
+          "right": 0.00222640298306942
+        }
+      },
+      {
+        "frame": 105,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 4.77825663829564e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869891934096813,
+          "right": 0.0022261764388531446
+        }
+      },
+      {
+        "frame": 106,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.656102462525754e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698218520730734,
+          "right": 0.0022261301055550575
+        }
+      },
+      {
+        "frame": 107,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.672010162577512e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028698460664600134,
+          "right": 0.002226082608103752
+        }
+      },
+      {
+        "frame": 108,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.589448174967141e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869977382943034,
+          "right": 0.0022261354606598616
+        }
+      },
+      {
+        "frame": 109,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.7058681593674086e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869989722967148,
+          "right": 0.002226404380053282
+        }
+      },
+      {
+        "frame": 110,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.5506679368948475e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.002869924297556281,
+          "right": 0.0022262309212237597
+        }
+      },
+      {
+        "frame": 111,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.414264045062609e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699366375803947,
+          "right": 0.0022263021674007177
+        }
+      },
+      {
+        "frame": 112,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.5886748369909214e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028700106777250767,
+          "right": 0.0022263103164732456
+        }
+      },
+      {
+        "frame": 113,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 3.7726726833498965e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699690010398626,
+          "right": 0.002226336393505335
+        }
+      },
+      {
+        "frame": 114,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 115,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 116,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 117,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 118,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 119,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 120,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      },
+      {
+        "frame": 121,
+        "neck_vertices_checked": 354,
+        "max_neck_surface_deviation_m": 2.618590261159833e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0028699005488306284,
+          "right": 0.0022262316197156906
+        }
+      }
+    ],
+    "female": [
+      {
+        "frame": 1,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 2,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 3,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 4,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 5,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 6,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 7,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 8,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 9,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.591767189858541e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682459545321763,
+          "right": 0.0008467281586490571
+        }
+      },
+      {
+        "frame": 10,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.622737077107602e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683936855755746,
+          "right": 0.0008468528394587338
+        }
+      },
+      {
+        "frame": 11,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.625608998714816e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683458970859647,
+          "right": 0.0008468588930554688
+        }
+      },
+      {
+        "frame": 12,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.806057638785284e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683769799768925,
+          "right": 0.0008468033047392964
+        }
+      },
+      {
+        "frame": 13,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.796808541661463e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682996219955385,
+          "right": 0.0008468481828458607
+        }
+      },
+      {
+        "frame": 14,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.806057638785284e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683114963583648,
+          "right": 0.000846960349008441
+        }
+      },
+      {
+        "frame": 15,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.614875516506494e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683021831326187,
+          "right": 0.0008469328749924898
+        }
+      },
+      {
+        "frame": 16,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.770844766243866e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682680734433234,
+          "right": 0.0008468452142551541
+        }
+      },
+      {
+        "frame": 17,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.632492346539767e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683947333134711,
+          "right": 0.0008468911400996149
+        }
+      },
+      {
+        "frame": 18,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.589448174967141e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682853029109538,
+          "right": 0.0008469331660307944
+        }
+      },
+      {
+        "frame": 19,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.881125496077299e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684124866500497,
+          "right": 0.0008469067397527397
+        }
+      },
+      {
+        "frame": 20,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.7726726833498965e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683621370233595,
+          "right": 0.0008468941668979824
+        }
+      },
+      {
+        "frame": 21,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.865748246686368e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684385636821389,
+          "right": 0.0008469324675388634
+        }
+      },
+      {
+        "frame": 22,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.805480091749757e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684745360165834,
+          "right": 0.0008469370077364147
+        }
+      },
+      {
+        "frame": 23,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.677486127603364e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.000768435827922076,
+          "right": 0.0008468925370834768
+        }
+      },
+      {
+        "frame": 24,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.791163617839188e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683498552069068,
+          "right": 0.0008469765307381749
+        }
+      },
+      {
+        "frame": 25,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.521184991363033e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683959556743503,
+          "right": 0.0008469246095046401
+        }
+      },
+      {
+        "frame": 26,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.7260352820306977e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683479343540967,
+          "right": 0.0008467881707474589
+        }
+      },
+      {
+        "frame": 27,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.6026425472957743e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683695876039565,
+          "right": 0.0008469300228171051
+        }
+      },
+      {
+        "frame": 28,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.591767189858541e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682807627134025,
+          "right": 0.0008468468440696597
+        }
+      },
+      {
+        "frame": 29,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.789859998358914e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683307048864663,
+          "right": 0.0008469389867968857
+        }
+      },
+      {
+        "frame": 30,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.891491997279859e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683869334869087,
+          "right": 0.0008469171589240432
+        }
+      },
+      {
+        "frame": 31,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.906647153504776e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682987488806248,
+          "right": 0.0008469228632748127
+        }
+      },
+      {
+        "frame": 32,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.6066386229598374e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684433367103338,
+          "right": 0.000846811686642468
+        }
+      },
+      {
+        "frame": 33,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.840584358805652e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683216826990247,
+          "right": 0.0008468365995213389
+        }
+      },
+      {
+        "frame": 34,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.915689588548745e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684563170187175,
+          "right": 0.0008470260072499514
+        }
+      },
+      {
+        "frame": 35,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.669762502188819e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.000768445897847414,
+          "right": 0.0008469198946841061
+        }
+      },
+      {
+        "frame": 36,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.924292704195619e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684188312850893,
+          "right": 0.0008468294399790466
+        }
+      },
+      {
+        "frame": 37,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.708114367165954e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682645227760077,
+          "right": 0.0008467979496344924
+        }
+      },
+      {
+        "frame": 38,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.580157094220508e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.000768484896980226,
+          "right": 0.0008469337481074035
+        }
+      },
+      {
+        "frame": 39,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.625800379273883e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684010779485106,
+          "right": 0.0008467631996609271
+        }
+      },
+      {
+        "frame": 40,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.592733004280756e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684055017307401,
+          "right": 0.0008468789746984839
+        }
+      },
+      {
+        "frame": 41,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.8743019104003906e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682314026169479,
+          "right": 0.0008467951556667686
+        }
+      },
+      {
+        "frame": 42,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.817594039537671e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007685229065828025,
+          "right": 0.0008469237363897264
+        }
+      },
+      {
+        "frame": 43,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.6863907505997123e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684366428293288,
+          "right": 0.0008469672175124288
+        }
+      },
+      {
+        "frame": 44,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.725290298461914e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007681865827180445,
+          "right": 0.0008468132000416517
+        }
+      },
+      {
+        "frame": 45,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.632683364463626e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683982257731259,
+          "right": 0.0008468626765534282
+        }
+      },
+      {
+        "frame": 46,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.707552942796666e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682799478061497,
+          "right": 0.0008468683809041977
+        }
+      },
+      {
+        "frame": 47,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.502330485544602e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683626026846468,
+          "right": 0.0008468551677651703
+        }
+      },
+      {
+        "frame": 48,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.604110068812318e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007685332675464451,
+          "right": 0.000846903829369694
+        }
+      },
+      {
+        "frame": 49,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.8310766614027146e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682231371290982,
+          "right": 0.0008466941071674228
+        }
+      },
+      {
+        "frame": 50,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.9684396939235254e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684441516175866,
+          "right": 0.0008469049353152514
+        }
+      },
+      {
+        "frame": 51,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.847460192326641e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007685390301048756,
+          "right": 0.0008470087195746601
+        }
+      },
+      {
+        "frame": 52,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.577054704474748e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683311705477536,
+          "right": 0.0008468920714221895
+        }
+      },
+      {
+        "frame": 53,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.7319897968674285e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.000768454687204212,
+          "right": 0.0008468579617328942
+        }
+      },
+      {
+        "frame": 54,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.5772486826590226e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684276206418872,
+          "right": 0.0008468370069749653
+        }
+      },
+      {
+        "frame": 55,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.68709654559452e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683625444769859,
+          "right": 0.00084687554044649
+        }
+      },
+      {
+        "frame": 56,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.604110068812318e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683449075557292,
+          "right": 0.0008468976011499763
+        }
+      },
+      {
+        "frame": 57,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684912998229265,
+          "right": 0.0008467820007354021
+        }
+      },
+      {
+        "frame": 58,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684912998229265,
+          "right": 0.0008467820007354021
+        }
+      },
+      {
+        "frame": 59,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684912998229265,
+          "right": 0.0008467820007354021
+        }
+      },
+      {
+        "frame": 60,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684912998229265,
+          "right": 0.0008467820007354021
+        }
+      },
+      {
+        "frame": 61,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684912998229265,
+          "right": 0.0008467820007354021
+        }
+      },
+      {
+        "frame": 62,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684912998229265,
+          "right": 0.0008467820007354021
+        }
+      },
+      {
+        "frame": 63,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684912998229265,
+          "right": 0.0008467820007354021
+        }
+      },
+      {
+        "frame": 64,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684912998229265,
+          "right": 0.0008467820007354021
+        }
+      },
+      {
+        "frame": 65,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.579575600955383e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684912998229265,
+          "right": 0.0008467820007354021
+        }
+      },
+      {
+        "frame": 66,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.604110068812318e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683449075557292,
+          "right": 0.0008468976011499763
+        }
+      },
+      {
+        "frame": 67,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.68709654559452e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683625444769859,
+          "right": 0.00084687554044649
+        }
+      },
+      {
+        "frame": 68,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.5772486826590226e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684276206418872,
+          "right": 0.0008468370069749653
+        }
+      },
+      {
+        "frame": 69,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.7319897968674285e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.000768454687204212,
+          "right": 0.0008468579617328942
+        }
+      },
+      {
+        "frame": 70,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.577054704474748e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683311705477536,
+          "right": 0.0008468920714221895
+        }
+      },
+      {
+        "frame": 71,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.847460192326641e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007685390301048756,
+          "right": 0.0008470087195746601
+        }
+      },
+      {
+        "frame": 72,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.9684396939235254e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684441516175866,
+          "right": 0.0008469049353152514
+        }
+      },
+      {
+        "frame": 73,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.8310766614027146e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682231371290982,
+          "right": 0.0008466941071674228
+        }
+      },
+      {
+        "frame": 74,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.604110068812318e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007685332675464451,
+          "right": 0.000846903829369694
+        }
+      },
+      {
+        "frame": 75,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.502330485544602e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683626026846468,
+          "right": 0.0008468551677651703
+        }
+      },
+      {
+        "frame": 76,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.707552942796666e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682799478061497,
+          "right": 0.0008468683809041977
+        }
+      },
+      {
+        "frame": 77,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.632683364463626e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683982257731259,
+          "right": 0.0008468626765534282
+        }
+      },
+      {
+        "frame": 78,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.725290298461914e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007681865827180445,
+          "right": 0.0008468132000416517
+        }
+      },
+      {
+        "frame": 79,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.6863907505997123e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684366428293288,
+          "right": 0.0008469672175124288
+        }
+      },
+      {
+        "frame": 80,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.817594039537671e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007685229065828025,
+          "right": 0.0008469237363897264
+        }
+      },
+      {
+        "frame": 81,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.8743019104003906e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682314026169479,
+          "right": 0.0008467951556667686
+        }
+      },
+      {
+        "frame": 82,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.592733004280756e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684055017307401,
+          "right": 0.0008468789746984839
+        }
+      },
+      {
+        "frame": 83,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.625800379273883e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684010779485106,
+          "right": 0.0008467631996609271
+        }
+      },
+      {
+        "frame": 84,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.580157094220508e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.000768484896980226,
+          "right": 0.0008469337481074035
+        }
+      },
+      {
+        "frame": 85,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.708114367165954e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682645227760077,
+          "right": 0.0008467979496344924
+        }
+      },
+      {
+        "frame": 86,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.924292704195619e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684188312850893,
+          "right": 0.0008468294399790466
+        }
+      },
+      {
+        "frame": 87,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.669762502188819e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.000768445897847414,
+          "right": 0.0008469198946841061
+        }
+      },
+      {
+        "frame": 88,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.915689588548745e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684563170187175,
+          "right": 0.0008470260072499514
+        }
+      },
+      {
+        "frame": 89,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.840584358805652e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683216826990247,
+          "right": 0.0008468365995213389
+        }
+      },
+      {
+        "frame": 90,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.6066386229598374e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684433367103338,
+          "right": 0.000846811686642468
+        }
+      },
+      {
+        "frame": 91,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.906647153504776e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682987488806248,
+          "right": 0.0008469228632748127
+        }
+      },
+      {
+        "frame": 92,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.891491997279859e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683869334869087,
+          "right": 0.0008469171589240432
+        }
+      },
+      {
+        "frame": 93,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.789859998358914e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683307048864663,
+          "right": 0.0008469389867968857
+        }
+      },
+      {
+        "frame": 94,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.591767189858541e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682807627134025,
+          "right": 0.0008468468440696597
+        }
+      },
+      {
+        "frame": 95,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.6026425472957743e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683695876039565,
+          "right": 0.0008469300228171051
+        }
+      },
+      {
+        "frame": 96,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.7260352820306977e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683479343540967,
+          "right": 0.0008467881707474589
+        }
+      },
+      {
+        "frame": 97,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 2.521184991363033e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683959556743503,
+          "right": 0.0008469246095046401
+        }
+      },
+      {
+        "frame": 98,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.791163617839188e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683498552069068,
+          "right": 0.0008469765307381749
+        }
+      },
+      {
+        "frame": 99,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.677486127603364e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.000768435827922076,
+          "right": 0.0008468925370834768
+        }
+      },
+      {
+        "frame": 100,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.805480091749757e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684745360165834,
+          "right": 0.0008469370077364147
+        }
+      },
+      {
+        "frame": 101,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.865748246686368e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684385636821389,
+          "right": 0.0008469324675388634
+        }
+      },
+      {
+        "frame": 102,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.7726726833498965e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683621370233595,
+          "right": 0.0008468941668979824
+        }
+      },
+      {
+        "frame": 103,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.881125496077299e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684124866500497,
+          "right": 0.0008469067397527397
+        }
+      },
+      {
+        "frame": 104,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.589448174967141e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682853029109538,
+          "right": 0.0008469331660307944
+        }
+      },
+      {
+        "frame": 105,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.632492346539767e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683947333134711,
+          "right": 0.0008468911400996149
+        }
+      },
+      {
+        "frame": 106,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.770844766243866e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682680734433234,
+          "right": 0.0008468452142551541
+        }
+      },
+      {
+        "frame": 107,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.614875516506494e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683021831326187,
+          "right": 0.0008469328749924898
+        }
+      },
+      {
+        "frame": 108,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.806057638785284e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683114963583648,
+          "right": 0.000846960349008441
+        }
+      },
+      {
+        "frame": 109,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.796808541661463e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682996219955385,
+          "right": 0.0008468481828458607
+        }
+      },
+      {
+        "frame": 110,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 4.806057638785284e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683769799768925,
+          "right": 0.0008468033047392964
+        }
+      },
+      {
+        "frame": 111,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.625608998714816e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683458970859647,
+          "right": 0.0008468588930554688
+        }
+      },
+      {
+        "frame": 112,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.622737077107602e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007683936855755746,
+          "right": 0.0008468528394587338
+        }
+      },
+      {
+        "frame": 113,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.591767189858541e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007682459545321763,
+          "right": 0.0008467281586490571
+        }
+      },
+      {
+        "frame": 114,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 115,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 116,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 117,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 118,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 119,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 120,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      },
+      {
+        "frame": 121,
+        "neck_vertices_checked": 388,
+        "max_neck_surface_deviation_m": 3.611034398094605e-07,
+        "shaft_samples": 3625,
+        "shaft_inside_samples": 0,
+        "max_shaft_penetration_m": 0,
+        "upper_back_contact_gap_m": {
+          "left": 0.0007684296579100192,
+          "right": 0.0008469176827929914
+        }
+      }
+    ]
+  }
+}

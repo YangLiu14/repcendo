@@ -1,0 +1,307 @@
+{
+  "shoulder_revision": 1,
+  "hand_rig_revision": 1,
+  "finger_bones_per_character": 30,
+  "app_integration": false,
+  "new_tripo_credits": 0,
+  "version": 2,
+  "fps": 24,
+  "frames": 120,
+  "duration_seconds": 5,
+  "size": [
+    1280,
+    960
+  ],
+  "characters": [
+    "male",
+    "female"
+  ],
+  "source_characters": "../character-assets/muscle-overlay-v1/",
+  "samples": {
+    "squat": {
+      "number": "01",
+      "title": "杠铃深蹲",
+      "en": "BARBELL BACK SQUAT",
+      "id": "0043",
+      "muscles": [
+        [
+          "股四头肌",
+          "大腿前侧"
+        ],
+        [
+          "臀大肌",
+          "臀部后侧"
+        ]
+      ],
+      "phases": [
+        "准备",
+        "下蹲",
+        "底部",
+        "站起"
+      ]
+    },
+    "bench": {
+      "number": "02",
+      "title": "杠铃卧推",
+      "en": "BARBELL BENCH PRESS",
+      "id": "0025",
+      "muscles": [
+        [
+          "胸大肌",
+          "胸部前侧"
+        ]
+      ],
+      "phases": [
+        "准备",
+        "下放",
+        "底部",
+        "推起"
+      ]
+    },
+    "row": {
+      "number": "03",
+      "title": "坐姿绳索划船",
+      "en": "SEATED CABLE ROW",
+      "id": "0861",
+      "muscles": [
+        [
+          "背阔肌",
+          "背部两侧"
+        ],
+        [
+          "斜方肌区域",
+          "肩胛间表面位置"
+        ]
+      ],
+      "phases": [
+        "准备",
+        "拉回",
+        "收缩位",
+        "回放"
+      ]
+    }
+  },
+  "review_status": "Visual motion prototypes; no professional movement review yet.",
+  "files": {
+    "female/bench-poster.png": {
+      "bytes": 288029,
+      "sha256": "1a7d04528b773853f5e888a203384be3dfa2f28a73c6753f028577bf166ad54c"
+    },
+    "female/bench.blend": {
+      "bytes": 13941616,
+      "sha256": "53aa36c7fc4de171b25acba2e02b5f0c6014882ee4465883f32be2f407d3f785"
+    },
+    "female/bench.gif": {
+      "bytes": 1410141,
+      "sha256": "e7513f6b6152cc48ffb8e0208a922473ff7258b02e4d3c7c88332600cd99f915"
+    },
+    "female/bench.mp4": {
+      "bytes": 154034,
+      "sha256": "b6f38905754df05d393e21e4654acdebfa87f4b95601b9c7516c098682d80d2a"
+    },
+    "female/row-poster.png": {
+      "bytes": 302787,
+      "sha256": "42248b6a7ac250259d010d8e210f0bde4606dd2962e028b59b87f67823d4bf1c"
+    },
+    "female/row.blend": {
+      "bytes": 14037135,
+      "sha256": "c9a3b13721c554cfb433886fa3105643635db4883bc5bb1de07d1b86048db34b"
+    },
+    "female/row.gif": {
+      "bytes": 1179646,
+      "sha256": "d9e5530526b70dc4184132ffd1e5420d0b15cc3fc02138feafd6b7cf6beb0f4a"
+    },
+    "female/row.mp4": {
+      "bytes": 144795,
+      "sha256": "4e8f7893af4d0ac7c53db6d640e5faa9e0b1ff2bb2550cda96121b19abbb7b8d"
+    },
+    "female/squat-poster.png": {
+      "bytes": 257648,
+      "sha256": "fb68b561516ed3ef85d73dc0213df6b2176c835c991143d70878b04da3789197"
+    },
+    "female/squat.blend": {
+      "bytes": 14022743,
+      "sha256": "ad2d9ab489de91c7a705dd47c7d73b2edad74c683ae2a65bbc04d20c8739381c"
+    },
+    "female/squat.gif": {
+      "bytes": 2156536,
+      "sha256": "f7c6c985968f4a1969e0c199ce178f512db6a0bc6f771f8bf7be4a7b22548299"
+    },
+    "female/squat.mp4": {
+      "bytes": 196955,
+      "sha256": "06bb1b40d8441489de6aa571214dd526093226a29853f38db18c5e327bec482b"
+    },
+    "hand-closeups/female-bench-001.png": {
+      "bytes": 350902,
+      "sha256": "c9de4c7e45f39b8a49f4db874358b8d2013d66c30c2e90a4602e0031a62ceab5"
+    },
+    "hand-closeups/female-bench-061.png": {
+      "bytes": 351785,
+      "sha256": "5a3982e1851ab6c0363036f819eb45f33aa4f259e89c996314f521e112a5572a"
+    },
+    "hand-closeups/female-row-001.png": {
+      "bytes": 435229,
+      "sha256": "77cbb27fe7f98510d70000dd6fb57139f75659511b3fbfed5429daad1fd975ea"
+    },
+    "hand-closeups/female-row-061.png": {
+      "bytes": 546448,
+      "sha256": "c7879622238a3d1135192b7e0bc8a5cd2ef75799c66c262bd583ff88545ca1c1"
+    },
+    "hand-closeups/female-squat-001.png": {
+      "bytes": 428668,
+      "sha256": "8d4c21f79a0e68c0fa3944d7b11eed639fa65db717ff073ae55c9938f05d691c"
+    },
+    "hand-closeups/female-squat-061.png": {
+      "bytes": 401763,
+      "sha256": "c1b08bba7edce5570f8c355bed8713634631c396dc1f3f20b281709b964aa624"
+    },
+    "hand-closeups/male-bench-001.png": {
+      "bytes": 374913,
+      "sha256": "7da210834fe636b89a1ca01b071b8e881e897a1b616eb9c3ef6a79a62e2917f6"
+    },
+    "hand-closeups/male-bench-061.png": {
+      "bytes": 377883,
+      "sha256": "a38188ddcf52c9b4df80357f76f038e27b9e1e68232179023789873cdb656f52"
+    },
+    "hand-closeups/male-row-001.png": {
+      "bytes": 463880,
+      "sha256": "3c3fe3d3d932eaa58e3c8616d57a21a1c16386613baa2e128e62ca8af1667a01"
+    },
+    "hand-closeups/male-row-061.png": {
+      "bytes": 543700,
+      "sha256": "0345fd2948d4292262ec7798ad24dd290c34669aa8cc345f49e90b9014437194"
+    },
+    "hand-closeups/male-squat-001.png": {
+      "bytes": 457469,
+      "sha256": "c0457449ba1ae6c8ee4439c5a70f9583a9b22d1cf059335850350fdd5e3f8246"
+    },
+    "hand-closeups/male-squat-061.png": {
+      "bytes": 420947,
+      "sha256": "a4f84d3fd80dcf32870847e4921b313881d544a29527df2f21fdc4b41f0276f0"
+    },
+    "hand-grips-bench.png": {
+      "bytes": 217787,
+      "sha256": "8b788eba558e56fca0cfdd26b5990ede350fcd6dc80f850aff9f4d597d20cdc0"
+    },
+    "hand-grips-overview.png": {
+      "bytes": 921755,
+      "sha256": "c8e9d4c32ba0a56cb44938671eff8ef295626d42cada9385bee176f6edab6930"
+    },
+    "male/bench-poster.png": {
+      "bytes": 293767,
+      "sha256": "baeb9755039162645d6f5d1eea5714ccfcd7f0253d6763916e877aac0685d6cb"
+    },
+    "male/bench.blend": {
+      "bytes": 14437300,
+      "sha256": "c28f15c1597c40796c6a4b2034ac3545c64ec71ff1c0ad6e9d87677ffb7247fe"
+    },
+    "male/bench.gif": {
+      "bytes": 1565550,
+      "sha256": "398f3cf803ed974842e163d3d4348f3f3b92a28dfed4837534f54e16ff8057e9"
+    },
+    "male/bench.mp4": {
+      "bytes": 161808,
+      "sha256": "f3d0069bf7ba65cc1e521824c4f403933c54df9804b98369b3bb65b11e4f400c"
+    },
+    "male/row-poster.png": {
+      "bytes": 311670,
+      "sha256": "54a8df1409f6b252979acbeae0be9fecefe64e060f1fb782b66955a2bfdec874"
+    },
+    "male/row.blend": {
+      "bytes": 14524153,
+      "sha256": "51c6424b35bcbb181826fe5159ad49a6ab146ceb650e103e1e9ebd69f3e6bcaf"
+    },
+    "male/row.gif": {
+      "bytes": 1288849,
+      "sha256": "9cf29f70ad2a4928eb53a0f97ce661b07ac3bd77852edefa1bb84ecf5fde913b"
+    },
+    "male/row.mp4": {
+      "bytes": 151651,
+      "sha256": "8809084bda265546722f067fd974d0eff5cfc1c0bc92a811e92f15f01166100f"
+    },
+    "male/squat-poster.png": {
+      "bytes": 267329,
+      "sha256": "8d1c254f24fdae67427c607ecad0a7a33631b0caa5d6726b8636aa830a2c6dc0"
+    },
+    "male/squat.blend": {
+      "bytes": 14516967,
+      "sha256": "d81dce4585b29e28836a9e65aa41f19786af0fa9e9f60982f4184a75750f7f4e"
+    },
+    "male/squat.gif": {
+      "bytes": 2242230,
+      "sha256": "6c03fb3cd47ea0e65e19ab69c17f91dd74525a0972429be86c205256462147ca"
+    },
+    "male/squat.mp4": {
+      "bytes": 205747,
+      "sha256": "b73937fb11f30468917fd49b5318577e45327a426f14682c3bf59db29bb7bc13"
+    },
+    "overview.png": {
+      "bytes": 493089,
+      "sha256": "d6e0444aa0ab5d426a1269c86a53e3aabaee66141012fd958c6ed99aac6ad921"
+    },
+    "shoulder-review/before-back.png": {
+      "bytes": 600223,
+      "sha256": "ab043e7e3c9ff22b74b5007887a1c7f40e87acbd427cf39ccd5bc4f04b09a2f5"
+    },
+    "shoulder-review/before-front.png": {
+      "bytes": 622739,
+      "sha256": "d24782ddaac90fdf7ff970bc1813b2877902f219a8e14e67f681fbe2334b0fda"
+    },
+    "shoulder-review/female-001-back.png": {
+      "bytes": 574085,
+      "sha256": "92b10e2e113e6cf034e02cf26d2df655150bf47ded5bc209041a51d3942d46dc"
+    },
+    "shoulder-review/female-001-front.png": {
+      "bytes": 600434,
+      "sha256": "2596952057dc1e21b2cb6413f8e96bcdd5c14b82d0ec79d66594b54eb774c3aa"
+    },
+    "shoulder-review/female-001-side.png": {
+      "bytes": 491044,
+      "sha256": "6da2bc06e71130bab9387cb47ff4cda5012f49fb68f61481ec7fd89e42a6c260"
+    },
+    "shoulder-review/female-061-back.png": {
+      "bytes": 584451,
+      "sha256": "e2c0b53788562e9b6f569bb2c3e06b11b30ea9b96e01132f988948a8a2a53efb"
+    },
+    "shoulder-review/female-061-front.png": {
+      "bytes": 634454,
+      "sha256": "d28994f00ecf94d7064a5eb0fe57b3b487b1700df64b9cf3ee08589c53268c70"
+    },
+    "shoulder-review/female-061-side.png": {
+      "bytes": 514866,
+      "sha256": "417ea18b230e34a6585dcc01f7b2237f1a5083fc6da21bfdc5e14857610ef3eb"
+    },
+    "shoulder-review/male-001-back.png": {
+      "bytes": 618924,
+      "sha256": "cab7ab72ce69d9ec5ebac5d71fedf96419ab67a1c50609b050f1e2a2baeec34d"
+    },
+    "shoulder-review/male-001-front.png": {
+      "bytes": 635035,
+      "sha256": "d50035de32352e4cb773cb9bbc86611e1858863d7a8247bc0aa09404f662e5fe"
+    },
+    "shoulder-review/male-001-side.png": {
+      "bytes": 531997,
+      "sha256": "3da921053509f3bd1c784c3712892aa5b0f055daafaba1cbc8f935fa79f88744"
+    },
+    "shoulder-review/male-061-back.png": {
+      "bytes": 617751,
+      "sha256": "1d37c1db169368c0586d8982b8415412c8d736c6338a4a2d85fb638974a8d2f5"
+    },
+    "shoulder-review/male-061-front.png": {
+      "bytes": 650072,
+      "sha256": "116a6dd484f8605ca1f5b71b5c8b9665042c654690ad947b7d7d98c3b1fbdb90"
+    },
+    "shoulder-review/male-061-side.png": {
+      "bytes": 541454,
+      "sha256": "8f55a62dc1d3c9e8437e705513def6902c527a2dd1ef7f320c1ede53c716e0fd"
+    },
+    "squat-shoulder-comparison.png": {
+      "bytes": 713780,
+      "sha256": "4dfe4578af2b714a6c1ec0f1d36dec4225518403cfad1f1a4c703ab0a4c3d70a"
+    },
+    "squat-shoulder-views.png": {
+      "bytes": 735579,
+      "sha256": "b24902472003a9938fe9c527951d07d7da0c241ebf2667189c45ab1300794b7c"
+    }
+  }
+}

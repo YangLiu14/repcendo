@@ -1,0 +1,331 @@
+{
+  "status": "passed",
+  "rendered_frames_checked": 720,
+  "complete_media_decodes": 12,
+  "samples": {
+    "male/squat": {
+      "media": {
+        "mp4": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 960,
+          "nb_frames": "120",
+          "duration": "5.000000",
+          "r_frame_rate": "24/1"
+        },
+        "gif": {
+          "codec_name": "gif",
+          "width": 960,
+          "height": 720,
+          "nb_frames": "80",
+          "duration": "5.000000",
+          "r_frame_rate": "16/1"
+        }
+      },
+      "clipped_frames": [],
+      "motion": {
+        "frames_checked": 121,
+        "max_limb_length_error_m": 9.643496395872475e-08,
+        "max_grip_target_error_m": 4.786961795153919e-07,
+        "loop_matrix_error": 0.0,
+        "shoulder_refinement": {
+          "profile_vertices": 1164,
+          "max_profile_adjustment_model_units": 0.020124611797498106,
+          "reweighted_vertices": 1598
+        },
+        "squat_bar_anchor_local": [
+          -0.07655224204063416,
+          0.0,
+          0.796999990940094
+        ],
+        "rest_joint_calibration": "wrists and ankles corrected in animation copies",
+        "muscles": [
+          "quadriceps",
+          "gluteus_maximus"
+        ],
+        "finger_bones": 30,
+        "contact_corrective": {
+          "Left": {
+            "vertices": 58,
+            "max_surface_adjustment_m": 0.010236719252809712,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          },
+          "Right": {
+            "vertices": 66,
+            "max_surface_adjustment_m": 0.011805214784484454,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          }
+        }
+      }
+    },
+    "male/bench": {
+      "media": {
+        "mp4": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 960,
+          "nb_frames": "120",
+          "duration": "5.000000",
+          "r_frame_rate": "24/1"
+        },
+        "gif": {
+          "codec_name": "gif",
+          "width": 960,
+          "height": 720,
+          "nb_frames": "80",
+          "duration": "5.000000",
+          "r_frame_rate": "16/1"
+        }
+      },
+      "clipped_frames": [],
+      "motion": {
+        "frames_checked": 121,
+        "max_limb_length_error_m": 6.420922610272939e-08,
+        "max_grip_target_error_m": 2.81549150164294e-07,
+        "loop_matrix_error": 0.0,
+        "shoulder_refinement": {
+          "profile_vertices": 1164,
+          "max_profile_adjustment_model_units": 0.020124611797498106,
+          "reweighted_vertices": 1598
+        },
+        "squat_bar_anchor_local": null,
+        "rest_joint_calibration": "wrists and ankles corrected in animation copies",
+        "muscles": [
+          "pectoralis_major"
+        ],
+        "finger_bones": 30,
+        "contact_corrective": {
+          "Left": {
+            "vertices": 58,
+            "max_surface_adjustment_m": 0.010236155516125743,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          },
+          "Right": {
+            "vertices": 66,
+            "max_surface_adjustment_m": 0.011805416385383447,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          }
+        }
+      }
+    },
+    "male/row": {
+      "media": {
+        "mp4": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 960,
+          "nb_frames": "120",
+          "duration": "5.000000",
+          "r_frame_rate": "24/1"
+        },
+        "gif": {
+          "codec_name": "gif",
+          "width": 960,
+          "height": 720,
+          "nb_frames": "80",
+          "duration": "5.000000",
+          "r_frame_rate": "16/1"
+        }
+      },
+      "clipped_frames": [],
+      "motion": {
+        "frames_checked": 121,
+        "max_limb_length_error_m": 7.411364061349346e-08,
+        "max_grip_target_error_m": 3.2098083538618706e-07,
+        "loop_matrix_error": 0.0,
+        "shoulder_refinement": {
+          "profile_vertices": 1164,
+          "max_profile_adjustment_model_units": 0.020124611797498106,
+          "reweighted_vertices": 1598
+        },
+        "squat_bar_anchor_local": null,
+        "rest_joint_calibration": "wrists and ankles corrected in animation copies",
+        "muscles": [
+          "latissimus_dorsi",
+          "trapezius"
+        ],
+        "finger_bones": 30,
+        "contact_corrective": {
+          "Left": {
+            "vertices": 58,
+            "max_surface_adjustment_m": 0.010236588143759493,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          },
+          "Right": {
+            "vertices": 66,
+            "max_surface_adjustment_m": 0.011805384359141535,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          }
+        }
+      }
+    },
+    "female/squat": {
+      "media": {
+        "mp4": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 960,
+          "nb_frames": "120",
+          "duration": "5.000000",
+          "r_frame_rate": "24/1"
+        },
+        "gif": {
+          "codec_name": "gif",
+          "width": 960,
+          "height": 720,
+          "nb_frames": "80",
+          "duration": "5.000000",
+          "r_frame_rate": "16/1"
+        }
+      },
+      "clipped_frames": [],
+      "motion": {
+        "frames_checked": 121,
+        "max_limb_length_error_m": 1.1052589532489776e-07,
+        "max_grip_target_error_m": 3.793948011539583e-07,
+        "loop_matrix_error": 0.0,
+        "shoulder_refinement": {
+          "profile_vertices": 1130,
+          "max_profile_adjustment_model_units": 0.00670820393249937,
+          "reweighted_vertices": 1613
+        },
+        "squat_bar_anchor_local": [
+          -0.0788925290107727,
+          0.0,
+          0.7960000038146973
+        ],
+        "rest_joint_calibration": "wrists and ankles corrected in animation copies",
+        "muscles": [
+          "quadriceps",
+          "gluteus_maximus"
+        ],
+        "finger_bones": 30,
+        "contact_corrective": {
+          "Left": {
+            "vertices": 34,
+            "max_surface_adjustment_m": 0.008707958586331858,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          },
+          "Right": {
+            "vertices": 29,
+            "max_surface_adjustment_m": 0.008677892818402786,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          }
+        }
+      }
+    },
+    "female/bench": {
+      "media": {
+        "mp4": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 960,
+          "nb_frames": "120",
+          "duration": "5.000000",
+          "r_frame_rate": "24/1"
+        },
+        "gif": {
+          "codec_name": "gif",
+          "width": 960,
+          "height": 720,
+          "nb_frames": "80",
+          "duration": "5.000000",
+          "r_frame_rate": "16/1"
+        }
+      },
+      "clipped_frames": [],
+      "motion": {
+        "frames_checked": 121,
+        "max_limb_length_error_m": 7.231215998215745e-08,
+        "max_grip_target_error_m": 3.0719530773294425e-07,
+        "loop_matrix_error": 0.0,
+        "shoulder_refinement": {
+          "profile_vertices": 1130,
+          "max_profile_adjustment_model_units": 0.00670820393249937,
+          "reweighted_vertices": 1613
+        },
+        "squat_bar_anchor_local": null,
+        "rest_joint_calibration": "wrists and ankles corrected in animation copies",
+        "muscles": [
+          "pectoralis_major"
+        ],
+        "finger_bones": 30,
+        "contact_corrective": {
+          "Left": {
+            "vertices": 34,
+            "max_surface_adjustment_m": 0.008708013181160938,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          },
+          "Right": {
+            "vertices": 29,
+            "max_surface_adjustment_m": 0.008677935671678252,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          }
+        }
+      }
+    },
+    "female/row": {
+      "media": {
+        "mp4": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 960,
+          "nb_frames": "120",
+          "duration": "5.000000",
+          "r_frame_rate": "24/1"
+        },
+        "gif": {
+          "codec_name": "gif",
+          "width": 960,
+          "height": 720,
+          "nb_frames": "80",
+          "duration": "5.000000",
+          "r_frame_rate": "16/1"
+        }
+      },
+      "clipped_frames": [],
+      "motion": {
+        "frames_checked": 121,
+        "max_limb_length_error_m": 7.642649324512973e-08,
+        "max_grip_target_error_m": 3.0719530773294425e-07,
+        "loop_matrix_error": 0.0,
+        "shoulder_refinement": {
+          "profile_vertices": 1130,
+          "max_profile_adjustment_model_units": 0.00670820393249937,
+          "reweighted_vertices": 1613
+        },
+        "squat_bar_anchor_local": null,
+        "rest_joint_calibration": "wrists and ankles corrected in animation copies",
+        "muscles": [
+          "latissimus_dorsi",
+          "trapezius"
+        ],
+        "finger_bones": 30,
+        "contact_corrective": {
+          "Left": {
+            "vertices": 34,
+            "max_surface_adjustment_m": 0.008707868281689169,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          },
+          "Right": {
+            "vertices": 29,
+            "max_surface_adjustment_m": 0.008677923010505253,
+            "shaft_radius_m": 0.014,
+            "clearance_radius_m": 0.0155
+          }
+        }
+      }
+    }
+  }
+}
