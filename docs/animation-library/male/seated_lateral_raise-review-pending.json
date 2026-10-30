@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "ff1f574302a9ee03ccea6a01f8e4d81b94b83d542fcdb3fce64aa5cbd85a9710",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/seated_lateral_raise-review.jpg": "a40c0240c592d8f27abd082450cbe068b4345bb59adf594424aa6cefe75963a6"
+  }
+}

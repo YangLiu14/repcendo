@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "03ff0e2d946f90355e08d7a0a092a05ffc34a29047ba0cd045c84ede9eab2932",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/db_bent_row-review.jpg": "fb625ab248ea99f0bdbb91eba323ff2c6192f324d500f6321f77df324316ffd2"
+  }
+}

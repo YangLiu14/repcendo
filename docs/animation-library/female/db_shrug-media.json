@@ -1,0 +1,23 @@
+{
+  "sceneSHA256": "7d5c464a823966238bb417a846eefbb26c91f72f334c360e6771a34ec909c132",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v4.py": "736b6632499a75e9fc19ee5eb10427a8263e5009830ae34bce6eed0188e9a2d6",
+    "library_scene_v4.py": "62f14db47068d60876063ab5e26dd5adf0150babc9958a7acdfbfbcb63d6001f"
+  },
+  "specificationSHA256": "f667316320d1bb99933a920b991239089c37bdf02af8076eeb8f16cfda706ee9",
+  "files": {
+    "db_shrug.mp4": "406f5f8205ada1a553267e589a3baa822b4a16bc2caa5c0e35e7d58cc4f36964",
+    "db_shrug-poster.png": "3f27b9c5f70bd235ee281fc802ebc2dc244506dd68904b25f2c018c57c849a76"
+  },
+  "mediaValidation": {
+    "decoded": true,
+    "frames": 120,
+    "clippedFrames": [],
+    "codec": "h264",
+    "width": 1280,
+    "height": 960,
+    "fps": 24
+  }
+}

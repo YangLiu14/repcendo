@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "1532249f7f7a86773098797c2eddcbe5118ce61637e2c85cfd4517eedd23e819",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/incline_hammer_press-review.jpg": "40ebe59196d014fab5eb71f0932f66789154db3af7bc6a28610aa457ab22f446"
+  }
+}

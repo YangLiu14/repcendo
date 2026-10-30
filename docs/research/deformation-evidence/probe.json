@@ -1,0 +1,500 @@
+{
+  "rdl": {
+    "sourceSHA256": "a056f5fb1407fbea642549e5e8946b8bbfb3a0328c7c902188dfd35840255a44",
+    "frame": 61,
+    "vertices": 43620,
+    "faces": 87018,
+    "triangles": 86942,
+    "preserve_volume": false,
+    "rig_scale": [
+      1.8200000524520874,
+      1.8200000524520874,
+      1.8200000524520874
+    ],
+    "mesh_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "weight_sum_min": 0.9999998435378075,
+    "weight_sum_max": 1.0000000894069672,
+    "modifiers": [
+      {
+        "name": "Armature",
+        "type": "ARMATURE",
+        "iterations": null,
+        "factor": null
+      },
+      {
+        "name": "Elbow and knee fold relaxation",
+        "type": "SMOOTH",
+        "iterations": 50,
+        "factor": 1.0
+      }
+    ],
+    "bones": {
+      "LeftArm": {
+        "basis_scale": [
+          0.9999997615814209,
+          1.000000238418579,
+          0.9999998211860657
+        ],
+        "deform_singular_values": [
+          1.0,
+          0.9999998211860657,
+          0.9999997019767761
+        ],
+        "parent_tip_gap_m": 0.00024928579354795594
+      },
+      "LeftForeArm": {
+        "basis_scale": [
+          0.9999999403953552,
+          0.9999998211860657,
+          0.9999998211860657
+        ],
+        "deform_singular_values": [
+          1.0000001192092896,
+          0.9999995231628418,
+          0.9999994039535522
+        ],
+        "parent_tip_gap_m": 2.5288109106536417e-07
+      },
+      "LeftHand": {
+        "basis_scale": [
+          1.000000238418579,
+          1.0000001192092896,
+          1.0
+        ],
+        "deform_singular_values": [
+          0.9999999403953552,
+          0.9999996423721313,
+          0.9999995231628418
+        ],
+        "parent_tip_gap_m": 1.837138534477048e-07
+      },
+      "LeftLeg": {
+        "basis_scale": [
+          0.9999997615814209,
+          0.9999998211860657,
+          1.0000001192092896
+        ],
+        "deform_singular_values": [
+          1.0000004768371582,
+          1.000000238418579,
+          0.9999994039535522
+        ],
+        "parent_tip_gap_m": 4.425419093643873e-07
+      },
+      "LeftFoot": {
+        "basis_scale": [
+          1.0,
+          0.9999999403953552,
+          1.0
+        ],
+        "deform_singular_values": [
+          1.0000004768371582,
+          1.0000001192092896,
+          0.9999992251396179
+        ],
+        "parent_tip_gap_m": 5.379712968876852e-08
+      },
+      "LeftToeBase": {
+        "basis_scale": [
+          0.9999998807907104,
+          0.9999999403953552,
+          1.0
+        ],
+        "deform_singular_values": [
+          1.0000003576278687,
+          1.0000001192092896,
+          0.9999992251396179
+        ],
+        "parent_tip_gap_m": 7.028863677424642e-08
+      },
+      "RightArm": {
+        "basis_scale": [
+          0.9999997615814209,
+          1.0,
+          0.9999999403953552
+        ],
+        "deform_singular_values": [
+          1.0000001192092896,
+          0.9999999403953552,
+          0.9999997019767761
+        ],
+        "parent_tip_gap_m": 0.00025983327353829684
+      },
+      "RightForeArm": {
+        "basis_scale": [
+          1.0000001192092896,
+          1.0000001192092896,
+          1.0
+        ],
+        "deform_singular_values": [
+          1.0000003576278687,
+          1.0000001192092896,
+          0.9999998807907104
+        ],
+        "parent_tip_gap_m": 1.1250129990683123e-07
+      },
+      "RightHand": {
+        "basis_scale": [
+          0.9999998807907104,
+          0.9999997019767761,
+          0.9999997019767761
+        ],
+        "deform_singular_values": [
+          1.000000238418579,
+          0.9999997019767761,
+          0.9999995827674866
+        ],
+        "parent_tip_gap_m": 2.9802322387695312e-08
+      },
+      "RightLeg": {
+        "basis_scale": [
+          1.0000001192092896,
+          0.9999999403953552,
+          0.9999998807907104
+        ],
+        "deform_singular_values": [
+          1.0000008344650269,
+          1.0000001192092896,
+          0.9999992251396179
+        ],
+        "parent_tip_gap_m": 3.449868232843347e-07
+      },
+      "RightFoot": {
+        "basis_scale": [
+          1.0,
+          1.000000238418579,
+          1.0000001192092896
+        ],
+        "deform_singular_values": [
+          1.0000008344650269,
+          1.0000003576278687,
+          0.9999992847442627
+        ],
+        "parent_tip_gap_m": 1.3039643101932495e-07
+      },
+      "RightToeBase": {
+        "basis_scale": [
+          1.0,
+          0.9999999403953552,
+          0.9999998807907104
+        ],
+        "deform_singular_values": [
+          1.0000007152557373,
+          1.000000238418579,
+          0.9999992251396179
+        ],
+        "parent_tip_gap_m": 1.0725989974206663e-07
+      }
+    },
+    "variants": {
+      "current": {
+        "region_edge_ratio_percentiles": [
+          0.22997960481773116,
+          0.380694409873844,
+          0.840132851930707,
+          1.867248196044284,
+          2.8005389027823036
+        ],
+        "region_vertices": 1918,
+        "edge_count": 5521,
+        "displacement_from_current_region_max_mm": 0.0,
+        "displacement_from_current_region_mean_mm": 0.0
+      },
+      "no_smooth": {
+        "region_edge_ratio_percentiles": [
+          0.45883620259318714,
+          0.6775064469529125,
+          1.0000008539398724,
+          1.5593001835710063,
+          1.8997750604004404
+        ],
+        "region_vertices": 1918,
+        "edge_count": 5521,
+        "displacement_from_current_region_max_mm": 36.18018510742574,
+        "displacement_from_current_region_mean_mm": 15.700265483142017
+      },
+      "dq_only": {
+        "region_edge_ratio_percentiles": [
+          0.3043674027419285,
+          0.4306266276628062,
+          0.8789427265812524,
+          1.9267951090940232,
+          2.9216353390123286
+        ],
+        "region_vertices": 1918,
+        "edge_count": 5521,
+        "displacement_from_current_region_max_mm": 41.79360239913124,
+        "displacement_from_current_region_mean_mm": 9.872389721448362
+      },
+      "no_smooth_dq": {
+        "region_edge_ratio_percentiles": [
+          0.6239799235279652,
+          0.8010653634386454,
+          1.0000059625434627,
+          2.028173678305377,
+          2.641075516858862
+        ],
+        "region_vertices": 1918,
+        "edge_count": 5521,
+        "displacement_from_current_region_max_mm": 76.88674979484247,
+        "displacement_from_current_region_mean_mm": 24.584663508192623
+      }
+    }
+  },
+  "cable_crunch": {
+    "sourceSHA256": "d305cab115de96f4d246ac363f240a9ef55f0d458e688b9200df25983a6a2b10",
+    "frame": 61,
+    "vertices": 43620,
+    "faces": 87018,
+    "triangles": 86942,
+    "preserve_volume": false,
+    "rig_scale": [
+      1.8200000524520874,
+      1.8200000524520874,
+      1.8200000524520874
+    ],
+    "mesh_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "weight_sum_min": 0.9999998435378075,
+    "weight_sum_max": 1.0000000894069672,
+    "modifiers": [
+      {
+        "name": "Armature",
+        "type": "ARMATURE",
+        "iterations": null,
+        "factor": null
+      },
+      {
+        "name": "Elbow fold relaxation",
+        "type": "SMOOTH",
+        "iterations": 50,
+        "factor": 1.0
+      },
+      {
+        "name": "Knee fold relaxation",
+        "type": "SMOOTH",
+        "iterations": 50,
+        "factor": 1.0
+      }
+    ],
+    "bones": {
+      "LeftArm": {
+        "basis_scale": [
+          0.9999995827674866,
+          1.0,
+          0.9999996423721313
+        ],
+        "deform_singular_values": [
+          1.0,
+          0.9999998211860657,
+          0.9999993443489075
+        ],
+        "parent_tip_gap_m": 0.0002492609037216476
+      },
+      "LeftForeArm": {
+        "basis_scale": [
+          0.9999999403953552,
+          0.9999999403953552,
+          0.9999999403953552
+        ],
+        "deform_singular_values": [
+          1.0000003576278687,
+          0.9999996423721313,
+          0.9999992251396179
+        ],
+        "parent_tip_gap_m": 1.8431718463976653e-07
+      },
+      "LeftHand": {
+        "basis_scale": [
+          1.0000001192092896,
+          1.000000238418579,
+          1.0
+        ],
+        "deform_singular_values": [
+          1.0,
+          0.9999996423721313,
+          0.9999996423721313
+        ],
+        "parent_tip_gap_m": 2.686345037418596e-07
+      },
+      "LeftLeg": {
+        "basis_scale": [
+          0.9999999403953552,
+          0.9999997615814209,
+          1.0000003576278687
+        ],
+        "deform_singular_values": [
+          1.0000009536743164,
+          0.9999999403953552,
+          0.9999992847442627
+        ],
+        "parent_tip_gap_m": 1.6780355020694745e-07
+      },
+      "LeftFoot": {
+        "basis_scale": [
+          1.0000004768371582,
+          0.9999999403953552,
+          0.9999991655349731
+        ],
+        "deform_singular_values": [
+          1.000001072883606,
+          0.9999996423721313,
+          0.999998927116394
+        ],
+        "parent_tip_gap_m": 2.939912625692615e-07
+      },
+      "LeftToeBase": {
+        "basis_scale": [
+          0.9999997615814209,
+          1.000000238418579,
+          1.000000238418579
+        ],
+        "deform_singular_values": [
+          1.000001072883606,
+          0.9999998807907104,
+          0.9999989867210388
+        ],
+        "parent_tip_gap_m": 1.6743097494724565e-07
+      },
+      "RightArm": {
+        "basis_scale": [
+          0.9999999403953552,
+          0.9999998807907104,
+          1.0
+        ],
+        "deform_singular_values": [
+          0.9999999403953552,
+          0.9999998807907104,
+          0.9999998807907104
+        ],
+        "parent_tip_gap_m": 0.00025984597591974983
+      },
+      "RightForeArm": {
+        "basis_scale": [
+          1.0,
+          1.0,
+          0.9999999403953552
+        ],
+        "deform_singular_values": [
+          1.0,
+          0.9999999403953552,
+          0.9999997019767761
+        ],
+        "parent_tip_gap_m": 1.884864366154897e-07
+      },
+      "RightHand": {
+        "basis_scale": [
+          1.0,
+          0.9999998211860657,
+          1.000000238418579
+        ],
+        "deform_singular_values": [
+          1.0000005960464478,
+          1.0000001192092896,
+          0.9999996423721313
+        ],
+        "parent_tip_gap_m": 1.519626234052415e-07
+      },
+      "RightLeg": {
+        "basis_scale": [
+          0.9999997019767761,
+          0.999999463558197,
+          0.9999999403953552
+        ],
+        "deform_singular_values": [
+          1.0000009536743164,
+          0.9999996423721313,
+          0.9999986290931702
+        ],
+        "parent_tip_gap_m": 5.281510531439567e-08
+      },
+      "RightFoot": {
+        "basis_scale": [
+          1.0000008344650269,
+          1.0000003576278687,
+          0.999999463558197
+        ],
+        "deform_singular_values": [
+          1.0000016689300537,
+          0.9999996423721313,
+          0.9999987483024597
+        ],
+        "parent_tip_gap_m": 4.998001405968792e-07
+      },
+      "RightToeBase": {
+        "basis_scale": [
+          0.9999991655349731,
+          1.0000001192092896,
+          1.0000004768371582
+        ],
+        "deform_singular_values": [
+          1.0000014305114746,
+          0.9999998211860657,
+          0.9999985694885254
+        ],
+        "parent_tip_gap_m": 1.369772576604056e-07
+      }
+    },
+    "variants": {
+      "current": {
+        "region_edge_ratio_percentiles": [
+          0.6045631624369919,
+          0.9319222739818092,
+          0.9999998369586736,
+          1.231176732138831,
+          1.6206966772406215
+        ],
+        "region_vertices": 2301,
+        "edge_count": 6825,
+        "displacement_from_current_region_max_mm": 0.0,
+        "displacement_from_current_region_mean_mm": 0.0
+      },
+      "no_smooth": {
+        "region_edge_ratio_percentiles": [
+          0.6045631624369919,
+          0.9319222739818092,
+          0.9999998369586736,
+          1.231176732138831,
+          1.6206966772406215
+        ],
+        "region_vertices": 2301,
+        "edge_count": 6825,
+        "displacement_from_current_region_max_mm": 0.0,
+        "displacement_from_current_region_mean_mm": 0.0
+      },
+      "dq_only": {
+        "region_edge_ratio_percentiles": [
+          0.6823631149640861,
+          0.960846130402345,
+          1.000000054364352,
+          1.243329266431568,
+          1.5508099354161242
+        ],
+        "region_vertices": 2301,
+        "edge_count": 6825,
+        "displacement_from_current_region_max_mm": 11.746315698026857,
+        "displacement_from_current_region_mean_mm": 0.78805444895074
+      },
+      "no_smooth_dq": {
+        "region_edge_ratio_percentiles": [
+          0.6823631149640861,
+          0.960846130402345,
+          1.000000054364352,
+          1.243329266431568,
+          1.5508099354161242
+        ],
+        "region_vertices": 2301,
+        "edge_count": 6825,
+        "displacement_from_current_region_max_mm": 11.746315698026857,
+        "displacement_from_current_region_mean_mm": 0.78805444895074
+      }
+    }
+  }
+}

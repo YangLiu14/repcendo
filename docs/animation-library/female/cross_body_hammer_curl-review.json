@@ -1,0 +1,23 @@
+{
+  "sceneSHA256": "49fe9f6f653fd78d1c9aa65aaaf775ca5977bb4490e48378e9017774042f054f",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看主视、正侧背和握持图。左右依次朝对侧胸前跨体弯举，拇指端向上、握姿中立、上臂固定，闲置侧停在下方。肩肘轮廓连续，女性调整后肘窝/躯干间有净空，哑铃不接触胸腹或大腿。",
+  "evidence": {
+    "docs/animation-library/female/cross_body_hammer_curl-review.jpg": "3f4e470513938445ca2979e35ee100b6a593b036b90f4f139d26cad39d0798e7"
+  },
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex visual review"
+}

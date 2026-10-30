@@ -1,0 +1,23 @@
+{
+  "sceneSHA256": "893a51596c4d0f64de1302bd4d5cbb02f048a605aaabf9e4b192bfe9051fa7bf",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v4.py": "736b6632499a75e9fc19ee5eb10427a8263e5009830ae34bce6eed0188e9a2d6",
+    "library_scene_v4.py": "62f14db47068d60876063ab5e26dd5adf0150babc9958a7acdfbfbcb63d6001f"
+  },
+  "specificationSHA256": "e28ad2d78f2ad392aef2edb4f834dbe8a21c06e37eb2495d390b87e4a2847482",
+  "files": {
+    "incline_hammer_curl.mp4": "ea90cce9243ecdb52dba65a081dc1c6300fe8067acdc6eda1d769e739f8ae779",
+    "incline_hammer_curl-poster.png": "a739d1e62cbb23254f390eff5ff86440301e49f726bb7e1fb5979bfaaed316a1"
+  },
+  "mediaValidation": {
+    "decoded": true,
+    "frames": 120,
+    "clippedFrames": [],
+    "codec": "h264",
+    "width": 1280,
+    "height": 960,
+    "fps": 24
+  }
+}

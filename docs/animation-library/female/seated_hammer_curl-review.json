@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "5caa467eb3e96b0caf71583a2674e52ec221eb2d17a4e8f0e28148b147a6712a",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "Inspected all four cycle poses in main/front/side/back and grip closeups. Seat supports the pelvis, feet remain on the floor, upper arms stay fixed and both neutral grips clear thighs and bench. Wrists follow forearms and fingers surround the shafts. Source cloth folds retained; illustrative review, not professional biomechanical certification.",
+  "evidence": {
+    "docs/animation-library/female/seated_hammer_curl-review.jpg": "74ef0c2204bbd5bec1c1cd54d4775011d0beec7240800db4424c1018b51b7113"
+  },
+  "reviewer": "Codex visual inspection"
+}

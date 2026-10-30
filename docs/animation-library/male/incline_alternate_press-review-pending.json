@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "b73067be155c413e874949526993779eaa8e7353586c414945fbcd164a1c865e",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/incline_alternate_press-review.jpg": "8e3ee1bae66ed5167678b744a7661f6b5ec522abe65cd78998cd335cff4005e4"
+  }
+}

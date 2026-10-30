@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "9589837887a396d8997186841a20c754002e537229e5075b5c5dca8315f48b75",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看主镜头/正侧背/器械可见握持近景四阶段图。抬臂平面位于侧方略向前，顶部拳头拇指端与哑铃轴向上，区别于掌心向下侧举；双脚稳定，肩部未出现明显塌陷或扭折。 结合全帧独立检查验收，保留原雕塑表面细节。",
+  "evidence": {
+    "docs/animation-library/male/full_can_raise-review.jpg": "6d06bd703283500e9241625ff56a87127c8008e3fdbf51ca1df1acf777a2104b"
+  },
+  "reviewer": "Codex visual inspection"
+}

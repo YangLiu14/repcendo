@@ -1,3 +1,7 @@
+# Exercise media and models are private local assets, never Git/LFS payloads.
+# Keep code, metadata and review reports; preserve local files when untracking.
+# Storage and restore policy: docs/asset-management.md
+
 # macOS
 .DS_Store
 ._*
@@ -5,7 +9,6 @@
 # Swift and Xcode build output / local workspace state
 .build/
 .swiftpm/
-build/
 DerivedData/
 xcuserdata/
 *.xcuserstate
@@ -13,6 +16,10 @@ xcuserdata/
 *.xcarchive/
 *.ipa
 *.dSYM/
+
+# Animation candidates, raw frames, downloaded photo references, diagnostics,
+# temporary renders and build products belong here.
+build/
 
 # Local environments, dependencies and credentials
 .env
@@ -35,8 +42,52 @@ __pycache__/
 .pytest_cache/
 *.log
 
+# App animation media remain on disk; only the text catalog is versioned.
+/Repcendo/Resources/ExerciseAnimations/*
+!/Repcendo/Resources/ExerciseAnimations/catalog.json
+
+# Animation production folders: allow only source code and text records.
+# Directory exceptions let Git discover nested text files. New binary formats
+# are ignored by default, including scenes, models, textures and review images.
+/docs/animation-*/**
+!/docs/animation-*/**/
+!/docs/animation-*/**/*.md
+!/docs/animation-*/**/*.json
+!/docs/animation-*/**/*.html
+!/docs/animation-*/**/*.js
+!/docs/animation-*/**/*.css
+!/docs/animation-*/**/*.csv
+!/docs/animation-*/**/*.py
+!/docs/animation-*/**/*.txt
+
+# Character concepts, inputs, models, rigs and muscle textures are local too.
+/docs/character-*/**
+!/docs/character-*/**/
+!/docs/character-*/**/*.md
+!/docs/character-*/**/*.json
+!/docs/character-*/**/*.html
+!/docs/character-*/**/*.js
+!/docs/character-*/**/*.css
+!/docs/character-*/**/*.csv
+!/docs/character-*/**/*.py
+!/docs/character-*/**/*.txt
+
+# Equipment photos and deformation evidence: keep their text documentation.
+/docs/equipment-references/**
+!/docs/equipment-references/**/
+!/docs/equipment-references/**/*.md
+!/docs/equipment-references/**/*.json
+/docs/research/deformation-evidence/**
+!/docs/research/deformation-evidence/**/
+!/docs/research/deformation-evidence/**/*.md
+!/docs/research/deformation-evidence/**/*.json
+!/docs/research/deformation-evidence/**/*.py
+
+# App playback screenshots also contain private animation imagery.
+# Other UI screenshots and the App icon remain versioned.
+/docs/screenshots/animation-*
+
 # Blender backups and reproducible inspection intermediates.
-# Keep final .blend / .glb assets, textures, previews and inspection reports.
 *.blend[0-9]*
 docs/character-assets/**/motion-frames/
 docs/character-assets/**/inspection/character.blend

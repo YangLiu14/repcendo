@@ -41,6 +41,7 @@ def stages(mode):
         ("hand-closeups", blender("animation_samples", "render_hand_closeups.py")),
         ("shoulder-review", blender("animation_samples", "render_squat_review.py")),
         ("export-character", blender("character_assets", "export_hand_rig.py")),
+        ("collision-gate", python("validate_collisions.py")),
         ("package", python("package_sculpture_samples.py")),
     ]
     verification = [
@@ -53,6 +54,8 @@ def stages(mode):
         ("verify-character", blender("character_assets", "verify_hand_assets.py")),
         ("verify-media", python("verify_sculpture_samples.py")),
     ]
+    if mode == "verify":
+        verification.insert(0, ("verify-collisions", python("validate_collisions.py")))
     return (production if mode == "full" else []) + verification
 
 

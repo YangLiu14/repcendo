@@ -1,0 +1,23 @@
+{
+  "sceneSHA256": "658a5b70cd7864758a95facef46ab281d89db1206e028a95fbfa47e49b487215",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+    "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+  },
+  "specificationSHA256": "f87c1f5dab15e5e5e23772d12acd1e42ac9b1c7c635a216e409d7a7ecf7908e0",
+  "files": {
+    "standing_neutral_press.mp4": "f4669c09306cd2ad45d2d48abfeb2ea2611c39aaaed99326a5c42b65ab3dcd96",
+    "standing_neutral_press-poster.png": "9a8d8190be8287a447b7c9aad06b3c985b2caf2971f7668f3c96db5329a495a4"
+  },
+  "mediaValidation": {
+    "decoded": true,
+    "frames": 120,
+    "clippedFrames": [],
+    "codec": "h264",
+    "width": 1280,
+    "height": 960,
+    "fps": 24
+  }
+}

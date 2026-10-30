@@ -1,0 +1,678 @@
+{
+  "batch": "003",
+  "date": "2026-10-30",
+  "scope": "Eight new exercises in the full 1324-ID library; overall library remains in progress",
+  "exerciseCount": 8,
+  "videoCount": 16,
+  "renderedFrames": 2208,
+  "auditedFrames": 2224,
+  "status": "delivered",
+  "references": {
+    "incline_hammer_press": "https://www.nasm.org/resource-center/exercise-library/two-arm-incline-dumbbell-chest-press",
+    "incline_alternate_press": "https://www.nasm.org/resource-center/exercise-library/two-arm-incline-dumbbell-chest-press"
+  },
+  "validation": {
+    "gateDeliveryAndConcurrencyTests": 26,
+    "rejectedIncorrectScenesAndSpecifications": 6,
+    "positiveSceneSpecificationControls": 2,
+    "appBuild": "succeeded",
+    "builtMediaResourceFilesVerified": 161,
+    "existingCatalogEntriesPreserved": 32,
+    "browserPlayback": "All 16 videos readyState 4, no errors, expected 5/8 second durations and looping enabled. Male flat bench and female alternating incline playback verified; current batch shows 8 and all published batches show 20."
+  },
+  "exercises": [
+    {
+      "motion": "db_bench_press",
+      "id": "0289",
+      "title": "哑铃卧推",
+      "specification": {
+        "id": "0289",
+        "title": "哑铃卧推",
+        "en": "DUMBBELL BENCH PRESS",
+        "muscles": [
+          [
+            "胸大肌与肱三头肌",
+            "胸部推举；前三角肌协同"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "grip": "pronated",
+        "family": "press",
+        "press_type": "flat",
+        "seated": true,
+        "torso_angle": 1.5707963267948966,
+        "batch": "003",
+        "torso_angle_offset_by_sex": {
+          "female": 0.085
+        },
+        "head_angle_offset_by_sex": {
+          "male": 0.17
+        },
+        "audit_version": 3
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "8012be3c152b8215244f358ba81752a6b2ffadc91ca4b7c460d2b7fe98a6f8f4",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "069fd14e66102e213073ad3747354997e45e2fc65d829c9eae66791226f8bca3",
+          "files": {
+            "db_bench_press.mp4": "482e94d6534f877dd8bfd21816eeb60e83f00b4b8c1a2c14f3173c05bf6d0d57",
+            "db_bench_press-poster.png": "1e29c1aa92a3e495452f8352f84bcb807cd860c6f30dbb770479a69160ad5d93"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "6ab58887e5a827cae1de3627e98d4adcbff5b521c9627fc9a15eabc0696c4db5",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "069fd14e66102e213073ad3747354997e45e2fc65d829c9eae66791226f8bca3",
+          "files": {
+            "db_bench_press.mp4": "68031592711ff5bbe87f2f72df1b4667d0de539b41767d8caaed6f53435d70ea",
+            "db_bench_press-poster.png": "efc6e15e56e32a7e33a81be742cde4c11b75a303deb73dff48785984be5e6b0f"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "neutral_bench_press",
+      "id": "0352",
+      "title": "中立握哑铃卧推",
+      "specification": {
+        "id": "0352",
+        "title": "中立握哑铃卧推",
+        "en": "NEUTRAL GRIP BENCH PRESS",
+        "muscles": [
+          [
+            "胸大肌与肱三头肌",
+            "胸部推举；前三角肌协同"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "grip": "neutral",
+        "family": "press",
+        "press_type": "flat",
+        "seated": true,
+        "torso_angle": 1.5707963267948966,
+        "batch": "003",
+        "torso_angle_offset_by_sex": {
+          "female": 0.085
+        },
+        "head_angle_offset_by_sex": {
+          "male": 0.17
+        },
+        "audit_version": 3
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "e38c5f63bddf13b393c1b0368310934538b0e9b81552161affaf2dc75e123f1a",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "4fe417924d14235445f95c5be397b9d2ef40e7d928a44f6d2ba139e9396b1007",
+          "files": {
+            "neutral_bench_press.mp4": "e0b6bdb6d366ba729d5437ee96d5231b51a90f0efa0e5f3575b91e73a9db3604",
+            "neutral_bench_press-poster.png": "84145d1638edad951020d2d81ba646ac74158753b76d9404fe18ca7040a9d6b7"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "7cf22e7b395bf826abc7ce13937f6c232f69e3d6f660db4b42e65aa10fc95a03",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "4fe417924d14235445f95c5be397b9d2ef40e7d928a44f6d2ba139e9396b1007",
+          "files": {
+            "neutral_bench_press.mp4": "ae7cfa623c608ef45273468050cddb9bb9999ea8c882bb99716788de2d564980",
+            "neutral_bench_press-poster.png": "18742b1740d64e800d41893043a31a42236ebdf77c18d973eff263eb2dbff692"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "incline_hammer_press",
+      "id": "0321",
+      "title": "上斜哑铃锤式推举",
+      "specification": {
+        "id": "0321",
+        "title": "上斜哑铃锤式推举",
+        "en": "INCLINE HAMMER PRESS",
+        "muscles": [
+          [
+            "胸大肌与肱三头肌",
+            "胸部推举；前三角肌协同"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "grip": "neutral",
+        "family": "press",
+        "press_type": "incline",
+        "seated": true,
+        "torso_angle": 0.7853981633974483,
+        "batch": "003",
+        "audit_version": 3
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "23436edbd071f1221c60a8292cc64ee7b06cbf5f14738893afed9ce5957c3637",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "530c31fa87968bcefe011d617d43e30b7fcd6168da78b4c5cb74f791e375c1f3",
+          "files": {
+            "incline_hammer_press.mp4": "95264af81458c8750e774196cf198821c296eccee0ec5a522ff4f02fe63d484a",
+            "incline_hammer_press-poster.png": "42ed4a437b07629b0a5b79312a5140d2744f2121ecb70a0d3e27ef153e8ee009"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "1532249f7f7a86773098797c2eddcbe5118ce61637e2c85cfd4517eedd23e819",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "530c31fa87968bcefe011d617d43e30b7fcd6168da78b4c5cb74f791e375c1f3",
+          "files": {
+            "incline_hammer_press.mp4": "17756fd2822018d640a8b22b56079f43a694b77b3c778d9a0cbe3e8c1edd95c9",
+            "incline_hammer_press-poster.png": "9f0b4058aa9f2c41df0d46abd4910164527839fcd047241244bf7ff6ee1886ec"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "incline_alternate_press",
+      "id": "3545",
+      "title": "上斜哑铃交替推举",
+      "specification": {
+        "id": "3545",
+        "title": "上斜哑铃交替推举",
+        "en": "ALTERNATING INCLINE PRESS",
+        "muscles": [
+          [
+            "胸大肌与肱三头肌",
+            "胸部推举；前三角肌协同"
+          ]
+        ],
+        "phases": [
+          "左臂推起",
+          "左臂下放",
+          "右臂推起",
+          "右臂下放"
+        ],
+        "grip": "pronated",
+        "family": "press",
+        "press_type": "incline",
+        "seated": true,
+        "torso_angle": 0.7853981633974483,
+        "batch": "003",
+        "audit_version": 3,
+        "alternating": true,
+        "frames": 192
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "b73067be155c413e874949526993779eaa8e7353586c414945fbcd164a1c865e",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "fc0d7ffa11f53fec0d7acedc1075b991627a36d07d42d8b705f317bf5bb777bb",
+          "files": {
+            "incline_alternate_press.mp4": "f9a1c457016cff2808d18d3315ceac91b34be67ddd901cf5da0862578ed638e0",
+            "incline_alternate_press-poster.png": "61dc062d6b8980a89e6a36fa0757d84b65eb0ac4c12f1a76eccf60d9946569bb"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 192,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "fb20f68c19edfbeb37eb62dd322ee702cab0e2e2210d55d3f0ee454e3b9c5c11",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "fc0d7ffa11f53fec0d7acedc1075b991627a36d07d42d8b705f317bf5bb777bb",
+          "files": {
+            "incline_alternate_press.mp4": "ac3bbc666cd658e8b166399f4685d6ba427e833aa6789a0b0628faafcb9ce51a",
+            "incline_alternate_press-poster.png": "c9ac4041a1829c1b13fcdebded66d719d09c47b4f2d4d1235be3a3f6493cfd2e"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 192,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "seated_alternate_press",
+      "id": "0388",
+      "title": "坐姿哑铃交替推举",
+      "specification": {
+        "id": "0388",
+        "title": "坐姿哑铃交替推举",
+        "en": "SEATED ALTERNATING PRESS",
+        "muscles": [
+          [
+            "三角肌与肱三头肌",
+            "头顶推举"
+          ]
+        ],
+        "phases": [
+          "左臂推起",
+          "左臂下放",
+          "右臂推起",
+          "右臂下放"
+        ],
+        "grip": "pronated",
+        "family": "press",
+        "press_type": "seated",
+        "seated": true,
+        "torso_angle": 0.08,
+        "batch": "003",
+        "audit_version": 3,
+        "alternating": true,
+        "frames": 192
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "b1631fb352dc947bfe0fdf4045fa1970017887c8166cfc5502681b6a9fe856e3",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "46cea600ed7d6096e3aea8f87aa349d81b5c923062843580979bc6972f36e4bb",
+          "files": {
+            "seated_alternate_press.mp4": "6e8e904de3f573a6b97073f71048e12add154bfc10325df4524d101d3ba2a859",
+            "seated_alternate_press-poster.png": "b6c7a28cb3e7dc1f7da703e807c7924def54d36ebcb89d39b47f349c59d619c1"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 192,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "a9508908bf77b3a29a29a0b5b6c0c994976245a15cfaa0232b7ed07f73e2fcec",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "46cea600ed7d6096e3aea8f87aa349d81b5c923062843580979bc6972f36e4bb",
+          "files": {
+            "seated_alternate_press.mp4": "b6f6d8dc7c812d1a1bba37751ce85512dae41bd121418f9626f4e8e88a64040a",
+            "seated_alternate_press-poster.png": "2bece0fc826d60e7884e870095920ae4257d6374997fff3a2a6834581226dab3"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 192,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "seated_neutral_press",
+      "id": "0404",
+      "title": "坐姿中立握哑铃推举",
+      "specification": {
+        "id": "0404",
+        "title": "坐姿中立握哑铃推举",
+        "en": "SEATED NEUTRAL GRIP PRESS",
+        "muscles": [
+          [
+            "三角肌与肱三头肌",
+            "头顶推举"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "grip": "neutral",
+        "family": "press",
+        "press_type": "seated",
+        "seated": true,
+        "torso_angle": 0.08,
+        "batch": "003",
+        "audit_version": 3
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "efa81624dfc77e1b66ad175481bf61c712354f9d3e3d1b149b6480425ca585e6",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "adba359d48068acb1b2a6473a2bed2f1fb9fa2a5d1dc19823acb507b07f0094a",
+          "files": {
+            "seated_neutral_press.mp4": "991c26db538468159b6014976014bae3e8ad2db79438be689d7cc9173b3ad3bd",
+            "seated_neutral_press-poster.png": "df4bc496c1a2b8dbf712205135f27a78b4d59bb59778fa42c786cc5fbff2121c"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "deebd50c0f83433e8e26668ed1f143156b9032cae7dae4d73603c654d5b4c0df",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "adba359d48068acb1b2a6473a2bed2f1fb9fa2a5d1dc19823acb507b07f0094a",
+          "files": {
+            "seated_neutral_press.mp4": "f6e6ea42b695a426e01fafb2cfdfefd97b6aec307013a5bfcf42f615c0631d9c",
+            "seated_neutral_press-poster.png": "51c402d862c5fc58133102e87f809446f8c908b7dafafeacbd500fb961f17e02"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "standing_overhead_press",
+      "id": "0426",
+      "title": "站姿哑铃推举",
+      "specification": {
+        "id": "0426",
+        "title": "站姿哑铃推举",
+        "en": "STANDING OVERHEAD PRESS",
+        "muscles": [
+          [
+            "三角肌与肱三头肌",
+            "头顶推举"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "grip": "pronated",
+        "family": "press",
+        "press_type": "standing",
+        "seated": false,
+        "torso_angle": 0,
+        "batch": "003",
+        "audit_version": 3
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "0a620ad05b6c20cbdd0ade9828370d2420473d10238794ef6b87da67b4ebb8dd",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "efb063ac581079870e1d173688b43c370d029a0f86b69f27011eb55212d69f0f",
+          "files": {
+            "standing_overhead_press.mp4": "95e6cf25d5a2a9c79041a3beeb8dc20f47979f95273ff16422ed78ed4cbc07b2",
+            "standing_overhead_press-poster.png": "12063f195aeb893979043f2f8af8b110021b4cbe791fea6cf4d7c1d45b3a0748"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "4f09fc024d5c0f9f919e5268a025ae99a4a17ac9994df39e017596f0a1470d10",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "efb063ac581079870e1d173688b43c370d029a0f86b69f27011eb55212d69f0f",
+          "files": {
+            "standing_overhead_press.mp4": "2a798f37b424da50d2c81caa0cba491b9c3c85c40ce92b3519f247299370db8b",
+            "standing_overhead_press-poster.png": "b1f4602dacb9062e4ed267ccde0450eb5919bf8799178cebb3abbf4ef9e87cb9"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "standing_neutral_press",
+      "id": "0427",
+      "title": "站姿中立握哑铃推举",
+      "specification": {
+        "id": "0427",
+        "title": "站姿中立握哑铃推举",
+        "en": "STANDING NEUTRAL GRIP PRESS",
+        "muscles": [
+          [
+            "三角肌与肱三头肌",
+            "头顶推举"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "grip": "neutral",
+        "family": "press",
+        "press_type": "standing",
+        "seated": false,
+        "torso_angle": 0,
+        "batch": "003",
+        "audit_version": 3
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "c31cea8dce623ce00eeece7ce526f3a426c69d8fe6070718c191ae323eb0d098",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "f87c1f5dab15e5e5e23772d12acd1e42ac9b1c7c635a216e409d7a7ecf7908e0",
+          "files": {
+            "standing_neutral_press.mp4": "44486cfaa26c19b66e2899b55204fe4cfbc25b3394f93da94e855610756f61dd",
+            "standing_neutral_press-poster.png": "1f3411bb127c377020eb5913064770203a244dabc360152272ed9adc3db53b28"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "658a5b70cd7864758a95facef46ab281d89db1206e028a95fbfa47e49b487215",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v3.py": "9e4efc91c26d9ce10ab577771abc090ae3094345111005459bd0477722923b84",
+            "library_scene_v3.py": "48d31888aaa960823145095b590ca6bcc4767803ed6fadacb6c699147a3e1e64"
+          },
+          "specificationSHA256": "f87c1f5dab15e5e5e23772d12acd1e42ac9b1c7c635a216e409d7a7ecf7908e0",
+          "files": {
+            "standing_neutral_press.mp4": "f4669c09306cd2ad45d2d48abfeb2ea2611c39aaaed99326a5c42b65ab3dcd96",
+            "standing_neutral_press-poster.png": "9a8d8190be8287a447b7c9aad06b3c985b2caf2971f7668f3c96db5329a495a4"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    }
+  ],
+  "totalLibrary": {
+    "required": 1324,
+    "bundled": 40,
+    "videoCount": 80,
+    "currentChecksPassed": 39,
+    "legacyReviewRequired": 1,
+    "notImplemented": 1284
+  },
+  "preview": {
+    "path": "docs/animation-library/batch-003-preview.jpg",
+    "sha256": "df996df5e34f61e7b620285a4ff324e3cb8efa6f841d7758ddf84a921e08c623"
+  },
+  "datasetCommit": "7455efae41b330c265e7cd4b78dfa848e7ce5ebd"
+}

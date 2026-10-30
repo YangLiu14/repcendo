@@ -1,0 +1,318 @@
+{
+  "status": "passed",
+  "planID": "recompose-20261028-4w",
+  "planRevision": 3,
+  "planExerciseCount": 19,
+  "newMotionCount": 17,
+  "newVideoCount": 34,
+  "renderedFramesChecked": 4224,
+  "appBundleChecked": true,
+  "samples": {
+    "male/incline_press": {
+      "id": "0314",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "bebc06f2d1a85d81c30283dfe5fc4c6cbb61652f93c34e1200c32b30c01a0735",
+      "sceneSHA256": "5a465c7832c5b941318573b6108543fe9a6b74ad82bcb6b42fc51178819e5af5",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/incline_press": {
+      "id": "0314",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "90c2c802f0af0bc79a258cb05a64a4bc89f8b2a389f303bf7a5d3c87f421c3d1",
+      "sceneSHA256": "c68ab143f514dd76a4884ec59d2647eada0a1dc477ca3ddb0f15994dbd34d0c5",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/pec_fly": {
+      "id": "0596",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "818c91e7aceceeb5e3cb7ef0bfeaf3e96237362940a1ce93404646e85645ab6d",
+      "sceneSHA256": "61179997f61ca745f2aa37d54741237a55a3ed858e9992ca896892d89005414e",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/pec_fly": {
+      "id": "0596",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "0143706a77baae3256fa3e75bf21b12e0b2b2093fa2722a2e1b38a642fd0ec27",
+      "sceneSHA256": "36ba252ed518cf8c05746d4efae56afebe5064d18d3a00751a3ae404879d1572",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/pushdown": {
+      "id": "0200",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "6643df217b7622a560bb2ee6eeda34ec83e9b860d7b9049aad36193b086c7d13",
+      "sceneSHA256": "25a3b838f1207c0d577c12f4db5b9bb8bacf8b6729cbf6234000bcdd0e12af6e",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/pushdown": {
+      "id": "0200",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "296a0a56cb05cef891f95aa63dfecbb1f9a1e68a214bce9cae3e368bcd86586e",
+      "sceneSHA256": "1ffb359a7f6cf87e294a04d4e24db1d769907817a45a29247f52f29fb79d1981",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/cable_crunch": {
+      "id": "0175",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "0ce58e28eed569b558b0bedfb229713ec5f69c212d02924243b0e79ce98afc2a",
+      "sceneSHA256": "69f5c77a54c3587b90175d0fd060fdda825fef93a7cbb5d824b292fd9a58e7a7",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/cable_crunch": {
+      "id": "0175",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "e35d4a768da8e734b69e4b2880f520af946a9c862bab091feeae86bf05062539",
+      "sceneSHA256": "e69c8e0e243878b6f14936cee9de149424564db3aa5c81c29a393668d1a6f610",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/pulldown": {
+      "id": "2330",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "3b3237b23f4bf19c755349ce1a92e4047ec59de4193b8c472b103f3a92c14359",
+      "sceneSHA256": "f003a258896dcd9069b125622056b4678b88960fc1ec950b29f08d3153f4a216",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/pulldown": {
+      "id": "2330",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "4b44412b1da76d1fc0513e81a128bcd7f66c3663d00f75cd9cc1a707109dd777",
+      "sceneSHA256": "c2b26182ed85359561f6d4c09145e3a40a12c580bdb3d41e997e82195b6d1ebf",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/straight_pulldown": {
+      "id": "0238",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "91dd34f35ab073d053edf492a1fe62c65cf5d6ae05957c5d88c5f0463677fab1",
+      "sceneSHA256": "582e6dcbf1c84ad26868d773f3a1960bb1b53c1bcaa0e482a2ace9cfeb0ac1c4",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/straight_pulldown": {
+      "id": "0238",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "f61a605835d4b48e855c8956da893fb46284dcf845d622ae7644a0d98fdfdfaf",
+      "sceneSHA256": "1fd3f658f7eac0ff5138f6cf309d65efa02d7b569d1d8fc1f27011a4154a0ee9",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/curl": {
+      "id": "0294",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "c05294a5203b693ce53c4edc51ee4d211804a7fc74f202077adf0248f0ec34be",
+      "sceneSHA256": "1f841ac6bf39231d089b69df898cff038d0ccdb062d21517c3e339e21f1f6671",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/curl": {
+      "id": "0294",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "c4724dc41a7052201076d5a3478b6174c9616d3ead2fb34b75c0848e0b5cca38",
+      "sceneSHA256": "cfd18f83d79fdcc8f84185264c7fd5bb40a4af2a21b50b0fde894d5c027c1f33",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/leg_press": {
+      "id": "0739",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "f4a2f8063f8838ccdc93a0b4880bd537c2b75e89d8f5d1ee6579e72e878554fa",
+      "sceneSHA256": "2e6e56ecc787c9115f9d53484cbcfa28ee861f974b8175662c7414d92c108698",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/leg_press": {
+      "id": "0739",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "93c1b6705f93ed0b87f08ac75f792d8a20c59543e02f8484942ea4cba243f278",
+      "sceneSHA256": "2d38596af61fa893058e11f17274b67ca16cc8e4bff7fd920a0ce8c40ccc66af",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/rdl": {
+      "id": "0085",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "359e778444d8b56872671d8afeafa57b71d7d44f68b34116333b769a94bdae3d",
+      "sceneSHA256": "efbeea258fa5c7763f4f22c57acd6f414b38076531fe34f65ebad7028ee564a8",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/rdl": {
+      "id": "0085",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "aa382df2bc3ca63fd270ccfb055b2b928e986aed1e9260c109fb43bfc2cba32f",
+      "sceneSHA256": "ae6117a1e2ee7d45750e192075282105d7b0e7c11a9a095ee035d85ca68a93c4",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/leg_curl": {
+      "id": "0599",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "9b46f67829c73cd32d48ea9131ba9df808fa7b544d517f38cad17ff22b5d2276",
+      "sceneSHA256": "a08c4cca78470669719d3ffd7afeb32f9e65bc2907bb87a2d9040050740af7e0",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/leg_curl": {
+      "id": "0599",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "24fe2fdab0ba2f335b7f4ac9a48ad1267fd5ece1489a98f50ef290bdb5c54fdf",
+      "sceneSHA256": "8d48963d264ba4b2c6563176c5d2ea93e73fce234896ae4f7b0dde1030e514b1",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/leg_extension": {
+      "id": "0585",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "55dd88bbfcc6d4a39508e0fb70766220bbe9ff2dd1ce7bcd8cf5421345b171e2",
+      "sceneSHA256": "d9b90b48cec72bfe330e4b3c11035902d0019f33a15eaf6d1da62bd9a5c88941",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/leg_extension": {
+      "id": "0585",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "e6535d7d5fc6f77f0c45b68969cbf00c0847318084e1731fe5b37a7543463a90",
+      "sceneSHA256": "8eb51b333a1e57390e344598b32392d3c8c26aa14b7909f454729616cb160862",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/calf_raise": {
+      "id": "0605",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "d362ced50f938d0f84d9fc7d5a09d8b22c1cfde528be6ae66b4a5d7e957c324c",
+      "sceneSHA256": "fd245ce61daebda44546011e617264c88e9bbd9d64229da14df9a8e33c2e5084",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/calf_raise": {
+      "id": "0605",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "9030e4e691f8ea26022ecf54042bcfe9f1e63dd8c32a41d5b6897a7d0690b8ce",
+      "sceneSHA256": "883fd596d401a79a5471ae1cccded4cd269c28d682072b75e2af5e840933c24e",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/shoulder_press": {
+      "id": "0405",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "06db569cb178211bce3a24f3fa5665f51eb37eba4359e4bfe034658ed7486e51",
+      "sceneSHA256": "42acf5e8456aa08a26de2499992f05fdcec174f2c946286c95810ce0e04a9a3e",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/shoulder_press": {
+      "id": "0405",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "91edc6be0729aeda8b40c1547cc45f5ccee4c7d26a08b18b732796886eaf54eb",
+      "sceneSHA256": "c6fac3659b23430692750699606794b8c6327480cdfcf69ed11b99853b9e0261",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/lateral_raise": {
+      "id": "0334",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "9f69f373c2c6d9b778ba35ce7d99c7f0f3373db68d1fb7b1a723fffd48308061",
+      "sceneSHA256": "92e89af189fc7a683e43119e3987878f87101c43243bcef3b3b846bcf6d41734",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/lateral_raise": {
+      "id": "0334",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "459aa4636ac3142b06920acf329cd55761ceb89ced681c2c95705f0be6deaf37",
+      "sceneSHA256": "a0253fcc02e4ab07980aeec717114ca1570dc767a07d1f30cb676097a644b121",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/reverse_fly": {
+      "id": "0602",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "88a49b1533f24f048155f6d96356708f7e4a1732d65f9fc5fa3a73a8db68b189",
+      "sceneSHA256": "5f140de980bf0b84e083ed7c152e6fd1f2df8ba643a2b04d1668c569c95d1ea1",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/reverse_fly": {
+      "id": "0602",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "0e5da14f040a6f43e2b98ce799b233d5cab46e5d534e5130649f92511d718f0a",
+      "sceneSHA256": "9519bd343248afea28a4df85fed67336c1a640a617deb6c652f6ac2922f2e0e4",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/reverse_crunch": {
+      "id": "0872",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "cbd50e7cb6eb83ed3b5a5a0763cceb85a0eef3906dc2f2e584183e0a03f147dd",
+      "sceneSHA256": "6bc0a9eed25a6894d8349cb189c15829d63b3230b20a1055f035638034bf1672",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/reverse_crunch": {
+      "id": "0872",
+      "frames": 120,
+      "duration": 5.0,
+      "videoSHA256": "5d550101a5dd23728b57208dfde1bac027641a330c9aa83d4db21fd3c57deb22",
+      "sceneSHA256": "e3d7bdf3feb0fc242ec7a1a2ac3fcd91f860e329203dbd825150d963ca234d2e",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "male/dead_bug": {
+      "id": "0276",
+      "frames": 192,
+      "duration": 8.0,
+      "videoSHA256": "c29805afcde14589516927262fe8ad03653eb9547488a061cdf8ca0a63272ce3",
+      "sceneSHA256": "61e90a619d9bb637b843dfea7b6eb2f7dab9a57981083e652284be7ddc5e6791",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    },
+    "female/dead_bug": {
+      "id": "0276",
+      "frames": 192,
+      "duration": 8.0,
+      "videoSHA256": "69226cb7170316ad59df1d6355f7e22a8de4e283e5aea82c2bfe2f6232ebe972",
+      "sceneSHA256": "9e24874173e51f4a038018b329cefec5d60b7dd5205ef5e2fabd75c487103954",
+      "loop_matrix_error": 0.0,
+      "clipped_frames": 0
+    }
+  }
+}

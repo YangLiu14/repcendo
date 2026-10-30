@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "5e985d2471ad6cf5f98c6fe6b0408ba67157ef2fb523b4610a6ab94d673fc65c",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看四阶段主镜头、正面、侧面、背面与器械可见握持近景。左右交替顺序完整，闲置手稳定；中立握与手腕对齐，哑铃与大腿分离，坐垫和双足接触连续。保留角色雕塑衣褶。与全帧独立检查共同验收，非医疗或专业教练认证。",
+  "evidence": {
+    "docs/animation-library/female/seated_alternate_hammer_curl-review.jpg": "17900ec1b08b3000a134c6d3643d01a15319f09cf723b7dea141569eebe3a16c"
+  },
+  "reviewer": "Codex visual inspection"
+}

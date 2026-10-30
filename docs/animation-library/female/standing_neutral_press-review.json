@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "658a5b70cd7864758a95facef46ab281d89db1206e028a95fbfa47e49b487215",
+  "frames": [
+    1,
+    12,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看五视角及女性额外可疑帧。掌心相对贯穿完整循环，手腕与前臂保持对齐，顶部肩肘形态与站姿稳定；原雕塑局部折痕保留。",
+  "evidence": {
+    "docs/animation-library/female/standing_neutral_press-review.jpg": "b73a5bd43b9d7fa575c868dd4dcc56394ea3c4ccd73f65b86fab34cc30d4e4ab"
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "date": "2026-10-30",
+  "scope": "48 currently produced motions, 96 variants",
+  "variants": [
+    {
+      "motion": "reverse_crunch",
+      "sex": "male",
+      "reference": "2025 catalog PDF page 45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/male/reverse_crunch-poster.png",
+      "sceneSHA256": "6bc0a9eed25a6894d8349cb189c15829d63b3230b20a1055f035638034bf1672"
+    },
+    {
+      "motion": "dead_bug",
+      "sex": "male",
+      "reference": "2025 catalog PDF page 45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/male/dead_bug-poster.png",
+      "sceneSHA256": "61e90a619d9bb637b843dfea7b6eb2f7dab9a57981083e652284be7ddc5e6791"
+    },
+    {
+      "motion": "reverse_fly",
+      "sex": "male",
+      "reference": "pec-deck.json",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/male/reverse_fly-poster.png",
+      "sceneSHA256": "5f140de980bf0b84e083ed7c152e6fd1f2df8ba643a2b04d1668c569c95d1ea1"
+    },
+    {
+      "motion": "curl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/male/curl-poster.png",
+      "sceneSHA256": "1f841ac6bf39231d089b69df898cff038d0ccdb062d21517c3e339e21f1f6671"
+    },
+    {
+      "motion": "pec_fly",
+      "sex": "male",
+      "reference": "pec-deck.json",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/male/pec_fly-poster.png",
+      "sceneSHA256": "61179997f61ca745f2aa37d54741237a55a3ed858e9992ca896892d89005414e"
+    },
+    {
+      "motion": "lateral_raise",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/male/lateral_raise-poster.png",
+      "sceneSHA256": "92e89af189fc7a683e43119e3987878f87101c43243bcef3b3b846bcf6d41734"
+    },
+    {
+      "motion": "rdl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/male/rdl-poster.png",
+      "sceneSHA256": "efbeea258fa5c7763f4f22c57acd6f414b38076531fe34f65ebad7028ee564a8"
+    },
+    {
+      "motion": "reverse_crunch",
+      "sex": "female",
+      "reference": "2025 catalog PDF page 45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/female/reverse_crunch-poster.png",
+      "sceneSHA256": "e3d7bdf3feb0fc242ec7a1a2ac3fcd91f860e329203dbd825150d963ca234d2e"
+    },
+    {
+      "motion": "dead_bug",
+      "sex": "female",
+      "reference": "2025 catalog PDF page 45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/female/dead_bug-poster.png",
+      "sceneSHA256": "9e24874173e51f4a038018b329cefec5d60b7dd5205ef5e2fabd75c487103954"
+    },
+    {
+      "motion": "reverse_fly",
+      "sex": "female",
+      "reference": "pec-deck.json",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/female/reverse_fly-poster.png",
+      "sceneSHA256": "9519bd343248afea28a4df85fed67336c1a640a617deb6c652f6ac2922f2e0e4"
+    },
+    {
+      "motion": "curl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/female/curl-poster.png",
+      "sceneSHA256": "cfd18f83d79fdcc8f84185264c7fd5bb40a4af2a21b50b0fde894d5c027c1f33"
+    },
+    {
+      "motion": "pec_fly",
+      "sex": "female",
+      "reference": "pec-deck.json",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/female/pec_fly-poster.png",
+      "sceneSHA256": "36ba252ed518cf8c05746d4efae56afebe5064d18d3a00751a3ae404879d1572"
+    },
+    {
+      "motion": "lateral_raise",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/female/lateral_raise-poster.png",
+      "sceneSHA256": "a0253fcc02e4ab07980aeec717114ca1570dc767a07d1f30cb676097a644b121"
+    },
+    {
+      "motion": "rdl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-plan-v3/female/rdl-poster.png",
+      "sceneSHA256": "ae6117a1e2ee7d45750e192075282105d7b0e7c11a9a095ee035d85ca68a93c4"
+    },
+    {
+      "motion": "bench",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-samples-v2/male/bench-poster.png",
+      "sceneSHA256": "81548a622de5d1af452e2e5f2529fee56fc73594e227da07b54c80cbb0c3802a"
+    },
+    {
+      "motion": "squat",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-samples-v2/male/squat-poster.png",
+      "sceneSHA256": "d81dce4585b29e28836a9e65aa41f19786af0fa9e9f60982f4184a75750f7f4e"
+    },
+    {
+      "motion": "bench",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-samples-v2/female/bench-poster.png",
+      "sceneSHA256": "f6ced8c721f07dea231a9ee0b7e9d3896e9732f063615faf32ae00c6c5227f3b"
+    },
+    {
+      "motion": "squat",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-samples-v2/female/squat-poster.png",
+      "sceneSHA256": "ad2d9ab489de91c7a705dd47c7d73b2edad74c683ae2a65bbc04d20c8739381c"
+    },
+    {
+      "motion": "db_shrug",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/db_shrug-poster.png",
+      "sceneSHA256": "88fd6098bca4239843a1722a1d6904b596d7f9bcc6b48f7b6d771cf7ab4afa68"
+    },
+    {
+      "motion": "lateral_front_raise",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/lateral_front_raise-poster.png",
+      "sceneSHA256": "918e8898e220787b61d8a3c7ae8b7cc4d1d131ded62d7560e7477bfe260d182e"
+    },
+    {
+      "motion": "full_can_raise",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/full_can_raise-poster.png",
+      "sceneSHA256": "9589837887a396d8997186841a20c754002e537229e5075b5c5dca8315f48b75"
+    },
+    {
+      "motion": "cross_body_hammer_curl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/cross_body_hammer_curl-poster.png",
+      "sceneSHA256": "2bb09d199722114e62548848fee815c59150030d465c47fb0ce8dfd605eb5adf"
+    },
+    {
+      "motion": "standing_neutral_press",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/standing_neutral_press-poster.png",
+      "sceneSHA256": "c31cea8dce623ce00eeece7ce526f3a426c69d8fe6070718c191ae323eb0d098"
+    },
+    {
+      "motion": "seated_lateral_raise",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/seated_lateral_raise-poster.png",
+      "sceneSHA256": "ff1f574302a9ee03ccea6a01f8e4d81b94b83d542fcdb3fce64aa5cbd85a9710"
+    },
+    {
+      "motion": "db_bent_row",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/db_bent_row-poster.png",
+      "sceneSHA256": "876474f7965ae9639c8c8bc3d93538dcb2c174c21cc4ff8ac6c9c811526d9093"
+    },
+    {
+      "motion": "standing_alternate_lateral_raise",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/standing_alternate_lateral_raise-poster.png",
+      "sceneSHA256": "d4e917df808565781786612f453f5a6c8235b50756eaf5f3f1c65d1fbf311f49"
+    },
+    {
+      "motion": "alternate_curl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/alternate_curl-poster.png",
+      "sceneSHA256": "f92e75f3a2de79fe1b162c44f200b0a7d31dc5af93829b0d3d3c2d1daa704a58"
+    },
+    {
+      "motion": "seated_front_raise",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/seated_front_raise-poster.png",
+      "sceneSHA256": "18e6e03a5985c2a31ad29a03b99174e15cdd59119f7120ab84e5d23ab13ace9e"
+    },
+    {
+      "motion": "seated_hammer_curl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/seated_hammer_curl-poster.png",
+      "sceneSHA256": "2d60f09dc871ffaa587ac97e37b67302e63649f499b204f4565cbc9b0fb7320c"
+    },
+    {
+      "motion": "seated_alternate_front_raise",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/seated_alternate_front_raise-poster.png",
+      "sceneSHA256": "a2c35e12a3141fed0f6db6e22f51302af41b65d6e6eafdd1cbc1941079faedb3"
+    },
+    {
+      "motion": "hammer_curl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/hammer_curl-poster.png",
+      "sceneSHA256": "4c8252dcc5e11a1f029554801a4ab40a561b9f061ed34e092345f128b4034bf5"
+    },
+    {
+      "motion": "front_raise",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/front_raise-poster.png",
+      "sceneSHA256": "b0495d093340ff6010fddbdf36f0dea2596b13d760ecb7e2bbee6de032735d77"
+    },
+    {
+      "motion": "seated_curl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/seated_curl-poster.png",
+      "sceneSHA256": "2f73a3b6a50e4173cf7c4aa515ca210af35fe441da018a19eefd43f596c681d2"
+    },
+    {
+      "motion": "seated_alternate_hammer_curl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/seated_alternate_hammer_curl-poster.png",
+      "sceneSHA256": "9bd06c62b306eb4e5f552ac0751f84ef0a47e21604c1625098241e8f5a240c98"
+    },
+    {
+      "motion": "zottman_curl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/zottman_curl-poster.png",
+      "sceneSHA256": "099a35b92aeb065c2093e1d715a0acc8f433d1690cdca694aeebfdba2c396df5"
+    },
+    {
+      "motion": "reverse_curl",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/reverse_curl-poster.png",
+      "sceneSHA256": "e14ad39277945f0f19e8b8a745b79db41ea0fcbee58c12cab857c289919fccd6"
+    },
+    {
+      "motion": "standing_alternate_press",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/standing_alternate_press-poster.png",
+      "sceneSHA256": "de0f02baa2e9370fea709cce7f8ba3cc2621ca90f6a44256fddd06972a67b620"
+    },
+    {
+      "motion": "db_bench_press",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/db_bench_press-poster.png",
+      "sceneSHA256": "8012be3c152b8215244f358ba81752a6b2ffadc91ca4b7c460d2b7fe98a6f8f4"
+    },
+    {
+      "motion": "neutral_bench_press",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/neutral_bench_press-poster.png",
+      "sceneSHA256": "e38c5f63bddf13b393c1b0368310934538b0e9b81552161affaf2dc75e123f1a"
+    },
+    {
+      "motion": "standing_overhead_press",
+      "sex": "male",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/male/standing_overhead_press-poster.png",
+      "sceneSHA256": "0a620ad05b6c20cbdd0ade9828370d2420473d10238794ef6b87da67b4ebb8dd"
+    },
+    {
+      "motion": "db_shrug",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/db_shrug-poster.png",
+      "sceneSHA256": "7d5c464a823966238bb417a846eefbb26c91f72f334c360e6771a34ec909c132"
+    },
+    {
+      "motion": "lateral_front_raise",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/lateral_front_raise-poster.png",
+      "sceneSHA256": "e6420c4cfbf9ff19d07f71fc02ce6560ef85df2159a51cf31373c2d83d8ce0e7"
+    },
+    {
+      "motion": "full_can_raise",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/full_can_raise-poster.png",
+      "sceneSHA256": "2a4cf266536e23e2888d8fcc6271bef5c65adbd05d2731c1b1b4107170f1cc3c"
+    },
+    {
+      "motion": "cross_body_hammer_curl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/cross_body_hammer_curl-poster.png",
+      "sceneSHA256": "49fe9f6f653fd78d1c9aa65aaaf775ca5977bb4490e48378e9017774042f054f"
+    },
+    {
+      "motion": "standing_neutral_press",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/standing_neutral_press-poster.png",
+      "sceneSHA256": "658a5b70cd7864758a95facef46ab281d89db1206e028a95fbfa47e49b487215"
+    },
+    {
+      "motion": "seated_lateral_raise",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/seated_lateral_raise-poster.png",
+      "sceneSHA256": "d57376f918f906dcdf519c71d4995ed7a20e366e75c18b9d14f3e7ac7b69f47d"
+    },
+    {
+      "motion": "db_bent_row",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/db_bent_row-poster.png",
+      "sceneSHA256": "03ff0e2d946f90355e08d7a0a092a05ffc34a29047ba0cd045c84ede9eab2932"
+    },
+    {
+      "motion": "standing_alternate_lateral_raise",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/standing_alternate_lateral_raise-poster.png",
+      "sceneSHA256": "6005ddd49b1e1b7ef7f5846307ccdcb495ed73e6e4b8f56399a30225185d6afa"
+    },
+    {
+      "motion": "alternate_curl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/alternate_curl-poster.png",
+      "sceneSHA256": "318806a76c375b012e6d9661282d28adeb6eb6ab8fadeced55a1bceef638ea82"
+    },
+    {
+      "motion": "seated_front_raise",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/seated_front_raise-poster.png",
+      "sceneSHA256": "bcdd2ba379bde32dd0d43ea1eabbd4e32a193561b6132f71824fe06e32156abf"
+    },
+    {
+      "motion": "seated_hammer_curl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/seated_hammer_curl-poster.png",
+      "sceneSHA256": "5caa467eb3e96b0caf71583a2674e52ec221eb2d17a4e8f0e28148b147a6712a"
+    },
+    {
+      "motion": "seated_alternate_front_raise",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/seated_alternate_front_raise-poster.png",
+      "sceneSHA256": "ed0298be60543dacd0e71890a0d5c6546ceb7c11bcf074cb641a45e449ad4ee1"
+    },
+    {
+      "motion": "hammer_curl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/hammer_curl-poster.png",
+      "sceneSHA256": "9d6e5e672692a61d81c88131d67d609ac7fa72c6e2780c0a4dca850d0ee36ada"
+    },
+    {
+      "motion": "front_raise",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/front_raise-poster.png",
+      "sceneSHA256": "eecf4b89587decd2f87d29f89f23709f6db2b5b3b3d4f26b774ec6fcf0d7d344"
+    },
+    {
+      "motion": "seated_curl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/seated_curl-poster.png",
+      "sceneSHA256": "0c927ef6304c6b19a8ce78df0fe162471c85ace1157ee525e9670d488ba813a3"
+    },
+    {
+      "motion": "seated_alternate_hammer_curl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/seated_alternate_hammer_curl-poster.png",
+      "sceneSHA256": "5e985d2471ad6cf5f98c6fe6b0408ba67157ef2fb523b4610a6ab94d673fc65c"
+    },
+    {
+      "motion": "zottman_curl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/zottman_curl-poster.png",
+      "sceneSHA256": "85d70f80ccc66832d9e807712d5cb746b280147287655a311cc4c1b21b5036c6"
+    },
+    {
+      "motion": "reverse_curl",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/reverse_curl-poster.png",
+      "sceneSHA256": "768ae7298ed049da463c3a19dca4cb1482a34d8439027bbd8bb0583a28bb68e1"
+    },
+    {
+      "motion": "standing_alternate_press",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/standing_alternate_press-poster.png",
+      "sceneSHA256": "6e837bdfcd2e0d4fe3a693d11b80338740f536a00a87a05c45adeadd154e4d27"
+    },
+    {
+      "motion": "db_bench_press",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/db_bench_press-poster.png",
+      "sceneSHA256": "6ab58887e5a827cae1de3627e98d4adcbff5b521c9627fc9a15eabc0696c4db5"
+    },
+    {
+      "motion": "neutral_bench_press",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/neutral_bench_press-poster.png",
+      "sceneSHA256": "7cf22e7b395bf826abc7ce13937f6c232f69e3d6f660db4b42e65aa10fc95a03"
+    },
+    {
+      "motion": "standing_overhead_press",
+      "sex": "female",
+      "reference": "2025 catalog PDF pages 39,44,45",
+      "decision": "retain_existing",
+      "notes": "已实际查看现有封面及共用器械构造，与对应照片对照；未发现需要改动的器械结构。仅器械复核，不代替人体全帧验收。",
+      "poster": "docs/animation-library/female/standing_overhead_press-poster.png",
+      "sceneSHA256": "4f09fc024d5c0f9f919e5268a025ae99a4a17ac9994df39e017596f0a1470d10"
+    },
+    {
+      "motion": "pushdown",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "25a3b838f1207c0d577c12f4db5b9bb8bacf8b6729cbf6234000bcdd0e12af6e"
+    },
+    {
+      "motion": "pulldown",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "f003a258896dcd9069b125622056b4678b88960fc1ec950b29f08d3153f4a216"
+    },
+    {
+      "motion": "straight_pulldown",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "582e6dcbf1c84ad26868d773f3a1960bb1b53c1bcaa0e482a2ace9cfeb0ac1c4"
+    },
+    {
+      "motion": "cable_crunch",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "69f5c77a54c3587b90175d0fd060fdda825fef93a7cbb5d824b292fd9a58e7a7"
+    },
+    {
+      "motion": "row",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "f924706a6258afbb78e3c7834f8c4d6363cb36f5d8097697a8ed777efaf0a8d4"
+    },
+    {
+      "motion": "leg_curl",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "a08c4cca78470669719d3ffd7afeb32f9e65bc2907bb87a2d9040050740af7e0"
+    },
+    {
+      "motion": "leg_extension",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "d9b90b48cec72bfe330e4b3c11035902d0019f33a15eaf6d1da62bd9a5c88941"
+    },
+    {
+      "motion": "leg_press",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "2e6e56ecc787c9115f9d53484cbcfa28ee861f974b8175662c7414d92c108698"
+    },
+    {
+      "motion": "calf_raise",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "fd245ce61daebda44546011e617264c88e9bbd9d64229da14df9a8e33c2e5084"
+    },
+    {
+      "motion": "incline_press",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "5a465c7832c5b941318573b6108543fe9a6b74ad82bcb6b42fc51178819e5af5"
+    },
+    {
+      "motion": "shoulder_press",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "42acf5e8456aa08a26de2499992f05fdcec174f2c946286c95810ce0e04a9a3e"
+    },
+    {
+      "motion": "incline_hammer_press",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "60435694dc19c0c9681fc6dea075b0f8e6afafd57666278dc390dcb1d6f209f8"
+    },
+    {
+      "motion": "incline_alternate_press",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "9535ed8790511ab65492071e90249e48d6f0e663843c558fabc724d10a4bafe4"
+    },
+    {
+      "motion": "seated_alternate_press",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "600d71099cee804d2f83a9244978a5fcc36a54a388a0ec4212b01a3c70994bf1"
+    },
+    {
+      "motion": "seated_neutral_press",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "b5051baa13bf38627c4f829afd34ab613052a8c158a8e3f528fd5fb9b2df66fd"
+    },
+    {
+      "motion": "incline_biceps_curl",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "3446ff37a1844efa734a0a08e7582773814ec137ae1bcff9867c6bcc15c33efe"
+    },
+    {
+      "motion": "incline_hammer_curl",
+      "sex": "male",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "893a51596c4d0f64de1302bd4d5cbb02f048a605aaabf9e4b192bfe9051fa7bf"
+    },
+    {
+      "motion": "pushdown",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "1ffb359a7f6cf87e294a04d4e24db1d769907817a45a29247f52f29fb79d1981"
+    },
+    {
+      "motion": "pulldown",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "c2b26182ed85359561f6d4c09145e3a40a12c580bdb3d41e997e82195b6d1ebf"
+    },
+    {
+      "motion": "straight_pulldown",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "1fd3f658f7eac0ff5138f6cf309d65efa02d7b569d1d8fc1f27011a4154a0ee9"
+    },
+    {
+      "motion": "cable_crunch",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "e69c8e0e243878b6f14936cee9de149424564db3aa5c81c29a393668d1a6f610"
+    },
+    {
+      "motion": "row",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "4f7d4c8e37aa9520b0e94637937946881cffe3192b8d56f6b3a1b597657bd831"
+    },
+    {
+      "motion": "leg_curl",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "8d48963d264ba4b2c6563176c5d2ea93e73fce234896ae4f7b0dde1030e514b1"
+    },
+    {
+      "motion": "leg_extension",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "8eb51b333a1e57390e344598b32392d3c8c26aa14b7909f454729616cb160862"
+    },
+    {
+      "motion": "leg_press",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "2d38596af61fa893058e11f17274b67ca16cc8e4bff7fd920a0ce8c40ccc66af"
+    },
+    {
+      "motion": "calf_raise",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "883fd596d401a79a5471ae1cccded4cd269c28d682072b75e2af5e840933c24e"
+    },
+    {
+      "motion": "incline_press",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "c68ab143f514dd76a4884ec59d2647eada0a1dc477ca3ddb0f15994dbd34d0c5"
+    },
+    {
+      "motion": "shoulder_press",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "c6fac3659b23430692750699606794b8c6327480cdfcf69ed11b99853b9e0261"
+    },
+    {
+      "motion": "incline_hammer_press",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "0b96d0c755e6cf48d91d092eee5254f548895d8188596bc355e65fff10c1cf23"
+    },
+    {
+      "motion": "incline_alternate_press",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "d0a37fb5e81ba53e4b43b6463c5e7adae26fa6823f8c40c42f2ccc54187911e1"
+    },
+    {
+      "motion": "seated_alternate_press",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "36cfb3ee9acfb57f9440c27b72022070c99c6ef1276caff56338ea4cb2730125"
+    },
+    {
+      "motion": "seated_neutral_press",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "90e2a786a88540a4156988ce8ad3bee695f03a303dc213b9fd707d1527a03e4f"
+    },
+    {
+      "motion": "incline_biceps_curl",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "fe4eb5447475d4fcea9f0d403b8cbc797d230bede8a8479e50e95e551499aabe"
+    },
+    {
+      "motion": "incline_hammer_curl",
+      "sex": "female",
+      "reference": "equipment-audit.json",
+      "decision": "refitted_validated_and_delivered",
+      "sceneSHA256": "7ee22f99632e8a1fd68fd331bfab663ba07e59d662d3bc21179b8ff053b96cb0"
+    }
+  ]
+}

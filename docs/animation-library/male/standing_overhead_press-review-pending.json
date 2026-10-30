@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "0a620ad05b6c20cbdd0ade9828370d2420473d10238794ef6b87da67b4ebb8dd",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/standing_overhead_press-review.jpg": "a42d996a0873a3e153799ed3edb46f76c220eebdc93d3040adbe630ff767e272"
+  }
+}

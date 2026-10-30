@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "bcdd2ba379bde32dd0d43ea1eabbd4e32a193561b6132f71824fe06e32156abf",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/seated_front_raise-review.jpg": "accb4db80517c4b569c56608c548e0ee6e71bfb98a482742c02e9754b21ed895"
+  }
+}

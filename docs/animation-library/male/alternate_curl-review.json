@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "f92e75f3a2de79fe1b162c44f200b0a7d31dc5af93829b0d3d3c2d1daa704a58",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "Inspected main/front/side/back and hand views at frames 1,49,97,145. Both left and right curls are present, the resting arm stays still, palms remain supinated and wrists straight. Dumbbells stay clear of thighs; upper arms and feet are stable. No new visible arm/torso folding. Existing sculpture fabric folds retained; illustrative motion review, not professional biomechanical certification.",
+  "evidence": {
+    "docs/animation-library/male/alternate_curl-review.jpg": "c2145164292a6c48295ea9947cf73bb8f3c2873322d87727efdb77844588920a"
+  },
+  "reviewer": "Codex visual inspection"
+}

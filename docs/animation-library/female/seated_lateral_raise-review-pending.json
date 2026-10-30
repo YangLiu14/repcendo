@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "d57376f918f906dcdf519c71d4995ed7a20e366e75c18b9d14f3e7ac7b69f47d",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/seated_lateral_raise-review.jpg": "1478d0031228e98f4680f7a00c2059cc374484956090a9befda6ba4d55437963"
+  }
+}

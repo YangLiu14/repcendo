@@ -1,0 +1,569 @@
+{
+  "scope": "pec_fly",
+  "status": "passed",
+  "frames_per_clip": [
+    1,
+    31,
+    61,
+    91,
+    121
+  ],
+  "shaft_radius_m": 0.014,
+  "errors": [],
+  "samples": {
+    "male/pec_fly": {
+      "sceneSHA256": "61179997f61ca745f2aa37d54741237a55a3ed858e9992ca896892d89005414e",
+      "finger_bone_count": 30,
+      "index_control_affected_vertices": 1547,
+      "surface_checks": [
+        {
+          "frame": 1,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.015501079716530811,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.0015172477688203383,
+            "Index": 0.0015214856733211986,
+            "Middle": 0.0015027165077061005,
+            "Ring": 0.001514647676301436,
+            "Pinky": 0.001557650449462383
+          },
+          "max_hand_drift_m": 0.0
+        },
+        {
+          "frame": 1,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.015499514103233457,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.0014998162228544477,
+            "Index": 0.001499514103233457,
+            "Middle": 0.0014996917203892908,
+            "Ring": 0.0014997028007236318,
+            "Pinky": 0.001499549323578743
+          },
+          "max_hand_drift_m": 0.0
+        },
+        {
+          "frame": 31,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.015500826546684316,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.001517773681190021,
+            "Index": 0.0015217456028886675,
+            "Middle": 0.0015030894419736564,
+            "Ring": 0.0015143612024117268,
+            "Pinky": 0.0015574873174737658
+          },
+          "max_hand_drift_m": 1.093728859670386e-06
+        },
+        {
+          "frame": 31,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.01549940628200028,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.001499720926712007,
+            "Index": 0.0014994362075566817,
+            "Middle": 0.0014994500072723523,
+            "Ring": 0.001499406282000279,
+            "Pinky": 0.0014995527115141023
+          },
+          "max_hand_drift_m": 9.264201088170681e-07
+        },
+        {
+          "frame": 61,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.015500561856925492,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.0015177429981236851,
+            "Index": 0.0015217216197697288,
+            "Middle": 0.0015029184017527186,
+            "Ring": 0.001514423390499297,
+            "Pinky": 0.0015572518398508477
+          },
+          "max_hand_drift_m": 1.1098569248646203e-06
+        },
+        {
+          "frame": 61,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.015499237314156509,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.001499679727570636,
+            "Index": 0.00149936468279239,
+            "Middle": 0.0014995294456777442,
+            "Ring": 0.0014997574816010672,
+            "Pinky": 0.0014996118067987542
+          },
+          "max_hand_drift_m": 1.0835103802737048e-06
+        },
+        {
+          "frame": 91,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.015500826546684316,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.001517773681190021,
+            "Index": 0.0015217456028886675,
+            "Middle": 0.0015030894419736564,
+            "Ring": 0.0015143612024117268,
+            "Pinky": 0.0015574873174737658
+          },
+          "max_hand_drift_m": 1.093728859670386e-06
+        },
+        {
+          "frame": 91,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.01549940628200028,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.001499720926712007,
+            "Index": 0.0014994362075566817,
+            "Middle": 0.0014994500072723523,
+            "Ring": 0.001499406282000279,
+            "Pinky": 0.0014995527115141023
+          },
+          "max_hand_drift_m": 9.264201088170681e-07
+        },
+        {
+          "frame": 121,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.015501095536628071,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.0015172513990275704,
+            "Index": 0.00152147345780918,
+            "Middle": 0.001502738147871257,
+            "Ring": 0.0015146574331930465,
+            "Pinky": 0.0015576575467725375
+          },
+          "max_hand_drift_m": 4.216821209714136e-08
+        },
+        {
+          "frame": 121,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.015499456854356278,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.0014997731022207937,
+            "Index": 0.0014994568543562781,
+            "Middle": 0.0014996280817355934,
+            "Ring": 0.0014996959682701191,
+            "Pinky": 0.001499594988528162
+          },
+          "max_hand_drift_m": 7.656802565469473e-08
+        }
+      ]
+    },
+    "female/pec_fly": {
+      "sceneSHA256": "36ba252ed518cf8c05746d4efae56afebe5064d18d3a00751a3ae404879d1572",
+      "finger_bone_count": 30,
+      "index_control_affected_vertices": 1616,
+      "surface_checks": [
+        {
+          "frame": 1,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.01719790877182417,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.003197908771824168,
+            "Index": 0.005358110745451202,
+            "Middle": 0.004716993239784849,
+            "Ring": 0.004748115077328105,
+            "Pinky": 0.004084769594747928
+          },
+          "max_hand_drift_m": 0.0
+        },
+        {
+          "frame": 1,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.017165810909148184,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.0031658109091481836,
+            "Index": 0.005208808522330131,
+            "Middle": 0.0045991024637702434,
+            "Ring": 0.004716045914259609,
+            "Pinky": 0.003849592298553488
+          },
+          "max_hand_drift_m": 0.0
+        },
+        {
+          "frame": 31,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.01719719379627704,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.00319719379627704,
+            "Index": 0.005358131738133392,
+            "Middle": 0.004717329777692481,
+            "Ring": 0.004748316059101454,
+            "Pinky": 0.004084757993190158
+          },
+          "max_hand_drift_m": 9.77815353907179e-07
+        },
+        {
+          "frame": 31,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.01716555678132351,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.003165556781323511,
+            "Index": 0.005209062735778447,
+            "Middle": 0.0045989311682269034,
+            "Ring": 0.004716146869592817,
+            "Pinky": 0.0038497120309764956
+          },
+          "max_hand_drift_m": 8.769739598638185e-07
+        },
+        {
+          "frame": 61,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.017197421692070072,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.003197421692070072,
+            "Index": 0.00535835293123116,
+            "Middle": 0.004717460720920262,
+            "Ring": 0.004748396797807886,
+            "Pinky": 0.004084887969041587
+          },
+          "max_hand_drift_m": 1.0821495756145715e-06
+        },
+        {
+          "frame": 61,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.017165622870952996,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.0031656228709529954,
+            "Index": 0.005208952328186441,
+            "Middle": 0.004598578731630774,
+            "Ring": 0.004715719595930581,
+            "Pinky": 0.0038496326806704926
+          },
+          "max_hand_drift_m": 1.0905052387788232e-06
+        },
+        {
+          "frame": 91,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.01719719379627704,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.00319719379627704,
+            "Index": 0.005358131738133392,
+            "Middle": 0.004717329777692481,
+            "Ring": 0.004748316059101454,
+            "Pinky": 0.004084757993190158
+          },
+          "max_hand_drift_m": 9.77815353907179e-07
+        },
+        {
+          "frame": 91,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.01716555678132351,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.003165556781323511,
+            "Index": 0.005209062735778447,
+            "Middle": 0.0045989311682269034,
+            "Ring": 0.004716146869592817,
+            "Pinky": 0.0038497120309764956
+          },
+          "max_hand_drift_m": 8.769739598638185e-07
+        },
+        {
+          "frame": 121,
+          "hand": "Left",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.017197910229332383,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.003197910229332383,
+            "Index": 0.0053581194621007185,
+            "Middle": 0.004717005617352428,
+            "Ring": 0.00474812525903886,
+            "Pinky": 0.004084776724436695
+          },
+          "max_hand_drift_m": 4.1728722574521385e-08
+        },
+        {
+          "frame": 121,
+          "hand": "Right",
+          "radial_sectors": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "min_surface_radius_m": 0.0171657614997442,
+          "digit_nearest_shaft_gap_m": {
+            "Thumb": 0.0031657614997441987,
+            "Index": 0.005208820401376128,
+            "Middle": 0.004599068074975095,
+            "Ring": 0.004716032423589716,
+            "Pinky": 0.0038496026869420715
+          },
+          "max_hand_drift_m": 1.2217333778176268e-07
+        }
+      ]
+    }
+  }
+}

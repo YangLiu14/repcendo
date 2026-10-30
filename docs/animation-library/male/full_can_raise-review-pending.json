@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "9589837887a396d8997186841a20c754002e537229e5075b5c5dca8315f48b75",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/full_can_raise-review.jpg": "6d06bd703283500e9241625ff56a87127c8008e3fdbf51ca1df1acf777a2104b"
+  }
+}

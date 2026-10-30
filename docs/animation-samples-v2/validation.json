@@ -83,7 +83,7 @@
       "motion": {
         "frames_checked": 121,
         "max_limb_length_error_m": 6.420922610272939e-08,
-        "max_grip_target_error_m": 2.81549150164294e-07,
+        "max_grip_target_error_m": 2.653076323086747e-07,
         "loop_matrix_error": 0.0,
         "shoulder_refinement": {
           "profile_vertices": 1164,
@@ -98,14 +98,14 @@
         "finger_bones": 30,
         "contact_corrective": {
           "Left": {
-            "vertices": 58,
-            "max_surface_adjustment_m": 0.010236155516125743,
+            "vertices": 967,
+            "max_surface_adjustment_m": 0.014566829120504653,
             "shaft_radius_m": 0.014,
             "clearance_radius_m": 0.0155
           },
           "Right": {
-            "vertices": 66,
-            "max_surface_adjustment_m": 0.011805416385383447,
+            "vertices": 1123,
+            "max_surface_adjustment_m": 0.013825228685515417,
             "shaft_radius_m": 0.014,
             "clearance_radius_m": 0.0155
           }
@@ -134,8 +134,8 @@
       "clipped_frames": [],
       "motion": {
         "frames_checked": 121,
-        "max_limb_length_error_m": 7.411364061349346e-08,
-        "max_grip_target_error_m": 3.2098083538618706e-07,
+        "max_limb_length_error_m": 8.010396074231707e-08,
+        "max_grip_target_error_m": 3.0692413336107104e-07,
         "loop_matrix_error": 0.0,
         "shoulder_refinement": {
           "profile_vertices": 1164,
@@ -151,14 +151,14 @@
         "finger_bones": 30,
         "contact_corrective": {
           "Left": {
-            "vertices": 58,
-            "max_surface_adjustment_m": 0.010236588143759493,
+            "vertices": 967,
+            "max_surface_adjustment_m": 0.014566811205312797,
             "shaft_radius_m": 0.014,
             "clearance_radius_m": 0.0155
           },
           "Right": {
-            "vertices": 66,
-            "max_surface_adjustment_m": 0.011805384359141535,
+            "vertices": 1123,
+            "max_surface_adjustment_m": 0.013824912499229373,
             "shaft_radius_m": 0.014,
             "clearance_radius_m": 0.0155
           }
@@ -244,8 +244,8 @@
       "clipped_frames": [],
       "motion": {
         "frames_checked": 121,
-        "max_limb_length_error_m": 7.231215998215745e-08,
-        "max_grip_target_error_m": 3.0719530773294425e-07,
+        "max_limb_length_error_m": 7.017432845923821e-08,
+        "max_grip_target_error_m": 2.5636927089222153e-07,
         "loop_matrix_error": 0.0,
         "shoulder_refinement": {
           "profile_vertices": 1130,
@@ -260,14 +260,14 @@
         "finger_bones": 30,
         "contact_corrective": {
           "Left": {
-            "vertices": 34,
-            "max_surface_adjustment_m": 0.008708013181160938,
+            "vertices": 527,
+            "max_surface_adjustment_m": 0.008708222013333612,
             "shaft_radius_m": 0.014,
             "clearance_radius_m": 0.0155
           },
           "Right": {
-            "vertices": 29,
-            "max_surface_adjustment_m": 0.008677935671678252,
+            "vertices": 434,
+            "max_surface_adjustment_m": 0.008836416411817049,
             "shaft_radius_m": 0.014,
             "clearance_radius_m": 0.0155
           }
@@ -296,8 +296,8 @@
       "clipped_frames": [],
       "motion": {
         "frames_checked": 121,
-        "max_limb_length_error_m": 7.642649324512973e-08,
-        "max_grip_target_error_m": 3.0719530773294425e-07,
+        "max_limb_length_error_m": 7.165748333592958e-08,
+        "max_grip_target_error_m": 3.2655309141890894e-07,
         "loop_matrix_error": 0.0,
         "shoulder_refinement": {
           "profile_vertices": 1130,
@@ -313,14 +313,14 @@
         "finger_bones": 30,
         "contact_corrective": {
           "Left": {
-            "vertices": 34,
-            "max_surface_adjustment_m": 0.008707868281689169,
+            "vertices": 527,
+            "max_surface_adjustment_m": 0.008708047110663735,
             "shaft_radius_m": 0.014,
             "clearance_radius_m": 0.0155
           },
           "Right": {
-            "vertices": 29,
-            "max_surface_adjustment_m": 0.008677923010505253,
+            "vertices": 434,
+            "max_surface_adjustment_m": 0.008836193870751408,
             "shaft_radius_m": 0.014,
             "clearance_radius_m": 0.0155
           }

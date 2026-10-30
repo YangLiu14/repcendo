@@ -1,0 +1,23 @@
+{
+  "sceneSHA256": "49fe9f6f653fd78d1c9aa65aaaf775ca5977bb4490e48378e9017774042f054f",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v4.py": "736b6632499a75e9fc19ee5eb10427a8263e5009830ae34bce6eed0188e9a2d6",
+    "library_scene_v4.py": "62f14db47068d60876063ab5e26dd5adf0150babc9958a7acdfbfbcb63d6001f"
+  },
+  "specificationSHA256": "2de08970c1aec64e7aa67fc73e6e4d167fa31188695dd19e7b6643d23a36b8f1",
+  "files": {
+    "cross_body_hammer_curl.mp4": "ecc14f409f73a9ec8360d7b69efd500833270f6868694669be7a14ad01b67e81",
+    "cross_body_hammer_curl-poster.png": "d09f630ee4edf6c6b3424732d5aa174540a2e23c440976311ebda87c9f7cf8ea"
+  },
+  "mediaValidation": {
+    "decoded": true,
+    "frames": 192,
+    "clippedFrames": [],
+    "codec": "h264",
+    "width": 1280,
+    "height": 960,
+    "fps": 24
+  }
+}

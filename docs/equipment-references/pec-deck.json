@@ -1,0 +1,11 @@
+{
+  "id": "pec-deck",
+  "reviewed_on": "2026-10-30",
+  "reference_model": "Life Fitness Insignia SS-FLY",
+  "product_url": "https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-pectoral-fly-rear-deltoid",
+  "photo_urls": ["https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LifeFitnessImages/Equipment/Strength/Selectorised/Insignia%20Series/Insignia%20Pectoral%20Fly%20Read%20Deltoid/LF-INSIGNIA-Pectoral-Fly-Rear-Deltoid-Black-Thumbnail.png?ext=.png"],
+  "photo_inspected": true,
+  "observed_structure": ["Two vertical pivot axes above the seat", "Horizontal rotating booms and descending handle arms", "Adjustable seat and shared chest/back pad", "Rear selectorized weight tower with guarded transmission", "Rigid base connecting seat and tower"],
+  "adaptation": "Original simplified geometry in Repcendo materials; dimensions fit our characters. Preserve mechanism and support layout; not a dimensionally exact SS-FLY replica. Reference photo is not included in App resources.",
+  "motions": ["pec_fly", "reverse_fly"]
+}

@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "ed0298be60543dacd0e71890a0d5c6546ceb7c11bcf074cb641a45e449ad4ee1",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已逐项查看四阶段主镜头、正侧背与器械可见握持近景。坐姿稳定，低位于大腿外侧留出哑铃空间，逐渐收拢前举至肩高；正握双臂与中立握交替规格清晰，手腕未折弯，闲置手位置保持。肩部轮廓和衣褶无明显破坏，保留雕塑细节。结合全帧检查验收。",
+  "evidence": {
+    "docs/animation-library/female/seated_alternate_front_raise-review.jpg": "f6957501fc88474acbf0cfaa99511b91be9a2e887d6e36797ac76fad3d72c4c2"
+  },
+  "reviewer": "Codex visual inspection"
+}

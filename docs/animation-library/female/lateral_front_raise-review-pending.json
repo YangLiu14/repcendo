@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "e6420c4cfbf9ff19d07f71fc02ce6560ef85df2159a51cf31373c2d83d8ce0e7",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/lateral_front_raise-review.jpg": "5b3da19094b36c705ca4f3b81ddd9f94ae6087f9bfb7b197e422d095482f4c78"
+  }
+}

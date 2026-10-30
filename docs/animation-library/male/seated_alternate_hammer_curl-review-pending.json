@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "9bd06c62b306eb4e5f552ac0751f84ef0a47e21604c1625098241e8f5a240c98",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/seated_alternate_hammer_curl-review.jpg": "41c1c4a96663a949883c571d520175e5d34f81470e02bce12068fe0b070a43d4"
+  }
+}

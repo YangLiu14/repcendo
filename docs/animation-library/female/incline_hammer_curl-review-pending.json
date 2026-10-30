@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "9623392d1e9ee7d3b7cb000b244c9ad68c0224c1f446dfb1c93f84cbb1179e7d",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/incline_hammer_curl-review.jpg": "cf4499f1e0586cac852d8e54d616328f89f89f16fd79e0840fcfdd1c2d3274de"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "2f73a3b6a50e4173cf7c4aa515ca210af35fe441da018a19eefd43f596c681d2",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/seated_curl-review.jpg": "4d4d1dbda2b0f6cd774ea40df0bb06f93070b3660fb520913dcd119508171a76"
+  }
+}

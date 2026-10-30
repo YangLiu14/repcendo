@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "4e606ebc9dfd795a5be712a1e0f21359667906332f98cbecd6d2a6c691492cf8",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/incline_biceps_curl-review.jpg": "5ee434082347828f211851779e55beeaede7d343f770db141371fa88319526e5"
+  }
+}

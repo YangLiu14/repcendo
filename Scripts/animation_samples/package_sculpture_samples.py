@@ -1,4 +1,5 @@
 """Package v2 sculpture renders into labelled MP4/GIF review cards."""
+from collision_gate import require_render_pass, record_media
 import argparse, json, subprocess, hashlib
 from pathlib import Path
 from PIL import Image, ImageDraw
@@ -74,6 +75,8 @@ def command(args):
 
 
 def package(sex, name, preview):
+    if not preview:
+        require_render_pass(sex, name)
     folder = BUILD / sex / name
     dest = OUT / sex
     dest.mkdir(exist_ok=True, parents=True)
@@ -124,6 +127,8 @@ def package(sex, name, preview):
             str(dest / f"{name}.gif"),
         ]
     )
+    if not preview:
+        record_media(sex, name)
     print(f"Packaged {sex}/{name}", flush=True)
 
 
@@ -212,12 +217,24 @@ def webpage():
         + """<footer>保留旧版以便比较：<a href="../animation-samples/">v1 人偶样片</a> · <a href="../character-assets/muscle-overlay-v1/">独立肌群 3D 预览</a> · <a href="README.md">制作说明与验证范围</a>。</footer></main>
 <script>const videos=[...document.querySelectorAll('video')];let sex='male';const status=document.querySelector('#status');document.querySelector('#play').onclick=()=>{videos.forEach(v=>v.play().catch(()=>{}));status.textContent=(sex==='male'?'男性':'女性')+'版本 · 三段循环播放中。'};document.querySelector('#pause').onclick=()=>{videos.forEach(v=>v.pause());status.textContent='已暂停，可拖动查看关键姿势。'};document.querySelectorAll('[data-sex]').forEach(b=>b.onclick=()=>{sex=b.dataset.sex;document.querySelectorAll('[data-sex]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));videos.forEach(v=>{v.pause();const e=v.dataset.exercise;v.poster=sex+'/'+e+'-poster.png?v=shoulders2';v.src=sex+'/'+e+'.mp4?v=shoulders2';v.load()});document.querySelectorAll('[data-file]').forEach(a=>a.href=sex+'/'+a.dataset.file);status.textContent=(sex==='male'?'男性':'女性')+'版本 · 红色为体表位置示意，不表示激活强度。'});document.addEventListener('visibilitychange',()=>{if(document.hidden)videos.forEach(v=>v.pause())});</script></html>"""
     )
-    (OUT / "index.html").write_text(page)
+    revision = hashlib.sha256(
+        b"".join(
+            (OUT / sex / f"{name}.mp4").read_bytes()
+            for sex in ["male", "female"]
+            for name in CONFIG
+        )
+    ).hexdigest()[:12]
+    (OUT / "index.html").write_text(page.replace("v=shoulders2", "v=" + revision))
     manifest = {
         "shoulder_revision": 1,
         "hand_rig_revision": 1,
         "finger_bones_per_character": 30,
-        "app_integration": False,
+        "app_integration": True,
+        "deformation_rig": {
+            "bench": "athlete-deformation-2",
+            "row": "athlete-deformation-2",
+            "squat": "legacy-53-bones",
+        },
         "new_tripo_credits": 0,
         "version": 2,
         "fps": 24,
@@ -247,10 +264,11 @@ def webpage():
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--preview", action="store_true")
+    p.add_argument("--exercise", choices=list(CONFIG))
     a = p.parse_args()
     OUT.mkdir(exist_ok=True, parents=True)
     for sex in ["male", "female"]:
-        for name in CONFIG:
+        for name in [a.exercise] if a.exercise else CONFIG:
             package(sex, name, a.preview)
     overview()
     hand_overview()

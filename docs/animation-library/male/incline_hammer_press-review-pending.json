@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "23436edbd071f1221c60a8292cc64ee7b06cbf5f14738893afed9ce5957c3637",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/incline_hammer_press-review.jpg": "5b4805e12218d2575e25405998ad505223b63f7bddb5a4fb98adfe49d8d7bc4f"
+  }
+}

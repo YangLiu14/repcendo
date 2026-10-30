@@ -1,0 +1,23 @@
+{
+  "sceneSHA256": "7d5c464a823966238bb417a846eefbb26c91f72f334c360e6771a34ec909c132",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看五视角，对比底部与顶端。肩部上移，双臂保持伸直且随肩提起，头躯干稳定，无绕肩，哑铃始终离开大腿，背面斜方肌区域清楚。",
+  "evidence": {
+    "docs/animation-library/female/db_shrug-review.jpg": "c288edee855960b5dea57a2596f552cbf6a4e5558df21474d17097c649deaf22"
+  },
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex visual review"
+}

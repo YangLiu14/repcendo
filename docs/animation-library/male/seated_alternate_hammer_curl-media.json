@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "9bd06c62b306eb4e5f552ac0751f84ef0a47e21604c1625098241e8f5a240c98",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
+    "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
+  },
+  "files": {
+    "seated_alternate_hammer_curl.mp4": "3331a22cced8af481ca12c71c7650188b88321fc9ebb6a1872b4904a13d38b80",
+    "seated_alternate_hammer_curl-poster.png": "d162a7e587b870acb73cfea5b4ac05a906e38ea44695f4dfca1474e5d6f0d45f"
+  },
+  "mediaValidation": {
+    "decoded": true,
+    "frames": 192,
+    "clippedFrames": [],
+    "codec": "h264",
+    "width": 1280,
+    "height": 960,
+    "fps": 24
+  }
+}

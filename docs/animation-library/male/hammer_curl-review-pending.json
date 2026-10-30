@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "4c8252dcc5e11a1f029554801a4ab40a561b9f061ed34e092345f128b4034bf5",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/hammer_curl-review.jpg": "886f8e712e2d04def1dc555a869d0557662d745ec51abe6295d2c5d7866579d9"
+  }
+}

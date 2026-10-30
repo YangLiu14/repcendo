@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "e38c5f63bddf13b393c1b0368310934538b0e9b81552161affaf2dc75e123f1a",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看本次修正后的主镜头、正、侧、背和手部图，四阶段均覆盖。头部和上背已贴近凳面，臀腿与双足支撑稳定，保留自然腰弧；掌心相对、较收肘，向上推起及下放清楚，无可见器械穿插或肩肘塌陷。旧悬空版本未被接受。",
+  "evidence": {
+    "docs/animation-library/male/neutral_bench_press-review.jpg": "f2d73d626c94f72fb0c4c46104ae4cdb7c54aabd3005ac1d011cec45643d0270"
+  }
+}

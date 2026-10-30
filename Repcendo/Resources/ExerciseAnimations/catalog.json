@@ -1,4 +1,480 @@
 {
+  "0313": {
+    "title": "哑铃锤式弯举",
+    "variants": {
+      "male": {
+        "video": "0313-male.mp4",
+        "videoSHA256": "5ad7a613f05ccb5d3a4ebeb49b2e2f41f6baa7b69ce265a70d781cbb2e90513f",
+        "poster": "0313-male-poster.png",
+        "posterSHA256": "352247d99f2649119cb3e7d1ecce1513f9b109b4cd4a20363abe3eff2e9ca899"
+      },
+      "female": {
+        "video": "0313-female.mp4",
+        "videoSHA256": "45f8a51ee7e260ce166cad0f345c6c97251bc72192cfde1f2c32a029e2a84d68",
+        "poster": "0313-female-poster.png",
+        "posterSHA256": "fd2c6fc7a27baa845299ab5350643bfef0dfffe1fa70f5a20563793f644f3645"
+      }
+    }
+  },
+  "0285": {
+    "title": "交替哑铃弯举",
+    "variants": {
+      "male": {
+        "video": "0285-male.mp4",
+        "videoSHA256": "4a37c4a8d81b98ee359b6c456125ccd12ef50ab908b9fad2b7fa2102739f13f0",
+        "poster": "0285-male-poster.png",
+        "posterSHA256": "b09186a354b02afda1a8f45d3550707e8fbd001f14447c9107f5ec3e1cb2dd5e"
+      },
+      "female": {
+        "video": "0285-female.mp4",
+        "videoSHA256": "dbdfa0b07e7b7600114e64f77cabbb4d3c15fa4807648f2ed43081894405d041",
+        "poster": "0285-female-poster.png",
+        "posterSHA256": "a55e7a225baa3baed5b69ebf785e99b67fa369b3c7758b28e8bc86a33c9fa50f"
+      }
+    }
+  },
+  "0310": {
+    "title": "哑铃前平举",
+    "variants": {
+      "male": {
+        "video": "0310-male.mp4",
+        "videoSHA256": "4469437f81aabb90fd57d8adedf68479f202d2624ee489074ff715eb44f50d0b",
+        "poster": "0310-male-poster.png",
+        "posterSHA256": "70e2b47f1b79ac6551c40398d665efb5ea42e5e54bacfe0356c57c07cabef67a"
+      },
+      "female": {
+        "video": "0310-female.mp4",
+        "videoSHA256": "e1ef17d7ef41dcd8eeed31e8ac64592966bb411e3fab6d3ff950521df25430e6",
+        "poster": "0310-female-poster.png",
+        "posterSHA256": "70b790487bd7c09d9c1acc3e2bf7f6b44b2badf718b4c75cfbc284259879bc70"
+      }
+    }
+  },
+  "1678": {
+    "title": "坐姿哑铃锤式弯举",
+    "variants": {
+      "male": {
+        "video": "1678-male.mp4",
+        "videoSHA256": "a56faf7a455dd739f5bd1c2d1509f96a06f2859202a2b64fa2e92e7950ef25b3",
+        "poster": "1678-male-poster.png",
+        "posterSHA256": "b54d7df40d6d7ddc3919c57f4ab0357442f42d656802c752643ba25b1c5b6dd8"
+      },
+      "female": {
+        "video": "1678-female.mp4",
+        "videoSHA256": "66c9c860864b58eac95f0a028309a79d9bbaf59cf8821a7ae551d49d3643f159",
+        "poster": "1678-female-poster.png",
+        "posterSHA256": "3905bea720f52c715f976638f7e7fadbd23754406a5c0966ec047872bd87cddc"
+      }
+    }
+  },
+  "1648": {
+    "title": "坐姿交替锤式弯举",
+    "variants": {
+      "male": {
+        "video": "1648-male.mp4",
+        "videoSHA256": "3331a22cced8af481ca12c71c7650188b88321fc9ebb6a1872b4904a13d38b80",
+        "poster": "1648-male-poster.png",
+        "posterSHA256": "d162a7e587b870acb73cfea5b4ac05a906e38ea44695f4dfca1474e5d6f0d45f"
+      },
+      "female": {
+        "video": "1648-female.mp4",
+        "videoSHA256": "0614d8c825a8bba21813bd4025b701f5aeecc2c62856dbab979e143cb9980329",
+        "poster": "1648-female-poster.png",
+        "posterSHA256": "2de9a0602cca4aa683076d7a042d45a59eb87579e19c87cc2ff5472894f936fb"
+      }
+    }
+  },
+  "1677": {
+    "title": "坐姿哑铃弯举",
+    "variants": {
+      "male": {
+        "video": "1677-male.mp4",
+        "videoSHA256": "a92cd4042c0e4e760c69611bc2d043f537479ef23fadb52adc2d495631daffc3",
+        "poster": "1677-male-poster.png",
+        "posterSHA256": "d94ab148d4f3fc4a699db00a0824b534bc358425fad871910efd06e4b4e6160a"
+      },
+      "female": {
+        "video": "1677-female.mp4",
+        "videoSHA256": "00f26de3e9a3457527af49c0957f35bea4d8aa31201dd5104517c370ea255022",
+        "poster": "1677-female-poster.png",
+        "posterSHA256": "3306478d19e0fa414b5a0bf4d3e4779d3de1d1f36c36ac92951b7892adeb0410"
+      }
+    }
+  },
+  "0392": {
+    "title": "坐姿哑铃前平举",
+    "variants": {
+      "male": {
+        "video": "0392-male.mp4",
+        "videoSHA256": "7b615583fb38ba163a917f733f461f03bfdb0e31875948ba827a88caf545e981",
+        "poster": "0392-male-poster.png",
+        "posterSHA256": "0636a213b7992e3c187047627710bbd1116f899890d72e6f674a8d5af28c74f8"
+      },
+      "female": {
+        "video": "0392-female.mp4",
+        "videoSHA256": "928632b287e07884f54e69fb8792ca1db1bab74ea4bf7532675f571abcdfa219",
+        "poster": "0392-female-poster.png",
+        "posterSHA256": "c291a122b42db1df750e66da2f5c61171eaa841af7d2fa29a4791fa3ecd5786c"
+      }
+    }
+  },
+  "0387": {
+    "title": "坐姿交替前平举",
+    "variants": {
+      "male": {
+        "video": "0387-male.mp4",
+        "videoSHA256": "fc01bbb75cde927e8b4a8652d5033a2c3ffb71375622a493161c004335bd36a1",
+        "poster": "0387-male-poster.png",
+        "posterSHA256": "b700093fe519085ed4d19bd147eba8da1fe898b4c2bbd22ab0553a73b3b1088c"
+      },
+      "female": {
+        "video": "0387-female.mp4",
+        "videoSHA256": "0875a592779824057264a9d61e40c17a74ff780c4bc82806e977dca61d446211",
+        "poster": "0387-female-poster.png",
+        "posterSHA256": "be1cf3124532ae6f567b5fdba9376674855918a71dd5f0ba590ba173196508b0"
+      }
+    }
+  },
+  "0396": {
+    "title": "坐姿哑铃侧平举",
+    "variants": {
+      "male": {
+        "video": "0396-male.mp4",
+        "videoSHA256": "492310df41d34a9baa6897054cbc7cc9139269440bdaa54341e1f6638ef86f4a",
+        "poster": "0396-male-poster.png",
+        "posterSHA256": "32ee47bc7fba4bf4a766e6c7882f6b98997625acd2a0b2ad435f99a188293eff"
+      },
+      "female": {
+        "video": "0396-female.mp4",
+        "videoSHA256": "c13425ad79f671270705f80b109e6deb912ae902adc4667f7376ca96250de5a9",
+        "poster": "0396-female-poster.png",
+        "posterSHA256": "f400d9c15dbe1d1aec94d7e2ae4ee82f562e1689190f4e65048547d028fa10f5"
+      }
+    }
+  },
+  "0429": {
+    "title": "哑铃反握弯举",
+    "variants": {
+      "male": {
+        "video": "0429-male.mp4",
+        "videoSHA256": "ee1f28892926ac3e42c7b583764bf9769221c18186f4be7d4956cbe2b83d4fc9",
+        "poster": "0429-male-poster.png",
+        "posterSHA256": "de2b44df676901df13a86440027a8d77b2dbab2588814e54a7c262cafd0e9cd9"
+      },
+      "female": {
+        "video": "0429-female.mp4",
+        "videoSHA256": "bc6e71ba34f2490f2da52e2af836de5719733e0764e9c2538464babc5c6b086d",
+        "poster": "0429-female-poster.png",
+        "posterSHA256": "e8e29d9e608d69a8c71ad864a77deb8c9f2d7b6996060b05770a81f5b010b8f9"
+      }
+    }
+  },
+  "0311": {
+    "title": "哑铃拇指向上侧平举",
+    "variants": {
+      "male": {
+        "video": "0311-male.mp4",
+        "videoSHA256": "2520bab583a97c5205582fadffb894da7db084d932b56915bc4ea7628c1471a8",
+        "poster": "0311-male-poster.png",
+        "posterSHA256": "ba5d61d7353c64c4a4e24c2a46d1dfef9f57854131945128fa59b448a124df7c"
+      },
+      "female": {
+        "video": "0311-female.mp4",
+        "videoSHA256": "253e61cc57ad479d9a9bb077dc97313ce8edb0e2b0a7e575ef51c1f0a0fbdb2e",
+        "poster": "0311-female-poster.png",
+        "posterSHA256": "b29632092dd906ea2c904f8fc13c4236787912256990d0a06f4c1bb9d2049dd5"
+      }
+    }
+  },
+  "0335": {
+    "title": "哑铃侧平举接前平举",
+    "variants": {
+      "male": {
+        "video": "0335-male.mp4",
+        "videoSHA256": "a256cf5c8dabd161b8699af859e79c3ddb3914befafaac3b00b07c26b9ff304c",
+        "poster": "0335-male-poster.png",
+        "posterSHA256": "6173c5fe1a1c06beaa0a412a43d8949c7fcb7a196f4dd2319e6c257cc1e2814f"
+      },
+      "female": {
+        "video": "0335-female.mp4",
+        "videoSHA256": "467ee55fa1c0b78b4131187cf312aaa41a5ff1448f357cdd46c4c0e310cf9dd8",
+        "poster": "0335-female-poster.png",
+        "posterSHA256": "fa662cd68508fbd08b19047dcd1dbe5ebc86e6ae44030d9c24f15ef5efda2b0b"
+      }
+    }
+  },
+  "0289": {
+    "title": "哑铃卧推",
+    "variants": {
+      "male": {
+        "video": "0289-male.mp4",
+        "videoSHA256": "482e94d6534f877dd8bfd21816eeb60e83f00b4b8c1a2c14f3173c05bf6d0d57",
+        "poster": "0289-male-poster.png",
+        "posterSHA256": "1e29c1aa92a3e495452f8352f84bcb807cd860c6f30dbb770479a69160ad5d93"
+      },
+      "female": {
+        "video": "0289-female.mp4",
+        "videoSHA256": "68031592711ff5bbe87f2f72df1b4667d0de539b41767d8caaed6f53435d70ea",
+        "poster": "0289-female-poster.png",
+        "posterSHA256": "efc6e15e56e32a7e33a81be742cde4c11b75a303deb73dff48785984be5e6b0f"
+      }
+    }
+  },
+  "0352": {
+    "title": "中立握哑铃卧推",
+    "variants": {
+      "male": {
+        "video": "0352-male.mp4",
+        "videoSHA256": "e0b6bdb6d366ba729d5437ee96d5231b51a90f0efa0e5f3575b91e73a9db3604",
+        "poster": "0352-male-poster.png",
+        "posterSHA256": "84145d1638edad951020d2d81ba646ac74158753b76d9404fe18ca7040a9d6b7"
+      },
+      "female": {
+        "video": "0352-female.mp4",
+        "videoSHA256": "ae7cfa623c608ef45273468050cddb9bb9999ea8c882bb99716788de2d564980",
+        "poster": "0352-female-poster.png",
+        "posterSHA256": "18742b1740d64e800d41893043a31a42236ebdf77c18d973eff263eb2dbff692"
+      }
+    }
+  },
+  "0321": {
+    "title": "上斜哑铃锤式推举",
+    "variants": {
+      "male": {
+        "video": "0321-male.mp4",
+        "videoSHA256": "535e5e34dd6beae4ce808ff099937016fd65fde1b7c7b16f80db09282217b0b5",
+        "poster": "0321-male-poster.png",
+        "posterSHA256": "0bdf64cd35e6a8ba06538baa4337cc139017c6c0633692d858f3bcd28a74e6d1"
+      },
+      "female": {
+        "video": "0321-female.mp4",
+        "videoSHA256": "7d6ad9dda56cf5d3f0d98b534f13e697355d63a0c2e32c94451351b27df38681",
+        "poster": "0321-female-poster.png",
+        "posterSHA256": "d271ee82a571b36876e4d0f9152befb4867694c935d9dd4b62a3b790141a236b"
+      }
+    }
+  },
+  "3545": {
+    "title": "上斜哑铃交替推举",
+    "variants": {
+      "male": {
+        "video": "3545-male.mp4",
+        "videoSHA256": "24dfc36dc753ad182dc225d52e8f61d7351a6b97e2228a4eaf732b5591740fb4",
+        "poster": "3545-male-poster.png",
+        "posterSHA256": "ddc3a0de44296ec4b183dd2b4f694f534aba767adb8b598b1dd7afffc25925c9"
+      },
+      "female": {
+        "video": "3545-female.mp4",
+        "videoSHA256": "f6a9b7a3eff42f91671e04e36a76563152e98e4d97e576dad73513de11b528ba",
+        "poster": "3545-female-poster.png",
+        "posterSHA256": "9d2b773865308a4cac1b432ef6f4e138efc4d154b0851615a41c1e3efcc1e7d8"
+      }
+    }
+  },
+  "0388": {
+    "title": "坐姿哑铃交替推举",
+    "variants": {
+      "male": {
+        "video": "0388-male.mp4",
+        "videoSHA256": "8fb7de493f35afb24ad300b48254bad1dd0c1eb4661587e9466f4dbfe3641aca",
+        "poster": "0388-male-poster.png",
+        "posterSHA256": "ca0804c8a8759453c93fb60d6a65b9cae81a2ecc09c2079a8335fb2809af788e"
+      },
+      "female": {
+        "video": "0388-female.mp4",
+        "videoSHA256": "4d88fb51de1eedc8708476f53023fe8813401ce71d61d314dcdea811490400c8",
+        "poster": "0388-female-poster.png",
+        "posterSHA256": "fc419599b01e36a995a96193bf55844ef7472d4212886a8357280a668c077150"
+      }
+    }
+  },
+  "0404": {
+    "title": "坐姿中立握哑铃推举",
+    "variants": {
+      "male": {
+        "video": "0404-male.mp4",
+        "videoSHA256": "7645862dd6150a6d90c7d784cb7403931cc65083252864e34e25fe55989b0814",
+        "poster": "0404-male-poster.png",
+        "posterSHA256": "0efabf5292f12c142790269c173550cdc5e63da741f034a01141637df43c5cae"
+      },
+      "female": {
+        "video": "0404-female.mp4",
+        "videoSHA256": "55dfb23e16f90c17da93057645df0b99db880d6986cfe8f125f64cd565f28766",
+        "poster": "0404-female-poster.png",
+        "posterSHA256": "0666a71e943c3da76d5239520e71923bbf67cc50daf98c674a65bfe6ba1585c6"
+      }
+    }
+  },
+  "0426": {
+    "title": "站姿哑铃推举",
+    "variants": {
+      "male": {
+        "video": "0426-male.mp4",
+        "videoSHA256": "95e6cf25d5a2a9c79041a3beeb8dc20f47979f95273ff16422ed78ed4cbc07b2",
+        "poster": "0426-male-poster.png",
+        "posterSHA256": "12063f195aeb893979043f2f8af8b110021b4cbe791fea6cf4d7c1d45b3a0748"
+      },
+      "female": {
+        "video": "0426-female.mp4",
+        "videoSHA256": "2a798f37b424da50d2c81caa0cba491b9c3c85c40ce92b3519f247299370db8b",
+        "poster": "0426-female-poster.png",
+        "posterSHA256": "b1f4602dacb9062e4ed267ccde0450eb5919bf8799178cebb3abbf4ef9e87cb9"
+      }
+    }
+  },
+  "0427": {
+    "title": "站姿中立握哑铃推举",
+    "variants": {
+      "male": {
+        "video": "0427-male.mp4",
+        "videoSHA256": "44486cfaa26c19b66e2899b55204fe4cfbc25b3394f93da94e855610756f61dd",
+        "poster": "0427-male-poster.png",
+        "posterSHA256": "1f3411bb127c377020eb5913064770203a244dabc360152272ed9adc3db53b28"
+      },
+      "female": {
+        "video": "0427-female.mp4",
+        "videoSHA256": "f4669c09306cd2ad45d2d48abfeb2ea2611c39aaaed99326a5c42b65ab3dcd96",
+        "poster": "0427-female-poster.png",
+        "posterSHA256": "9a8d8190be8287a447b7c9aad06b3c985b2caf2971f7668f3c96db5329a495a4"
+      }
+    }
+  },
+  "0315": {
+    "title": "上斜哑铃弯举",
+    "variants": {
+      "male": {
+        "video": "0315-male.mp4",
+        "videoSHA256": "2b42b9e4875927066034e90609bfa705d2d9ddea96bdbcc747074d4e991ca466",
+        "poster": "0315-male-poster.png",
+        "posterSHA256": "ec03197e742f4ec1cd83f9b561cdc9ff6013f215dd9c12f568fa1e28179a25f1"
+      },
+      "female": {
+        "video": "0315-female.mp4",
+        "videoSHA256": "7cf0b9d7df76a841ef67ed8495fffe2bbe0c8c64a18f75068eb94bc29ba77386",
+        "poster": "0315-female-poster.png",
+        "posterSHA256": "c8d0acb2f7f359c8cd5f0e9e47c7d5a3257530344b0fc7d7eff6473d566b648e"
+      }
+    }
+  },
+  "0320": {
+    "title": "上斜锤式弯举",
+    "variants": {
+      "male": {
+        "video": "0320-male.mp4",
+        "videoSHA256": "ea90cce9243ecdb52dba65a081dc1c6300fe8067acdc6eda1d769e739f8ae779",
+        "poster": "0320-male-poster.png",
+        "posterSHA256": "a739d1e62cbb23254f390eff5ff86440301e49f726bb7e1fb5979bfaaed316a1"
+      },
+      "female": {
+        "video": "0320-female.mp4",
+        "videoSHA256": "8f4200477f87db90970e8c1baf75ba658dd566761571a94a84e4833d4a129357",
+        "poster": "0320-female-poster.png",
+        "posterSHA256": "4398bc0c29be78dc5f2b50b41ad67b6521106c89fde91d0fed5915b09d967b1b"
+      }
+    }
+  },
+  "0298": {
+    "title": "跨体锤式弯举",
+    "variants": {
+      "male": {
+        "video": "0298-male.mp4",
+        "videoSHA256": "165c79ddc04a996cbb57c771db41914734d262d52a7f48885a5105cb5b4e7c52",
+        "poster": "0298-male-poster.png",
+        "posterSHA256": "2cbfe4c69d923d223d3a6618c7dfc64299029540e267666fac076ec73d3a5e3c"
+      },
+      "female": {
+        "video": "0298-female.mp4",
+        "videoSHA256": "ecc14f409f73a9ec8360d7b69efd500833270f6868694669be7a14ad01b67e81",
+        "poster": "0298-female-poster.png",
+        "posterSHA256": "d09f630ee4edf6c6b3424732d5aa174540a2e23c440976311ebda87c9f7cf8ea"
+      }
+    }
+  },
+  "0439": {
+    "title": "佐特曼弯举",
+    "variants": {
+      "male": {
+        "video": "0439-male.mp4",
+        "videoSHA256": "0ffeae315e4c3a102a24a0e49f7279426d12f60053549efdc8ec8d2fc03871f0",
+        "poster": "0439-male-poster.png",
+        "posterSHA256": "51203a1c02bb40bface9804d28c2ce3da1c4e782bfb00f91c977e53743b66b21"
+      },
+      "female": {
+        "video": "0439-female.mp4",
+        "videoSHA256": "43bd01fc17544f7d2bef44f39589b63f6a0c188a30d3f6f41cd5aaa504a0707d",
+        "poster": "0439-female-poster.png",
+        "posterSHA256": "aff5990f21a8a2195d902f22bcdc4868268cb5ba0d420d438a5ca4567cc98a07"
+      }
+    }
+  },
+  "0414": {
+    "title": "站姿交替哑铃推举",
+    "variants": {
+      "male": {
+        "video": "0414-male.mp4",
+        "videoSHA256": "4f1e48b52e75962ac7608868187902213d1259a208a114bc99126bc9252cd21b",
+        "poster": "0414-male-poster.png",
+        "posterSHA256": "3f5a48ad2c00e412e98b2b35ede4d0d78083cfb47d081ba30d3f02d76891f4a9"
+      },
+      "female": {
+        "video": "0414-female.mp4",
+        "videoSHA256": "c0283410aea3280f387a339bc693a7539899f971853500e937fd42b2e7e10f54",
+        "poster": "0414-female-poster.png",
+        "posterSHA256": "21133f12cbaab59f90673c30b7e930abcb24ff424dc5d5321a340463a6c0ea72"
+      }
+    }
+  },
+  "0415": {
+    "title": "站姿交替侧平举",
+    "variants": {
+      "male": {
+        "video": "0415-male.mp4",
+        "videoSHA256": "5d0f20f7672310b6e8da7e331b5848e6a2c5d84287bae1a666329b1a5b79029d",
+        "poster": "0415-male-poster.png",
+        "posterSHA256": "f012ab775264333a9393477181547b9a33a0d359d6eb7b8e7680baee9219d028"
+      },
+      "female": {
+        "video": "0415-female.mp4",
+        "videoSHA256": "29d65c1e14b381ff1a52474c3bdf3f558f2ae45b905961ac2a28eee174e193db",
+        "poster": "0415-female-poster.png",
+        "posterSHA256": "7d6f0d348ffc9254ff2ee0145ecf450aac6decc721596e6cb05ae9dc4bad0ecc"
+      }
+    }
+  },
+  "0406": {
+    "title": "哑铃耸肩",
+    "variants": {
+      "male": {
+        "video": "0406-male.mp4",
+        "videoSHA256": "68b1fc5019ed1605678c29cf8420ca4381d5f890d5b6b7fe5a6aef71872ead02",
+        "poster": "0406-male-poster.png",
+        "posterSHA256": "747f5a51caf90dd63f07429bc1d82d0cdcea62dc097229a1e0db8f0ea74c9cc1"
+      },
+      "female": {
+        "video": "0406-female.mp4",
+        "videoSHA256": "406f5f8205ada1a553267e589a3baa822b4a16bc2caa5c0e35e7d58cc4f36964",
+        "poster": "0406-female-poster.png",
+        "posterSHA256": "3f27b9c5f70bd235ee281fc802ebc2dc244506dd68904b25f2c018c57c849a76"
+      }
+    }
+  },
+  "0293": {
+    "title": "俯身哑铃划船",
+    "variants": {
+      "male": {
+        "video": "0293-male.mp4",
+        "videoSHA256": "95fa5f1f4bff9b56d9612e6c973a33cfb7cbe209f286d4c5dafe83400c12c776",
+        "poster": "0293-male-poster.png",
+        "posterSHA256": "d08c7935e3b7090d4f53aad75d8408d253d2e10a7f3d93c4e07907e9589a3936"
+      },
+      "female": {
+        "video": "0293-female.mp4",
+        "videoSHA256": "6ac1212a822d980f1d185b6aa76580ab6e9ab2b861761e974b7588ca872a2866",
+        "poster": "0293-female-poster.png",
+        "posterSHA256": "a61c325b46cdbcda7acf84af1a6ed30453e29806a65d3f83d8d7bb9d0f8ea680"
+      }
+    }
+  },
   "0043": {
     "title": "杠铃深蹲",
     "variants": {
@@ -21,15 +497,15 @@
     "variants": {
       "male": {
         "video": "0025-male.mp4",
-        "videoSHA256": "f3d0069bf7ba65cc1e521824c4f403933c54df9804b98369b3bb65b11e4f400c",
+        "videoSHA256": "3e8fd5591102354c07808e1da0ac1c9168e6a957afa3d7b8731bfe173a9366c9",
         "poster": "0025-male-poster.png",
-        "posterSHA256": "baeb9755039162645d6f5d1eea5714ccfcd7f0253d6763916e877aac0685d6cb"
+        "posterSHA256": "69754abf9e8f17187eaa4ffd44ae1dc02d170354c64766fcf252bb91a94cba82"
       },
       "female": {
         "video": "0025-female.mp4",
-        "videoSHA256": "b6f38905754df05d393e21e4654acdebfa87f4b95601b9c7516c098682d80d2a",
+        "videoSHA256": "6e089a2daa8b7dee85cd234b80421f99ae646fb1b9e789282832b68ba9e91f25",
         "poster": "0025-female-poster.png",
-        "posterSHA256": "1a7d04528b773853f5e888a203384be3dfa2f28a73c6753f028577bf166ad54c"
+        "posterSHA256": "1dca4eae2f332f0930714d736dc3b1ffa7033daf408a57d8310b2b5aa733e78e"
       }
     }
   },
@@ -38,15 +514,304 @@
     "variants": {
       "male": {
         "video": "0861-male.mp4",
-        "videoSHA256": "8809084bda265546722f067fd974d0eff5cfc1c0bc92a811e92f15f01166100f",
+        "videoSHA256": "79c1ae73c3375828716bcdcd234be965dedb890e48ff018076d3b11ff90600ce",
         "poster": "0861-male-poster.png",
-        "posterSHA256": "54a8df1409f6b252979acbeae0be9fecefe64e060f1fb782b66955a2bfdec874"
+        "posterSHA256": "2d38c57854e35c232d3258661fa6c3edf64da73b43f72269537ae05fae908ac9"
       },
       "female": {
         "video": "0861-female.mp4",
-        "videoSHA256": "4e8f7893af4d0ac7c53db6d640e5faa9e0b1ff2bb2550cda96121b19abbb7b8d",
+        "videoSHA256": "4681700374ec25558d38bdfb5f4871378493cf8192631aa84acc9d114917da85",
         "poster": "0861-female-poster.png",
-        "posterSHA256": "42248b6a7ac250259d010d8e210f0bde4606dd2962e028b59b87f67823d4bf1c"
+        "posterSHA256": "6336efff26541afd3a8df8692ec57c7c717e0ce1fb154cf01d6d5df77c203596"
+      }
+    }
+  },
+  "0314": {
+    "title": "上斜哑铃卧推",
+    "variants": {
+      "male": {
+        "video": "0314-male.mp4",
+        "videoSHA256": "bebc06f2d1a85d81c30283dfe5fc4c6cbb61652f93c34e1200c32b30c01a0735",
+        "poster": "0314-male-poster.png",
+        "posterSHA256": "85e986e27248d595725dab90d3cba1b694f914a07d80859177808a1f28650294"
+      },
+      "female": {
+        "video": "0314-female.mp4",
+        "videoSHA256": "90c2c802f0af0bc79a258cb05a64a4bc89f8b2a389f303bf7a5d3c87f421c3d1",
+        "poster": "0314-female-poster.png",
+        "posterSHA256": "71ba4bf005c62403b484314e2d9d4f91c9ea41602c5ff74e56e5abf9c6aa86c9"
+      }
+    }
+  },
+  "0596": {
+    "title": "蝴蝶机夹胸",
+    "variants": {
+      "male": {
+        "video": "0596-male.mp4",
+        "videoSHA256": "818c91e7aceceeb5e3cb7ef0bfeaf3e96237362940a1ce93404646e85645ab6d",
+        "poster": "0596-male-poster.png",
+        "posterSHA256": "09b0551de381b64b7f4446309d4ee8c1a900bfbb4a93a930c0219fb40d80a50d"
+      },
+      "female": {
+        "video": "0596-female.mp4",
+        "videoSHA256": "0143706a77baae3256fa3e75bf21b12e0b2b2093fa2722a2e1b38a642fd0ec27",
+        "poster": "0596-female-poster.png",
+        "posterSHA256": "801068493ce016bacfa1ec0c33bd61bce213cfe2dbf8373fee1637cb7e157186"
+      }
+    }
+  },
+  "0200": {
+    "title": "绳索三头下压",
+    "variants": {
+      "male": {
+        "video": "0200-male.mp4",
+        "videoSHA256": "6643df217b7622a560bb2ee6eeda34ec83e9b860d7b9049aad36193b086c7d13",
+        "poster": "0200-male-poster.png",
+        "posterSHA256": "362ef1e3fbd4027305e2c9db531e3a45b3470104738431bfe60aa2deabe6f6f5"
+      },
+      "female": {
+        "video": "0200-female.mp4",
+        "videoSHA256": "296a0a56cb05cef891f95aa63dfecbb1f9a1e68a214bce9cae3e368bcd86586e",
+        "poster": "0200-female-poster.png",
+        "posterSHA256": "2f0e0d91e5ce9f2466ad91470186c8c1c73691b1f766bd51527dc2dd886ddf64"
+      }
+    }
+  },
+  "0175": {
+    "title": "跪姿绳索卷腹",
+    "variants": {
+      "male": {
+        "video": "0175-male.mp4",
+        "videoSHA256": "0ce58e28eed569b558b0bedfb229713ec5f69c212d02924243b0e79ce98afc2a",
+        "poster": "0175-male-poster.png",
+        "posterSHA256": "7f0ed61132bc7e0c0322f8b3fc8331981d8f643f4e88d3dd3663b78458357350"
+      },
+      "female": {
+        "video": "0175-female.mp4",
+        "videoSHA256": "e35d4a768da8e734b69e4b2880f520af946a9c862bab091feeae86bf05062539",
+        "poster": "0175-female-poster.png",
+        "posterSHA256": "09c94b6c8d5078d63023152c5ba9dc5b9082ca126d0f1db15e40c80712dfc75e"
+      }
+    }
+  },
+  "2330": {
+    "title": "高位下拉",
+    "variants": {
+      "male": {
+        "video": "2330-male.mp4",
+        "videoSHA256": "3b3237b23f4bf19c755349ce1a92e4047ec59de4193b8c472b103f3a92c14359",
+        "poster": "2330-male-poster.png",
+        "posterSHA256": "9a39295ee783d53b3f02dfac5c5ecce3695f6d97c3ef117f2e63525959990d05"
+      },
+      "female": {
+        "video": "2330-female.mp4",
+        "videoSHA256": "4b44412b1da76d1fc0513e81a128bcd7f66c3663d00f75cd9cc1a707109dd777",
+        "poster": "2330-female-poster.png",
+        "posterSHA256": "a5c372eb4bf5b51177ebff0e6ddaa5032db569ac3f1a3ce00e7029c69b0c0d13"
+      }
+    }
+  },
+  "0238": {
+    "title": "绳索直臂下拉",
+    "variants": {
+      "male": {
+        "video": "0238-male.mp4",
+        "videoSHA256": "91dd34f35ab073d053edf492a1fe62c65cf5d6ae05957c5d88c5f0463677fab1",
+        "poster": "0238-male-poster.png",
+        "posterSHA256": "c432bbba6d304146b091194409e34d6be99ee84ca1fc1db0256e170d52025756"
+      },
+      "female": {
+        "video": "0238-female.mp4",
+        "videoSHA256": "f61a605835d4b48e855c8956da893fb46284dcf845d622ae7644a0d98fdfdfaf",
+        "poster": "0238-female-poster.png",
+        "posterSHA256": "607adac5a1875e2e5ad6166447bbfc2120670c4a8a0646741f8382daace72729"
+      }
+    }
+  },
+  "0294": {
+    "title": "哑铃弯举",
+    "variants": {
+      "male": {
+        "video": "0294-male.mp4",
+        "videoSHA256": "c05294a5203b693ce53c4edc51ee4d211804a7fc74f202077adf0248f0ec34be",
+        "poster": "0294-male-poster.png",
+        "posterSHA256": "ebde2c8bd427cf57b324b71bd1564733679a7ab5fc9a83f687643702c986794e"
+      },
+      "female": {
+        "video": "0294-female.mp4",
+        "videoSHA256": "c4724dc41a7052201076d5a3478b6174c9616d3ead2fb34b75c0848e0b5cca38",
+        "poster": "0294-female-poster.png",
+        "posterSHA256": "2ff0972be28886a83d1bc8bd6870ebc931573fb90ff1e21ed69bc3aa78eb924f"
+      }
+    }
+  },
+  "0739": {
+    "title": "45度腿举",
+    "variants": {
+      "male": {
+        "video": "0739-male.mp4",
+        "videoSHA256": "f4a2f8063f8838ccdc93a0b4880bd537c2b75e89d8f5d1ee6579e72e878554fa",
+        "poster": "0739-male-poster.png",
+        "posterSHA256": "51bf004198dae5b6680e53de3c355b523db8ac6fff2fa900084246786b400d43"
+      },
+      "female": {
+        "video": "0739-female.mp4",
+        "videoSHA256": "93c1b6705f93ed0b87f08ac75f792d8a20c59543e02f8484942ea4cba243f278",
+        "poster": "0739-female-poster.png",
+        "posterSHA256": "5953ec6b65f2c1cee4321c56fa81474a4b4d774d66a7bbf185f53bf02688ac6b"
+      }
+    }
+  },
+  "0085": {
+    "title": "杠铃罗马尼亚硬拉",
+    "variants": {
+      "male": {
+        "video": "0085-male.mp4",
+        "videoSHA256": "359e778444d8b56872671d8afeafa57b71d7d44f68b34116333b769a94bdae3d",
+        "poster": "0085-male-poster.png",
+        "posterSHA256": "14cbe37fbe6fb4d7c9e137453466ea5899f405a6624507639c7f65d6053f7643"
+      },
+      "female": {
+        "video": "0085-female.mp4",
+        "videoSHA256": "aa382df2bc3ca63fd270ccfb055b2b928e986aed1e9260c109fb43bfc2cba32f",
+        "poster": "0085-female-poster.png",
+        "posterSHA256": "fbc8f8b974e8e3024c5e2fc5fd3af1040901ae95f96e8303c0b3da9074bc2d9c"
+      }
+    }
+  },
+  "0599": {
+    "title": "坐姿腿弯举",
+    "variants": {
+      "male": {
+        "video": "0599-male.mp4",
+        "videoSHA256": "9b46f67829c73cd32d48ea9131ba9df808fa7b544d517f38cad17ff22b5d2276",
+        "poster": "0599-male-poster.png",
+        "posterSHA256": "2441ef390a56635ed86a3ad4e9639962c197fac53a025da31f3f4ec8f67ff096"
+      },
+      "female": {
+        "video": "0599-female.mp4",
+        "videoSHA256": "24fe2fdab0ba2f335b7f4ac9a48ad1267fd5ece1489a98f50ef290bdb5c54fdf",
+        "poster": "0599-female-poster.png",
+        "posterSHA256": "7d3e92231ddfb8a4a66c2616f3c1f3f1b0ea889091f211b84657c137e34348a3"
+      }
+    }
+  },
+  "0585": {
+    "title": "坐姿腿屈伸",
+    "variants": {
+      "male": {
+        "video": "0585-male.mp4",
+        "videoSHA256": "55dd88bbfcc6d4a39508e0fb70766220bbe9ff2dd1ce7bcd8cf5421345b171e2",
+        "poster": "0585-male-poster.png",
+        "posterSHA256": "e72244b0f7542d19f6211bb9e3fa03b30581e93b6aa07f690adb06f76ffebef8"
+      },
+      "female": {
+        "video": "0585-female.mp4",
+        "videoSHA256": "e6535d7d5fc6f77f0c45b68969cbf00c0847318084e1731fe5b37a7543463a90",
+        "poster": "0585-female-poster.png",
+        "posterSHA256": "a8a22b24fdad9340069f5f3e8f742a6f56722c35e3f509d0ee6b6987874c403e"
+      }
+    }
+  },
+  "0605": {
+    "title": "器械站姿提踵",
+    "variants": {
+      "male": {
+        "video": "0605-male.mp4",
+        "videoSHA256": "d362ced50f938d0f84d9fc7d5a09d8b22c1cfde528be6ae66b4a5d7e957c324c",
+        "poster": "0605-male-poster.png",
+        "posterSHA256": "968646d82587e720232aa926474e9d9eff48517fb78cbe5c6ca990705663dc51"
+      },
+      "female": {
+        "video": "0605-female.mp4",
+        "videoSHA256": "9030e4e691f8ea26022ecf54042bcfe9f1e63dd8c32a41d5b6897a7d0690b8ce",
+        "poster": "0605-female-poster.png",
+        "posterSHA256": "a79be9b71d13e77d0e7766ed3c51ad21abfcff80315031ffa0eb3084e8045152"
+      }
+    }
+  },
+  "0405": {
+    "title": "坐姿哑铃推举",
+    "variants": {
+      "male": {
+        "video": "0405-male.mp4",
+        "videoSHA256": "06db569cb178211bce3a24f3fa5665f51eb37eba4359e4bfe034658ed7486e51",
+        "poster": "0405-male-poster.png",
+        "posterSHA256": "629464247e6e303dec9f2dcf629f153e277d7b4eb8df150d86141c0d21632f0c"
+      },
+      "female": {
+        "video": "0405-female.mp4",
+        "videoSHA256": "91edc6be0729aeda8b40c1547cc45f5ccee4c7d26a08b18b732796886eaf54eb",
+        "poster": "0405-female-poster.png",
+        "posterSHA256": "49fb76c5b4cf191bcb91d9d1fc35c1b7243686d0b4f2dbbde6e7442c21b40d5d"
+      }
+    }
+  },
+  "0334": {
+    "title": "哑铃侧平举",
+    "variants": {
+      "male": {
+        "video": "0334-male.mp4",
+        "videoSHA256": "9f69f373c2c6d9b778ba35ce7d99c7f0f3373db68d1fb7b1a723fffd48308061",
+        "poster": "0334-male-poster.png",
+        "posterSHA256": "45baa72203cecde82ad6f7e7d8ca3f872dd5fe0aa48a72c916723df55de484dd"
+      },
+      "female": {
+        "video": "0334-female.mp4",
+        "videoSHA256": "459aa4636ac3142b06920acf329cd55761ceb89ced681c2c95705f0be6deaf37",
+        "poster": "0334-female-poster.png",
+        "posterSHA256": "835af4425b18773e4fd9ff4a3e04d9c2f6bad27a12524929c2654939dca8bbeb"
+      }
+    }
+  },
+  "0602": {
+    "title": "蝴蝶机反向飞鸟",
+    "variants": {
+      "male": {
+        "video": "0602-male.mp4",
+        "videoSHA256": "88a49b1533f24f048155f6d96356708f7e4a1732d65f9fc5fa3a73a8db68b189",
+        "poster": "0602-male-poster.png",
+        "posterSHA256": "5d2821bcabf7f3885892c4f9890e7fe7fb04fd4266acac29bfe94fe68448c4d3"
+      },
+      "female": {
+        "video": "0602-female.mp4",
+        "videoSHA256": "0e5da14f040a6f43e2b98ce799b233d5cab46e5d534e5130649f92511d718f0a",
+        "poster": "0602-female-poster.png",
+        "posterSHA256": "6a2f7636bfd03914d8013d1e8805c01179a31f2d1ae2a3c1566e8777b13b86ea"
+      }
+    }
+  },
+  "0872": {
+    "title": "反向卷腹",
+    "variants": {
+      "male": {
+        "video": "0872-male.mp4",
+        "videoSHA256": "cbd50e7cb6eb83ed3b5a5a0763cceb85a0eef3906dc2f2e584183e0a03f147dd",
+        "poster": "0872-male-poster.png",
+        "posterSHA256": "8c703e4b9be8396ca9c07a626dcf458aaa02b1d432eb3b51928870ec73d41d57"
+      },
+      "female": {
+        "video": "0872-female.mp4",
+        "videoSHA256": "5d550101a5dd23728b57208dfde1bac027641a330c9aa83d4db21fd3c57deb22",
+        "poster": "0872-female-poster.png",
+        "posterSHA256": "59dee42aadfb8d7cd7653e0bfc5acd473246325146d5253d11d6b823d2c54e41"
+      }
+    }
+  },
+  "0276": {
+    "title": "死虫式",
+    "variants": {
+      "male": {
+        "video": "0276-male.mp4",
+        "videoSHA256": "c29805afcde14589516927262fe8ad03653eb9547488a061cdf8ca0a63272ce3",
+        "poster": "0276-male-poster.png",
+        "posterSHA256": "8304ed0eb23578a748b32afbe7f147d885c0e46d8a8e3b3b67144c46cf82f59b"
+      },
+      "female": {
+        "video": "0276-female.mp4",
+        "videoSHA256": "69226cb7170316ad59df1d6355f7e22a8de4e283e5aea82c2bfe2f6232ebe972",
+        "poster": "0276-female-poster.png",
+        "posterSHA256": "9af60c66287d02c7de86db9224f5d6ddab1177d4d576ce38c57036b4a2ff9814"
       }
     }
   }

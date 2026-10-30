@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "f92e75f3a2de79fe1b162c44f200b0a7d31dc5af93829b0d3d3c2d1daa704a58",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/alternate_curl-review.jpg": "c2145164292a6c48295ea9947cf73bb8f3c2873322d87727efdb77844588920a"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "ff1f574302a9ee03ccea6a01f8e4d81b94b83d542fcdb3fce64aa5cbd85a9710",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看主镜头/正侧背/器械可见握持近景的四阶段图。坐姿侧举抬至肩高，肘部微曲，掌心随抬臂转向下；肩部轮廓、手腕、坐垫和双足支撑连续，低位哑铃在腿外侧。 结合全帧独立检查验收，保留原雕塑表面细节。",
+  "evidence": {
+    "docs/animation-library/male/seated_lateral_raise-review.jpg": "a40c0240c592d8f27abd082450cbe068b4345bb59adf594424aa6cefe75963a6"
+  },
+  "reviewer": "Codex visual inspection"
+}

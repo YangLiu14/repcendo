@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "88fd6098bca4239843a1722a1d6904b596d7f9bcc6b48f7b6d771cf7ab4afa68",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/db_shrug-review.jpg": "147c625646cec8ab2eaf21419b59fb24d6047a9ad934af1abfb5eaf1af95e848"
+  }
+}

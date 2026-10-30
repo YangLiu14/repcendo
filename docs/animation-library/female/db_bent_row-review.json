@@ -1,0 +1,23 @@
+{
+  "sceneSHA256": "03ff0e2d946f90355e08d7a0a092a05ffc34a29047ba0cd045c84ede9eab2932",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看五视角。髋后移、膝微屈、背部保持直线，肘向后拉并回放；中立握、腕肘对齐，男女哑铃路径均避开膝腿，肩背和前臂轮廓连续。",
+  "evidence": {
+    "docs/animation-library/female/db_bent_row-review.jpg": "fb625ab248ea99f0bdbb91eba323ff2c6192f324d500f6321f77df324316ffd2"
+  },
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex visual review"
+}

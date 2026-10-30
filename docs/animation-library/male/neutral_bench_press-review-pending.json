@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "e38c5f63bddf13b393c1b0368310934538b0e9b81552161affaf2dc75e123f1a",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/neutral_bench_press-review.jpg": "f2d73d626c94f72fb0c4c46104ae4cdb7c54aabd3005ac1d011cec45643d0270"
+  }
+}

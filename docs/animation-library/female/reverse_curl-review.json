@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "768ae7298ed049da463c3a19dca4cb1482a34d8439027bbd8bb0583a28bb68e1",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看四阶段主镜头、正侧背及握持近景。前臂保持旋前/正握，区别于掌心向上弯举，上臂稳定、腕与前臂对齐；双侧拇指闭合、握杆可见，低位与大腿保持间距。结合 121 帧实际表面检查验收。",
+  "evidence": {
+    "docs/animation-library/female/reverse_curl-review.jpg": "8daf68436c116fd5494164f341de73920833b98d37ed3f40d31756d963d63c94"
+  },
+  "reviewer": "Codex visual inspection"
+}

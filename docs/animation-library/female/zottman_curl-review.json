@@ -1,0 +1,27 @@
+{
+  "sceneSHA256": "85d70f80ccc66832d9e807712d5cb746b280147287655a311cc4c1b21b5036c6",
+  "frames": [
+    1,
+    49,
+    73,
+    85,
+    97,
+    145,
+    169,
+    181
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已逐张查看五视角及 73、85、97、169、181 帧的转腕证据。旋后弯举，顶部经过中立握转成旋前，再反握下放，底部复位；肩肘固定、手腕顺直、前臂轮廓连贯。全帧跳变复查通过。",
+  "evidence": {
+    "docs/animation-library/female/zottman_curl-review.jpg": "5f19233e8b6dfe10167e34ead8b34edac212ced6f876d69cc73d36d3a308f976"
+  },
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex visual review"
+}

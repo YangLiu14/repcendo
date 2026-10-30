@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "49fe9f6f653fd78d1c9aa65aaaf775ca5977bb4490e48378e9017774042f054f",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/cross_body_hammer_curl-review.jpg": "3f4e470513938445ca2979e35ee100b6a593b036b90f4f139d26cad39d0798e7"
+  }
+}

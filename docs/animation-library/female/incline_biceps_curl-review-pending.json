@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "d8ae8dfbb809ec3a1b649596b94814cb422cf79b5806495f3247ae716285554a",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/incline_biceps_curl-review.jpg": "beeb15c077ee40122c14443b80bb71295d1255208397eec28144509092e87fb8"
+  }
+}

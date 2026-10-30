@@ -1,0 +1,46 @@
+{
+  "male/dead_bug": {
+    "status": "accepted",
+    "scene_sha256": "507f27446223ac3b2fd7f64061ae90b511623c66ade96119d2848166dc3b429a",
+    "views": [
+      "front",
+      "side",
+      "back"
+    ],
+    "frames": [
+      1,
+      49,
+      97,
+      145
+    ],
+    "notes": "Reviewed both alternating sides and reported extra frames where present: shoulder contours and open-hand rotation remain coherent; no visible elbow pinch. This is sampled shape review, not anatomical or technique certification; equipment is audited separately.",
+    "evidence": {
+      "docs/animation-plan-v3/deformation-review/male/dead_bug.jpg": "7003683cac60cd0a7c4ed60be1fe4f643a5232a53d25ff03fbaafd0ef551beca"
+    },
+    "reviewer": "Codex visual inspection, 2026-10-29"
+  },
+  "female/dead_bug": {
+    "status": "accepted",
+    "scene_sha256": "95d812c8d91ff7ac4577b83aff6e7aecf2fd15141614489db17365d8470d6b9c",
+    "views": [
+      "front",
+      "side",
+      "back"
+    ],
+    "frames": [
+      1,
+      14,
+      44,
+      49,
+      97,
+      114,
+      135,
+      145
+    ],
+    "notes": "Reviewed both alternating sides and reported extra frames where present: shoulder contours and open-hand rotation remain coherent; no visible elbow pinch. This is sampled shape review, not anatomical or technique certification; equipment is audited separately.",
+    "evidence": {
+      "docs/animation-plan-v3/deformation-review/female/dead_bug.jpg": "c3ae6d6021a17b7dca511b645a33d03d2e46a7d6843270f3beae69672ad7db71"
+    },
+    "reviewer": "Codex visual inspection, 2026-10-29"
+  }
+}

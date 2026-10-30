@@ -1,0 +1,13 @@
+{
+  "scene_sha256": "9e24874173e51f4a038018b329cefec5d60b7dd5205ef5e2fabd75c487103954",
+  "original_sha256": "95d812c8d91ff7ac4577b83aff6e7aecf2fd15141614489db17365d8470d6b9c",
+  "rest_coordinates_equal": true,
+  "uv_equal": true,
+  "max_bone_matrix_difference": 0.0,
+  "mesh_loop_error_m": 0.0,
+  "before_max_roi_step_m": 0.017119940492608877,
+  "before_max_roi_second_difference_m": 0.0012448168064420272,
+  "after_max_roi_step_m": 0.015122800247936979,
+  "after_max_roi_second_difference_m": 0.002452647369034367,
+  "status": "passed"
+}

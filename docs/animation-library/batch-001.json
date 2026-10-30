@@ -1,0 +1,233 @@
+{
+  "batch": "001",
+  "date": "2026-10-29",
+  "scope": "Four new exercises in the complete 1324-ID library; not completion of the entire library",
+  "exerciseCount": 4,
+  "videoCount": 8,
+  "renderedFrames": 1104,
+  "auditedFrames": 1112,
+  "status": "delivered",
+  "references": {
+    "hammer_curl": "https://www.roguefitness.com/theindex/movement-library/movement-demo-hammer-curls",
+    "front_raise": "https://www.acefitness.org/resources/everyone/exercise-library/54/front-raise/"
+  },
+  "validation": {
+    "gateAndDeliveryTests": 23,
+    "coreTests": 14,
+    "appBuild": "succeeded",
+    "builtMediaResourceFilesVerified": 97,
+    "browserPlayback": "male and female readyState 4; 5/8/5/5 second durations; male hammer and female alternating playback verified"
+  },
+  "exercises": [
+    {
+      "motion": "hammer_curl",
+      "id": "0313",
+      "title": "哑铃锤式弯举",
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "4c8252dcc5e11a1f029554801a4ab40a561b9f061ed34e092345f128b4034bf5",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
+            "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
+          },
+          "files": {
+            "hammer_curl.mp4": "5ad7a613f05ccb5d3a4ebeb49b2e2f41f6baa7b69ce265a70d781cbb2e90513f",
+            "hammer_curl-poster.png": "352247d99f2649119cb3e7d1ecce1513f9b109b4cd4a20363abe3eff2e9ca899"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "9d6e5e672692a61d81c88131d67d609ac7fa72c6e2780c0a4dca850d0ee36ada",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
+            "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
+          },
+          "files": {
+            "hammer_curl.mp4": "45f8a51ee7e260ce166cad0f345c6c97251bc72192cfde1f2c32a029e2a84d68",
+            "hammer_curl-poster.png": "fd2c6fc7a27baa845299ab5350643bfef0dfffe1fa70f5a20563793f644f3645"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "alternate_curl",
+      "id": "0285",
+      "title": "交替哑铃弯举",
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "f92e75f3a2de79fe1b162c44f200b0a7d31dc5af93829b0d3d3c2d1daa704a58",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
+            "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
+          },
+          "files": {
+            "alternate_curl.mp4": "4a37c4a8d81b98ee359b6c456125ccd12ef50ab908b9fad2b7fa2102739f13f0",
+            "alternate_curl-poster.png": "b09186a354b02afda1a8f45d3550707e8fbd001f14447c9107f5ec3e1cb2dd5e"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 192,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "318806a76c375b012e6d9661282d28adeb6eb6ab8fadeced55a1bceef638ea82",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
+            "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
+          },
+          "files": {
+            "alternate_curl.mp4": "dbdfa0b07e7b7600114e64f77cabbb4d3c15fa4807648f2ed43081894405d041",
+            "alternate_curl-poster.png": "a55e7a225baa3baed5b69ebf785e99b67fa369b3c7758b28e8bc86a33c9fa50f"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 192,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "front_raise",
+      "id": "0310",
+      "title": "哑铃前平举",
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "b0495d093340ff6010fddbdf36f0dea2596b13d760ecb7e2bbee6de032735d77",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
+            "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
+          },
+          "files": {
+            "front_raise.mp4": "4469437f81aabb90fd57d8adedf68479f202d2624ee489074ff715eb44f50d0b",
+            "front_raise-poster.png": "70e2b47f1b79ac6551c40398d665efb5ea42e5e54bacfe0356c57c07cabef67a"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "eecf4b89587decd2f87d29f89f23709f6db2b5b3b3d4f26b774ec6fcf0d7d344",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
+            "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
+          },
+          "files": {
+            "front_raise.mp4": "e1ef17d7ef41dcd8eeed31e8ac64592966bb411e3fab6d3ff950521df25430e6",
+            "front_raise-poster.png": "70b790487bd7c09d9c1acc3e2bf7f6b44b2badf718b4c75cfbc284259879bc70"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "seated_hammer_curl",
+      "id": "1678",
+      "title": "坐姿哑铃锤式弯举",
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "2d60f09dc871ffaa587ac97e37b67302e63649f499b204f4565cbc9b0fb7320c",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
+            "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
+          },
+          "files": {
+            "seated_hammer_curl.mp4": "a56faf7a455dd739f5bd1c2d1509f96a06f2859202a2b64fa2e92e7950ef25b3",
+            "seated_hammer_curl-poster.png": "b54d7df40d6d7ddc3919c57f4ab0357442f42d656802c752643ba25b1c5b6dd8"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "5caa467eb3e96b0caf71583a2674e52ec221eb2d17a4e8f0e28148b147a6712a",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
+            "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
+          },
+          "files": {
+            "seated_hammer_curl.mp4": "66c9c860864b58eac95f0a028309a79d9bbaf59cf8821a7ae551d49d3643f159",
+            "seated_hammer_curl-poster.png": "3905bea720f52c715f976638f7e7fadbd23754406a5c0966ec047872bd87cddc"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    }
+  ],
+  "revalidatedWithBatch": "002",
+  "revalidation": "All 1,112 frames re-audited; unchanged scenes and reviewed image evidence reused; all raw frame boundaries rechecked, videos re-encoded and fully decoded."
+}

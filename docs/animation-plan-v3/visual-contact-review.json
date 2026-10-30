@@ -1,0 +1,463 @@
+{
+  "scope": "Front/side/back endpoints and both dead-bug sides; nonlocal contact and gross deformations. Small finger/joint folds require continued visual review.",
+  "scenes": {
+    "male/bench": {
+      "sceneSHA256": "9f040075ac049d10fcffc0eef26ef90d00add49d8bc7be8622a166a2c2a294a0",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/incline_press": {
+      "sceneSHA256": "0a0d78aa76fd072995ff8d42d824b723704f5fa0c1a2d90e8f1841b39a4cbd20",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/pushdown": {
+      "sceneSHA256": "10cdd35c79a3336bd7e69b553e6716418768078381fa2d1c4872833c6a2fa9c7",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/cable_crunch": {
+      "sceneSHA256": "d305cab115de96f4d246ac363f240a9ef55f0d458e688b9200df25983a6a2b10",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/pulldown": {
+      "sceneSHA256": "c5210c17de5b384b0f5bf8df299b89310c99cf790461da25a15dad7e24b5e188",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/straight_pulldown": {
+      "sceneSHA256": "fcce5adc0654db66b504cd9bb0ae390b6c04064d8b332526ed592d520305e25c",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/curl": {
+      "sceneSHA256": "6f7940db727f4529ee868690c238f18c1982cc45318747dfb3dd158730e4a8c9",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/rdl": {
+      "sceneSHA256": "a056f5fb1407fbea642549e5e8946b8bbfb3a0328c7c902188dfd35840255a44",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/leg_curl": {
+      "sceneSHA256": "102d5366d57dc0ec894103cafec5a7dda74be56aedca83ffb8346891afc6bc1a",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/leg_extension": {
+      "sceneSHA256": "520027e32f6e67b26646b5990a62090b70fc3b641a9b944f0f268a72b0ad2edc",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/calf_raise": {
+      "sceneSHA256": "cff0ade2a1a9d87f300df45b066522f87fe686ec3760ded699b3546e4e01b691",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/shoulder_press": {
+      "sceneSHA256": "3ac1bd771a71425d8e6ed34ae141d239f4195b0784ce088c010ea0576fe9e3c7",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/lateral_raise": {
+      "sceneSHA256": "e7cd36f4e640131e1babc48dd14075b77148bc3bf054299d3ad033ab60d4aa11",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/reverse_crunch": {
+      "sceneSHA256": "f451cccec823c388ad1ecd808f9175aa78d9e0a891e40227c864ebb331b4ca6b",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/bench": {
+      "sceneSHA256": "849616da61546109b71c90c1250f192b08f9b478d3786ced37dd1908e5c49723",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/incline_press": {
+      "sceneSHA256": "edd31afc78a59704e42dab07c0b7b1de6f5dceb4f1221b70e79d7944fa55c5ea",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/pushdown": {
+      "sceneSHA256": "810c37bd84ef12b1105cb90f111136ab19cbedffc970bd9d7d42f34777c51ce7",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/cable_crunch": {
+      "sceneSHA256": "a7bc91992562d174ca34283aea2e3d344dd46237f7d2a3511e89370b33204538",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/pulldown": {
+      "sceneSHA256": "907aa2aeb0aec650277d6e30792bb5af6b374887a3d94870ef038afecb39fe1f",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/straight_pulldown": {
+      "sceneSHA256": "0895ca26ace5bd9c2bb3c3adf6acbc00bf7bfe8eaa57754bb07159d1bd5da768",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/curl": {
+      "sceneSHA256": "e56f13b08d34bf469f4b1e62466c8b747cace087ce79c4a63cd93e2399f790d2",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/rdl": {
+      "sceneSHA256": "e9e266116908bf7acfa0417c772d96090242dc70d148513c0d31b38183b9721e",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/leg_curl": {
+      "sceneSHA256": "bd6aa3379a51b28e99f4872e21b81993da6514a773d657a3545305ffea85f5ad",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/leg_extension": {
+      "sceneSHA256": "eb7f7975a9e5bc3945023c79087490b370abc002161fcba87c41fd186d973857",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/calf_raise": {
+      "sceneSHA256": "a0806675aa840e4e60b4ffb602cc7854ff45583acb730f5a0f458815ab0eade9",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/shoulder_press": {
+      "sceneSHA256": "827b980bb5bedbf2c9c75bc6407fde0468c2108dcb047913ba162c34ae2831dd",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/lateral_raise": {
+      "sceneSHA256": "2e2369539f85d811207dff3afb865f4b49f3eba05079df2391c3aa588f5b45f0",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/reverse_crunch": {
+      "sceneSHA256": "7127fcf59c51833eb0973f98626df7cee48bfcaa0ffb9cda796b6efe81f798e1",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/leg_press": {
+      "sceneSHA256": "c4f8341d6de82a2743796e34e87f61c98d94f72dc18ee3c1d923f2888806a3be",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/row": {
+      "sceneSHA256": "599f55cbdf3cabaadc319f51bd56e32379976c0401d16fce5d2a01150781f470",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/pec_fly": {
+      "sceneSHA256": "34a91532f82c5f643b616f30fedb53e4ab9474e4708eaccc0090fb382ddb150d",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/reverse_fly": {
+      "sceneSHA256": "8cd8d2041f494570292ac865b076746662b8e91d7ad327f60b37486aec48dba6",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "male/dead_bug": {
+      "sceneSHA256": "a451e5a4a0fb958fb7a94d0705c35d14b031a4a540776a60801d3c5c4189474f",
+      "frames": [
+        1,
+        49,
+        145
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/leg_press": {
+      "sceneSHA256": "2460cdbdb7cd57beeadd19136f674a343ead0f4d19b16a48454b60a357e853b0",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/row": {
+      "sceneSHA256": "415a9d192a5341301b6d191c4ebcba661dae0aa2f0bfa608012e8039bd795dad",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/pec_fly": {
+      "sceneSHA256": "d40affa2c644ce452c2a5c2e18b3c0353f00e0c046882ffb7dd684fa5417ba2f",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/reverse_fly": {
+      "sceneSHA256": "5abb756a0c3f95ca8f4979b56f88c1ae09722896c17921b0919dccc5b474a5a8",
+      "frames": [
+        1,
+        61
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    },
+    "female/dead_bug": {
+      "sceneSHA256": "bd4c2e06b2f5a8de1299258d029875ddc9337d412d332bbed0e084eae52d445c",
+      "frames": [
+        1,
+        49,
+        145
+      ],
+      "views": [
+        "front",
+        "side",
+        "back"
+      ]
+    }
+  }
+}

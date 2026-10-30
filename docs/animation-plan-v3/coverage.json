@@ -1,0 +1,139 @@
+{
+  "planID": "recompose-20261028-4w",
+  "revision": 3,
+  "exercises": [
+    {
+      "exerciseID": "0025",
+      "title": "杠铃卧推",
+      "day": "周一 · 胸＋三头＋腹",
+      "sourceName": "barbell bench press",
+      "existing": true
+    },
+    {
+      "exerciseID": "0314",
+      "title": "上斜哑铃卧推",
+      "day": "周一 · 胸＋三头＋腹",
+      "sourceName": "dumbbell incline bench press",
+      "existing": false
+    },
+    {
+      "exerciseID": "0596",
+      "title": "蝴蝶机夹胸",
+      "day": "周一 · 胸＋三头＋腹",
+      "sourceName": "lever seated fly",
+      "existing": false
+    },
+    {
+      "exerciseID": "0200",
+      "title": "绳索三头下压",
+      "day": "周一 · 胸＋三头＋腹",
+      "sourceName": "cable pushdown (with rope attachment)",
+      "existing": false
+    },
+    {
+      "exerciseID": "0175",
+      "title": "跪姿绳索卷腹",
+      "day": "周一 · 胸＋三头＋腹",
+      "sourceName": "cable kneeling crunch",
+      "existing": false
+    },
+    {
+      "exerciseID": "2330",
+      "title": "高位下拉",
+      "day": "周二 · 背＋二头",
+      "sourceName": "cable lat pulldown full range of motion",
+      "existing": false
+    },
+    {
+      "exerciseID": "0861",
+      "title": "坐姿绳索划船",
+      "day": "周二 · 背＋二头",
+      "sourceName": "cable seated row",
+      "existing": true
+    },
+    {
+      "exerciseID": "0238",
+      "title": "绳索直臂下拉",
+      "day": "周二 · 背＋二头",
+      "sourceName": "cable straight arm pulldown",
+      "existing": false
+    },
+    {
+      "exerciseID": "0294",
+      "title": "哑铃弯举",
+      "day": "周二 · 背＋二头",
+      "sourceName": "dumbbell biceps curl",
+      "existing": false
+    },
+    {
+      "exerciseID": "0739",
+      "title": "45度腿举",
+      "day": "周三 · 腿部综合",
+      "sourceName": "sled 45в° leg press",
+      "existing": false
+    },
+    {
+      "exerciseID": "0085",
+      "title": "杠铃罗马尼亚硬拉·技术组",
+      "day": "周三 · 腿部综合",
+      "sourceName": "barbell romanian deadlift",
+      "existing": false
+    },
+    {
+      "exerciseID": "0599",
+      "title": "坐姿腿弯举",
+      "day": "周三 · 腿部综合",
+      "sourceName": "lever seated leg curl",
+      "existing": false
+    },
+    {
+      "exerciseID": "0585",
+      "title": "坐姿腿屈伸",
+      "day": "周三 · 腿部综合",
+      "sourceName": "lever leg extension",
+      "existing": false
+    },
+    {
+      "exerciseID": "0605",
+      "title": "器械站姿提踵",
+      "day": "周三 · 腿部综合",
+      "sourceName": "lever standing calf raise",
+      "existing": false
+    },
+    {
+      "exerciseID": "0405",
+      "title": "坐姿哑铃推举",
+      "day": "周四 · 肩＋腹",
+      "sourceName": "dumbbell seated shoulder press",
+      "existing": false
+    },
+    {
+      "exerciseID": "0334",
+      "title": "哑铃侧平举",
+      "day": "周四 · 肩＋腹",
+      "sourceName": "dumbbell lateral raise",
+      "existing": false
+    },
+    {
+      "exerciseID": "0602",
+      "title": "蝴蝶机反向飞鸟",
+      "day": "周四 · 肩＋腹",
+      "sourceName": "lever seated reverse fly",
+      "existing": false
+    },
+    {
+      "exerciseID": "0872",
+      "title": "反向卷腹",
+      "day": "周四 · 肩＋腹",
+      "sourceName": "reverse crunch",
+      "existing": false
+    },
+    {
+      "exerciseID": "0276",
+      "title": "死虫式",
+      "day": "周四 · 肩＋腹",
+      "sourceName": "dead bug",
+      "existing": false
+    }
+  ]
+}

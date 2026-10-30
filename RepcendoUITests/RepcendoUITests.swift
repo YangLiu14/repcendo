@@ -12,7 +12,7 @@ final class RepcendoUITests: XCTestCase {
                 predicate: NSPredicate(format: "label CONTAINS %@", playing ? "暂停" : "播放"), object: button)
             XCTAssertEqual(XCTWaiter.wait(for: [expectation], timeout: 10), .completed)
         }
-        for id in ["0043", "0025", "0861"] {
+        for id in ["0043", "0025", "0861", "0739", "0276"] {
             app.launch()
             app.buttons["动作库"].firstMatch.tap()
             let search = app.searchFields.firstMatch
@@ -27,6 +27,10 @@ final class RepcendoUITests: XCTestCase {
                 app.buttons["animationPlayPause"].tap()
                 expectPlayback(false)
                 app.buttons["animationReplay"].tap()
+                expectPlayback(true)
+            }
+            if id == "0276" {
+                Thread.sleep(forTimeInterval: 9) // The bilateral dead-bug loop lasts eight seconds.
                 expectPlayback(true)
             }
             if id == "0043" {
@@ -59,15 +63,23 @@ final class RepcendoUITests: XCTestCase {
             app.terminate()
         }
         app.launch()
-        XCTAssertTrue(app.buttons["previewExample"].waitForExistence(timeout: 5), "Use a dedicated fresh QA simulator.")
-        app.buttons["previewExample"].tap()
-        app.buttons["confirmImport"].tap()
-        app.buttons["startWorkout"].tap()
+        // The import test may already have created the example plan in this QA device.
+        if app.buttons["previewExample"].waitForExistence(timeout: 2) {
+            app.buttons["previewExample"].tap()
+            app.buttons["confirmImport"].tap()
+        }
+        if app.buttons["继续训练"].waitForExistence(timeout: 2) {
+            // The large-text smoke test leaves its sample workout draft intact.
+            app.buttons["继续训练"].tap()
+        } else {
+            XCTAssertTrue(app.buttons["startWorkout"].waitForExistence(timeout: 5), app.debugDescription)
+            app.buttons["startWorkout"].tap()
+        }
         let weight = app.textFields["weight-0"].firstMatch
         reveal(weight, in: app)
         weight.tap(); weight.typeText("20")
         app.buttons["收起键盘"].tap()
-        let demo = app.buttons["workout-demo-0025"]
+        let demo = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "workout-demo-")).firstMatch
         if !demo.isHittable { app.swipeDown() }
         demo.tap()
         XCTAssertTrue(app.buttons["animationPlayPause"].waitForExistence(timeout: 5))

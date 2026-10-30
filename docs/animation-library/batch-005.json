@@ -1,0 +1,19 @@
+{
+  "batch": "005",
+  "date": "2026-10-30",
+  "status": "in_progress",
+  "exerciseCount": 8,
+  "videoCountTarget": 16,
+  "ids": [
+    "1670",
+    "1671",
+    "0425",
+    "0355",
+    "0361",
+    "0424",
+    "0343",
+    "1281"
+  ],
+  "workflow": "Latest animation-pipeline.md including thickness-preserving grips and photo-referenced equipment; restarted after workflow audit",
+  "delivered": false
+}

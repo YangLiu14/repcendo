@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "fb20f68c19edfbeb37eb62dd322ee702cab0e2e2210d55d3f0ee454e3b9c5c11",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/incline_alternate_press-review.jpg": "42f45c22bdb4a1a691a0c0f09f43ae526f396c3e8753c25074d201ffa31dfb08"
+  }
+}

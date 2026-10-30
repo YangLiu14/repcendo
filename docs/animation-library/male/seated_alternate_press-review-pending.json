@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "b1631fb352dc947bfe0fdf4045fa1970017887c8166cfc5502681b6a9fe856e3",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/seated_alternate_press-review.jpg": "25009d5d3a693d6ba2f962d8da0c0fa41418699ecceecdf14802b8b31f0e2de8"
+  }
+}

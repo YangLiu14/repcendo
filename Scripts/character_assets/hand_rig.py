@@ -160,7 +160,7 @@ def install(rig, mesh, sex):
     return centers, chains
 
 
-def closed_points(chains, centers, side, digit):
+def closed_points(chains, centers, side, digit, thumb_clearance=0.0):
     pts = chains[side, digit]
     center = centers[side]
     sign = 1 if side == "Left" else -1
@@ -173,6 +173,12 @@ def closed_points(chains, centers, side, digit):
             Vector((pts[1].x - 0.008, center.y - sign * 0.015, center.z - 0.002)),
             Vector((pts[1].x - 0.015, center.y - sign * 0.005, center.z - 0.010)),
         ]
+        if thumb_clearance:
+            # Calibrated thick thumbs need their joint path outside the shaft;
+            # projecting a tip through the shaft collapses the enclosing skin.
+            for point in target[2:]:
+                radial = Vector((0, point.y-center.y, point.z-center.z))
+                point += radial.normalized() * thumb_clearance
         return target
     out = [pts[0].copy()]
     radius = math.hypot(pts[0].y - center.y, pts[0].z - center.z)
@@ -192,12 +198,12 @@ def closed_points(chains, centers, side, digit):
     return out
 
 
-def pose_fingers(rig, chains, centers, side, frame, closed=True):
+def pose_fingers(rig, chains, centers, side, frame, closed=True, thumb_clearance=0.0):
     hand = rig.pose.bones["mixamorig:" + side + "Hand"]
     deform = hand.matrix @ hand.bone.matrix_local.inverted()
     for digit in DIGITS:
         pts = (
-            closed_points(chains, centers, side, digit)
+            closed_points(chains, centers, side, digit, thumb_clearance)
             if closed
             else chains[side, digit]
         )
@@ -215,7 +221,9 @@ def pose_fingers(rig, chains, centers, side, frame, closed=True):
             b.keyframe_insert("rotation_quaternion", frame=frame)
 
 
-def add_contact_clearance(rig, mesh, centers, radius_world=0.0155):
+def add_contact_clearance(
+    rig, mesh, centers, radius_world=0.0155, preserve_thickness=False
+):
     """Small pose corrective prevents the fixed 28 mm grip from piercing skin.
 
     Invert the actual blended skin matrix, so the correction follows the hand
@@ -234,8 +242,26 @@ def add_contact_clearance(rig, mesh, centers, radius_world=0.0155):
         for b in rig.pose.bones
     }
     report = {}
+    preserve_volume = any(
+        m.type == "ARMATURE" and m.use_deform_preserve_volume for m in mesh.modifiers
+    )
+    if preserve_volume:
+        from skin_matrix import blend_rigid
+
+        rigid = {
+            b.name: b.matrix @ b.bone.matrix_local.inverted() for b in rig.pose.bones
+        }
+        for matrix in rigid.values():
+            if max(abs(value - 1) for value in matrix.to_scale()) > 1e-4:
+                raise ValueError("DQ contact inverse requires rigid bone transforms")
     for side in ["Left", "Right"]:
-        key = mesh.shape_key_add(name=side + "_Grip_Clearance")
+        # The thickness-preserving mode builds independent left/right deltas.
+        # Blender's from_mix default would copy the active left delta into the
+        # right key and apply it twice. Keep legacy projection output unchanged
+        # for existing scene recipes; new mode always starts at the Basis.
+        key = mesh.shape_key_add(
+            name=side + "_Grip_Clearance", from_mix=not preserve_thickness
+        )
         hand = rig.pose.bones["mixamorig:" + side + "Hand"]
         to_world = rig.matrix_world @ hand.matrix @ hand.bone.matrix_local.inverted()
         from_world = to_world.inverted()
@@ -268,15 +294,35 @@ def add_contact_clearance(rig, mesh, centers, radius_world=0.0155):
                     for r in range(4)
                 ]
             )
+            if preserve_volume:
+                skin = (
+                    rig.matrix_world
+                    @ blend_rigid(rigid, weights)
+                    @ rig.matrix_world.inverted()
+                    @ mesh.matrix_world
+                )
             posed = from_world @ (skin @ v.co)
             dy = posed.y - center.y
             dz = posed.z - center.z
             r = math.hypot(dy, dz)
-            if r >= radius_world / scale:
+            clearance = radius_world / scale
+            if r >= clearance * (2 if preserve_thickness else 1):
                 continue
+            # A hard projection collapses inner/outer finger layers onto one
+            # cylinder. Keep this radial map strictly increasing, then blend
+            # back to the unchanged surface over one extra clearance radius.
+            target_radius = (
+                (
+                    clearance + 0.25 * r
+                    if r < clearance
+                    else r + 0.25 * (2 * clearance - r)
+                )
+                if preserve_thickness
+                else clearance
+            )
             target = posed.copy()
-            target.y = center.y + dy / max(r, 1e-8) * radius_world / scale
-            target.z = center.z + dz / max(r, 1e-8) * radius_world / scale
+            target.y = center.y + dy / max(r, 1e-8) * target_radius
+            target.z = center.z + dz / max(r, 1e-8) * target_radius
             new = skin.inverted() @ (to_world @ target)
             key.data[v.index].co = new
             changed += 1
@@ -287,6 +333,7 @@ def add_contact_clearance(rig, mesh, centers, radius_world=0.0155):
             "max_surface_adjustment_m": maximum,
             "shaft_radius_m": 0.014,
             "clearance_radius_m": radius_world,
+            "preserve_finger_thickness": preserve_thickness,
         }
     rig["hand_contact_corrective"] = str(report)
     return report

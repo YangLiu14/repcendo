@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "a9508908bf77b3a29a29a0b5b6c0c994976245a15cfaa0232b7ed07f73e2fcec",
+  "frames": [
+    1,
+    29,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/seated_alternate_press-review.jpg": "db6299a7b9a52c09268596d8ce99b6ddf7970ede7305ab78f409ff87a9392b25"
+  }
+}

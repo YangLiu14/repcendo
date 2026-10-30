@@ -1,0 +1,35 @@
+{
+  "status": "stretch_regression",
+  "threshold_p95": 1.8,
+  "scope": "Known axillary defect ROI; engineering regression threshold, not a physiological limit",
+  "edges_checked": 6269,
+  "samples": [
+    {
+      "frame": 1,
+      "p95": 2.300525094687534,
+      "maximum": 9.338459482369744
+    },
+    {
+      "frame": 49,
+      "p95": 2.6714422238959847,
+      "maximum": 10.341335034755492
+    },
+    {
+      "frame": 97,
+      "p95": 2.300525094687534,
+      "maximum": 9.338459482369744
+    },
+    {
+      "frame": 145,
+      "p95": 2.79140954113222,
+      "maximum": 7.607306382030361
+    },
+    {
+      "frame": 193,
+      "p95": 2.300525094687534,
+      "maximum": 9.338459482369744
+    }
+  ],
+  "scene_sha256": "507f27446223ac3b2fd7f64061ae90b511623c66ade96119d2848166dc3b429a",
+  "validator_sha256": "089b1582e2152527fd3df72dc159ea16367439b385b71e3cf0f8b4bc90dd02cb"
+}

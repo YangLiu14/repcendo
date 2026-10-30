@@ -2,7 +2,7 @@
 
 Local Blender only. Keeps source character assets intact; writes v2 samples.
 """
-import argparse, json, math, sys
+import argparse, json, math, sys, hashlib
 from pathlib import Path
 import bpy
 from mathutils import Vector, Matrix
@@ -10,110 +10,54 @@ from mathutils import Vector, Matrix
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from exercise_catalog import EXERCISES, PRIMARY_MUSCLES
+from plan_exercises import PLAN_EXERCISES, PLAN_MUSCLES
+from plan_motions import PlanMotion
+from library_exercises import LIBRARY_EXERCISES, LIBRARY_MUSCLES
+from library_motions import LibraryMotion
+from frame_plan_scene import fit as fit_plan_camera
+
+ALL_EXERCISES = {**EXERCISES, **PLAN_EXERCISES, **LIBRARY_EXERCISES}
 
 P = argparse.ArgumentParser()
-P.add_argument("--exercise", choices=list(EXERCISES), required=True)
+P.add_argument("--exercise", choices=list(ALL_EXERCISES), required=True)
 P.add_argument("--sex", choices=["male", "female"], default="male")
 P.add_argument("--preview", action="store_true")
+P.add_argument("--no-render", action="store_true")
 P.add_argument("--frame", type=int, default=61)
+P.add_argument(
+    "--output-root",
+    type=Path,
+    default=ROOT,
+    help="Isolated candidate output; source assets still come from the project",
+)
 P.add_argument("--view", choices=["motion", "front", "back"], default="motion")
 args = P.parse_args(sys.argv[sys.argv.index("--") + 1 :])
-OUT = ROOT / f"build/animation-samples-v2/{args.sex}/{args.exercise}"
+collection = (
+    "animation-library" if args.exercise in LIBRARY_EXERCISES else
+    "animation-plan-v3" if args.exercise in PLAN_EXERCISES else "animation-samples-v2"
+)
+frame_count = ALL_EXERCISES[args.exercise].get("frames", 120)
+OUT = args.output_root / f"build/{collection}/{args.sex}/{args.exercise}"
 OUT.mkdir(parents=True, exist_ok=True)
-DELIVER = ROOT / f"docs/animation-samples-v2/{args.sex}"
+DELIVER = args.output_root / f"docs/{collection}/{args.sex}"
 DELIVER.mkdir(parents=True, exist_ok=True)
-source = (
-    ROOT
-    / f"docs/character-assets/muscle-overlay-v1/{args.sex}/greek-{args.sex}-muscles.blend"
-)
-bpy.ops.wm.open_mainfile(filepath=str(source))
-rig = next(o for o in bpy.context.scene.objects if o.type == "ARMATURE")
-character = next(
-    o
-    for o in bpy.context.scene.objects
-    if o.type == "MESH"
-    and any(m.type == "ARMATURE" and m.object == rig for m in o.modifiers)
-)
-for o in list(bpy.context.scene.objects):
-    if o not in [rig, character]:
-        bpy.data.objects.remove(o, do_unlink=True)
-# Weld coincident import seams before weighting fingers. UVs are face-corner
-# data and remain intact; connected vertices also restore smooth knuckle normals.
 import bmesh
 
-bm = bmesh.new()
-bm.from_mesh(character.data)
-bmesh.ops.remove_doubles(bm, verts=list(bm.verts), dist=0.000001)
-bm.to_mesh(character.data)
-bm.free()
-character.data.update()
-for poly in character.data.polygons:
-    poly.use_smooth = True
-character.data.normals_split_custom_set([(0, 0, 0)] * len(character.data.loops))
-rig.animation_data_clear()
-rig.data.display_type = "OCTAHEDRAL"
-rig.show_in_front = True
-# Correct obvious automatic-rig endpoint placements in the animation COPY.
-bpy.context.view_layer.objects.active = rig
-rig.select_set(True)
-bpy.ops.object.mode_set(mode="EDIT")
-for side in ["Left", "Right"]:
-    b = rig.data.edit_bones
-    wrist = b["mixamorig:" + side + "Hand"].head.copy()
-    wrist.z = 0.488 if args.sex == "male" else 0.490
-    b["mixamorig:" + side + "ForeArm"].tail = wrist
-    b["mixamorig:" + side + "Hand"].head = wrist
-    b["mixamorig:" + side + "Hand"].tail = Vector((wrist.x + 0.030, wrist.y, 0.424))
-    ankle = b["mixamorig:" + side + "Foot"].head.copy()
-    ankle.z = 0.065
-    b["mixamorig:" + side + "Leg"].tail = ankle
-    b["mixamorig:" + side + "Foot"].head = ankle
-    toe = Vector((0.043, ankle.y, 0.025))
-    b["mixamorig:" + side + "Foot"].tail = toe
-    b["mixamorig:" + side + "ToeBase"].head = toe
-    b["mixamorig:" + side + "ToeBase"].tail = Vector((0.085, ankle.y, 0.022))
-bpy.ops.object.mode_set(mode="OBJECT")
-# Reweight distal regions to the calibrated joints in the animation copy.
-# The original generated weights treated much of the foot as lower leg.
-for vertex in character.data.vertices:
-    p = vertex.co
-    kind = (
-        "Foot"
-        if p.z < 0.130
-        else ("Hand" if p.z < 0.490 and abs(p.y) > 0.195 else None)
-    )
-    if not kind:
-        continue
-    side = "Left" if p.y > 0 else "Right"
-    blend = (
-        max(0, min(1, (0.130 - p.z) / 0.050))
-        if kind == "Foot"
-        else max(0, min(1, (0.49 - p.z) / 0.025))
-    )
-    if blend <= 0:
-        continue
-    weights = [(g.group, g.weight) for g in vertex.groups]
-    for group_index, weight in weights:
-        character.vertex_groups[group_index].add(
-            [vertex.index], weight * (1 - blend), "REPLACE"
-        )
-    group = character.vertex_groups["mixamorig:" + side + kind]
-    old = next((w for i, w in weights if i == group.index), 0)
-    group.add([vertex.index], old * (1 - blend) + blend, "REPLACE")
-# Rig real finger chains; retain the original sculpture mesh and textures.
 sys.path.insert(0, str(ROOT / "Scripts/character_assets"))
-from hand_rig import install as install_hands, pose_fingers, add_contact_clearance
+from prepare_athlete import prepare_character
+from hand_rig import pose_fingers, add_contact_clearance
+from shoulder_rig import squat_bar_anchor
+from deformation_rig import arm_rotations, pose_forearm_twist, VERSION as RIG_VERSION
 
-hand_centers, hand_chains = install_hands(rig, character, args.sex)
-from shoulder_rig import refine_upper_back, squat_bar_anchor
-
-shoulder_report = refine_upper_back(character, args.sex)
-# Upright model +X front -> scene +Y front, height around 1.78 m.
-scale = 1.82 if args.sex == "male" else 1.76
-rig.matrix_world = Matrix.Rotation(math.pi / 2, 4, "Z") @ Matrix.Diagonal(
-    (scale, scale, scale, 1)
-)
-bpy.context.view_layer.update()
+(
+    rig,
+    character,
+    hand_centers,
+    hand_chains,
+    shoulder_report,
+    ankle_report,
+    scale,
+) = prepare_character(args.sex)
 rest = {b.name: rig.matrix_world @ b.matrix_local for b in rig.data.bones}
 head = {b.name: (rig.matrix_world @ b.head_local) for b in rig.data.bones}
 tail = {b.name: (rig.matrix_world @ b.tail_local) for b in rig.data.bones}
@@ -138,7 +82,7 @@ keys = [
     "gastrocnemius",
     "tibialis_anterior",
 ]
-active = PRIMARY_MUSCLES[args.exercise]
+active = {**PRIMARY_MUSCLES, **PLAN_MUSCLES, **LIBRARY_MUSCLES}[args.exercise]
 for k in keys:
     rig[k] = float(k in active)
 rig.update_tag()
@@ -286,12 +230,14 @@ if args.view == "motion":
             cylinder(
                 "Handle grip",
                 (s * 0.085, 0, -0.065),
-                (s * 0.085, 0, 0.065),
+                (s * 0.085, 0, 0.10),
                 0.014,
                 STEEL,
                 HANDLE,
             )
-            cylinder("V handle", (s * 0.085, 0, 0), (0, 0.09, 0), 0.013, STEEL, HANDLE)
+            cylinder(
+                "V handle", (s * 0.085, 0, 0.10), (0, 0.09, 0.10), 0.013, STEEL, HANDLE
+            )
         CABLE = cylinder("Cable", (0, 0, 0), (0, 0, 1), 0.004, DARK)
         cube("Seat", (0, -0.10, 0.42), (0.43, 0.43, 0.10), PAD, 0.04)
         for y in [-0.24, 0.04]:
@@ -343,10 +289,15 @@ if args.exercise == "squat":
 contact_errors = []
 length_errors = []
 pose_records = []
+extension = (LibraryMotion(globals()) if args.exercise in LIBRARY_EXERCISES else
+             PlanMotion(globals()) if args.exercise in PLAN_EXERCISES else None)
 
 
 def pose(f):
     bpy.context.scene.frame_set(f)
+    if extension and args.view == "motion":
+        extension.pose(f)
+        return
     d = depth(f)
     static = args.view != "motion"
     if static:
@@ -383,7 +334,7 @@ def pose(f):
                     0,
                     -0.23 + 0.10 * d,
                     (1.065 if args.sex == "male" else 1.025)
-                    - (0.34 if args.sex == "male" else 0.31) * d,
+                    - (0.34 if args.sex == "male" else 0.295) * d,
                 )
             )
         )
@@ -392,10 +343,10 @@ def pose(f):
         BAR.rotation_euler.x = -(0.20 + 0.35 * d) if args.exercise == "squat" else 0
         BAR.keyframe_insert("rotation_euler", frame=f)
     elif not static:
-        handle = Vector((0, 0.505 - 0.405 * d, 0.94 - 0.085 * d))
+        handle = Vector((0, 0.505 - 0.215 * d, 0.94 - 0.085 * d))
         HANDLE.location = handle
         HANDLE.keyframe_insert("location", frame=f)
-        a = handle + Vector((0, 0.09, 0))
+        a = handle + Vector((0, 0.09, 0.10))
         b = Vector((0, 1.36, 0.40))
         CABLE.location = (a + b) / 2
         CABLE.rotation_euler = (b - a).to_track_quat("Z", "Y").to_euler()
@@ -408,6 +359,12 @@ def pose(f):
         n = lambda part: "mixamorig:" + side + part
         hj = hip + R @ (head[n("UpLeg")] - hip0)
         shoulder = hip + R @ (head[n("Arm")] - hip0)
+        arm_parent = R
+        if not static and args.exercise == "row":
+            clavicle = hip + R @ (head[n("Shoulder")] - hip0)
+            arm_parent = R @ Matrix.Rotation(s * (0.22 * (1 - d) - 0.04 * d), 4, "Z")
+            setbone(n("Shoulder"), clavicle, arm_parent, f)
+            shoulder = clavicle + arm_parent @ (head[n("Arm")] - head[n("Shoulder")])
         if static:
             for part in ["UpLeg", "Leg", "Foot", "ToeBase", "Arm", "ForeArm", "Hand"]:
                 setbone(n(part), head[n(part)], Matrix.Identity(4), f)
@@ -431,7 +388,7 @@ def pose(f):
             ankle = Vector((s * 0.17, 0.60, 0.275))
             goal = handle + Vector((s * 0.085, 0, 0))
             hand_dir = Vector((0, 1, 0))
-            epole = Vector((s * 0.40, -0.42, 0.89))
+            epole = Vector((s * 0.52, -0.42, 0.89))
             kpole = Vector((s * 0.18, 0.25, 1.0))
             footR = rx(math.radians(25))
         knee = ik(hj, ankle, L[s, "thigh"], L[s, "shin"], kpole)
@@ -454,26 +411,17 @@ def pose(f):
         handR = basis @ rig.matrix_world.to_quaternion().to_matrix().to_4x4().inverted()
         wrist = goal - handR @ grip_offsets[s]
         elbow = ik(shoulder, wrist, L[s, "upper"], L[s, "fore"], epole)
-        normal = (elbow - shoulder).cross(wrist - elbow).normalized()
-        # Match the rest elbow plane, avoiding uncontrolled humeral twist.
-        rest_normal = (
-            (head[n("ForeArm")] - head[n("Arm")])
-            .cross(head[n("Hand")] - head[n("ForeArm")])
-            .normalized()
+        rotations = arm_rotations(
+            tail[n("Arm")] - head[n("Arm")],
+            tail[n("ForeArm")] - head[n("ForeArm")],
+            elbow - shoulder,
+            wrist - elbow,
+            arm_parent,
         )
-        for part, a, b in [("Arm", shoulder, elbow), ("ForeArm", elbow, wrist)]:
-            delta = (
-                frame(b - a, normal)
-                @ frame(tail[n(part)] - head[n(part)], rest_normal).inverted()
-            )
-            if part == "Arm" and args.exercise == "squat":
-                # The almost-straight source elbow plane is not a reliable humeral twist
-                # reference. Preserve the shoulder's anatomical swing without a 180° roll.
-                old_dir = tail[n(part)] - head[n(part)]
-                new_dir = R.inverted() @ (b - a)
-                delta = R @ old_dir.rotation_difference(new_dir).to_matrix().to_4x4()
+        for (part, a), delta in zip([("Arm", shoulder), ("ForeArm", elbow)], rotations):
             setbone(n(part), a, delta, f)
         setbone(n("Hand"), wrist, handR, f)
+        pose_forearm_twist(rig, side, f)
         pose_fingers(rig, hand_chains, hand_centers, side, f)
         actual_matrix = rig.matrix_world @ rig.pose.bones[n("Hand")].matrix
         actual_grip = (
@@ -500,11 +448,11 @@ def pose(f):
     )
 
 
-for f in range(1, 122) if args.view == "motion" else [1, 121]:
+for f in range(1, frame_count + 2) if args.view == "motion" else [1, frame_count + 1]:
     pose(f)
 scene = bpy.context.scene
 scene.frame_start = 1
-scene.frame_end = 120
+scene.frame_end = frame_count
 scene.render.fps = 24
 # Linear baked transforms avoid interpolation overshoot between solved poses.
 for action in bpy.data.actions:
@@ -558,7 +506,13 @@ if args.view != "motion":
     target = Vector((0, 0, 0.9))
     camdata.ortho_scale = 2.05
 else:
-    if args.exercise == "squat":
+    stage_radius, stage_y = (1.26, 0.46) if args.exercise == "row" else (1.08, 0)
+    if extension:
+        position, look_at, ortho, stage_radius, stage_y = extension.camera()
+        cam.location = position
+        target = Vector(look_at)
+        camdata.ortho_scale = ortho
+    elif args.exercise == "squat":
         cam.location = (3.7, 5, 2.7)
         target = Vector((0, 0.02, 0.78))
         camdata.ortho_scale = 2.75
@@ -572,26 +526,28 @@ else:
         camdata.ortho_scale = 3.05
     bpy.ops.mesh.primitive_cylinder_add(
         vertices=96,
-        radius=1.08 if args.exercise != "row" else 1.26,
+        radius=stage_radius,
         depth=0.026,
-        location=(0, 0.46 if args.exercise == "row" else 0, -0.027),
+        location=(0, stage_y, -0.027),
     )
     finish(bpy.context.object, "Studio stage", BASE)
 cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
 scene["exercise"] = args.exercise
 scene["sex"] = args.sex
-scene["source_character"] = str(source.relative_to(ROOT))
+scene[
+    "source_character"
+] = f"docs/character-assets/muscle-overlay-v1/{args.sex}/greek-{args.sex}-muscles.blend"
 scene["muscle_regions"] = ",".join(active)
 scene["review_status"] = "Visual prototype; professional movement review pending"
 scene.frame_set(1)
 first = {b.name: b.matrix.copy() for b in rig.pose.bones}
-scene.frame_set(121)
+scene.frame_set(frame_count + 1)
 seam = max(
     max(abs(a - b) for ra, rb in zip(first[p.name], p.matrix) for a, b in zip(ra, rb))
     for p in rig.pose.bones
 )
 checks = {
-    "frames_checked": 121,
+    "frames_checked": frame_count + 1,
     "max_limb_length_error_m": max(length_errors, default=0),
     "max_grip_target_error_m": max(contact_errors, default=0),
     "loop_matrix_error": seam,
@@ -612,13 +568,63 @@ if args.view == "motion":
     scene.frame_set(1)
     bpy.context.view_layer.update()
     checks["finger_bones"] = 30
-    checks["contact_corrective"] = add_contact_clearance(rig, character, hand_centers)
+    if not (extension and extension.open) and args.exercise != "squat":
+        # The generated hands contain long triangles spanning the grip cavity.
+        # Subdivide only the hand surface before its skin-space contact corrective;
+        # UVs and interpolated bone weights survive, and the actual faces clear steel.
+        bm = bmesh.new()
+        bm.from_mesh(character.data)
+        deform = bm.verts.layers.deform.active
+        hand_groups = {g.index for g in character.vertex_groups if "Hand" in g.name}
+        hand_verts = {
+            v
+            for v in bm.verts
+            if sum(w for i, w in v[deform].items() if i in hand_groups) > 0.65
+        }
+        edges = [e for e in bm.edges if all(v in hand_verts for v in e.verts)]
+        bmesh.ops.subdivide_edges(bm, edges=edges, cuts=3, use_grid_fill=True)
+        bm.to_mesh(character.data)
+        bm.free()
+        character.data.update()
+    checks["contact_corrective"] = (
+        None
+        if extension and extension.open
+        else add_contact_clearance(
+            rig,
+            character,
+            hand_centers,
+            radius_world=0.017 if args.exercise == "calf_raise" else 0.0155,
+            preserve_thickness=((extension and extension.config.get("contact_recipe") == "preserve_thickness")
+                or (args.sex == "male" and args.exercise == "pushdown")
+                or (args.sex == "female" and args.exercise in ("pec_fly", "reverse_fly"))),
+        )
+    )
+    if extension and extension.config.get("unilateral"):
+        inactive = "Right" if extension.config["unilateral"] == "Left" else "Left"
+        character.data.shape_keys.key_blocks[inactive + "_Grip_Clearance"].value = 0
+        checks["contact_corrective"][inactive]["disabled_unloaded_hand"] = True
     (OUT / "motion-checks.json").write_text(json.dumps(checks, indent=2) + "\n")
+scene["deformation_rig_version"] = RIG_VERSION
+scene["ankle_calibration"] = json.dumps(ankle_report)
+if extension and args.view == "motion":
+    extension.finish()
+    scene.eevee.taa_render_samples = 32
+    fit_plan_camera(scene)
+if args.view == "motion" and args.exercise != "squat":
+    from fit_contacts import fit_contacts
+
+    fit_contacts(scene, character, args.exercise)
+    from equipment_refit import refit
+    refit(scene, args.exercise)
+    if extension:
+        fit_plan_camera(scene)
 scene.frame_set(args.frame if args.view == "motion" else 1)
 if args.view == "motion":
     bpy.ops.file.pack_all()
     bpy.ops.wm.save_as_mainfile(filepath=str(DELIVER / f"{args.exercise}.blend"))
-if args.preview or args.view != "motion":
+if args.no_render:
+    pass
+elif args.preview or args.view != "motion":
     scene.render.filepath = str(
         OUT
         / (
@@ -629,6 +635,28 @@ if args.preview or args.view != "motion":
     )
     bpy.ops.render.render(write_still=True)
 else:
+    if args.exercise != "squat":
+        from collision_audit import audit_scene
+        from deformation_gate import require_deformation_pass
+
+        if args.exercise in LIBRARY_EXERCISES:
+            from library_gate import require_scene_pass
+            require_scene_pass(args.sex, args.exercise, root=args.output_root)
+        else:
+            require_deformation_pass(args.sex, args.exercise, root=args.output_root)
+
+        failures = audit_scene(scene, list(range(1, frame_count + 2)))
+        assert not failures, f"Collision gate failed: {failures[:5]}"
     (OUT / "frames").mkdir(exist_ok=True)
     scene.render.filepath = str(OUT / "frames/frame-")
     bpy.ops.render.render(animation=True)
+    (OUT / "render-source.json").write_text(
+        json.dumps(
+            {
+                "sha256": hashlib.sha256(
+                    (DELIVER / f"{args.exercise}.blend").read_bytes()
+                ).hexdigest()
+            }
+        )
+        + "\n"
+    )

@@ -1,0 +1,33 @@
+{
+  "reviewed_on": "2026-10-30",
+  "source_url": "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf",
+  "photo_urls": [
+    "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf#page=39",
+    "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf#page=44"
+  ],
+  "models": [
+    "LBR-FB",
+    "LBR-MA",
+    "LF-GDBLB"
+  ],
+  "photo_inspected": true,
+  "observed_structure": [
+    "平凳：长垫下有纵向承重梁，前后支腿连接落地底脚。",
+    "上斜凳：座垫与背垫分开，背垫通过后斜撑连接底架，设置固定后运动中不变。",
+    "哑铃：中央刚性握柄、两端对称固定负重；与运动员握持刚性同步。"
+  ],
+  "simplifications": [
+    "原创颜色和人物适配尺寸；不复刻产品商标、调节孔、脚轮或工程尺寸。",
+    "演示左臂完成一次循环，空闲臂无器械；文字提示完成后换侧。"
+  ],
+  "motions": [
+    "1670",
+    "1671",
+    "0425",
+    "0355",
+    "0361",
+    "0424",
+    "0343",
+    "1281"
+  ]
+}

@@ -1,0 +1,2245 @@
+{
+  "schemaVersion": 1,
+  "id": "recompose-20261028-4w",
+  "revision": 3,
+  "name": "四日增肌减脂 · 胸背腿肩＋腹＋短有氧",
+  "goal": "周一胸、周二背、周三腿、周四肩，腹部每周两次；每次力量及腹部预算40–45分钟，再做有氧10分钟，热身另计。工作组休息60秒，腿只占一天，周五完全可选；兼顾增肌与缓慢减脂。",
+  "notes": "第3版，2026-10-28按用户最新时间安排修订：力量及腹部可用40–45分钟，之后另做有氧10分钟，热身另计。保留周一胸、周二背、周三腿、周四肩，腿只占一天；工作组休息60秒，周五可跳过。男性32岁，194cm、89kg，有5年健身经历，无自报伤病。\n固定周安排：周一胸＋三头＋腹→周二背＋二头→周三腿部综合→周四肩＋腹。第1周工作组数为13/10/11/14；第2–4周在恢复与动作质量达标时分别15/13/12/15组：卧推、夹胸、下拉、划船、弯举、腿举、侧平举各增加1组，其余不变。第2–4周胸10直接组、背10直接组、肩10直接组；腹部仍为周一3组＋周四5组。腿部保持一天，增加腿举1组后共12组，其中RDL仍只有2组轻重量技术组。增加组数的首次不同时加重。若60秒休息下无法稳定完成，沿用第1周组数，不以耗满时间作为加量依据。\n时间预算：每次力量及腹部40–45分钟，包含工作组、组间休息、器械设置和常规转场；有氧另加10分钟，合计约50–55分钟，热身另计。一般热身和首项渐进热身组另计，换动作的必要适应组仍应完成。实际时长受执行速度、试重及排队影响，预算不是精确预测。先保留动作教学、试重和完整动作的空间；完成计划后可提前开始有氧，不额外补组填满时间。若力量部分将超过45分钟，减少最后辅助动作一组或省略最后辅助动作，完成后做有氧10分钟；未完成部分如实记录，不追赶补量。\n休息：所有计划工作组restSeconds=60。重量根据这一休息长度下能保持次数与动作质量来选，不沿用原来的极限重量硬顶。60秒是用户偏好，不宣称比更长休息更有利于增肌。计时结束若尚不能稳定开始下一组，不强行开组，记录延迟，下一组/下一次减重。不能保持次数下限与目标余力时，先下调一个档位；不要求每组做到力竭，不用超级组缩短休息。\n有氧具体安排：每次在力量及腹部之后完成10分钟。周一跑步机轻坡快走；周二椭圆机；周三低阻力单车、舒适踏频、不冲刺；周四快走或椭圆机。强度保持能完整说话、主观费力约3–4/10。跑步机可从平路到约3–6%坡度、约4.5–5.5km/h按体感调节，不扶把硬追速度坡度。固定器械有氧合计40分钟/周，仅为起步安排，步数不自动折算为中等强度运动分钟。\nApp限制：目前只支持次数型动作，没有计时/距离有氧和可选workout字段。因此每天有氧写在各训练notes，手机外计时；不伪造动作ID、不把分钟写成次数。四周的workouts数组只放周一至周四4次固定训练，周五不计入计划完成分母。\n周五非固定菜单：恢复良好时可选A，轻松骑行/椭圆机20–30分钟＋5分钟舒适活动度；也可选B，哑铃弯举2×10–15＋绳索三头下压2×10–15（RIR 3，组间休息60秒，重量自选）＋轻松有氧10分钟。若肩肘酸痛或疲劳明显，选择A轻松版或休息。每周选0或1个菜单即可，不安排必需主项、不补练漏掉的工作组；不练周五无需在下周补齐。周五若自行记录，不影响四次固定训练的完成要求。\n负重口径与事实区分：用户授权暂按标准男子奥林匹克杆20kg推算，尚未现场核实。卧推口述加片60kg、首组约6次末组实际约4次，暂估总重80kg；用户并未说1RM，也未提供每组完整次数和原休息长度。RDL口述加片40kg×10次×4组，暂估总重60kg，动作形式为杠铃不落地，但动作标准性存疑。所有杠铃目标记录含杆总重；若实际杆重不同，按真实总重修正。哑铃始终记录单只重量；插销器械为同一台机器的标称读数，不能跨机器直接比较。口述表现仅在notes作为依据，不伪造成App历史完成组。\n试行起点：卧推总重60kg（杆20＋每侧20）；上斜哑铃卧推单只20kg；夹胸30kg；下拉45kg附近；划船35kg附近；侧平举单只10kg；RDL技术组总重40kg（杆20＋每侧10）。这些比口述负重保守，以适应60秒休息及动作先后顺序，是教练建议而非能力实测。其余未知重量为null，代表待试重，不是0kg；新动作选择能在次数下限完成后仍保留3–4次技术余力的轻档。自重反向卷腹/死虫式外加负重为0kg。下拉、划船、夹胸无完全对应档位时先选不高于目标的最近档位。\n进阶：同重量先增加逐组次数；全部组到达上限、动作质量及目标RIR均达标，下一次才增加器械最小档。若最小档跨度太大，继续原重量，不用摆动缩短幅度换次数。不同周的数值保持同一起点，不代表强制每次回退；实际选用重量按上次记录和上述规则调整。不要按周数自动加重。罗马尼亚硬拉四周以技术为先，不因已达次数上限自动加重；先请现场教练检查或提供侧面视频评估。死虫式只按动作控制决定停止，RIR不设数值。\n恢复与饮食：沿用先前记录分析，不重新把设备热量差当真实缺口；维持日常8000–10000步左右，蛋白质先以160–180g/天为规划目标，争取规律睡眠7小时以上。加入每天短有氧后，不同时大幅削减饮食。连续两次同动作表现下降、明显疲劳时，减每个原3组动作1组，保留RIR 3–4，周五休息；疼痛时停止对应动作。用完整记录的两周晨起体重均值、同条件腰围和力量表现再调整饮食/训练。\n更新语义：沿用周期id，revision从2升为3，四周编号、全部workout id及原动作栏位id保持不变，只调整未来计划目标和说明，不含sessions、inProgress或任何历史改写。已完成训练继续以原plannedWorkout快照和实际记录为准；进行中训练继续原始快照，不因新版加组而回填历史。未取得App导出，当前完成进度未知；从下一次尚未开始的训练采用更新目标，已完成槽位不重练。\n参考：标准杆重 https://iwf.sport/weightlifting_/equipment/ ；休息时长与增肌综述 https://pubmed.ncbi.nlm.nih.gov/39205815/ ；有氧与抗阻并行综述 https://pubmed.ncbi.nlm.nih.gov/34757594/ 。具体动作、起始重量、组数与分钟数为结合用户信息的试行安排。",
+  "weeks": [
+    {
+      "week": 1,
+      "focus": "校准周：适应统一60秒组间休息，优先动作质量；常规工作组RIR 3，新动作可保留3–4次，罗马尼亚硬拉固定RIR 4。表内非空重量是试行起点，不是必须完成的负重。每天力量后完成指定短时有氧。 时间预算已放宽为力量及腹部40–45分钟，再做有氧10分钟。第1周沿用原组数校准60秒休息及新动作，不为用满时间加量。",
+      "workouts": [
+        {
+          "id": "upper-a",
+          "name": "周一 · 胸＋三头＋腹",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次13个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量和腹部后，跑步机轻坡快走10分钟。平路到约3–6%坡度、4.5–5.5km/h起试，以能完整说话、主观费力3–4/10为准，随体感下调；手机外计时。【本周】校准周：适应统一60秒组间休息，优先动作质量；常规工作组RIR 3，新动作可保留3–4次，罗马尼亚硬拉固定RIR 4。表内非空重量是试行起点，不是必须完成的负重。每天力量后完成指定短时有氧。 时间预算已放宽为力量及腹部40–45分钟，再做有氧10分钟。第1周沿用原组数校准60秒休息及新动作，不为用满时间加量。",
+          "exercises": [
+            {
+              "id": "upper-a-bench",
+              "exerciseID": "0025",
+              "displayName": "杠铃卧推",
+              "notes": "用户反馈：加片60kg，首组约6次、末组实际约4次。按用户授权暂按杆20kg估算，既有总重约80kg；这是口述表现，非App完成记录。新版起始目标总重60kg（杆20＋两侧各20），为适配60秒休息主动降重。第一组不足8次或余力不足时减2.5–5kg；杆重若不同，按真实总重修正。不要用原来的极限组重量硬凑次数。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-incline",
+              "exerciseID": "0314",
+              "displayName": "上斜哑铃卧推",
+              "notes": "用户反馈单只22.5kg×10次×4组。新版先用单只20kg试练；已先做卧推，按当天余力再调整。凳背约30度并固定角度；双臂同时推，一次记一次。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-fly",
+              "exerciseID": "0596",
+              "displayName": "蝴蝶机夹胸",
+              "notes": "用户反馈插销约40kg×10次×4组。新版先试同一机器30kg，目标是保持动作幅度与余力；不同机器数值不可直接比较。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-triceps",
+              "exerciseID": "0200",
+              "displayName": "绳索三头下压",
+              "notes": "未提供工作重量，留空。先用能完成下限且保留约3次余力的轻档，固定上臂，以伸肘完成。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-abs",
+              "exerciseID": "0175",
+              "displayName": "跪姿绳索卷腹",
+              "notes": "未做过或不熟悉：轻档起步。髋部大致固定，肋骨向骨盆卷近，手臂只固定绳索，不靠大幅坐髋下压。记录插销重量。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "upper-b",
+          "name": "周二 · 背＋二头",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次10个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量后椭圆机10分钟，轻至中等强度，能完整说话，主观费力3–4/10；手机外计时。【本周】校准周：适应统一60秒组间休息，优先动作质量；常规工作组RIR 3，新动作可保留3–4次，罗马尼亚硬拉固定RIR 4。表内非空重量是试行起点，不是必须完成的负重。每天力量后完成指定短时有氧。 时间预算已放宽为力量及腹部40–45分钟，再做有氧10分钟。第1周沿用原组数校准60秒休息及新动作，不为用满时间加量。",
+          "exercises": [
+            {
+              "id": "upper-b-pulldown",
+              "exerciseID": "2330",
+              "displayName": "高位下拉",
+              "notes": "用户反馈54kg×10次×4组。新版先试45kg附近，同机取不高于目标的最近可用档位；正手略宽于肩，拉向上胸，不做颈后下拉。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-row",
+              "exerciseID": "0861",
+              "displayName": "坐姿绳索划船",
+              "notes": "用户反馈约40kg×10次×4组。新版先试35kg附近，同一机器、固定把手；躯干稳定，不用后仰摆动完成。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-straight-arm",
+              "exerciseID": "0238",
+              "displayName": "绳索直臂下拉",
+              "notes": "未提供重量，留空。肘部微屈且角度基本固定，从肩部带动手臂向大腿方向拉，躯干稳定。先轻档熟悉。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-curl",
+              "exerciseID": "0294",
+              "displayName": "哑铃弯举",
+              "notes": "未提供工作重量，留空。按单只哑铃记录，双臂同时完成一次计一次，不把左右次数相加。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lower-a",
+          "name": "周三 · 腿部综合",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次11个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量后低阻力单车10分钟，舒适踏频，不冲刺，不把腿练到更疲劳；能完整说话，手机外计时。【本周】校准周：适应统一60秒组间休息，优先动作质量；常规工作组RIR 3，新动作可保留3–4次，罗马尼亚硬拉固定RIR 4。表内非空重量是试行起点，不是必须完成的负重。每天力量后完成指定短时有氧。 时间预算已放宽为力量及腹部40–45分钟，再做有氧10分钟。第1周沿用原组数校准60秒休息及新动作，不为用满时间加量。",
+          "exercises": [
+            {
+              "id": "lower-a-press",
+              "exerciseID": "0739",
+              "displayName": "45度腿举",
+              "notes": "替换用户不了解的哈克深蹲。负重未知，先熟悉机器并渐进试重；确认机器可调范围适合194cm身高。背和骨盆贴垫，下放到骨盆仍稳定的深度。记录总加片并注明是否包含机器空载。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-rdl",
+              "exerciseID": "0085",
+              "displayName": "杠铃罗马尼亚硬拉·技术组",
+              "notes": "用户描述杠铃不落地，按罗马尼亚硬拉形式安排，但动作质量尚未确认；用户自报加片40kg×10次×4组，按20kg杆暂估原总重60kg。新版40kg总重（杆20＋两侧各10）只是轻重量技术试行目标，必要时先用空杆。膝微屈、臀向后，杠铃贴腿，脊柱稳定；到大腿后侧有拉伸且骨盆、背部仍稳定处即回起，不追求杠铃触地。每组保留至少4次技术余力，四周不自动加重。建议由现场教练检查，或提供侧面动作视频后再调整。若无法维持动作、腰部代偿或疼痛，停止此项，当天保留腿弯举，不临时增加其他组。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": 40,
+                  "rir": 4,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": 40,
+                  "rir": 4,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-curl",
+              "exerciseID": "0599",
+              "displayName": "坐姿腿弯举",
+              "notes": "屈膝练大腿后侧。重量未知先轻档；膝关节对齐转轴，大腿压稳，缓慢弯膝和回程。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-extension",
+              "exerciseID": "0585",
+              "displayName": "坐姿腿屈伸",
+              "notes": "伸膝练大腿前侧。重量未知先轻档；膝关节对齐转轴，伸膝和回程可控，不甩动躯干。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-calf",
+              "exerciseID": "0605",
+              "displayName": "器械站姿提踵",
+              "notes": "重量未知先轻档。前脚掌稳定踩踏板，膝盖接近伸直，脚跟可控升降，不弹震。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 20,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 20,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lower-b",
+          "name": "周四 · 肩＋腹",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次14个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】肩和腹部后，跑步机快走或椭圆机10分钟，能完整说话，主观费力3–4/10，手机外计时。【本周】校准周：适应统一60秒组间休息，优先动作质量；常规工作组RIR 3，新动作可保留3–4次，罗马尼亚硬拉固定RIR 4。表内非空重量是试行起点，不是必须完成的负重。每天力量后完成指定短时有氧。 时间预算已放宽为力量及腹部40–45分钟，再做有氧10分钟。第1周沿用原组数校准60秒休息及新动作，不为用满时间加量。【周五可选】轻松有氧20–30分钟＋活动度5分钟；或二头/三头各2组（10–15次、RIR 3、休息60秒）＋有氧10分钟。疲劳则休息，每周可完全跳过；不计入固定训练完成率。",
+          "exercises": [
+            {
+              "id": "lower-b-shoulder-press",
+              "exerciseID": "0405",
+              "displayName": "坐姿哑铃推举",
+              "notes": "未提供此动作负重，不从上斜卧推反推。用靠背支撑，双侧同时推；选择8次后仍有约3次余力的单只重量，躯干稳定，不为完成次数大幅后仰。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-lateral",
+              "exerciseID": "0334",
+              "displayName": "哑铃侧平举",
+              "notes": "用户反馈单只12.5kg×12次×4组。新版先用单只10kg试练，肩带稳定，避免耸肩和借力摆动；若动作和余力均达标，再逐步回到12.5kg。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-reverse",
+              "exerciseID": "0602",
+              "displayName": "蝴蝶机反向飞鸟",
+              "notes": "最近未练，重量留空。面向靠垫，胸贴垫，上臂向两侧后方展开；不耸肩，不靠甩动或大幅后仰完成。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-reverse-crunch",
+              "exerciseID": "0872",
+              "displayName": "反向卷腹",
+              "notes": "自重，外加负重0kg。仰卧屈膝，骨盆缓慢卷离垫面，再可控放下；不靠甩腿，不把腰椎反复大幅拱起。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 3,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 3,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-dead-bug",
+              "exerciseID": "0276",
+              "displayName": "死虫式",
+              "notes": "自重，外加负重0kg。每组左右各8–10次，App次数按每侧记录，不把两侧相加；左右合计约16–20次。交替伸展对侧手脚，呼气收紧腹部，保持腰背稳定。只做能保持腰背位置和呼吸控制的次数，不追求力竭；RIR留空。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 0,
+                  "rir": null,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 0,
+                  "rir": null,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus": "积累周：常规工作组RIR 2–3，本文件目标RIR 2；同重量优先增加合格次数，不加组。技术组保持RIR 4。首次接触的动作若还不熟练，继续RIR 3–4。 恢复和动作质量达标时启用本周增加的工作组：卧推、夹胸、下拉、划船、弯举、腿举、侧平举各增加1组；否则沿用第1周组数，如实记录未完成组。同一动作增加组数的首次不同时加重。",
+      "workouts": [
+        {
+          "id": "upper-a",
+          "name": "周一 · 胸＋三头＋腹",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次15个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量和腹部后，跑步机轻坡快走10分钟。平路到约3–6%坡度、4.5–5.5km/h起试，以能完整说话、主观费力3–4/10为准，随体感下调；手机外计时。【本周】积累周：常规工作组RIR 2–3，本文件目标RIR 2；同重量优先增加合格次数，不加组。技术组保持RIR 4。首次接触的动作若还不熟练，继续RIR 3–4。 恢复和动作质量达标时启用本周增加的工作组：卧推、夹胸、下拉、划船、弯举、腿举、侧平举各增加1组；否则沿用第1周组数，如实记录未完成组。同一动作增加组数的首次不同时加重。",
+          "exercises": [
+            {
+              "id": "upper-a-bench",
+              "exerciseID": "0025",
+              "displayName": "杠铃卧推",
+              "notes": "用户反馈：加片60kg，首组约6次、末组实际约4次。按用户授权暂按杆20kg估算，既有总重约80kg；这是口述表现，非App完成记录。新版起始目标总重60kg（杆20＋两侧各20），为适配60秒休息主动降重。第一组不足8次或余力不足时减2.5–5kg；杆重若不同，按真实总重修正。不要用原来的极限组重量硬凑次数。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-incline",
+              "exerciseID": "0314",
+              "displayName": "上斜哑铃卧推",
+              "notes": "用户反馈单只22.5kg×10次×4组。新版先用单只20kg试练；已先做卧推，按当天余力再调整。凳背约30度并固定角度；双臂同时推，一次记一次。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-fly",
+              "exerciseID": "0596",
+              "displayName": "蝴蝶机夹胸",
+              "notes": "用户反馈插销约40kg×10次×4组。新版先试同一机器30kg，目标是保持动作幅度与余力；不同机器数值不可直接比较。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-triceps",
+              "exerciseID": "0200",
+              "displayName": "绳索三头下压",
+              "notes": "未提供工作重量，留空。先用能完成下限且保留约3次余力的轻档，固定上臂，以伸肘完成。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-abs",
+              "exerciseID": "0175",
+              "displayName": "跪姿绳索卷腹",
+              "notes": "未做过或不熟悉：轻档起步。髋部大致固定，肋骨向骨盆卷近，手臂只固定绳索，不靠大幅坐髋下压。记录插销重量。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "upper-b",
+          "name": "周二 · 背＋二头",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次13个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量后椭圆机10分钟，轻至中等强度，能完整说话，主观费力3–4/10；手机外计时。【本周】积累周：常规工作组RIR 2–3，本文件目标RIR 2；同重量优先增加合格次数，不加组。技术组保持RIR 4。首次接触的动作若还不熟练，继续RIR 3–4。 恢复和动作质量达标时启用本周增加的工作组：卧推、夹胸、下拉、划船、弯举、腿举、侧平举各增加1组；否则沿用第1周组数，如实记录未完成组。同一动作增加组数的首次不同时加重。",
+          "exercises": [
+            {
+              "id": "upper-b-pulldown",
+              "exerciseID": "2330",
+              "displayName": "高位下拉",
+              "notes": "用户反馈54kg×10次×4组。新版先试45kg附近，同机取不高于目标的最近可用档位；正手略宽于肩，拉向上胸，不做颈后下拉。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-row",
+              "exerciseID": "0861",
+              "displayName": "坐姿绳索划船",
+              "notes": "用户反馈约40kg×10次×4组。新版先试35kg附近，同一机器、固定把手；躯干稳定，不用后仰摆动完成。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-straight-arm",
+              "exerciseID": "0238",
+              "displayName": "绳索直臂下拉",
+              "notes": "未提供重量，留空。肘部微屈且角度基本固定，从肩部带动手臂向大腿方向拉，躯干稳定。先轻档熟悉。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-curl",
+              "exerciseID": "0294",
+              "displayName": "哑铃弯举",
+              "notes": "未提供工作重量，留空。按单只哑铃记录，双臂同时完成一次计一次，不把左右次数相加。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lower-a",
+          "name": "周三 · 腿部综合",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次12个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量后低阻力单车10分钟，舒适踏频，不冲刺，不把腿练到更疲劳；能完整说话，手机外计时。【本周】积累周：常规工作组RIR 2–3，本文件目标RIR 2；同重量优先增加合格次数，不加组。技术组保持RIR 4。首次接触的动作若还不熟练，继续RIR 3–4。 恢复和动作质量达标时启用本周增加的工作组：卧推、夹胸、下拉、划船、弯举、腿举、侧平举各增加1组；否则沿用第1周组数，如实记录未完成组。同一动作增加组数的首次不同时加重。",
+          "exercises": [
+            {
+              "id": "lower-a-press",
+              "exerciseID": "0739",
+              "displayName": "45度腿举",
+              "notes": "替换用户不了解的哈克深蹲。负重未知，先熟悉机器并渐进试重；确认机器可调范围适合194cm身高。背和骨盆贴垫，下放到骨盆仍稳定的深度。记录总加片并注明是否包含机器空载。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-rdl",
+              "exerciseID": "0085",
+              "displayName": "杠铃罗马尼亚硬拉·技术组",
+              "notes": "用户描述杠铃不落地，按罗马尼亚硬拉形式安排，但动作质量尚未确认；用户自报加片40kg×10次×4组，按20kg杆暂估原总重60kg。新版40kg总重（杆20＋两侧各10）只是轻重量技术试行目标，必要时先用空杆。膝微屈、臀向后，杠铃贴腿，脊柱稳定；到大腿后侧有拉伸且骨盆、背部仍稳定处即回起，不追求杠铃触地。每组保留至少4次技术余力，四周不自动加重。建议由现场教练检查，或提供侧面动作视频后再调整。若无法维持动作、腰部代偿或疼痛，停止此项，当天保留腿弯举，不临时增加其他组。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": 40,
+                  "rir": 4,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": 40,
+                  "rir": 4,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-curl",
+              "exerciseID": "0599",
+              "displayName": "坐姿腿弯举",
+              "notes": "屈膝练大腿后侧。重量未知先轻档；膝关节对齐转轴，大腿压稳，缓慢弯膝和回程。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-extension",
+              "exerciseID": "0585",
+              "displayName": "坐姿腿屈伸",
+              "notes": "伸膝练大腿前侧。重量未知先轻档；膝关节对齐转轴，伸膝和回程可控，不甩动躯干。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-calf",
+              "exerciseID": "0605",
+              "displayName": "器械站姿提踵",
+              "notes": "重量未知先轻档。前脚掌稳定踩踏板，膝盖接近伸直，脚跟可控升降，不弹震。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 20,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 20,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lower-b",
+          "name": "周四 · 肩＋腹",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次15个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】肩和腹部后，跑步机快走或椭圆机10分钟，能完整说话，主观费力3–4/10，手机外计时。【本周】积累周：常规工作组RIR 2–3，本文件目标RIR 2；同重量优先增加合格次数，不加组。技术组保持RIR 4。首次接触的动作若还不熟练，继续RIR 3–4。 恢复和动作质量达标时启用本周增加的工作组：卧推、夹胸、下拉、划船、弯举、腿举、侧平举各增加1组；否则沿用第1周组数，如实记录未完成组。同一动作增加组数的首次不同时加重。【周五可选】轻松有氧20–30分钟＋活动度5分钟；或二头/三头各2组（10–15次、RIR 3、休息60秒）＋有氧10分钟。疲劳则休息，每周可完全跳过；不计入固定训练完成率。",
+          "exercises": [
+            {
+              "id": "lower-b-shoulder-press",
+              "exerciseID": "0405",
+              "displayName": "坐姿哑铃推举",
+              "notes": "未提供此动作负重，不从上斜卧推反推。用靠背支撑，双侧同时推；选择8次后仍有约3次余力的单只重量，躯干稳定，不为完成次数大幅后仰。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-lateral",
+              "exerciseID": "0334",
+              "displayName": "哑铃侧平举",
+              "notes": "用户反馈单只12.5kg×12次×4组。新版先用单只10kg试练，肩带稳定，避免耸肩和借力摆动；若动作和余力均达标，再逐步回到12.5kg。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-reverse",
+              "exerciseID": "0602",
+              "displayName": "蝴蝶机反向飞鸟",
+              "notes": "最近未练，重量留空。面向靠垫，胸贴垫，上臂向两侧后方展开；不耸肩，不靠甩动或大幅后仰完成。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-reverse-crunch",
+              "exerciseID": "0872",
+              "displayName": "反向卷腹",
+              "notes": "自重，外加负重0kg。仰卧屈膝，骨盆缓慢卷离垫面，再可控放下；不靠甩腿，不把腰椎反复大幅拱起。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-dead-bug",
+              "exerciseID": "0276",
+              "displayName": "死虫式",
+              "notes": "自重，外加负重0kg。每组左右各8–10次，App次数按每侧记录，不把两侧相加；左右合计约16–20次。交替伸展对侧手脚，呼气收紧腹部，保持腰背稳定。只做能保持腰背位置和呼吸控制的次数，不追求力竭；RIR留空。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 0,
+                  "rir": null,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 0,
+                  "rir": null,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus": "渐进周：常规工作组RIR 2。只有全部组到达次数上限且余力达标，下次才加最小档；加重后回到次数下限。罗马尼亚硬拉不自动加重，先检查动作。 维持第2周组数，不再追加训练量；按实际表现渐进。力量及腹部40–45分钟是预算，不要求必须耗满。",
+      "workouts": [
+        {
+          "id": "upper-a",
+          "name": "周一 · 胸＋三头＋腹",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次15个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量和腹部后，跑步机轻坡快走10分钟。平路到约3–6%坡度、4.5–5.5km/h起试，以能完整说话、主观费力3–4/10为准，随体感下调；手机外计时。【本周】渐进周：常规工作组RIR 2。只有全部组到达次数上限且余力达标，下次才加最小档；加重后回到次数下限。罗马尼亚硬拉不自动加重，先检查动作。 维持第2周组数，不再追加训练量；按实际表现渐进。力量及腹部40–45分钟是预算，不要求必须耗满。",
+          "exercises": [
+            {
+              "id": "upper-a-bench",
+              "exerciseID": "0025",
+              "displayName": "杠铃卧推",
+              "notes": "用户反馈：加片60kg，首组约6次、末组实际约4次。按用户授权暂按杆20kg估算，既有总重约80kg；这是口述表现，非App完成记录。新版起始目标总重60kg（杆20＋两侧各20），为适配60秒休息主动降重。第一组不足8次或余力不足时减2.5–5kg；杆重若不同，按真实总重修正。不要用原来的极限组重量硬凑次数。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-incline",
+              "exerciseID": "0314",
+              "displayName": "上斜哑铃卧推",
+              "notes": "用户反馈单只22.5kg×10次×4组。新版先用单只20kg试练；已先做卧推，按当天余力再调整。凳背约30度并固定角度；双臂同时推，一次记一次。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-fly",
+              "exerciseID": "0596",
+              "displayName": "蝴蝶机夹胸",
+              "notes": "用户反馈插销约40kg×10次×4组。新版先试同一机器30kg，目标是保持动作幅度与余力；不同机器数值不可直接比较。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-triceps",
+              "exerciseID": "0200",
+              "displayName": "绳索三头下压",
+              "notes": "未提供工作重量，留空。先用能完成下限且保留约3次余力的轻档，固定上臂，以伸肘完成。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-abs",
+              "exerciseID": "0175",
+              "displayName": "跪姿绳索卷腹",
+              "notes": "未做过或不熟悉：轻档起步。髋部大致固定，肋骨向骨盆卷近，手臂只固定绳索，不靠大幅坐髋下压。记录插销重量。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "upper-b",
+          "name": "周二 · 背＋二头",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次13个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量后椭圆机10分钟，轻至中等强度，能完整说话，主观费力3–4/10；手机外计时。【本周】渐进周：常规工作组RIR 2。只有全部组到达次数上限且余力达标，下次才加最小档；加重后回到次数下限。罗马尼亚硬拉不自动加重，先检查动作。 维持第2周组数，不再追加训练量；按实际表现渐进。力量及腹部40–45分钟是预算，不要求必须耗满。",
+          "exercises": [
+            {
+              "id": "upper-b-pulldown",
+              "exerciseID": "2330",
+              "displayName": "高位下拉",
+              "notes": "用户反馈54kg×10次×4组。新版先试45kg附近，同机取不高于目标的最近可用档位；正手略宽于肩，拉向上胸，不做颈后下拉。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-row",
+              "exerciseID": "0861",
+              "displayName": "坐姿绳索划船",
+              "notes": "用户反馈约40kg×10次×4组。新版先试35kg附近，同一机器、固定把手；躯干稳定，不用后仰摆动完成。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-straight-arm",
+              "exerciseID": "0238",
+              "displayName": "绳索直臂下拉",
+              "notes": "未提供重量，留空。肘部微屈且角度基本固定，从肩部带动手臂向大腿方向拉，躯干稳定。先轻档熟悉。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-curl",
+              "exerciseID": "0294",
+              "displayName": "哑铃弯举",
+              "notes": "未提供工作重量，留空。按单只哑铃记录，双臂同时完成一次计一次，不把左右次数相加。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lower-a",
+          "name": "周三 · 腿部综合",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次12个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量后低阻力单车10分钟，舒适踏频，不冲刺，不把腿练到更疲劳；能完整说话，手机外计时。【本周】渐进周：常规工作组RIR 2。只有全部组到达次数上限且余力达标，下次才加最小档；加重后回到次数下限。罗马尼亚硬拉不自动加重，先检查动作。 维持第2周组数，不再追加训练量；按实际表现渐进。力量及腹部40–45分钟是预算，不要求必须耗满。",
+          "exercises": [
+            {
+              "id": "lower-a-press",
+              "exerciseID": "0739",
+              "displayName": "45度腿举",
+              "notes": "替换用户不了解的哈克深蹲。负重未知，先熟悉机器并渐进试重；确认机器可调范围适合194cm身高。背和骨盆贴垫，下放到骨盆仍稳定的深度。记录总加片并注明是否包含机器空载。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-rdl",
+              "exerciseID": "0085",
+              "displayName": "杠铃罗马尼亚硬拉·技术组",
+              "notes": "用户描述杠铃不落地，按罗马尼亚硬拉形式安排，但动作质量尚未确认；用户自报加片40kg×10次×4组，按20kg杆暂估原总重60kg。新版40kg总重（杆20＋两侧各10）只是轻重量技术试行目标，必要时先用空杆。膝微屈、臀向后，杠铃贴腿，脊柱稳定；到大腿后侧有拉伸且骨盆、背部仍稳定处即回起，不追求杠铃触地。每组保留至少4次技术余力，四周不自动加重。建议由现场教练检查，或提供侧面动作视频后再调整。若无法维持动作、腰部代偿或疼痛，停止此项，当天保留腿弯举，不临时增加其他组。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": 40,
+                  "rir": 4,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": 40,
+                  "rir": 4,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-curl",
+              "exerciseID": "0599",
+              "displayName": "坐姿腿弯举",
+              "notes": "屈膝练大腿后侧。重量未知先轻档；膝关节对齐转轴，大腿压稳，缓慢弯膝和回程。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-extension",
+              "exerciseID": "0585",
+              "displayName": "坐姿腿屈伸",
+              "notes": "伸膝练大腿前侧。重量未知先轻档；膝关节对齐转轴，伸膝和回程可控，不甩动躯干。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-calf",
+              "exerciseID": "0605",
+              "displayName": "器械站姿提踵",
+              "notes": "重量未知先轻档。前脚掌稳定踩踏板，膝盖接近伸直，脚跟可控升降，不弹震。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 20,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 20,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lower-b",
+          "name": "周四 · 肩＋腹",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次15个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】肩和腹部后，跑步机快走或椭圆机10分钟，能完整说话，主观费力3–4/10，手机外计时。【本周】渐进周：常规工作组RIR 2。只有全部组到达次数上限且余力达标，下次才加最小档；加重后回到次数下限。罗马尼亚硬拉不自动加重，先检查动作。 维持第2周组数，不再追加训练量；按实际表现渐进。力量及腹部40–45分钟是预算，不要求必须耗满。【周五可选】轻松有氧20–30分钟＋活动度5分钟；或二头/三头各2组（10–15次、RIR 3、休息60秒）＋有氧10分钟。疲劳则休息，每周可完全跳过；不计入固定训练完成率。",
+          "exercises": [
+            {
+              "id": "lower-b-shoulder-press",
+              "exerciseID": "0405",
+              "displayName": "坐姿哑铃推举",
+              "notes": "未提供此动作负重，不从上斜卧推反推。用靠背支撑，双侧同时推；选择8次后仍有约3次余力的单只重量，躯干稳定，不为完成次数大幅后仰。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-lateral",
+              "exerciseID": "0334",
+              "displayName": "哑铃侧平举",
+              "notes": "用户反馈单只12.5kg×12次×4组。新版先用单只10kg试练，肩带稳定，避免耸肩和借力摆动；若动作和余力均达标，再逐步回到12.5kg。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-reverse",
+              "exerciseID": "0602",
+              "displayName": "蝴蝶机反向飞鸟",
+              "notes": "最近未练，重量留空。面向靠垫，胸贴垫，上臂向两侧后方展开；不耸肩，不靠甩动或大幅后仰完成。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-reverse-crunch",
+              "exerciseID": "0872",
+              "displayName": "反向卷腹",
+              "notes": "自重，外加负重0kg。仰卧屈膝，骨盆缓慢卷离垫面，再可控放下；不靠甩腿，不把腰椎反复大幅拱起。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-dead-bug",
+              "exerciseID": "0276",
+              "displayName": "死虫式",
+              "notes": "自重，外加负重0kg。每组左右各8–10次，App次数按每侧记录，不把两侧相加；左右合计约16–20次。交替伸展对侧手脚，呼气收紧腹部，保持腰背稳定。只做能保持腰背位置和呼吸控制的次数，不追求力竭；RIR留空。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 0,
+                  "rir": null,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 0,
+                  "rir": null,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus": "巩固与反馈周：组数不增加，常规工作组保持RIR 2；回顾60秒休息下的表现、腹部训练质量、腰围、体重均值和疲劳，导出反馈再决定下一周期。 维持第2周组数，记录实际耗时及最后几组的动作质量；复盘增加训练量后是否仍能恢复，再决定下一周期。",
+      "workouts": [
+        {
+          "id": "upper-a",
+          "name": "周一 · 胸＋三头＋腹",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次15个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量和腹部后，跑步机轻坡快走10分钟。平路到约3–6%坡度、4.5–5.5km/h起试，以能完整说话、主观费力3–4/10为准，随体感下调；手机外计时。【本周】巩固与反馈周：组数不增加，常规工作组保持RIR 2；回顾60秒休息下的表现、腹部训练质量、腰围、体重均值和疲劳，导出反馈再决定下一周期。 维持第2周组数，记录实际耗时及最后几组的动作质量；复盘增加训练量后是否仍能恢复，再决定下一周期。",
+          "exercises": [
+            {
+              "id": "upper-a-bench",
+              "exerciseID": "0025",
+              "displayName": "杠铃卧推",
+              "notes": "用户反馈：加片60kg，首组约6次、末组实际约4次。按用户授权暂按杆20kg估算，既有总重约80kg；这是口述表现，非App完成记录。新版起始目标总重60kg（杆20＋两侧各20），为适配60秒休息主动降重。第一组不足8次或余力不足时减2.5–5kg；杆重若不同，按真实总重修正。不要用原来的极限组重量硬凑次数。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 60,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-incline",
+              "exerciseID": "0314",
+              "displayName": "上斜哑铃卧推",
+              "notes": "用户反馈单只22.5kg×10次×4组。新版先用单只20kg试练；已先做卧推，按当天余力再调整。凳背约30度并固定角度；双臂同时推，一次记一次。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 20,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-fly",
+              "exerciseID": "0596",
+              "displayName": "蝴蝶机夹胸",
+              "notes": "用户反馈插销约40kg×10次×4组。新版先试同一机器30kg，目标是保持动作幅度与余力；不同机器数值不可直接比较。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 30,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-triceps",
+              "exerciseID": "0200",
+              "displayName": "绳索三头下压",
+              "notes": "未提供工作重量，留空。先用能完成下限且保留约3次余力的轻档，固定上臂，以伸肘完成。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-a-abs",
+              "exerciseID": "0175",
+              "displayName": "跪姿绳索卷腹",
+              "notes": "未做过或不熟悉：轻档起步。髋部大致固定，肋骨向骨盆卷近，手臂只固定绳索，不靠大幅坐髋下压。记录插销重量。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "upper-b",
+          "name": "周二 · 背＋二头",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次13个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量后椭圆机10分钟，轻至中等强度，能完整说话，主观费力3–4/10；手机外计时。【本周】巩固与反馈周：组数不增加，常规工作组保持RIR 2；回顾60秒休息下的表现、腹部训练质量、腰围、体重均值和疲劳，导出反馈再决定下一周期。 维持第2周组数，记录实际耗时及最后几组的动作质量；复盘增加训练量后是否仍能恢复，再决定下一周期。",
+          "exercises": [
+            {
+              "id": "upper-b-pulldown",
+              "exerciseID": "2330",
+              "displayName": "高位下拉",
+              "notes": "用户反馈54kg×10次×4组。新版先试45kg附近，同机取不高于目标的最近可用档位；正手略宽于肩，拉向上胸，不做颈后下拉。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 45,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-row",
+              "exerciseID": "0861",
+              "displayName": "坐姿绳索划船",
+              "notes": "用户反馈约40kg×10次×4组。新版先试35kg附近，同一机器、固定把手；躯干稳定，不用后仰摆动完成。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": 35,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-straight-arm",
+              "exerciseID": "0238",
+              "displayName": "绳索直臂下拉",
+              "notes": "未提供重量，留空。肘部微屈且角度基本固定，从肩部带动手臂向大腿方向拉，躯干稳定。先轻档熟悉。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "upper-b-curl",
+              "exerciseID": "0294",
+              "displayName": "哑铃弯举",
+              "notes": "未提供工作重量，留空。按单只哑铃记录，双臂同时完成一次计一次，不把左右次数相加。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lower-a",
+          "name": "周三 · 腿部综合",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次12个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】力量后低阻力单车10分钟，舒适踏频，不冲刺，不把腿练到更疲劳；能完整说话，手机外计时。【本周】巩固与反馈周：组数不增加，常规工作组保持RIR 2；回顾60秒休息下的表现、腹部训练质量、腰围、体重均值和疲劳，导出反馈再决定下一周期。 维持第2周组数，记录实际耗时及最后几组的动作质量；复盘增加训练量后是否仍能恢复，再决定下一周期。",
+          "exercises": [
+            {
+              "id": "lower-a-press",
+              "exerciseID": "0739",
+              "displayName": "45度腿举",
+              "notes": "替换用户不了解的哈克深蹲。负重未知，先熟悉机器并渐进试重；确认机器可调范围适合194cm身高。背和骨盆贴垫，下放到骨盆仍稳定的深度。记录总加片并注明是否包含机器空载。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-rdl",
+              "exerciseID": "0085",
+              "displayName": "杠铃罗马尼亚硬拉·技术组",
+              "notes": "用户描述杠铃不落地，按罗马尼亚硬拉形式安排，但动作质量尚未确认；用户自报加片40kg×10次×4组，按20kg杆暂估原总重60kg。新版40kg总重（杆20＋两侧各10）只是轻重量技术试行目标，必要时先用空杆。膝微屈、臀向后，杠铃贴腿，脊柱稳定；到大腿后侧有拉伸且骨盆、背部仍稳定处即回起，不追求杠铃触地。每组保留至少4次技术余力，四周不自动加重。建议由现场教练检查，或提供侧面动作视频后再调整。若无法维持动作、腰部代偿或疼痛，停止此项，当天保留腿弯举，不临时增加其他组。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": 40,
+                  "rir": 4,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 12,
+                  "weightKg": 40,
+                  "rir": 4,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-curl",
+              "exerciseID": "0599",
+              "displayName": "坐姿腿弯举",
+              "notes": "屈膝练大腿后侧。重量未知先轻档；膝关节对齐转轴，大腿压稳，缓慢弯膝和回程。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-extension",
+              "exerciseID": "0585",
+              "displayName": "坐姿腿屈伸",
+              "notes": "伸膝练大腿前侧。重量未知先轻档；膝关节对齐转轴，伸膝和回程可控，不甩动躯干。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-a-calf",
+              "exerciseID": "0605",
+              "displayName": "器械站姿提踵",
+              "notes": "重量未知先轻档。前脚掌稳定踩踏板，膝盖接近伸直，脚跟可控升降，不弹震。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 20,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 20,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lower-b",
+          "name": "周四 · 肩＋腹",
+          "notes": "【时间】热身另计。力量及腹部预算40–45分钟（包含工作组、60秒组间休息、器械设置和常规转场），之后再做有氧10分钟，预计合计50–55分钟。本次15个计划工作组；预算是可用时长，不保证实际刚好耗满，按质量完成后可提前开始有氧。【休息】全部工作组60秒，起始重量沿用第2版；计时结束尚不能稳定开组时不强行开组，记录延迟并适当减重。【有氧】肩和腹部后，跑步机快走或椭圆机10分钟，能完整说话，主观费力3–4/10，手机外计时。【本周】巩固与反馈周：组数不增加，常规工作组保持RIR 2；回顾60秒休息下的表现、腹部训练质量、腰围、体重均值和疲劳，导出反馈再决定下一周期。 维持第2周组数，记录实际耗时及最后几组的动作质量；复盘增加训练量后是否仍能恢复，再决定下一周期。【周五可选】轻松有氧20–30分钟＋活动度5分钟；或二头/三头各2组（10–15次、RIR 3、休息60秒）＋有氧10分钟。疲劳则休息，每周可完全跳过；不计入固定训练完成率。",
+          "exercises": [
+            {
+              "id": "lower-b-shoulder-press",
+              "exerciseID": "0405",
+              "displayName": "坐姿哑铃推举",
+              "notes": "未提供此动作负重，不从上斜卧推反推。用靠背支撑，双侧同时推；选择8次后仍有约3次余力的单只重量，躯干稳定，不为完成次数大幅后仰。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 12,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-lateral",
+              "exerciseID": "0334",
+              "displayName": "哑铃侧平举",
+              "notes": "用户反馈单只12.5kg×12次×4组。新版先用单只10kg试练，肩带稳定，避免耸肩和借力摆动；若动作和余力均达标，再逐步回到12.5kg。 第2–4周比第1周增加1组；仅在恢复和动作质量达标时执行，增加组数的首次保持原重量。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": 10,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-reverse",
+              "exerciseID": "0602",
+              "displayName": "蝴蝶机反向飞鸟",
+              "notes": "最近未练，重量留空。面向靠垫，胸贴垫，上臂向两侧后方展开；不耸肩，不靠甩动或大幅后仰完成。",
+              "sets": [
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 12,
+                  "repsMax": 15,
+                  "weightKg": null,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-reverse-crunch",
+              "exerciseID": "0872",
+              "displayName": "反向卷腹",
+              "notes": "自重，外加负重0kg。仰卧屈膝，骨盆缓慢卷离垫面，再可控放下；不靠甩腿，不把腰椎反复大幅拱起。",
+              "sets": [
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 2,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 10,
+                  "repsMax": 15,
+                  "weightKg": 0,
+                  "rir": 2,
+                  "restSeconds": 60
+                }
+              ]
+            },
+            {
+              "id": "lower-b-dead-bug",
+              "exerciseID": "0276",
+              "displayName": "死虫式",
+              "notes": "自重，外加负重0kg。每组左右各8–10次，App次数按每侧记录，不把两侧相加；左右合计约16–20次。交替伸展对侧手脚，呼气收紧腹部，保持腰背稳定。只做能保持腰背位置和呼吸控制的次数，不追求力竭；RIR留空。",
+              "sets": [
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 0,
+                  "rir": null,
+                  "restSeconds": 60
+                },
+                {
+                  "repsMin": 8,
+                  "repsMax": 10,
+                  "weightKg": 0,
+                  "rir": null,
+                  "restSeconds": 60
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

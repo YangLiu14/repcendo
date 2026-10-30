@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "9d6e5e672692a61d81c88131d67d609ac7fa72c6e2780c0a4dca850d0ee36ada",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/hammer_curl-review.jpg": "84d9470f740f74440b05f20ce06e99b3fc43cc8a6e57b4dbfd53b26a84b02715"
+  }
+}

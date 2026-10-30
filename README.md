@@ -6,6 +6,8 @@ SwiftUI · iOS 17+ · 离线存储 · 无账号、无第三方运行时依赖。
 
 ## 运行
 
+动作模型、视频、封面及验收图片仅保存在本地，不随 Git 仓库提供。当前工作目录可继续使用已有资产；换电脑或重新 clone 后，需先从自己的私有备份恢复资源，才能播放和验收完整动画。详见 [资产保存与恢复说明](docs/asset-management.md)。
+
 1. 用 Xcode 打开 `Repcendo.xcodeproj`。
 2. 选择 `Repcendo` scheme 和 iPhone 模拟器，点击 Run。
 3. 首次启动点「先体验示例计划」，预览并确认导入。
@@ -24,7 +26,7 @@ SwiftUI · iOS 17+ · 离线存储 · 无账号、无第三方运行时依赖。
 - 导出当前计划、完整历史和草稿给 Codex。更新计划保留历史和正在执行的训练。
 - 全部 1,324 个动作按胸、背、肩、上臂、前臂、臀、大腿、小腿、核心、颈部和有氧分类浏览，显示各类数量；分类内可按目标肌肉和器械继续筛选，也可展开全部动作。搜索支持中文部位、中文目标肌肉、动作名称、器械或 ID。
 - 动作含中文步骤和主要目标肌肉名称；常用示例动作附中文名称，其余保留上游英文名。每个动作依据数据集的主要目标肌肉归入一个分类（臀肌动作从原来的大腿类中独立），不代表复合动作只训练该部位。
-- 深蹲（0043）、卧推（0025）、坐姿绳索划船（0861）的原创离线动画，男女各一版。动作详情与训练页均可进入，进入详情或切换人物后自动循环播放，点击画面进入全屏，支持暂停和重播；离开详情停止播放，进入后台暂停，后台返回后由用户重新点击播放。全屏与内嵌画面共用播放进度。
+- 48 个动作的原创离线动画，男女各一版，覆盖四日 v3 计划的全部 19 个正式动作，并保留原深蹲示范。动作详情与训练页均可进入，进入详情或切换人物后自动循环播放，点击画面进入全屏，支持暂停和重播；离开详情停止播放，进入后台暂停，后台返回后由用户重新点击播放。全屏与内嵌画面共用播放进度。
 
 重量统一使用 kg，自重动作填 0；哑铃保持一致的单只计重方式。第一版用于次数型训练，不包含计时/距离型动作记录。
 
@@ -90,7 +92,11 @@ python3 Scripts/generate_project.py
 
 ## 原创动作动画
 
-已制作希腊雕塑风格的深蹲、卧推、坐姿划船，男女各一版，包含五指骨架、肌群材质和可编辑场景。六段 MP4 和封面（合计约 2.6 MB）已接入 App；Blender / GLB 源文件不随 App 打包。
+已制作 48 个动作的希腊雕塑示范，男女各一版，包含五指骨架、肌群材质和可编辑场景。96 段 MP4 与封面接入 App；Blender / GLB 源文件不随 App 打包。四日 v3 计划的 19 个动作清单、复现命令和验证说明见 [计划动作动画](docs/animation-plan-v3/README.md)，分日预览见 [计划预览页](docs/animation-plan-v3/index.html)。后续四批新增 28 个动作，见 [动作库预览页](docs/animation-library/index.html) 和 [覆盖清单](docs/animation-library/inventory.json)。
+
+计划扩展时的验证：4,224 帧边界与 34 段新视频完整解码通过；19 个计划动作的男女资源覆盖完整。14 项核心测试、4 项 UI 测试及最终模拟器构建通过，安装包媒体摘要与源文件一致。
+
+2026-10-30 器械复核：对照实物照片检查当前 48 个动作的 96 个版本，修订其中 17 个动作的 34 个版本；4,402 帧机构、形变及碰撞检查通过，重新输出 4,368 帧。预览及 App 资源已同步，iOS 模拟器构建成功，193 个构建资源与源码逐文件一致。器械照片复核与完整动作验收分别记录：当前覆盖清单中 47 个动作通过现行检查，旧深蹲 1 个仍待新流程复核；另有 1,276 个目录动作尚未制作动画。详见 [器械复核结果](docs/equipment-references/current-assets-review.md)。
 
 更新已审核的样片后执行以下命令，将原创媒体和动作 ID 清单同步到 App。导出沿用动画流水线的动作目录，附媒体 SHA-256；此步骤不会读取上游媒体。生成工程时保留已有开发团队及签名设置。
 
@@ -104,11 +110,16 @@ python3 Scripts/generate_project.py
 接入验证：模拟器 UI 用例已覆盖六段视频播放、人物切换、暂停/重播、后台恢复、重新进入详情自动播放、全屏切换，以及训练中打开示范后保留填写的重量。已核对打包媒体的哈希、编码和时长；[App 内播放截图](docs/screenshots/animation-in-app.png)。仍需安装更新后的 App，在真机内确认播放体验。
 
 - [制作流水线与新增动作步骤](docs/animation-pipeline.md)
+- [近期工作与资产版本管理](docs/asset-management.md)
 - [六段动作样片与验证说明](docs/animation-samples-v2/README.md)
 - [可复用男女骨架资产](docs/character-assets/hand-rig-v1/README.md)
 
 使用安装了 Pillow 的 Python 和 PATH 中的 Blender / ffmpeg / ffprobe：
 
 ```sh
-python3 Scripts/animation_samples/pipeline.py --mode full
+python3 Scripts/animation_samples/plan_pipeline.py --prepare-review
+# 实际查看三视角并记录审核结果后：
+python3 Scripts/animation_samples/plan_pipeline.py --from-scenes
 ```
+
+当前人物形变流程：57 骨绑定、前臂扭转分配、脚踝/肘膝权重校准，以及完整循环形变检查与场景哈希绑定的三视角审核。说明见 [形变修复记录](docs/animation-plan-v3/deformation-repair-notes.md)，独立关节测试见 [人物绑定 v2](docs/character-assets/deformation-rig-v2/index.html)。

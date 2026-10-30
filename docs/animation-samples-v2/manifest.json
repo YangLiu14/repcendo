@@ -2,7 +2,12 @@
   "shoulder_revision": 1,
   "hand_rig_revision": 1,
   "finger_bones_per_character": 30,
-  "app_integration": false,
+  "app_integration": true,
+  "deformation_rig": {
+    "bench": "athlete-deformation-2",
+    "row": "athlete-deformation-2",
+    "squat": "legacy-53-bones"
+  },
   "new_tripo_credits": 0,
   "version": 2,
   "fps": 24,
@@ -84,36 +89,36 @@
   "review_status": "Visual motion prototypes; no professional movement review yet.",
   "files": {
     "female/bench-poster.png": {
-      "bytes": 288029,
-      "sha256": "1a7d04528b773853f5e888a203384be3dfa2f28a73c6753f028577bf166ad54c"
+      "bytes": 288872,
+      "sha256": "1dca4eae2f332f0930714d736dc3b1ffa7033daf408a57d8310b2b5aa733e78e"
     },
     "female/bench.blend": {
-      "bytes": 13941616,
-      "sha256": "53aa36c7fc4de171b25acba2e02b5f0c6014882ee4465883f32be2f407d3f785"
+      "bytes": 16215658,
+      "sha256": "f6ced8c721f07dea231a9ee0b7e9d3896e9732f063615faf32ae00c6c5227f3b"
     },
     "female/bench.gif": {
-      "bytes": 1410141,
-      "sha256": "e7513f6b6152cc48ffb8e0208a922473ff7258b02e4d3c7c88332600cd99f915"
+      "bytes": 1460981,
+      "sha256": "494c211ae2ba76a609cb975d56716b5f3a44860c673edcbbd5bea0391621972c"
     },
     "female/bench.mp4": {
-      "bytes": 154034,
-      "sha256": "b6f38905754df05d393e21e4654acdebfa87f4b95601b9c7516c098682d80d2a"
+      "bytes": 152953,
+      "sha256": "6e089a2daa8b7dee85cd234b80421f99ae646fb1b9e789282832b68ba9e91f25"
     },
     "female/row-poster.png": {
-      "bytes": 302787,
-      "sha256": "42248b6a7ac250259d010d8e210f0bde4606dd2962e028b59b87f67823d4bf1c"
+      "bytes": 357491,
+      "sha256": "6336efff26541afd3a8df8692ec57c7c717e0ce1fb154cf01d6d5df77c203596"
     },
     "female/row.blend": {
-      "bytes": 14037135,
-      "sha256": "c9a3b13721c554cfb433886fa3105643635db4883bc5bb1de07d1b86048db34b"
+      "bytes": 16347128,
+      "sha256": "4f7d4c8e37aa9520b0e94637937946881cffe3192b8d56f6b3a1b597657bd831"
     },
     "female/row.gif": {
-      "bytes": 1179646,
-      "sha256": "d9e5530526b70dc4184132ffd1e5420d0b15cc3fc02138feafd6b7cf6beb0f4a"
+      "bytes": 1753355,
+      "sha256": "9e44c8c6cc68945769698d9e33a82e06e4a0404cab480d5e11fcc572aab4024f"
     },
     "female/row.mp4": {
-      "bytes": 144795,
-      "sha256": "4e8f7893af4d0ac7c53db6d640e5faa9e0b1ff2bb2550cda96121b19abbb7b8d"
+      "bytes": 172170,
+      "sha256": "4681700374ec25558d38bdfb5f4871378493cf8192631aa84acc9d114917da85"
     },
     "female/squat-poster.png": {
       "bytes": 257648,
@@ -188,36 +193,36 @@
       "sha256": "c8e9d4c32ba0a56cb44938671eff8ef295626d42cada9385bee176f6edab6930"
     },
     "male/bench-poster.png": {
-      "bytes": 293767,
-      "sha256": "baeb9755039162645d6f5d1eea5714ccfcd7f0253d6763916e877aac0685d6cb"
+      "bytes": 294612,
+      "sha256": "69754abf9e8f17187eaa4ffd44ae1dc02d170354c64766fcf252bb91a94cba82"
     },
     "male/bench.blend": {
-      "bytes": 14437300,
-      "sha256": "c28f15c1597c40796c6a4b2034ac3545c64ec71ff1c0ad6e9d87677ffb7247fe"
+      "bytes": 16689084,
+      "sha256": "81548a622de5d1af452e2e5f2529fee56fc73594e227da07b54c80cbb0c3802a"
     },
     "male/bench.gif": {
-      "bytes": 1565550,
-      "sha256": "398f3cf803ed974842e163d3d4348f3f3b92a28dfed4837534f54e16ff8057e9"
+      "bytes": 1557599,
+      "sha256": "c7238db062b4b2f30e4198b4255ca2f8391c157edfafec40628e32044feb98a9"
     },
     "male/bench.mp4": {
-      "bytes": 161808,
-      "sha256": "f3d0069bf7ba65cc1e521824c4f403933c54df9804b98369b3bb65b11e4f400c"
+      "bytes": 160662,
+      "sha256": "3e8fd5591102354c07808e1da0ac1c9168e6a957afa3d7b8731bfe173a9366c9"
     },
     "male/row-poster.png": {
-      "bytes": 311670,
-      "sha256": "54a8df1409f6b252979acbeae0be9fecefe64e060f1fb782b66955a2bfdec874"
+      "bytes": 370448,
+      "sha256": "2d38c57854e35c232d3258661fa6c3edf64da73b43f72269537ae05fae908ac9"
     },
     "male/row.blend": {
-      "bytes": 14524153,
-      "sha256": "51c6424b35bcbb181826fe5159ad49a6ab146ceb650e103e1e9ebd69f3e6bcaf"
+      "bytes": 16349363,
+      "sha256": "f924706a6258afbb78e3c7834f8c4d6363cb36f5d8097697a8ed777efaf0a8d4"
     },
     "male/row.gif": {
-      "bytes": 1288849,
-      "sha256": "9cf29f70ad2a4928eb53a0f97ce661b07ac3bd77852edefa1bb84ecf5fde913b"
+      "bytes": 1892709,
+      "sha256": "854c841675c3a0f9e4f0ab47175d544f4c05dccfe33823afba0d60ff0777d0b0"
     },
     "male/row.mp4": {
-      "bytes": 151651,
-      "sha256": "8809084bda265546722f067fd974d0eff5cfc1c0bc92a811e92f15f01166100f"
+      "bytes": 185467,
+      "sha256": "79c1ae73c3375828716bcdcd234be965dedb890e48ff018076d3b11ff90600ce"
     },
     "male/squat-poster.png": {
       "bytes": 267329,
@@ -236,8 +241,8 @@
       "sha256": "b73937fb11f30468917fd49b5318577e45327a426f14682c3bf59db29bb7bc13"
     },
     "overview.png": {
-      "bytes": 493089,
-      "sha256": "d6e0444aa0ab5d426a1269c86a53e3aabaee66141012fd958c6ed99aac6ad921"
+      "bytes": 528159,
+      "sha256": "d94bca6878e575a0199db8f8f3c818c8ad40a9bcc575d6d0c01fdfc2be98f923"
     },
     "shoulder-review/before-back.png": {
       "bytes": 600223,

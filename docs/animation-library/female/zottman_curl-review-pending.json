@@ -1,0 +1,25 @@
+{
+  "sceneSHA256": "85d70f80ccc66832d9e807712d5cb746b280147287655a311cc4c1b21b5036c6",
+  "frames": [
+    1,
+    49,
+    73,
+    85,
+    97,
+    145,
+    169,
+    181
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/zottman_curl-review.jpg": "5f19233e8b6dfe10167e34ead8b34edac212ced6f876d69cc73d36d3a308f976"
+  }
+}

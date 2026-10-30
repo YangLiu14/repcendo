@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "6005ddd49b1e1b7ef7f5846307ccdcb495ed73e6e4b8f56399a30225185d6afa",
+  "frames": [
+    1,
+    49,
+    97,
+    145
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/standing_alternate_lateral_raise-review.jpg": "840c83033056715db1e23e401f122ab53289c2d83d636d8505ee1c0fe2e9da08"
+  }
+}

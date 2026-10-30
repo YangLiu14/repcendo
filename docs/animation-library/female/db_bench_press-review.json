@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "6ab58887e5a827cae1de3627e98d4adcbff5b521c9627fc9a15eabc0696c4db5",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看本次修正后的主镜头、正、侧、背和手部图，四阶段均覆盖。头部和上背已贴近凳面，臀腿与双足支撑稳定，保留自然腰弧；正握、双肘位于胸侧，向上推起及下放清楚，无可见器械穿插或肩肘塌陷。旧悬空版本未被接受。",
+  "evidence": {
+    "docs/animation-library/female/db_bench_press-review.jpg": "546b53a7bbd958baa8903cd5e62ef597966789029c70ee252bf1d4b30c35e0bc"
+  }
+}

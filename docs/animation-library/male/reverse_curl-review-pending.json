@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "e14ad39277945f0f19e8b8a745b79db41ea0fcbee58c12cab857c289919fccd6",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/reverse_curl-review.jpg": "21b7234d5ec50c588a9c1f9346a4840b4d6e6bfad1bae7bbb972e75b6fde6d66"
+  }
+}

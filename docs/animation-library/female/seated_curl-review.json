@@ -1,0 +1,22 @@
+{
+  "sceneSHA256": "0c927ef6304c6b19a8ce78df0fe162471c85ace1157ee525e9670d488ba813a3",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看修订版四阶段主镜头/正侧背/手部图。上臂较初版收回并保持稳定，前臂在屈肘时收拢，掌心向上、腕轴与前臂对齐；低位哑铃在腿外侧留有间距，坐垫与双足稳定。完整循环检查通过后验收，保留原雕塑衣褶。",
+  "evidence": {
+    "docs/animation-library/female/seated_curl-review.jpg": "1f02a58250612149618c30d7c36f8be87ae7fa14e4871bda8ab8247aba7255f2"
+  },
+  "reviewer": "Codex visual inspection"
+}

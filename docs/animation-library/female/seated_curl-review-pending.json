@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "0c927ef6304c6b19a8ce78df0fe162471c85ace1157ee525e9670d488ba813a3",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/seated_curl-review.jpg": "1f02a58250612149618c30d7c36f8be87ae7fa14e4871bda8ab8247aba7255f2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sceneSHA256": "099a35b92aeb065c2093e1d715a0acc8f433d1690cdca694aeebfdba2c396df5",
+  "frames": [
+    1,
+    49,
+    73,
+    85,
+    97,
+    145,
+    169,
+    181
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/zottman_curl-review.jpg": "66a5c27924b67384b5be5d61076354ae9f1cc97ef988fd5382dba2a524209b1d"
+  }
+}

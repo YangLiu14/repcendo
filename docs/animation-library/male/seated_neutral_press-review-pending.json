@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "efa81624dfc77e1b66ad175481bf61c712354f9d3e3d1b149b6480425ca585e6",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/seated_neutral_press-review.jpg": "9ef111e3faa7e211d86abe1d449e1252f495d22e561ddafc4bcfe1a4b5c7b8fc"
+  }
+}

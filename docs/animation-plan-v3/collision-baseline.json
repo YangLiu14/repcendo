@@ -1,0 +1,6981 @@
+{
+  "kind": "diagnostic baseline before collision repairs",
+  "coverage": "4 key poses; body vertices inside equipment only; not production validation",
+  "scenes": {
+    "male/bench": {
+      "sceneSHA256": "c28f15c1597c40796c6a4b2034ac3545c64ec71ff1c0ad6e9d87677ffb7247fe",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Bench pad",
+          "depth_m": 0.054985761642456055,
+          "vertices": 3767,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.03714158542670227,
+            0.3213776452405915,
+            0.4050142527121938
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Bench leg.001",
+          "depth_m": 0.01410006731748581,
+          "vertices": 22,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.012986871383916456,
+            0.2697130853665265,
+            0.36543765316576504
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Bench pad",
+          "depth_m": 0.054985761642456055,
+          "vertices": 3772,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.03714158542670227,
+            0.3213776452405915,
+            0.4050142527121938
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Bench leg.001",
+          "depth_m": 0.01410006731748581,
+          "vertices": 22,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.012986871383916456,
+            0.2697130853665265,
+            0.36543765316576504
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Bench pad",
+          "depth_m": 0.054985761642456055,
+          "vertices": 3811,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.03714158542670227,
+            0.3213776452405915,
+            0.4050142527121938
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Bench leg.001",
+          "depth_m": 0.01410006731748581,
+          "vertices": 22,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.012986871383916456,
+            0.2697130853665265,
+            0.36543765316576504
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Bench pad",
+          "depth_m": 0.054985761642456055,
+          "vertices": 3772,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.03714158542670227,
+            0.3213776452405915,
+            0.4050142527121938
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Bench leg.001",
+          "depth_m": 0.01410006731748581,
+          "vertices": 22,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.012986871383916456,
+            0.2697130853665265,
+            0.36543765316576504
+          ]
+        }
+      ]
+    },
+    "male/row": {
+      "sceneSHA256": "51c6424b35bcbb181826fe5159ad49a6ab146ceb650e103e1e9ebd69f3e6bcaf",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "V handle",
+          "depth_m": 0.011005152948200703,
+          "vertices": 9,
+          "body_region": "mixamorig:LeftHandRing3",
+          "point": [
+            -0.0704262949641826,
+            0.5209438324882913,
+            0.9380742259963952
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "V handle.001",
+          "depth_m": 0.011284024454653263,
+          "vertices": 11,
+          "body_region": "mixamorig:RightHandMiddle2",
+          "point": [
+            0.06853495957074579,
+            0.5204363869689075,
+            0.9409696778639756
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat",
+          "depth_m": 0.049957841634750366,
+          "vertices": 1149,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.1199585080640919,
+            -0.10643736680719154,
+            0.41995781529286624
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Foot plate",
+          "depth_m": 0.013615623116493225,
+          "vertices": 232,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.1556157272506873,
+            0.8173427232927536,
+            0.24642526293698985
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "V handle",
+          "depth_m": 0.011005217209458351,
+          "vertices": 9,
+          "body_region": "mixamorig:LeftHandRing3",
+          "point": [
+            -0.0704262785718916,
+            0.3343315745171068,
+            0.8989087131403188
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "V handle.001",
+          "depth_m": 0.011283992789685726,
+          "vertices": 11,
+          "body_region": "mixamorig:RightHandMiddle2",
+          "point": [
+            0.0685349217228415,
+            0.3338242917184188,
+            0.9018041650078992
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat",
+          "depth_m": 0.04998233914375305,
+          "vertices": 1194,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.1514626649158751,
+            -0.06480336721023901,
+            0.420017669384805
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Foot plate",
+          "depth_m": 0.013615611009299755,
+          "vertices": 232,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.15561571369065225,
+            0.8173426148122942,
+            0.2464252358168757
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "V handle",
+          "depth_m": 0.011005274951457977,
+          "vertices": 9,
+          "body_region": "mixamorig:LeftHandRing3",
+          "point": [
+            -0.0704263499845394,
+            0.11594372291562356,
+            0.8530743642136756
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "V handle.001",
+          "depth_m": 0.011284158565104008,
+          "vertices": 11,
+          "body_region": "mixamorig:RightHandMiddle2",
+          "point": [
+            0.06853493167053065,
+            0.11543641299680492,
+            0.8559694363996577
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat",
+          "depth_m": 0.04999902844429016,
+          "vertices": 1245,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.08891580165230976,
+            -0.06087591234636039,
+            0.4199990107462668
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Foot plate",
+          "depth_m": 0.01361563615500927,
+          "vertices": 232,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.15561576793088056,
+            0.8173426148123052,
+            0.24642520869676154
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "V handle",
+          "depth_m": 0.011005217209458351,
+          "vertices": 9,
+          "body_region": "mixamorig:LeftHandRing3",
+          "point": [
+            -0.0704262785718916,
+            0.3343315745171068,
+            0.8989087131403188
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "V handle.001",
+          "depth_m": 0.011283992789685726,
+          "vertices": 11,
+          "body_region": "mixamorig:RightHandMiddle2",
+          "point": [
+            0.0685349217228415,
+            0.3338242917184188,
+            0.9018041650078992
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat",
+          "depth_m": 0.04998233914375305,
+          "vertices": 1194,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.1514626649158751,
+            -0.06480336721023901,
+            0.420017669384805
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Foot plate",
+          "depth_m": 0.013615611009299755,
+          "vertices": 232,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.15561571369065225,
+            0.8173426148122942,
+            0.2464252358168757
+          ]
+        }
+      ]
+    },
+    "male/incline_press": {
+      "sceneSHA256": "034b3872c3e3eff67a698033fae8669550fa8a4081cc8d4fec305b7fa17966f6",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.04933330416679382,
+          "vertices": 963,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.11422058990953307,
+            -0.0746962620183097,
+            0.4906667058018108
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.05904906243085861,
+          "vertices": 362,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.0009509377975686001,
+            0.03196966158432584,
+            0.42711307773090645
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04999522492289543,
+          "vertices": 3023,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.01139579213859356,
+            -0.722104876063692,
+            0.877216310152324
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.034030746668577194,
+          "vertices": 382,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0002239046136905388,
+            -0.6031777538304729,
+            0.8241764180959983
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.04933330416679382,
+          "vertices": 963,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.11422058990953307,
+            -0.0746962620183097,
+            0.4906667058018108
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.05904906243085861,
+          "vertices": 362,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.0009509377975686001,
+            0.03196966158432584,
+            0.42711307773090645
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.04999522492289543,
+          "vertices": 2949,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.01139579213859356,
+            -0.722104876063692,
+            0.877216310152324
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.034030746668577194,
+          "vertices": 382,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0002239046136905388,
+            -0.6031777538304729,
+            0.8241764180959983
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.04933330416679382,
+          "vertices": 963,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.11422058990953307,
+            -0.0746962620183097,
+            0.4906667058018108
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.05904906243085861,
+          "vertices": 362,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.0009509377975686001,
+            0.03196966158432584,
+            0.42711307773090645
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.04999522492289543,
+          "vertices": 2911,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.01139579213859356,
+            -0.722104876063692,
+            0.877216310152324
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.034030746668577194,
+          "vertices": 382,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0002239046136905388,
+            -0.6031777538304729,
+            0.8241764180959983
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.04933330416679382,
+          "vertices": 963,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.11422058990953307,
+            -0.0746962620183097,
+            0.4906667058018108
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.05904906243085861,
+          "vertices": 362,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.0009509377975686001,
+            0.03196966158432584,
+            0.42711307773090645
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.04999522492289543,
+          "vertices": 2949,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.01139579213859356,
+            -0.722104876063692,
+            0.877216310152324
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.034030746668577194,
+          "vertices": 382,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0002239046136905388,
+            -0.6031777538304729,
+            0.8241764180959983
+          ]
+        }
+      ]
+    },
+    "male/pec_fly": {
+      "sceneSHA256": "7ed0e8b2f8489eaed38dd90a28bf0f50855a6cada555db18dc50195dc384610b",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04995661601424217,
+          "vertices": 2667,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.006598915855900989,
+            -0.16973414850922416,
+            1.3113393136295173
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.033027876168489456,
+          "vertices": 311,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229873942730095,
+            -0.13215966534017054,
+            1.109083143249748
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Machine arm Left",
+          "depth_m": 0.020382659509778023,
+          "vertices": 48,
+          "body_region": "mixamorig:LeftHand",
+          "point": [
+            -0.6615580700197624,
+            0.3387352958237533,
+            1.102071942858096
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Machine arm Right",
+          "depth_m": 0.02181600034236908,
+          "vertices": 57,
+          "body_region": "mixamorig:RightHand",
+          "point": [
+            0.6730673321776418,
+            0.3347497514855957,
+            1.1281873110233036
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.04995661601424217,
+          "vertices": 2709,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.006598915855900989,
+            -0.16973414850922416,
+            1.3113393136295173
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.033027876168489456,
+          "vertices": 311,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229873942730095,
+            -0.13215966534017054,
+            1.109083143249748
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Machine arm Left",
+          "depth_m": 0.02252907119691372,
+          "vertices": 49,
+          "body_region": "mixamorig:LeftHand",
+          "point": [
+            -0.37152538722788037,
+            0.53153093523912,
+            1.102071942858096
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Machine arm Right",
+          "depth_m": 0.02334245853126049,
+          "vertices": 56,
+          "body_region": "mixamorig:RightHandThumb1",
+          "point": [
+            0.38688257954256244,
+            0.5074103688538975,
+            1.1497800204716668
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Left",
+          "depth_m": 0.012946638278663158,
+          "vertices": 15,
+          "body_region": "mixamorig:RightHandThumb2",
+          "point": [
+            -0.013264661630251565,
+            0.5462910931871297,
+            1.14005984611736
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Right",
+          "depth_m": 0.00921841524541378,
+          "vertices": 11,
+          "body_region": "mixamorig:LeftHandPinky3",
+          "point": [
+            0.0237027672629474,
+            0.5651843132152098,
+            1.0504356794299454
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.04995661601424217,
+          "vertices": 2754,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.006598915855900989,
+            -0.16973414850922416,
+            1.3113393136295173
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.033027876168489456,
+          "vertices": 311,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229873942730095,
+            -0.13215966534017054,
+            1.109083143249748
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Machine arm Left",
+          "depth_m": 0.02198931574821472,
+          "vertices": 58,
+          "body_region": "mixamorig:LeftHandThumb1",
+          "point": [
+            -0.03460136512843678,
+            0.494668177182564,
+            1.1302960626194931
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Machine arm Right",
+          "depth_m": 0.01992328092455864,
+          "vertices": 90,
+          "body_region": "mixamorig:RightHandThumb1",
+          "point": [
+            0.03023979383336087,
+            0.5452137107088356,
+            1.1243579509047024
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.04995661601424217,
+          "vertices": 2709,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.006598915855900989,
+            -0.16973414850922416,
+            1.3113393136295173
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.033027876168489456,
+          "vertices": 311,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229873942730095,
+            -0.13215966534017054,
+            1.109083143249748
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Machine arm Left",
+          "depth_m": 0.02252907119691372,
+          "vertices": 49,
+          "body_region": "mixamorig:LeftHand",
+          "point": [
+            -0.37152538722788037,
+            0.53153093523912,
+            1.102071942858096
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Machine arm Right",
+          "depth_m": 0.02334245853126049,
+          "vertices": 56,
+          "body_region": "mixamorig:RightHandThumb1",
+          "point": [
+            0.38688257954256244,
+            0.5074103688538975,
+            1.1497800204716668
+          ]
+        }
+      ]
+    },
+    "male/pushdown": {
+      "sceneSHA256": "095d91bb1de7f2abc9321e90642030e8c1078512153f2aecaf049f06b85c10e4",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Rope Left",
+          "depth_m": 0.005809821654111147,
+          "vertices": 6,
+          "body_region": "mixamorig:LeftHandMiddle1",
+          "point": [
+            -0.12291153380660429,
+            0.3175035814492607,
+            1.0460405937300834
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Rope Right",
+          "depth_m": 0.009118459187448025,
+          "vertices": 5,
+          "body_region": "mixamorig:RightHandMiddle1",
+          "point": [
+            0.1128889728116997,
+            0.3306347132171261,
+            1.0742212128283768
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Rope Left",
+          "depth_m": 0.010506669990718365,
+          "vertices": 8,
+          "body_region": "mixamorig:LeftHandMiddle1",
+          "point": [
+            -0.12355709506957563,
+            0.21304553961379688,
+            0.8264683389431866
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Rope Right",
+          "depth_m": 0.009267548099160194,
+          "vertices": 9,
+          "body_region": "mixamorig:RightHandMiddle1",
+          "point": [
+            0.11156486976765802,
+            0.24331079352049073,
+            0.8594967869270356
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Left",
+          "depth_m": 0.010657738894224167,
+          "vertices": 2,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.20667114818919194,
+            0.0024365936965457967,
+            0.7144571689040546
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Right",
+          "depth_m": 0.01046903058886528,
+          "vertices": 5,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.04076066520499684,
+            0.04070002844830746,
+            0.7305351116195773
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Rope Left",
+          "depth_m": 0.0073114363476634026,
+          "vertices": 10,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.08639818217990979,
+            0.06423903867880112,
+            0.8123268266185164
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Rope Right",
+          "depth_m": 0.011430087499320507,
+          "vertices": 9,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.09085528420366941,
+            0.06653456445148942,
+            0.7882242048453918
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Rope Left",
+          "depth_m": 0.010506669990718365,
+          "vertices": 8,
+          "body_region": "mixamorig:LeftHandMiddle1",
+          "point": [
+            -0.12355709506957563,
+            0.21304553961379688,
+            0.8264683389431866
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Rope Right",
+          "depth_m": 0.009267548099160194,
+          "vertices": 9,
+          "body_region": "mixamorig:RightHandMiddle1",
+          "point": [
+            0.11156486976765802,
+            0.24331079352049073,
+            0.8594967869270356
+          ]
+        }
+      ]
+    },
+    "male/cable_crunch": {
+      "sceneSHA256": "f742a14ebddb97b5549b312776b652b6943c2893e0e4fed6682f84e8a60435cf",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Grip shaft Left",
+          "depth_m": 0.010569778271019459,
+          "vertices": 8,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.14735608425911453,
+            -0.008311129954801391,
+            0.9591886451115315
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Grip shaft Right",
+          "depth_m": 0.01101310271769762,
+          "vertices": 8,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.13678980341070995,
+            0.010220983081785474,
+            0.9545512140715857
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Rope Left",
+          "depth_m": 0.011249640956521034,
+          "vertices": 6,
+          "body_region": "mixamorig:LeftHandRing2",
+          "point": [
+            -0.13369310807116205,
+            0.050055062457514315,
+            0.9636721423835368
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Rope Right",
+          "depth_m": 0.010344176553189754,
+          "vertices": 12,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.11606231741095262,
+            0.0617294581933962,
+            0.9769139178010207
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Grip shaft Left",
+          "depth_m": 0.010569843463599682,
+          "vertices": 8,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.1473560943686128,
+            0.07556106137881606,
+            0.932265314505436
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Grip shaft Right",
+          "depth_m": 0.011012932285666466,
+          "vertices": 8,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.13678980636416818,
+            0.09164218053863922,
+            0.9219529453384538
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Rope Left",
+          "depth_m": 0.009518533013761044,
+          "vertices": 20,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.014216109829571603,
+            0.2537118980912578,
+            1.0672603473685953
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Rope Right",
+          "depth_m": 0.011569204740226269,
+          "vertices": 62,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.01572882458984936,
+            0.24630240562982447,
+            1.0554436797096969
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Left",
+          "depth_m": 0.010569935664534569,
+          "vertices": 8,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.14735609317527643,
+            0.14830383840882969,
+            0.8856513165370821
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Right",
+          "depth_m": 0.011013028211891651,
+          "vertices": 8,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.13678982027891015,
+            0.16024991986338608,
+            0.8707441491496049
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Rope Left",
+          "depth_m": 0.010985402390360832,
+          "vertices": 7,
+          "body_region": "mixamorig:LeftHandMiddle2",
+          "point": [
+            -0.1280157806019942,
+            0.19744092515490275,
+            0.8697418982109149
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Rope Right",
+          "depth_m": 0.01157307904213667,
+          "vertices": 8,
+          "body_region": "mixamorig:RightHandMiddle2",
+          "point": [
+            0.11945810870223306,
+            0.19760527709526152,
+            0.8702586991062411
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Grip shaft Left",
+          "depth_m": 0.010569843463599682,
+          "vertices": 8,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.1473560943686128,
+            0.07556106137881606,
+            0.932265314505436
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Grip shaft Right",
+          "depth_m": 0.011012932285666466,
+          "vertices": 8,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.13678980636416818,
+            0.09164218053863922,
+            0.9219529453384538
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Rope Left",
+          "depth_m": 0.009518533013761044,
+          "vertices": 20,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.014216109829571603,
+            0.2537118980912578,
+            1.0672603473685953
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Rope Right",
+          "depth_m": 0.011569204740226269,
+          "vertices": 62,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.01572882458984936,
+            0.24630240562982447,
+            1.0554436797096969
+          ]
+        }
+      ]
+    },
+    "male/pulldown": {
+      "sceneSHA256": "4e7cc0f241dfa906270e18fef93a4be590e7788eef4304b1ecdcf94598bbb129",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Tower foot.001",
+          "depth_m": 0.005090564489364624,
+          "vertices": 5,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.27509056329779086,
+            0.7558726733583496,
+            0.025587946355175584
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate",
+          "depth_m": 0.01748184859752655,
+          "vertices": 72,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.12224216981575743,
+            0.5794828806007917,
+            0.14998185202590797
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate.001",
+          "depth_m": 0.016644924879074097,
+          "vertices": 42,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.11687775500937767,
+            0.5892770375385232,
+            0.19414492391778637
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate.002",
+          "depth_m": 0.017313703894615173,
+          "vertices": 24,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.12962578648131945,
+            0.5653501566906219,
+            0.23981370454751705
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate.003",
+          "depth_m": 0.016936272382736206,
+          "vertices": 11,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.13966067771032023,
+            0.5579050365077349,
+            0.2855637370392543
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate.004",
+          "depth_m": 0.014463672414422035,
+          "vertices": 10,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.14677250979678966,
+            0.5455231328720227,
+            0.3327223068998286
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate.005",
+          "depth_m": 0.005715199280530214,
+          "vertices": 3,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.15702904135160908,
+            0.5321963650969663,
+            0.37352262023713223
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Tower foot.001",
+          "depth_m": 0.005090564489364624,
+          "vertices": 5,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.27509056329779086,
+            0.7558726733583496,
+            0.025587946355175584
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate",
+          "depth_m": 0.01748184859752655,
+          "vertices": 72,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.12224216981575743,
+            0.5794828806007917,
+            0.14998185202590797
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate.001",
+          "depth_m": 0.016644924879074097,
+          "vertices": 42,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.11687775500937767,
+            0.5892770375385232,
+            0.19414492391778637
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate.002",
+          "depth_m": 0.017313703894615173,
+          "vertices": 24,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.12962578648131945,
+            0.5653501566906219,
+            0.23981370454751705
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate.003",
+          "depth_m": 0.016936272382736206,
+          "vertices": 11,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.13966067771032023,
+            0.5579050365077349,
+            0.2855637370392543
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate.004",
+          "depth_m": 0.014463672414422035,
+          "vertices": 10,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.14677250979678966,
+            0.5455231328720227,
+            0.3327223068998286
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate.005",
+          "depth_m": 0.005715199280530214,
+          "vertices": 3,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.15702904135160908,
+            0.5321963650969663,
+            0.37352262023713223
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Tower foot.001",
+          "depth_m": 0.005090564489364624,
+          "vertices": 5,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.27509056329779086,
+            0.7558726733583496,
+            0.025587946355175584
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate",
+          "depth_m": 0.01748184859752655,
+          "vertices": 72,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.12224216981575743,
+            0.5794828806007917,
+            0.14998185202590797
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate.001",
+          "depth_m": 0.016644924879074097,
+          "vertices": 42,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.11687775500937767,
+            0.5892770375385232,
+            0.19414492391778637
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate.002",
+          "depth_m": 0.017313703894615173,
+          "vertices": 24,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.12962578648131945,
+            0.5653501566906219,
+            0.23981370454751705
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate.003",
+          "depth_m": 0.016936272382736206,
+          "vertices": 11,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.13966067771032023,
+            0.5579050365077349,
+            0.2855637370392543
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate.004",
+          "depth_m": 0.014463672414422035,
+          "vertices": 10,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.14677250979678966,
+            0.5455231328720227,
+            0.3327223068998286
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate.005",
+          "depth_m": 0.005715199280530214,
+          "vertices": 3,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.15702904135160908,
+            0.5321963650969663,
+            0.37352262023713223
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Tower foot.001",
+          "depth_m": 0.005090564489364624,
+          "vertices": 5,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.27509056329779086,
+            0.7558726733583496,
+            0.025587946355175584
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate",
+          "depth_m": 0.01748184859752655,
+          "vertices": 72,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.12224216981575743,
+            0.5794828806007917,
+            0.14998185202590797
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate.001",
+          "depth_m": 0.016644924879074097,
+          "vertices": 42,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.11687775500937767,
+            0.5892770375385232,
+            0.19414492391778637
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate.002",
+          "depth_m": 0.017313703894615173,
+          "vertices": 24,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.12962578648131945,
+            0.5653501566906219,
+            0.23981370454751705
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate.003",
+          "depth_m": 0.016936272382736206,
+          "vertices": 11,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.13966067771032023,
+            0.5579050365077349,
+            0.2855637370392543
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate.004",
+          "depth_m": 0.014463672414422035,
+          "vertices": 10,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.14677250979678966,
+            0.5455231328720227,
+            0.3327223068998286
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate.005",
+          "depth_m": 0.005715199280530214,
+          "vertices": 3,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.15702904135160908,
+            0.5321963650969663,
+            0.37352262023713223
+          ]
+        }
+      ]
+    },
+    "male/straight_pulldown": {
+      "sceneSHA256": "e3c0d26258969202274fc900aaaa3af1692796a268ecfc049199f9de56c4516c",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": []
+    },
+    "male/curl": {
+      "sceneSHA256": "396dc79fe7cb30d165ee8eff7799766381aee4ad3bb562878e1faa6ab58a1db6",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Grip shaft Left",
+          "depth_m": 0.009608715772628784,
+          "vertices": 5,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.17084317936627966,
+            -0.03298840777574123,
+            0.7141149673036544
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate",
+          "depth_m": 0.029284320771694183,
+          "vertices": 60,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.1102529874539269,
+            -0.07107637281479239,
+            0.7004083531295642
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Grip shaft Right",
+          "depth_m": 0.012272733263671398,
+          "vertices": 4,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.1870513110506416,
+            -0.039487246197147496,
+            0.728995502739032
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate.002",
+          "depth_m": 0.029589422047138214,
+          "vertices": 62,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.10757345607370436,
+            -0.07783513590236693,
+            0.6949053022860383
+          ]
+        }
+      ]
+    },
+    "male/leg_press": {
+      "sceneSHA256": "539fbc082a7e0994b83991654c7164d6ce4e4bdd3a84aaaa48717ad686a2ca4d",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.023700475692749023,
+          "vertices": 665,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.07723520683378789,
+            0.08280533394101908,
+            0.5162995528959833
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04997674748301506,
+          "vertices": 2206,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.10912910295818685,
+            -0.22902493846831365,
+            0.6996523528273961
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.033128947019577026,
+          "vertices": 418,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.0013772462912447945,
+            -0.5104468150212441,
+            1.079098819599274
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Sled footplate",
+          "depth_m": 0.034840524196624756,
+          "vertices": 400,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.1898029704537619,
+            0.4874005919591519,
+            0.9989035572401477
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Left",
+          "depth_m": 0.016938865184783936,
+          "vertices": 32,
+          "body_region": "mixamorig:LeftHandPinky3",
+          "point": [
+            -0.31937764425645004,
+            0.10173225050754967,
+            0.5770154135821137
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Right",
+          "depth_m": 0.0163243617862463,
+          "vertices": 53,
+          "body_region": "mixamorig:RightHandPinky3",
+          "point": [
+            0.3190133803264008,
+            0.09826874685359714,
+            0.5754368059774144
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.04997674748301506,
+          "vertices": 2133,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.10912910295818685,
+            -0.22902493846831365,
+            0.6996523528273961
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.033128947019577026,
+          "vertices": 433,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.0013772462912447945,
+            -0.5104468150212441,
+            1.079098819599274
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Sled footplate",
+          "depth_m": 0.03499450907111168,
+          "vertices": 461,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.23434075810289548,
+            0.27272223409877766,
+            1.0196906908176686
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Left",
+          "depth_m": 0.016938865184783936,
+          "vertices": 32,
+          "body_region": "mixamorig:LeftHandPinky3",
+          "point": [
+            -0.31937764425645004,
+            0.10173225050754967,
+            0.5770154135821137
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Right",
+          "depth_m": 0.0163243617862463,
+          "vertices": 53,
+          "body_region": "mixamorig:RightHandPinky3",
+          "point": [
+            0.3190133803264008,
+            0.09826874685359714,
+            0.5754368059774144
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.04997674748301506,
+          "vertices": 2090,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.10912910295818685,
+            -0.22902493846831365,
+            0.6996523528273961
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.033128947019577026,
+          "vertices": 459,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.0013772462912447945,
+            -0.5104468150212441,
+            1.079098819599274
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Sled footplate",
+          "depth_m": 0.034729499369859695,
+          "vertices": 420,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.24761316086364038,
+            0.1820699140717972,
+            0.9170751216066435
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Left",
+          "depth_m": 0.016938865184783936,
+          "vertices": 32,
+          "body_region": "mixamorig:LeftHandPinky3",
+          "point": [
+            -0.31937764425645004,
+            0.10173225050754967,
+            0.5770154135821137
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Right",
+          "depth_m": 0.0163243617862463,
+          "vertices": 53,
+          "body_region": "mixamorig:RightHandPinky3",
+          "point": [
+            0.3190133803264008,
+            0.09826874685359714,
+            0.5754368059774144
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.04997674748301506,
+          "vertices": 2133,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.10912910295818685,
+            -0.22902493846831365,
+            0.6996523528273961
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.033128947019577026,
+          "vertices": 433,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.0013772462912447945,
+            -0.5104468150212441,
+            1.079098819599274
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Sled footplate",
+          "depth_m": 0.03499450907111168,
+          "vertices": 461,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.23434075810289548,
+            0.27272223409877766,
+            1.0196906908176686
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Left",
+          "depth_m": 0.016938865184783936,
+          "vertices": 32,
+          "body_region": "mixamorig:LeftHandPinky3",
+          "point": [
+            -0.31937764425645004,
+            0.10173225050754967,
+            0.5770154135821137
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Right",
+          "depth_m": 0.0163243617862463,
+          "vertices": 53,
+          "body_region": "mixamorig:RightHandPinky3",
+          "point": [
+            0.3190133803264008,
+            0.09826874685359714,
+            0.5754368059774144
+          ]
+        }
+      ]
+    },
+    "male/rdl": {
+      "sceneSHA256": "6cf3aaf4e10d07c29c2ed556ed11175ab1060404c1b9e56c4bf7d1857cd7d1dc",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": []
+    },
+    "male/leg_curl": {
+      "sceneSHA256": "b11968f7467a2a981058e1b6741b46829ce3339ef966ebf0083459deda528758",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.04994046688079834,
+          "vertices": 1805,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.024681263637431273,
+            -0.006736790098582499,
+            0.5699404266819705
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.016447018831968307,
+          "vertices": 131,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.04280651740920762,
+            0.0815651554671114,
+            0.552517380544618
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04995173215866089,
+          "vertices": 2493,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0031808288939597163,
+            -0.16970735581992757,
+            1.390943791421904
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.03351175785064697,
+          "vertices": 301,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229890892801442,
+            -0.1321596653401702,
+            1.1940831135129244
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Thigh hold-down",
+          "depth_m": 0.049072980880737305,
+          "vertices": 489,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.11675191757485628,
+            0.25549929713061226,
+            0.7709269960377156
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Left",
+          "depth_m": 0.01566368341445923,
+          "vertices": 28,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.32134087040479575,
+            0.09638400845381895,
+            0.6261199058734945
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shin roller Left",
+          "depth_m": 0.06377746909856796,
+          "vertices": 148,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.1350929831623833,
+            0.7726895054154216,
+            0.5501098195306753
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Right",
+          "depth_m": 0.0151224909350276,
+          "vertices": 48,
+          "body_region": "mixamorig:RightHandPinky2",
+          "point": [
+            0.32163272213142974,
+            0.09737953879948696,
+            0.6261079187830383
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shin roller Right",
+          "depth_m": 0.05896240100264549,
+          "vertices": 122,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.17044579612752142,
+            0.7400064514775405,
+            0.5437377317491858
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.04994046688079834,
+          "vertices": 1805,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.024681263637431273,
+            -0.006736790098582499,
+            0.5699404266819705
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.016447018831968307,
+          "vertices": 131,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.04280651740920762,
+            0.0815651554671114,
+            0.552517380544618
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.04995173215866089,
+          "vertices": 2493,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0031808288939597163,
+            -0.16970735581992757,
+            1.390943791421904
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.03351175785064697,
+          "vertices": 301,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229890892801442,
+            -0.1321596653401702,
+            1.1940831135129244
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Thigh hold-down",
+          "depth_m": 0.049072980880737305,
+          "vertices": 487,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.11675191757485628,
+            0.25549929713061226,
+            0.7709269960377156
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Left",
+          "depth_m": 0.01566368341445923,
+          "vertices": 28,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.32134087040479575,
+            0.09638400845381895,
+            0.6261199058734945
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shin roller Left",
+          "depth_m": 0.06377911567687988,
+          "vertices": 148,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.1350929361929494,
+            0.6031224019109567,
+            0.38385649565463886
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Right",
+          "depth_m": 0.0151224909350276,
+          "vertices": 48,
+          "body_region": "mixamorig:RightHandPinky2",
+          "point": [
+            0.32163272213142974,
+            0.09737953879948696,
+            0.6261079187830383
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shin roller Right",
+          "depth_m": 0.05895998328924179,
+          "vertices": 121,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.17044585627128098,
+            0.5685374686076532,
+            0.38146566775112944
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.04994046688079834,
+          "vertices": 1881,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.024681263637431273,
+            -0.006736790098582499,
+            0.5699404266819705
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.016447018831968307,
+          "vertices": 131,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.04280651740920762,
+            0.0815651554671114,
+            0.552517380544618
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.04995173215866089,
+          "vertices": 2493,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0031808288939597163,
+            -0.16970735581992757,
+            1.390943791421904
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.03351175785064697,
+          "vertices": 301,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229890892801442,
+            -0.1321596653401702,
+            1.1940831135129244
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Leg machine beam",
+          "depth_m": 0.015092045068740845,
+          "vertices": 100,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.14199402265715672,
+            0.5694534291135889,
+            0.14490794986876132
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Thigh hold-down",
+          "depth_m": 0.049072980880737305,
+          "vertices": 484,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.11675191757485628,
+            0.25549929713061226,
+            0.7709269960377156
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Left",
+          "depth_m": 0.01566368341445923,
+          "vertices": 28,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.32134087040479575,
+            0.09638400845381895,
+            0.6261199058734945
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shin roller Left",
+          "depth_m": 0.06377813220024109,
+          "vertices": 148,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.1350929164944247,
+            0.3659528542532516,
+            0.37186197428711587
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Right",
+          "depth_m": 0.0151224909350276,
+          "vertices": 48,
+          "body_region": "mixamorig:RightHandPinky2",
+          "point": [
+            0.32163272213142974,
+            0.09737953879948696,
+            0.6261079187830383
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shin roller Right",
+          "depth_m": 0.05895531177520752,
+          "vertices": 122,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.17044590333670037,
+            0.33258469199159385,
+            0.3737123525557564
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.04994046688079834,
+          "vertices": 1805,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.024681263637431273,
+            -0.006736790098582499,
+            0.5699404266819705
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.016447018831968307,
+          "vertices": 131,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.04280651740920762,
+            0.0815651554671114,
+            0.552517380544618
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.04995173215866089,
+          "vertices": 2493,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0031808288939597163,
+            -0.16970735581992757,
+            1.390943791421904
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.03351175785064697,
+          "vertices": 301,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229890892801442,
+            -0.1321596653401702,
+            1.1940831135129244
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Thigh hold-down",
+          "depth_m": 0.049072980880737305,
+          "vertices": 487,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.11675191757485628,
+            0.25549929713061226,
+            0.7709269960377156
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Left",
+          "depth_m": 0.01566368341445923,
+          "vertices": 28,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.32134087040479575,
+            0.09638400845381895,
+            0.6261199058734945
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shin roller Left",
+          "depth_m": 0.06377911567687988,
+          "vertices": 148,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.1350929361929494,
+            0.6031224019109567,
+            0.38385649565463886
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Right",
+          "depth_m": 0.0151224909350276,
+          "vertices": 48,
+          "body_region": "mixamorig:RightHandPinky2",
+          "point": [
+            0.32163272213142974,
+            0.09737953879948696,
+            0.6261079187830383
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shin roller Right",
+          "depth_m": 0.05895998328924179,
+          "vertices": 121,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.17044585627128098,
+            0.5685374686076532,
+            0.38146566775112944
+          ]
+        }
+      ]
+    },
+    "male/leg_extension": {
+      "sceneSHA256": "910e004a2c35423745e01fc5189e34d3acbc25fa46b16248d65f75fa5add0f98",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.04994046688079834,
+          "vertices": 1834,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.024681263637431273,
+            -0.006736790098582499,
+            0.5699404266819705
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.016447018831968307,
+          "vertices": 131,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.04280651740920762,
+            0.0815651554671114,
+            0.552517380544618
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04995173215866089,
+          "vertices": 2493,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0031808288939597163,
+            -0.16970735581992757,
+            1.390943791421904
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.03351175785064697,
+          "vertices": 301,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229890892801442,
+            -0.1321596653401702,
+            1.1940831135129244
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Left",
+          "depth_m": 0.01566368341445923,
+          "vertices": 28,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.32134087040479575,
+            0.09638400845381895,
+            0.6261199058734945
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shin roller Left",
+          "depth_m": 0.038844797760248184,
+          "vertices": 88,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.11240117152239579,
+            0.49808104236702166,
+            0.3642580638006194
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Right",
+          "depth_m": 0.0151224909350276,
+          "vertices": 48,
+          "body_region": "mixamorig:RightHandPinky2",
+          "point": [
+            0.32163272213142974,
+            0.09737953879948696,
+            0.6261079187830383
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shin roller Right",
+          "depth_m": 0.03990432247519493,
+          "vertices": 78,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.15185715459625215,
+            0.47253286491367025,
+            0.34739740747048664
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.04994046688079834,
+          "vertices": 1805,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.024681263637431273,
+            -0.006736790098582499,
+            0.5699404266819705
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.016447018831968307,
+          "vertices": 131,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.04280651740920762,
+            0.0815651554671114,
+            0.552517380544618
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.04995173215866089,
+          "vertices": 2493,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0031808288939597163,
+            -0.16970735581992757,
+            1.390943791421904
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.03351175785064697,
+          "vertices": 301,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229890892801442,
+            -0.1321596653401702,
+            1.1940831135129244
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Left",
+          "depth_m": 0.01566368341445923,
+          "vertices": 28,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.32134087040479575,
+            0.09638400845381895,
+            0.6261199058734945
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shin roller Left",
+          "depth_m": 0.03884756565093994,
+          "vertices": 88,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.11240117336916866,
+            0.689552194230334,
+            0.44855706047324695
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Right",
+          "depth_m": 0.0151224909350276,
+          "vertices": 48,
+          "body_region": "mixamorig:RightHandPinky2",
+          "point": [
+            0.32163272213142974,
+            0.09737953879948696,
+            0.6261079187830383
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shin roller Right",
+          "depth_m": 0.03992122784256935,
+          "vertices": 78,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.1518571544716077,
+            0.6724951075578119,
+            0.4364693272733753
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.04994046688079834,
+          "vertices": 1805,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.024681263637431273,
+            -0.006736790098582499,
+            0.5699404266819705
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.016447018831968307,
+          "vertices": 131,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.04280651740920762,
+            0.0815651554671114,
+            0.552517380544618
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.04995173215866089,
+          "vertices": 2493,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0031808288939597163,
+            -0.16970735581992757,
+            1.390943791421904
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.03351175785064697,
+          "vertices": 301,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229890892801442,
+            -0.1321596653401702,
+            1.1940831135129244
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Left",
+          "depth_m": 0.01566368341445923,
+          "vertices": 28,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.32134087040479575,
+            0.09638400845381895,
+            0.6261199058734945
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shin roller Left",
+          "depth_m": 0.038815148174762726,
+          "vertices": 87,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.11240116636155875,
+            0.7909627082890253,
+            0.631541921815927
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Right",
+          "depth_m": 0.0151224909350276,
+          "vertices": 48,
+          "body_region": "mixamorig:RightHandPinky2",
+          "point": [
+            0.32163272213142974,
+            0.09737953879948696,
+            0.6261079187830383
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shin roller Right",
+          "depth_m": 0.039949897676706314,
+          "vertices": 78,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.1518571758243785,
+            0.7777766382304429,
+            0.6283924087189483
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.04994046688079834,
+          "vertices": 1805,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.024681263637431273,
+            -0.006736790098582499,
+            0.5699404266819705
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.016447018831968307,
+          "vertices": 131,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.04280651740920762,
+            0.0815651554671114,
+            0.552517380544618
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.04995173215866089,
+          "vertices": 2493,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0031808288939597163,
+            -0.16970735581992757,
+            1.390943791421904
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.03351175785064697,
+          "vertices": 301,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229890892801442,
+            -0.1321596653401702,
+            1.1940831135129244
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Left",
+          "depth_m": 0.01566368341445923,
+          "vertices": 28,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.32134087040479575,
+            0.09638400845381895,
+            0.6261199058734945
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shin roller Left",
+          "depth_m": 0.03884756565093994,
+          "vertices": 88,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.11240117336916866,
+            0.689552194230334,
+            0.44855706047324695
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Right",
+          "depth_m": 0.0151224909350276,
+          "vertices": 48,
+          "body_region": "mixamorig:RightHandPinky2",
+          "point": [
+            0.32163272213142974,
+            0.09737953879948696,
+            0.6261079187830383
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shin roller Right",
+          "depth_m": 0.03992122784256935,
+          "vertices": 78,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.1518571544716077,
+            0.6724951075578119,
+            0.4364693272733753
+          ]
+        }
+      ]
+    },
+    "male/calf_raise": {
+      "sceneSHA256": "f297f7a3ddd4118f0096bf5b3879b1762f4c87bd5c0105f48992133dc08a2ac0",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Shoulder pad",
+          "depth_m": 0.03775131702423096,
+          "vertices": 203,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.12869521928495561,
+            -0.12927571368798896,
+            1.5518286615809629
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shoulder pad.001",
+          "depth_m": 0.04408752918243408,
+          "vertices": 296,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.12150600768445198,
+            -0.11242015244388094,
+            1.5581647880910836
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Calf handle Left",
+          "depth_m": 0.015535223297774792,
+          "vertices": 74,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.18575860142595063,
+            -0.016211781789237215,
+            1.468617751008324
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Calf handle Right",
+          "depth_m": 0.017112290486693382,
+          "vertices": 97,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.17362666374566044,
+            -0.04420952657152177,
+            1.520133058727346
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shoulder pad",
+          "depth_m": 0.03775131702423096,
+          "vertices": 203,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.12869521420617785,
+            -0.10423439696369519,
+            1.5870342580888988
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shoulder pad.001",
+          "depth_m": 0.04408752918243408,
+          "vertices": 296,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.12150601276325723,
+            -0.0873787001190164,
+            1.593370493079476
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Calf handle Left",
+          "depth_m": 0.015535232611000538,
+          "vertices": 74,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.18575860990723078,
+            0.008829530697541471,
+            1.50382334751626
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Calf handle Right",
+          "depth_m": 0.01711220294237137,
+          "vertices": 97,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.173626668824475,
+            -0.019168028481464598,
+            1.555338655235282
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shoulder pad",
+          "depth_m": 0.037751197814941406,
+          "vertices": 203,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.1286952082152345,
+            -0.0746955754284353,
+            1.618924040959861
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shoulder pad.001",
+          "depth_m": 0.04408752918243408,
+          "vertices": 296,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.12150601875417584,
+            -0.05784000062427021,
+            1.625260384430895
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Calf handle Left",
+          "depth_m": 0.015535291284322739,
+          "vertices": 74,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.18575860391628418,
+            0.038368368335369135,
+            1.5357131303872222
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Calf handle Right",
+          "depth_m": 0.01711226813495159,
+          "vertices": 97,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.17362667481538344,
+            0.010370621010571122,
+            1.5872284381062443
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shoulder pad",
+          "depth_m": 0.03775131702423096,
+          "vertices": 203,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.12869521420617785,
+            -0.10423439696369519,
+            1.5870342580888988
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shoulder pad.001",
+          "depth_m": 0.04408752918243408,
+          "vertices": 296,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.12150601276325723,
+            -0.0873787001190164,
+            1.593370493079476
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Calf handle Left",
+          "depth_m": 0.015535232611000538,
+          "vertices": 74,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.18575860990723078,
+            0.008829530697541471,
+            1.50382334751626
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Calf handle Right",
+          "depth_m": 0.01711220294237137,
+          "vertices": 97,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.173626668824475,
+            -0.019168028481464598,
+            1.555338655235282
+          ]
+        }
+      ]
+    },
+    "male/shoulder_press": {
+      "sceneSHA256": "63012c85d1280882154bfd8e764c72f18d4a8190b39a8d5f50c3fe97810bea87",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04995661601424217,
+          "vertices": 2639,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.006598915855900989,
+            -0.16973414850922416,
+            1.3113393136295173
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.033027876168489456,
+          "vertices": 311,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229873942730095,
+            -0.13215966534017054,
+            1.109083143249748
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.04995661601424217,
+          "vertices": 2599,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.006598915855900989,
+            -0.16973414850922416,
+            1.3113393136295173
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.033027876168489456,
+          "vertices": 311,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229873942730095,
+            -0.13215966534017054,
+            1.109083143249748
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.04995661601424217,
+          "vertices": 2609,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.006598915855900989,
+            -0.16973414850922416,
+            1.3113393136295173
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.033027876168489456,
+          "vertices": 311,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229873942730095,
+            -0.13215966534017054,
+            1.109083143249748
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.04995661601424217,
+          "vertices": 2599,
+          "body_region": "mixamorig:Head",
+          "point": [
+            -0.006598915855900989,
+            -0.16973414850922416,
+            1.3113393136295173
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.033027876168489456,
+          "vertices": 311,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            -0.0013229873942730095,
+            -0.13215966534017054,
+            1.109083143249748
+          ]
+        }
+      ]
+    },
+    "male/lateral_raise": {
+      "sceneSHA256": "02f3d51d1b901a5fe85949ff27de1ae6767779c3c59ee4c1f8d35eb469bcdcad",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Grip shaft Left",
+          "depth_m": 0.012035551480948925,
+          "vertices": 8,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.20975606870578503,
+            0.03216072484310833,
+            0.7239026707422056
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate",
+          "depth_m": 0.014672145247459412,
+          "vertices": 19,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.15173013003691432,
+            -0.10123568058962415,
+            0.7464348209448772
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate.001",
+          "depth_m": 0.019908985123038292,
+          "vertices": 34,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.14622697614615035,
+            0.13941115274859872,
+            0.737300169855164
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Grip shaft Right",
+          "depth_m": 0.008387814275920391,
+          "vertices": 7,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.22131836049148418,
+            0.02107754341822077,
+            0.733572022002587
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate.002",
+          "depth_m": 0.015893593430519104,
+          "vertices": 50,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.18409924933066604,
+            -0.08965172416151569,
+            0.778087736738815
+          ]
+        }
+      ]
+    },
+    "male/reverse_fly": {
+      "sceneSHA256": "0208a9dc9c9ae9194c8fa05f0473b7f6ce91cb254a065952fc5d4b56656fa6a6",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Grip shaft Left",
+          "depth_m": 0.012946837581694126,
+          "vertices": 15,
+          "body_region": "mixamorig:RightHandThumb2",
+          "point": [
+            -0.013264661630284568,
+            0.5462909304664447,
+            1.14005984611736
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Grip shaft Right",
+          "depth_m": 0.00921847578138113,
+          "vertices": 11,
+          "body_region": "mixamorig:LeftHandPinky3",
+          "point": [
+            0.0237027672629584,
+            0.5651843674554381,
+            1.0504355709494888
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Chest support",
+          "depth_m": 0.046457141637802124,
+          "vertices": 283,
+          "body_region": "mixamorig:LeftForeArm",
+          "point": [
+            -0.09171531539535421,
+            0.24354284732553996,
+            1.0771531141293806
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Machine arm Left",
+          "depth_m": 0.021082798019051552,
+          "vertices": 65,
+          "body_region": "mixamorig:LeftHandIndex1",
+          "point": [
+            -0.02746464106928754,
+            0.5611037769768754,
+            1.1175897467358737
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Machine arm Right",
+          "depth_m": 0.021348338574171066,
+          "vertices": 72,
+          "body_region": "mixamorig:RightHandIndex1",
+          "point": [
+            0.046760507794199505,
+            0.5859483357789951,
+            1.1545391665839375
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Machine arm Left",
+          "depth_m": 0.019453439861536026,
+          "vertices": 92,
+          "body_region": "mixamorig:LeftHandIndex1",
+          "point": [
+            -0.4599000214163057,
+            0.5333031983826648,
+            1.133924408451982
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Machine arm Right",
+          "depth_m": 0.022165261209011078,
+          "vertices": 103,
+          "body_region": "mixamorig:RightHandThumb3",
+          "point": [
+            0.47026239962696564,
+            0.5342367010210227,
+            1.1406558377460172
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Machine arm Left",
+          "depth_m": 0.020426658913493156,
+          "vertices": 99,
+          "body_region": "mixamorig:LeftHandThumb3",
+          "point": [
+            -0.7603919282943269,
+            0.20924999183721962,
+            1.1005321712568659
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Machine arm Right",
+          "depth_m": 0.022440603002905846,
+          "vertices": 104,
+          "body_region": "mixamorig:RightHandThumb2",
+          "point": [
+            0.7553847738040511,
+            0.21688163709810143,
+            1.1490867218734238
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.04997611045837402,
+          "vertices": 1825,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            0.02207369448089539,
+            -0.043571901950396494,
+            0.4899761192149832
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.03533083200454712,
+          "vertices": 256,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.024636707611727402,
+            0.07050502004750836,
+            0.45466917484045233
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Machine arm Left",
+          "depth_m": 0.019453439861536026,
+          "vertices": 92,
+          "body_region": "mixamorig:LeftHandIndex1",
+          "point": [
+            -0.4599000214163057,
+            0.5333031983826648,
+            1.133924408451982
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Machine arm Right",
+          "depth_m": 0.022165261209011078,
+          "vertices": 103,
+          "body_region": "mixamorig:RightHandThumb3",
+          "point": [
+            0.47026239962696564,
+            0.5342367010210227,
+            1.1406558377460172
+          ]
+        }
+      ]
+    },
+    "male/reverse_crunch": {
+      "sceneSHA256": "c5543720b6c6572d96074b24699a46044bad873a1f2404d5d0a5fe61da63ca33",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": []
+    },
+    "male/dead_bug": {
+      "sceneSHA256": "bd54ffd4e99739f81436ef3178c8441b7149e31bf0c42b322bd22058299a5130",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": []
+    },
+    "female/bench": {
+      "sceneSHA256": "53aa36c7fc4de171b25acba2e02b5f0c6014882ee4465883f32be2f407d3f785",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Bench pad",
+          "depth_m": 0.05496102571487427,
+          "vertices": 2843,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.015244102316155224,
+            0.29491188920688316,
+            0.40496100683125036
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Bench leg.001",
+          "depth_m": 0.008606922812759876,
+          "vertices": 12,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.017739111808975295,
+            0.2711862449372606,
+            0.37467490946880844
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Bench pad",
+          "depth_m": 0.05496102571487427,
+          "vertices": 2907,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.015244102316155224,
+            0.29491188920688316,
+            0.40496100683125036
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Bench leg.001",
+          "depth_m": 0.008606922812759876,
+          "vertices": 12,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.017739111808975295,
+            0.2711862449372606,
+            0.37467490946880844
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Bar shaft",
+          "depth_m": 0.005005583167076111,
+          "vertices": 16,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            -0.06909931932124216,
+            -0.12945918953388802,
+            0.7060635766871215
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Bench pad",
+          "depth_m": 0.05496102571487427,
+          "vertices": 3021,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.015244102316155224,
+            0.29491188920688316,
+            0.40496100683125036
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Bench leg.001",
+          "depth_m": 0.008606922812759876,
+          "vertices": 12,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.017739111808975295,
+            0.2711862449372606,
+            0.37467490946880844
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Bench pad",
+          "depth_m": 0.05496102571487427,
+          "vertices": 2907,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.015244102316155224,
+            0.29491188920688316,
+            0.40496100683125036
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Bench leg.001",
+          "depth_m": 0.008606922812759876,
+          "vertices": 12,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.017739111808975295,
+            0.2711862449372606,
+            0.37467490946880844
+          ]
+        }
+      ]
+    },
+    "female/row": {
+      "sceneSHA256": "c9a3b13721c554cfb433886fa3105643635db4883bc5bb1de07d1b86048db34b",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "V handle",
+          "depth_m": 0.011943887919187546,
+          "vertices": 19,
+          "body_region": "mixamorig:LeftHandMiddle3",
+          "point": [
+            -0.07334862640498828,
+            0.5176736506376258,
+            0.9409893938574498
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "V handle.001",
+          "depth_m": 0.01137599628418684,
+          "vertices": 17,
+          "body_region": "mixamorig:RightHandMiddle3",
+          "point": [
+            0.07162137934098406,
+            0.5170385838596707,
+            0.9393867727876426
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat",
+          "depth_m": 0.04997101426124573,
+          "vertices": 1438,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.13126647735807712,
+            -0.010199216255041542,
+            0.4200289965758053
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Foot plate",
+          "depth_m": 0.010396016761660576,
+          "vertices": 172,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.15143271245260054,
+            0.8075581314673758,
+            0.24541505442199352
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "V handle",
+          "depth_m": 0.01194382831454277,
+          "vertices": 19,
+          "body_region": "mixamorig:LeftHandMiddle3",
+          "point": [
+            -0.07334855934867367,
+            0.331061830716088,
+            0.9018239449272158
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "V handle.001",
+          "depth_m": 0.011376193724572659,
+          "vertices": 17,
+          "body_region": "mixamorig:RightHandMiddle3",
+          "point": [
+            0.07162155130143921,
+            0.33042663280790274,
+            0.9002213238574086
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat",
+          "depth_m": 0.0499550998210907,
+          "vertices": 1489,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.10048400013235372,
+            -0.11111387024625702,
+            0.4199550653590123
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Foot plate",
+          "depth_m": 0.010395948775112629,
+          "vertices": 172,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.15143271245263246,
+            0.8075579741111251,
+            0.24541510687408064
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "V handle",
+          "depth_m": 0.011943831108510494,
+          "vertices": 19,
+          "body_region": "mixamorig:LeftHandMiddle3",
+          "point": [
+            -0.0733485511891746,
+            0.1126737517893802,
+            0.8559894753803476
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "V handle.001",
+          "depth_m": 0.011376065202057362,
+          "vertices": 17,
+          "body_region": "mixamorig:RightHandMiddle3",
+          "point": [
+            0.07162150700887067,
+            0.11203863255933087,
+            0.8543867494063662
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat",
+          "depth_m": 0.04999688267707825,
+          "vertices": 1532,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.13700282142186787,
+            -0.007128528203314376,
+            0.41999684344640187
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Foot plate",
+          "depth_m": 0.010395989753305912,
+          "vertices": 172,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.15143269933959028,
+            0.8075580790152895,
+            0.24541505442199352
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "V handle",
+          "depth_m": 0.01194382831454277,
+          "vertices": 19,
+          "body_region": "mixamorig:LeftHandMiddle3",
+          "point": [
+            -0.07334855934867367,
+            0.331061830716088,
+            0.9018239449272158
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "V handle.001",
+          "depth_m": 0.011376193724572659,
+          "vertices": 17,
+          "body_region": "mixamorig:RightHandMiddle3",
+          "point": [
+            0.07162155130143921,
+            0.33042663280790274,
+            0.9002213238574086
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat",
+          "depth_m": 0.0499550998210907,
+          "vertices": 1489,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.10048400013235372,
+            -0.11111387024625702,
+            0.4199550653590123
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Foot plate",
+          "depth_m": 0.010395948775112629,
+          "vertices": 172,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.15143271245263246,
+            0.8075579741111251,
+            0.24541510687408064
+          ]
+        }
+      ]
+    },
+    "female/incline_press": {
+      "sceneSHA256": "94eb81bd4cff6408b7ded9a669da263cc42b4a485ae7d4721a5839392de1fc8a",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.049964189529418945,
+          "vertices": 1235,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.012540752096795971,
+            0.11634079066192712,
+            0.4899641773377539
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.05893099308013916,
+          "vertices": 371,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            -0.0007033187796106944,
+            0.03102090980542158,
+            0.43106900696825434
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.049996089190244675,
+          "vertices": 2282,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.0990571782289917,
+            -0.40936222759853225,
+            0.6966533575456069
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.03352492302656174,
+          "vertices": 384,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0003411267466043901,
+            -0.6116401797838094,
+            0.8303026392768587
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.049964189529418945,
+          "vertices": 1235,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.012540752096795971,
+            0.11634079066192712,
+            0.4899641773377539
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.05893099308013916,
+          "vertices": 371,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            -0.0007033187796106944,
+            0.03102090980542158,
+            0.43106900696825434
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.049996089190244675,
+          "vertices": 2409,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.0990571782289917,
+            -0.40936222759853225,
+            0.6966533575456069
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.03352492302656174,
+          "vertices": 384,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0003411267466043901,
+            -0.6116401797838094,
+            0.8303026392768587
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.049964189529418945,
+          "vertices": 1235,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.012540752096795971,
+            0.11634079066192712,
+            0.4899641773377539
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.05893099308013916,
+          "vertices": 371,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            -0.0007033187796106944,
+            0.03102090980542158,
+            0.43106900696825434
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.049996089190244675,
+          "vertices": 2562,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.0990571782289917,
+            -0.40936222759853225,
+            0.6966533575456069
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.03352492302656174,
+          "vertices": 384,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0003411267466043901,
+            -0.6116401797838094,
+            0.8303026392768587
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.049964189529418945,
+          "vertices": 1235,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.012540752096795971,
+            0.11634079066192712,
+            0.4899641773377539
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.05893099308013916,
+          "vertices": 371,
+          "body_region": "mixamorig:Hips",
+          "point": [
+            -0.0007033187796106944,
+            0.03102090980542158,
+            0.43106900696825434
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.049996089190244675,
+          "vertices": 2409,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.0990571782289917,
+            -0.40936222759853225,
+            0.6966533575456069
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.03352492302656174,
+          "vertices": 384,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.0003411267466043901,
+            -0.6116401797838094,
+            0.8303026392768587
+          ]
+        }
+      ]
+    },
+    "female/pec_fly": {
+      "sceneSHA256": "ea720a8e2b2248528c85d4f3528462fb950fe3f944e37a0f255e63057c49bd76",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.049946293234825134,
+          "vertices": 1758,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.03693843204885584,
+            -0.14356843937114047,
+            0.9848366111796736
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.03366643562912941,
+          "vertices": 392,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519349222,
+            -0.07938445191070248,
+            0.8338742067929061
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Machine arm Left",
+          "depth_m": 0.02205684594810009,
+          "vertices": 62,
+          "body_region": "mixamorig:LeftHand",
+          "point": [
+            -0.6348049427990264,
+            0.3461131224195742,
+            1.1010678136290863
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Machine arm Right",
+          "depth_m": 0.022260518744587898,
+          "vertices": 55,
+          "body_region": "mixamorig:RightHand",
+          "point": [
+            0.6268475214484818,
+            0.3278932943713479,
+            1.0941031205973673
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.049946293234825134,
+          "vertices": 1712,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.03693843204885584,
+            -0.14356843937114047,
+            0.9848366111796736
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.03366643562912941,
+          "vertices": 392,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519349222,
+            -0.07938445191070248,
+            0.8338742067929061
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Machine arm Left",
+          "depth_m": 0.021459871903061867,
+          "vertices": 72,
+          "body_region": "mixamorig:LeftHandThumb1",
+          "point": [
+            -0.34291205039515715,
+            0.529190924010346,
+            1.0980061853040013
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Machine arm Right",
+          "depth_m": 0.022466333582997322,
+          "vertices": 65,
+          "body_region": "mixamorig:RightHandThumb1",
+          "point": [
+            0.35184429823048896,
+            0.5000724285280091,
+            1.1030304658248724
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Left",
+          "depth_m": 0.007309471722692251,
+          "vertices": 26,
+          "body_region": "mixamorig:RightHandPinky1",
+          "point": [
+            0.01650935250327273,
+            0.5505146162624713,
+            1.0185261671189494
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Right",
+          "depth_m": 0.005749172531068325,
+          "vertices": 15,
+          "body_region": "mixamorig:LeftHandPinky1",
+          "point": [
+            0.0005054576809838369,
+            0.5329061927949887,
+            1.042802566599832
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.049946293234825134,
+          "vertices": 1742,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.03693843204885584,
+            -0.14356843937114047,
+            0.9848366111796736
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.03366643562912941,
+          "vertices": 392,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519349222,
+            -0.07938445191070248,
+            0.8338742067929061
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Machine arm Left",
+          "depth_m": 0.022426437586545944,
+          "vertices": 157,
+          "body_region": "mixamorig:LeftHandThumb1",
+          "point": [
+            -0.007508099108241079,
+            0.5026313238550603,
+            1.114675038973445
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Machine arm Right",
+          "depth_m": 0.022102726623415947,
+          "vertices": 141,
+          "body_region": "mixamorig:RightHandThumb1",
+          "point": [
+            0.020038845468264253,
+            0.5123611797694851,
+            1.089813693817021
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.049946293234825134,
+          "vertices": 1712,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.03693843204885584,
+            -0.14356843937114047,
+            0.9848366111796736
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.03366643562912941,
+          "vertices": 392,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519349222,
+            -0.07938445191070248,
+            0.8338742067929061
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Machine arm Left",
+          "depth_m": 0.021459871903061867,
+          "vertices": 72,
+          "body_region": "mixamorig:LeftHandThumb1",
+          "point": [
+            -0.34291205039515715,
+            0.529190924010346,
+            1.0980061853040013
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Machine arm Right",
+          "depth_m": 0.022466333582997322,
+          "vertices": 65,
+          "body_region": "mixamorig:RightHandThumb1",
+          "point": [
+            0.35184429823048896,
+            0.5000724285280091,
+            1.1030304658248724
+          ]
+        }
+      ]
+    },
+    "female/pushdown": {
+      "sceneSHA256": "90bdd1069b8765385c5b30c7673ea50d2a43c607f93483daf804cc4ce6bf4a6b",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Rope Left",
+          "depth_m": 0.00618463009595871,
+          "vertices": 8,
+          "body_region": "mixamorig:LeftHandMiddle1",
+          "point": [
+            -0.12179666488273223,
+            0.3102563019792459,
+            1.013297113649969
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Rope Right",
+          "depth_m": 0.009809168986976147,
+          "vertices": 6,
+          "body_region": "mixamorig:RightHandMiddle1",
+          "point": [
+            0.1167737470807149,
+            0.3295088957702152,
+            1.0415467587300498
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Rope Left",
+          "depth_m": 0.010954191908240318,
+          "vertices": 18,
+          "body_region": "mixamorig:LeftHandMiddle1",
+          "point": [
+            -0.11644788394020164,
+            0.21026883472076888,
+            0.814205723165351
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Rope Right",
+          "depth_m": 0.0117228077724576,
+          "vertices": 17,
+          "body_region": "mixamorig:RightHandMiddle1",
+          "point": [
+            0.11659221748515707,
+            0.2350371333848617,
+            0.8335839369427944
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Left",
+          "depth_m": 0.005669295787811279,
+          "vertices": 2,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.20933862850551305,
+            -0.013076786496481977,
+            0.7052106008464065
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Rope Left",
+          "depth_m": 0.009968150407075882,
+          "vertices": 9,
+          "body_region": "mixamorig:LeftHand",
+          "point": [
+            -0.1177071430082087,
+            0.003688172459256217,
+            0.7263375147562812
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Rope Right",
+          "depth_m": 0.010725942440330982,
+          "vertices": 12,
+          "body_region": "mixamorig:RightHand",
+          "point": [
+            0.11665506523652014,
+            0.02648927021323231,
+            0.730635228966392
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Rope Left",
+          "depth_m": 0.010954191908240318,
+          "vertices": 18,
+          "body_region": "mixamorig:LeftHandMiddle1",
+          "point": [
+            -0.11644788394020164,
+            0.21026883472076888,
+            0.814205723165351
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Rope Right",
+          "depth_m": 0.0117228077724576,
+          "vertices": 17,
+          "body_region": "mixamorig:RightHandMiddle1",
+          "point": [
+            0.11659221748515707,
+            0.2350371333848617,
+            0.8335839369427944
+          ]
+        }
+      ]
+    },
+    "female/cable_crunch": {
+      "sceneSHA256": "bfe937ca0a4fe9b3c1ef25515d21c7781121c046130de14b4d462878f27f4267",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Grip shaft Left",
+          "depth_m": 0.01142202876508236,
+          "vertices": 6,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.13988818580666884,
+            -0.00023730911094091154,
+            0.9423413988550067
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Grip shaft Right",
+          "depth_m": 0.010415076278150082,
+          "vertices": 12,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.136513784357062,
+            -0.007442525945883773,
+            0.9418807646259353
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Rope Left",
+          "depth_m": 0.011804747395217419,
+          "vertices": 18,
+          "body_region": "mixamorig:LeftHandRing3",
+          "point": [
+            -0.12816345547965255,
+            0.054903680605792246,
+            0.9455730768465287
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Rope Right",
+          "depth_m": 0.01034616306424141,
+          "vertices": 13,
+          "body_region": "mixamorig:RightHandRing3",
+          "point": [
+            0.12756541900259682,
+            0.05445536012072809,
+            0.9472705312898455
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Grip shaft Left",
+          "depth_m": 0.011422152630984783,
+          "vertices": 6,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.1398882087795338,
+            0.0804575185330237,
+            0.9138377807691
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Grip shaft Right",
+          "depth_m": 0.010415063239634037,
+          "vertices": 12,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.1365137745438943,
+            0.07348244341035949,
+            0.9157020328494525
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Rope Left",
+          "depth_m": 0.011403833515942097,
+          "vertices": 33,
+          "body_region": "mixamorig:LeftHandRing3",
+          "point": [
+            -0.12763467076602628,
+            0.13014038530487942,
+            0.903747572770186
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Rope Right",
+          "depth_m": 0.011425096541643143,
+          "vertices": 44,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.04415460517390109,
+            0.219704879529358,
+            1.0051771109473862
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Left",
+          "depth_m": 0.011421777307987213,
+          "vertices": 6,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.13988818163160413,
+            0.14965774251967331,
+            0.8665116263166794
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Grip shaft Right",
+          "depth_m": 0.010415088385343552,
+          "vertices": 12,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.1365137887735751,
+            0.14364300603850044,
+            0.8705051184215051
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Rope Left",
+          "depth_m": 0.011246824637055397,
+          "vertices": 17,
+          "body_region": "mixamorig:LeftHandMiddle2",
+          "point": [
+            -0.12966880350739313,
+            0.1868981690315878,
+            0.844165044025047
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Rope Right",
+          "depth_m": 0.010381353087723255,
+          "vertices": 16,
+          "body_region": "mixamorig:RightHandMiddle2",
+          "point": [
+            0.12981918055491282,
+            0.1858637613153772,
+            0.8443269636179807
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Grip shaft Left",
+          "depth_m": 0.011422152630984783,
+          "vertices": 6,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.1398882087795338,
+            0.0804575185330237,
+            0.9138377807691
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Grip shaft Right",
+          "depth_m": 0.010415063239634037,
+          "vertices": 12,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.1365137745438943,
+            0.07348244341035949,
+            0.9157020328494525
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Rope Left",
+          "depth_m": 0.011403833515942097,
+          "vertices": 33,
+          "body_region": "mixamorig:LeftHandRing3",
+          "point": [
+            -0.12763467076602628,
+            0.13014038530487942,
+            0.903747572770186
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Rope Right",
+          "depth_m": 0.011425096541643143,
+          "vertices": 44,
+          "body_region": "mixamorig:Head",
+          "point": [
+            0.04415460517390109,
+            0.219704879529358,
+            1.0051771109473862
+          ]
+        }
+      ]
+    },
+    "female/pulldown": {
+      "sceneSHA256": "59dc6fa3a85e54b54f8da2b4406bbfe77a4c2d1d4a5064c8d6b9c64c0c4129d0",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate",
+          "depth_m": 0.017266899347305298,
+          "vertices": 107,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.13475899243210263,
+            0.5615086561094982,
+            0.14976690330414932
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate.001",
+          "depth_m": 0.017202436923980713,
+          "vertices": 58,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.12585908504961352,
+            0.6024935060045484,
+            0.19529755724940756
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate.002",
+          "depth_m": 0.01648503541946411,
+          "vertices": 27,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.14111140174412898,
+            0.5525944734608085,
+            0.23898503174031305
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Stack plate.003",
+          "depth_m": 0.01278472226113081,
+          "vertices": 17,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.14746188217769016,
+            0.5377992154205242,
+            0.2888742574297609
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate",
+          "depth_m": 0.017266899347305298,
+          "vertices": 107,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.13475899243210263,
+            0.5615086561094982,
+            0.14976690330414932
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate.001",
+          "depth_m": 0.017202436923980713,
+          "vertices": 58,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.12585908504961352,
+            0.6024935060045484,
+            0.19529755724940756
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate.002",
+          "depth_m": 0.01648503541946411,
+          "vertices": 27,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.14111140174412898,
+            0.5525944734608085,
+            0.23898503174031305
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Stack plate.003",
+          "depth_m": 0.01278472226113081,
+          "vertices": 17,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.14746188217769016,
+            0.5377992154205242,
+            0.2888742574297609
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate",
+          "depth_m": 0.017266899347305298,
+          "vertices": 107,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.13475899243210263,
+            0.5615086561094982,
+            0.14976690330414932
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate.001",
+          "depth_m": 0.017202436923980713,
+          "vertices": 58,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.12585908504961352,
+            0.6024935060045484,
+            0.19529755724940756
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate.002",
+          "depth_m": 0.01648503541946411,
+          "vertices": 27,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.14111140174412898,
+            0.5525944734608085,
+            0.23898503174031305
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Stack plate.003",
+          "depth_m": 0.01278472226113081,
+          "vertices": 17,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.14746188217769016,
+            0.5377992154205242,
+            0.2888742574297609
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate",
+          "depth_m": 0.017266899347305298,
+          "vertices": 107,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.13475899243210263,
+            0.5615086561094982,
+            0.14976690330414932
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate.001",
+          "depth_m": 0.017202436923980713,
+          "vertices": 58,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.12585908504961352,
+            0.6024935060045484,
+            0.19529755724940756
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate.002",
+          "depth_m": 0.01648503541946411,
+          "vertices": 27,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.14111140174412898,
+            0.5525944734608085,
+            0.23898503174031305
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Stack plate.003",
+          "depth_m": 0.01278472226113081,
+          "vertices": 17,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.14746188217769016,
+            0.5377992154205242,
+            0.2888742574297609
+          ]
+        }
+      ]
+    },
+    "female/straight_pulldown": {
+      "sceneSHA256": "6bc6243be49551888a72f4f600e7d9f34ce4cd1c12a562f0260ace92d2e55764",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": []
+    },
+    "female/curl": {
+      "sceneSHA256": "30feb59edeb5f575c76a938ae3324b28fcb31b7217c6f1326bfbef42440e8b99",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Grip shaft Left",
+          "depth_m": 0.01060232799500227,
+          "vertices": 3,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.20131477007275358,
+            -0.00839599041251254,
+            0.7109864148715062
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate",
+          "depth_m": 0.023371094837784767,
+          "vertices": 61,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.08320681874820854,
+            -0.06551555970119274,
+            0.6919411144910015
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Grip shaft Right",
+          "depth_m": 0.012761425226926804,
+          "vertices": 5,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.20684573125695485,
+            -0.021796924893889142,
+            0.7159377869912831
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate.002",
+          "depth_m": 0.029900025576353073,
+          "vertices": 135,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.09148059604731594,
+            -0.06995466741481042,
+            0.7229325350689209
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Dumbbell plate",
+          "depth_m": 0.0059535265900194645,
+          "vertices": 27,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            -0.06954927264441221,
+            0.1307337114935265,
+            1.2446264485628689
+          ]
+        }
+      ]
+    },
+    "female/leg_press": {
+      "sceneSHA256": "0d38b8d9af24e775f8b1cb2862dfe5183c27e6f74cfadc61f0dbd5751fdda683",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.016545772552490234,
+          "vertices": 659,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.11378859020089752,
+            0.07764877628629183,
+            0.5234542579897195
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04994438216090202,
+          "vertices": 1278,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.09002866582831884,
+            -0.3301165061305659,
+            0.8325015356730248
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.03315364941954613,
+          "vertices": 452,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            0.0017415651410831263,
+            -0.33820699637257945,
+            0.8975771092416096
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Sled footplate",
+          "depth_m": 0.03483163192868233,
+          "vertices": 379,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.1904236669663895,
+            0.4038252992837806,
+            1.078588527557045
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Left",
+          "depth_m": 0.015904489904642105,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3195876121341901,
+            0.10817318348280971,
+            0.5777509276555293
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Right",
+          "depth_m": 0.01577601209282875,
+          "vertices": 44,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.31795705293914317,
+            0.11347010486322176,
+            0.5825527064228453
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.04994438216090202,
+          "vertices": 1278,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.09002866582831884,
+            -0.3301165061305659,
+            0.8325015356730248
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.03315364941954613,
+          "vertices": 459,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            0.0017415651410831263,
+            -0.33820699637257945,
+            0.8975771092416096
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Sled footplate",
+          "depth_m": 0.03499262034893036,
+          "vertices": 464,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.14983836141147194,
+            0.2698980926816777,
+            1.0203548566842358
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Left",
+          "depth_m": 0.015904489904642105,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3195876121341901,
+            0.10817318348280971,
+            0.5777509276555293
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Right",
+          "depth_m": 0.01577601209282875,
+          "vertices": 44,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.31795705293914317,
+            0.11347010486322176,
+            0.5825527064228453
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.04994438216090202,
+          "vertices": 1278,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.09002866582831884,
+            -0.3301165061305659,
+            0.8325015356730248
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.03315364941954613,
+          "vertices": 454,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            0.0017415651410831263,
+            -0.33820699637257945,
+            0.8975771092416096
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Sled footplate",
+          "depth_m": 0.03486350551247597,
+          "vertices": 362,
+          "body_region": "mixamorig:LeftLeg",
+          "point": [
+            -0.20531209872459927,
+            0.21168865196783898,
+            0.8868551683054449
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Left",
+          "depth_m": 0.015904489904642105,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3195876121341901,
+            0.10817318348280971,
+            0.5777509276555293
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Right",
+          "depth_m": 0.01577601209282875,
+          "vertices": 44,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.31795705293914317,
+            0.11347010486322176,
+            0.5825527064228453
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.04994438216090202,
+          "vertices": 1278,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.09002866582831884,
+            -0.3301165061305659,
+            0.8325015356730248
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.03315364941954613,
+          "vertices": 459,
+          "body_region": "mixamorig:Neck",
+          "point": [
+            0.0017415651410831263,
+            -0.33820699637257945,
+            0.8975771092416096
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Sled footplate",
+          "depth_m": 0.03499262034893036,
+          "vertices": 464,
+          "body_region": "mixamorig:RightLeg",
+          "point": [
+            0.14983836141147194,
+            0.2698980926816777,
+            1.0203548566842358
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Left",
+          "depth_m": 0.015904489904642105,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3195876121341901,
+            0.10817318348280971,
+            0.5777509276555293
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Right",
+          "depth_m": 0.01577601209282875,
+          "vertices": 44,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.31795705293914317,
+            0.11347010486322176,
+            0.5825527064228453
+          ]
+        }
+      ]
+    },
+    "female/rdl": {
+      "sceneSHA256": "af00a0d4425b25ad8c9c385ea042cada574df0e8afc4d22be7f25019218b23dd",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Barbell shaft",
+          "depth_m": 0.012701836414635181,
+          "vertices": 13,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.14072283074766098,
+            0.19992732976669023,
+            0.7718882709639274
+          ]
+        }
+      ]
+    },
+    "female/leg_curl": {
+      "sceneSHA256": "3a02c40104f7ded013ee66f51b5a84e49b5b54fa31ff704abc7db2bb5e9ecedf",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.0499911904335022,
+          "vertices": 2108,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.15116162269081224,
+            0.11746283949594757,
+            0.5699911658872736
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.018185019493103027,
+          "vertices": 139,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.033715355179688954,
+            0.07266484174390264,
+            0.5518149441382292
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04995526745915413,
+          "vertices": 1539,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.04157851124145246,
+            -0.14397902397973678,
+            1.0711897410523363
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.03338484838604927,
+          "vertices": 437,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519322626,
+            -0.07938446502372337,
+            0.9188742301741826
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Thigh hold-down",
+          "depth_m": 0.04996699094772339,
+          "vertices": 542,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.12173670030681256,
+            0.34254654201091944,
+            0.7699669510127904
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Left",
+          "depth_m": 0.01688840426504612,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3205297572987192,
+            0.10403382915167037,
+            0.6330387319595232
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shin roller Left",
+          "depth_m": 0.06320702284574509,
+          "vertices": 142,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.0942087939627009,
+            0.7432268457663931,
+            0.551158139103336
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Right",
+          "depth_m": 0.013687455095350742,
+          "vertices": 41,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.3179570529391565,
+            0.11347017042832622,
+            0.6325526060161124
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shin roller Right",
+          "depth_m": 0.060240644961595535,
+          "vertices": 132,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.10903030758167813,
+            0.7625309022170931,
+            0.5509389942833565
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.0499911904335022,
+          "vertices": 2108,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.15116162269081224,
+            0.11746283949594757,
+            0.5699911658872736
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.018185019493103027,
+          "vertices": 139,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.033715355179688954,
+            0.07266484174390264,
+            0.5518149441382292
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.04995526745915413,
+          "vertices": 1539,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.04157851124145246,
+            -0.14397902397973678,
+            1.0711897410523363
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.03338484838604927,
+          "vertices": 437,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519322626,
+            -0.07938446502372337,
+            0.9188742301741826
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Thigh hold-down",
+          "depth_m": 0.04996699094772339,
+          "vertices": 535,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.12173670030681256,
+            0.34254654201091944,
+            0.7699669510127904
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Left",
+          "depth_m": 0.01688840426504612,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3205297572987192,
+            0.10403382915167037,
+            0.6330387319595232
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shin roller Left",
+          "depth_m": 0.06320350617170334,
+          "vertices": 142,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.0942088340170094,
+            0.578063312239778,
+            0.3912883737342554
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Right",
+          "depth_m": 0.013687455095350742,
+          "vertices": 41,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.3179570529391565,
+            0.11347017042832622,
+            0.6325526060161124
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shin roller Right",
+          "depth_m": 0.060248736292123795,
+          "vertices": 132,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.10903028598511284,
+            0.5913925518515378,
+            0.3782887533670731
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.0499911904335022,
+          "vertices": 2166,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.15116162269081224,
+            0.11746283949594757,
+            0.5699911658872736
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.018185019493103027,
+          "vertices": 139,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.033715355179688954,
+            0.07266484174390264,
+            0.5518149441382292
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.04995526745915413,
+          "vertices": 1539,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.04157851124145246,
+            -0.14397902397973678,
+            1.0711897410523363
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.03338484838604927,
+          "vertices": 437,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519322626,
+            -0.07938446502372337,
+            0.9188742301741826
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Leg machine beam",
+          "depth_m": 0.015073195099830627,
+          "vertices": 83,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.12763941246893995,
+            0.5553707125241765,
+            0.1449268082871935
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Thigh hold-down",
+          "depth_m": 0.04996699094772339,
+          "vertices": 526,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.12173670030681256,
+            0.34254654201091944,
+            0.7699669510127904
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Left",
+          "depth_m": 0.01688840426504612,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3205297572987192,
+            0.10403382915167037,
+            0.6330387319595232
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shin roller Left",
+          "depth_m": 0.06320612877607346,
+          "vertices": 143,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.09420890681775686,
+            0.348423054990383,
+            0.3811519029945032
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Right",
+          "depth_m": 0.013687455095350742,
+          "vertices": 41,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.3179570529391565,
+            0.11347017042832622,
+            0.6325526060161124
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shin roller Right",
+          "depth_m": 0.06024382635951042,
+          "vertices": 132,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.10903025645405183,
+            0.34880515342505597,
+            0.36254811805731535
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.0499911904335022,
+          "vertices": 2108,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.15116162269081224,
+            0.11746283949594757,
+            0.5699911658872736
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.018185019493103027,
+          "vertices": 139,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.033715355179688954,
+            0.07266484174390264,
+            0.5518149441382292
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.04995526745915413,
+          "vertices": 1539,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.04157851124145246,
+            -0.14397902397973678,
+            1.0711897410523363
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.03338484838604927,
+          "vertices": 437,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519322626,
+            -0.07938446502372337,
+            0.9188742301741826
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Thigh hold-down",
+          "depth_m": 0.04996699094772339,
+          "vertices": 535,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.12173670030681256,
+            0.34254654201091944,
+            0.7699669510127904
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Left",
+          "depth_m": 0.01688840426504612,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3205297572987192,
+            0.10403382915167037,
+            0.6330387319595232
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shin roller Left",
+          "depth_m": 0.06320350617170334,
+          "vertices": 142,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.0942088340170094,
+            0.578063312239778,
+            0.3912883737342554
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Right",
+          "depth_m": 0.013687455095350742,
+          "vertices": 41,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.3179570529391565,
+            0.11347017042832622,
+            0.6325526060161124
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shin roller Right",
+          "depth_m": 0.060248736292123795,
+          "vertices": 132,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.10903028598511284,
+            0.5913925518515378,
+            0.3782887533670731
+          ]
+        }
+      ]
+    },
+    "female/leg_extension": {
+      "sceneSHA256": "30b5895050762bff0a9d7adb4ff07908cdb0b551ece03cc76d5370d47e09890e",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.0499911904335022,
+          "vertices": 2108,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.15116162269081224,
+            0.11746283949594757,
+            0.5699911658872736
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.018185019493103027,
+          "vertices": 139,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.033715355179688954,
+            0.07266484174390264,
+            0.5518149441382292
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04995526745915413,
+          "vertices": 1539,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.04157851124145246,
+            -0.14397902397973678,
+            1.0711897410523363
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.03338484838604927,
+          "vertices": 437,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519322626,
+            -0.07938446502372337,
+            0.9188742301741826
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Left",
+          "depth_m": 0.01688840426504612,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3205297572987192,
+            0.10403382915167037,
+            0.6330387319595232
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shin roller Left",
+          "depth_m": 0.034859564155340195,
+          "vertices": 86,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.11164148847409604,
+            0.4750051997256528,
+            0.368878980068299
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat handle Right",
+          "depth_m": 0.013687455095350742,
+          "vertices": 41,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.3179570529391565,
+            0.11347017042832622,
+            0.6325526060161124
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shin roller Right",
+          "depth_m": 0.038693077862262726,
+          "vertices": 102,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.1239115617074767,
+            0.4783680648374514,
+            0.3483974104122822
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.0499911904335022,
+          "vertices": 2108,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.15116162269081224,
+            0.11746283949594757,
+            0.5699911658872736
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.018185019493103027,
+          "vertices": 139,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.033715355179688954,
+            0.07266484174390264,
+            0.5518149441382292
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.04995526745915413,
+          "vertices": 1539,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.04157851124145246,
+            -0.14397902397973678,
+            1.0711897410523363
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.03338484838604927,
+          "vertices": 437,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519322626,
+            -0.07938446502372337,
+            0.9188742301741826
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Left",
+          "depth_m": 0.01688840426504612,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3205297572987192,
+            0.10403382915167037,
+            0.6330387319595232
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shin roller Left",
+          "depth_m": 0.03485921770334244,
+          "vertices": 86,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.11164147645108992,
+            0.6635951450746771,
+            0.4493560337513358
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat handle Right",
+          "depth_m": 0.013687455095350742,
+          "vertices": 41,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.3179570529391565,
+            0.11347017042832622,
+            0.6325526060161124
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shin roller Right",
+          "depth_m": 0.038712240755558014,
+          "vertices": 102,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.12391153689982475,
+            0.6793258967787067,
+            0.43566682579481153
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.0499911904335022,
+          "vertices": 2108,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.15116162269081224,
+            0.11746283949594757,
+            0.5699911658872736
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.018185019493103027,
+          "vertices": 139,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.033715355179688954,
+            0.07266484174390264,
+            0.5518149441382292
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.04995526745915413,
+          "vertices": 1539,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.04157851124145246,
+            -0.14397902397973678,
+            1.0711897410523363
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.03338484838604927,
+          "vertices": 437,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519322626,
+            -0.07938446502372337,
+            0.9188742301741826
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Left",
+          "depth_m": 0.01688840426504612,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3205297572987192,
+            0.10403382915167037,
+            0.6330387319595232
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shin roller Left",
+          "depth_m": 0.0348731093108654,
+          "vertices": 86,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.11164145587949989,
+            0.7650249910942972,
+            0.6275546564429746
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat handle Right",
+          "depth_m": 0.013687455095350742,
+          "vertices": 41,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.3179570529391565,
+            0.11347017042832622,
+            0.6325526060161124
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shin roller Right",
+          "depth_m": 0.03874387964606285,
+          "vertices": 102,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.12391157174762886,
+            0.7864909585195335,
+            0.6267577518833889
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.0499911904335022,
+          "vertices": 2108,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.15116162269081224,
+            0.11746283949594757,
+            0.5699911658872736
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.018185019493103027,
+          "vertices": 139,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.033715355179688954,
+            0.07266484174390264,
+            0.5518149441382292
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.04995526745915413,
+          "vertices": 1539,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.04157851124145246,
+            -0.14397902397973678,
+            1.0711897410523363
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.03338484838604927,
+          "vertices": 437,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519322626,
+            -0.07938446502372337,
+            0.9188742301741826
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Left",
+          "depth_m": 0.01688840426504612,
+          "vertices": 52,
+          "body_region": "mixamorig:LeftHandPinky2",
+          "point": [
+            -0.3205297572987192,
+            0.10403382915167037,
+            0.6330387319595232
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shin roller Left",
+          "depth_m": 0.03485921770334244,
+          "vertices": 86,
+          "body_region": "mixamorig:LeftFoot",
+          "point": [
+            -0.11164147645108992,
+            0.6635951450746771,
+            0.4493560337513358
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat handle Right",
+          "depth_m": 0.013687455095350742,
+          "vertices": 41,
+          "body_region": "mixamorig:RightHandRing2",
+          "point": [
+            0.3179570529391565,
+            0.11347017042832622,
+            0.6325526060161124
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shin roller Right",
+          "depth_m": 0.038712240755558014,
+          "vertices": 102,
+          "body_region": "mixamorig:RightFoot",
+          "point": [
+            0.12391153689982475,
+            0.6793258967787067,
+            0.43566682579481153
+          ]
+        }
+      ]
+    },
+    "female/calf_raise": {
+      "sceneSHA256": "1d57abc409849ed105a8a8f2d4f8aa566ac8492c1b5cee03de7e4826745d2305",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Shoulder pad",
+          "depth_m": 0.01717163249850273,
+          "vertices": 54,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.09870286999335443,
+            -0.10310489640279091,
+            1.507247334896178
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Shoulder pad.001",
+          "depth_m": 0.025205492973327637,
+          "vertices": 83,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.10978462976726597,
+            -0.09938584337170568,
+            1.510892440238365
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Calf handle Left",
+          "depth_m": 0.01682242751121521,
+          "vertices": 93,
+          "body_region": "mixamorig:LeftHandRing2",
+          "point": [
+            -0.2073595313695289,
+            0.12286409108590723,
+            1.2346354799127823
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Calf handle Right",
+          "depth_m": 0.014843500219285488,
+          "vertices": 111,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.1736357708240617,
+            -0.03363808420569447,
+            1.479141933055672
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shoulder pad",
+          "depth_m": 0.017171654850244522,
+          "vertices": 55,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.09870286506395864,
+            -0.07880012198900194,
+            1.5399151241783926
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Shoulder pad.001",
+          "depth_m": 0.025205492973327637,
+          "vertices": 83,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.10978463469667239,
+            -0.07508101650583314,
+            1.5435600197122312
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Calf handle Left",
+          "depth_m": 0.01682252623140812,
+          "vertices": 93,
+          "body_region": "mixamorig:LeftHandRing2",
+          "point": [
+            -0.20735963134428959,
+            0.14716891795180106,
+            1.2673030593866486
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Calf handle Right",
+          "depth_m": 0.014843504875898361,
+          "vertices": 111,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.17363577575346878,
+            -0.009333254061566704,
+            1.5118095125295383
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shoulder pad",
+          "depth_m": 0.017171654850244522,
+          "vertices": 55,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.09870286577352759,
+            -0.04997131602863209,
+            1.5684125529180193
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Shoulder pad.001",
+          "depth_m": 0.025205373764038086,
+          "vertices": 83,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.10978462743059235,
+            -0.046252213823717185,
+            1.5720573435476837
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Calf handle Left",
+          "depth_m": 0.016822416335344315,
+          "vertices": 93,
+          "body_region": "mixamorig:LeftHandRing2",
+          "point": [
+            -0.20735952059317297,
+            0.17599776325121097,
+            1.2958004881262752
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Calf handle Right",
+          "depth_m": 0.014843473210930824,
+          "vertices": 111,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.1736357553743705,
+            0.019495561733572805,
+            1.5403068363649908
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shoulder pad",
+          "depth_m": 0.017171654850244522,
+          "vertices": 55,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.09870286506395864,
+            -0.07880012198900194,
+            1.5399151241783926
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Shoulder pad.001",
+          "depth_m": 0.025205492973327637,
+          "vertices": 83,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.10978463469667239,
+            -0.07508101650583314,
+            1.5435600197122312
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Calf handle Left",
+          "depth_m": 0.01682252623140812,
+          "vertices": 93,
+          "body_region": "mixamorig:LeftHandRing2",
+          "point": [
+            -0.20735963134428959,
+            0.14716891795180106,
+            1.2673030593866486
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Calf handle Right",
+          "depth_m": 0.014843504875898361,
+          "vertices": 111,
+          "body_region": "mixamorig:RightShoulder",
+          "point": [
+            0.17363577575346878,
+            -0.009333254061566704,
+            1.5118095125295383
+          ]
+        }
+      ]
+    },
+    "female/shoulder_press": {
+      "sceneSHA256": "5b4ba3553f90881a2025b6861b9a0569d19fa6679a1dfa725d658f82af1cd2f2",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back support",
+          "depth_m": 0.04999789223074913,
+          "vertices": 1869,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.07744502590286886,
+            -0.14481029979927304,
+            1.001025318443638
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Back frame",
+          "depth_m": 0.03366643562912941,
+          "vertices": 392,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519349222,
+            -0.07938445191070248,
+            0.8338742067929061
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back support",
+          "depth_m": 0.049946293234825134,
+          "vertices": 1804,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.03693843204885584,
+            -0.14356843937114047,
+            0.9848366111796736
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Back frame",
+          "depth_m": 0.03366643562912941,
+          "vertices": 392,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519349222,
+            -0.07938445191070248,
+            0.8338742067929061
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back support",
+          "depth_m": 0.049946293234825134,
+          "vertices": 1776,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.03693843204885584,
+            -0.14356843937114047,
+            0.9848366111796736
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Back frame",
+          "depth_m": 0.03366643562912941,
+          "vertices": 392,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519349222,
+            -0.07938445191070248,
+            0.8338742067929061
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back support",
+          "depth_m": 0.049946293234825134,
+          "vertices": 1804,
+          "body_region": "mixamorig:LeftShoulder",
+          "point": [
+            -0.03693843204885584,
+            -0.14356843937114047,
+            0.9848366111796736
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Back frame",
+          "depth_m": 0.03366643562912941,
+          "vertices": 392,
+          "body_region": "mixamorig:Spine1",
+          "point": [
+            0.0012266168519349222,
+            -0.07938445191070248,
+            0.8338742067929061
+          ]
+        }
+      ]
+    },
+    "female/lateral_raise": {
+      "sceneSHA256": "006ff91681450b1e930838deaca8660550044d3c395944a567fc5dedda0ea733",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Grip shaft Left",
+          "depth_m": 0.007637367118149996,
+          "vertices": 4,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.18655699929147546,
+            -0.024210611313097815,
+            0.70659397219206
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate",
+          "depth_m": 0.02157265692949295,
+          "vertices": 94,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.13366197425103324,
+            -0.10492755332085223,
+            0.7411811406981883
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate.001",
+          "depth_m": 0.02176053449511528,
+          "vertices": 69,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.13109687354998167,
+            0.13948850124426476,
+            0.7424632795157038
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Grip shaft Right",
+          "depth_m": 0.009500914253294468,
+          "vertices": 5,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.1975354057582734,
+            -0.03159741123751202,
+            0.7162349805168944
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate.002",
+          "depth_m": 0.02884390950202942,
+          "vertices": 126,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.1543717716196959,
+            -0.1039700399446078,
+            0.7370695264931726
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Dumbbell plate.003",
+          "depth_m": 0.028045840561389923,
+          "vertices": 90,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.15397962738232454,
+            0.15786572589345538,
+            0.7136733779383064
+          ]
+        }
+      ]
+    },
+    "female/reverse_fly": {
+      "sceneSHA256": "823d541011ad910c29a1e052303775b734feb6aef15ba9318331f349a52c94c7",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": [
+        {
+          "frame": 1,
+          "object": "Grip shaft Left",
+          "depth_m": 0.007309095002710819,
+          "vertices": 26,
+          "body_region": "mixamorig:RightHandPinky1",
+          "point": [
+            0.016509509859597895,
+            0.5505149834270244,
+            1.0185263769272979
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Grip shaft Right",
+          "depth_m": 0.0057497029192745686,
+          "vertices": 15,
+          "body_region": "mixamorig:LeftHandPinky1",
+          "point": [
+            0.0005059297497784781,
+            0.5329064026032272,
+            1.0428026715040062
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Chest support",
+          "depth_m": 0.04890142381191254,
+          "vertices": 471,
+          "body_region": "mixamorig:LeftForeArm",
+          "point": [
+            -0.0846687473762988,
+            0.23890142410422566,
+            1.0206454412468702
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Machine arm Left",
+          "depth_m": 0.02325368858873844,
+          "vertices": 140,
+          "body_region": "mixamorig:LeftHandIndex1",
+          "point": [
+            -0.008711233718403304,
+            0.5582613745035516,
+            1.1197007881527554
+          ]
+        },
+        {
+          "frame": 1,
+          "object": "Machine arm Right",
+          "depth_m": 0.021349512040615082,
+          "vertices": 175,
+          "body_region": "mixamorig:LeftHandIndex3",
+          "point": [
+            0.03240889097298524,
+            0.5536649900808974,
+            1.1130464016684272
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Machine arm Left",
+          "depth_m": 0.018262745812535286,
+          "vertices": 98,
+          "body_region": "mixamorig:LeftHandIndex3",
+          "point": [
+            -0.4300123519254386,
+            0.5411419391077215,
+            1.1146200691861452
+          ]
+        },
+        {
+          "frame": 31,
+          "object": "Machine arm Right",
+          "depth_m": 0.018644370138645172,
+          "vertices": 86,
+          "body_region": "mixamorig:RightHandThumb3",
+          "point": [
+            0.4288205411497087,
+            0.5202902783346233,
+            1.092301076692337
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Machine arm Left",
+          "depth_m": 0.023055000230669975,
+          "vertices": 87,
+          "body_region": "mixamorig:LeftHandThumb2",
+          "point": [
+            -0.7291310154273681,
+            0.23717535674131146,
+            1.112600558927923
+          ]
+        },
+        {
+          "frame": 61,
+          "object": "Machine arm Right",
+          "depth_m": 0.02182854525744915,
+          "vertices": 75,
+          "body_region": "mixamorig:RightHandThumb3",
+          "point": [
+            0.7212899413071329,
+            0.22016603204443125,
+            1.0953253591313938
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat cushion",
+          "depth_m": 0.049998700618743896,
+          "vertices": 2055,
+          "body_region": "mixamorig:RightUpLeg",
+          "point": [
+            0.08509829660329905,
+            -0.04767279810043482,
+            0.4899986908110776
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Seat pedestal",
+          "depth_m": 0.03692275285720825,
+          "vertices": 274,
+          "body_region": "mixamorig:LeftUpLeg",
+          "point": [
+            -0.019663983046010483,
+            0.03155849505540855,
+            0.4530772470719313
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Machine arm Left",
+          "depth_m": 0.018262745812535286,
+          "vertices": 98,
+          "body_region": "mixamorig:LeftHandIndex3",
+          "point": [
+            -0.4300123519254386,
+            0.5411419391077215,
+            1.1146200691861452
+          ]
+        },
+        {
+          "frame": 91,
+          "object": "Machine arm Right",
+          "depth_m": 0.018644370138645172,
+          "vertices": 86,
+          "body_region": "mixamorig:RightHandThumb3",
+          "point": [
+            0.4288205411497087,
+            0.5202902783346233,
+            1.092301076692337
+          ]
+        }
+      ]
+    },
+    "female/reverse_crunch": {
+      "sceneSHA256": "136260d20e3607900d803bd480c5916bac8774b23b03128f9955eb84bd1af8f2",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": []
+    },
+    "female/dead_bug": {
+      "sceneSHA256": "8ed46b9a58ccf8ab4b6a402a0ebafe98ee2ac1bc06c74577c1e6946f5d0384d7",
+      "frames": [
+        1,
+        31,
+        61,
+        91
+      ],
+      "hits": []
+    }
+  }
+}

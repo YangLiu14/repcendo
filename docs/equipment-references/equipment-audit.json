@@ -1,0 +1,78 @@
+{
+  "reviewed_on": "2026-10-30",
+  "source_url": "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf",
+  "pdf_sha256": "2d7a195c879bbfca675fe6c9c791a33a4cfd99bc73844626b892ce03ebd8dec0",
+  "references": [
+    {
+      "id": "leg-machines",
+      "pdf_page": 34,
+      "model": "SS-LE / SS-SLC",
+      "photo_inspected": true,
+      "observed_structure": "侧面固定膝轴、胫垫、压腿垫、靠背、配重塔和传动",
+      "motions": [
+        "leg_curl",
+        "leg_extension"
+      ]
+    },
+    {
+      "id": "leg-press",
+      "pdf_page": 37,
+      "model": "SPLLLP",
+      "photo_inspected": true,
+      "observed_structure": "固定倾斜导轨、滑车和挂片轴、脚踏板、靠背、底座",
+      "motions": [
+        "leg_press"
+      ]
+    },
+    {
+      "id": "benches",
+      "pdf_page": 39,
+      "model": "LBR-MA / LBR-AD / LBR-UB / LBR-FB",
+      "photo_inspected": true,
+      "observed_structure": "靠垫下承力框架、前后底脚、倾斜靠背支撑",
+      "motions": [
+        "incline_press",
+        "shoulder_press",
+        "bench"
+      ]
+    },
+    {
+      "id": "free-weights",
+      "pdf_page": 44,
+      "model": "Life Fitness Studio / free weights",
+      "photo_inspected": true,
+      "observed_structure": "中央握柄、对称配重；杠铃有套筒和锁止",
+      "motions": [
+        "rdl",
+        "squat",
+        "curl",
+        "lateral_raise"
+      ]
+    },
+    {
+      "id": "cable-stations",
+      "pdf_page": 48,
+      "model": "PWR Play row / pulldown / triceps",
+      "photo_inspected": true,
+      "observed_structure": "滑轮连接握把和配重、导向杆、固定架、划船踏板/高拉压腿垫",
+      "motions": [
+        "row",
+        "pulldown",
+        "pushdown",
+        "straight_pulldown",
+        "cable_crunch"
+      ]
+    },
+    {
+      "id": "standing-calf",
+      "pdf_page": 75,
+      "model": "Hammer Select HS-SC",
+      "photo_inspected": true,
+      "observed_structure": "肩垫通过承力架连接阻力、前脚掌踏台、后侧框架和配重塔",
+      "motions": [
+        "calf_raise"
+      ]
+    }
+  ],
+  "adaptation": "原创简化器械，保留支撑和阻力路径；非厂商尺寸复刻。男女独立膝轴适配当前不对称骨架；提踵采用有支撑的竖直滑车和小行程水平导向座，未复刻 HS-SC 原连杆。"
+}
