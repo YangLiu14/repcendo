@@ -77,6 +77,10 @@ __pycache__/
 !/docs/equipment-references/**/
 !/docs/equipment-references/**/*.md
 !/docs/equipment-references/**/*.json
+/docs/motion-references/**
+!/docs/motion-references/**/
+!/docs/motion-references/**/*.md
+!/docs/motion-references/**/*.json
 /docs/research/deformation-evidence/**
 !/docs/research/deformation-evidence/**/
 !/docs/research/deformation-evidence/**/*.md

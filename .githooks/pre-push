@@ -1,0 +1,5 @@
+#!/bin/sh
+# Repcendo private-asset guard (installed independently of the checked-out branch).
+set -eu
+git_common_dir=$(git rev-parse --path-format=absolute --git-common-dir)
+exec python3 "$git_common_dir/check_private_assets.py" --pre-push
