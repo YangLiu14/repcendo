@@ -1,8 +1,10 @@
 {
-  "sceneSHA256": "1532249f7f7a86773098797c2eddcbe5118ce61637e2c85cfd4517eedd23e819",
+  "sceneSHA256": "e693bac9801619ea032373ff680a58859e78a42509cb118c4f16cef3bfdbf350",
   "frames": [
     1,
     31,
+    59,
+    60,
     61,
     91
   ],
@@ -16,6 +18,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/incline_hammer_press-review.jpg": "40ebe59196d014fab5eb71f0932f66789154db3af7bc6a28610aa457ab22f446"
+    "docs/animation-library/female/incline_hammer_press-review.jpg": "9c9ce5a10637771785abd50e70624a9514a39f7ee3a157dd71fb37b9a61c583d"
   }
 }

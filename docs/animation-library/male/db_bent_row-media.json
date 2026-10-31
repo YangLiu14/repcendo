@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "876474f7965ae9639c8c8bc3d93538dcb2c174c21cc4ff8ac6c9c811526d9093",
+  "sceneSHA256": "a81cc5374e3587f0faaf9de82f69cbc302dbf48987202751b320e2c42791502f",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "ea930befde85d4b835ca9f6be59509fc06b7693b3b05388f1e282b54d9350c7e",
   "files": {
-    "db_bent_row.mp4": "95fa5f1f4bff9b56d9612e6c973a33cfb7cbe209f286d4c5dafe83400c12c776",
-    "db_bent_row-poster.png": "d08c7935e3b7090d4f53aad75d8408d253d2e10a7f3d93c4e07907e9589a3936"
+    "db_bent_row.mp4": "99ad525c1447cd18c6fde8ae3e485bd0f7b41746aeba4c51b651e24e68ce3bc7",
+    "db_bent_row-poster.png": "286cdb97c80f15587764e75ba6df935797d733869833c5a51574a96179b0af31"
   },
   "mediaValidation": {
     "decoded": true,

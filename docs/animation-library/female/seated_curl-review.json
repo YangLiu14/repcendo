@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "0c927ef6304c6b19a8ce78df0fe162471c85ace1157ee525e9670d488ba813a3",
+  "sceneSHA256": "f8cd337719da84890e8a7ece3e6d892b36c6f68143e13b138daee2297121ef35",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已查看修订版四阶段主镜头/正侧背/手部图。上臂较初版收回并保持稳定，前臂在屈肘时收拢，掌心向上、腕轴与前臂对齐；低位哑铃在腿外侧留有间距，坐垫与双足稳定。完整循环检查通过后验收，保留原雕塑衣褶。",
+  "notes": "实际查看四阶段五视角：坐姿膝部没有尖折，小腿后侧到踝部轮廓连续，双脚与座面位置稳定；弯举的肘部、掌向和交替侧清楚，肩带未见新增塌陷或侧胸鼓包，手掌保持包覆握柄。保留原雕塑衣褶。",
   "evidence": {
-    "docs/animation-library/female/seated_curl-review.jpg": "1f02a58250612149618c30d7c36f8be87ae7fa14e4871bda8ab8247aba7255f2"
+    "docs/animation-library/female/seated_curl-review.jpg": "6b84b4bdb0ff59932f2786f4fce8a4ef6aad7a524338249f691c2e5bf894a37a"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

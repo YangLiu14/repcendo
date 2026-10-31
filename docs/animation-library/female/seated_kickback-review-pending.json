@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "5a1aa6666593c221f51d5046eb44da6776410b6c582ed6278c747d92329d869b",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/seated_kickback-review.jpg": "cb8b3224ccaf71bb60f597d8dc6d8541b01980e693451616674d9a0fa79e52cb"
+  }
+}

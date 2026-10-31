@@ -29,7 +29,21 @@ def compose(sex, name, root=ROOT):
     target = folder / f"{name}-review.jpg"
     sheet.save(target, quality=94)
     # Never overwrite an actual review decision with an automatic acceptance.
-    (folder / f"{name}-review-pending.json").write_text(json.dumps({**source, "status":"pending", "notes":"", "evidence":{str(target.relative_to(root)):digest(target)}}, indent=2)+"\n")
+    pending = {**source, "status":"pending", "notes":"", "evidence":{str(target.relative_to(root)):digest(target)}}
+    from motion_reference_gate import requires_audit, load_reference
+    if requires_audit(sex, name, root):
+        reference, sha = load_reference(name)
+        count = LIBRARY_EXERCISES[name].get('frames',120)
+        stage_frames = dict(zip(['preparation','lifting','peak','return'], [1,1+count//4,1+count//2,1+3*count//4]))
+        if LIBRARY_EXERCISES[name].get('alternating'):
+            # Compare one complete side's repetition, not two peaks and rest.
+            stage_frames = dict(zip(['preparation','lifting','peak','return'],
+                                    [1,1+count//8,1+count//4,1+3*count//8]))
+        pending['motionReference'] = dict(status='pending', referenceSHA256=sha,
+            views=['main','front','side'], notes='', evidence=pending['evidence'].copy(),
+            comparisons=[dict(phase=o['phase'],sourceId=o['sourceId'],locator=o['locator'],
+                              frame=stage_frames[o['phase']],notes='') for o in reference['observations']])
+    (folder / f"{name}-review-pending.json").write_text(json.dumps(pending, indent=2)+"\n")
 
 
 def package(sex, name, root=ROOT):

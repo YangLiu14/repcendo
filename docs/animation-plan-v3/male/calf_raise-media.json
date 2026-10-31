@@ -1,8 +1,8 @@
 {
-  "sceneSHA256": "fd245ce61daebda44546011e617264c88e9bbd9d64229da14df9a8e33c2e5084",
+  "sceneSHA256": "41f4b795199e758040040fc464097795784f95d6a0de6302666fc0e1541f09c8",
   "validatorSHA256": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
   "files": {
-    "calf_raise.mp4": "d362ced50f938d0f84d9fc7d5a09d8b22c1cfde528be6ae66b4a5d7e957c324c",
-    "calf_raise-poster.png": "968646d82587e720232aa926474e9d9eff48517fb78cbe5c6ca990705663dc51"
+    "calf_raise.mp4": "4e66860fa6036c22ff09acc6cecfa4a853bc18956b68dad49a15cfdccf45b58e",
+    "calf_raise-poster.png": "da06e160bd9982925ed2bba708e0935e97a94d3a892ebda1e2279942a0553e13"
   }
 }

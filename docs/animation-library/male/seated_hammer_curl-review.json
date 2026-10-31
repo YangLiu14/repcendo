@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "2d60f09dc871ffaa587ac97e37b67302e63649f499b204f4565cbc9b0fb7320c",
+  "sceneSHA256": "d572f7b70c4369576653aebb5e3d68fdaf78516876e5101657a01925f191a2e8",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "Inspected all four cycle poses in main/front/side/back and grip closeups. Seat supports the pelvis, feet remain on the floor, upper arms stay fixed and both neutral grips clear thighs and bench. Wrists follow forearms and fingers surround the shafts. Source cloth folds retained; illustrative review, not professional biomechanical certification.",
+  "notes": "已逐张查看本场景主、正、侧、背及握持四阶段图。站姿膝屈减小，小腿肌腹与踝部过渡连续；坐姿膝盖轮廓未出现尖折，足底与座面支撑合理。弯举掌向/交替侧、前举方向和握把接触清楚，肩肘轮廓无新增异常鼓包。保留雕塑细部及衣褶。",
   "evidence": {
-    "docs/animation-library/male/seated_hammer_curl-review.jpg": "aa73e24175d48bd02d491124a717c3af4585e99ef56ac9982fdb1aea9112f988"
+    "docs/animation-library/male/seated_hammer_curl-review.jpg": "47291864bbe13b94e3428652487491f655ec92bb52635ec26853543f293f60dd"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

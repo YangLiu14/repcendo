@@ -1,0 +1,34 @@
+{
+  "sceneSHA256": "b4ff0483072175e6254287162887ae383e9e36b0b04cb75f517a036256ad9a67",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已逐帧查看五视角及左右手三帧特写：俯身躯干和上臂稳定，前臂伸展与回收清楚，右侧回程也未穿入大腿；双手握柄、腕部和小腿轮廓自然。",
+  "evidence": {
+    "docs/animation-library/female/db_kickback-review.jpg": "1b8e7fcfcdd446476ff28385345bb9201715913530178cb7db37b8426461d520",
+    "docs/animation-library/female/db_kickback-grips.jpg": "ac9fae39340daca62a571506201012bba3146928c3e2e8a71524687bedb7375a"
+  },
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/db_kickback-grips.jpg": "ac9fae39340daca62a571506201012bba3146928c3e2e8a71524687bedb7375a"
+  }
+}

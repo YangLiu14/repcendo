@@ -1,8 +1,7 @@
 {
-  "sceneSHA256": "658a5b70cd7864758a95facef46ab281d89db1206e028a95fbfa47e49b487215",
+  "sceneSHA256": "ebcda0b221bfa4dce0b2e2c908dd2da006c4f05b6732f3cdc16c1734812cde7c",
   "frames": [
     1,
-    12,
     31,
     61,
     91
@@ -15,8 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已实际查看五视角及女性额外可疑帧。掌心相对贯穿完整循环，手腕与前臂保持对齐，顶部肩肘形态与站姿稳定；原雕塑局部折痕保留。",
+  "notes": "实际检查五视角四阶段：站姿膝部微屈、足底稳定，小腿不再球状外鼓；推举顶端侧胸与上臂衔接连续，肘部没有塌陷，掌向和中立握区别正确。",
   "evidence": {
-    "docs/animation-library/female/standing_neutral_press-review.jpg": "b73a5bd43b9d7fa575c868dd4dcc56394ea3c4ccd73f65b86fab34cc30d4e4ab"
-  }
+    "docs/animation-library/female/standing_neutral_press-review.jpg": "ed05d6c946396ee2659e7b7e1826a238402ae03a35662757267294c1a0f44f8c"
+  },
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

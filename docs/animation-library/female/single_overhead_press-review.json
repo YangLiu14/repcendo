@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "ea64cdd0524a8f23ec9bd14cf4ab4f423908a2437cab0dc16745402954022a17",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看五视角四阶段：负重左臂处于主画面近侧，肩高起始、过顶峰值及回程可辨，肩肘没有被身体遮住；哑铃保留完整画幅边界，手腕和握柄连续。",
+  "evidence": {
+    "docs/animation-library/female/single_overhead_press-review.jpg": "b0a1ca56368bf772c26a158576e0fc6d5aa4dac4161f4eb2a195957c9f497c55"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/single_overhead_press-review.jpg": "b0a1ca56368bf772c26a158576e0fc6d5aa4dac4161f4eb2a195957c9f497c55"
+  }
+}

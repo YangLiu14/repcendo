@@ -1,0 +1,46 @@
+{
+  "sceneSHA256": "5a1aa6666593c221f51d5046eb44da6776410b6c582ed6278c747d92329d869b",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看五视角与左右手握持特写：坐姿髋部得到支撑，膝盖打开后哑铃在膝外运动，上臂固定、前臂完成伸展回程。主视角和侧视角完整显示长坐垫、纵梁、前后支腿和横向底脚，与已查看的 LBRFB 官方照片支撑布局一致。",
+  "evidence": {
+    "docs/animation-library/female/seated_kickback-review.jpg": "cb8b3224ccaf71bb60f597d8dc6d8541b01980e693451616674d9a0fa79e52cb",
+    "docs/animation-library/female/seated_kickback-grips.jpg": "286cbf81c78c9c315379613067ea878c9cc814e62071b900c9064cdb3d162d37"
+  },
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/seated_kickback-grips.jpg": "286cbf81c78c9c315379613067ea878c9cc814e62071b900c9064cdb3d162d37"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/female/seated_kickback-review.jpg": "cb8b3224ccaf71bb60f597d8dc6d8541b01980e693451616674d9a0fa79e52cb"
+  }
+}

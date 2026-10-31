@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "c60dfc4a2a248eabdcf183eb38a4bd6c8e9bd599fd079edb1e7f064f3c04fd5c",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看新五视角：主镜头近侧的左手中立握、前臂弯举与哑铃竖直峰值均清楚，空闲手在远侧；手腕与手指特写没有新增错位，站姿和小腿轮廓保持一致。",
+  "evidence": {
+    "docs/animation-library/male/single_hammer_curl-review.jpg": "6c806d9e80034ede280ef8c21d3c7f1bcd12ce9437fa867be4165893a7e8a844"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/male/single_hammer_curl-review.jpg": "6c806d9e80034ede280ef8c21d3c7f1bcd12ce9437fa867be4165893a7e8a844"
+  }
+}

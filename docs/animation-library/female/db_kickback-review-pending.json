@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "b4ff0483072175e6254287162887ae383e9e36b0b04cb75f517a036256ad9a67",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/db_kickback-review.jpg": "1b8e7fcfcdd446476ff28385345bb9201715913530178cb7db37b8426461d520"
+  }
+}

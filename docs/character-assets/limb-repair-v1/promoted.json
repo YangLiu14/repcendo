@@ -1,0 +1,558 @@
+{
+  "status": "promoted",
+  "motionCount": 55,
+  "variantCount": 110,
+  "legacyUnchanged": "0043",
+  "assets": {
+    "male/hammer_curl": {
+      ".blend": "71f671086435369fd85ff85c6ec27677a79028e4dbba141118831751f570cfa1",
+      ".mp4": "c44d810fe7d388e2b26039d254f5c33c0af5228be1fcd329a8a461163b370457",
+      "-poster.png": "22590bd3c8931a0895489ca787121134fc4c5500c5a9a57e8002bc36b0f7c887"
+    },
+    "female/hammer_curl": {
+      ".blend": "66375f7736653d73a582092b155dae1dcfb7478e6b6bd8f1316ee8e086b4fd4a",
+      ".mp4": "017b661bf0c827cef79a89a6688ee36c4a43b7049d99188f14bbcbea409917f7",
+      "-poster.png": "1ff5f260a873deb53440b90b7f0246fda87385c0ca9a9d40aa90d4818a758e0a"
+    },
+    "male/alternate_curl": {
+      ".blend": "6d86677b4f04c8106bad7b8da828a4e6ecc7bddebb81e18d7f3304c56706bfb0",
+      ".mp4": "32f977e1bcb40247f16213ac9bca3a0b2fe2db1c7dbfbdaadce45e45ee069c0d",
+      "-poster.png": "c3d13391ea8585fc89aba96ff35f70c91658324a8ce6a190e7b9dc768d0fc990"
+    },
+    "female/alternate_curl": {
+      ".blend": "b8eb1c34a1f8b6332faeff5935f2c849c25bbbe24fcf830907666998390f67de",
+      ".mp4": "2dd0d12aa19d9f355ddf328f07c26c281e6a0eb141253097644af16be21ac96e",
+      "-poster.png": "bfdc4d0ad34e7899ead6e1c99074521499a542206931ffa051bcedcea7087bbd"
+    },
+    "male/front_raise": {
+      ".blend": "1760b358228457d4f7dadc85a82d22e2f31865e050cb8ebb56b6ece5616cbd28",
+      ".mp4": "a794a3f9dfba08e90c998780b8eda0edbe56f1e2d17835925effff755cdd35d9",
+      "-poster.png": "02228d84921f809b3ebda1ed47a0bf13a04d308c83fe77f4cc7bed61eeea41e9"
+    },
+    "female/front_raise": {
+      ".blend": "360e9e241f5f26e688daafc330f5182acb6112dadc0d4ab830a60be968c27158",
+      ".mp4": "fa5d6cadd2a64bcaf3201b6577f873ca192c0cffc8ca5e7195033dfce49c3f4a",
+      "-poster.png": "e610906cf0db8d40b8e78bb3b36e29d945d45d852bb3f37314110b43c5d99fbd"
+    },
+    "male/seated_hammer_curl": {
+      ".blend": "d572f7b70c4369576653aebb5e3d68fdaf78516876e5101657a01925f191a2e8",
+      ".mp4": "c16890c4ba9dc3616fe51b5042eddbef9f3425f326906c0a2e85b23e0cceb81f",
+      "-poster.png": "038825d608900ab25b2f70f3a69ae474f8050bd5e56a590af9439db94cbfac85"
+    },
+    "female/seated_hammer_curl": {
+      ".blend": "5b2b2973148fd1482bffd2e5fc111a7180b8e8ed336dccb90dd8dce77b06124e",
+      ".mp4": "5f10440e4bab69b68d6153119627cc66d5d840bbb39a75e6ce8ad589093f7724",
+      "-poster.png": "66e6378f6a01508f288f5d1bdc822d072e6b0d38d917b953d3bf30fd120f1a21"
+    },
+    "male/seated_alternate_hammer_curl": {
+      ".blend": "76d09990a84ebaab029cf58cb8caf518e4942c819f64df8a40cdce5179bf73eb",
+      ".mp4": "5d5ef55f86194f40df4951c82f26e3ae5e2be5190bdba0e3bb3cdc60e4f34a39",
+      "-poster.png": "0e91d77ec037bc1de59620fb5a6f680be2bb180848bc0be0e99caf0e69ec875f"
+    },
+    "female/seated_alternate_hammer_curl": {
+      ".blend": "554632b399b45c47ca2050dcf27933d888756d3badbdb00c147e8fc184509c50",
+      ".mp4": "cafbbe2d0620073995aa274d7fa6cfed2d7e7ea296f29ba4effd92193a5e7e6f",
+      "-poster.png": "076de2982aa0fe86f6e27ce0ba26b9fba7005874b49e61bb9c021b854e0784c4"
+    },
+    "male/seated_curl": {
+      ".blend": "c1250d114c0c569541ff4386804b92958d7d9da05326d32211666de27c237e23",
+      ".mp4": "c3ca99c2a926eabfaaf70b585afc6ed9e033ec992aea3636770cb38c64dea271",
+      "-poster.png": "3d6f0800ee67e2002a8e93b10b44816b6adfe5d996091500a9bc3ceab7742ffe"
+    },
+    "female/seated_curl": {
+      ".blend": "f8cd337719da84890e8a7ece3e6d892b36c6f68143e13b138daee2297121ef35",
+      ".mp4": "189b9c32bf0545d82965927ae57827fce34059bf7e51fb9727c8b497ec737d87",
+      "-poster.png": "40fd498023650c1e996d393eb997ab1cc847882fe64bdc679d83f5f93ce56db5"
+    },
+    "male/seated_front_raise": {
+      ".blend": "522253ba0b707c1348e6528194b41051e346ca62c0fc313563e9a94260b55514",
+      ".mp4": "64a211a039a0b437d842a09c5f7de5028c6f0d3235b0418ed19be71a51244704",
+      "-poster.png": "43121771f792ed29f1a92c725aec92b25ac7c224b40dee55ea02a470b6f4d6ec"
+    },
+    "female/seated_front_raise": {
+      ".blend": "ebefdb0fa6fdf42676e97258da8b788e791abbca90a173ef744ce0fb3c3e98b6",
+      ".mp4": "f27df7be1e263a08fdcb74d910c4ac6f5f403c2f17f6b4a46b7066654e979319",
+      "-poster.png": "3dca5a02c5cf70433b757d04aa6c64e7a789ed33d02689c72db82d638592d844"
+    },
+    "male/seated_alternate_front_raise": {
+      ".blend": "123d6f2047a2c34ff55a313f13804c8b00cf3a18ff4a6f042c901da7330d747a",
+      ".mp4": "00bf7129212c2021ede48d0080be03908265ee0bb605cf707b93fd2aed21270d",
+      "-poster.png": "c1606506a4177f822e6aebdaea5b17a07781be5cb0a4e0381ccb739b60a19e9f"
+    },
+    "female/seated_alternate_front_raise": {
+      ".blend": "a5136a7be642183338079e3789d6dae96206b15ba5cb1836b1383b8e6359a309",
+      ".mp4": "22b46974d5e8dca2a59af8e129920cf9c8cb11e7ecf389a7852566ad2af6042d",
+      "-poster.png": "550aaca7ac9531459de84426129b4e096b1aead9cced8fabe413065e00af215e"
+    },
+    "male/seated_lateral_raise": {
+      ".blend": "ec4cffaf3607ee027387ac87b0fa648dbe36735dbb13135e7d855fc4faa395dd",
+      ".mp4": "2ce235ef53af8253df6be1aa7308a500a2d8f716e472a983b978a9866f941f26",
+      "-poster.png": "6c4d1dc620c688cf0f31ccc99e141141b3bf5faa7cf9d513235444a312817f04"
+    },
+    "female/seated_lateral_raise": {
+      ".blend": "d2b10720b62e1f3456df60df7c54a75382d166367d1106956b15654c0c2009f9",
+      ".mp4": "6f958fa7ea2dfb71d66d1bd77c6db3a7f8f1c44b04840e9052af202529eacded",
+      "-poster.png": "0c2b42df5d2bfdcb0da870215253e6c57ad4e0187139134d77668ed7cef5db36"
+    },
+    "male/reverse_curl": {
+      ".blend": "972f227d04a975854a33c67e828c881de228b18ee9b7751d42e96042c59165bd",
+      ".mp4": "fd230dc5b06b1ab0da353c01eb59491aa8116405bcf3876d1c609e30361a3e23",
+      "-poster.png": "992a0db10556d12fdc27844926b0590fd8c32077348277ffa75ba7e80990f51f"
+    },
+    "female/reverse_curl": {
+      ".blend": "d7ad8d44482affc4bd3269cf03e1002f638eff9fd90f7da0314c9e43013b8e1f",
+      ".mp4": "7db98a76ff7ff9edf545090b6f24a80223851c37f2ed5142267fd2ac7ac513a7",
+      "-poster.png": "b77905d7cab823eabe7886d3f360bbcad32110306bc111da4e6855d25ffd1073"
+    },
+    "male/full_can_raise": {
+      ".blend": "81e84cf80df1c0a680f0785bb2d01221d2aa06d323e44de34dd4aa27126901ac",
+      ".mp4": "a6ff25ab6f870f9c7385c99954a3c212c12a187783c663cf20556efbe4c8503a",
+      "-poster.png": "e9b60e03050a10833906e8004d05fba86e02feca03b31aca3f6bf5615392fa37"
+    },
+    "female/full_can_raise": {
+      ".blend": "965f05716c6442a7085ffca5fb4945bbf8e3463b45094cc3336d1994ea096e84",
+      ".mp4": "02d3b9e49afdc442b6b38a339dfe203f172a10c2a7dd610e93508b51196ff034",
+      "-poster.png": "7e65ed9f1f931a0c33f397e2a5c87e720da2fb84499b42de44cf5752b43cbdf9"
+    },
+    "male/lateral_front_raise": {
+      ".blend": "06b66a27f5d892464a340ab10463702db76b6dce316b535cc0d4c23f925472fc",
+      ".mp4": "4fc54385ef0c8dd396e88afa5230310e62759ab6ab8bdde4945d2583673d8dc8",
+      "-poster.png": "ada052155db144b32b04d82a096e7e28580caf8f9aabc4f349ffad7fee48590d"
+    },
+    "female/lateral_front_raise": {
+      ".blend": "c97de3034c011aeb3873400dbb7d419047d398bc9f05fa6e11646ed9d7a49602",
+      ".mp4": "51b8432cfe4b9f485c339c2638c2dc18618bbd4cd7f51fe27e14d5efae85ebac",
+      "-poster.png": "b5cfde4baa51903004be1ff06cb1a9819905a68edffee263a08294e6c4bf2b40"
+    },
+    "male/db_bench_press": {
+      ".blend": "ccabaa3d7fbe26770a029b67ca2c32f27510be44da14a92f36f04943e507a845",
+      ".mp4": "351939015c38924713f2f1697eb1e57d44f284d99189b105656f461c03353ee1",
+      "-poster.png": "a6f9b400d9baba41cee68e32c316dffde59647f2de59af767c6c0769fd4c6bdd"
+    },
+    "female/db_bench_press": {
+      ".blend": "0cb876fd1e89f8546c75b1dca5b7d860135a44a21f10e5131111cb1b2507415e",
+      ".mp4": "8aa0be3cb37d35a03d72ad0e96b5f1d219869c95e2a5fab59cdcf143d4720deb",
+      "-poster.png": "41e556f4bd5f0ca138610ae325628f39f41cde742616f3472d8e58bad3a1c772"
+    },
+    "male/neutral_bench_press": {
+      ".blend": "17f92eb046da4a7268ec4842c05fe98a7c87b63bfa720b4d71a94a86456ddb64",
+      ".mp4": "f513aa7d310b13c77c8085675f6dd4888ed2333f6ce0df1a2cc1c1796323382b",
+      "-poster.png": "d3981ce5b924c64d4dc42626dec190bb8aca4333365fc819d658d0905ffc2c5e"
+    },
+    "female/neutral_bench_press": {
+      ".blend": "e4bc334496bf511582ed6e12226c7ce52164f59f88f5f3d7f172057aab3d8c87",
+      ".mp4": "ef4ea5a5aa93ba28ec47834a175c65fad452794668e3db9dca0d78dc86cfe422",
+      "-poster.png": "db38561fea7fd39641a06da00761b8d816be65271d918b3c5a11cc6b0280ba10"
+    },
+    "male/incline_hammer_press": {
+      ".blend": "438c1c68becf3c1878524277dfd562326d96152bee5702daaba309a2d515b7f5",
+      ".mp4": "8a78e621adc77aeefcaa0475c1d64881d6de0a086ab7d3ed399be478ba0c8846",
+      "-poster.png": "31fa6b04a2931a7fcf8f17503492b77b6274fcec95a3e0310214066156269d25"
+    },
+    "female/incline_hammer_press": {
+      ".blend": "e693bac9801619ea032373ff680a58859e78a42509cb118c4f16cef3bfdbf350",
+      ".mp4": "912629310bbbf463233ec8c4b419ee143f3e38f3c1dfc133d3e236e2756862e1",
+      "-poster.png": "7ee224109405a0edf3e3725985b61d8fa6a1186aa37cb3e809eab87cbbcbdb36"
+    },
+    "male/incline_alternate_press": {
+      ".blend": "a78e628421506a6b5d11f8a63db6c80124a4a40b6a87bbd120008b45cc0ac691",
+      ".mp4": "ee7cbdd6e1723401b602b509a6d77c5e44fc746c90b46605aac0e849d3a56840",
+      "-poster.png": "cb6caef2684d436763bcb4c412f2ac4689b7bae7f6ee2501ecac4063c07cb75e"
+    },
+    "female/incline_alternate_press": {
+      ".blend": "f52509bab1fe30c2824740f01db8b16f986bb34d0cfe276cfec26a37bedac1ea",
+      ".mp4": "b2574acf50eabf41fad31821c994054bcabbedfdbf2ae34b426d8e13c05de37f",
+      "-poster.png": "b2295214b3c2c8c69a344467de4efbae8231059fe7dc9a13671150d01e2a349f"
+    },
+    "male/seated_alternate_press": {
+      ".blend": "9ce94cda10c2574dda634a7a2329196ee9c3cb4b702bff67f6c9c53e13570168",
+      ".mp4": "d93d47f87ae1e285144e78e9788713f1ff1f086b00aee93fc092424ccb33d442",
+      "-poster.png": "f1a340f49dd8e57c6468d787a35942be4ae66db45008b699431d5e1eef3d6829"
+    },
+    "female/seated_alternate_press": {
+      ".blend": "79c8473c9dc3bd0c115877ea2c1c6f7e5f5377ed746a33bd2fe2531d3bc1ed32",
+      ".mp4": "2ac95ae56dbe2ee3b10429ae7bd0a38bf02383d5c30b6463e96691764fea3a95",
+      "-poster.png": "1cf9d0d39be6cd55c6d0d228a94ac95ff64eedfb5b6f31760849baf126ebcb23"
+    },
+    "male/seated_neutral_press": {
+      ".blend": "3c63fd03f5f661f59e8ad73d6d87184ee1e4a8a4c78a6275703aad22a469e223",
+      ".mp4": "be1e78aa4d64de0d1ad2dd34c806e21c764f22e7c22b7adfb95304f1f106a7cc",
+      "-poster.png": "e6092b4e4c8a04924aaf370c92127ce571f4e25e7300873e8c1a9ee9c14fa95a"
+    },
+    "female/seated_neutral_press": {
+      ".blend": "4a39c8eaaf1c3379587e1ab99e7a0e52d23e2b452001fc479a24469787c70923",
+      ".mp4": "3117f27bde2ddff3f56bdf323b1c76aff241255e122d93ae05440528b4c8e7fe",
+      "-poster.png": "5672e2754afcf1de65743941c1a184e92713be1500bcf434419b2188a08e98b1"
+    },
+    "male/standing_overhead_press": {
+      ".blend": "a495a1804e7ce15f3bdb5d9f53eb1c78dbfe479d6b45fdd30ec144d353d43855",
+      ".mp4": "8fda99cb458156af4cfc01c088b7416954343e58312c19342a6a61f9e0cf6da1",
+      "-poster.png": "540680e00e7e018eb5f39d3ddf3d36497d851ad4d0c3f44b5c8547bd430fca78"
+    },
+    "female/standing_overhead_press": {
+      ".blend": "03a80466e66f8854c9eea2be1c8537a54c015ae459ae64863a76e4dfd6bc368f",
+      ".mp4": "317ffe15054f0d2bcbbe7f5c0a45c9b106dee2b3c11273aae768048ca7bd9588",
+      "-poster.png": "0d1ea7a781c5767d55d1694fa8a69a54d96179671474bc0807867906003b3878"
+    },
+    "male/standing_neutral_press": {
+      ".blend": "d03412c1175f321df89ef1895c1221f35a5af124c5d19daab641f6cd81fd491c",
+      ".mp4": "ef8c85643c6fbeba5068d6a6b5ad923c0cd491fda9672a4df5852acade1af63e",
+      "-poster.png": "189e83237ee5d09effe7e7e175e91f61401320e3895c3de43b82ceb27479019e"
+    },
+    "female/standing_neutral_press": {
+      ".blend": "ebcda0b221bfa4dce0b2e2c908dd2da006c4f05b6732f3cdc16c1734812cde7c",
+      ".mp4": "814b7e18b4cdd7eaa8e443479b85c3ea365fbd665dca3def42c8c1eb32521afe",
+      "-poster.png": "755a73d0db82af001daa5e77bd887c0b95204afcdfdb4c373ade5d8681afa999"
+    },
+    "male/incline_biceps_curl": {
+      ".blend": "955fa5d83bdb2147834bd332a6c8a2355c769b296bf13c6e99541cb92344df6e",
+      ".mp4": "327da20b9b7e2f20616a12b94aabc5924cc18e17d4b90031b09457f18dcb0fe2",
+      "-poster.png": "16b506f7036a300c67fbbf9ed6923ec96b885920cdddd87a511a83630f1ba9f0"
+    },
+    "female/incline_biceps_curl": {
+      ".blend": "7f1e9e0104e32b1ec026683cd27af1328f0f21e1cd67bef92bd4334e3c4f851e",
+      ".mp4": "ce283929376d122320fd1462bba728ea2c02ac94300de8ab03f9901e64f74620",
+      "-poster.png": "18a5ddd2d9eeeb13afc87fa867742cde87dc3823e791a4eb17b1d53f1b75b9c7"
+    },
+    "male/incline_hammer_curl": {
+      ".blend": "1e8307de609329377407ec82e63c29166196ad842c296092906888621426eb6d",
+      ".mp4": "6179f11b09492f9e6778d82139ce2e73136f29347bb3e576c85a39bc4aa75558",
+      "-poster.png": "d2bd322294a35dfed5820196f518c248041253ed78a03ab11f54c7f1c2f48754"
+    },
+    "female/incline_hammer_curl": {
+      ".blend": "0383c1eef7a32f4497a8e3dfe3cfe3d33ec5b9e8e3356b19788cdb6b06f39f75",
+      ".mp4": "d7f4d672710925b5328b30d702425b178f492fb3cb6e080a3c93d8cc752a0bf0",
+      "-poster.png": "967d46754e5736b4f698012974e86685ff3348aa43a03b5f96d5f78dcbeda6e1"
+    },
+    "male/cross_body_hammer_curl": {
+      ".blend": "b72ea1786bca6aec6a5ca70bc4cb045ee783a0c6e9cbc26f2b5954c178628d2c",
+      ".mp4": "0060cd8325068f180cda508c7f01a9ff62e06bf9efac8b8992debdcc4bf2ec92",
+      "-poster.png": "bc7eeba52a2252e70cca1572c1471125a71e26ef3278779a0ca4677876aa6bea"
+    },
+    "female/cross_body_hammer_curl": {
+      ".blend": "da82220cee8aae85f274fe643009be193b068e472ea72ebfa1f4db8b1df69921",
+      ".mp4": "c7c35a7a85270af553ce06e5b8aea0e2570872627d195c52340b1ec8015f35bc",
+      "-poster.png": "dd5cd77ddc6151c115d70dc1555880b41f10b81a431ea2bacb2258fd9d854620"
+    },
+    "male/zottman_curl": {
+      ".blend": "e3cacf6328e60bbe88bd6ba44d4247984e3a5275a619d1e4755384576a6d997d",
+      ".mp4": "fc4d98ddedb54bee405e0cb9e69a4176bfcf6460af7bf111371c3a8d55ee5b4f",
+      "-poster.png": "d2ddf6f417050f07f7c2bc51bc14c67c1b0a8bc6239dbfad8a7f0ef25ca30461"
+    },
+    "female/zottman_curl": {
+      ".blend": "5a4b5f20a927152b20de5409fea5f0817180f0b5463ff80590222aa92eb78839",
+      ".mp4": "f0549d44d2e87897378a6a0f40bc925f762dba5ef325f9c7cae7004b912df1db",
+      "-poster.png": "7f2381386fedcc82c5e17bcf8dbf2864f058f3e892e0c2f34e68e9260c7f5cbc"
+    },
+    "male/standing_alternate_press": {
+      ".blend": "6fd58b8e017711405d5825ed2b481498cae3329826c0904c60082b8c0a3f6326",
+      ".mp4": "f645aaa7be3475be9a7d9ff70dc713dd79750f066a2ae52b772bec2360628b3e",
+      "-poster.png": "8bfb013d5660f5eee913b28388aa2ec0e5f81c701e164241008e9dd71481614b"
+    },
+    "female/standing_alternate_press": {
+      ".blend": "dd05910f424c4487b453974d463dbfd5ac866bb1957b2ce066ed2540274a8224",
+      ".mp4": "86b7d485ef024f0124b3a5bd4cc5fcc6983e55b689ae47bef069786ef43ce248",
+      "-poster.png": "ae39b3a52319dd955957ac95e9c6bfaf43b03642a9334cd7be057604f2aeb288"
+    },
+    "male/standing_alternate_lateral_raise": {
+      ".blend": "93352eb15c0d275e6e125cae59d13f47a17416f963ef89bfdee26c2ff9deeb21",
+      ".mp4": "3df07d7319a2dfa333934bf61b759ffa1d19cbdf225818a2f7879e7273353569",
+      "-poster.png": "18ed7ddf701a6038ecb57ef5d69d0a49f9e381e882c67752354bc2e557375d48"
+    },
+    "female/standing_alternate_lateral_raise": {
+      ".blend": "0731e3c8c635d4248435112b352b5a9675db75ec82c8f6c0b5752a14fe4faeb5",
+      ".mp4": "ab418a15a5c86d2530f3bf54456386fbc7f6d024cfa0a75da5216fc7af6fb7a9",
+      "-poster.png": "870d717eb1f130ae781b17c6e2f901fe220851717f64f2d72345866b0ffea751"
+    },
+    "male/db_shrug": {
+      ".blend": "6d3152e022a10a16043a72cd0182e3bb2154add1754c836c711b3c53626c7003",
+      ".mp4": "5801ed1f8c953535f714c35aa78bbf0de2cf0b3476f001c3bb4489b6787783da",
+      "-poster.png": "1c271a055b22e47de242bf2ff494b07c3b1727df1715206e5399cd853c7dfe9a"
+    },
+    "female/db_shrug": {
+      ".blend": "844d9a55d2157be016d1f723c4c49b0d62fc1335f209a77356ea0df53597ddb5",
+      ".mp4": "99676f1b8a3f004f1378602c0010e14a03ae2dcf4456d92bb2dc08717e276aa6",
+      "-poster.png": "3077ff1a99e218b23197093e5f7f03e9c356a09acf3ad9787261741b0ac6ad0d"
+    },
+    "male/db_bent_row": {
+      ".blend": "a81cc5374e3587f0faaf9de82f69cbc302dbf48987202751b320e2c42791502f",
+      ".mp4": "99ad525c1447cd18c6fde8ae3e485bd0f7b41746aeba4c51b651e24e68ce3bc7",
+      "-poster.png": "286cdb97c80f15587764e75ba6df935797d733869833c5a51574a96179b0af31"
+    },
+    "female/db_bent_row": {
+      ".blend": "ac54b1e1e17988e7b064112a93bd3d5d720a9f9e23107926c7f9613ebd6f126a",
+      ".mp4": "ccdcdd6c37252800f20fe9c2c907e08dd6af2bbe5095885f1ee1ba652a3956e1",
+      "-poster.png": "ae558d342addd7126bfff2e58fc06e35b72aa0edcc9967b7d619e260d2fcc49a"
+    },
+    "male/single_curl": {
+      ".blend": "cc8557204e951bb5108e13c2da80578f2fe8368eefd8564b554a880b01510df4",
+      ".mp4": "d3865d797197af9154cf46d93f06fdfdba2ad6792d8ebf4042018c0ddf0cbbb1",
+      "-poster.png": "a29446fdc1c7e1515cd1039c7980b1c0c81368ba7d924880b03600788af03659"
+    },
+    "female/single_curl": {
+      ".blend": "0357b2cb592b50bf90342d001fc69f270d64b726fc04f92ca8d3ab65672be2e6",
+      ".mp4": "e4e6508b1a1bf9c22bfa3a739715acf95be1a245d62f8fcb746c447e55b6b7f6",
+      "-poster.png": "02c6c60151bbc6696160b313419f9e46caf805891201b37fd65025442c1e41ba"
+    },
+    "male/single_hammer_curl": {
+      ".blend": "29117c0295abfe85200c2429a7896c8530887a8db5da77e64b4033e2f756cc09",
+      ".mp4": "564f86258aec10713c88dfc77a5a2c70989a8793ab217dfccfb0e11990a9b173",
+      "-poster.png": "86c61006b54abf6e52cc1934c41ae6679a5820723a715eccd5c6bb16f57aa92d"
+    },
+    "female/single_hammer_curl": {
+      ".blend": "f573fb995a00361ce3815c949dcf05ffe99eae34b5990d231a06ddb5db61a397",
+      ".mp4": "9ef37fc84f1dfd6c6cecab281502ae4905dae45758e27e7f87841b33bbd8e867",
+      "-poster.png": "af02e13b3cfc84ae8223853d751d884c34c206f1d48be72afb1cc90548e07d1d"
+    },
+    "male/single_reverse_curl": {
+      ".blend": "e21b011b262d5f03d305b72924831b71f3547fbf20537e6e0434f7de3ef954b4",
+      ".mp4": "bc8a176aaf5df86be12c4a101ae759e0f364ac880da856c31796455932c63efa",
+      "-poster.png": "c3c54760bbc1c1f14edcbd473156175b1426ccdb246ea93dca391a611d676f03"
+    },
+    "female/single_reverse_curl": {
+      ".blend": "f562b420bffb83ee55e3c5cda8b19d9f989afbc605f7308952516487526aeb2d",
+      ".mp4": "13f62c6f063aa9b7f4855e7e5bbfb8e39ae5a6ee4924e9f7873a5dff3be1b27e",
+      "-poster.png": "d1552b48d29c8faa89f5e25839a55242c4e8478ace00766f1a226d734646eae0"
+    },
+    "male/single_lateral_raise": {
+      ".blend": "26339341de14e189c7c72ee7d6376b4d8075ddb1f63afe4cd2eab51e8a6e67bc",
+      ".mp4": "8c53f8135ea2c2baf57db53895a4219b9b053cb10cf0f81c224ad73151380174",
+      "-poster.png": "cbfb2ec65e8912e60e81b246ee76cbffc87c557022c2ae61e7ff9624e1c03346"
+    },
+    "female/single_lateral_raise": {
+      ".blend": "c078773d6aaacef6b9020b41b368bd63a46e9b3cacae30b223cddc6737163bb9",
+      ".mp4": "b4f6878999d4fe42153170a33c25e3f15da9177928daf77b4f4b0d05dc6d5adb",
+      "-poster.png": "d170ef2f5f291e60dd6964afd7a177d37e267cba52b4300994737e35bf1f0695"
+    },
+    "male/single_overhead_press": {
+      ".blend": "7b8197e35ce95539696d5af8953ffeeba428e09e1d74f7566c8f6173ecf7c638",
+      ".mp4": "57c1ab55f9bee2d891c44a2dd65d7fee327eb61051fb95e91ea6820f5b02b3b2",
+      "-poster.png": "19be2422d23bea45f9e64bed1c14118320748f36a07f5c3d4752a2bd4c4aea7b"
+    },
+    "female/single_overhead_press": {
+      ".blend": "0aa3506751a935ae9ca260e856582bae56f0c3ca4baaf2c394c9edcb5422707c",
+      ".mp4": "255b563ca71bd78b2fbf7895f12102c15f74d4500a984458a5f6fddeb65a3a42",
+      "-poster.png": "2aceb8fda4a7ce8ce33e166b4a51fc907625adeaa77833dcce8f8e2571d15a14"
+    },
+    "male/single_neutral_press": {
+      ".blend": "6937d2ec655be26e7d639e83cb2923b03566956851e81b19daae6e1ccc62c2e7",
+      ".mp4": "a08759813f0991364cef2134adcef3fa1af09328fbf10cd8205f8dd1c0344e34",
+      "-poster.png": "c5156c1a17b538d8a05adc7694ddd87ac21c2ed007e8a2492106081a72e285ba"
+    },
+    "female/single_neutral_press": {
+      ".blend": "8b74e437adee96527235a60eb9f29ba09806ee4b3fb44e96985c408c28bd7910",
+      ".mp4": "b1c2297b1ed11fddde2cffe99b3c70894fb71f91b8595bc909e403f44cc40a7d",
+      "-poster.png": "ada9821e920b63ce0bc9d1ea49a144e59f4a452bb4bf73d738a6914ac2403301"
+    },
+    "male/single_bench_press": {
+      ".blend": "5d31165b139925b3b22fe2da7d6d278bde13878d785cd761cff2a259fd27e7df",
+      ".mp4": "227950b0d8fd61174904ca0eeaf80bbe5c036cd4c7bcd237acad086fc947bfbf",
+      "-poster.png": "29bf24c0fa414fdac239d98741a6c6a6efd7a772105615029bd8661f2fd38535"
+    },
+    "female/single_bench_press": {
+      ".blend": "d3a91e65e2dc58826205b93643bac656bb672bb2440ffc8317f250792acc200b",
+      ".mp4": "ecccd071ff6e43f3638ca0f638ee663a6e5b88c167f031b68ec888c638fb7671",
+      "-poster.png": "bc3e66f2809a39c981e3e2668a4073d75972ba7b372ae30dfebfb5ad01e1cb3b"
+    },
+    "male/single_incline_press": {
+      ".blend": "06a23fbb7eba48f5d01d2af5827fcd27e7003407782094a6bbf38c4ebe293614",
+      ".mp4": "d9153fc12b6407d02cca1a00e63adbf0a3ca5ff77be904ca524236eb06e51b06",
+      "-poster.png": "a9fb913bdda914082e8706d34dc7e8f29a8765093ecbd0effa480d156cb85b01"
+    },
+    "female/single_incline_press": {
+      ".blend": "61e988ecb0357ef57abaae74ab3c406a22999a2117f644ae8af094b096d2f24a",
+      ".mp4": "444eb71b36edaa0914fad7b11b17d6dd128e15e6e2cf2aa2a6efe0f7f24d4fb8",
+      "-poster.png": "1e0ef895512a4f41fc236d77392267bec2402c6b9f6e9917cad38b2ebdf8f58c"
+    },
+    "male/incline_press": {
+      ".blend": "1dfe5cfb987c1f79ed08d109fb36b90c82e36d74bed56bd9ecdc02a341f7d001",
+      ".mp4": "8ad36f0a6517b82b418111f27a8a099172f22e30aec3aaed3795a2fc582e2c59",
+      "-poster.png": "b792e6a5774e4b1b958c80395ba127f003afbaeeb431563e82c218ff6f70cbd0"
+    },
+    "female/incline_press": {
+      ".blend": "006412ff6a3436e24210f7d3fc6510ab2b17ea5beaefb5fa7ae1c5a0199d8c14",
+      ".mp4": "a7612c9511e39cf01ce68d4a3e9c79580cebfa8c458677f7245b1d0848b455d4",
+      "-poster.png": "2e13c580d7daf58c48b7080b90cb8c6dac1ba77cf7bf1fd96a66b0176c2f79ca"
+    },
+    "male/pec_fly": {
+      ".blend": "4e03639a4d694fa4af5398d88a134c607eec869301b5bd8604ddbdee537c94ba",
+      ".mp4": "d7c336677f100db066b17791851ad446d1e69e265a209f9f7ed34bab8e530e19",
+      "-poster.png": "7ea20be935d02261f70ab74e1999d3be45617d796bbac80f1073b446c08c200e"
+    },
+    "female/pec_fly": {
+      ".blend": "3b0b9330ad1a88f32a26fe172100a21fd1da1ed9532cd7747a788e70c905ef1b",
+      ".mp4": "2a018dc418240da8ada8734138b9f126339689cce1cb0590c8ad1cff5c73ffc9",
+      "-poster.png": "57ea64a61d704b1ea6e768613b6e5ae8c3e5b318925513fc4d32fef4e3896b50"
+    },
+    "male/pushdown": {
+      ".blend": "6f537848955e57ee36ded60e912a3385e9e5244395d1979621035f6c874f7dec",
+      ".mp4": "eaa1bc4cb5464efe288852c0b6810dcbc147a61aade8db1c4db0f7f34efd0026",
+      "-poster.png": "46c1a9763e8dfa55111b4d0f4156e00495f06443d8729d7a3118aef495ea0004"
+    },
+    "female/pushdown": {
+      ".blend": "9eb53d62ea38f95dbc949c58c03c3cb4023173b5414af3b235fdeca8cc47160b",
+      ".mp4": "972b4f12c03f7741d7b2762a234350a40c97e8050ca11535fb8a9ab9d41f601f",
+      "-poster.png": "f29fd2287fa201967c0b3165828e6612b5aa048265fd32b92645ba828f345ff3"
+    },
+    "male/cable_crunch": {
+      ".blend": "a76e31b32b35716f4d7eb6b7a8371bc97b50b17f1865566a5d2ee8f421d39b06",
+      ".mp4": "1713127d704727ed377e3a654ed31d87e174441855429c43c87a951a69a7696e",
+      "-poster.png": "8ebbafffd9789f8f1ff9fa287d712911768acf5d3683d8435ebf6a1f1389f317"
+    },
+    "female/cable_crunch": {
+      ".blend": "6e8e60d6f91e0daae05eaf34ab9c155174d76791afdbab35664437287522dab9",
+      ".mp4": "1be490fc9156ffb7dd3c4e4e1c7b2d9cbb226ad2a966d49e52e9671a72eaa4b0",
+      "-poster.png": "c0e6bfe9d88e82b0fb310ddb2aa8cb60357d6650a23a1d7eb96897dd83b05baa"
+    },
+    "male/pulldown": {
+      ".blend": "e306e0479ccca8dddd3ca736b362ee1bd20b1aff8c6a1d4459b44c10c46405b7",
+      ".mp4": "bcbe8f397abd69a2665a673d3aff0ad563d1f76eada49191af3c21af2284229c",
+      "-poster.png": "347c032e76e6282d49d93a19addd490e03aa4f6213ba2ff8e861c204776465c6"
+    },
+    "female/pulldown": {
+      ".blend": "851307697bea7e41d5857f3b8d3d149efffb69f13ddc9d4c491f2c6c4fec58c4",
+      ".mp4": "0779fec0439417f5fbcc0dab53a34e69c830a3be97712cfbf3fb3f4a549ea3ea",
+      "-poster.png": "f99e8487a506430c050a34af8366e567ad869b1824831274411471fcdbf9c515"
+    },
+    "male/straight_pulldown": {
+      ".blend": "4aa1680fd838b662859e8cd05982cd1045d40defd3a8eabd0b2240561fcf65fb",
+      ".mp4": "a9e0741c4f8e25b1ca36cb7e81fc2d75328b6d3a8e63d7cc1413550c20305cd1",
+      "-poster.png": "76065e8e4ac578cea6ec8a634022dff3c9db6691d4eaabe42fc7c485c1947ac5"
+    },
+    "female/straight_pulldown": {
+      ".blend": "0b35e874507e1170fe4efebed73046a6a538ca03691c0c478a798b197844ebf6",
+      ".mp4": "2bd360e3d545b9e86bc6823d100f4271f367b80718c65e68ae783cfe2ee1ba29",
+      "-poster.png": "3a859582de2affba1f685b2d256e6cbfbc6270b1726dac43c610584c60935f94"
+    },
+    "male/curl": {
+      ".blend": "b3a3b439ea947352a99f10deebdb672a2156af00e4a096c56460d713edbffc45",
+      ".mp4": "a00e3cd2865d2c1feb3441e899d160991464802a08feaebea762bce80be42a39",
+      "-poster.png": "1c3183cc659d903d1f673a5d9000bb1f30dc56a3cf6b7302bdb2e14ac014005a"
+    },
+    "female/curl": {
+      ".blend": "a492a61ea028e2733140ac525fee8dfa87f0343202d6c0b0b5f749fc9ab08de8",
+      ".mp4": "0bbfb65fca88fdbe4fdb953688f39a1c394a6236839ddfd63099008ee02f8ecb",
+      "-poster.png": "6bc142cbdea277cb5d711403682fb6e9adc37a81b101d7ba929d676de2bfdb27"
+    },
+    "male/leg_press": {
+      ".blend": "d411e85daa2d2513f2d8e4293b463377255ca13508c5dfb3db5f4fbbe4f50e0a",
+      ".mp4": "eb33bf10cdb6981be48231d53a72b040fe905b4f036b9ac621478937d195f8e7",
+      "-poster.png": "01aeed284e583033e57dd2ae910c31e5cf3b0539d3b5f3156cc7d0daabbbaaee"
+    },
+    "female/leg_press": {
+      ".blend": "b26b8dc0e8b2ee83e68b07e67c3be7778baebcf81233919107f94b207ff5111f",
+      ".mp4": "47021e84e48635914789138bff5fadf1b454b7940fb04056705111ba845a5a6a",
+      "-poster.png": "dd04f13a27ba1b9845ed4499cbcf74fe026bdd93e4762e3b9902112ef6c38fba"
+    },
+    "male/rdl": {
+      ".blend": "953595e507e035cad70c3013b754ba15fb393ab30df6449e395a240551d01db2",
+      ".mp4": "dd721805bc73ec625723af3bf36f2e6292036c432476c09e61245f4ba30e3cc6",
+      "-poster.png": "6bbc961e407c341d0241183c57689d2ebfa53a23a0fafa3ded35ca66bbbc059b"
+    },
+    "female/rdl": {
+      ".blend": "d925340c697080a00e73dc5da4fcdcfa81d09eb751243f46343ce0365bb618ef",
+      ".mp4": "be8dc1635a814de40c3091ced8a502e04fa5375254524351a54a8c894b5526c3",
+      "-poster.png": "cebabef8a2a009d02eb9cb535b4624d2780e584a29f8b7f216404ca1cd3eb397"
+    },
+    "male/leg_curl": {
+      ".blend": "1878778bb39948fb7098a975ee351cfa2d6c0dc480eeb98b72c116f46c5fa3da",
+      ".mp4": "c696262241fb1598babb47af7879f6f3b652fb923006e566eb55468376be3269",
+      "-poster.png": "c265ba8e45e336ce2839db31de965bbca98aaa4f90e54e49cad0fba48a836df2"
+    },
+    "female/leg_curl": {
+      ".blend": "3a932a0cff6b4e7b8b8102dfdddebfd42e9fb6cf2e6444a533068926dcfe8d65",
+      ".mp4": "40d91eee8273801c51cd305e17736f5cb8f7a12cad100de45407d1019f36b8cd",
+      "-poster.png": "87ad98eb9f1d490176d45e97a276880e9a8e4817b59c8e096a1258cb4a130696"
+    },
+    "male/leg_extension": {
+      ".blend": "a32c1aa280c4d9878c3a2e725dad715ff80ae36b682637db4f20f07afc0cfa87",
+      ".mp4": "79c4fe3e694456962977b2311331a6262b8e4d8e79fd4d95b7a6493e9c532f93",
+      "-poster.png": "438b44ae6de5f6a501566a72ea6585dc20b11553d81cdf3731234d7fcba561ae"
+    },
+    "female/leg_extension": {
+      ".blend": "666de886beab17eeb84191ec9ec58a6b6901bcf5afb7f0c1013dbdddaeb0faa2",
+      ".mp4": "8b69ca01ff2e65c2f797c362f89926828dbb4cf907a5e3814432b2ff93a2fecc",
+      "-poster.png": "92c5a73be932864c311fc5653bcd88a3e1e4ca16797250dccc40256ab11f1772"
+    },
+    "male/calf_raise": {
+      ".blend": "41f4b795199e758040040fc464097795784f95d6a0de6302666fc0e1541f09c8",
+      ".mp4": "4e66860fa6036c22ff09acc6cecfa4a853bc18956b68dad49a15cfdccf45b58e",
+      "-poster.png": "da06e160bd9982925ed2bba708e0935e97a94d3a892ebda1e2279942a0553e13"
+    },
+    "female/calf_raise": {
+      ".blend": "7f9400b0a80ee12312cba6ff5f3ce7d90757950ac19fb68ff06736a7d8d1d1c2",
+      ".mp4": "1d2f710e474c280806991ba48b857b844ecd81697d13fa8fe159890d81809170",
+      "-poster.png": "97087397f02cf03476d9fe2834744356bea42eaae639271badb6a51c0a307460"
+    },
+    "male/shoulder_press": {
+      ".blend": "d10e7e792fe62620e6c0c0a3a96916c63124681619ac74c6c726a4c8bb4357af",
+      ".mp4": "5ad5486f318697e84a2381ac739ae58828ca02fd99fc3b2e6ffe3ff4a8af77ec",
+      "-poster.png": "f076e3382fe8ebb47d0a21a78355dd9a2a99f88effe8ff8c143cb02a67f9c4b0"
+    },
+    "female/shoulder_press": {
+      ".blend": "9b75116faf638005059383526639f3319044a6ff2ca23dec1f7892b343354547",
+      ".mp4": "77387a3124ce8c0c80a067e5f6834ec8321bb77223701e53167e4c9cf70670d4",
+      "-poster.png": "b0c30b8e41e315850882ddfda7f6182f876f9057dcaa4fa68111d645afeab3a1"
+    },
+    "male/lateral_raise": {
+      ".blend": "f8a1bbcbc31f82d91a127845ef4ea85bd3a8d24b4235c26c433c90c538d7f281",
+      ".mp4": "b1012b700516d65f627c7b81f1271a3f2c2853ddb5d86fa3aecabdc37c84c4f1",
+      "-poster.png": "ed7116096649d4650e7c3525ba4fb24769b19330be546c6c5f22ae2dbfcda7db"
+    },
+    "female/lateral_raise": {
+      ".blend": "3f44e7f1e119cc95691ac0c43971e0004b0760825582c636a9d26c2cb42fa7df",
+      ".mp4": "2c60f946d7a6f19b7f4954cbadf39c5ab2546e77ff5c6bd9a9f012648bb227f1",
+      "-poster.png": "a06730e32fb4f0f82dc56831c7dc73cdd1477883c0524676839f1f4f799f47ff"
+    },
+    "male/reverse_fly": {
+      ".blend": "8ba9c988b66800f0e01adbd7962dcd7e2456394e098ac96f7548b59af8643935",
+      ".mp4": "43d1e162a8585c91786aa8b3c887c03e8638e88f83cbf053c227c1fb79c76c9f",
+      "-poster.png": "0865659af564cf7a35e51f3cbec39bdfb4425dcb4999f0694d139e446a51e573"
+    },
+    "female/reverse_fly": {
+      ".blend": "214e17a67f3fb6f6dcf9ff6dfceabe7865d391e7c8d93371fa31890eee50a834",
+      ".mp4": "94c6dd1236a392895cbaf5e58337b8f3361293c9e8a951766c5fcc45137f51d7",
+      "-poster.png": "2ea88a16a2682703bf4602a1e9d8a1d54c542a3f12f867c893080fb009f6f887"
+    },
+    "male/reverse_crunch": {
+      ".blend": "c76272342c8d72b761fa60588c879ed52782d72028f7362c80a1489d431b1f0b",
+      ".mp4": "efb5e428f28c35224421215fc1882037cc04ff068e227469291bbc620ec9b4bb",
+      "-poster.png": "319266d7259461b31257db8baa4c551a79384bc7001914472b5902e6e9dc854a"
+    },
+    "female/reverse_crunch": {
+      ".blend": "fe77af38f993428714df56eec0fb268fbe6fca1d21cc3f4847e67b256c907529",
+      ".mp4": "cb24718612d5dd1b7b5f701efac8abce1e4fb1b7fa23414ffc1e5e0aaabe67e0",
+      "-poster.png": "11f6c439cf2c070ade05035e27b27111e9973ca758f18e19ef6e61d9bce22f00"
+    },
+    "male/dead_bug": {
+      ".blend": "7592ad334550cb0080a3580df1cd7325c270909087c1043877b6cbfc42eaa3da",
+      ".mp4": "01a75c071c78d49284a8c25cede11410fd6fcd806814c048d70e0255b9402d6d",
+      "-poster.png": "4541308d95a7c71b3f91a0c8b56f1476ec31773e036ce55614a2021f18d5c6e9"
+    },
+    "female/dead_bug": {
+      ".blend": "161475dbc8879fe2de06f3ddc1cc457c0b0343d80ad81e7da301da46c2cd295c",
+      ".mp4": "f2e16eb2b81a568bcafccbd2e5bcac583ab7f052d6ff8dcfcb419448e0388cfc",
+      "-poster.png": "ea13132e899f4583733041aa10a7d07712c1adc4e4d6416216b2ebff0ae72210"
+    },
+    "male/bench": {
+      ".blend": "d85586410704a3806682dbe489761b39e9413e53969d6e56e7c0b8d1a40d61db",
+      ".mp4": "4a82453d05fec004263f1f3713abb5c7e005c5c45f38f0fb36eeb9438955de96",
+      "-poster.png": "f960015ba4486bf0f22e339be5a238806f96806c4b16f914abe32ec791a18a17"
+    },
+    "female/bench": {
+      ".blend": "08affeab6c57f03c379a1d412d31032956bdd91e667c473f84d3ed7d7026ab09",
+      ".mp4": "9f73531cccc3a0e09378a879b549d9636baa595e465739f0781f54002e188d70",
+      "-poster.png": "4cc16be394362066f9803c37042c5cb68e87f93b2146f2bc54bd39c382e7b615"
+    },
+    "male/row": {
+      ".blend": "4e9d0d2e22d5c04978abacd7882f66a76c636372ea2c10372b792f11c8dfdf53",
+      ".mp4": "c00ab2f040c934bd5eacacec6d71b382fd035954076ae65eba28adfe4b775474",
+      "-poster.png": "7069068328bdd221036183640e50f0d2eac8961653ea1b647c599462ee523a7e"
+    },
+    "female/row": {
+      ".blend": "797608dcce35fb9fc8cb8e6a454575a7d3fcf014bc752ed7a05148548840bbec",
+      ".mp4": "37b184dfe25e2c16f0ddead78a1476146224cb57ea790b25ad2b528c21106cd4",
+      "-poster.png": "97668976eadeb6bc2f7a4cc8e57615574ce9c5d34744a6ed25dc0c6e66f1fc67"
+    }
+  }
+}

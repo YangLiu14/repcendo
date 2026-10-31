@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "e6420c4cfbf9ff19d07f71fc02ce6560ef85df2159a51cf31373c2d83d8ce0e7",
+  "sceneSHA256": "c97de3034c011aeb3873400dbb7d419047d398bc9f05fa6e11646ed9d7a49602",
   "frames": [
     1,
     49,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/lateral_front_raise-review.jpg": "5b3da19094b36c705ca4f3b81ddd9f94ae6087f9bfb7b197e422d095482f4c78"
+    "docs/animation-library/female/lateral_front_raise-review.jpg": "3a8a6cf5a47e6499b6a6fb68b9bdeeb6979d0a9b3cefd47686efb0bebb82ca0a"
   }
 }

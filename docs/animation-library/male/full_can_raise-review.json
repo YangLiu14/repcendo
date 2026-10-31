@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "9589837887a396d8997186841a20c754002e537229e5075b5c5dca8315f48b75",
+  "sceneSHA256": "81e84cf80df1c0a680f0785bb2d01221d2aa06d323e44de34dd4aa27126901ac",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已查看主镜头/正侧背/器械可见握持近景四阶段图。抬臂平面位于侧方略向前，顶部拳头拇指端与哑铃轴向上，区别于掌心向下侧举；双脚稳定，肩部未出现明显塌陷或扭折。 结合全帧独立检查验收，保留原雕塑表面细节。",
+  "notes": "实际检查五视角全部关键阶段：肩胛平面抬臂及侧举转前举过程中，肩腋表面连续、前臂不扭瘪，掌向正确；站姿膝部微屈，小腿和踝部自然衔接。",
   "evidence": {
-    "docs/animation-library/male/full_can_raise-review.jpg": "6d06bd703283500e9241625ff56a87127c8008e3fdbf51ca1df1acf777a2104b"
+    "docs/animation-library/male/full_can_raise-review.jpg": "83c467407fd27e81b38b9a3b27350379b54826e88a2c4250c96ea3b483ffea22"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

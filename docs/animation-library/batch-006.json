@@ -1,0 +1,1168 @@
+{
+  "batch": "006",
+  "status": "delivered",
+  "motionCount": 8,
+  "variantCount": 16,
+  "renderedFrames": 1920,
+  "auditedFrames": 1936,
+  "motions": [
+    {
+      "name": "db_kickback",
+      "id": "0333",
+      "title": "站姿双臂俯身臂屈伸",
+      "variants": {
+        "male": {
+          "sceneSHA256": "ed17317518da0f9a5b5a8768f6f4216071a84e869e6f6230617af4b492e94b74",
+          "review": {
+            "sceneSHA256": "ed17317518da0f9a5b5a8768f6f4216071a84e869e6f6230617af4b492e94b74",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "实际查看五视角四阶段及双手外后侧近景：髋铰链与上臂位置固定，双侧由屈肘回收到向后伸直，未用摆动躯干代偿。回收时哑铃与大腿分离，双手指部包握和腕部对齐可见，肩腋没有明显外鼓；原雕塑衣褶和接缝保留。",
+            "evidence": {
+              "docs/animation-library/male/db_kickback-review.jpg": "682675ddf66fd14ea843e00b6543b0c7a9e1e0e38428368352c337f67ee750b1",
+              "docs/animation-library/male/db_kickback-grips.jpg": "1292e03f111fd45c5009d3eedf2aab36043cc175111e59ab9b5d4cdee8085f70"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/male/db_kickback-grips.jpg": "1292e03f111fd45c5009d3eedf2aab36043cc175111e59ab9b5d4cdee8085f70"
+            }
+          },
+          "media": {
+            "sceneSHA256": "ed17317518da0f9a5b5a8768f6f4216071a84e869e6f6230617af4b492e94b74",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "1faa53fc08065994795ac72dea7e245e9c64b81e0481d59e9ff20f17251749b7",
+            "files": {
+              "db_kickback.mp4": "ddf8f2b3708f6cb0224ebdf854f182260fad87de2d5b763ba1d4d228623af6e4",
+              "db_kickback-poster.png": "d1a3ab81475d3eed8f42dc777ff073c31c4ed136d3acf672a907ceeae88cf839"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        },
+        "female": {
+          "sceneSHA256": "b4ff0483072175e6254287162887ae383e9e36b0b04cb75f517a036256ad9a67",
+          "review": {
+            "sceneSHA256": "b4ff0483072175e6254287162887ae383e9e36b0b04cb75f517a036256ad9a67",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已逐帧查看五视角及左右手三帧特写：俯身躯干和上臂稳定，前臂伸展与回收清楚，右侧回程也未穿入大腿；双手握柄、腕部和小腿轮廓自然。",
+            "evidence": {
+              "docs/animation-library/female/db_kickback-review.jpg": "1b8e7fcfcdd446476ff28385345bb9201715913530178cb7db37b8426461d520",
+              "docs/animation-library/female/db_kickback-grips.jpg": "ac9fae39340daca62a571506201012bba3146928c3e2e8a71524687bedb7375a"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/female/db_kickback-grips.jpg": "ac9fae39340daca62a571506201012bba3146928c3e2e8a71524687bedb7375a"
+            }
+          },
+          "media": {
+            "sceneSHA256": "b4ff0483072175e6254287162887ae383e9e36b0b04cb75f517a036256ad9a67",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "1faa53fc08065994795ac72dea7e245e9c64b81e0481d59e9ff20f17251749b7",
+            "files": {
+              "db_kickback.mp4": "4d7c6992efb6d2e616bdee201926c7d3a0907794a09f1eb7b968727307cdb8c0",
+              "db_kickback-poster.png": "8d5f2c026f9b4a669cf7c4cca16d54cdfe6a18ac9d02b4c4fe961f6b346084b4"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "single_kickback",
+      "id": "0354",
+      "title": "站姿单臂俯身臂屈伸",
+      "variants": {
+        "male": {
+          "sceneSHA256": "13d7d65c1b8a84beac1591865876c0da73a70abc936b86706710b456a4c81bba",
+          "review": {
+            "sceneSHA256": "13d7d65c1b8a84beac1591865876c0da73a70abc936b86706710b456a4c81bba",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已查看五视角和左手三个阶段特写：左上臂固定、前臂向后伸展，躯干与双脚保持稳定，右手空载不随动；握柄与手腕连续，哑铃回程避开大腿，小腿形状正常。",
+            "evidence": {
+              "docs/animation-library/male/single_kickback-review.jpg": "b24778fb5cb47e04c972d261e114f45d457ac10464927c63d0ace07afad8fffc",
+              "docs/animation-library/male/single_kickback-grips.jpg": "af039a5ce95748101f281326cf822cf383c40311c7f0e377457c2713213900e5"
+            },
+            "gripSides": [
+              "Left"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/male/single_kickback-grips.jpg": "af039a5ce95748101f281326cf822cf383c40311c7f0e377457c2713213900e5"
+            }
+          },
+          "media": {
+            "sceneSHA256": "13d7d65c1b8a84beac1591865876c0da73a70abc936b86706710b456a4c81bba",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "f1fedf3f58e6d4a8aadfdd3c1cd57757dc8e4a6d5d9fd7ff9245a3086c9b5286",
+            "files": {
+              "single_kickback.mp4": "51630810df0bf3258979bd0850dd7a256bd22b10041885bbe4d042a5b328e644",
+              "single_kickback-poster.png": "6875758b0ce97048dfab362649513840bb6d08bc490f866db1a078165e227d07"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        },
+        "female": {
+          "sceneSHA256": "af08f56b68fe738b8fea5138b8aab486465841cf3f1a3ed33b19f4f8fecddf47",
+          "review": {
+            "sceneSHA256": "af08f56b68fe738b8fea5138b8aab486465841cf3f1a3ed33b19f4f8fecddf47",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "实际查看五视角四阶段和补拍的左手后外侧近景：固定上臂，前臂伸肘向后并回收，俯身躯干及空闲臂稳定。回收时手和哑铃与大腿保持间距，三阶段握持特写不被躯干遮挡，手指包握和腕部连续；原人物衣褶保留。",
+            "evidence": {
+              "docs/animation-library/female/single_kickback-review.jpg": "956e5cd08b38b767d44c6a16dbbd144ca63203f4b34e230a8abe3b6b7caa95e3",
+              "docs/animation-library/female/single_kickback-grips.jpg": "1ffe102de0aa96500d4b329bd2d8f69011417e8684f967f433d4874f9892e686"
+            },
+            "gripSides": [
+              "Left"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/female/single_kickback-grips.jpg": "1ffe102de0aa96500d4b329bd2d8f69011417e8684f967f433d4874f9892e686"
+            }
+          },
+          "media": {
+            "sceneSHA256": "af08f56b68fe738b8fea5138b8aab486465841cf3f1a3ed33b19f4f8fecddf47",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "f1fedf3f58e6d4a8aadfdd3c1cd57757dc8e4a6d5d9fd7ff9245a3086c9b5286",
+            "files": {
+              "single_kickback.mp4": "0a9cdfc5d9d8b5d9912dd65175e32e4ad9242b26056b79277f58e1e13c7b3448",
+              "single_kickback-poster.png": "47cc9eb0678327da094f082e3b7500623ae4e0023ecf2e2f7e52e7ffc9f5b914"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "seated_kickback",
+      "id": "0394",
+      "title": "坐姿双臂俯身臂屈伸",
+      "variants": {
+        "male": {
+          "sceneSHA256": "7a6a2682bf83d15baf3d3a0717f9b89b7b71af96bf6d6f94b38af0df71634252",
+          "review": {
+            "sceneSHA256": "7a6a2682bf83d15baf3d3a0717f9b89b7b71af96bf6d6f94b38af0df71634252",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已查看五视角和双手三帧特写：髋部稳定贴合坐垫，打开的膝盖为双哑铃回程留出空间，上臂固定且双侧前臂同步伸展；手指贴合握柄。主侧视角的纵梁、前后支腿和横脚与已查看的 LBRFB 官方参考结构一致。",
+            "evidence": {
+              "docs/animation-library/male/seated_kickback-review.jpg": "7fb0ce5925931fc00bbef4b02959c973ad616d2b558c54069df4802d413e4657",
+              "docs/animation-library/male/seated_kickback-grips.jpg": "38c8698e59899ba58370e58d88519478da311ccfe2894c890e20a42307423352"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/male/seated_kickback-grips.jpg": "38c8698e59899ba58370e58d88519478da311ccfe2894c890e20a42307423352"
+            },
+            "equipmentViews": [
+              "main",
+              "side"
+            ],
+            "equipmentFrames": [
+              1,
+              31,
+              61
+            ],
+            "equipmentEvidence": {
+              "docs/animation-library/male/seated_kickback-review.jpg": "7fb0ce5925931fc00bbef4b02959c973ad616d2b558c54069df4802d413e4657"
+            }
+          },
+          "media": {
+            "sceneSHA256": "7a6a2682bf83d15baf3d3a0717f9b89b7b71af96bf6d6f94b38af0df71634252",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "1767560bf5f9bd5aaf9b63017480973fbcb4c35b64335ea81c43d4bcf837b2cb",
+            "files": {
+              "seated_kickback.mp4": "34a8263e20481aa69e85eca3a5907131d8a9d12c7898c401c15f417bf954fc5f",
+              "seated_kickback-poster.png": "00c7d94faa9f0bd93990256448c9e4ee4898a41323db5a31a657a556b265b008"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        },
+        "female": {
+          "sceneSHA256": "5a1aa6666593c221f51d5046eb44da6776410b6c582ed6278c747d92329d869b",
+          "review": {
+            "sceneSHA256": "5a1aa6666593c221f51d5046eb44da6776410b6c582ed6278c747d92329d869b",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已查看五视角与左右手握持特写：坐姿髋部得到支撑，膝盖打开后哑铃在膝外运动，上臂固定、前臂完成伸展回程。主视角和侧视角完整显示长坐垫、纵梁、前后支腿和横向底脚，与已查看的 LBRFB 官方照片支撑布局一致。",
+            "evidence": {
+              "docs/animation-library/female/seated_kickback-review.jpg": "cb8b3224ccaf71bb60f597d8dc6d8541b01980e693451616674d9a0fa79e52cb",
+              "docs/animation-library/female/seated_kickback-grips.jpg": "286cbf81c78c9c315379613067ea878c9cc814e62071b900c9064cdb3d162d37"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/female/seated_kickback-grips.jpg": "286cbf81c78c9c315379613067ea878c9cc814e62071b900c9064cdb3d162d37"
+            },
+            "equipmentViews": [
+              "main",
+              "side"
+            ],
+            "equipmentFrames": [
+              1,
+              31,
+              61
+            ],
+            "equipmentEvidence": {
+              "docs/animation-library/female/seated_kickback-review.jpg": "cb8b3224ccaf71bb60f597d8dc6d8541b01980e693451616674d9a0fa79e52cb"
+            }
+          },
+          "media": {
+            "sceneSHA256": "5a1aa6666593c221f51d5046eb44da6776410b6c582ed6278c747d92329d869b",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "1767560bf5f9bd5aaf9b63017480973fbcb4c35b64335ea81c43d4bcf837b2cb",
+            "files": {
+              "seated_kickback.mp4": "68d73c57e6b99d2f2070ab7cfd6d82183ae737e6700e06fc161b3d02ccf22508",
+              "seated_kickback-poster.png": "8fc2299bd6e95df4cbf5d5bf90036d9a4be42966bfdb5036978dfdb618fe8c42"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "seated_single_kickback",
+      "id": "0398",
+      "title": "坐姿单臂俯身臂屈伸",
+      "variants": {
+        "male": {
+          "sceneSHA256": "d10f953eddf522cf6240b6014740bd9680113ff3c4db2620387b1e913cc85fb7",
+          "review": {
+            "sceneSHA256": "d10f953eddf522cf6240b6014740bd9680113ff3c4db2620387b1e913cc85fb7",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已查看五视角和左手三帧特写：左侧负重从屈肘到向后伸直，上臂与躯干保持稳定，空闲右手自然张开并避开小腿；左手握柄与手腕无明显错位。主侧视角所见坐垫、纵梁、前后支腿及横脚与已查看的 LBRFB 官方参考布局一致。",
+            "evidence": {
+              "docs/animation-library/male/seated_single_kickback-review.jpg": "fcbf7a11c3dc70f7d2537278f53a3c43299f6e001b03db8fac6e793df2bcc322",
+              "docs/animation-library/male/seated_single_kickback-grips.jpg": "90cb5fd1db26385512d849e13860e403fe0cd47afd974da20043033df53fe60e"
+            },
+            "gripSides": [
+              "Left"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/male/seated_single_kickback-grips.jpg": "90cb5fd1db26385512d849e13860e403fe0cd47afd974da20043033df53fe60e"
+            },
+            "equipmentViews": [
+              "main",
+              "side"
+            ],
+            "equipmentFrames": [
+              1,
+              31,
+              61
+            ],
+            "equipmentEvidence": {
+              "docs/animation-library/male/seated_single_kickback-review.jpg": "fcbf7a11c3dc70f7d2537278f53a3c43299f6e001b03db8fac6e793df2bcc322"
+            }
+          },
+          "media": {
+            "sceneSHA256": "d10f953eddf522cf6240b6014740bd9680113ff3c4db2620387b1e913cc85fb7",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "31ce47559da32ad0232a8f8bca85e2f3456c26414ca8ffed27c6c3f6755320ab",
+            "files": {
+              "seated_single_kickback.mp4": "6508a28d94072925823ace2a4e0f003ff0990bc6ca48394c4827ae9ef61008f9",
+              "seated_single_kickback-poster.png": "5b36e0d4aa96bfa56c839996c56430afb159df38ae3ed6ff4a7968f4b02cc05e"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        },
+        "female": {
+          "sceneSHA256": "432d31bb12f7d5c87586251ab362b1c7faefb401daef295ed216dea2857745cd",
+          "review": {
+            "sceneSHA256": "432d31bb12f7d5c87586251ab362b1c7faefb401daef295ed216dea2857745cd",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已实际查看五视角和左手三帧特写：只有左臂负重，右手张开且保持稳定；膝外回程、伸展末端和手腕衔接清楚，没有大腿穿插。主侧视角所见长坐垫、纵梁、前后支腿与横脚符合已查看的 LBRFB 官方参考结构。",
+            "evidence": {
+              "docs/animation-library/female/seated_single_kickback-review.jpg": "4b99e345da9afb1974b2573e2286196f385a44377fd0448bbed6bfc21f99b501",
+              "docs/animation-library/female/seated_single_kickback-grips.jpg": "3a5915f0f526a5cbf7f3fa4c3c4a1b7dbc9d8df53118430d979ff289e9be4c02"
+            },
+            "gripSides": [
+              "Left"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/female/seated_single_kickback-grips.jpg": "3a5915f0f526a5cbf7f3fa4c3c4a1b7dbc9d8df53118430d979ff289e9be4c02"
+            },
+            "equipmentViews": [
+              "main",
+              "side"
+            ],
+            "equipmentFrames": [
+              1,
+              31,
+              61
+            ],
+            "equipmentEvidence": {
+              "docs/animation-library/female/seated_single_kickback-review.jpg": "4b99e345da9afb1974b2573e2286196f385a44377fd0448bbed6bfc21f99b501"
+            }
+          },
+          "media": {
+            "sceneSHA256": "432d31bb12f7d5c87586251ab362b1c7faefb401daef295ed216dea2857745cd",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "31ce47559da32ad0232a8f8bca85e2f3456c26414ca8ffed27c6c3f6755320ab",
+            "files": {
+              "seated_single_kickback.mp4": "87f3912616a463a34b93d2dc9bf0b9f2eed77aa8e332410bf3429299cec3b6ca",
+              "seated_single_kickback-poster.png": "de6c207e2549c202eeb9c185e86d9b39710db987947ddf21c46d9c9708f9c836"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "seated_bent_lateral_raise",
+      "id": "2317",
+      "title": "坐姿屈臂侧平举",
+      "variants": {
+        "male": {
+          "sceneSHA256": "a27f75e4e84e564d33a40fc2b80a6f7a3829434c9aebff37ca662079f1e2855a",
+          "review": {
+            "sceneSHA256": "a27f75e4e84e564d33a40fc2b80a6f7a3829434c9aebff37ca662079f1e2855a",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已查看五视角和左右手三帧特写：屈肘角度保持稳定，上臂侧举到肩高，肩肘与腕部轮廓正常，双脚和坐姿稳定。主侧视角完整呈现平凳长坐垫、纵梁、前后支腿和横脚，与已查看的 LBRFB 官方照片支撑布局一致。",
+            "evidence": {
+              "docs/animation-library/male/seated_bent_lateral_raise-review.jpg": "ee025630d93bfb9dfa421374ba8e7425b8ea37534949f68702a0f6a3d89b5b77",
+              "docs/animation-library/male/seated_bent_lateral_raise-grips.jpg": "8b78280755e53f58c3dcbcdc2f4007c46ef39e50b78bd813873f03b26b981aca"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/male/seated_bent_lateral_raise-grips.jpg": "8b78280755e53f58c3dcbcdc2f4007c46ef39e50b78bd813873f03b26b981aca"
+            },
+            "equipmentViews": [
+              "main",
+              "side"
+            ],
+            "equipmentFrames": [
+              1,
+              31,
+              61
+            ],
+            "equipmentEvidence": {
+              "docs/animation-library/male/seated_bent_lateral_raise-review.jpg": "ee025630d93bfb9dfa421374ba8e7425b8ea37534949f68702a0f6a3d89b5b77"
+            }
+          },
+          "media": {
+            "sceneSHA256": "a27f75e4e84e564d33a40fc2b80a6f7a3829434c9aebff37ca662079f1e2855a",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "64d6a953834878faf309e1e844e74a5103d95ba0072bc7842c54a4263f2bc972",
+            "files": {
+              "seated_bent_lateral_raise.mp4": "03998761dfb2c1afeefd53f9c48103d5c5ba0cf7d6d0d2527e6158db6262bf82",
+              "seated_bent_lateral_raise-poster.png": "54e073e1fa6df33d405971ea5fc42f0092f6df7c98b44c37a2856601d3af626d"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        },
+        "female": {
+          "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+          "review": {
+            "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "实际查看五视角四阶段和双手近景：坐姿稳定、肘维持直角、上臂从两侧抬至肩高，手腕及指部握持连续。主侧图与官方 LBR-FB 照片比较，长垫下纵梁及前后支腿/横脚完整，臀部承托和足底着地；简化配色与尺寸，无厂家标识。",
+            "evidence": {
+              "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "d3bcc845ea5090e6014d57aebb97f498a06eeb911fbd283035d6d4726ffdbef1",
+              "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "897256b4ba990af9b5c23d075d103248b97d7d26fea761aa74d26b06d1c8d671"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "897256b4ba990af9b5c23d075d103248b97d7d26fea761aa74d26b06d1c8d671"
+            },
+            "equipmentViews": [
+              "main",
+              "side"
+            ],
+            "equipmentFrames": [
+              1,
+              31,
+              61
+            ],
+            "equipmentEvidence": {
+              "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "d3bcc845ea5090e6014d57aebb97f498a06eeb911fbd283035d6d4726ffdbef1"
+            }
+          },
+          "media": {
+            "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "64d6a953834878faf309e1e844e74a5103d95ba0072bc7842c54a4263f2bc972",
+            "files": {
+              "seated_bent_lateral_raise.mp4": "c7eeaa8eb3c7c3174f44c6bfe0a8af72236f8ae82d1c9848604400a735e93c2e",
+              "seated_bent_lateral_raise-poster.png": "9fabbc434c96e271147ea602a040f34cc438b1f61027562994a6d00787dc5b2e"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "overhead_front_raise",
+      "id": "0419",
+      "title": "站姿哑铃过顶前平举",
+      "variants": {
+        "male": {
+          "sceneSHA256": "bd5220e376d13ff033a95ff08b295046b2515d8ddbf9c70f709657c874d0a6f1",
+          "review": {
+            "sceneSHA256": "bd5220e376d13ff033a95ff08b295046b2515d8ddbf9c70f709657c874d0a6f1",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已查看五视角和双手三阶段特写：双臂从体前经过肩高再举至头顶，肩胛随抬举转动，躯干没有后仰代偿；过顶手腕、握柄及肩部轮廓连续，下肢全程稳定。",
+            "evidence": {
+              "docs/animation-library/male/overhead_front_raise-review.jpg": "d46deaa2a7f82a1bb49e24de69f4d02142a8dbf929ae3dc7fcdc4621bb9001d6",
+              "docs/animation-library/male/overhead_front_raise-grips.jpg": "bfe659e00d2245f488702db033dd1e764de0f2a8378ee887e41260dcd2eddfec"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/male/overhead_front_raise-grips.jpg": "bfe659e00d2245f488702db033dd1e764de0f2a8378ee887e41260dcd2eddfec"
+            }
+          },
+          "media": {
+            "sceneSHA256": "bd5220e376d13ff033a95ff08b295046b2515d8ddbf9c70f709657c874d0a6f1",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "6e7d8fdcb89336d54dda4299dd9b54f680b686001e83730d4f94d0555e2cd34f",
+            "files": {
+              "overhead_front_raise.mp4": "2924551e10e0c9779e5cf8d5e0a96a182f89965825c287bbd0ea0d2c6a802627",
+              "overhead_front_raise-poster.png": "44c8bbb0ea7759188c3161245403048525ecc2371b0253fd4f346501131195a9"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        },
+        "female": {
+          "sceneSHA256": "7265f378c243d026ebe081b2b01cdc5178a804cae7eab72a2ba86658353b9781",
+          "review": {
+            "sceneSHA256": "7265f378c243d026ebe081b2b01cdc5178a804cae7eab72a2ba86658353b9781",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "实际查看五视角四阶段与左右手三阶段近景：身前抬臂到过顶，双肘轻屈且腕前臂对齐；肩腋无原先侧胸鼓包，站姿及足底稳定，小腿轮廓自然。双手包握刚性对称哑铃，表面衣褶保留。",
+            "evidence": {
+              "docs/animation-library/female/overhead_front_raise-review.jpg": "2c960b1da0077451768d5aeaf79debc6be0ff4eb8322a84ddc604a8f468b9025",
+              "docs/animation-library/female/overhead_front_raise-grips.jpg": "7c90d1dbbf8547019be4fb7af1806635fb22ba1fa79b12e9bd1fadb0dd8e9ace"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/female/overhead_front_raise-grips.jpg": "7c90d1dbbf8547019be4fb7af1806635fb22ba1fa79b12e9bd1fadb0dd8e9ace"
+            }
+          },
+          "media": {
+            "sceneSHA256": "7265f378c243d026ebe081b2b01cdc5178a804cae7eab72a2ba86658353b9781",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "6e7d8fdcb89336d54dda4299dd9b54f680b686001e83730d4f94d0555e2cd34f",
+            "files": {
+              "overhead_front_raise.mp4": "88c823f450df90eac761a41bf16df1dda19292cb9cb617096e7fa53ce4e60cd2",
+              "overhead_front_raise-poster.png": "101c19778cf28d9544c85054c217b352a5dbfbee43572a0e1c013105933cb93f"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "db_upright_row",
+      "id": "0437",
+      "title": "双臂哑铃直立划船",
+      "variants": {
+        "male": {
+          "sceneSHA256": "b79fd01f5f82ee20538f7e78d3405a8ac3bf32231e4e2a9855bc1e8ffb79cffe",
+          "review": {
+            "sceneSHA256": "b79fd01f5f82ee20538f7e78d3405a8ac3bf32231e4e2a9855bc1e8ffb79cffe",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已查看五视角和双手起始、中段、峰值特写：双肘领起并高于手腕，峰值肘部没有折叠穿插，躯干直立且足部稳定；双手始终贴合握柄，左右负重对称。",
+            "evidence": {
+              "docs/animation-library/male/db_upright_row-review.jpg": "62ab4d8f0a81ba287ba9f82b3a649d89005b5cebcefd36e65a03ecdbc5b13d1e",
+              "docs/animation-library/male/db_upright_row-grips.jpg": "099c1b70b3db75f422a58861b15d29cc0e29c37489bde299c91e56dc196ee4af"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/male/db_upright_row-grips.jpg": "099c1b70b3db75f422a58861b15d29cc0e29c37489bde299c91e56dc196ee4af"
+            }
+          },
+          "media": {
+            "sceneSHA256": "b79fd01f5f82ee20538f7e78d3405a8ac3bf32231e4e2a9855bc1e8ffb79cffe",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "084d2f21f499bf3abf36206628cbd3997b56ae070a0c097b71330d4cdf662d09",
+            "files": {
+              "db_upright_row.mp4": "7a922f611e7a2158449750c36c806d1b5936becf7ac1b75792092a107f2b9f05",
+              "db_upright_row-poster.png": "82a88ef30cf7eca86e84ff5c0de7ee382f4d27efce0115e59e9e22d9afa542f2"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        },
+        "female": {
+          "sceneSHA256": "5093eb23aedb57f2824bd4f62c71de6afadf391d0a32a6744c9f4f5d0988ea09",
+          "review": {
+            "sceneSHA256": "5093eb23aedb57f2824bd4f62c71de6afadf391d0a32a6744c9f4f5d0988ea09",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "实际查看五视角四阶段及左右手三阶段近景：双侧肘引导上提，手腕位于肘下方，握柄沿身前移动；起落时躯干和足底稳定，肘窝无早期相交，肩腋形体连续。两哑铃均为固定握柄与对称端部结构，五指包覆可见。",
+            "evidence": {
+              "docs/animation-library/female/db_upright_row-review.jpg": "4a26d5d2967f13524b1aa4b66c32c8910b340b689fe9ed603847c492239760be",
+              "docs/animation-library/female/db_upright_row-grips.jpg": "4f6f208b5df2b88e3c199c6920cb2639a09651d40c581ec9cb2c377a303c70a2"
+            },
+            "gripSides": [
+              "Left",
+              "Right"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/female/db_upright_row-grips.jpg": "4f6f208b5df2b88e3c199c6920cb2639a09651d40c581ec9cb2c377a303c70a2"
+            }
+          },
+          "media": {
+            "sceneSHA256": "5093eb23aedb57f2824bd4f62c71de6afadf391d0a32a6744c9f4f5d0988ea09",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "084d2f21f499bf3abf36206628cbd3997b56ae070a0c097b71330d4cdf662d09",
+            "files": {
+              "db_upright_row.mp4": "6565b8e4b1b4e9dd9f4dbb8ec0cc4201fa552192e7434980408711c8e89f3ee1",
+              "db_upright_row-poster.png": "b6dd21ab5242ea5e7747bdb10c85a32624cd997b6592782c82fcdd0408abd87f"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "single_upright_row",
+      "id": "0363",
+      "title": "单臂哑铃直立划船",
+      "variants": {
+        "male": {
+          "sceneSHA256": "40fb8abe5c3ce82b64e6e8d9ba11b55a0ed768db093e49fbb58f8324f3d50aab",
+          "review": {
+            "sceneSHA256": "40fb8abe5c3ce82b64e6e8d9ba11b55a0ed768db093e49fbb58f8324f3d50aab",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "已查看五视角和左手三阶段特写：单侧肘部领起且高于手腕，肩肘连接没有明显夹折，空闲右臂和身体保持稳定；左手持续握柄，没有附加右侧负重。",
+            "evidence": {
+              "docs/animation-library/male/single_upright_row-review.jpg": "1c8ba9627fe4b8e4f8514e91450c4ff9958be53629d9dbee9fccdeaf0eb8ca83",
+              "docs/animation-library/male/single_upright_row-grips.jpg": "7d70885fc27cf7ccdf743dcc4171e53dbdd680c81401433be9bbf0935c0e0f64"
+            },
+            "gripSides": [
+              "Left"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/male/single_upright_row-grips.jpg": "7d70885fc27cf7ccdf743dcc4171e53dbdd680c81401433be9bbf0935c0e0f64"
+            }
+          },
+          "media": {
+            "sceneSHA256": "40fb8abe5c3ce82b64e6e8d9ba11b55a0ed768db093e49fbb58f8324f3d50aab",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "0f7adea6d07890ca49ab24f3d7c0a437e1e5d653402ffbf2b63346792c39abaf",
+            "files": {
+              "single_upright_row.mp4": "f8997b3cf7c3ad3edb1e8164d523bd08b5e10f3e51e60c56d842c440b348727e",
+              "single_upright_row-poster.png": "37c3a3de76fb2e1b53d661beec4d544ae76fe3d3f18a43d6c567191462fc7dcd"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        },
+        "female": {
+          "sceneSHA256": "f5bfd5669efddfa548eb4a38328748f334c2538a4a7e3824812ee8309beaf52f",
+          "review": {
+            "sceneSHA256": "f5bfd5669efddfa548eb4a38328748f334c2538a4a7e3824812ee8309beaf52f",
+            "frames": [
+              1,
+              31,
+              61,
+              91
+            ],
+            "views": [
+              "main",
+              "front",
+              "side",
+              "back",
+              "grip"
+            ],
+            "status": "accepted",
+            "notes": "实际查看五视角与左手三阶段近景：仅左臂负重，右臂张手放松且不随动；肘引导哑铃沿身前上提，手腕与前臂连续，肘窝无早期挤压穿插。小腿和静立膝角自然，刚性哑铃握持完整，完成后换侧文案匹配单臂演示。",
+            "evidence": {
+              "docs/animation-library/female/single_upright_row-review.jpg": "145fa027bf64a6f3fa654f6630fdcbab1121e7a9c98f19f9945483957208e36d",
+              "docs/animation-library/female/single_upright_row-grips.jpg": "37be8a2c5363ffe916c0b7bf362e42eff38b661309bd1ccc5e93f57752203a2d"
+            },
+            "gripSides": [
+              "Left"
+            ],
+            "gripFrames": [
+              1,
+              31,
+              61
+            ],
+            "gripEvidence": {
+              "docs/animation-library/female/single_upright_row-grips.jpg": "37be8a2c5363ffe916c0b7bf362e42eff38b661309bd1ccc5e93f57752203a2d"
+            }
+          },
+          "media": {
+            "sceneSHA256": "f5bfd5669efddfa548eb4a38328748f334c2538a4a7e3824812ee8309beaf52f",
+            "validatorSHA256": {
+              "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+              "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+              "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+              "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+              "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+            },
+            "specificationSHA256": "0f7adea6d07890ca49ab24f3d7c0a437e1e5d653402ffbf2b63346792c39abaf",
+            "files": {
+              "single_upright_row.mp4": "42446e2af374ed80bc0cb854daf3cf79af8348e6ffb323e9d559725e6f29c32f",
+              "single_upright_row-poster.png": "8dc9538c33818ce202d087d5ff022e1d2c8779f4059d6c6dfb13b46aa2d4bd35"
+            },
+            "mediaValidation": {
+              "decoded": true,
+              "frames": 120,
+              "clippedFrames": [],
+              "codec": "h264",
+              "width": 1280,
+              "height": 960,
+              "fps": 24
+            }
+          }
+        }
+      }
+    }
+  ],
+  "validation": {
+    "positiveSceneControls": 16,
+    "rejectedIncorrectScenes": 7,
+    "libraryGateDeliveryConcurrencyTests": 15,
+    "characterBaselineRegressions": 7,
+    "collisionToleranceMM": 2,
+    "existingCatalogEntriesPreserved": 56,
+    "existingMediaFilesPreserved": 224,
+    "sourceResourceFiles": 257,
+    "builtResourceFilesVerified": 257,
+    "appBuild": "succeeded",
+    "servedVideosVerified": 16,
+    "browserPlayback": "unavailable: cua getTab returned browser.user is unavailable",
+    "previewPage": {
+      "servedPageMatchesSource": true,
+      "batch006Cards": 8,
+      "allBatchCards": 44,
+      "browserPlayback": "unavailable: cua getTab returned browser.user is unavailable",
+      "checkedVia": "HTTP bytes and generated HTML, not browser playback"
+    }
+  },
+  "totalLibrary": {
+    "required": 1324,
+    "bundled": 64,
+    "videoCount": 128,
+    "currentChecksPassed": 63,
+    "legacyReviewRequired": 1,
+    "notImplemented": 1260
+  },
+  "servedSHA256": {
+    "animation-library/male/db_kickback.mp4": "ddf8f2b3708f6cb0224ebdf854f182260fad87de2d5b763ba1d4d228623af6e4",
+    "animation-library/female/db_kickback.mp4": "4d7c6992efb6d2e616bdee201926c7d3a0907794a09f1eb7b968727307cdb8c0",
+    "animation-library/male/single_kickback.mp4": "51630810df0bf3258979bd0850dd7a256bd22b10041885bbe4d042a5b328e644",
+    "animation-library/female/single_kickback.mp4": "0a9cdfc5d9d8b5d9912dd65175e32e4ad9242b26056b79277f58e1e13c7b3448",
+    "animation-library/male/seated_kickback.mp4": "34a8263e20481aa69e85eca3a5907131d8a9d12c7898c401c15f417bf954fc5f",
+    "animation-library/female/seated_kickback.mp4": "68d73c57e6b99d2f2070ab7cfd6d82183ae737e6700e06fc161b3d02ccf22508",
+    "animation-library/male/seated_single_kickback.mp4": "6508a28d94072925823ace2a4e0f003ff0990bc6ca48394c4827ae9ef61008f9",
+    "animation-library/female/seated_single_kickback.mp4": "87f3912616a463a34b93d2dc9bf0b9f2eed77aa8e332410bf3429299cec3b6ca",
+    "animation-library/male/seated_bent_lateral_raise.mp4": "03998761dfb2c1afeefd53f9c48103d5c5ba0cf7d6d0d2527e6158db6262bf82",
+    "animation-library/female/seated_bent_lateral_raise.mp4": "c7eeaa8eb3c7c3174f44c6bfe0a8af72236f8ae82d1c9848604400a735e93c2e",
+    "animation-library/male/overhead_front_raise.mp4": "2924551e10e0c9779e5cf8d5e0a96a182f89965825c287bbd0ea0d2c6a802627",
+    "animation-library/female/overhead_front_raise.mp4": "88c823f450df90eac761a41bf16df1dda19292cb9cb617096e7fa53ce4e60cd2",
+    "animation-library/male/db_upright_row.mp4": "7a922f611e7a2158449750c36c806d1b5936becf7ac1b75792092a107f2b9f05",
+    "animation-library/female/db_upright_row.mp4": "6565b8e4b1b4e9dd9f4dbb8ec0cc4201fa552192e7434980408711c8e89f3ee1",
+    "animation-library/male/single_upright_row.mp4": "f8997b3cf7c3ad3edb1e8164d523bd08b5e10f3e51e60c56d842c440b348727e",
+    "animation-library/female/single_upright_row.mp4": "42446e2af374ed80bc0cb854daf3cf79af8348e6ffb323e9d559725e6f29c32f"
+  },
+  "equipmentReferenceSHA256": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38",
+  "laterRevisions": [
+    {
+      "record": "active-side-camera.json",
+      "scope": "Unilateral variants only",
+      "reason": "Working arm must face the main camera; historical receipts above retained"
+    },
+    {
+      "record": "upright-row-repair.json",
+      "scope": "0437 and 0363, both sexes",
+      "reason": "Human-reference shoulder-height motion revision and reference publication gate; old receipts retained as historical evidence"
+    }
+  ]
+}

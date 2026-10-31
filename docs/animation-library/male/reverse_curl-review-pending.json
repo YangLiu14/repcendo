@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "e14ad39277945f0f19e8b8a745b79db41ea0fcbee58c12cab857c289919fccd6",
+  "sceneSHA256": "972f227d04a975854a33c67e828c881de228b18ee9b7751d42e96042c59165bd",
   "frames": [
     1,
     31,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/male/reverse_curl-review.jpg": "21b7234d5ec50c588a9c1f9346a4840b4d6e6bfad1bae7bbb972e75b6fde6d66"
+    "docs/animation-library/male/reverse_curl-review.jpg": "1bcd2d4b50ea6ff0cbf9c1e8055561216a5a568eac2beee6809e2135122b259b"
   }
 }

@@ -1,14 +1,15 @@
 {
-  "sceneSHA256": "e14ad39277945f0f19e8b8a745b79db41ea0fcbee58c12cab857c289919fccd6",
+  "sceneSHA256": "972f227d04a975854a33c67e828c881de228b18ee9b7751d42e96042c59165bd",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
     "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
   },
+  "specificationSHA256": "75f040b6032e29595383541522a2bdeda99072c2af7175938659daf26d391537",
   "files": {
-    "reverse_curl.mp4": "ee1f28892926ac3e42c7b583764bf9769221c18186f4be7d4956cbe2b83d4fc9",
-    "reverse_curl-poster.png": "de2b44df676901df13a86440027a8d77b2dbab2588814e54a7c262cafd0e9cd9"
+    "reverse_curl.mp4": "fd230dc5b06b1ab0da353c01eb59491aa8116405bcf3876d1c609e30361a3e23",
+    "reverse_curl-poster.png": "992a0db10556d12fdc27844926b0590fd8c32077348277ffa75ba7e80990f51f"
   },
   "mediaValidation": {
     "decoded": true,

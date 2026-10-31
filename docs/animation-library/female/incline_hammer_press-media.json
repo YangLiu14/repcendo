@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "0b96d0c755e6cf48d91d092eee5254f548895d8188596bc355e65fff10c1cf23",
+  "sceneSHA256": "e693bac9801619ea032373ff680a58859e78a42509cb118c4f16cef3bfdbf350",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "530c31fa87968bcefe011d617d43e30b7fcd6168da78b4c5cb74f791e375c1f3",
   "files": {
-    "incline_hammer_press.mp4": "7d6ad9dda56cf5d3f0d98b534f13e697355d63a0c2e32c94451351b27df38681",
-    "incline_hammer_press-poster.png": "d271ee82a571b36876e4d0f9152befb4867694c935d9dd4b62a3b790141a236b"
+    "incline_hammer_press.mp4": "912629310bbbf463233ec8c4b419ee143f3e38f3c1dfc133d3e236e2756862e1",
+    "incline_hammer_press-poster.png": "7ee224109405a0edf3e3725985b61d8fa6a1186aa37cb3e809eab87cbbcbdb36"
   },
   "mediaValidation": {
     "decoded": true,

@@ -59,6 +59,11 @@ def main():
     if not names:
         p.error("No authored motions in this batch")
     root = a.root.resolve()
+    # Fail the whole batch before starting any bake if a reference is missing.
+    if a.stage == 'bake' and not a.dry_run:
+        from motion_reference_gate import load_reference
+        for name in names:
+            load_reference(name)
     logdir = root/"build/animation-library/logs"
     logdir.mkdir(parents=True,exist_ok=True)
     if a.stage in ["sync","page"]:
@@ -84,6 +89,12 @@ def main():
                 commands = [[*prefix,str(Path(__file__).with_name(script)),"--",a.stage,"--sex",sex,"--exercise",name,"--root",str(root)]]
                 if a.stage == "audit":
                     commands[0].extend(["--frames",a.frames])
+            if a.stage == "audit" and a.frames == "all" and LIBRARY_EXERCISES[name].get("unilateral"):
+                commands.append([*prefix,str(Path(__file__).with_name("active_side_camera.py")),"--","audit","--sex",sex,"--exercise",name,"--root",str(root)])
+            if a.stage == 'audit' and a.frames == 'all':
+                from motion_reference_gate import requires_audit
+                if requires_audit(sex, name, root):
+                    commands.append([*prefix,str(Path(__file__).with_name('motion_reference_gate.py')),'--','--sex',sex,'--exercise',name,'--root',str(root)])
             for index,command in enumerate(commands):
                 if a.dry_run:
                     print(" ".join(command))

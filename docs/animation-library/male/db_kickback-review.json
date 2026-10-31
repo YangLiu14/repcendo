@@ -1,0 +1,34 @@
+{
+  "sceneSHA256": "ed17317518da0f9a5b5a8768f6f4216071a84e869e6f6230617af4b492e94b74",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看五视角四阶段及双手外后侧近景：髋铰链与上臂位置固定，双侧由屈肘回收到向后伸直，未用摆动躯干代偿。回收时哑铃与大腿分离，双手指部包握和腕部对齐可见，肩腋没有明显外鼓；原雕塑衣褶和接缝保留。",
+  "evidence": {
+    "docs/animation-library/male/db_kickback-review.jpg": "682675ddf66fd14ea843e00b6543b0c7a9e1e0e38428368352c337f67ee750b1",
+    "docs/animation-library/male/db_kickback-grips.jpg": "1292e03f111fd45c5009d3eedf2aab36043cc175111e59ab9b5d4cdee8085f70"
+  },
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/db_kickback-grips.jpg": "1292e03f111fd45c5009d3eedf2aab36043cc175111e59ab9b5d4cdee8085f70"
+  }
+}

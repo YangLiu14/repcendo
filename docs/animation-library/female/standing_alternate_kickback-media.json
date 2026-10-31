@@ -1,0 +1,24 @@
+{
+  "sceneSHA256": "c89b5109e8a000afce695292aa4e6f588730771fe007615b1fbdb34abfc2e6ec",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v7.py": "7733a32b3647493c8c9540cacf3781bba265bf47801d572f4333f69eb23bc2b3",
+    "library_scene_v7.py": "dac5924e1262a47f630ef802e1cc8de893f8a000a51e0a983aa6be107b122f92",
+    "equipment-reference": "eaa942874ea0efca5ef520247f7a3b4de985446b6259ae75a4ea3499c18f43ff"
+  },
+  "specificationSHA256": "4722358dc00ff5e25e5f854ec9dd146159451333aeef826a93eab152a332b9d7",
+  "files": {
+    "standing_alternate_kickback.mp4": "9b83927e4526ea5471d51d61225672a6db47da42d67944e7131862e7c6f7498a",
+    "standing_alternate_kickback-poster.png": "e5a10bbb5fa0176882d51a801d260f9dc8d3e87a7cd4cd0da01700e1c46ee001"
+  },
+  "mediaValidation": {
+    "decoded": true,
+    "frames": 192,
+    "clippedFrames": [],
+    "codec": "h264",
+    "width": 1280,
+    "height": 960,
+    "fps": 24
+  }
+}

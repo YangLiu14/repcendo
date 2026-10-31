@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "e38c5f63bddf13b393c1b0368310934538b0e9b81552161affaf2dc75e123f1a",
+  "sceneSHA256": "17f92eb046da4a7268ec4842c05fe98a7c87b63bfa720b4d71a94a86456ddb64",
   "frames": [
     1,
     31,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/male/neutral_bench_press-review.jpg": "f2d73d626c94f72fb0c4c46104ae4cdb7c54aabd3005ac1d011cec45643d0270"
+    "docs/animation-library/male/neutral_bench_press-review.jpg": "9f0247c4c97b138eace7402757b22c5d6582a99ce52c8af3a99308669fb1347f"
   }
 }

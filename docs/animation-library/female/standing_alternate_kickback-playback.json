@@ -1,0 +1,12 @@
+{
+  "status": "accepted",
+  "reviewer": "Codex actual visual inspection",
+  "videoSHA256": "9b83927e4526ea5471d51d61225672a6db47da42d67944e7131862e7c6f7498a",
+  "evidence": {
+    "file": "standing_alternate_kickback-playback.jpg",
+    "sha256": "35f92ca2365d3338544c8748cf7a880821d91f424d9c5ca1070411d3ec7131fb"
+  },
+  "sampleRate": 3,
+  "sampleCount": 24,
+  "notes": "Reviewed both halves of encoded eight-second loop: one complete extension/return per side, waiting arm bent, stable torso and feet; far upper arm partly occluded in main camera, checked in separate side/back evidence. Titles, muscle panel and four phase indicators visible."
+}

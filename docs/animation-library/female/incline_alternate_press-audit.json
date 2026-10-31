@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "d0a37fb5e81ba53e4b43b6463c5e7adae26fa6823f8c40c42f2ccc54187911e1",
+  "sceneSHA256": "f52509bab1fe30c2824740f01db8b16f986bb34d0cfe276cfec26a37bedac1ea",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -420,10 +420,10 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.49388743725043655,
-        "max_p95": 2.364136742734092,
-        "compressed_frame": 49,
-        "stretched_frame": 49
+        "min_p05": 0.3987768650669042,
+        "max_p95": 1.7671936871012126,
+        "compressed_frame": 47,
+        "stretched_frame": 48
       },
       "LeftForeArm": {
         "min_p05": 0.7376775143579295,
@@ -438,8 +438,8 @@
         "stretched_frame": 1
       },
       "LeftLeg": {
-        "min_p05": 0.7782803896099415,
-        "max_p95": 1.1489946056782567,
+        "min_p05": 0.7772169978231459,
+        "max_p95": 1.1448250862501586,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
@@ -450,10 +450,10 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.49101195627637495,
-        "max_p95": 2.354385628114664,
-        "compressed_frame": 143,
-        "stretched_frame": 145
+        "min_p05": 0.4526427741881524,
+        "max_p95": 1.7968085741052346,
+        "compressed_frame": 145,
+        "stretched_frame": 146
       },
       "RightForeArm": {
         "min_p05": 0.7598600900004954,
@@ -468,8 +468,8 @@
         "stretched_frame": 1
       },
       "RightLeg": {
-        "min_p05": 0.8256093727897894,
-        "max_p95": 1.293580595243868,
+        "min_p05": 0.8255371262554941,
+        "max_p95": 1.287814195362126,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
@@ -480,9 +480,19 @@
         "stretched_frame": 1
       }
     },
-    "surface_alerts": [],
+    "surface_alerts": [
+      {
+        "region": "LeftArm",
+        "min_p05": 0.3987768650669042,
+        "max_p95": 1.7671936871012126,
+        "compressed_frame": 47,
+        "stretched_frame": 48
+      }
+    ],
     "review_frames": [
       1,
+      47,
+      48,
       49,
       97,
       145

@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "05903588a064faefcc6661926969b905f694e203cd0a6147d07a8d0bef13ed11",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/single_curl-review.jpg": "a632bbf8c51286120cb90525b3a2ab6ea4e038bdfbb0b9fec327b023234ffd3d"
+  }
+}

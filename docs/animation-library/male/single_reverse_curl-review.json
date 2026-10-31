@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "c810f284a10528ad0d7602419d6f0a565044a862a830ada9d246391c59706be3",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看五视角：主镜头中负重左手位于近侧，反握手背朝向及前臂上举全过程可辨，肘部不藏在躯干后；峰值与回程的手腕、哑铃姿态清楚，空闲手保持稳定。",
+  "evidence": {
+    "docs/animation-library/male/single_reverse_curl-review.jpg": "36a026633c582eb858534bd94bfdc1541de33a95c1d8ab5fef5343c09341c76e"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/male/single_reverse_curl-review.jpg": "36a026633c582eb858534bd94bfdc1541de33a95c1d8ab5fef5343c09341c76e"
+  }
+}

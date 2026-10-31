@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "600d71099cee804d2f83a9244978a5fcc36a54a388a0ec4212b01a3c70994bf1",
+  "sceneSHA256": "9ce94cda10c2574dda634a7a2329196ee9c3cb4b702bff67f6c9c53e13570168",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "46cea600ed7d6096e3aea8f87aa349d81b5c923062843580979bc6972f36e4bb",
   "files": {
-    "seated_alternate_press.mp4": "8fb7de493f35afb24ad300b48254bad1dd0c1eb4661587e9466f4dbfe3641aca",
-    "seated_alternate_press-poster.png": "ca0804c8a8759453c93fb60d6a65b9cae81a2ecc09c2079a8335fb2809af788e"
+    "seated_alternate_press.mp4": "d93d47f87ae1e285144e78e9788713f1ff1f086b00aee93fc092424ccb33d442",
+    "seated_alternate_press-poster.png": "f1a340f49dd8e57c6468d787a35942be4ae66db45008b699431d5e1eef3d6829"
   },
   "mediaValidation": {
     "decoded": true,

@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "0b96d0c755e6cf48d91d092eee5254f548895d8188596bc355e65fff10c1cf23",
+  "sceneSHA256": "e693bac9801619ea032373ff680a58859e78a42509cb118c4f16cef3bfdbf350",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -276,10 +276,10 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.473152160734554,
-        "max_p95": 2.365887977817467,
-        "compressed_frame": 59,
-        "stretched_frame": 61
+        "min_p05": 0.384134478666341,
+        "max_p95": 1.774816588508199,
+        "compressed_frame": 60,
+        "stretched_frame": 59
       },
       "LeftForeArm": {
         "min_p05": 0.7325308866178633,
@@ -294,8 +294,8 @@
         "stretched_frame": 1
       },
       "LeftLeg": {
-        "min_p05": 0.7782803896099415,
-        "max_p95": 1.1489946056782567,
+        "min_p05": 0.7772169978231459,
+        "max_p95": 1.1448250862501586,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
@@ -306,10 +306,10 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.48400809600120276,
-        "max_p95": 2.38459505801085,
-        "compressed_frame": 58,
-        "stretched_frame": 61
+        "min_p05": 0.4473784620466713,
+        "max_p95": 1.8167142537110466,
+        "compressed_frame": 61,
+        "stretched_frame": 62
       },
       "RightForeArm": {
         "min_p05": 0.7660589302772559,
@@ -324,8 +324,8 @@
         "stretched_frame": 1
       },
       "RightLeg": {
-        "min_p05": 0.8256093727897894,
-        "max_p95": 1.293580595243868,
+        "min_p05": 0.8255371262554941,
+        "max_p95": 1.287814195362126,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
@@ -336,10 +336,20 @@
         "stretched_frame": 1
       }
     },
-    "surface_alerts": [],
+    "surface_alerts": [
+      {
+        "region": "LeftArm",
+        "min_p05": 0.384134478666341,
+        "max_p95": 1.774816588508199,
+        "compressed_frame": 60,
+        "stretched_frame": 59
+      }
+    ],
     "review_frames": [
       1,
       31,
+      59,
+      60,
       61,
       91
     ]

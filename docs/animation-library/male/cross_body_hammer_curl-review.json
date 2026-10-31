@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "2bb09d199722114e62548848fee815c59150030d465c47fb0ce8dfd605eb5adf",
+  "sceneSHA256": "b72ea1786bca6aec6a5ca70bc4cb045ee783a0c6e9cbc26f2b5954c178628d2c",
   "frames": [
     1,
     49,
@@ -14,10 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已实际查看主视、正侧背和握持图。左右依次朝对侧胸前跨体弯举，拇指端向上、握姿中立、上臂固定，闲置侧停在下方。肩肘轮廓连续，女性调整后肘窝/躯干间有净空，哑铃不接触胸腹或大腿。",
+  "notes": "实际查看所有五视角关键阶段，含佐特曼73/85/169/181旋转阶段；跨体弯举肘肩连续，佐特曼前臂旋转未扭瘪，握持和腕部稳定，站姿小腿膝踝无异常。",
   "evidence": {
-    "docs/animation-library/male/cross_body_hammer_curl-review.jpg": "f95b71c9fa85169a2fea7b5e08a6861893de5ba13a35a5c77bdfdd1ca6528ee6"
+    "docs/animation-library/male/cross_body_hammer_curl-review.jpg": "d5492838b99691853fb6ee0bdc155c85b4dcba393b26b6c0fcce363ad5f96673"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex visual review"
+  "reviewer": "Codex: actual multi-view image inspection"
 }

@@ -202,12 +202,53 @@ LIBRARY_EXERCISES.update({
         grip="pronated", unilateral="Left", batch="005", audit_version=5),
 })
 
+# Batch 006 introduces distinct elbow-extension and shoulder trajectories.
+LIBRARY_EXERCISES.update({
+    "db_kickback": entry("0333", "站姿双臂俯身臂屈伸", "BENT OVER TRICEPS KICKBACK",
+        [("肱三头肌", "上臂固定，伸肘向后")], ["准备", "伸肘", "收缩", "回收"],
+        family="kickback", grip="neutral", torso_angle=-1.10, hip_offset=(0,-.15,-.08), batch="006", audit_version=6),
+    "single_kickback": entry("0354", "站姿单臂俯身臂屈伸", "SINGLE ARM TRICEPS KICKBACK",
+        [("肱三头肌", "躯干稳定，完成后换侧")], ["准备", "伸肘", "收缩", "回收"],
+        family="kickback", grip="neutral", torso_angle=-1.10, hip_offset=(0,-.15,-.08), unilateral="Left", batch="006", audit_version=6),
+    "seated_kickback": entry("0394", "坐姿双臂俯身臂屈伸", "SEATED TRICEPS KICKBACK",
+        [("肱三头肌", "坐稳前倾，上臂保持不动")], ["准备", "伸肘", "收缩", "回收"],
+        family="kickback", grip="neutral", seated=True, torso_angle=-1.10, batch="006", audit_version=6),
+    "seated_single_kickback": entry("0398", "坐姿单臂俯身臂屈伸", "SEATED SINGLE ARM KICKBACK",
+        [("肱三头肌", "俯身稳定，完成后换侧")], ["准备", "伸肘", "收缩", "回收"],
+        family="kickback", grip="neutral", seated=True, torso_angle=-1.30, unilateral="Left", batch="006", audit_version=6),
+    "seated_bent_lateral_raise": entry("2317", "坐姿屈臂侧平举", "SEATED BENT ARM LATERAL RAISE",
+        [("三角肌中束", "肘约直角，向侧面抬臂")], ["准备", "侧举", "肩高", "下放"],
+        family="bent_lateral", grip="pronated", seated=True, torso_angle=0, batch="006", audit_version=6),
+    "overhead_front_raise": entry("0419", "站姿哑铃过顶前平举", "FRONT RAISE ABOVE HEAD",
+        [("三角肌前束", "沿前方抬至头顶，躯干稳定")], ["准备", "前举", "过顶", "下放"],
+        family="overhead_raise", grip="pronated", batch="006", audit_version=6),
+    "db_upright_row": entry("0437", "双臂哑铃直立划船", "DUMBBELL UPRIGHT ROW",
+        [("三角肌与斜方肌", "肘部带动，哑铃沿身前上提")], ["准备", "上提", "顶端", "下放"],
+        family="upright_row", grip="pronated", batch="006", audit_version=6),
+    "single_upright_row": entry("0363", "单臂哑铃直立划船", "SINGLE ARM UPRIGHT ROW",
+        [("三角肌与斜方肌", "肘部带动，完成后换侧")], ["准备", "上提", "顶端", "下放"],
+        family="upright_row", grip="pronated", unilateral="Left", batch="006", audit_version=6),
+})
+
+# Batch 007: human-reference-first single-side curl and alternating extension.
+LIBRARY_EXERCISES.update({
+    "seated_single_hammer_curl": entry("1669", "坐姿单臂锤式弯举", "SEATED SINGLE ARM HAMMER CURL",
+        [("肱二头肌与肱肌", "掌心向内，上臂稳定；完成后换侧")], ["准备", "弯举", "收缩", "下放"],
+        family="curl", grip="neutral", seated=True, unilateral="Left", batch="007", audit_version=7),
+    "standing_alternate_kickback": entry("1739", "站姿交替哑铃臂屈伸", "ALTERNATING TRICEPS KICKBACK",
+        [("肱三头肌", "上臂固定，左右依次伸肘")], ["左臂伸肘", "左臂回收", "右臂伸肘", "右臂回收"],
+        family="kickback", grip="neutral", torso_angle=-1.10, hip_offset=(0,-.15,-.08), alternating=True,
+        frames=192, batch="007", audit_version=7),
+})
+
 for config in LIBRARY_EXERCISES.values():
-    if config["batch"] == "005":
-        config["contact_recipe"] = "preserve_thickness"
+    if config.get("audit_version", 1) >= 5:
+        config.setdefault("contact_recipe", "preserve_thickness")
 
 LIBRARY_MUSCLES = {
-    name: {"raise": ["deltoid_anterior"], "lateral_raise": ["deltoid_lateral"],
+    name: {"kickback": ["triceps_brachii"], "bent_lateral": ["deltoid_lateral"],
+           "overhead_raise": ["deltoid_anterior"], "upright_row": ["deltoid_lateral", "trapezius"],
+           "raise": ["deltoid_anterior"], "lateral_raise": ["deltoid_lateral"],
            "scaption": ["deltoid_anterior", "deltoid_lateral"],
            "shrug": ["trapezius"],
            "bent_row": ["latissimus_dorsi", "trapezius", "deltoid_posterior", "biceps_brachii"],

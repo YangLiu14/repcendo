@@ -1,0 +1,46 @@
+{
+  "sceneSHA256": "9085725748a418dcb91f16c15175a5960619e1ce959db025515a9cdefee6d11f",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看五视角及补拍主侧器械图：负重左肩、肘腕和哑铃位于主镜头近侧，起始屈肘、推起峰值及回程都清楚；背垫、坐垫、后方支撑和底架完整可见，保留既有照片校准结构，背部和足底接触稳定。",
+  "evidence": {
+    "docs/animation-library/male/single_incline_press-review.jpg": "21645fbbb05820573b41b6346b52d9a0bb9d2d1f802c17ec45c3b3b5e858a216",
+    "docs/animation-library/male/single_incline_press-equipment.jpg": "e4f46c60b1d8fa1cbe8c0bb1f4cdd72e056375a53b40bb1dcc9f75e6a7269706"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/male/single_incline_press-review.jpg": "21645fbbb05820573b41b6346b52d9a0bb9d2d1f802c17ec45c3b3b5e858a216"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/male/single_incline_press-equipment.jpg": "e4f46c60b1d8fa1cbe8c0bb1f4cdd72e056375a53b40bb1dcc9f75e6a7269706"
+  }
+}

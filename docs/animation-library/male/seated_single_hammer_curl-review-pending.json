@@ -1,0 +1,64 @@
+{
+  "sceneSHA256": "01534d2b57ef2730c67d072f50783f417b2d20fde96569618da7cf6c0687561b",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/seated_single_hammer_curl-review.jpg": "d04306f96bb49af725d99ba25d94913a7cf62baaad2d0d08f7a32fe16102bdec"
+  },
+  "motionReference": {
+    "status": "pending",
+    "referenceSHA256": "3010fe9251f8baad5106b87447fb610e98def0fbd5b46d3d0275ec17111bee1d",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "",
+    "evidence": {
+      "docs/animation-library/male/seated_single_hammer_curl-review.jpg": "d04306f96bb49af725d99ba25d94913a7cf62baaad2d0d08f7a32fe16102bdec"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": ""
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.600s",
+        "frame": 31,
+        "notes": ""
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.251s",
+        "frame": 61,
+        "notes": ""
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "1.851s",
+        "frame": 91,
+        "notes": ""
+      }
+    ]
+  }
+}

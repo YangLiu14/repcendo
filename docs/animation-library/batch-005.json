@@ -1,7 +1,7 @@
 {
   "batch": "005",
   "date": "2026-10-30",
-  "status": "in_progress",
+  "status": "delivered",
   "exerciseCount": 8,
   "videoCountTarget": 16,
   "ids": [
@@ -15,5 +15,720 @@
     "1281"
   ],
   "workflow": "Latest animation-pipeline.md including thickness-preserving grips and photo-referenced equipment; restarted after workflow audit",
-  "delivered": false
+  "delivered": true,
+  "stage": "delivered",
+  "workflowChecks": {
+    "latestDocsReviewed": [
+      "AGENTS.md",
+      "docs/animation-pipeline.md",
+      "docs/equipment-references/README.md"
+    ],
+    "thicknessPreservingGrips": true,
+    "unloadedHandCorrectiveDisabled": true,
+    "coarseGripGeometryRefined": true,
+    "keyPoseVariantsPassed": 16,
+    "positiveControls": 8,
+    "rejectedCounterexamples": 8,
+    "inclineEquipmentVariantsPassed": 2
+  },
+  "auditedFrames": 1936,
+  "visualVariantsAccepted": 16,
+  "equipmentSheetsReviewed": 4,
+  "gateTestsPassed": 38,
+  "scope": "Eight new exact exercise IDs with male and female variants; the full 1324-ID library remains in progress",
+  "videoCount": 16,
+  "references": {
+    "single_hammer_curl": "https://www.muscleandstrength.com/exercises/one-arm-standing-hammer-curl.html",
+    "single_incline_press": "https://www.nasm.org/resource-center/exercise-library/single-arm-incline-dumbbell-chest-press"
+  },
+  "equipmentReference": "docs/equipment-references/batch-005.json",
+  "exercises": [
+    {
+      "motion": "single_curl",
+      "id": "1670",
+      "title": "单臂站姿哑铃弯举",
+      "specification": {
+        "id": "1670",
+        "title": "单臂站姿哑铃弯举",
+        "en": "SINGLE ARM DUMBBELL CURL",
+        "muscles": [
+          [
+            "肱二头肌",
+            "上臂固定；完成后换侧"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "弯举",
+          "收缩",
+          "下放"
+        ],
+        "family": "curl",
+        "grip": "supinated",
+        "unilateral": "Left",
+        "batch": "005",
+        "audit_version": 5,
+        "contact_recipe": "preserve_thickness"
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "e26c4c4def0351f065196613d9e75b97c957bf79eb2604a1f79cb8db287d1260",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "853f6f7a3c3f8f5dcc2fa13cfcb94632df60d3aca4246aadcddf9aaf93f7fb2c",
+          "files": {
+            "single_curl.mp4": "98654ea5ae289178af4d67ce0d73394bb4267c60428ca21d1771e311a49a129c",
+            "single_curl-poster.png": "9d8b8a68cd917b3034f70c76802393e148df4e1c1e8a6a4fed9f7b6a22077e3d"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "16e427b945b37f3da456f33e8edc5c968e7aeb1a6328692ddb4ebb3a85a7604f",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "853f6f7a3c3f8f5dcc2fa13cfcb94632df60d3aca4246aadcddf9aaf93f7fb2c",
+          "files": {
+            "single_curl.mp4": "695d0568555609cfcf4de9b8d29fde16376db20053873147ea14c3be63737196",
+            "single_curl-poster.png": "c6d7a590876a528cbe563638889bca62d45e80d3fc04e41264855da35d3fd105"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "single_hammer_curl",
+      "id": "1671",
+      "title": "单臂站姿锤式弯举",
+      "specification": {
+        "id": "1671",
+        "title": "单臂站姿锤式弯举",
+        "en": "SINGLE ARM HAMMER CURL",
+        "muscles": [
+          [
+            "肱二头肌",
+            "中立握；完成后换侧"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "弯举",
+          "收缩",
+          "下放"
+        ],
+        "family": "curl",
+        "grip": "neutral",
+        "unilateral": "Left",
+        "batch": "005",
+        "audit_version": 5,
+        "contact_recipe": "preserve_thickness"
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "d5b4309a863e1323611c007ebc76e656c15a615b276b10346356067d32cb705c",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "28c0a71c17a35741f88d643a2795bcf2423971366b83e98e10e2baa95cf2e6df",
+          "files": {
+            "single_hammer_curl.mp4": "309a3a4f3e1534d0c1ba3f5314eb87ec6f56bdf49c928f1f9f63164e6b9e6d80",
+            "single_hammer_curl-poster.png": "ad2653cc7d98d884dfeebdd08b150deef371b46dd82226265de7bedb2d57174c"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "e1b73016bc6916430f891d6d4013c812fc47baae3ba9bc3273715251c09d1d0e",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "28c0a71c17a35741f88d643a2795bcf2423971366b83e98e10e2baa95cf2e6df",
+          "files": {
+            "single_hammer_curl.mp4": "e68f5c101d13b267dd9dea75d2ddf01e09fa9250714ed55cbe39e57ae9625da5",
+            "single_hammer_curl-poster.png": "7595a04eab8fa7ebc45e56c06e65d404c92814dff9b4827dd88a264909ae6f6c"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "single_reverse_curl",
+      "id": "0425",
+      "title": "单臂反握哑铃弯举",
+      "specification": {
+        "id": "0425",
+        "title": "单臂反握哑铃弯举",
+        "en": "SINGLE ARM REVERSE CURL",
+        "muscles": [
+          [
+            "屈肘肌群",
+            "掌心向下；完成后换侧"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "弯举",
+          "收缩",
+          "下放"
+        ],
+        "family": "curl",
+        "grip": "pronated",
+        "unilateral": "Left",
+        "batch": "005",
+        "audit_version": 5,
+        "contact_recipe": "preserve_thickness"
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "1b2eeec59160262480a348a13643d7b82adc289bcab6f28566cb09b86f53b393",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "7903f4cfd1e928aa75c68626d3e7ac1f8b74d1f757e8266122b1627483c45b27",
+          "files": {
+            "single_reverse_curl.mp4": "d8ad03dbde68fdfe4062ca543fd9931b3cd5d9cbb6963b450f76974c75352c74",
+            "single_reverse_curl-poster.png": "0ebc7c39b4eb15e0db8b673b6dfd0707200814d90e6b59c078b495b32daa3814"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "02d82e05602667e7737af7053fc9af97ddccd8df24e2e51e9d09f5718b51a4dd",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "7903f4cfd1e928aa75c68626d3e7ac1f8b74d1f757e8266122b1627483c45b27",
+          "files": {
+            "single_reverse_curl.mp4": "c234eadecfe1f42487179b824280fae3c8c40248dbeef136091f8db9c964baa7",
+            "single_reverse_curl-poster.png": "08209559ad92c754084ba9cfe27a32866b95bdc347603c632ac647e7e2b1c9d8"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "single_lateral_raise",
+      "id": "0355",
+      "title": "单臂哑铃侧平举",
+      "specification": {
+        "id": "0355",
+        "title": "单臂哑铃侧平举",
+        "en": "SINGLE ARM LATERAL RAISE",
+        "muscles": [
+          [
+            "三角肌中束",
+            "抬至肩高；完成后换侧"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "侧举",
+          "肩高",
+          "下放"
+        ],
+        "family": "lateral_raise",
+        "grip": "pronated",
+        "unilateral": "Left",
+        "batch": "005",
+        "audit_version": 5,
+        "contact_recipe": "preserve_thickness"
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "3e6e2ce9e60080bb490fbdbfc62b9007482c8a1e4fefdff15ad68782ec4ef551",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "7c5809ce45da54f8dbdabe28a1fc5a3fadf4e7e27e3eebfb56bcabc75d2f88d3",
+          "files": {
+            "single_lateral_raise.mp4": "8530390a409f59f62a396532d23fa7aec7ecad8db5deaba7a4142b1450e9f859",
+            "single_lateral_raise-poster.png": "0fd935e3e906aac6dbbd81e1550d723ffcfb861a44c1f014debd96e383e51b50"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "2fde691b8f0cdb9f6785e90c59ef36000344585dac9b3186c97bb3e0c3901083",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "7c5809ce45da54f8dbdabe28a1fc5a3fadf4e7e27e3eebfb56bcabc75d2f88d3",
+          "files": {
+            "single_lateral_raise.mp4": "aa0d4109eb9d4d4ce4ab4a55bac3d27a0916ce45a5ceade3900e28bbcf7a68ea",
+            "single_lateral_raise-poster.png": "af44203ab21fb1943439e350bdd20db258832789c25e9c343bdd25195b2dbe7b"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "single_overhead_press",
+      "id": "0361",
+      "title": "单臂站姿哑铃推举",
+      "specification": {
+        "id": "0361",
+        "title": "单臂站姿哑铃推举",
+        "en": "SINGLE ARM OVERHEAD PRESS",
+        "muscles": [
+          [
+            "三角肌与肱三头肌",
+            "躯干稳定；完成后换侧"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "family": "press",
+        "press_type": "standing",
+        "torso_angle": 0,
+        "grip": "pronated",
+        "unilateral": "Left",
+        "batch": "005",
+        "audit_version": 5,
+        "contact_recipe": "preserve_thickness"
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "2b392c1aea24a41d01ef68113944aec520b27d0bea863b39f4ce7107cded1bd2",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "a2a61218c0a4209ceda6959099fd9f8eeb29f1e54af34a937ce8db16805f25ec",
+          "files": {
+            "single_overhead_press.mp4": "22f534bc7139b956d4631c6ab1a47e5a8f8936b564fefd294aa03f0b1d8aa40d",
+            "single_overhead_press-poster.png": "8c362f313cbe5ecca9b45551a94ba5d083bada120cb4ed7ec176bab30d6d47c9"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "5d65c9064a9fb5a355351c2d2f4618fa8bc3ff26cf5efe2658c98dedfd2bad78",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "a2a61218c0a4209ceda6959099fd9f8eeb29f1e54af34a937ce8db16805f25ec",
+          "files": {
+            "single_overhead_press.mp4": "6e7a1b65adde58c33a2d4df2f9a50e39e4237f799ad08bbe0e222ae50469d7a1",
+            "single_overhead_press-poster.png": "375a5dba5cd889d351ddcc211c65b125ab2d751db509a56012003524eb0dfaf4"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "single_neutral_press",
+      "id": "0424",
+      "title": "单臂站姿中立握推举",
+      "specification": {
+        "id": "0424",
+        "title": "单臂站姿中立握推举",
+        "en": "SINGLE ARM NEUTRAL PRESS",
+        "muscles": [
+          [
+            "三角肌与肱三头肌",
+            "掌心向内；完成后换侧"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "family": "press",
+        "press_type": "standing",
+        "torso_angle": 0,
+        "grip": "neutral",
+        "unilateral": "Left",
+        "batch": "005",
+        "audit_version": 5,
+        "contact_recipe": "preserve_thickness"
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "b4ea9821b506aa544611bdb4d10405a3349ad8cd96da2ef766a65605c84e22f0",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "4b022aa2e4da6de52f98fda282de90ec247e9c60d939c48ea39c874f3231a5b9",
+          "files": {
+            "single_neutral_press.mp4": "911d235adcc300dc84591bc3db48e204331482a216fc7cd7726a8c53534cb463",
+            "single_neutral_press-poster.png": "06d6913127344e0d13d1f63d3f91b07f2938a44c5feb533da90ea13d251bab29"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "b71e6f177c839e23d08fb69f723b1e17a21502d878bbdafeba8b126b564890d7",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "4b022aa2e4da6de52f98fda282de90ec247e9c60d939c48ea39c874f3231a5b9",
+          "files": {
+            "single_neutral_press.mp4": "abf947cc94c4c6b48e0399c6d383ebd7b452c912c5795f4cb8c63a808a897543",
+            "single_neutral_press-poster.png": "84b847731863c7501fa8fc5743eef6bf54c4aa5b84ac86fab3f4a6e628094127"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "single_bench_press",
+      "id": "0343",
+      "title": "单臂哑铃卧推",
+      "specification": {
+        "id": "0343",
+        "title": "单臂哑铃卧推",
+        "en": "SINGLE ARM BENCH PRESS",
+        "muscles": [
+          [
+            "胸大肌与肱三头肌",
+            "肩背贴凳；完成后换侧"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "family": "press",
+        "press_type": "flat",
+        "seated": true,
+        "torso_angle": 1.5707963267948966,
+        "torso_angle_offset_by_sex": {
+          "female": 0.085
+        },
+        "head_angle_offset_by_sex": {
+          "male": 0.17
+        },
+        "grip": "pronated",
+        "unilateral": "Left",
+        "batch": "005",
+        "audit_version": 5,
+        "contact_recipe": "preserve_thickness"
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "1c434a293de79f811fc9c37ada6e9e5a0b41e16a33ccd64ff8f10c01dc3dfb1f",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "5b7d6bc1bc0d979c23ef6fbe25991688d06955a8dff38721f953dc679fb0b545",
+          "files": {
+            "single_bench_press.mp4": "344639d2d8189218d1eea227e4279e7609c681c9d3caf7fe01b431b2b25b19ab",
+            "single_bench_press-poster.png": "f70dc7815ba7cf83b1e0802d35735992094d122a5a60de42ec17e1cbdc22aebf"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "0686f5421c392d969b0c3f106be34f6c6fb7711abfd3128f6d2f15ac73ac5e77",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "5b7d6bc1bc0d979c23ef6fbe25991688d06955a8dff38721f953dc679fb0b545",
+          "files": {
+            "single_bench_press.mp4": "4f6e6e37a834a39c01886a3b0203b688228066ae47cc1cabc91946bb523f6255",
+            "single_bench_press-poster.png": "79d8b5d6a7f0f41d1108a71928814ad9bf6ac65a4930c10714b46fd189f88d99"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    },
+    {
+      "motion": "single_incline_press",
+      "id": "1281",
+      "title": "单臂上斜哑铃推举",
+      "specification": {
+        "id": "1281",
+        "title": "单臂上斜哑铃推举",
+        "en": "SINGLE ARM INCLINE PRESS",
+        "muscles": [
+          [
+            "胸大肌与肱三头肌",
+            "靠背支撑；完成后换侧"
+          ]
+        ],
+        "phases": [
+          "准备",
+          "推起",
+          "伸展",
+          "下放"
+        ],
+        "family": "press",
+        "press_type": "incline",
+        "seated": true,
+        "torso_angle": 0.7853981633974483,
+        "grip": "pronated",
+        "unilateral": "Left",
+        "batch": "005",
+        "audit_version": 5,
+        "contact_recipe": "preserve_thickness"
+      },
+      "status": "delivered",
+      "variants": {
+        "male": {
+          "sceneSHA256": "9b11eed41864658048b5fada4bead2a2e29e29bb9752c88c1c0aa6c8480ab0bc",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "491f7a2be64eaa676b61c77647de842cd66cc95ac075f68fab3404dec63e70c1",
+          "files": {
+            "single_incline_press.mp4": "26602d4904d81cad40f937157e6c6be318bbef6435576dd1fd64ff369c9dc618",
+            "single_incline_press-poster.png": "f88be8b560fad0a9a97778a7cf9fdde3f9f353d8dbd65483c0f33df509793ff8"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        },
+        "female": {
+          "sceneSHA256": "db460cb9566ae1f871a423a03342d31500ef714ee840b6725bdc88c7c8172895",
+          "validatorSHA256": {
+            "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+            "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+            "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+            "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+            "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+          },
+          "specificationSHA256": "491f7a2be64eaa676b61c77647de842cd66cc95ac075f68fab3404dec63e70c1",
+          "files": {
+            "single_incline_press.mp4": "86c86bc58a249cad41aab2f78c9c211ce397663151abeebde078b5d4bb3fe792",
+            "single_incline_press-poster.png": "8118df5bd06b9a2da4073ebc566a423a6e093d28679b66f4c185be6e0561de5b"
+          },
+          "mediaValidation": {
+            "decoded": true,
+            "frames": 120,
+            "clippedFrames": [],
+            "codec": "h264",
+            "width": 1280,
+            "height": 960,
+            "fps": 24
+          }
+        }
+      }
+    }
+  ],
+  "datasetCommit": "7455efae41b330c265e7cd4b78dfa848e7ce5ebd",
+  "renderedFrames": 1920,
+  "validation": {
+    "catalogEntries": 56,
+    "videoCount": 112,
+    "existingCatalogEntriesPreserved": 48,
+    "existingMediaFilesPreserved": 192,
+    "sourceResourceFiles": 225,
+    "builtResourceFilesVerified": 225,
+    "builtResourceSHA256Match": true,
+    "gateDeliveryAndConcurrencyTests": 38,
+    "positiveSceneControls": 8,
+    "rejectedIncorrectScenes": 6,
+    "rejectedCoarseGripScenes": 2,
+    "appBuild": "succeeded",
+    "browserPlayback": "All 16 videos readyState 4, no errors, 5 second duration and loop enabled. Male single curl and female single bench press playback advance. Batch 005 shows 8; all published batches show 36.",
+    "collisionToleranceMM": 2
+  },
+  "totalLibrary": {
+    "required": 1324,
+    "bundled": 56,
+    "videoCount": 112,
+    "currentChecksPassed": 55,
+    "legacyReviewRequired": 1,
+    "notImplemented": 1268
+  },
+  "preview": {
+    "path": "docs/animation-library/batch-005-preview.png",
+    "sha256": "12d331364689038f9340b2f8f478f740cfaa0570c7546d92bdcfd15619c309f3",
+    "fullPagePath": "docs/animation-library/batch-005-preview-full.png",
+    "fullPageSHA256": "19a66b726ebcfb27b2d98eb88fe9310182bc046b97c16e61b615374cf9592036"
+  },
+  "laterRevisions": [
+    {
+      "record": "active-side-camera.json",
+      "scope": "Unilateral variants only",
+      "reason": "Working arm must face the main camera; historical receipts above retained"
+    }
+  ]
 }

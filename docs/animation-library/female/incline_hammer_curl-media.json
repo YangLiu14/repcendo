@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "7ee22f99632e8a1fd68fd331bfab663ba07e59d662d3bc21179b8ff053b96cb0",
+  "sceneSHA256": "0383c1eef7a32f4497a8e3dfe3cfe3d33ec5b9e8e3356b19788cdb6b06f39f75",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "e28ad2d78f2ad392aef2edb4f834dbe8a21c06e37eb2495d390b87e4a2847482",
   "files": {
-    "incline_hammer_curl.mp4": "8f4200477f87db90970e8c1baf75ba658dd566761571a94a84e4833d4a129357",
-    "incline_hammer_curl-poster.png": "4398bc0c29be78dc5f2b50b41ad67b6521106c89fde91d0fed5915b09d967b1b"
+    "incline_hammer_curl.mp4": "d7f4d672710925b5328b30d702425b178f492fb3cb6e080a3c93d8cc752a0bf0",
+    "incline_hammer_curl-poster.png": "967d46754e5736b4f698012974e86685ff3348aa43a03b5f96d5f78dcbeda6e1"
   },
   "mediaValidation": {
     "decoded": true,

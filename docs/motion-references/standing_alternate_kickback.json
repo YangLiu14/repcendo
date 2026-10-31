@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "exercise": "standing_alternate_kickback",
+  "exerciseId": "1739",
+  "status": "reviewed",
+  "specificationSHA256": "4722358dc00ff5e25e5f854ec9dd146159451333aeef826a93eab152a332b9d7",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Functional Fitness",
+      "url": "https://www.youtube.com/watch?v=srHSUCH3iH8",
+      "kind": "human_video",
+      "accessedOn": "2026-10-30",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际操作公开播放器逐阶段查看，仅记录自写观察和时间码；不下载、描摹、提取姿态、训练模型或再分发媒体。媒体生成许可未确认，本记录不声称取得素材许可。"
+      }
+    },
+    {
+      "id": "instruction",
+      "publisher": "American Council on Exercise",
+      "url": "https://contentcdn.eacefitness.com/certifiednews/images/article/pdfs/ACETricepsStudy.pdf",
+      "kind": "instruction",
+      "accessedOn": "2026-10-30",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "读取第一方教学说明，核对动作要点；仅保留链接与自写摘要。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "4.144s",
+      "observed": "髋部折叠前倾，双膝微屈、双足支撑；双上臂在躯干侧后方，肘屈曲。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "4.744s",
+      "observed": "近侧前臂向后伸展，另一侧保持屈肘；躯干没有伴随扭转。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "5.344s",
+      "observed": "近侧手臂接近伸直，哑铃移到髋后；上臂仍在同一位置。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "6.216s",
+      "observed": "近侧前臂向下回收；6.544秒恢复屈肘，8.288秒可见远侧伸直、近侧保持屈肘。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-30",
+  "decisions": "真人侧面可辨两手交替伸展；采用依次完整伸肘与回收，固定上臂、躯干和足底。ACE第3页只补充固定上臂、避免躯干旋转的动作要点，其单臂支撑站姿不替代本条交替变体视频。动画为左后右8秒循环；肘由90°至8°，不超伸；为肩宽和碰撞留出适度外展。"
+}

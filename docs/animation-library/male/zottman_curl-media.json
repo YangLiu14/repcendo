@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "099a35b92aeb065c2093e1d715a0acc8f433d1690cdca694aeebfdba2c396df5",
+  "sceneSHA256": "e3cacf6328e60bbe88bd6ba44d4247984e3a5275a619d1e4755384576a6d997d",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "3625b7476f8064bb40621df2ab89c356df0cc7faa9a8f83bfedb991d65613f55",
   "files": {
-    "zottman_curl.mp4": "0ffeae315e4c3a102a24a0e49f7279426d12f60053549efdc8ec8d2fc03871f0",
-    "zottman_curl-poster.png": "51203a1c02bb40bface9804d28c2ce3da1c4e782bfb00f91c977e53743b66b21"
+    "zottman_curl.mp4": "fc4d98ddedb54bee405e0cb9e69a4176bfcf6460af7bf111371c3a8d55ee5b4f",
+    "zottman_curl-poster.png": "d2ddf6f417050f07f7c2bc51bc14c67c1b0a8bc6239dbfad8a7f0ef25ca30461"
   },
   "mediaValidation": {
     "decoded": true,

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "exercise": "db_upright_row",
+  "exerciseId": "0437",
+  "status": "reviewed",
+  "specificationSHA256": "084d2f21f499bf3abf36206628cbd3997b56ae070a0c097b71330d4cdf662d09",
+  "profile": "upright_row_shoulder_height_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "PureGym",
+      "url": "https://www.youtube.com/watch?v=Rd5AsxOGqss",
+      "kind": "human_video",
+      "accessedOn": "2026-10-30",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "Viewed official public YouTube player using browser controls. Retain timestamps and own movement observations only; no video download, tracing, pose extraction, model training or media redistribution. No claim of a media production licence."
+      }
+    },
+    {
+      "id": "ncsf",
+      "publisher": "National Council on Strength and Fitness",
+      "url": "https://www.ncsf.org/pdf/ceu/contraindicated_exercises.pdf",
+      "kind": "human_photo",
+      "accessedOn": "2026-10-30",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "Read public teaching reference; retain link/page and own observations only. No source image in App or reference manifest."
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "双手正握哑铃位于大腿前方；躯干直立。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.720s",
+      "observed": "肘向两侧上提，双腕在肘内下方，哑铃经过腹前。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.500s",
+      "observed": "真人视频的肘超过肩高；不复制其峰值，按 NCSF 修正示范选肩高幅度。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.220s",
+      "observed": "沿原路径受控下放；3.00 秒回到大腿前。"
+    }
+  ],
+  "reviewer": "Codex: actual browser key-phase observation; not certified coach review",
+  "reviewedOn": "2026-10-30",
+  "decisions": "采用 NCSF PDF 第6页修正照片的肩高示范幅度，上臂下垂方向夹角上限90°；该数值是此动画设计，不是人体生理极限。保留肘领动、前臂内下方、正握、稳定躯干及受控回程。PureGym 真人峰值更高，因此只参考其路径与起止。双侧同时发力，男女按各自骨长求解。"
+}

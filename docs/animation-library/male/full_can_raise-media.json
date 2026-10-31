@@ -1,14 +1,15 @@
 {
-  "sceneSHA256": "9589837887a396d8997186841a20c754002e537229e5075b5c5dca8315f48b75",
+  "sceneSHA256": "81e84cf80df1c0a680f0785bb2d01221d2aa06d323e44de34dd4aa27126901ac",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "library_audit.py": "552053bc7ecb450a5a43938a69366fd16961ffb9ee4d055fdd5af4a7646ea6c6",
     "library_scene.py": "4eb4e7be90029e3d997dc0aad8b3448acaa3cd6149261547c91f1b1821b055a6"
   },
+  "specificationSHA256": "9ec1f17aaf1fa1cd3195e07f46a29a676e1bc31ae3d959b25f2021c2287dda18",
   "files": {
-    "full_can_raise.mp4": "2520bab583a97c5205582fadffb894da7db084d932b56915bc4ea7628c1471a8",
-    "full_can_raise-poster.png": "ba5d61d7353c64c4a4e24c2a46d1dfef9f57854131945128fa59b448a124df7c"
+    "full_can_raise.mp4": "a6ff25ab6f870f9c7385c99954a3c212c12a187783c663cf20556efbe4c8503a",
+    "full_can_raise-poster.png": "e9b60e03050a10833906e8004d05fba86e02feca03b31aca3f6bf5615392fa37"
   },
   "mediaValidation": {
     "decoded": true,

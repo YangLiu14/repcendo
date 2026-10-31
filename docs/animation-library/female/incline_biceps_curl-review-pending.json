@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "d8ae8dfbb809ec3a1b649596b94814cb422cf79b5806495f3247ae716285554a",
+  "sceneSHA256": "7f1e9e0104e32b1ec026683cd27af1328f0f21e1cd67bef92bd4334e3c4f851e",
   "frames": [
     1,
     31,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/incline_biceps_curl-review.jpg": "beeb15c077ee40122c14443b80bb71295d1255208397eec28144509092e87fb8"
+    "docs/animation-library/female/incline_biceps_curl-review.jpg": "65ddd908d1a76a97b2ad79a7405c317245cc51e3e4ea7195611217a98904fdb6"
   }
 }

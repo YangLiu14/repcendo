@@ -1,0 +1,313 @@
+{
+  "status": "delivered",
+  "date": "2026-10-30",
+  "scope": "0437 bilateral and 0363 unilateral dumbbell upright rows, male and female",
+  "motionCount": 2,
+  "variantCount": 4,
+  "renderedFrames": 480,
+  "auditedFrames": 484,
+  "rootCause": "Peak upper-arm elevation was approximately136 degrees with a forearm path that produced a visibly distorted shoulder/elbow relationship. The old intent check had no maximum elevation. New trajectory uses about84 degrees and adjusts forward forearm clearance without changing equipment or collision tolerances.",
+  "referenceReview": "Actual browser observation of human demonstrations at four phases, plus NCSF correction photograph; URLs and self-written notes retained, no source videos downloaded or redistributed.",
+  "validation": {
+    "unitTestsPassed": 25,
+    "originalScenesRejected": 4,
+    "regressionRecord": "docs/animation-library/upright-row-regression.json",
+    "regressionSHA256": "49638f637ec17a019b10ab74c17a3a8caed139508af43fb8cb750e048d0f4da4",
+    "browserVideosCompleted": 4,
+    "status": "passed",
+    "existingOtherMotionsPreserved": 62,
+    "existingOtherMediaPreserved": 248,
+    "builtResourcesVerified": 257,
+    "servedVideosVerified": 4,
+    "servedSHA256": {
+      "animation-library/male/db_upright_row.mp4": "52bf82602226530705279a5f02465a5420dbfb007cccac3448819f573c6db52d",
+      "animation-library/female/db_upright_row.mp4": "9bb7fd4a8f93eccfb5b49d611a940dcebe4fd0b80371efacd559679dd2bb3236",
+      "animation-library/male/single_upright_row.mp4": "1ac58956e8ff3dd0eec26bece494b93b27ded8f5a6ffe3304a7076f9345becb9",
+      "animation-library/female/single_upright_row.mp4": "41216dd0df7da0f3fb3da6d14e601b3670fb4af5bf7ae85205a34b07a4f2b8e3"
+    },
+    "appBuild": "succeeded"
+  },
+  "variants": [
+    {
+      "sex": "male",
+      "exercise": "db_upright_row",
+      "sceneSHA256": "fd30d2fe8884149fcf1db4064458e43ba1a7490fb801f4f7fcf523b0285f0b6b",
+      "referenceSHA256": "3b13579de18ff52e4daf6f8893438ea534fffd6c00fd5c1e3b8696236851297c",
+      "checkerSHA256": "4d8a6a16efd981dff89d4a95af78be4d434961e2c9050a66f79c5eeba90d7350",
+      "referenceRecord": "docs/motion-references/db_upright_row.json",
+      "auditRecord": "docs/animation-library/male/db_upright_row-reference-audit.json",
+      "reviewRecord": "docs/animation-library/male/db_upright_row-review.json",
+      "technicalAuditSHA256": "e32276663478c32cb1594d707a6fa04d2953c5c814aa062f63f39f9fb85b5b44",
+      "reviewSHA256": "74b8b49378a3f490527b7bb8a0075d4ca758d6ac92eb25c5304539ee3f056f9e",
+      "maxElevationDegrees": 83.82785424967196,
+      "peakSamples": [
+        {
+          "frame": 61,
+          "side": "Left",
+          "elevation": 83.82780643834776,
+          "elbowFlexion": 112.42832200280571,
+          "wristBend": 0.0,
+          "upperForward": 0.23337265849113464,
+          "foreDown": 0.40356671810150146,
+          "foreInward": 0.605350911617279,
+          "elbowAboveWrist": 0.11176586151123047,
+          "wristBelowShoulder": 0.14260661602020264,
+          "wristForward": 0.2569441720843315,
+          "elbowOutward": 0.277214914560318
+        },
+        {
+          "frame": 61,
+          "side": "Right",
+          "elevation": 83.82785424967196,
+          "elbowFlexion": 112.42834249337322,
+          "wristBend": 0.0,
+          "upperForward": 0.2333727478981018,
+          "foreDown": 0.40356704592704773,
+          "foreInward": 0.605350911617279,
+          "elbowAboveWrist": 0.11493790149688721,
+          "wristBelowShoulder": 0.1451171636581421,
+          "wristForward": 0.2609011195600033,
+          "elbowOutward": 0.27127109467983246
+        }
+      ],
+      "media": {
+        "sceneSHA256": "fd30d2fe8884149fcf1db4064458e43ba1a7490fb801f4f7fcf523b0285f0b6b",
+        "validatorSHA256": {
+          "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+          "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+          "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+          "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+          "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+        },
+        "specificationSHA256": "084d2f21f499bf3abf36206628cbd3997b56ae070a0c097b71330d4cdf662d09",
+        "files": {
+          "db_upright_row.mp4": "52bf82602226530705279a5f02465a5420dbfb007cccac3448819f573c6db52d",
+          "db_upright_row-poster.png": "6b5679392fb1fc4f4de4cea203619d35ee172e144d29ef82bc08daecd1d8b84d"
+        },
+        "mediaValidation": {
+          "decoded": true,
+          "frames": 120,
+          "clippedFrames": [],
+          "codec": "h264",
+          "width": 1280,
+          "height": 960,
+          "fps": 24
+        }
+      },
+      "browserPlayback": {
+        "url": "http://127.0.0.1:8770/animation-library/male/db_upright_row.mp4",
+        "ended": true,
+        "currentTime": 5,
+        "duration": 5,
+        "videoWidth": 1280,
+        "videoHeight": 960,
+        "error": null
+      },
+      "visualNotes": "已实际查看五视角四阶段与双手近景：双肘峰值低于肩关节，前臂向内前下方，正握且腕线连续；胸前负重保持间隙、双侧同步，躯干足底稳定。相较原版约136°抬臂，当前约84°，采用NCSF肩高示范幅度而非PureGym较高峰值。"
+    },
+    {
+      "sex": "male",
+      "exercise": "single_upright_row",
+      "sceneSHA256": "01fed083059ed372ad9cb9a05e2dd147737e0ffb3f7d731f701bb740ffabac1d",
+      "referenceSHA256": "254dd03570f33b25809b2da7134c629a1986af7c629c1acc09b10e7e807ab623",
+      "checkerSHA256": "4d8a6a16efd981dff89d4a95af78be4d434961e2c9050a66f79c5eeba90d7350",
+      "referenceRecord": "docs/motion-references/single_upright_row.json",
+      "auditRecord": "docs/animation-library/male/single_upright_row-reference-audit.json",
+      "reviewRecord": "docs/animation-library/male/single_upright_row-review.json",
+      "technicalAuditSHA256": "d885e0becbb37ece89df2577c5366620dc11fa9906db118dba8593c345a8d054",
+      "reviewSHA256": "cc4ab460fc4002d34ad44b6fd5016436d0c4778adeda1168ffa0d9a7c0075e87",
+      "maxElevationDegrees": 83.82780643834776,
+      "peakSamples": [
+        {
+          "frame": 61,
+          "side": "Left",
+          "elevation": 83.82780643834776,
+          "elbowFlexion": 112.42832200280571,
+          "wristBend": 0.0,
+          "upperForward": 0.23337265849113464,
+          "foreDown": 0.40356671810150146,
+          "foreInward": 0.605350911617279,
+          "elbowAboveWrist": 0.11176586151123047,
+          "wristBelowShoulder": 0.14260661602020264,
+          "wristForward": 0.2569441720843315,
+          "elbowOutward": 0.277214914560318
+        }
+      ],
+      "media": {
+        "sceneSHA256": "01fed083059ed372ad9cb9a05e2dd147737e0ffb3f7d731f701bb740ffabac1d",
+        "validatorSHA256": {
+          "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+          "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+          "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+          "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+          "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+        },
+        "specificationSHA256": "0f7adea6d07890ca49ab24f3d7c0a437e1e5d653402ffbf2b63346792c39abaf",
+        "files": {
+          "single_upright_row.mp4": "1ac58956e8ff3dd0eec26bece494b93b27ded8f5a6ffe3304a7076f9345becb9",
+          "single_upright_row-poster.png": "9bbef675076110dc2c5ae09b9bc8fd547fb966e7fe5f0d258ae9cdcfbdacf386"
+        },
+        "mediaValidation": {
+          "decoded": true,
+          "frames": 120,
+          "clippedFrames": [],
+          "codec": "h264",
+          "width": 1280,
+          "height": 960,
+          "fps": 24
+        }
+      },
+      "browserPlayback": {
+        "url": "http://127.0.0.1:8770/animation-library/male/single_upright_row.mp4",
+        "ended": true,
+        "currentTime": 5,
+        "duration": 5,
+        "videoWidth": 1280,
+        "videoHeight": 960,
+        "error": null
+      },
+      "visualNotes": "已实际查看男性单臂五视角四阶段与左手近景：左负重臂处于主镜头近侧且肩肘腕可见；空闲右臂自然下垂，躯干无侧倾，峰值上臂约84°、前臂向内前下方，负重保持胸前间隙。真人右手示范的动作关系重新用左侧求解，未镜像视频。"
+    },
+    {
+      "sex": "female",
+      "exercise": "db_upright_row",
+      "sceneSHA256": "99f158d36faaf81a65e5b4888e5716ef3728ca88f4d4fd7a76eea1ca5665fc1f",
+      "referenceSHA256": "3b13579de18ff52e4daf6f8893438ea534fffd6c00fd5c1e3b8696236851297c",
+      "checkerSHA256": "4d8a6a16efd981dff89d4a95af78be4d434961e2c9050a66f79c5eeba90d7350",
+      "referenceRecord": "docs/motion-references/db_upright_row.json",
+      "auditRecord": "docs/animation-library/female/db_upright_row-reference-audit.json",
+      "reviewRecord": "docs/animation-library/female/db_upright_row-review.json",
+      "technicalAuditSHA256": "94f5a00889e4d49bc93cc55d0eca367bb44ddf7c0504e6560da74909bce4b44d",
+      "reviewSHA256": "d5e61f4b99d15dd25f49d594d922d27c0d7a9d39abe299bb8ff83161c5dac531",
+      "maxElevationDegrees": 83.82786107986112,
+      "peakSamples": [
+        {
+          "frame": 61,
+          "side": "Left",
+          "elevation": 83.82786107986112,
+          "elbowFlexion": 112.42831517261655,
+          "wristBend": 0.0,
+          "upperForward": 0.2333730310201645,
+          "foreDown": 0.40356752276420593,
+          "foreInward": 0.6053506135940552,
+          "elbowAboveWrist": 0.10988104343414307,
+          "wristBelowShoulder": 0.1402580738067627,
+          "wristForward": 0.25273362547159195,
+          "elbowOutward": 0.27304892241954803
+        },
+        {
+          "frame": 61,
+          "side": "Right",
+          "elevation": 83.82778594778026,
+          "elbowFlexion": 112.4282810216707,
+          "wristBend": 0.0,
+          "upperForward": 0.2333727329969406,
+          "foreDown": 0.403567373752594,
+          "foreInward": 0.6053504943847656,
+          "elbowAboveWrist": 0.1150059700012207,
+          "wristBelowShoulder": 0.1417011022567749,
+          "wristForward": 0.25345347449183464,
+          "elbowOutward": 0.23995071649551392
+        }
+      ],
+      "media": {
+        "sceneSHA256": "99f158d36faaf81a65e5b4888e5716ef3728ca88f4d4fd7a76eea1ca5665fc1f",
+        "validatorSHA256": {
+          "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+          "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+          "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+          "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+          "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+        },
+        "specificationSHA256": "084d2f21f499bf3abf36206628cbd3997b56ae070a0c097b71330d4cdf662d09",
+        "files": {
+          "db_upright_row.mp4": "9bb7fd4a8f93eccfb5b49d611a940dcebe4fd0b80371efacd559679dd2bb3236",
+          "db_upright_row-poster.png": "3e194c55486a4399d41bca03b8114f09f64233c0d12851ce402a3dab28461eed"
+        },
+        "mediaValidation": {
+          "decoded": true,
+          "frames": 120,
+          "clippedFrames": [],
+          "codec": "h264",
+          "width": 1280,
+          "height": 960,
+          "fps": 24
+        }
+      },
+      "browserPlayback": {
+        "url": "http://127.0.0.1:8770/animation-library/female/db_upright_row.mp4",
+        "ended": true,
+        "currentTime": 5,
+        "duration": 5,
+        "videoWidth": 1280,
+        "videoHeight": 960,
+        "error": null
+      },
+      "visualNotes": "已实际查看女性五视角四阶段与双手近景：肩肘过渡连续，峰值肘低于肩关节，哑铃位于下胸前而未进入胸部或衣物；正握、腕线连续，双侧同步、足底稳定。女角色单独核对并未复用男性验收结论。"
+    },
+    {
+      "sex": "female",
+      "exercise": "single_upright_row",
+      "sceneSHA256": "337f53ffb7c7eec692b26496ce56ad89e898e1bd9deb14ca4d16a659d08bae7b",
+      "referenceSHA256": "254dd03570f33b25809b2da7134c629a1986af7c629c1acc09b10e7e807ab623",
+      "checkerSHA256": "4d8a6a16efd981dff89d4a95af78be4d434961e2c9050a66f79c5eeba90d7350",
+      "referenceRecord": "docs/motion-references/single_upright_row.json",
+      "auditRecord": "docs/animation-library/female/single_upright_row-reference-audit.json",
+      "reviewRecord": "docs/animation-library/female/single_upright_row-review.json",
+      "technicalAuditSHA256": "cb581c6616fb17517506c5f8cfaa490a965ee87fa994263e503779bead70b871",
+      "reviewSHA256": "f18f5cf01af1d03501928076769eb2dc7b69d07a2f8082ecfa8298c5cde22767",
+      "maxElevationDegrees": 83.82786107986112,
+      "peakSamples": [
+        {
+          "frame": 61,
+          "side": "Left",
+          "elevation": 83.82786107986112,
+          "elbowFlexion": 112.42831517261655,
+          "wristBend": 0.0,
+          "upperForward": 0.2333730310201645,
+          "foreDown": 0.40356752276420593,
+          "foreInward": 0.6053506135940552,
+          "elbowAboveWrist": 0.10988104343414307,
+          "wristBelowShoulder": 0.1402580738067627,
+          "wristForward": 0.25273362547159195,
+          "elbowOutward": 0.27304892241954803
+        }
+      ],
+      "media": {
+        "sceneSHA256": "337f53ffb7c7eec692b26496ce56ad89e898e1bd9deb14ca4d16a659d08bae7b",
+        "validatorSHA256": {
+          "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+          "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+          "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+          "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+          "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+        },
+        "specificationSHA256": "0f7adea6d07890ca49ab24f3d7c0a437e1e5d653402ffbf2b63346792c39abaf",
+        "files": {
+          "single_upright_row.mp4": "41216dd0df7da0f3fb3da6d14e601b3670fb4af5bf7ae85205a34b07a4f2b8e3",
+          "single_upright_row-poster.png": "31623df19ad8d3e0ce5d1f4dac5383babc7e77e4d483fb49dfdb409fbc60d6e9"
+        },
+        "mediaValidation": {
+          "decoded": true,
+          "frames": 120,
+          "clippedFrames": [],
+          "codec": "h264",
+          "width": 1280,
+          "height": 960,
+          "fps": 24
+        }
+      },
+      "browserPlayback": {
+        "url": "http://127.0.0.1:8770/animation-library/female/single_upright_row.mp4",
+        "ended": true,
+        "currentTime": 5,
+        "duration": 5,
+        "videoWidth": 1280,
+        "videoHeight": 960,
+        "error": null
+      },
+      "visualNotes": "已实际查看女性单臂五视角四阶段与左手近景：主镜头负重侧可辨，空闲右手和双脚稳定；肩肘形体连续，峰值肘位于肩以下、腕在肘内下方，负重不进入胸前衣物。各阶段与单臂真人参考核对，未套用双臂或男性审核。"
+    }
+  ],
+  "limitations": "Engineering checks and actual visual comparison, not professional exercise certification.42 other library motions are compatible only at frozen original scene/specification hashes and still await human-reference review;19 plan motions use their existing pipeline."
+}

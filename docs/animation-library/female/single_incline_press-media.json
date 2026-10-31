@@ -1,0 +1,24 @@
+{
+  "sceneSHA256": "890845ef6394f103d09168419e35bcb2d61b80bbec902c6a7cc4025dd4d3372a",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v5.py": "2d2545d7c71e99ca55f016ea1dbd6d9764f915ceaba4b12a1ba64115bd211711",
+    "library_scene_v5.py": "20efeaa834a58457568f5a0c15be50d3d9cf8fe380990e514d192d6cea0083fd",
+    "equipment-reference": "cdd462c3b3bf3eeb9ba54c08e49ea6f774da13a7c2b271185d3f853a22a57348"
+  },
+  "specificationSHA256": "491f7a2be64eaa676b61c77647de842cd66cc95ac075f68fab3404dec63e70c1",
+  "files": {
+    "single_incline_press.mp4": "59507c056a6889467db65f4cc4e1b1e47a2dab8a4657c41a5d8e7cb0b8b5fb13",
+    "single_incline_press-poster.png": "9b39668354c9039750b638dfb24fcf6d390a20191c39ba4dbc35cbf8c107c065"
+  },
+  "mediaValidation": {
+    "decoded": true,
+    "frames": 120,
+    "clippedFrames": [],
+    "codec": "h264",
+    "width": 1280,
+    "height": 960,
+    "fps": 24
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "b73067be155c413e874949526993779eaa8e7353586c414945fbcd164a1c865e",
+  "sceneSHA256": "a78e628421506a6b5d11f8a63db6c80124a4a40b6a87bbd120008b45cc0ac691",
   "frames": [
     1,
     49,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/male/incline_alternate_press-review.jpg": "8e3ee1bae66ed5167678b744a7661f6b5ec522abe65cd78998cd335cff4005e4"
+    "docs/animation-library/male/incline_alternate_press-review.jpg": "9e801e87053498aba4e8e831c16d1e0604fa664c04a14734b74992b11c5bc784"
   }
 }

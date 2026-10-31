@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "05903588a064faefcc6661926969b905f694e203cd0a6147d07a8d0bef13ed11",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看五视角关键姿势：负重左手与前臂在主画面近侧，准备、弯举峰值及回程均可辨，空闲手不挡路线；手腕中立、指握贴柄，肩肘和小腿轮廓没有新增异常。",
+  "evidence": {
+    "docs/animation-library/female/single_curl-review.jpg": "a632bbf8c51286120cb90525b3a2ab6ea4e038bdfbb0b9fec327b023234ffd3d"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/single_curl-review.jpg": "a632bbf8c51286120cb90525b3a2ab6ea4e038bdfbb0b9fec327b023234ffd3d"
+  }
+}

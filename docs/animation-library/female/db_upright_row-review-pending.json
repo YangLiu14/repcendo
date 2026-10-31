@@ -1,0 +1,64 @@
+{
+  "sceneSHA256": "99f158d36faaf81a65e5b4888e5716ef3728ca88f4d4fd7a76eea1ca5665fc1f",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/db_upright_row-review.jpg": "45792c939fd0f73b835e315f42dce5c0cfe2edcd123028734583815f7570877f"
+  },
+  "motionReference": {
+    "status": "pending",
+    "referenceSHA256": "3b13579de18ff52e4daf6f8893438ea534fffd6c00fd5c1e3b8696236851297c",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "",
+    "evidence": {
+      "docs/animation-library/female/db_upright_row-review.jpg": "45792c939fd0f73b835e315f42dce5c0cfe2edcd123028734583815f7570877f"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": ""
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.720s",
+        "frame": 31,
+        "notes": ""
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.500s",
+        "frame": 61,
+        "notes": ""
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.220s",
+        "frame": 91,
+        "notes": ""
+      }
+    ]
+  }
+}

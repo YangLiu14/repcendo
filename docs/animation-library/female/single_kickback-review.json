@@ -1,0 +1,45 @@
+{
+  "sceneSHA256": "226700c622e04eef8fcef09249acffbeac7cc51a0e0eed972114ad782f5100fa",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看新五视角及握持近景：主画面将负重左臂完整置于身体外侧，屈肘、伸展末端和回程均可分辨，手腕与哑铃没有被躯干挡住；足部、肩肘及握柄连续性保持。",
+  "evidence": {
+    "docs/animation-library/female/single_kickback-review.jpg": "0d89f53092e3f0ca2f15fe2ee773ed82d893465ae6acae4ad1bcf763cbff54ff",
+    "docs/animation-library/female/single_kickback-grips.jpg": "1ffe102de0aa96500d4b329bd2d8f69011417e8684f967f433d4874f9892e686"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/single_kickback-review.jpg": "0d89f53092e3f0ca2f15fe2ee773ed82d893465ae6acae4ad1bcf763cbff54ff"
+  },
+  "gripSides": [
+    "Left"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/single_kickback-grips.jpg": "1ffe102de0aa96500d4b329bd2d8f69011417e8684f967f433d4874f9892e686"
+  }
+}

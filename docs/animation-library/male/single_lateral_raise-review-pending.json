@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "6fe171f8cca0ca1573ab0c3f818814f406e21f616ee14c0fd9d108a22646ecb4",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/single_lateral_raise-review.jpg": "1e4e1e2a967262cec409bc27c10e83b4bdaa2536ecf0a4c151d886ddbcaec9ee"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "7cf22e7b395bf826abc7ce13937f6c232f69e3d6f660db4b42e65aa10fc95a03",
+  "sceneSHA256": "e4bc334496bf511582ed6e12226c7ce52164f59f88f5f3d7f172057aab3d8c87",
   "frames": [
     1,
     31,
@@ -14,8 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已实际查看本次修正后的主镜头、正、侧、背和手部图，四阶段均覆盖。头部和上背已贴近凳面，臀腿与双足支撑稳定，保留自然腰弧；掌心相对、较收肘，向上推起及下放清楚，无可见器械穿插或肩肘塌陷。旧悬空版本未被接受。",
+  "notes": "实际查看五视角四阶段：平卧姿保留原肩部变形方式后，上臂与胸廓分离清晰、肩部无塌陷；背髋支撑、足底与膝踝轮廓稳定，肘腕握持连续。",
   "evidence": {
-    "docs/animation-library/female/neutral_bench_press-review.jpg": "0594c6581ecfb572133924a7c7371f636856a80786aa90b73eab53bea13650f2"
-  }
+    "docs/animation-library/female/neutral_bench_press-review.jpg": "2da63b3234c59839c61086cf146e72656e2ba6b88399ef1ce7842ccdc8691655"
+  },
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

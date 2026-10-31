@@ -1,0 +1,140 @@
+[
+  {
+    "name": "db_kickback",
+    "sex": "male",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "db_kickback",
+    "sex": "female",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "single_kickback",
+    "sex": "male",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "single_kickback",
+    "sex": "female",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "seated_kickback",
+    "sex": "male",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "seated_kickback",
+    "sex": "female",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "seated_single_kickback",
+    "sex": "male",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "seated_single_kickback",
+    "sex": "female",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "seated_bent_lateral_raise",
+    "sex": "male",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "seated_bent_lateral_raise",
+    "sex": "female",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "overhead_front_raise",
+    "sex": "male",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "overhead_front_raise",
+    "sex": "female",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "db_upright_row",
+    "sex": "male",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "db_upright_row",
+    "sex": "female",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "single_upright_row",
+    "sex": "male",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "single_upright_row",
+    "sex": "female",
+    "positive": true,
+    "passed": true
+  },
+  {
+    "name": "db_kickback",
+    "positive": false,
+    "rejected": true,
+    "expected": "extension_range"
+  },
+  {
+    "name": "overhead_front_raise",
+    "positive": false,
+    "rejected": true,
+    "expected": "missing_overhead_range"
+  },
+  {
+    "name": "single_kickback",
+    "positive": false,
+    "rejected": true,
+    "expected": "unloaded_arm_moved"
+  },
+  {
+    "name": "db_upright_row",
+    "positive": false,
+    "rejected": true,
+    "expected": "nonrigid_or_moving_support"
+  },
+  {
+    "name": "seated_kickback",
+    "positive": false,
+    "rejected": true,
+    "expected": "missing_bench_support"
+  },
+  {
+    "name": "seated_kickback",
+    "positive": false,
+    "rejected": true,
+    "expected": "bench_beam_detached"
+  },
+  {
+    "name": "db_kickback",
+    "positive": false,
+    "rejected": true,
+    "expected": "missing_limb_refinement"
+  }
+]

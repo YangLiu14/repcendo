@@ -1,0 +1,632 @@
+{
+  "status": "passed",
+  "sceneSHA256": "01534d2b57ef2730c67d072f50783f417b2d20fde96569618da7cf6c0687561b",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v7.py": "7733a32b3647493c8c9540cacf3781bba265bf47801d572f4333f69eb23bc2b3",
+    "library_scene_v7.py": "dac5924e1262a47f630ef802e1cc8de893f8a000a51e0a983aa6be107b122f92",
+    "equipment-reference": "eaa942874ea0efca5ef520247f7a3b4de985446b6259ae75a4ea3499c18f43ff"
+  },
+  "mutation": "Loaded upper arm swings at peak (frame 61), instead of retaining a fixed elbow.",
+  "expectedRejection": "curl_elbow_moved",
+  "matchedFailures": [
+    {
+      "check": "curl_elbow_moved",
+      "frame": 61,
+      "side": "Left"
+    }
+  ],
+  "sourceUnchanged": true,
+  "previousRejectedCandidate": {
+    "sceneSHA256": "173f7edcf8561501aa667ee87e7af37567512061e96a8862d3db2217edbf8f7c",
+    "expectedRejection": "free_arm_flared",
+    "matchedFailures": [
+      {
+        "check": "free_arm_flared",
+        "frame": 1,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 2,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 3,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 4,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 5,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 6,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 7,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 8,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 9,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 10,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 11,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 12,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 13,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 14,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 15,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 16,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 17,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 18,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 19,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 20,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 21,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 22,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 23,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 24,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 25,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 26,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 27,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 28,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 29,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 30,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 31,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 32,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 33,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 34,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 35,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 36,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 37,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 38,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 39,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 40,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 41,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 42,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 43,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 44,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 45,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 46,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 47,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 48,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 49,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 50,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 51,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 52,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 53,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 54,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 55,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 56,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 57,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 58,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 59,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 60,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 61,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 62,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 63,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 64,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 65,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 66,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 67,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 68,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 69,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 70,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 71,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 72,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 73,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 74,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 75,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 76,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 77,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 78,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 79,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 80,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 81,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 82,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 83,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 84,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 85,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 86,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 87,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 88,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 89,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 90,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 91,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 92,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 93,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 94,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 95,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 96,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 97,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 98,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 99,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 100,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 101,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 102,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 103,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 104,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 105,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 106,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 107,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 108,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 109,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 110,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 111,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 112,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 113,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 114,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 115,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 116,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 117,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 118,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 119,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 120,
+        "side": "Right"
+      },
+      {
+        "check": "free_arm_flared",
+        "frame": 121,
+        "side": "Right"
+      }
+    ]
+  }
+}

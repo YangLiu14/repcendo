@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "e14ad39277945f0f19e8b8a745b79db41ea0fcbee58c12cab857c289919fccd6",
+  "sceneSHA256": "972f227d04a975854a33c67e828c881de228b18ee9b7751d42e96042c59165bd",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "实际查看最终源场景四阶段主镜头/正侧背/器械可见手部近景。反握方向正确，腕与前臂对齐，调整后的拇指仍与其余四指对握包覆，未穿杆或变为开放握法；上臂、肩部和双足稳定。完整 121 帧双向碰撞/自交通过，五指接触间距最大约 1.56 mm，12 扇区包覆全部覆盖。此决定仅对应当前场景哈希。",
+  "notes": "实际检查五视角四阶段：小腿与踝部连续，坐姿足底支撑稳定；侧平举肩腋无异常鼓包，反握弯举手腕和肘部轮廓自然，握持无脱离。",
   "evidence": {
-    "docs/animation-library/male/reverse_curl-review.jpg": "21b7234d5ec50c588a9c1f9346a4840b4d6e6bfad1bae7bbb972e75b6fde6d66"
+    "docs/animation-library/male/reverse_curl-review.jpg": "1bcd2d4b50ea6ff0cbf9c1e8055561216a5a568eac2beee6809e2135122b259b"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

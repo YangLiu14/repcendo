@@ -1,0 +1,64 @@
+{
+  "sceneSHA256": "01fed083059ed372ad9cb9a05e2dd147737e0ffb3f7d731f701bb740ffabac1d",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/single_upright_row-review.jpg": "9044036bb07271fa95d28116eca903133c1021c38a5a6aaaeb4675fb90af230b"
+  },
+  "motionReference": {
+    "status": "pending",
+    "referenceSHA256": "254dd03570f33b25809b2da7134c629a1986af7c629c1acc09b10e7e807ab623",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "",
+    "evidence": {
+      "docs/animation-library/male/single_upright_row-review.jpg": "9044036bb07271fa95d28116eca903133c1021c38a5a6aaaeb4675fb90af230b"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": ""
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.750s",
+        "frame": 31,
+        "notes": ""
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.426s",
+        "frame": 61,
+        "notes": ""
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.093s",
+        "frame": 91,
+        "notes": ""
+      }
+    ]
+  }
+}

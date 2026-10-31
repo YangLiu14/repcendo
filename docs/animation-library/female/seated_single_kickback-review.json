@@ -1,0 +1,57 @@
+{
+  "sceneSHA256": "75be675bacd3d93e4d36ad89ec8359b9cea61b6245a3c1947e011d279ec7e0b9",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看五视角与握持近景：负重左臂位于主镜头近侧，屈肘和伸直末端的哑铃可见，空闲手在远侧没有遮挡；坐垫接触与完整纵梁、前后支腿保持，肩肘、腿部及手腕无新增形变。",
+  "evidence": {
+    "docs/animation-library/female/seated_single_kickback-review.jpg": "4f59cc8dc02a9d0d3ad97f38f104d5a1ee67f2cc2f8ebdd8026fc9e3c2a72c63",
+    "docs/animation-library/female/seated_single_kickback-grips.jpg": "3a5915f0f526a5cbf7f3fa4c3c4a1b7dbc9d8df53118430d979ff289e9be4c02"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/seated_single_kickback-review.jpg": "4f59cc8dc02a9d0d3ad97f38f104d5a1ee67f2cc2f8ebdd8026fc9e3c2a72c63"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/female/seated_single_kickback-review.jpg": "4f59cc8dc02a9d0d3ad97f38f104d5a1ee67f2cc2f8ebdd8026fc9e3c2a72c63"
+  },
+  "gripSides": [
+    "Left"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/seated_single_kickback-grips.jpg": "3a5915f0f526a5cbf7f3fa4c3c4a1b7dbc9d8df53118430d979ff289e9be4c02"
+  }
+}

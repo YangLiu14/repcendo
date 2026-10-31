@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "7d5c464a823966238bb417a846eefbb26c91f72f334c360e6771a34ec909c132",
+  "sceneSHA256": "844d9a55d2157be016d1f723c4c49b0d62fc1335f209a77356ea0df53597ddb5",
   "frames": [
     1,
     31,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/db_shrug-review.jpg": "c288edee855960b5dea57a2596f552cbf6a4e5558df21474d17097c649deaf22"
+    "docs/animation-library/female/db_shrug-review.jpg": "f7a6491b5d181a452e1387f219aa47be80e8f6c3c41166aa107c14bd994861d0"
   }
 }

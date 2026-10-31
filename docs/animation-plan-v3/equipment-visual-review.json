@@ -1,7 +1,8 @@
 {
-  "male/pushdown": {
+  "male/single_incline_press": {
     "status": "accepted",
-    "sceneSHA256": "25a3b838f1207c0d577c12f4db5b9bb8bacf8b6729cbf6234000bcdd0e12af6e",
+    "sceneSHA256": "9085725748a418dcb91f16c15175a5960619e1ce959db025515a9cdefee6d11f",
+    "notes": "已查看五视角及补拍主侧器械图：负重左肩、肘腕和哑铃位于主镜头近侧，起始屈肘、推起峰值及回程都清楚；背垫、坐垫、后方支撑和底架完整可见，保留既有照片校准结构，背部和足底接触稳定。",
     "views": [
       "main",
       "side"
@@ -11,14 +12,14 @@
       31,
       61
     ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/pushdown.jpg": "3acf31965d15e59ffcb1e15ebdd412defeb6b0ee4e80afd33c8235a5fb85fd33"
+      "docs/animation-library/male/single_incline_press-equipment.jpg": "e4f46c60b1d8fa1cbe8c0bb1f4cdd72e056375a53b40bb1dcc9f75e6a7269706"
     }
   },
-  "male/pulldown": {
+  "female/single_incline_press": {
     "status": "accepted",
-    "sceneSHA256": "f003a258896dcd9069b125622056b4678b88960fc1ec950b29f08d3153f4a216",
+    "sceneSHA256": "890845ef6394f103d09168419e35bcb2d61b80bbec902c6a7cc4025dd4d3372a",
+    "notes": "已查看六个帧位的五视角及完整主侧器械图：负重左臂在主镜头近侧，峰值附近 57、60、61 帧肩肘和哑铃连续可辨，空闲手不挡路线；背垫、座垫、后支撑与底架完整显示，接触及既有照片校准结构保持一致。",
     "views": [
       "main",
       "side"
@@ -28,553 +29,512 @@
       31,
       61
     ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/pulldown.jpg": "36525b6828f1746c85fcdab4f6b0c032b290aa41d21cd14155cb037147a734ac"
+      "docs/animation-library/female/single_incline_press-equipment.jpg": "64ca9c93e8d2f3f7b28bde22cbe70f3406a7f876dfe251507d3b7cfd4749297d"
     }
   },
-  "male/straight_pulldown": {
-    "status": "accepted",
-    "sceneSHA256": "582e6dcbf1c84ad26868d773f3a1960bb1b53c1bcaa0e482a2ace9cfeb0ac1c4",
+  "male/single_bench_press": {
+    "sceneSHA256": "5d31165b139925b3b22fe2da7d6d278bde13878d785cd761cff2a259fd27e7df",
     "views": [
       "main",
       "side"
     ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/straight_pulldown.jpg": "beba4c95b6aa9230f4d590831da4d041f8a45f57e5e245f024c75214fd332b85"
-    }
+      "docs/animation-plan-v3/equipment-review/male/single_bench_press.jpg": "5d89a072f9d621b7d29f241dacb2fce21d74389c3bc6e471e8d07d13df8ee684"
+    },
+    "status": "accepted",
+    "notes": "已看主视侧视三关键帧：上斜凳靠背支撑与平凳支脚结构保留，背臀与垫接触、双脚落地，单侧推举及另一侧手臂无碰撞。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
   },
-  "male/cable_crunch": {
-    "status": "accepted",
-    "sceneSHA256": "69f5c77a54c3587b90175d0fd060fdda825fef93a7cbb5d824b292fd9a58e7a7",
+  "female/single_bench_press": {
+    "sceneSHA256": "d3a91e65e2dc58826205b93643bac656bb672bb2440ffc8317f250792acc200b",
     "views": [
       "main",
       "side"
     ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/cable_crunch.jpg": "4d46cd26e078e0de6d556afe5cf865b3adddc9509783af18df0c12f0d2488770"
-    }
-  },
-  "male/row": {
+      "docs/animation-plan-v3/equipment-review/female/single_bench_press.jpg": "626a82facfb6981e49436c90e08573b3db0154a05d369af99b4043abf8f41625"
+    },
     "status": "accepted",
-    "sceneSHA256": "f924706a6258afbb78e3c7834f8c4d6363cb36f5d8097697a8ed777efaf0a8d4",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/row.jpg": "f1ff5283c9160714263e93cfe672e8277fbd7959ec2fab25420c78b2b1c080a5"
-    }
-  },
-  "male/leg_curl": {
-    "status": "accepted",
-    "sceneSHA256": "a08c4cca78470669719d3ffd7afeb32f9e65bc2907bb87a2d9040050740af7e0",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/leg_curl.jpg": "922daed9937b436bf85919f71f591e5be647e7683263732fb421d687b2227c05"
-    }
-  },
-  "male/leg_extension": {
-    "status": "accepted",
-    "sceneSHA256": "d9b90b48cec72bfe330e4b3c11035902d0019f33a15eaf6d1da62bd9a5c88941",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/leg_extension.jpg": "89f93c19b0999932ff811190f2ca2a9e2283ad9742458b654ce254abf5dc691f"
-    }
-  },
-  "male/leg_press": {
-    "status": "accepted",
-    "sceneSHA256": "2e6e56ecc787c9115f9d53484cbcfa28ee861f974b8175662c7414d92c108698",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/leg_press.jpg": "105a66e239dae3b2dfe854d12474c0f7430c4fac4582f0b1ba4fdfb5a77191bf"
-    }
-  },
-  "male/calf_raise": {
-    "status": "accepted",
-    "sceneSHA256": "fd245ce61daebda44546011e617264c88e9bbd9d64229da14df9a8e33c2e5084",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/calf_raise.jpg": "c4660853057c1f36f315b2049c275141748d56260b2ce76c2878b3ea0ae2cb80"
-    }
-  },
-  "male/incline_press": {
-    "status": "accepted",
-    "sceneSHA256": "5a465c7832c5b941318573b6108543fe9a6b74ad82bcb6b42fc51178819e5af5",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/incline_press.jpg": "0a6ca4690e672107bb254a97db23d8d3ae6ba148fbb6fad7a905ec26db78483f"
-    }
-  },
-  "male/shoulder_press": {
-    "status": "accepted",
-    "sceneSHA256": "42acf5e8456aa08a26de2499992f05fdcec174f2c946286c95810ce0e04a9a3e",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/shoulder_press.jpg": "0465e7a96c53a4138b97991b129cd9acab6704bf3ff6432b43939b978f6d588f"
-    }
+    "notes": "已看主视侧视三关键帧：上斜凳靠背支撑与平凳支脚结构保留，背臀与垫接触、双脚落地，单侧推举及另一侧手臂无碰撞。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
   },
   "male/incline_hammer_press": {
-    "status": "accepted",
-    "sceneSHA256": "60435694dc19c0c9681fc6dea075b0f8e6afafd57666278dc390dcb1d6f209f8",
+    "sceneSHA256": "438c1c68becf3c1878524277dfd562326d96152bee5702daaba309a2d515b7f5",
     "views": [
       "main",
       "side"
     ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/incline_hammer_press.jpg": "ea0609563d799ee4beca24ab683503193eec9199635de34d5df9c5609c7be960"
-    }
-  },
-  "male/incline_alternate_press": {
+      "docs/animation-plan-v3/equipment-review/male/incline_hammer_press.jpg": "03040a1658321b439f675a88446f8555c17f542a02f15e89e4ec1096db82b509"
+    },
     "status": "accepted",
-    "sceneSHA256": "9535ed8790511ab65492071e90249e48d6f0e663843c558fabc724d10a4bafe4",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/incline_alternate_press.jpg": "7dfaca6fa4598ea9af5869d74861f7c765a96f69c7b03ccb685f705f2d9472b5"
-    }
-  },
-  "male/seated_alternate_press": {
-    "status": "accepted",
-    "sceneSHA256": "600d71099cee804d2f83a9244978a5fcc36a54a388a0ec4212b01a3c70994bf1",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/seated_alternate_press.jpg": "14152f50648d94925c41f0ec0998eb4eb199e19c0aae93d1054b75dddf72c446"
-    }
-  },
-  "male/seated_neutral_press": {
-    "status": "accepted",
-    "sceneSHA256": "b5051baa13bf38627c4f829afd34ab613052a8c158a8e3f528fd5fb9b2df66fd",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/seated_neutral_press.jpg": "806f8022303020751fc97e326f4beb3729d85ac042fda5d6b28d540a72402fa7"
-    }
-  },
-  "male/incline_biceps_curl": {
-    "status": "accepted",
-    "sceneSHA256": "3446ff37a1844efa734a0a08e7582773814ec137ae1bcff9867c6bcc15c33efe",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/incline_biceps_curl.jpg": "0693c9bcc710354eb3bed36490f6c42da8f8b996b05ca1f7c885c511f0ba167d"
-    }
-  },
-  "male/incline_hammer_curl": {
-    "status": "accepted",
-    "sceneSHA256": "893a51596c4d0f64de1302bd4d5cbb02f048a605aaabf9e4b192bfe9051fa7bf",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/incline_hammer_curl.jpg": "7990fc8d8400bf2cb855f8a7552c0c4753d5949f31af0f438f4dce18d65883dc"
-    }
-  },
-  "female/pushdown": {
-    "status": "accepted",
-    "sceneSHA256": "1ffb359a7f6cf87e294a04d4e24db1d769907817a45a29247f52f29fb79d1981",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/pushdown.jpg": "e483f48e06758e88ed6a663b6ef33a0711e169a14042646ef0c49f1aefc2b87e"
-    }
-  },
-  "female/pulldown": {
-    "status": "accepted",
-    "sceneSHA256": "c2b26182ed85359561f6d4c09145e3a40a12c580bdb3d41e997e82195b6d1ebf",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/pulldown.jpg": "9b3dcc02c2c76f4f184a172454eaa403993bf1fe2abf9be39b5ed9c974807bdc"
-    }
-  },
-  "female/straight_pulldown": {
-    "status": "accepted",
-    "sceneSHA256": "1fd3f658f7eac0ff5138f6cf309d65efa02d7b569d1d8fc1f27011a4154a0ee9",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/straight_pulldown.jpg": "5b9d6d7882ebc050423da226dbce3d7bc9c5af48c74a843fa111b49386b8cdbe"
-    }
-  },
-  "female/cable_crunch": {
-    "status": "accepted",
-    "sceneSHA256": "e69c8e0e243878b6f14936cee9de149424564db3aa5c81c29a393668d1a6f610",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/cable_crunch.jpg": "00148a4dbc5a746f3b288fa529336851b94a2e226dda488e98bc64b3c5f5d678"
-    }
-  },
-  "female/row": {
-    "status": "accepted",
-    "sceneSHA256": "4f7d4c8e37aa9520b0e94637937946881cffe3192b8d56f6b3a1b597657bd831",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/row.jpg": "7723890d6a0a48a9f46abfc8cbcdb71e69c3a4eac1551c85e924250bb078b7b6"
-    }
-  },
-  "female/leg_curl": {
-    "status": "accepted",
-    "sceneSHA256": "8d48963d264ba4b2c6563176c5d2ea93e73fce234896ae4f7b0dde1030e514b1",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/leg_curl.jpg": "2e80fa45a85360386e42a7f883c98f4aa9ae60381f93e9a993809fe5899766ac"
-    }
-  },
-  "female/leg_extension": {
-    "status": "accepted",
-    "sceneSHA256": "8eb51b333a1e57390e344598b32392d3c8c26aa14b7909f454729616cb160862",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/leg_extension.jpg": "ec0e845988b2b3c431c4a4c430ddf13235ee0a0a587e95875bb5e5b67d2c7807"
-    }
-  },
-  "female/leg_press": {
-    "status": "accepted",
-    "sceneSHA256": "2d38596af61fa893058e11f17274b67ca16cc8e4bff7fd920a0ce8c40ccc66af",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/leg_press.jpg": "c6c292e1dc156f6ef699c45f5de97d009df0b7adebe7af7c233f409e858ce8b5"
-    }
-  },
-  "female/calf_raise": {
-    "status": "accepted",
-    "sceneSHA256": "883fd596d401a79a5471ae1cccded4cd269c28d682072b75e2af5e840933c24e",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/calf_raise.jpg": "f3260e42c384a7b8cb39dc82cc02e1f4efc2754bab42c2188b04ea33d37dfa4a"
-    }
-  },
-  "female/incline_press": {
-    "status": "accepted",
-    "sceneSHA256": "c68ab143f514dd76a4884ec59d2647eada0a1dc477ca3ddb0f15994dbd34d0c5",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/incline_press.jpg": "162c559fd703724398bbc68b5daa497de12aa6c2757ac5d219db6ef10b972a65"
-    }
-  },
-  "female/shoulder_press": {
-    "status": "accepted",
-    "sceneSHA256": "c6fac3659b23430692750699606794b8c6327480cdfcf69ed11b99853b9e0261",
-    "views": [
-      "main",
-      "side"
-    ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
-    "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/shoulder_press.jpg": "ef5b40ea11145979993af4fb69edc6c3a66ca1e72e41e10a232fd6daa1f1306e"
-    }
+    "notes": "实际查看主侧视三关键帧；背臀稳定贴垫，脚底落地，靠背支撑与底架保留，交替/锤式推举中手腕与哑铃连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
   },
   "female/incline_hammer_press": {
-    "status": "accepted",
-    "sceneSHA256": "0b96d0c755e6cf48d91d092eee5254f548895d8188596bc355e65fff10c1cf23",
+    "sceneSHA256": "e693bac9801619ea032373ff680a58859e78a42509cb118c4f16cef3bfdbf350",
     "views": [
       "main",
       "side"
     ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/incline_hammer_press.jpg": "59c58a88295e6b0532597bde88c4eae048ab2cf8a540d654c04a01b7adb61865"
-    }
+      "docs/animation-plan-v3/equipment-review/female/incline_hammer_press.jpg": "aa51d36e722b71d20f3a341a67e8b94a3c6e190f059f7ce45e1d3d62b7ad592d"
+    },
+    "status": "accepted",
+    "notes": "实际查看主侧视三关键帧；背臀稳定贴垫，脚底落地，靠背支撑与底架保留，交替/锤式推举中手腕与哑铃连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/incline_alternate_press": {
+    "sceneSHA256": "a78e628421506a6b5d11f8a63db6c80124a4a40b6a87bbd120008b45cc0ac691",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/incline_alternate_press.jpg": "a64d8f078de8bc96547eb9af6003e2c988711cb33018e435fee61c500d603a53"
+    },
+    "status": "accepted",
+    "notes": "实际查看主侧视三关键帧；背臀稳定贴垫，脚底落地，靠背支撑与底架保留，交替/锤式推举中手腕与哑铃连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
   },
   "female/incline_alternate_press": {
-    "status": "accepted",
-    "sceneSHA256": "d0a37fb5e81ba53e4b43b6463c5e7adae26fa6823f8c40c42f2ccc54187911e1",
+    "sceneSHA256": "f52509bab1fe30c2824740f01db8b16f986bb34d0cfe276cfec26a37bedac1ea",
     "views": [
       "main",
       "side"
     ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/incline_alternate_press.jpg": "08dee97d35118f21d5fc73023abad442e4fcdc641f949fc9b6d1d171f247f6ee"
-    }
+      "docs/animation-plan-v3/equipment-review/female/incline_alternate_press.jpg": "c4743cbd886b520fd6501eda04d0e09ea8d89268eeb10a3f2d05596d6d781486"
+    },
+    "status": "accepted",
+    "notes": "实际查看主侧视三关键帧；背臀稳定贴垫，脚底落地，靠背支撑与底架保留，交替/锤式推举中手腕与哑铃连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/seated_alternate_press": {
+    "sceneSHA256": "9ce94cda10c2574dda634a7a2329196ee9c3cb4b702bff67f6c9c53e13570168",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/seated_alternate_press.jpg": "eafd49f140d985bfb646bb0924422a0ebbf520851a8b553e9f71bbdd1a07870e"
+    },
+    "status": "accepted",
+    "notes": "已逐图检查主侧视三关键帧：臀部坐垫承托、脚底落地，躯干保持直立，肩肘腕及哑铃连续；保留现有坐凳靠背和底座。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
   },
   "female/seated_alternate_press": {
-    "status": "accepted",
-    "sceneSHA256": "36cfb3ee9acfb57f9440c27b72022070c99c6ef1276caff56338ea4cb2730125",
+    "sceneSHA256": "79c8473c9dc3bd0c115877ea2c1c6f7e5f5377ed746a33bd2fe2531d3bc1ed32",
     "views": [
       "main",
       "side"
     ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/seated_alternate_press.jpg": "8b2b62e5fc668c13fdb26dc8909587927ded84ccfa7768a2df23876e0a4906df"
-    }
+      "docs/animation-plan-v3/equipment-review/female/seated_alternate_press.jpg": "8643e861998dde066df7a1d3ceedd14fe0d85a412e53b95d84f214457618335d"
+    },
+    "status": "accepted",
+    "notes": "已逐图检查主侧视三关键帧：臀部坐垫承托、脚底落地，躯干保持直立，肩肘腕及哑铃连续；保留现有坐凳靠背和底座。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/seated_neutral_press": {
+    "sceneSHA256": "3c63fd03f5f661f59e8ad73d6d87184ee1e4a8a4c78a6275703aad22a469e223",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/seated_neutral_press.jpg": "14ed2d6e712dc5dba4a988204fec946b25f6d9edba340c1697aa48cbdc4a982d"
+    },
+    "status": "accepted",
+    "notes": "已逐图检查主侧视三关键帧：臀部坐垫承托、脚底落地，躯干保持直立，肩肘腕及哑铃连续；保留现有坐凳靠背和底座。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
   },
   "female/seated_neutral_press": {
-    "status": "accepted",
-    "sceneSHA256": "90e2a786a88540a4156988ce8ad3bee695f03a303dc213b9fd707d1527a03e4f",
+    "sceneSHA256": "4a39c8eaaf1c3379587e1ab99e7a0e52d23e2b452001fc479a24469787c70923",
     "views": [
       "main",
       "side"
     ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/seated_neutral_press.jpg": "e991435e028f61d95dbe13800a1588376deeaa7cee24449e8449d80cc37c611f"
-    }
+      "docs/animation-plan-v3/equipment-review/female/seated_neutral_press.jpg": "b6a728cca14c2b0f72e5c57a4c41b16d81a68b2280df185a6e4e5222268bd8c1"
+    },
+    "status": "accepted",
+    "notes": "已逐图检查主侧视三关键帧：臀部坐垫承托、脚底落地，躯干保持直立，肩肘腕及哑铃连续；保留现有坐凳靠背和底座。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/incline_biceps_curl": {
+    "sceneSHA256": "955fa5d83bdb2147834bd332a6c8a2355c769b296bf13c6e99541cb92344df6e",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/incline_biceps_curl.jpg": "fdfd344d17b2430a3e6d658c579305d4ad5a4523aec2e540f7d21fb25af38681"
+    },
+    "status": "accepted",
+    "notes": "实际查看主侧视三关键帧，背臀贴垫脚底落地，弯举双臂位于凳外侧且哑铃与凳体保持间隔；现有靠背支撑与底座保留。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
   },
   "female/incline_biceps_curl": {
-    "status": "accepted",
-    "sceneSHA256": "fe4eb5447475d4fcea9f0d403b8cbc797d230bede8a8479e50e95e551499aabe",
+    "sceneSHA256": "7f1e9e0104e32b1ec026683cd27af1328f0f21e1cd67bef92bd4334e3c4f851e",
     "views": [
       "main",
       "side"
     ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/incline_biceps_curl.jpg": "000ade56a29e8e4bbb72191414ecf986826bc8431f87b186179aa1999779a101"
-    }
+      "docs/animation-plan-v3/equipment-review/female/incline_biceps_curl.jpg": "92a9871d39bc70a1b2e65e65cbceb40895860bd329c8713226469cb49f18a2b8"
+    },
+    "status": "accepted",
+    "notes": "实际查看主侧视三关键帧，背臀贴垫脚底落地，弯举双臂位于凳外侧且哑铃与凳体保持间隔；现有靠背支撑与底座保留。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/incline_hammer_curl": {
+    "sceneSHA256": "1e8307de609329377407ec82e63c29166196ad842c296092906888621426eb6d",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/incline_hammer_curl.jpg": "18f4ad31f56e8f62526283a105fb0608b266aff7fdaa18d762017f5f9faa7a35"
+    },
+    "status": "accepted",
+    "notes": "实际查看主侧视三关键帧，背臀贴垫脚底落地，弯举双臂位于凳外侧且哑铃与凳体保持间隔；现有靠背支撑与底座保留。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
   },
   "female/incline_hammer_curl": {
-    "status": "accepted",
-    "sceneSHA256": "7ee22f99632e8a1fd68fd331bfab663ba07e59d662d3bc21179b8ff053b96cb0",
+    "sceneSHA256": "0383c1eef7a32f4497a8e3dfe3cfe3d33ec5b9e8e3356b19788cdb6b06f39f75",
     "views": [
       "main",
       "side"
     ],
-    "frames": [
-      1,
-      31,
-      61
-    ],
-    "notes": "实际查看官方目录照片以及主/侧三姿势：支架、靠垫连接、阻力路径和移动件完整；保留原创简化结构，非厂家工程复刻。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/incline_hammer_curl.jpg": "1e63e6d8f944c9a94d345c4904ac25c0640d06c1f0ae456123b0fb7d827e2bc0"
-    }
+      "docs/animation-plan-v3/equipment-review/female/incline_hammer_curl.jpg": "acd25d31557af37d24b424cc4643ef3b7292d7ac7ecc2813b17fdd499f944cec"
+    },
+    "status": "accepted",
+    "notes": "实际查看主侧视三关键帧，背臀贴垫脚底落地，弯举双臂位于凳外侧且哑铃与凳体保持间隔；现有靠背支撑与底座保留。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/incline_press": {
+    "sceneSHA256": "1dfe5cfb987c1f79ed08d109fb36b90c82e36d74bed56bd9ecdc02a341f7d001",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/incline_press.jpg": "5c72970e6525f8e27718d39a4e84b4c0b6ef1d7ab457f048b4e31ffcbe2140ac"
+    },
+    "status": "accepted",
+    "notes": "实际查看六张关键姿势图；臀背承托与双脚落地稳定，哑铃握持及肩肘腕连续，保留凳体支撑结构。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/incline_press": {
+    "sceneSHA256": "006412ff6a3436e24210f7d3fc6510ab2b17ea5beaefb5fa7ae1c5a0199d8c14",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/incline_press.jpg": "84c7fd7ae89b2c22ea21747fe76684736833dd5966537a733bc86988622edac7"
+    },
+    "status": "accepted",
+    "notes": "实际查看六张关键姿势图；臀背承托与双脚落地稳定，哑铃握持及肩肘腕连续，保留凳体支撑结构。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/shoulder_press": {
+    "sceneSHA256": "d10e7e792fe62620e6c0c0a3a96916c63124681619ac74c6c726a4c8bb4357af",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/shoulder_press.jpg": "f66b185c3758ba8c32d93979796e392c7e0736726d91d4a285019965a8f2f1c0"
+    },
+    "status": "accepted",
+    "notes": "实际查看六张关键姿势图；臀背承托与双脚落地稳定，哑铃握持及肩肘腕连续，保留凳体支撑结构。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/shoulder_press": {
+    "sceneSHA256": "9b75116faf638005059383526639f3319044a6ff2ca23dec1f7892b343354547",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/shoulder_press.jpg": "b79c3402ab80a99fdf120ae677fd8203c5f50a3bb6a960ae0d47b31e4986af1c"
+    },
+    "status": "accepted",
+    "notes": "实际查看六张关键姿势图；臀背承托与双脚落地稳定，哑铃握持及肩肘腕连续，保留凳体支撑结构。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/leg_press": {
+    "sceneSHA256": "d411e85daa2d2513f2d8e4293b463377255ca13508c5dfb3db5f4fbbe4f50e0a",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/leg_press.jpg": "a451444f65b31eac4fe41d0133f74495be47f91cd66cbbf14882fb3e1e17f967"
+    },
+    "status": "accepted",
+    "notes": "逐图查看主侧视三关键帧：腿举脚底贴踏板、双斜轨及靠背承托保留；腿弯举大腿压垫与小腿后侧滚垫随膝转动，未见肢体穿杆。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/leg_press": {
+    "sceneSHA256": "b26b8dc0e8b2ee83e68b07e67c3be7778baebcf81233919107f94b207ff5111f",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/leg_press.jpg": "7dcf6c8ea538c5855b0e45cc5170b142ba9997d198f85fe276cb60e551179c8e"
+    },
+    "status": "accepted",
+    "notes": "逐图查看主侧视三关键帧：腿举脚底贴踏板、双斜轨及靠背承托保留；腿弯举大腿压垫与小腿后侧滚垫随膝转动，未见肢体穿杆。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/leg_curl": {
+    "sceneSHA256": "1878778bb39948fb7098a975ee351cfa2d6c0dc480eeb98b72c116f46c5fa3da",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/leg_curl.jpg": "1365954fc3912503c4ebfb97b8b9ecb1bccc20e45706099d0e33898aa7d40b10"
+    },
+    "status": "accepted",
+    "notes": "逐图查看主侧视三关键帧：腿举脚底贴踏板、双斜轨及靠背承托保留；腿弯举大腿压垫与小腿后侧滚垫随膝转动，未见肢体穿杆。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/leg_curl": {
+    "sceneSHA256": "3a932a0cff6b4e7b8b8102dfdddebfd42e9fb6cf2e6444a533068926dcfe8d65",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/leg_curl.jpg": "bf8eefb79c23eaed544cf462060d10074b08ce4df9d828cb18138e219caf4f8a"
+    },
+    "status": "accepted",
+    "notes": "逐图查看主侧视三关键帧：腿举脚底贴踏板、双斜轨及靠背承托保留；腿弯举大腿压垫与小腿后侧滚垫随膝转动，未见肢体穿杆。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/leg_extension": {
+    "sceneSHA256": "a32c1aa280c4d9878c3a2e725dad715ff80ae36b682637db4f20f07afc0cfa87",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/leg_extension.jpg": "eca5176d8ba9cbc718419a70e8491ec7566238d708e54f2f966bca95d7f88ad6"
+    },
+    "status": "accepted",
+    "notes": "已看主侧视三关键帧；腿伸前滚垫随膝关节转动且贴近胫前，臀部承托；提踵肩垫随人升降、前掌贴台，器械支撑传动布局保留。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/leg_extension": {
+    "sceneSHA256": "666de886beab17eeb84191ec9ec58a6b6901bcf5afb7f0c1013dbdddaeb0faa2",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/leg_extension.jpg": "801a22b3ac985a84b2f271c28c8d02087156702b295c787c0c96feab0a4fbeb9"
+    },
+    "status": "accepted",
+    "notes": "已看主侧视三关键帧；腿伸前滚垫随膝关节转动且贴近胫前，臀部承托；提踵肩垫随人升降、前掌贴台，器械支撑传动布局保留。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/calf_raise": {
+    "sceneSHA256": "41f4b795199e758040040fc464097795784f95d6a0de6302666fc0e1541f09c8",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/calf_raise.jpg": "0a26ac181612abc965977e6cfb7f2725bb1eb2f8f0337f54dd6d242fde4b58d7"
+    },
+    "status": "accepted",
+    "notes": "已看主侧视三关键帧；腿伸前滚垫随膝关节转动且贴近胫前，臀部承托；提踵肩垫随人升降、前掌贴台，器械支撑传动布局保留。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/calf_raise": {
+    "sceneSHA256": "7f9400b0a80ee12312cba6ff5f3ce7d90757950ac19fb68ff06736a7d8d1d1c2",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/calf_raise.jpg": "99c74cda270e913f59e17fcf1bfcbabbebcc3004b0a491041db831b6cf3d84de"
+    },
+    "status": "accepted",
+    "notes": "已看主侧视三关键帧；腿伸前滚垫随膝关节转动且贴近胫前，臀部承托；提踵肩垫随人升降、前掌贴台，器械支撑传动布局保留。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/pulldown": {
+    "sceneSHA256": "e306e0479ccca8dddd3ca736b362ee1bd20b1aff8c6a1d4459b44c10c46405b7",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/pulldown.jpg": "758b91ade996aace6dca53bf649a73139da1ea730719b6390eee5e7ef2427cf1"
+    },
+    "status": "accepted",
+    "notes": "实际检查主侧视三关键帧；下拉坐垫和压腿支撑稳定，高滑轮绳线连贯；划船双足贴踏板、臀部坐垫承托，低滑轮绳线保持连接，肩肘腕连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/pulldown": {
+    "sceneSHA256": "851307697bea7e41d5857f3b8d3d149efffb69f13ddc9d4c491f2c6c4fec58c4",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/pulldown.jpg": "dc156f380e9d316cc237d00c81dc394ffdf2764dad269d007317d17ba6d0756a"
+    },
+    "status": "accepted",
+    "notes": "实际检查主侧视三关键帧；下拉坐垫和压腿支撑稳定，高滑轮绳线连贯；划船双足贴踏板、臀部坐垫承托，低滑轮绳线保持连接，肩肘腕连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/row": {
+    "sceneSHA256": "4e9d0d2e22d5c04978abacd7882f66a76c636372ea2c10372b792f11c8dfdf53",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/row.jpg": "6bbcdf40f2762f64a901b0c4efa74c13940ef3dec2ec0cb50592dd88b59b91f5"
+    },
+    "status": "accepted",
+    "notes": "实际检查主侧视三关键帧；下拉坐垫和压腿支撑稳定，高滑轮绳线连贯；划船双足贴踏板、臀部坐垫承托，低滑轮绳线保持连接，肩肘腕连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/row": {
+    "sceneSHA256": "797608dcce35fb9fc8cb8e6a454575a7d3fcf014bc752ed7a05148548840bbec",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/row.jpg": "c991dba1339a1a2ab8934de291f22d102e58852e4d83d9a6cdd4d598256e08b4"
+    },
+    "status": "accepted",
+    "notes": "实际检查主侧视三关键帧；下拉坐垫和压腿支撑稳定，高滑轮绳线连贯；划船双足贴踏板、臀部坐垫承托，低滑轮绳线保持连接，肩肘腕连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/straight_pulldown": {
+    "sceneSHA256": "4aa1680fd838b662859e8cd05982cd1045d40defd3a8eabd0b2240561fcf65fb",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/straight_pulldown.jpg": "dcbbe46ff6a541ac21c4e3f3d0446bd84079d43b2ffabd98a988544c8ec7c505"
+    },
+    "status": "accepted",
+    "notes": "实际检查主侧视三关键帧：站姿微屈膝、双脚稳定落地，高滑轮绳线连续，直臂下压和肘伸下压手柄保持握持，未见肢体与支架穿插。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/straight_pulldown": {
+    "sceneSHA256": "0b35e874507e1170fe4efebed73046a6a538ca03691c0c478a798b197844ebf6",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/straight_pulldown.jpg": "3324bd51c114283ebfb3533e30ccada522fa8cd30b08de5834ed0f4a2c57a691"
+    },
+    "status": "accepted",
+    "notes": "实际检查主侧视三关键帧：站姿微屈膝、双脚稳定落地，高滑轮绳线连续，直臂下压和肘伸下压手柄保持握持，未见肢体与支架穿插。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/pushdown": {
+    "sceneSHA256": "6f537848955e57ee36ded60e912a3385e9e5244395d1979621035f6c874f7dec",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/pushdown.jpg": "d4416c66bc79a177195f6431e5c431e4b9aa5a8d2069ad69d3d2e9e2f582c2c3"
+    },
+    "status": "accepted",
+    "notes": "实际检查主侧视三关键帧：站姿微屈膝、双脚稳定落地，高滑轮绳线连续，直臂下压和肘伸下压手柄保持握持，未见肢体与支架穿插。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/pushdown": {
+    "sceneSHA256": "9eb53d62ea38f95dbc949c58c03c3cb4023173b5414af3b235fdeca8cc47160b",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/pushdown.jpg": "e24a54a0d80a960489e1aa53f65394935961795c22e50dba15df3748f7a78a62"
+    },
+    "status": "accepted",
+    "notes": "实际检查主侧视三关键帧：站姿微屈膝、双脚稳定落地，高滑轮绳线连续，直臂下压和肘伸下压手柄保持握持，未见肢体与支架穿插。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "male/cable_crunch": {
+    "sceneSHA256": "a76e31b32b35716f4d7eb6b7a8371bc97b50b17f1865566a5d2ee8f421d39b06",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/male/cable_crunch.jpg": "37fef63f1a56762263984a948daca7f25b704535f4e191852a7594edd7b84129"
+    },
+    "status": "accepted",
+    "notes": "实际查看主侧视三关键帧与握把近景，膝盖贴垫、绳线从高滑轮连续连接至双手，卷腹过程中肩肘腕与小腿轮廓连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
+  },
+  "female/cable_crunch": {
+    "sceneSHA256": "6e8e60d6f91e0daae05eaf34ab9c155174d76791afdbab35664437287522dab9",
+    "views": [
+      "main",
+      "side"
+    ],
+    "evidence": {
+      "docs/animation-plan-v3/equipment-review/female/cable_crunch.jpg": "3e99367150af5864b97ae8637cc53487279fa6e80b721ca73bd7f64f302b5ce1"
+    },
+    "status": "accepted",
+    "notes": "实际查看主侧视三关键帧与握把近景，膝盖贴垫、绳线从高滑轮连续连接至双手，卷腹过程中肩肘腕与小腿轮廓连续。",
+    "reviewedAt": "2026-10-30",
+    "reviewer": "Codex: actual image inspection"
   }
 }

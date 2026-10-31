@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_upright_row",
+  "exerciseId": "0363",
+  "status": "reviewed",
+  "specificationSHA256": "0f7adea6d07890ca49ab24f3d7c0a437e1e5d653402ffbf2b63346792c39abaf",
+  "profile": "upright_row_shoulder_height_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Functional Bodybuilding",
+      "url": "https://www.youtube.com/watch?v=kSrITY6J7qo",
+      "kind": "human_video",
+      "accessedOn": "2026-10-30",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "Viewed official public YouTube player using browser controls. Retain timestamps and own movement observations only; no video download, tracing, pose extraction, model training or media redistribution. No claim of a media production licence."
+      }
+    },
+    {
+      "id": "ncsf",
+      "publisher": "National Council on Strength and Fitness",
+      "url": "https://www.ncsf.org/pdf/ceu/contraindicated_exercises.pdf",
+      "kind": "human_photo",
+      "accessedOn": "2026-10-30",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "Read public teaching reference; retain link/page and own observations only. No source image in App or reference manifest."
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "右手持哑铃在大腿前，空闲左臂自然垂放，双脚支撑。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.750s",
+      "observed": "负重肘向外上提，哑铃在身体前方；空闲臂和躯干保持稳定。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.426s",
+      "observed": "负重肘约肩高、腕在肘内下方；未用另一手支撑器械。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.093s",
+      "observed": "负重手沿前方路径下降，躯干未侧倒；2.853 秒负重接近髋前。"
+    }
+  ],
+  "reviewer": "Codex: actual browser key-phase observation; not certified coach review",
+  "reviewedOn": "2026-10-30",
+  "decisions": "采用 NCSF PDF 第6页修正照片的肩高示范幅度，上臂下垂方向夹角上限90°；该数值是此动画设计，不是人体生理极限。保留肘领动、前臂内下方、正握、稳定躯干及受控回程。PureGym 真人峰值更高，因此只参考其路径与起止。单臂真人示范右手，本项目采用左手同类动作；以自身左臂重新求解，不镜像画面，保持负重手近侧机位。"
+}

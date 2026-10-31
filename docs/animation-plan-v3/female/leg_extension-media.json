@@ -1,8 +1,8 @@
 {
-  "sceneSHA256": "8eb51b333a1e57390e344598b32392d3c8c26aa14b7909f454729616cb160862",
+  "sceneSHA256": "666de886beab17eeb84191ec9ec58a6b6901bcf5afb7f0c1013dbdddaeb0faa2",
   "validatorSHA256": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
   "files": {
-    "leg_extension.mp4": "e6535d7d5fc6f77f0c45b68969cbf00c0847318084e1731fe5b37a7543463a90",
-    "leg_extension-poster.png": "a8a22b24fdad9340069f5f3e8f742a6f56722c35e3f509d0ee6b6987874c403e"
+    "leg_extension.mp4": "8b69ca01ff2e65c2f797c362f89926828dbb4cf907a5e3814432b2ff93a2fecc",
+    "leg_extension-poster.png": "92c5a73be932864c311fc5653bcd88a3e1e4ca16797250dccc40256ab11f1772"
   }
 }

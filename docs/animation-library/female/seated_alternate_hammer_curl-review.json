@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "5e985d2471ad6cf5f98c6fe6b0408ba67157ef2fb523b4610a6ab94d673fc65c",
+  "sceneSHA256": "554632b399b45c47ca2050dcf27933d888756d3badbdb00c147e8fc184509c50",
   "frames": [
     1,
     49,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "实际查看四阶段主镜头、正面、侧面、背面与器械可见握持近景。左右交替顺序完整，闲置手稳定；中立握与手腕对齐，哑铃与大腿分离，坐垫和双足接触连续。保留角色雕塑衣褶。与全帧独立检查共同验收，非医疗或专业教练认证。",
+  "notes": "实际查看四阶段五视角：坐姿膝部没有尖折，小腿后侧到踝部轮廓连续，双脚与座面位置稳定；弯举的肘部、掌向和交替侧清楚，肩带未见新增塌陷或侧胸鼓包，手掌保持包覆握柄。保留原雕塑衣褶。",
   "evidence": {
-    "docs/animation-library/female/seated_alternate_hammer_curl-review.jpg": "17900ec1b08b3000a134c6d3643d01a15319f09cf723b7dea141569eebe3a16c"
+    "docs/animation-library/female/seated_alternate_hammer_curl-review.jpg": "7eb289bda1750090b114b5fa32c5b1a434417548f51ca944110466b8f83679a7"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

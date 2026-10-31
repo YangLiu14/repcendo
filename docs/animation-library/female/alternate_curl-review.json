@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "318806a76c375b012e6d9661282d28adeb6eb6ab8fadeced55a1bceef638ea82",
+  "sceneSHA256": "b8eb1c34a1f8b6332faeff5935f2c849c25bbbe24fcf830907666998390f67de",
   "frames": [
     1,
     49,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "Inspected main/front/side/back and hand views at frames 1,49,97,145. Both left and right curls are present, the resting arm stays still, palms remain supinated and wrists straight. Dumbbells stay clear of thighs; upper arms and feet are stable. No new visible arm/torso folding. Existing sculpture fabric folds retained; illustrative motion review, not professional biomechanical certification.",
+  "notes": "已逐张查看本场景主、正、侧、背及握持四阶段图。站姿膝屈减小，小腿肌腹与踝部过渡连续；坐姿膝盖轮廓未出现尖折，足底与座面支撑合理。弯举掌向/交替侧、前举方向和握把接触清楚，肩肘轮廓无新增异常鼓包。保留雕塑细部及衣褶。",
   "evidence": {
-    "docs/animation-library/female/alternate_curl-review.jpg": "526361217671748fbec397fb22c33d1739f4700bf95b681d16c36b599aedd11b"
+    "docs/animation-library/female/alternate_curl-review.jpg": "4de766d15b87148815ec978f5a2c11e82b4d2141fa68c37796b335ca8bead94b"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

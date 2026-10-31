@@ -1,8 +1,8 @@
 {
-  "sceneSHA256": "ae6117a1e2ee7d45750e192075282105d7b0e7c11a9a095ee035d85ca68a93c4",
+  "sceneSHA256": "d925340c697080a00e73dc5da4fcdcfa81d09eb751243f46343ce0365bb618ef",
   "validatorSHA256": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
   "files": {
-    "rdl.mp4": "aa382df2bc3ca63fd270ccfb055b2b928e986aed1e9260c109fb43bfc2cba32f",
-    "rdl-poster.png": "fbc8f8b974e8e3024c5e2fc5fd3af1040901ae95f96e8303c0b3da9074bc2d9c"
+    "rdl.mp4": "be8dc1635a814de40c3091ced8a502e04fa5375254524351a54a8c894b5526c3",
+    "rdl-poster.png": "cebabef8a2a009d02eb9cb535b4624d2780e584a29f8b7f216404ca1cd3eb397"
   }
 }

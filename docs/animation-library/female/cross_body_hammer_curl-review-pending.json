@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "49fe9f6f653fd78d1c9aa65aaaf775ca5977bb4490e48378e9017774042f054f",
+  "sceneSHA256": "da82220cee8aae85f274fe643009be193b068e472ea72ebfa1f4db8b1df69921",
   "frames": [
     1,
     49,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/cross_body_hammer_curl-review.jpg": "3f4e470513938445ca2979e35ee100b6a593b036b90f4f139d26cad39d0798e7"
+    "docs/animation-library/female/cross_body_hammer_curl-review.jpg": "1eba3081f20add53e283a7627d17e072964c5ec8a4462b65360b173bab3ad2de"
   }
 }

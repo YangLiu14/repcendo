@@ -1,7 +1,7 @@
 {
   "male/cable_crunch": {
     "passed": true,
-    "sceneSHA256": "69f5c77a54c3587b90175d0fd060fdda825fef93a7cbb5d824b292fd9a58e7a7",
+    "sceneSHA256": "a76e31b32b35716f4d7eb6b7a8371bc97b50b17f1865566a5d2ee8f421d39b06",
     "validatorSHA256": "353e073eaf46cb14e88e133d7ed15c1b487506b2a682392ba3369c9d977bc006",
     "frames": [
       1,
@@ -134,7 +134,7 @@
   },
   "female/cable_crunch": {
     "passed": true,
-    "sceneSHA256": "e69c8e0e243878b6f14936cee9de149424564db3aa5c81c29a393668d1a6f610",
+    "sceneSHA256": "6e8e60d6f91e0daae05eaf34ab9c155174d76791afdbab35664437287522dab9",
     "validatorSHA256": "353e073eaf46cb14e88e133d7ed15c1b487506b2a682392ba3369c9d977bc006",
     "frames": [
       1,

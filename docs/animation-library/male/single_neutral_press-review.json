@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "48babb3b64c557325bc825f692a885353e64099d51a4375cda3d81f0fdc8fbe7",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看新五视角：中立握的负重左手在主镜头外侧，前臂到过顶的推举路径清楚，空闲右手在远侧；肩腋、肘腕和手指握持无新增异常，头顶哑铃没有裁切。",
+  "evidence": {
+    "docs/animation-library/male/single_neutral_press-review.jpg": "b9f07fa4f227b82bc7cca9a182cb9e86fedaf9e22a8c05ca23b95bc33c2633b5"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/male/single_neutral_press-review.jpg": "b9f07fa4f227b82bc7cca9a182cb9e86fedaf9e22a8c05ca23b95bc33c2633b5"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "sceneSHA256": "5b230fe79877b1ab6aa9ab7d9d73f5427e3c5bdbc8b91252cdfba82b3c4923a5",
+  "frames": [
+    1,
+    25,
+    31,
+    49,
+    61,
+    73,
+    97,
+    121,
+    145,
+    169
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看10个时点五视角以及双手近景：上臂已收窄并保持固定，左臂1/25/49/73帧完成伸肘和回收，97帧换侧，右臂121/145/169帧同样完成独立重复。对应Functional Fitness真人4.144/4.744/5.344/6.216秒及8.288秒另侧伸展；躯干前倾、足底稳定，没有两臂同时伸展。主镜头可分辨左右哑铃时序，远侧上臂局部受躯干遮挡，以正/侧/背视图核对关节；双手近景确认握柄和手腕，保留原雕塑皮肤与衣褶。",
+  "evidence": {
+    "docs/animation-library/male/standing_alternate_kickback-review.jpg": "65162b8a4ade08ade6080ac4ddb3a9b20829b9070bdb3ba9fcaaa6604b0a68fa",
+    "docs/animation-library/male/standing_alternate_kickback-grips.jpg": "bd4a5b9898da72f35e1ccade68e99134a9d0a8007a943c62e19e80c6adb33b78"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "2200a48c47f61032490f1725048142cd9b098be64f090c8930592c3deb74cf19",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看10个时点五视角以及双手近景：上臂已收窄并保持固定，左臂1/25/49/73帧完成伸肘和回收，97帧换侧，右臂121/145/169帧同样完成独立重复。对应Functional Fitness真人4.144/4.744/5.344/6.216秒及8.288秒另侧伸展；躯干前倾、足底稳定，没有两臂同时伸展。主镜头可分辨左右哑铃时序，远侧上臂局部受躯干遮挡，以正/侧/背视图核对关节；双手近景确认握柄和手腕，保留原雕塑皮肤与衣褶。",
+    "evidence": {
+      "docs/animation-library/male/standing_alternate_kickback-review.jpg": "65162b8a4ade08ade6080ac4ddb3a9b20829b9070bdb3ba9fcaaa6604b0a68fa"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "4.144s",
+        "frame": 1,
+        "notes": "双肘屈曲，髋部折叠前倾；握法和双足支撑与真人准备姿态一致。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "4.744s",
+        "frame": 25,
+        "notes": "左侧前臂向后伸展，右臂保持屈曲；身体没有跟随转动。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "5.344s",
+        "frame": 49,
+        "notes": "左肘接近伸直但不超伸，上臂未随负重抬高；哑铃位于髋后。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "6.216s",
+        "frame": 73,
+        "notes": "左侧受控回收，97帧复位后右侧开始，145帧右臂伸展；与真人交替方式一致。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-30",
+  "reviewer": "Codex: actual rendered multi-view and human-reference comparison, not professional coach certification",
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    25,
+    49,
+    73,
+    97,
+    121,
+    145,
+    169,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/standing_alternate_kickback-grips.jpg": "bd4a5b9898da72f35e1ccade68e99134a9d0a8007a943c62e19e80c6adb33b78"
+  }
+}

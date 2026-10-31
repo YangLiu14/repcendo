@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "03ff0e2d946f90355e08d7a0a092a05ffc34a29047ba0cd045c84ede9eab2932",
+  "sceneSHA256": "ac54b1e1e17988e7b064112a93bd3d5d720a9f9e23107926c7f9613ebd6f126a",
   "frames": [
     1,
     31,
@@ -14,10 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已实际查看五视角。髋后移、膝微屈、背部保持直线，肘向后拉并回放；中立握、腕肘对齐，男女哑铃路径均避开膝腿，肩背和前臂轮廓连续。",
+  "notes": "实际检查五视角四阶段：俯身划船保留髋折叠和屈膝，肩肘拉回轮廓连续；耸肩时肩颈过渡自然，手臂不异常缩短；两动作的小腿踝部及握持均稳定。",
   "evidence": {
-    "docs/animation-library/female/db_bent_row-review.jpg": "fb625ab248ea99f0bdbb91eba323ff2c6192f324d500f6321f77df324316ffd2"
+    "docs/animation-library/female/db_bent_row-review.jpg": "4b941d8a88faaea37a2cfb4752b895ef03848f1f41633f4730cc34e215818c6f"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex visual review"
+  "reviewer": "Codex: actual multi-view image inspection"
 }

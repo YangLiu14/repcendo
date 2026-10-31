@@ -1,0 +1,50 @@
+{
+  "sceneSHA256": "890845ef6394f103d09168419e35bcb2d61b80bbec902c6a7cc4025dd4d3372a",
+  "frames": [
+    1,
+    31,
+    57,
+    60,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看六个帧位的五视角及完整主侧器械图：负重左臂在主镜头近侧，峰值附近 57、60、61 帧肩肘和哑铃连续可辨，空闲手不挡路线；背垫、座垫、后支撑与底架完整显示，接触及既有照片校准结构保持一致。",
+  "evidence": {
+    "docs/animation-library/female/single_incline_press-review.jpg": "8f95648d4a689f22811e0749d72a1598e886176aa1ec2804325356c22c1abb82",
+    "docs/animation-library/female/single_incline_press-equipment.jpg": "64ca9c93e8d2f3f7b28bde22cbe70f3406a7f876dfe251507d3b7cfd4749297d"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    57,
+    60,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/single_incline_press-review.jpg": "8f95648d4a689f22811e0749d72a1598e886176aa1ec2804325356c22c1abb82"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/female/single_incline_press-equipment.jpg": "64ca9c93e8d2f3f7b28bde22cbe70f3406a7f876dfe251507d3b7cfd4749297d"
+  }
+}

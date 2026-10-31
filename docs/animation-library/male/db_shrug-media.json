@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "88fd6098bca4239843a1722a1d6904b596d7f9bcc6b48f7b6d771cf7ab4afa68",
+  "sceneSHA256": "6d3152e022a10a16043a72cd0182e3bb2154add1754c836c711b3c53626c7003",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "f667316320d1bb99933a920b991239089c37bdf02af8076eeb8f16cfda706ee9",
   "files": {
-    "db_shrug.mp4": "68b1fc5019ed1605678c29cf8420ca4381d5f890d5b6b7fe5a6aef71872ead02",
-    "db_shrug-poster.png": "747f5a51caf90dd63f07429bc1d82d0cdcea62dc097229a1e0db8f0ea74c9cc1"
+    "db_shrug.mp4": "5801ed1f8c953535f714c35aa78bbf0de2cf0b3476f001c3bb4489b6787783da",
+    "db_shrug-poster.png": "1c271a055b22e47de242bf2ff494b07c3b1727df1715206e5399cd853c7dfe9a"
   },
   "mediaValidation": {
     "decoded": true,

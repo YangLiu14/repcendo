@@ -37,6 +37,11 @@ def inspect_variant(root, motion, sex, bundled):
         scene = folder / f"{motion}.blend"
         result = dict(scene=str(scene.relative_to(root)), sceneSHA256=sha256(scene) if scene.is_file() else None,
                       checks={}, issues=[], bundledBytes=0)
+        from motion_reference_gate import require_reference_pass
+        try:
+            result['motionReferenceStatus'] = require_reference_pass(sex, motion, root)
+        except (RuntimeError, OSError, ValueError, KeyError):
+            result['motionReferenceStatus'] = 'blocked'
         for label, check in [("production", require_scene_pass), ("media", require_media_pass)]:
             try:
                 check(sex, motion, root)
@@ -190,7 +195,7 @@ def inventory(root):
         "schemaVersion": 1,
         "scope": "Every exercise ID in the current App text catalog, male and female",
         "catalogSHA256": sha256(catalog_path),
-        "statusMeaning": "Current checks passed means existing engineering and visual evidence matches; not professional exercise certification. This worklist does not authorize export.",
+        "statusMeaning": "Current checks passed means existing engineering and visual evidence matches; not professional exercise certification. motionReferenceStatus distinguishes new reference checks from unchanged legacy scenes awaiting reference review. This worklist does not authorize export.",
         "summary": {
             "exerciseCount": len(entries),
             "requiredVariants": len(entries) * len(SEXES),

@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "b0495d093340ff6010fddbdf36f0dea2596b13d760ecb7e2bbee6de032735d77",
+  "sceneSHA256": "1760b358228457d4f7dadc85a82d22e2f31865e050cb8ebb56b6ece5616cbd28",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "Inspected all four cycle poses in main/front/side/back and equipment-visible hand closeups. Both dumbbells rise anteriorly to shoulder height with stable trunk and feet; palms remain pronated, wrists aligned and elbows slightly bent. The female lateral-clearance repair preserves the forward lift and avoids visible arm/torso overlap. Small source sculpture shoulder/cloth folds remain; illustrative review, not professional biomechanical certification.",
+  "notes": "已逐张查看本场景主、正、侧、背及握持四阶段图。站姿膝屈减小，小腿肌腹与踝部过渡连续；坐姿膝盖轮廓未出现尖折，足底与座面支撑合理。弯举掌向/交替侧、前举方向和握把接触清楚，肩肘轮廓无新增异常鼓包。保留雕塑细部及衣褶。",
   "evidence": {
-    "docs/animation-library/male/front_raise-review.jpg": "bda3ac6f173e25b3fe40c13d0311088237db2eef188fd7d07dae3117f3605cd5"
+    "docs/animation-library/male/front_raise-review.jpg": "82a819122ad6562521f6673caf54c62c5c46820462a86d0fafa2646c33080ab8"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

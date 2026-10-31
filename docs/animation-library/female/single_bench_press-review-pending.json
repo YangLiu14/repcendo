@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "d34ffe767e833536910f95765c52349bb160c32901922e0f46546ac7ecae0dc2",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/single_bench_press-review.jpg": "43bc6704c8450c6992dc5aa48a330e944a4da6d827e3dcc6bff9b9d9cb5dbf57"
+  }
+}

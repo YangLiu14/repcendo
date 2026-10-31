@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "88dd7c9f42e37e35fb0a03409ac5d4255fe091e160a700b571dab7d4a441fd9f",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/single_lateral_raise-review.jpg": "7646e8b47a78d041b1b4b76edb5406368cd4a6d6cd798473ff76f9c1ee08cd3c"
+  }
+}

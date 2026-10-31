@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "a27f75e4e84e564d33a40fc2b80a6f7a3829434c9aebff37ca662079f1e2855a",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/seated_bent_lateral_raise-review.jpg": "ee025630d93bfb9dfa421374ba8e7425b8ea37534949f68702a0f6a3d89b5b77"
+  }
+}

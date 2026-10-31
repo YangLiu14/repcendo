@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "18e6e03a5985c2a31ad29a03b99174e15cdd59119f7120ab84e5d23ab13ace9e",
+  "sceneSHA256": "522253ba0b707c1348e6528194b41051e346ca62c0fc313563e9a94260b55514",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已逐项查看四阶段主镜头、正侧背与器械可见握持近景。坐姿稳定，低位于大腿外侧留出哑铃空间，逐渐收拢前举至肩高；正握双臂与中立握交替规格清晰，手腕未折弯，闲置手位置保持。肩部轮廓和衣褶无明显破坏，保留雕塑细节。结合全帧检查验收。",
+  "notes": "已实际查看全部五视角四阶段。坐姿下肢轮廓连贯，膝盖、踝部无新增尖折，足底与座面支撑稳定。前举至肩高时肩腋无异常外鼓，双臂/交替时序与掌向可辨，手腕和握持保持连续。原衣褶保留。",
   "evidence": {
-    "docs/animation-library/male/seated_front_raise-review.jpg": "4d46e486c1453b0d0413c269f16e5b6bf7c6efcac8f82afa1e76512f0428d149"
+    "docs/animation-library/male/seated_front_raise-review.jpg": "808b8e3917cb0b9e5b32eb84023817f18bbaacc294c8f27b9756e4bb8eaf53a0"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

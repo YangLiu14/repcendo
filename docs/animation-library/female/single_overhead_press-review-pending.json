@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "ea64cdd0524a8f23ec9bd14cf4ab4f423908a2437cab0dc16745402954022a17",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/single_overhead_press-review.jpg": "b0a1ca56368bf772c26a158576e0fc6d5aa4dac4161f4eb2a195957c9f497c55"
+  }
+}

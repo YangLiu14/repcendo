@@ -66,9 +66,21 @@ def main():
         assert expected in {f["check"] for f in failures}, (label, failures[:2])
         results.append(dict(case=label, positive=False, rejected=True, expected=expected,
                             failureCount=len(failures), checks=sorted({f["check"] for f in failures})))
+    # Captured, hash-matched failures before the grip-cavity subdivision fix.
+    from collision_audit import audit_scene
+    import hashlib
+    for name in ("single_bench_press", "single_incline_press"):
+        source = ROOT/f"build/animation-library/batch-005-diagnostics/{name}-coarse.blend"
+        original = json.loads(source.with_name(name+"-coarse-audit.json").read_text())
+        assert hashlib.sha256(source.read_bytes()).hexdigest() == original["sceneSHA256"]
+        bpy.ops.wm.open_mainfile(filepath=str(source))
+        hits = audit_scene(bpy.context.scene, [16, 31, 61])
+        assert any(h.get("object") == "Grip shaft Left" for h in hits)
+        results.append(dict(case=name+"_coarse_grip", positive=False, rejected=True,
+                            failureCount=len(hits), sceneSHA256=original["sceneSHA256"]))
     output = ROOT/"build/animation-library/batch-005-negative-controls.json"
     output.write_text(json.dumps(results, indent=2)+"\n")
-    print("PASS: eight positive scenes and six physical counterexamples", flush=True)
+    print("PASS: eight positive scenes, six physical mutations and two saved coarse-grip failures", flush=True)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,104 @@
+{
+  "sceneSHA256": "01534d2b57ef2730c67d072f50783f417b2d20fde96569618da7cf6c0687561b",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "逐一查看新版1/31/61/91帧五视角及左手近景，并对照OPEX真人0.000/0.600/1.251/1.851秒：坐姿直立，双足与臀部稳定，中立握屈肘、上臂固定；右侧空闲臂已收回自然垂放，不承重。主镜头位于左侧，负重臂在近侧，肩肘腕轨迹可辨。男性版本原握柄穿指已消除，握柄周围手指包覆可见，肩腋没有明显凹陷。保留雕塑本身的衣褶与肌肉刻画。",
+  "evidence": {
+    "docs/animation-library/male/seated_single_hammer_curl-review.jpg": "d04306f96bb49af725d99ba25d94913a7cf62baaad2d0d08f7a32fe16102bdec",
+    "docs/animation-library/male/seated_single_hammer_curl-grips.jpg": "480bde0abb951d6a742b854e5350254c6d09dd55840739ac5861673742b10503"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "3010fe9251f8baad5106b87447fb610e98def0fbd5b46d3d0275ec17111bee1d",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "逐一查看新版1/31/61/91帧五视角及左手近景，并对照OPEX真人0.000/0.600/1.251/1.851秒：坐姿直立，双足与臀部稳定，中立握屈肘、上臂固定；右侧空闲臂已收回自然垂放，不承重。主镜头位于左侧，负重臂在近侧，肩肘腕轨迹可辨。男性版本原握柄穿指已消除，握柄周围手指包覆可见，肩腋没有明显凹陷。保留雕塑本身的衣褶与肌肉刻画。",
+    "evidence": {
+      "docs/animation-library/male/seated_single_hammer_curl-review.jpg": "d04306f96bb49af725d99ba25d94913a7cf62baaad2d0d08f7a32fe16102bdec"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "坐凳前端、左手在大腿外下垂，与真人起点的中立握和支撑关系一致；右手改为自然垂放。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.600s",
+        "frame": 31,
+        "notes": "负重手向同侧肩前上移，上臂不跟随摆起；对应真人上举阶段。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.251s",
+        "frame": 61,
+        "notes": "负重肘明显屈曲而肩未抬起，哑铃接近肩前，未变成推举。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "1.851s",
+        "frame": 91,
+        "notes": "沿同一路径回放，握法和躯干方向保持，空闲臂未参与借力。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-30",
+  "reviewer": "Codex: actual rendered multi-view and human-reference comparison, not professional coach certification",
+  "gripSides": [
+    "Left"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/seated_single_hammer_curl-grips.jpg": "480bde0abb951d6a742b854e5350254c6d09dd55840739ac5861673742b10503"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/male/seated_single_hammer_curl-review.jpg": "d04306f96bb49af725d99ba25d94913a7cf62baaad2d0d08f7a32fe16102bdec"
+  },
+  "equipmentNotes": "对应官方LBR-FB照片：长垫、纵梁、前后支腿和落地脚连续相接；臀部贴凳、双足着地。保留支撑布局，尺寸为人物适配，未复刻工程尺寸。",
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/male/seated_single_hammer_curl-review.jpg": "d04306f96bb49af725d99ba25d94913a7cf62baaad2d0d08f7a32fe16102bdec"
+  }
+}

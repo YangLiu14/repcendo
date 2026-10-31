@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "b0495d093340ff6010fddbdf36f0dea2596b13d760ecb7e2bbee6de032735d77",
+  "sceneSHA256": "1760b358228457d4f7dadc85a82d22e2f31865e050cb8ebb56b6ece5616cbd28",
   "frames": [
     1,
     31,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/male/front_raise-review.jpg": "bda3ac6f173e25b3fe40c13d0311088237db2eef188fd7d07dae3117f3605cd5"
+    "docs/animation-library/male/front_raise-review.jpg": "82a819122ad6562521f6673caf54c62c5c46820462a86d0fafa2646c33080ab8"
   }
 }

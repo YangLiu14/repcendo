@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "d57376f918f906dcdf519c71d4995ed7a20e366e75c18b9d14f3e7ac7b69f47d",
+  "sceneSHA256": "d2b10720b62e1f3456df60df7c54a75382d166367d1106956b15654c0c2009f9",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已查看主镜头/正侧背/器械可见握持近景的四阶段图。坐姿侧举抬至肩高，肘部微曲，掌心随抬臂转向下；肩部轮廓、手腕、坐垫和双足支撑连续，低位哑铃在腿外侧。 结合全帧独立检查验收，保留原雕塑表面细节。",
+  "notes": "实际检查五视角四阶段：小腿与踝部连续，坐姿足底支撑稳定；侧平举肩腋无异常鼓包，反握弯举手腕和肘部轮廓自然，握持无脱离。",
   "evidence": {
-    "docs/animation-library/female/seated_lateral_raise-review.jpg": "1478d0031228e98f4680f7a00c2059cc374484956090a9befda6ba4d55437963"
+    "docs/animation-library/female/seated_lateral_raise-review.jpg": "ed1606ba6452be34fd8c6fc7856ac8f23153149bc3ad5cf66dbf17186d9db281"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

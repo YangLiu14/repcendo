@@ -1,0 +1,1602 @@
+[
+  {
+    "sex": "male",
+    "name": "db_upright_row",
+    "sceneSHA256": "b79fd01f5f82ee20538f7e78d3405a8ac3bf32231e4e2a9855bc1e8ffb79cffe",
+    "checkerSHA256": "4d8a6a16efd981dff89d4a95af78be4d434961e2c9050a66f79c5eeba90d7350",
+    "referenceSHA256": "3b13579de18ff52e4daf6f8893438ea534fffd6c00fd5c1e3b8696236851297c",
+    "failures": [
+      {
+        "frame": 36,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 36,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 37,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 37,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 38,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 38,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 39,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 39,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 40,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 40,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 41,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 41,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 42,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 42,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 43,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 43,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 44,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 44,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 45,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 45,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 46,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 46,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 47,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 47,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 48,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 48,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 49,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 49,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 50,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 50,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 51,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 51,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 52,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 52,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 53,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 53,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 54,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 54,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 55,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 55,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 56,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 56,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 57,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 57,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 58,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 58,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 59,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 59,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 60,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 60,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "check": "reference_peak"
+      },
+      {
+        "frame": 61,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Right",
+        "check": "reference_peak"
+      },
+      {
+        "frame": 62,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 62,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 63,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 63,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 64,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 64,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 65,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 65,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 66,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 66,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 67,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 67,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 68,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 68,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 69,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 69,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 70,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 70,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 71,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 71,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 72,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 72,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 73,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 73,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 74,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 74,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 75,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 75,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 76,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 76,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 77,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 77,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 78,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 78,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 79,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 79,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 80,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 80,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 81,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 81,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 82,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 82,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 83,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 83,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 84,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 84,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 85,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 85,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 86,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 86,
+        "side": "Right",
+        "check": "joint_envelope"
+      }
+    ],
+    "maxElevation": 135.80999247529448
+  },
+  {
+    "sex": "female",
+    "name": "db_upright_row",
+    "sceneSHA256": "5093eb23aedb57f2824bd4f62c71de6afadf391d0a32a6744c9f4f5d0988ea09",
+    "checkerSHA256": "4d8a6a16efd981dff89d4a95af78be4d434961e2c9050a66f79c5eeba90d7350",
+    "referenceSHA256": "3b13579de18ff52e4daf6f8893438ea534fffd6c00fd5c1e3b8696236851297c",
+    "failures": [
+      {
+        "frame": 36,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 36,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 37,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 37,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 38,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 38,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 39,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 39,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 40,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 40,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 41,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 41,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 42,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 42,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 43,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 43,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 44,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 44,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 45,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 45,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 46,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 46,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 47,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 47,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 48,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 48,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 49,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 49,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 50,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 50,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 51,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 51,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 52,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 52,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 53,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 53,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 54,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 54,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 55,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 55,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 56,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 56,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 57,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 57,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 58,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 58,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 59,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 59,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 60,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 60,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "check": "reference_peak"
+      },
+      {
+        "frame": 61,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Right",
+        "check": "reference_peak"
+      },
+      {
+        "frame": 62,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 62,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 63,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 63,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 64,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 64,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 65,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 65,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 66,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 66,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 67,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 67,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 68,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 68,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 69,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 69,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 70,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 70,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 71,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 71,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 72,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 72,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 73,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 73,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 74,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 74,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 75,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 75,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 76,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 76,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 77,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 77,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 78,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 78,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 79,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 79,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 80,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 80,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 81,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 81,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 82,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 82,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 83,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 83,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 84,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 84,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 85,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 85,
+        "side": "Right",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 86,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 86,
+        "side": "Right",
+        "check": "joint_envelope"
+      }
+    ],
+    "maxElevation": 135.81004711680785
+  },
+  {
+    "sex": "male",
+    "name": "single_upright_row",
+    "sceneSHA256": "5bc1908e83789b39b276e81a4b9dbbe7b99a8aeec66cb88f0d3d3e7e173e37db",
+    "checkerSHA256": "4d8a6a16efd981dff89d4a95af78be4d434961e2c9050a66f79c5eeba90d7350",
+    "referenceSHA256": "254dd03570f33b25809b2da7134c629a1986af7c629c1acc09b10e7e807ab623",
+    "failures": [
+      {
+        "frame": 36,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 37,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 38,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 39,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 40,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 41,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 42,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 43,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 44,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 45,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 46,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 47,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 48,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 49,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 50,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 51,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 52,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 53,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 54,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 55,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 56,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 57,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 58,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 59,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 60,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "check": "reference_peak"
+      },
+      {
+        "frame": 62,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 63,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 64,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 65,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 66,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 67,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 68,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 69,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 70,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 71,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 72,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 73,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 74,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 75,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 76,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 77,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 78,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 79,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 80,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 81,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 82,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 83,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 84,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 85,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 86,
+        "side": "Left",
+        "check": "joint_envelope"
+      }
+    ],
+    "maxElevation": 135.80999247529448
+  },
+  {
+    "sex": "female",
+    "name": "single_upright_row",
+    "sceneSHA256": "b6678576746488694a23e239a005fecc3509af1d1fbe08602a83000dc09c5ea0",
+    "checkerSHA256": "4d8a6a16efd981dff89d4a95af78be4d434961e2c9050a66f79c5eeba90d7350",
+    "referenceSHA256": "254dd03570f33b25809b2da7134c629a1986af7c629c1acc09b10e7e807ab623",
+    "failures": [
+      {
+        "frame": 36,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 37,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 38,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 39,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 40,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 41,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 42,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 43,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 44,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 45,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 46,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 47,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 48,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 49,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 50,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 51,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 52,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 53,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 54,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 55,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 56,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 57,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 58,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 59,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 60,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "check": "reference_peak"
+      },
+      {
+        "frame": 62,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 63,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 64,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 65,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 66,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 67,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 68,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 69,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 70,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 71,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 72,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 73,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 74,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 75,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 76,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 77,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 78,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 79,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 80,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 81,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 82,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 83,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 84,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 85,
+        "side": "Left",
+        "check": "joint_envelope"
+      },
+      {
+        "frame": 86,
+        "side": "Left",
+        "check": "joint_envelope"
+      }
+    ],
+    "maxElevation": 135.81004711680785
+  }
+]

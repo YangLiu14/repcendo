@@ -1,0 +1,46 @@
+{
+  "sceneSHA256": "a27f75e4e84e564d33a40fc2b80a6f7a3829434c9aebff37ca662079f1e2855a",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看五视角和左右手三帧特写：屈肘角度保持稳定，上臂侧举到肩高，肩肘与腕部轮廓正常，双脚和坐姿稳定。主侧视角完整呈现平凳长坐垫、纵梁、前后支腿和横脚，与已查看的 LBRFB 官方照片支撑布局一致。",
+  "evidence": {
+    "docs/animation-library/male/seated_bent_lateral_raise-review.jpg": "ee025630d93bfb9dfa421374ba8e7425b8ea37534949f68702a0f6a3d89b5b77",
+    "docs/animation-library/male/seated_bent_lateral_raise-grips.jpg": "8b78280755e53f58c3dcbcdc2f4007c46ef39e50b78bd813873f03b26b981aca"
+  },
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/seated_bent_lateral_raise-grips.jpg": "8b78280755e53f58c3dcbcdc2f4007c46ef39e50b78bd813873f03b26b981aca"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/male/seated_bent_lateral_raise-review.jpg": "ee025630d93bfb9dfa421374ba8e7425b8ea37534949f68702a0f6a3d89b5b77"
+  }
+}

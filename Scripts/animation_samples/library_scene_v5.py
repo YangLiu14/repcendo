@@ -67,10 +67,10 @@ elif a.mode == "review":
                 s.camera.matrix_world = original_camera
                 s.camera.data.ortho_scale = original_scale
             else:
-                center = target if view != "grip" else sum((rig.matrix_world @ rig.pose.bones["mixamorig:" + side + part].head for side in ("Left", "Right") for part in ("ForeArm", "Hand")), Vector()) / 4
+                center = target if view != "grip" else s.objects["Grip." + config["unilateral"]].matrix_world.translation.copy()
                 s.camera.location = center + Vector(direction)
                 s.camera.rotation_euler = (center - s.camera.location).to_track_quat("-Z", "Y").to_euler()
-                s.camera.data.ortho_scale = max(coords.max(0)-coords.min(0))*1.12 if view != "grip" else 1.1
+                s.camera.data.ortho_scale = max(coords.max(0)-coords.min(0))*1.12 if view != "grip" else .55
             s.render.filepath = str(output / f"{view}-{f:04d}.png")
             bpy.ops.render.render(write_still=True)
     (output / "source.json").write_text(json.dumps(dict(sceneSHA256=digest(source), frames=frames, views=["main", "front", "side", "back", "grip"]), indent=2))

@@ -1,8 +1,8 @@
 {
-  "sceneSHA256": "c2b26182ed85359561f6d4c09145e3a40a12c580bdb3d41e997e82195b6d1ebf",
+  "sceneSHA256": "851307697bea7e41d5857f3b8d3d149efffb69f13ddc9d4c491f2c6c4fec58c4",
   "validatorSHA256": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
   "files": {
-    "pulldown.mp4": "4b44412b1da76d1fc0513e81a128bcd7f66c3663d00f75cd9cc1a707109dd777",
-    "pulldown-poster.png": "a5c372eb4bf5b51177ebff0e6ddaa5032db569ac3f1a3ce00e7029c69b0c0d13"
+    "pulldown.mp4": "0779fec0439417f5fbcc0dab53a34e69c830a3be97712cfbf3fb3f4a549ea3ea",
+    "pulldown-poster.png": "f99e8487a506430c050a34af8366e567ad869b1824831274411471fcdbf9c515"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+    "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
+    "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
+  },
+  "specificationSHA256": "64d6a953834878faf309e1e844e74a5103d95ba0072bc7842c54a4263f2bc972",
+  "files": {
+    "seated_bent_lateral_raise.mp4": "c7eeaa8eb3c7c3174f44c6bfe0a8af72236f8ae82d1c9848604400a735e93c2e",
+    "seated_bent_lateral_raise-poster.png": "9fabbc434c96e271147ea602a040f34cc438b1f61027562994a6d00787dc5b2e"
+  },
+  "mediaValidation": {
+    "decoded": true,
+    "frames": 120,
+    "clippedFrames": [],
+    "codec": "h264",
+    "width": 1280,
+    "height": 960,
+    "fps": 24
+  }
+}

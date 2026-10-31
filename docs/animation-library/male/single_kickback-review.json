@@ -1,0 +1,45 @@
+{
+  "sceneSHA256": "2f69f3b7fa914df0a1bb35b01972a0943a0ffee9ce5ec9f10ee8f7ef8f6af448",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看新五视角和三阶段握持近景：主镜头中负重左臂位于身体外侧，肩、肘、腕及哑铃回程到伸直全过程清楚，空闲右手不再挡住负重路径；其他视角的腿部、肩肘与握持轮廓保持原样。",
+  "evidence": {
+    "docs/animation-library/male/single_kickback-review.jpg": "61ed02fe895b2fe2a167c292b8d9172469a58c93b4251ce6ef6ca936e484f4bf",
+    "docs/animation-library/male/single_kickback-grips.jpg": "af039a5ce95748101f281326cf822cf383c40311c7f0e377457c2713213900e5"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/male/single_kickback-review.jpg": "61ed02fe895b2fe2a167c292b8d9172469a58c93b4251ce6ef6ca936e484f4bf"
+  },
+  "gripSides": [
+    "Left"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/single_kickback-grips.jpg": "af039a5ce95748101f281326cf822cf383c40311c7f0e377457c2713213900e5"
+  }
+}

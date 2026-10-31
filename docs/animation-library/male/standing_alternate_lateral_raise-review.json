@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "d4e917df808565781786612f453f5a6c8235b50756eaf5f3f1c65d1fbf311f49",
+  "sceneSHA256": "93352eb15c0d275e6e125cae59d13f47a17416f963ef89bfdee26c2ff9deeb21",
   "frames": [
     1,
     49,
@@ -14,10 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已实际查看五视角。左右依次在身体侧面抬至肩高，掌心下转，肘部微屈且稳定，闲置侧与躯干固定，肩部轮廓和握持清楚。",
+  "notes": "实际查看五视角全部阶段：单臂及交替侧平举肩部衔接自然，抬臂至肩高无腋部异常外鼓，肘部保留轻微弯曲、手腕连续；静止侧和站立下肢稳定。",
   "evidence": {
-    "docs/animation-library/male/standing_alternate_lateral_raise-review.jpg": "a5bea43edc39a91d5de68b01e1902e55afc915e47b2598ee77363c6adb04b085"
+    "docs/animation-library/male/standing_alternate_lateral_raise-review.jpg": "c38842543c52e01a12fc530beab9e41bc3634fdeb37ba9e1b9f382f97884cb66"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex visual review"
+  "reviewer": "Codex: actual multi-view image inspection"
 }

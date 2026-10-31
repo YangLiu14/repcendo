@@ -18,9 +18,10 @@ from deformation_rig import (
 )
 from hand_rig import install as install_hands
 from shoulder_rig import refine_upper_back
+from limb_shape import apply as refine_limb_shape
 
 
-def prepare_character(sex, root=ROOT):
+def prepare_character(sex, root=ROOT, limb_refinement=True):
     source = (
         root
         / f"docs/character-assets/muscle-overlay-v1/{sex}/greek-{sex}-muscles.blend"
@@ -104,6 +105,9 @@ def prepare_character(sex, root=ROOT):
     install_forearm_twist(character, rig)
 
     shoulder_report = refine_upper_back(character, sex)
+    if limb_refinement:
+        limb_report = refine_limb_shape(character, rig, sex)
+        character["limb_shape_report"] = json.dumps(limb_report)
     # Upright model +X front -> scene +Y front, height around 1.78 m.
     scale = 1.82 if sex == "male" else 1.76
     rig.matrix_world = Matrix.Rotation(math.pi / 2, 4, "Z") @ Matrix.Diagonal(

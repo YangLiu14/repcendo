@@ -1,0 +1,23 @@
+{
+  "sceneSHA256": "890845ef6394f103d09168419e35bcb2d61b80bbec902c6a7cc4025dd4d3372a",
+  "frames": [
+    1,
+    31,
+    57,
+    60,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/single_incline_press-review.jpg": "8f95648d4a689f22811e0749d72a1598e886176aa1ec2804325356c22c1abb82"
+  }
+}

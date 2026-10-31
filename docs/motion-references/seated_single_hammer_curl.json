@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_single_hammer_curl",
+  "exerciseId": "1669",
+  "status": "reviewed",
+  "specificationSHA256": "b9e6f7195835ba5d2e5ff3058ae90b8a29d914ddedefb1d1818c1e7f7837af7e",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=AHy25gTY5j0",
+      "kind": "human_video",
+      "accessedOn": "2026-10-30",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际操作公开播放器逐阶段查看，仅记录自写观察和时间码；不下载、描摹、提取姿态、训练模型或再分发媒体。媒体生成许可未确认，本记录不声称取得素材许可。"
+      }
+    },
+    {
+      "id": "instruction",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=AHy25gTY5j0",
+      "kind": "instruction",
+      "accessedOn": "2026-10-30",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "读取第一方教学说明，核对动作要点；仅保留链接与自写摘要。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "坐于平凳前端，双足着地；单手持铃在大腿外，空闲手保持在凳边。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.600s",
+      "observed": "掌心向内，负重腕向同侧肩前上移；上臂留在躯干侧。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.251s",
+      "observed": "哑铃接近肩前，肘明显屈曲；躯干保持直立，没有抬肘推举。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.851s",
+      "observed": "沿原路径下放，掌心仍向内；2.503秒恢复低位。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-30",
+  "decisions": "采用坐姿、单手、中立握、固定上臂与双足支撑；真人为右手，本项目左手重新求解并使用负重侧镜头。空闲手自然垂于凳侧，不做额外承重支点。上臂相对下垂方向不超过30°、肘从约10°至约105°，作为此示范的工程包络，不是生理极限。"
+}

@@ -1,9 +1,8 @@
 {
-  "sceneSHA256": "4f09fc024d5c0f9f919e5268a025ae99a4a17ac9994df39e017596f0a1470d10",
+  "sceneSHA256": "03a80466e66f8854c9eea2be1c8537a54c015ae459ae64863a76e4dfd6bc368f",
   "frames": [
     1,
     31,
-    55,
     61,
     91
   ],
@@ -15,8 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已实际查看主/正/侧/背/握持图，女性额外可疑帧也已查看。站姿稳定、掌向前、头顶推举轨迹清楚；男性顶部保留侧向空间，无肩腋穿插，手指包握可辨。",
+  "notes": "实际检查五视角四阶段：站姿膝部微屈、足底稳定，小腿不再球状外鼓；推举顶端侧胸与上臂衔接连续，肘部没有塌陷，掌向和中立握区别正确。",
   "evidence": {
-    "docs/animation-library/female/standing_overhead_press-review.jpg": "45cbe1a66dd134343b8d7586d32dc73e1a5eeaf8bc0c1ffc05882578f835bf44"
-  }
+    "docs/animation-library/female/standing_overhead_press-review.jpg": "f4fb3916db8a720e586c8edbdecadb5ee372099dd47e9a744e7ec402b456c356"
+  },
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

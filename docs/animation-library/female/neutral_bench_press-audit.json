@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "7cf22e7b395bf826abc7ce13937f6c232f69e3d6f660db4b42e65aa10fc95a03",
+  "sceneSHA256": "e4bc334496bf511582ed6e12226c7ce52164f59f88f5f3d7f172057aab3d8c87",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -294,8 +294,8 @@
         "stretched_frame": 1
       },
       "LeftLeg": {
-        "min_p05": 0.7657561513630552,
-        "max_p95": 1.161576632731796,
+        "min_p05": 0.7625039836758752,
+        "max_p95": 1.1561202269785325,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
@@ -325,7 +325,7 @@
       },
       "RightLeg": {
         "min_p05": 0.8344230862045263,
-        "max_p95": 1.2783954681316911,
+        "max_p95": 1.2736274238197929,
         "compressed_frame": 1,
         "stretched_frame": 1
       },

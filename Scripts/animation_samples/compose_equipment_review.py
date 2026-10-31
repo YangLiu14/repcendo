@@ -7,10 +7,12 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[2]
 p = argparse.ArgumentParser()
 p.add_argument("--root", type=Path, default=ROOT)
+p.add_argument("--exercise", nargs="+", choices=list(MOTIONS)+["single_bench_press"])
+p.add_argument("--sex", choices=["male", "female"])
 a = p.parse_args()
 font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 18)
-for sex in ["male", "female"]:
-    for name in MOTIONS:
+for sex in ([a.sex] if a.sex else ["male", "female"]):
+    for name in (a.exercise or MOTIONS):
         folder = a.root / f"build/equipment-review/{sex}/{name}"
         source = json.loads((folder / "source.json").read_text())
         sheet = Image.new("RGB", (1000, 1650), "#f3f1eb")

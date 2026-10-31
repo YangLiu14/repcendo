@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "scope": "Every exercise ID in the current App text catalog, male and female",
-  "catalogSHA256": "8c8c4143d4f1cec727bdf328146896dc28e4f81a66a9e31855d58e73c40a423c",
-  "statusMeaning": "Current checks passed means existing engineering and visual evidence matches; not professional exercise certification. This worklist does not authorize export.",
+  "catalogSHA256": "3779e147b8f88c1cac9018152b928e452f1936bb0d3b03bcedd759419951e642",
+  "statusMeaning": "Current checks passed means existing engineering and visual evidence matches; not professional exercise certification. motionReferenceStatus distinguishes new reference checks from unchanged legacy scenes awaiting reference review. This worklist does not authorize export.",
   "summary": {
     "exerciseCount": 1324,
     "requiredVariants": 2648,
-    "implementedExercises": 48,
-    "bundledExercises": 48,
+    "implementedExercises": 66,
+    "bundledExercises": 66,
     "statuses": {
-      "current_checks_passed": 47,
+      "current_checks_passed": 65,
       "legacy_review_required": 1,
-      "not_implemented": 1276
+      "not_implemented": 1258
     },
     "variantStatuses": {
-      "current_checks_passed": 94,
+      "current_checks_passed": 130,
       "legacy_review_required": 2,
-      "not_implemented": 2552
+      "not_implemented": 2516
     }
   },
   "equipmentGroups": [
@@ -70,8 +70,8 @@
       "equipment": "dumbbell",
       "total": 294,
       "statuses": {
-        "current_checks_passed": 32,
-        "not_implemented": 262
+        "current_checks_passed": 50,
+        "not_implemented": 244
       }
     },
     {
@@ -797,7 +797,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-samples-v2/male/bench.blend",
-          "sceneSHA256": "81548a622de5d1af452e2e5f2529fee56fc73594e227da07b54c80cbb0c3802a",
+          "sceneSHA256": "d85586410704a3806682dbe489761b39e9413e53969d6e56e7c0b8d1a40d61db",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -806,12 +806,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 455274,
+          "bundledBytes": 454560,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-samples-v2/female/bench.blend",
-          "sceneSHA256": "f6ced8c721f07dea231a9ee0b7e9d3896e9732f063615faf32ae00c6c5227f3b",
+          "sceneSHA256": "08affeab6c57f03c379a1d412d31032956bdd91e667c473f84d3ed7d7026ab09",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -820,7 +820,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 441825,
+          "bundledBytes": 441287,
           "status": "current_checks_passed"
         }
       },
@@ -2474,7 +2474,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/rdl.blend",
-          "sceneSHA256": "efbeea258fa5c7763f4f22c57acd6f414b38076531fe34f65ebad7028ee564a8",
+          "sceneSHA256": "953595e507e035cad70c3013b754ba15fb393ab30df6449e395a240551d01db2",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -2483,12 +2483,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 470396,
+          "bundledBytes": 468448,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/rdl.blend",
-          "sceneSHA256": "ae6117a1e2ee7d45750e192075282105d7b0e7c11a9a095ee035d85ca68a93c4",
+          "sceneSHA256": "d925340c697080a00e73dc5da4fcdcfa81d09eb751243f46343ce0365bb618ef",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -2497,7 +2497,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 461950,
+          "bundledBytes": 460595,
           "status": "current_checks_passed"
         }
       },
@@ -4528,7 +4528,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/cable_crunch.blend",
-          "sceneSHA256": "b9fead67d8a1bcac08ae44cee06b0ac00a22bae09fc4ad567e2f0f54dd443bab",
+          "sceneSHA256": "a76e31b32b35716f4d7eb6b7a8371bc97b50b17f1865566a5d2ee8f421d39b06",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -4537,12 +4537,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 409915,
+          "bundledBytes": 439478,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/cable_crunch.blend",
-          "sceneSHA256": "000303e3a316fcf69fc7e163623ea818abd65e8239f649fc8e979e03e52ce7c2",
+          "sceneSHA256": "6e8e60d6f91e0daae05eaf34ab9c155174d76791afdbab35664437287522dab9",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -4551,7 +4551,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 391540,
+          "bundledBytes": 422630,
           "status": "current_checks_passed"
         }
       },
@@ -5172,7 +5172,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/pushdown.blend",
-          "sceneSHA256": "e94f2714b821a9026fdc181c50800561796a5c3d95fa284aa63b2343c593cbef",
+          "sceneSHA256": "6f537848955e57ee36ded60e912a3385e9e5244395d1979621035f6c874f7dec",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -5181,12 +5181,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 377877,
+          "bundledBytes": 410623,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/pushdown.blend",
-          "sceneSHA256": "27db6a66177d3ad1f6357a3c12e80f55ffe4db4d3f655fe2f271aed6645e301d",
+          "sceneSHA256": "9eb53d62ea38f95dbc949c58c03c3cb4023173b5414af3b235fdeca8cc47160b",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -5195,7 +5195,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 366458,
+          "bundledBytes": 399681,
           "status": "current_checks_passed"
         }
       },
@@ -6246,7 +6246,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/straight_pulldown.blend",
-          "sceneSHA256": "77301b5911661b24cfa952997ed8471296ae0e96de3d7b3eddcab700210e5625",
+          "sceneSHA256": "4aa1680fd838b662859e8cd05982cd1045d40defd3a8eabd0b2240561fcf65fb",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -6255,12 +6255,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 342803,
+          "bundledBytes": 398791,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/straight_pulldown.blend",
-          "sceneSHA256": "717ee24b404f23476f83dad7e97f929cd112ead6be9bdcf6577af8e2f840cb32",
+          "sceneSHA256": "0b35e874507e1170fe4efebed73046a6a538ca03691c0c478a798b197844ebf6",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -6269,7 +6269,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 332003,
+          "bundledBytes": 386990,
           "status": "current_checks_passed"
         }
       },
@@ -6879,7 +6879,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/dead_bug.blend",
-          "sceneSHA256": "61e90a619d9bb637b843dfea7b6eb2f7dab9a57981083e652284be7ddc5e6791",
+          "sceneSHA256": "7592ad334550cb0080a3580df1cd7325c270909087c1043877b6cbfc42eaa3da",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -6888,12 +6888,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 572375,
+          "bundledBytes": 569519,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/dead_bug.blend",
-          "sceneSHA256": "9e24874173e51f4a038018b329cefec5d60b7dd5205ef5e2fabd75c487103954",
+          "sceneSHA256": "161475dbc8879fe2de06f3ddc1cc457c0b0343d80ad81e7da301da46c2cd295c",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -6902,7 +6902,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 548198,
+          "bundledBytes": 547226,
           "status": "current_checks_passed"
         }
       },
@@ -7064,24 +7064,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/alternate_curl.blend",
-          "sceneSHA256": "f92e75f3a2de79fe1b162c44f200b0a7d31dc5af93829b0d3d3c2d1daa704a58",
+          "sceneSHA256": "6d86677b4f04c8106bad7b8da828a4e6ecc7bddebb81e18d7f3304c56706bfb0",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 409637,
+          "bundledBytes": 400623,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/alternate_curl.blend",
-          "sceneSHA256": "318806a76c375b012e6d9661282d28adeb6eb6ab8fadeced55a1bceef638ea82",
+          "sceneSHA256": "b8eb1c34a1f8b6332faeff5935f2c849c25bbbe24fcf830907666998390f67de",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 407208,
+          "bundledBytes": 398236,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -7187,24 +7189,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/db_bench_press.blend",
-          "sceneSHA256": "8012be3c152b8215244f358ba81752a6b2ffadc91ca4b7c460d2b7fe98a6f8f4",
+          "sceneSHA256": "ccabaa3d7fbe26770a029b67ca2c32f27510be44da14a92f36f04943e507a845",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 447638,
+          "bundledBytes": 446623,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/db_bench_press.blend",
-          "sceneSHA256": "6ab58887e5a827cae1de3627e98d4adcbff5b521c9627fc9a15eabc0696c4db5",
+          "sceneSHA256": "0cb876fd1e89f8546c75b1dca5b7d860135a44a21f10e5131111cb1b2507415e",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 427411,
+          "bundledBytes": 427012,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -7313,24 +7317,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/db_bent_row.blend",
-          "sceneSHA256": "876474f7965ae9639c8c8bc3d93538dcb2c174c21cc4ff8ac6c9c811526d9093",
+          "sceneSHA256": "a81cc5374e3587f0faaf9de82f69cbc302dbf48987202751b320e2c42791502f",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 409021,
+          "bundledBytes": 407315,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/db_bent_row.blend",
-          "sceneSHA256": "03ff0e2d946f90355e08d7a0a092a05ffc34a29047ba0cd045c84ede9eab2932",
+          "sceneSHA256": "ac54b1e1e17988e7b064112a93bd3d5d720a9f9e23107926c7f9613ebd6f126a",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 385623,
+          "bundledBytes": 384073,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -7357,7 +7363,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/curl.blend",
-          "sceneSHA256": "1f841ac6bf39231d089b69df898cff038d0ccdb062d21517c3e339e21f1f6671",
+          "sceneSHA256": "b3a3b439ea947352a99f10deebdb672a2156af00e4a096c56460d713edbffc45",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -7366,12 +7372,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 392681,
+          "bundledBytes": 384442,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/curl.blend",
-          "sceneSHA256": "cfd18f83d79fdcc8f84185264c7fd5bb40a4af2a21b50b0fde894d5c027c1f33",
+          "sceneSHA256": "a492a61ea028e2733140ac525fee8dfa87f0343202d6c0b0b5f749fc9ab08de8",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -7380,7 +7386,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 388287,
+          "bundledBytes": 381508,
           "status": "current_checks_passed"
         }
       },
@@ -7494,24 +7500,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/cross_body_hammer_curl.blend",
-          "sceneSHA256": "2bb09d199722114e62548848fee815c59150030d465c47fb0ce8dfd605eb5adf",
+          "sceneSHA256": "b72ea1786bca6aec6a5ca70bc4cb045ee783a0c6e9cbc26f2b5954c178628d2c",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 429615,
+          "bundledBytes": 421159,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/cross_body_hammer_curl.blend",
-          "sceneSHA256": "49fe9f6f653fd78d1c9aa65aaaf775ca5977bb4490e48378e9017774042f054f",
+          "sceneSHA256": "da82220cee8aae85f274fe643009be193b068e472ea72ebfa1f4db8b1df69921",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 429585,
+          "bundledBytes": 420293,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -7836,24 +7844,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/front_raise.blend",
-          "sceneSHA256": "b0495d093340ff6010fddbdf36f0dea2596b13d760ecb7e2bbee6de032735d77",
+          "sceneSHA256": "1760b358228457d4f7dadc85a82d22e2f31865e050cb8ebb56b6ece5616cbd28",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 410238,
+          "bundledBytes": 400076,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/front_raise.blend",
-          "sceneSHA256": "eecf4b89587decd2f87d29f89f23709f6db2b5b3b3d4f26b774ec6fcf0d7d344",
+          "sceneSHA256": "360e9e241f5f26e688daafc330f5182acb6112dadc0d4ab830a60be968c27158",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 406074,
+          "bundledBytes": 398464,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -7878,24 +7888,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/full_can_raise.blend",
-          "sceneSHA256": "9589837887a396d8997186841a20c754002e537229e5075b5c5dca8315f48b75",
+          "sceneSHA256": "81e84cf80df1c0a680f0785bb2d01221d2aa06d323e44de34dd4aa27126901ac",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 426935,
+          "bundledBytes": 416907,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/full_can_raise.blend",
-          "sceneSHA256": "2a4cf266536e23e2888d8fcc6271bef5c65adbd05d2731c1b1b4107170f1cc3c",
+          "sceneSHA256": "965f05716c6442a7085ffca5fb4945bbf8e3463b45094cc3336d1994ea096e84",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 417925,
+          "bundledBytes": 408400,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -7951,24 +7963,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/hammer_curl.blend",
-          "sceneSHA256": "4c8252dcc5e11a1f029554801a4ab40a561b9f061ed34e092345f128b4034bf5",
+          "sceneSHA256": "71f671086435369fd85ff85c6ec27677a79028e4dbba141118831751f570cfa1",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 416128,
+          "bundledBytes": 408548,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/hammer_curl.blend",
-          "sceneSHA256": "9d6e5e672692a61d81c88131d67d609ac7fa72c6e2780c0a4dca850d0ee36ada",
+          "sceneSHA256": "66375f7736653d73a582092b155dae1dcfb7478e6b6bd8f1316ee8e086b4fd4a",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 409420,
+          "bundledBytes": 402810,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -7995,7 +8009,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/incline_press.blend",
-          "sceneSHA256": "dab33110b7c126c5a3470509b92930e1f71421804172a805ef2c4a956c6eade8",
+          "sceneSHA256": "1dfe5cfb987c1f79ed08d109fb36b90c82e36d74bed56bd9ecdc02a341f7d001",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -8004,12 +8018,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 464773,
+          "bundledBytes": 467623,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/incline_press.blend",
-          "sceneSHA256": "8db33f11a8515c1df6a620208d16b5815b9df71ad50f2f73362846766d745d6f",
+          "sceneSHA256": "006412ff6a3436e24210f7d3fc6510ab2b17ea5beaefb5fa7ae1c5a0199d8c14",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -8018,7 +8032,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 445928,
+          "bundledBytes": 450018,
           "status": "current_checks_passed"
         }
       },
@@ -8045,24 +8059,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/incline_biceps_curl.blend",
-          "sceneSHA256": "4e606ebc9dfd795a5be712a1e0f21359667906332f98cbecd6d2a6c691492cf8",
+          "sceneSHA256": "955fa5d83bdb2147834bd332a6c8a2355c769b296bf13c6e99541cb92344df6e",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 429925,
+          "bundledBytes": 435238,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/incline_biceps_curl.blend",
-          "sceneSHA256": "d8ae8dfbb809ec3a1b649596b94814cb422cf79b5806495f3247ae716285554a",
+          "sceneSHA256": "7f1e9e0104e32b1ec026683cd27af1328f0f21e1cd67bef92bd4334e3c4f851e",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 414866,
+          "bundledBytes": 420371,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -8204,24 +8220,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/incline_hammer_curl.blend",
-          "sceneSHA256": "f5c6ccf2ebd5572a44f5239c00b8d224633ea78d8c326d2e52d4ed8e122bad7a",
+          "sceneSHA256": "1e8307de609329377407ec82e63c29166196ad842c296092906888621426eb6d",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 433644,
+          "bundledBytes": 437843,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/incline_hammer_curl.blend",
-          "sceneSHA256": "9623392d1e9ee7d3b7cb000b244c9ad68c0224c1f446dfb1c93f84cbb1179e7d",
+          "sceneSHA256": "0383c1eef7a32f4497a8e3dfe3cfe3d33ec5b9e8e3356b19788cdb6b06f39f75",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 417494,
+          "bundledBytes": 423424,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -8247,24 +8265,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/incline_hammer_press.blend",
-          "sceneSHA256": "23436edbd071f1221c60a8292cc64ee7b06cbf5f14738893afed9ce5957c3637",
+          "sceneSHA256": "438c1c68becf3c1878524277dfd562326d96152bee5702daaba309a2d515b7f5",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 443069,
+          "bundledBytes": 444131,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/incline_hammer_press.blend",
-          "sceneSHA256": "1532249f7f7a86773098797c2eddcbe5118ce61637e2c85cfd4517eedd23e819",
+          "sceneSHA256": "e693bac9801619ea032373ff680a58859e78a42509cb118c4f16cef3bfdbf350",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 417157,
+          "bundledBytes": 421502,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -8578,7 +8598,7 @@
     {
       "id": "0333",
       "name": "dumbbell kickback",
-      "localizedName": null,
+      "localizedName": "站姿双臂俯身臂屈伸",
       "bodyPart": "upper arms",
       "equipment": "dumbbell",
       "target": "triceps",
@@ -8590,18 +8610,36 @@
         "暂停片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "db_kickback",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/db_kickback.blend",
+          "sceneSHA256": "ed17317518da0f9a5b5a8768f6f4216071a84e869e6f6230617af4b492e94b74",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 393809,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/db_kickback.blend",
+          "sceneSHA256": "b4ff0483072175e6254287162887ae383e9e36b0b04cb75f517a036256ad9a67",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 377607,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0334",
@@ -8623,7 +8661,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/lateral_raise.blend",
-          "sceneSHA256": "92e89af189fc7a683e43119e3987878f87101c43243bcef3b3b846bcf6d41734",
+          "sceneSHA256": "f8a1bbcbc31f82d91a127845ef4ea85bd3a8d24b4235c26c433c90c538d7f281",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -8632,12 +8670,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 405573,
+          "bundledBytes": 395044,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/lateral_raise.blend",
-          "sceneSHA256": "a0253fcc02e4ab07980aeec717114ca1570dc767a07d1f30cb676097a644b121",
+          "sceneSHA256": "3f44e7f1e119cc95691ac0c43971e0004b0760825582c636a9d26c2cb42fa7df",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -8646,7 +8684,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 402837,
+          "bundledBytes": 392133,
           "status": "current_checks_passed"
         }
       },
@@ -8674,24 +8712,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/lateral_front_raise.blend",
-          "sceneSHA256": "918e8898e220787b61d8a3c7ae8b7cc4d1d131ded62d7560e7477bfe260d182e",
+          "sceneSHA256": "06b66a27f5d892464a340ab10463702db76b6dce316b535cc0d4c23f925472fc",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 512830,
+          "bundledBytes": 500956,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/lateral_front_raise.blend",
-          "sceneSHA256": "e6420c4cfbf9ff19d07f71fc02ce6560ef85df2159a51cf31373c2d83d8ce0e7",
+          "sceneSHA256": "c97de3034c011aeb3873400dbb7d419047d398bc9f05fa6e11646ed9d7a49602",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 506296,
+          "bundledBytes": 491965,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -8888,7 +8928,7 @@
     {
       "id": "0343",
       "name": "dumbbell lying one arm press",
-      "localizedName": null,
+      "localizedName": "单臂哑铃卧推",
       "bodyPart": "chest",
       "equipment": "dumbbell",
       "target": "pectorals",
@@ -8899,18 +8939,36 @@
         "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换到另一只手臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_bench_press",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_bench_press.blend",
+          "sceneSHA256": "54640596938f9f4bcc4c6f06151d9f6eb38b9f659c87c4a9654dd600250c9ef5",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 401917,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_bench_press.blend",
+          "sceneSHA256": "d34ffe767e833536910f95765c52349bb160c32901922e0f46546ac7ecae0dc2",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 392384,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0344",
@@ -9148,24 +9206,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/neutral_bench_press.blend",
-          "sceneSHA256": "e38c5f63bddf13b393c1b0368310934538b0e9b81552161affaf2dc75e123f1a",
+          "sceneSHA256": "17f92eb046da4a7268ec4842c05fe98a7c87b63bfa720b4d71a94a86456ddb64",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 441632,
+          "bundledBytes": 440345,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/neutral_bench_press.blend",
-          "sceneSHA256": "7cf22e7b395bf826abc7ce13937f6c232f69e3d6f660db4b42e65aa10fc95a03",
+          "sceneSHA256": "e4bc334496bf511582ed6e12226c7ce52164f59f88f5f3d7f172057aab3d8c87",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 420647,
+          "bundledBytes": 420148,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -9202,7 +9262,7 @@
     {
       "id": "0354",
       "name": "dumbbell one arm kickback",
-      "localizedName": null,
+      "localizedName": "站姿单臂俯身臂屈伸",
       "bodyPart": "upper arms",
       "equipment": "dumbbell",
       "target": "triceps",
@@ -9214,23 +9274,41 @@
         "慢慢地将哑铃放回起始位置。",
         "重复所需的重复次数，然后换边。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_kickback",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_kickback.blend",
+          "sceneSHA256": "2f69f3b7fa914df0a1bb35b01972a0943a0ffee9ce5ec9f10ee8f7ef8f6af448",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 377243,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_kickback.blend",
+          "sceneSHA256": "226700c622e04eef8fcef09249acffbeac7cc51a0e0eed972114ad782f5100fa",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 361907,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0355",
       "name": "dumbbell one arm lateral raise",
-      "localizedName": null,
+      "localizedName": "单臂哑铃侧平举",
       "bodyPart": "shoulders",
       "equipment": "dumbbell",
       "target": "delts",
@@ -9242,18 +9320,36 @@
         "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换到另一只手臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_lateral_raise",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_lateral_raise.blend",
+          "sceneSHA256": "6fe171f8cca0ca1573ab0c3f818814f406e21f616ee14c0fd9d108a22646ecb4",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 359810,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_lateral_raise.blend",
+          "sceneSHA256": "88dd7c9f42e37e35fb0a03409ac5d4255fe091e160a700b571dab7d4a441fd9f",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 356228,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0356",
@@ -9369,7 +9465,7 @@
     {
       "id": "0361",
       "name": "dumbbell one arm shoulder press",
-      "localizedName": null,
+      "localizedName": "单臂站姿哑铃推举",
       "bodyPart": "shoulders",
       "equipment": "dumbbell",
       "target": "delts",
@@ -9379,18 +9475,36 @@
         "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换到另一只手臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_overhead_press",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_overhead_press.blend",
+          "sceneSHA256": "d953142c424f2d1e27fc558e6adb57b920593d22ef86dd2636ffd3e50f38de49",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 324364,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_overhead_press.blend",
+          "sceneSHA256": "ea64cdd0524a8f23ec9bd14cf4ab4f423908a2437cab0dc16745402954022a17",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 312617,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0362",
@@ -9423,7 +9537,7 @@
     {
       "id": "0363",
       "name": "dumbbell one arm upright row",
-      "localizedName": null,
+      "localizedName": "单臂哑铃直立划船",
       "bodyPart": "shoulders",
       "equipment": "dumbbell",
       "target": "delts",
@@ -9434,18 +9548,36 @@
         "在顶部停顿片刻，然后吸气，慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换到另一只手臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_upright_row",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_upright_row.blend",
+          "sceneSHA256": "01fed083059ed372ad9cb9a05e2dd147737e0ffb3f7d731f701bb740ffabac1d",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 374865,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_upright_row.blend",
+          "sceneSHA256": "337f53ffb7c7eec692b26496ce56ad89e898e1bd9deb14ca4d16a659d08bae7b",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 370681,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0364",
@@ -10106,24 +10238,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_alternate_front_raise.blend",
-          "sceneSHA256": "a2c35e12a3141fed0f6db6e22f51302af41b65d6e6eafdd1cbc1941079faedb3",
+          "sceneSHA256": "123d6f2047a2c34ff55a313f13804c8b00cf3a18ff4a6f042c901da7330d747a",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 473001,
+          "bundledBytes": 471271,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_alternate_front_raise.blend",
-          "sceneSHA256": "ed0298be60543dacd0e71890a0d5c6546ceb7c11bcf074cb641a45e449ad4ee1",
+          "sceneSHA256": "a5136a7be642183338079e3789d6dae96206b15ba5cb1836b1383b8e6359a309",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 449272,
+          "bundledBytes": 450566,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -10150,24 +10284,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_alternate_press.blend",
-          "sceneSHA256": "b1631fb352dc947bfe0fdf4045fa1970017887c8166cfc5502681b6a9fe856e3",
+          "sceneSHA256": "9ce94cda10c2574dda634a7a2329196ee9c3cb4b702bff67f6c9c53e13570168",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 432396,
+          "bundledBytes": 428496,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_alternate_press.blend",
-          "sceneSHA256": "a9508908bf77b3a29a29a0b5b6c0c994976245a15cfaa0232b7ed07f73e2fcec",
+          "sceneSHA256": "79c8473c9dc3bd0c115877ea2c1c6f7e5f5377ed746a33bd2fe2531d3bc1ed32",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 418561,
+          "bundledBytes": 413637,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -10275,24 +10411,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_front_raise.blend",
-          "sceneSHA256": "18e6e03a5985c2a31ad29a03b99174e15cdd59119f7120ab84e5d23ab13ace9e",
+          "sceneSHA256": "522253ba0b707c1348e6528194b41051e346ca62c0fc313563e9a94260b55514",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 452097,
+          "bundledBytes": 450086,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_front_raise.blend",
-          "sceneSHA256": "bcdd2ba379bde32dd0d43ea1eabbd4e32a193561b6132f71824fe06e32156abf",
+          "sceneSHA256": "ebefdb0fa6fdf42676e97258da8b788e791abbca90a173ef744ce0fb3c3e98b6",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 429279,
+          "bundledBytes": 428674,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -10328,7 +10466,7 @@
     {
       "id": "0394",
       "name": "dumbbell seated kickback",
-      "localizedName": null,
+      "localizedName": "坐姿双臂俯身臂屈伸",
       "bodyPart": "upper arms",
       "equipment": "dumbbell",
       "target": "triceps",
@@ -10340,18 +10478,36 @@
         "暂停片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "seated_kickback",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/seated_kickback.blend",
+          "sceneSHA256": "7a6a2682bf83d15baf3d3a0717f9b89b7b71af96bf6d6f94b38af0df71634252",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 429956,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/seated_kickback.blend",
+          "sceneSHA256": "5a1aa6666593c221f51d5046eb44da6776410b6c582ed6278c747d92329d869b",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 414133,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0395",
@@ -10399,24 +10555,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_lateral_raise.blend",
-          "sceneSHA256": "ff1f574302a9ee03ccea6a01f8e4d81b94b83d542fcdb3fce64aa5cbd85a9710",
+          "sceneSHA256": "ec4cffaf3607ee027387ac87b0fa648dbe36735dbb13135e7d855fc4faa395dd",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 433666,
+          "bundledBytes": 431804,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_lateral_raise.blend",
-          "sceneSHA256": "d57376f918f906dcdf519c71d4995ed7a20e366e75c18b9d14f3e7ac7b69f47d",
+          "sceneSHA256": "d2b10720b62e1f3456df60df7c54a75382d166367d1106956b15654c0c2009f9",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 415464,
+          "bundledBytes": 414467,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -10452,7 +10610,7 @@
     {
       "id": "0398",
       "name": "dumbbell seated one arm kickback",
-      "localizedName": null,
+      "localizedName": "坐姿单臂俯身臂屈伸",
       "bodyPart": "upper arms",
       "equipment": "dumbbell",
       "target": "triceps",
@@ -10463,18 +10621,36 @@
         "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "seated_single_kickback",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/seated_single_kickback.blend",
+          "sceneSHA256": "5b8b35be29fd45a9a73c2c7325944aabdd955e02a3b4bff0a2cda81671594bf4",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 398387,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/seated_single_kickback.blend",
+          "sceneSHA256": "75be675bacd3d93e4d36ad89ec8359b9cea61b6245a3c1947e011d279ec7e0b9",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 382801,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0399",
@@ -10632,24 +10808,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_neutral_press.blend",
-          "sceneSHA256": "efa81624dfc77e1b66ad175481bf61c712354f9d3e3d1b149b6480425ca585e6",
+          "sceneSHA256": "3c63fd03f5f661f59e8ad73d6d87184ee1e4a8a4c78a6275703aad22a469e223",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 424261,
+          "bundledBytes": 417132,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_neutral_press.blend",
-          "sceneSHA256": "deebd50c0f83433e8e26668ed1f143156b9032cae7dae4d73603c654d5b4c0df",
+          "sceneSHA256": "4a39c8eaaf1c3379587e1ab99e7a0e52d23e2b452001fc479a24469787c70923",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 409536,
+          "bundledBytes": 400153,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -10675,7 +10853,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/shoulder_press.blend",
-          "sceneSHA256": "4bb06609034ec80bce9f1655642e416b790ab475442fdbba8dd5635a68c32a83",
+          "sceneSHA256": "d10e7e792fe62620e6c0c0a3a96916c63124681619ac74c6c726a4c8bb4357af",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -10684,12 +10862,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 424306,
+          "bundledBytes": 419899,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/shoulder_press.blend",
-          "sceneSHA256": "2a73416614c6fe3847b90c133bbb4c6e8bc9566dfee99ce72fa234b7fabe9cdc",
+          "sceneSHA256": "9b75116faf638005059383526639f3319044a6ff2ca23dec1f7892b343354547",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -10698,7 +10876,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 409687,
+          "bundledBytes": 405940,
           "status": "current_checks_passed"
         }
       },
@@ -10724,24 +10902,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/db_shrug.blend",
-          "sceneSHA256": "88fd6098bca4239843a1722a1d6904b596d7f9bcc6b48f7b6d771cf7ab4afa68",
+          "sceneSHA256": "6d3152e022a10a16043a72cd0182e3bb2154add1754c836c711b3c53626c7003",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 370442,
+          "bundledBytes": 360023,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/db_shrug.blend",
-          "sceneSHA256": "7d5c464a823966238bb417a846eefbb26c91f72f334c360e6771a34ec909c132",
+          "sceneSHA256": "844d9a55d2157be016d1f723c4c49b0d62fc1335f209a77356ea0df53597ddb5",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 365004,
+          "bundledBytes": 357149,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -10929,24 +11109,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/standing_alternate_press.blend",
-          "sceneSHA256": "de0f02baa2e9370fea709cce7f8ba3cc2621ca90f6a44256fddd06972a67b620",
+          "sceneSHA256": "6fd58b8e017711405d5825ed2b481498cae3329826c0904c60082b8c0a3f6326",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 364537,
+          "bundledBytes": 353367,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/standing_alternate_press.blend",
-          "sceneSHA256": "6e837bdfcd2e0d4fe3a693d11b80338740f536a00a87a05c45adeadd154e4d27",
+          "sceneSHA256": "dd05910f424c4487b453974d463dbfd5ac866bb1957b2ce066ed2540274a8224",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 353813,
+          "bundledBytes": 344196,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -10974,24 +11156,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/standing_alternate_lateral_raise.blend",
-          "sceneSHA256": "d4e917df808565781786612f453f5a6c8235b50756eaf5f3f1c65d1fbf311f49",
+          "sceneSHA256": "93352eb15c0d275e6e125cae59d13f47a17416f963ef89bfdee26c2ff9deeb21",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 420705,
+          "bundledBytes": 411673,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/standing_alternate_lateral_raise.blend",
-          "sceneSHA256": "6005ddd49b1e1b7ef7f5846307ccdcb495ed73e6e4b8f56399a30225185d6afa",
+          "sceneSHA256": "0731e3c8c635d4248435112b352b5a9675db75ec82c8f6c0b5752a14fe4faeb5",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 422451,
+          "bundledBytes": 411686,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -11083,7 +11267,7 @@
     {
       "id": "0419",
       "name": "dumbbell standing front raise above head",
-      "localizedName": null,
+      "localizedName": "站姿哑铃过顶前平举",
       "bodyPart": "shoulders",
       "equipment": "dumbbell",
       "target": "delts",
@@ -11093,18 +11277,36 @@
         "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "overhead_front_raise",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/overhead_front_raise.blend",
+          "sceneSHA256": "bd5220e376d13ff033a95ff08b295046b2515d8ddbf9c70f709657c874d0a6f1",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 388681,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/overhead_front_raise.blend",
+          "sceneSHA256": "7265f378c243d026ebe081b2b01cdc5178a804cae7eab72a2ba86658353b9781",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 378644,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0420",
@@ -11220,7 +11422,7 @@
     {
       "id": "0424",
       "name": "dumbbell standing one arm palm in press",
-      "localizedName": null,
+      "localizedName": "单臂站姿中立握推举",
       "bodyPart": "shoulders",
       "equipment": "dumbbell",
       "target": "delts",
@@ -11231,23 +11433,41 @@
         "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换到另一只手臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_neutral_press",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_neutral_press.blend",
+          "sceneSHA256": "48babb3b64c557325bc825f692a885353e64099d51a4375cda3d81f0fdc8fbe7",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 324117,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_neutral_press.blend",
+          "sceneSHA256": "a675c0ac3328f90d0b874856edd13c45005dfdf976455c28826f305f0fb62a1c",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 311055,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0425",
       "name": "dumbbell standing one arm reverse curl",
-      "localizedName": null,
+      "localizedName": "单臂反握哑铃弯举",
       "bodyPart": "upper arms",
       "equipment": "dumbbell",
       "target": "biceps",
@@ -11258,18 +11478,36 @@
         "在顶部停顿片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换到另一只手臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_reverse_curl",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_reverse_curl.blend",
+          "sceneSHA256": "c810f284a10528ad0d7602419d6f0a565044a862a830ada9d246391c59706be3",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 371752,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_reverse_curl.blend",
+          "sceneSHA256": "611555cc6bdabec72933d46b862b62d3a36b022511c16d0456dd965662de4c37",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 366845,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0426",
@@ -11290,24 +11528,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/standing_overhead_press.blend",
-          "sceneSHA256": "0a620ad05b6c20cbdd0ade9828370d2420473d10238794ef6b87da67b4ebb8dd",
+          "sceneSHA256": "a495a1804e7ce15f3bdb5d9f53eb1c78dbfe479d6b45fdd30ec144d353d43855",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 355798,
+          "bundledBytes": 342703,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/standing_overhead_press.blend",
-          "sceneSHA256": "4f09fc024d5c0f9f919e5268a025ae99a4a17ac9994df39e017596f0a1470d10",
+          "sceneSHA256": "03a80466e66f8854c9eea2be1c8537a54c015ae459ae64863a76e4dfd6bc368f",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 345941,
+          "bundledBytes": 333595,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -11332,24 +11572,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/standing_neutral_press.blend",
-          "sceneSHA256": "c31cea8dce623ce00eeece7ce526f3a426c69d8fe6070718c191ae323eb0d098",
+          "sceneSHA256": "d03412c1175f321df89ef1895c1221f35a5af124c5d19daab641f6cd81fd491c",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 356393,
+          "bundledBytes": 346416,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/standing_neutral_press.blend",
-          "sceneSHA256": "658a5b70cd7864758a95facef46ab281d89db1206e028a95fbfa47e49b487215",
+          "sceneSHA256": "ebcda0b221bfa4dce0b2e2c908dd2da006c4f05b6732f3cdc16c1734812cde7c",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 347787,
+          "bundledBytes": 333078,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -11404,24 +11646,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/reverse_curl.blend",
-          "sceneSHA256": "e14ad39277945f0f19e8b8a745b79db41ea0fcbee58c12cab857c289919fccd6",
+          "sceneSHA256": "972f227d04a975854a33c67e828c881de228b18ee9b7751d42e96042c59165bd",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 406824,
+          "bundledBytes": 397939,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/reverse_curl.blend",
-          "sceneSHA256": "768ae7298ed049da463c3a19dca4cb1482a34d8439027bbd8bb0583a28bb68e1",
+          "sceneSHA256": "d7ad8d44482affc4bd3269cf03e1002f638eff9fd90f7da0314c9e43013b8e1f",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 402251,
+          "bundledBytes": 393844,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -11591,7 +11835,7 @@
     {
       "id": "0437",
       "name": "dumbbell upright row",
-      "localizedName": null,
+      "localizedName": "双臂哑铃直立划船",
       "bodyPart": "shoulders",
       "equipment": "dumbbell",
       "target": "delts",
@@ -11602,18 +11846,36 @@
         "在顶部停顿片刻，然后吸气，慢慢将哑铃放回起始位置。",
         "重复所需的重复次数。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "db_upright_row",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/db_upright_row.blend",
+          "sceneSHA256": "fd30d2fe8884149fcf1db4064458e43ba1a7490fb801f4f7fcf523b0285f0b6b",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 413090,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/db_upright_row.blend",
+          "sceneSHA256": "99f158d36faaf81a65e5b4888e5716ef3728ca88f4d4fd7a76eea1ca5665fc1f",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 410483,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0438",
@@ -11661,24 +11923,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/zottman_curl.blend",
-          "sceneSHA256": "099a35b92aeb065c2093e1d715a0acc8f433d1690cdca694aeebfdba2c396df5",
+          "sceneSHA256": "e3cacf6328e60bbe88bd6ba44d4247984e3a5275a619d1e4755384576a6d997d",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 466279,
+          "bundledBytes": 456564,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/zottman_curl.blend",
-          "sceneSHA256": "85d70f80ccc66832d9e807712d5cb746b280147287655a311cc4c1b21b5036c6",
+          "sceneSHA256": "5a4b5f20a927152b20de5409fea5f0817180f0b5463ff80590222aa92eb78839",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 463650,
+          "bundledBytes": 454900,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -14511,7 +14775,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/leg_extension.blend",
-          "sceneSHA256": "defdfbe43d51f4891cef60d6c69bac028c64e44cbf577fb22ad6a05294f45104",
+          "sceneSHA256": "a32c1aa280c4d9878c3a2e725dad715ff80ae36b682637db4f20f07afc0cfa87",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -14520,12 +14784,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 458116,
+          "bundledBytes": 511943,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/leg_extension.blend",
-          "sceneSHA256": "0e65d48bbc4eef0f3b77fc94aa43d91617e8524504cb2f47890e22533719dca9",
+          "sceneSHA256": "666de886beab17eeb84191ec9ec58a6b6901bcf5afb7f0c1013dbdddaeb0faa2",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -14534,7 +14798,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 438103,
+          "bundledBytes": 496546,
           "status": "current_checks_passed"
         }
       },
@@ -14845,7 +15109,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/pec_fly.blend",
-          "sceneSHA256": "61179997f61ca745f2aa37d54741237a55a3ed858e9992ca896892d89005414e",
+          "sceneSHA256": "4e03639a4d694fa4af5398d88a134c607eec869301b5bd8604ddbdee537c94ba",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -14854,12 +15118,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 455523,
+          "bundledBytes": 453155,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/pec_fly.blend",
-          "sceneSHA256": "36ba252ed518cf8c05746d4efae56afebe5064d18d3a00751a3ae404879d1572",
+          "sceneSHA256": "3b0b9330ad1a88f32a26fe172100a21fd1da1ed9532cd7747a788e70c905ef1b",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -14868,7 +15132,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 439056,
+          "bundledBytes": 438081,
           "status": "current_checks_passed"
         }
       },
@@ -14951,7 +15215,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/leg_curl.blend",
-          "sceneSHA256": "3ead0e70e12a52710593d19c6fb64356b35f7c1f352229887ee9de8d1d74b05d",
+          "sceneSHA256": "1878778bb39948fb7098a975ee351cfa2d6c0dc480eeb98b72c116f46c5fa3da",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -14960,12 +15224,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 451421,
+          "bundledBytes": 500708,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/leg_curl.blend",
-          "sceneSHA256": "eb0ecebaa15589d22650b109faf7e55013e17a48a22c2a064f710fd5930aa568",
+          "sceneSHA256": "3a932a0cff6b4e7b8b8102dfdddebfd42e9fb6cf2e6444a533068926dcfe8d65",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -14974,7 +15238,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 434222,
+          "bundledBytes": 485912,
           "status": "current_checks_passed"
         }
       },
@@ -15054,7 +15318,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/reverse_fly.blend",
-          "sceneSHA256": "5f140de980bf0b84e083ed7c152e6fd1f2df8ba643a2b04d1668c569c95d1ea1",
+          "sceneSHA256": "8ba9c988b66800f0e01adbd7962dcd7e2456394e098ac96f7548b59af8643935",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -15063,12 +15327,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 494291,
+          "bundledBytes": 493413,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/reverse_fly.blend",
-          "sceneSHA256": "9519bd343248afea28a4df85fed67336c1a640a617deb6c652f6ac2922f2e0e4",
+          "sceneSHA256": "214e17a67f3fb6f6dcf9ff6dfceabe7865d391e7c8d93371fa31890eee50a834",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -15077,7 +15341,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 475659,
+          "bundledBytes": 475267,
           "status": "current_checks_passed"
         }
       },
@@ -15157,7 +15421,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/calf_raise.blend",
-          "sceneSHA256": "00517317e5cdd53d1eef71ab2a686a6c8ecef5e6f7791bb8a1ae50994e2e4f48",
+          "sceneSHA256": "41f4b795199e758040040fc464097795784f95d6a0de6302666fc0e1541f09c8",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -15166,12 +15430,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 378809,
+          "bundledBytes": 464488,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/calf_raise.blend",
-          "sceneSHA256": "243a00a91235843aa17727a8bc7a1cb97f972714c0b143c858eada0857339506",
+          "sceneSHA256": "7f9400b0a80ee12312cba6ff5f3ce7d90757950ac19fb68ff06736a7d8d1d1c2",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -15180,7 +15444,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 362009,
+          "bundledBytes": 450681,
           "status": "current_checks_passed"
         }
       },
@@ -17051,7 +17315,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/leg_press.blend",
-          "sceneSHA256": "9ff944c4ccbdd568ff58298f198df2d93afd18af8a718255ac369e3117324002",
+          "sceneSHA256": "d411e85daa2d2513f2d8e4293b463377255ca13508c5dfb3db5f4fbbe4f50e0a",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -17060,12 +17324,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 458127,
+          "bundledBytes": 475246,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/leg_press.blend",
-          "sceneSHA256": "e0d47a82edbb6db795861241abd69c044f65fec20e4d99a33a0d7ba8acd2b680",
+          "sceneSHA256": "b26b8dc0e8b2ee83e68b07e67c3be7778baebcf81233919107f94b207ff5111f",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -17074,7 +17338,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 452129,
+          "bundledBytes": 466947,
           "status": "current_checks_passed"
         }
       },
@@ -19373,7 +19637,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-samples-v2/male/row.blend",
-          "sceneSHA256": "dff3d1d5254c2ab72041d5e43c62d6c046958e3b324861925f1ba07fccf593f5",
+          "sceneSHA256": "4e9d0d2e22d5c04978abacd7882f66a76c636372ea2c10372b792f11c8dfdf53",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -19382,12 +19646,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 466801,
+          "bundledBytes": 553395,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-samples-v2/female/row.blend",
-          "sceneSHA256": "ac0f3f40a30095db8c9db0f0de165312469c8fc14ff7fd89dd7e88550bcc9e0b",
+          "sceneSHA256": "797608dcce35fb9fc8cb8e6a454575a7d3fcf014bc752ed7a05148548840bbec",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -19396,7 +19660,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 444660,
+          "bundledBytes": 528829,
           "status": "current_checks_passed"
         }
       },
@@ -19670,7 +19934,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/reverse_crunch.blend",
-          "sceneSHA256": "6bc0a9eed25a6894d8349cb189c15829d63b3230b20a1055f035638034bf1672",
+          "sceneSHA256": "c76272342c8d72b761fa60588c879ed52782d72028f7362c80a1489d431b1f0b",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -19679,12 +19943,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 451039,
+          "bundledBytes": 449849,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/reverse_crunch.blend",
-          "sceneSHA256": "e3d7bdf3feb0fc242ec7a1a2ac3fcd91f860e329203dbd825150d963ca234d2e",
+          "sceneSHA256": "fe77af38f993428714df56eec0fb268fbe6fca1d21cc3f4847e67b256c907529",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -19693,7 +19957,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 440822,
+          "bundledBytes": 440994,
           "status": "current_checks_passed"
         }
       },
@@ -21987,7 +22251,7 @@
     {
       "id": "1281",
       "name": "dumbbell incline one arm press",
-      "localizedName": null,
+      "localizedName": "单臂上斜哑铃推举",
       "bodyPart": "chest",
       "equipment": "dumbbell",
       "target": "pectorals",
@@ -21998,18 +22262,36 @@
         "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换到另一只手臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_incline_press",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_incline_press.blend",
+          "sceneSHA256": "9085725748a418dcb91f16c15175a5960619e1ce959db025515a9cdefee6d11f",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 412446,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_incline_press.blend",
+          "sceneSHA256": "890845ef6394f103d09168419e35bcb2d61b80bbec902c6a7cc4025dd4d3372a",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 397985,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "1282",
@@ -28254,24 +28536,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_alternate_hammer_curl.blend",
-          "sceneSHA256": "9bd06c62b306eb4e5f552ac0751f84ef0a47e21604c1625098241e8f5a240c98",
+          "sceneSHA256": "76d09990a84ebaab029cf58cb8caf518e4942c819f64df8a40cdce5179bf73eb",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 460384,
+          "bundledBytes": 459710,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_alternate_hammer_curl.blend",
-          "sceneSHA256": "5e985d2471ad6cf5f98c6fe6b0408ba67157ef2fb523b4610a6ab94d673fc65c",
+          "sceneSHA256": "554632b399b45c47ca2050dcf27933d888756d3badbdb00c147e8fc184509c50",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 441983,
+          "bundledBytes": 441128,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -28849,23 +29133,41 @@
         "吸气，慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "seated_single_hammer_curl",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/seated_single_hammer_curl.blend",
+          "sceneSHA256": "01534d2b57ef2730c67d072f50783f417b2d20fde96569618da7cf6c0687561b",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 422048,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/seated_single_hammer_curl.blend",
+          "sceneSHA256": "169a7340f59e984b2ba3ea866e83f0aacbad377ca7009f4fe495e777215bfd5b",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 406874,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "1670",
       "name": "dumbbell one arm standing curl",
-      "localizedName": null,
+      "localizedName": "单臂站姿哑铃弯举",
       "bodyPart": "upper arms",
       "equipment": "dumbbell",
       "target": "biceps",
@@ -28877,47 +29179,80 @@
         "吸气，慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_curl",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_curl.blend",
+          "sceneSHA256": "e996a2ba49d7d4a543a4c9774a8b9a11dda84989d25d803a22c069a920026aac",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 365171,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_curl.blend",
+          "sceneSHA256": "05903588a064faefcc6661926969b905f694e203cd0a6147d07a8d0bef13ed11",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 359944,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "1671",
       "name": "dumbbell one arm standing hammer curl",
-      "localizedName": null,
+      "localizedName": "单臂站姿锤式弯举",
       "bodyPart": "upper arms",
       "equipment": "dumbbell",
       "target": "biceps",
       "instructions": [
-        "站直，双手各持一个哑铃，手掌朝向躯干。",
-        "保持肘部靠近躯干，上臂保持静止。",
-        "呼气并弯举哑铃，同时收缩二头肌。",
-        "继续举重，直到二头肌完全收缩并且哑铃与肩部齐平。",
-        "挤压二头肌时，保持收缩位置短暂停顿。",
-        "吸气并慢慢开始将哑铃放回起始位置。",
-        "重复所需的重复次数。"
+        "站稳，单手持哑铃于身体一侧，掌心朝向身体，另一只手保持放松。",
+        "保持躯干和上臂稳定，以中立握法屈肘举起哑铃，手腕与前臂对齐。",
+        "接近肩部时短暂停留，然后有控制地下放，避免摆动躯干借力。",
+        "完成一侧所需次数后换侧。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "single_hammer_curl",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/single_hammer_curl.blend",
+          "sceneSHA256": "c60dfc4a2a248eabdcf183eb38a4bd6c8e9bd599fd079edb1e7f064f3c04fd5c",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 376061,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/single_hammer_curl.blend",
+          "sceneSHA256": "8cacd01ab597cb8571c7f9545cdde13787ac5da40da24562068eebcb4f071b95",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 372322,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "1672",
@@ -29082,24 +29417,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_curl.blend",
-          "sceneSHA256": "2f73a3b6a50e4173cf7c4aa515ca210af35fe441da018a19eefd43f596c681d2",
+          "sceneSHA256": "c1250d114c0c569541ff4386804b92958d7d9da05326d32211666de27c237e23",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 426397,
+          "bundledBytes": 425579,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_curl.blend",
-          "sceneSHA256": "0c927ef6304c6b19a8ce78df0fe162471c85ace1157ee525e9670d488ba813a3",
+          "sceneSHA256": "f8cd337719da84890e8a7ece3e6d892b36c6f68143e13b138daee2297121ef35",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 409179,
+          "bundledBytes": 409531,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -29126,24 +29463,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_hammer_curl.blend",
-          "sceneSHA256": "2d60f09dc871ffaa587ac97e37b67302e63649f499b204f4565cbc9b0fb7320c",
+          "sceneSHA256": "d572f7b70c4369576653aebb5e3d68fdaf78516876e5101657a01925f191a2e8",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 445861,
+          "bundledBytes": 445097,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_hammer_curl.blend",
-          "sceneSHA256": "5caa467eb3e96b0caf71583a2674e52ec221eb2d17a4e8f0e28148b147a6712a",
+          "sceneSHA256": "5b2b2973148fd1482bffd2e5fc111a7180b8e8ed336dccb90dd8dce77b06124e",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 428794,
+          "bundledBytes": 427196,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },
@@ -30357,18 +30696,36 @@
         "在最高点暂停片刻，然后慢慢将哑铃放回起始位置。",
         "用另一只手臂重复上述动作，每次重复时交替进行。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "standing_alternate_kickback",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/standing_alternate_kickback.blend",
+          "sceneSHA256": "5b230fe79877b1ab6aa9ab7d9d73f5427e3c5bdbc8b91252cdfba82b3c4923a5",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 399618,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/standing_alternate_kickback.blend",
+          "sceneSHA256": "c89b5109e8a000afce695292aa4e6f588730771fe007615b1fbdb34abfc2e6ec",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 387211,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "1740",
@@ -32340,7 +32697,7 @@
     {
       "id": "2317",
       "name": "dumbbell seated bent arm lateral raise",
-      "localizedName": null,
+      "localizedName": "坐姿屈臂侧平举",
       "bodyPart": "shoulders",
       "equipment": "dumbbell",
       "target": "delts",
@@ -32351,18 +32708,36 @@
         "在顶部暂停片刻，然后慢慢将手臂放回起始位置。",
         "重复所需的重复次数。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "seated_bent_lateral_raise",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/seated_bent_lateral_raise.blend",
+          "sceneSHA256": "a27f75e4e84e564d33a40fc2b80a6f7a3829434c9aebff37ca662079f1e2855a",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 437774,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/seated_bent_lateral_raise.blend",
+          "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 418665,
+          "motionReferenceStatus": "legacy_reference_review_pending",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "2318",
@@ -32527,7 +32902,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/pulldown.blend",
-          "sceneSHA256": "3e34fa9399e1396f6a73c585ca8394b719096980da5806061b3b95e7c5cc38ed",
+          "sceneSHA256": "e306e0479ccca8dddd3ca736b362ee1bd20b1aff8c6a1d4459b44c10c46405b7",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -32536,12 +32911,12 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 363499,
+          "bundledBytes": 417644,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/pulldown.blend",
-          "sceneSHA256": "46445876fc9411b6d80dc40974cdd35ca9a27ed8b3cea3a8914787cb5d7e6e7a",
+          "sceneSHA256": "851307697bea7e41d5857f3b8d3d149efffb69f13ddc9d4c491f2c6c4fec58c4",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -32550,7 +32925,7 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 350612,
+          "bundledBytes": 408026,
           "status": "current_checks_passed"
         }
       },
@@ -36714,24 +37089,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/incline_alternate_press.blend",
-          "sceneSHA256": "b73067be155c413e874949526993779eaa8e7353586c414945fbcd164a1c865e",
+          "sceneSHA256": "a78e628421506a6b5d11f8a63db6c80124a4a40b6a87bbd120008b45cc0ac691",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 468658,
+          "bundledBytes": 468286,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/incline_alternate_press.blend",
-          "sceneSHA256": "fb20f68c19edfbeb37eb62dd322ee702cab0e2e2210d55d3f0ee454e3b9c5c11",
+          "sceneSHA256": "f52509bab1fe30c2824740f01db8b16f986bb34d0cfe276cfec26a37bedac1ea",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 443458,
+          "bundledBytes": 445850,
+          "motionReferenceStatus": "legacy_reference_review_pending",
           "status": "current_checks_passed"
         }
       },

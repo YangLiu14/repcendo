@@ -1,0 +1,88 @@
+{
+  "sceneSHA256": "01fed083059ed372ad9cb9a05e2dd147737e0ffb3f7d731f701bb740ffabac1d",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看男性单臂五视角四阶段与左手近景：左负重臂处于主镜头近侧且肩肘腕可见；空闲右臂自然下垂，躯干无侧倾，峰值上臂约84°、前臂向内前下方，负重保持胸前间隙。真人右手示范的动作关系重新用左侧求解，未镜像视频。",
+  "evidence": {
+    "docs/animation-library/male/single_upright_row-review.jpg": "9044036bb07271fa95d28116eca903133c1021c38a5a6aaaeb4675fb90af230b",
+    "docs/animation-library/male/single_upright_row-grips.jpg": "b376d15ff19f1ef187dc95b875c0bce334b2d473958bd523b3a32a8baebd62df"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "254dd03570f33b25809b2da7134c629a1986af7c629c1acc09b10e7e807ab623",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看男性单臂五视角四阶段与左手近景：左负重臂处于主镜头近侧且肩肘腕可见；空闲右臂自然下垂，躯干无侧倾，峰值上臂约84°、前臂向内前下方，负重保持胸前间隙。真人右手示范的动作关系重新用左侧求解，未镜像视频。",
+    "evidence": {
+      "docs/animation-library/male/single_upright_row-review.jpg": "9044036bb07271fa95d28116eca903133c1021c38a5a6aaaeb4675fb90af230b"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "已对照：直立、哑铃在大腿前、正握，单臂时另一手自然垂放。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.750s",
+        "frame": 31,
+        "notes": "已对照：肘向外领动，腕在肘内下方；负重在身体前，躯干没有借力摆动。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.426s",
+        "frame": 61,
+        "notes": "已对照：采用NCSF肩高幅度，肘略低于肩、前臂内前下方，腕和负重低于肘；没有原版高举上臂折叠。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.093s",
+        "frame": 91,
+        "notes": "已对照：回程沿相同路径，腕线、握持及支撑保持；真人动作速度与5秒动画节奏不同。"
+      }
+    ]
+  },
+  "gripSides": [
+    "Left"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/single_upright_row-grips.jpg": "b376d15ff19f1ef187dc95b875c0bce334b2d473958bd523b3a32a8baebd62df"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/male/single_upright_row-review.jpg": "9044036bb07271fa95d28116eca903133c1021c38a5a6aaaeb4675fb90af230b"
+  }
+}

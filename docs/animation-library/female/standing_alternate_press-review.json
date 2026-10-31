@@ -1,8 +1,7 @@
 {
-  "sceneSHA256": "6e837bdfcd2e0d4fe3a693d11b80338740f536a00a87a05c45adeadd154e4d27",
+  "sceneSHA256": "dd05910f424c4487b453974d463dbfd5ac866bb1957b2ce066ed2540274a8224",
   "frames": [
     1,
-    43,
     49,
     97,
     145
@@ -15,10 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已实际查看五视角和额外可疑帧。站姿左臂推起回落后右臂重复，闲置侧停在肩高，顶端前臂对齐，头顶有净空，肩腋未见尖锐拉伸。",
+  "notes": "实际查看五视角完整交替关键阶段：左右抬臂时肩腋轮廓连续，肘腕和握柄对齐，非工作侧稳定；腿部不随抬臂扭转，坐姿背垫及足底支撑保持。",
   "evidence": {
-    "docs/animation-library/female/standing_alternate_press-review.jpg": "ff0fcaa8af5163227af655417dc91469559ae551e50a9e972c2ac104ccb346b8"
+    "docs/animation-library/female/standing_alternate_press-review.jpg": "6966a419862b5d3806c40fab11750ff55b80b932797c5bb23943e1474e029e25"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex visual review"
+  "reviewer": "Codex: actual multi-view image inspection"
 }

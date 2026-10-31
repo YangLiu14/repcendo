@@ -1,7 +1,7 @@
 {
   "male/pec_fly": {
     "passed": true,
-    "sceneSHA256": "61179997f61ca745f2aa37d54741237a55a3ed858e9992ca896892d89005414e",
+    "sceneSHA256": "4e03639a4d694fa4af5398d88a134c607eec869301b5bd8604ddbdee537c94ba",
     "validatorSHA256": "2d4bdc56d6c51558f41e255afe8148da49322cafa438f7f88d96b2778af3b79d",
     "referenceSHA256": "d80e8a0701c0e3e52ef2b032a0d17014da7f258813911c1f5f91dfbcd81367ea",
     "frames": [
@@ -138,7 +138,7 @@
   },
   "male/reverse_fly": {
     "passed": true,
-    "sceneSHA256": "5f140de980bf0b84e083ed7c152e6fd1f2df8ba643a2b04d1668c569c95d1ea1",
+    "sceneSHA256": "8ba9c988b66800f0e01adbd7962dcd7e2456394e098ac96f7548b59af8643935",
     "validatorSHA256": "2d4bdc56d6c51558f41e255afe8148da49322cafa438f7f88d96b2778af3b79d",
     "referenceSHA256": "d80e8a0701c0e3e52ef2b032a0d17014da7f258813911c1f5f91dfbcd81367ea",
     "frames": [
@@ -275,7 +275,7 @@
   },
   "female/pec_fly": {
     "passed": true,
-    "sceneSHA256": "36ba252ed518cf8c05746d4efae56afebe5064d18d3a00751a3ae404879d1572",
+    "sceneSHA256": "3b0b9330ad1a88f32a26fe172100a21fd1da1ed9532cd7747a788e70c905ef1b",
     "validatorSHA256": "2d4bdc56d6c51558f41e255afe8148da49322cafa438f7f88d96b2778af3b79d",
     "referenceSHA256": "d80e8a0701c0e3e52ef2b032a0d17014da7f258813911c1f5f91dfbcd81367ea",
     "frames": [
@@ -412,7 +412,7 @@
   },
   "female/reverse_fly": {
     "passed": true,
-    "sceneSHA256": "9519bd343248afea28a4df85fed67336c1a640a617deb6c652f6ac2922f2e0e4",
+    "sceneSHA256": "214e17a67f3fb6f6dcf9ff6dfceabe7865d391e7c8d93371fa31890eee50a834",
     "validatorSHA256": "2d4bdc56d6c51558f41e255afe8148da49322cafa438f7f88d96b2778af3b79d",
     "referenceSHA256": "d80e8a0701c0e3e52ef2b032a0d17014da7f258813911c1f5f91dfbcd81367ea",
     "frames": [

@@ -1,0 +1,77 @@
+{
+  "sceneSHA256": "99f158d36faaf81a65e5b4888e5716ef3728ca88f4d4fd7a76eea1ca5665fc1f",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看女性五视角四阶段与双手近景：肩肘过渡连续，峰值肘低于肩关节，哑铃位于下胸前而未进入胸部或衣物；正握、腕线连续，双侧同步、足底稳定。女角色单独核对并未复用男性验收结论。",
+  "evidence": {
+    "docs/animation-library/female/db_upright_row-review.jpg": "45792c939fd0f73b835e315f42dce5c0cfe2edcd123028734583815f7570877f",
+    "docs/animation-library/female/db_upright_row-grips.jpg": "fd9af3f520977c05ab05e8d4e8109f6da5b6d47cf9b64bcfc672b4220fb31aab"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "3b13579de18ff52e4daf6f8893438ea534fffd6c00fd5c1e3b8696236851297c",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看女性五视角四阶段与双手近景：肩肘过渡连续，峰值肘低于肩关节，哑铃位于下胸前而未进入胸部或衣物；正握、腕线连续，双侧同步、足底稳定。女角色单独核对并未复用男性验收结论。",
+    "evidence": {
+      "docs/animation-library/female/db_upright_row-review.jpg": "45792c939fd0f73b835e315f42dce5c0cfe2edcd123028734583815f7570877f"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "已对照：直立、哑铃在大腿前、正握，单臂时另一手自然垂放。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.720s",
+        "frame": 31,
+        "notes": "已对照：肘向外领动，腕在肘内下方；负重在身体前，躯干没有借力摆动。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.500s",
+        "frame": 61,
+        "notes": "已对照：采用NCSF肩高幅度，肘略低于肩、前臂内前下方，腕和负重低于肘；没有原版高举上臂折叠。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.220s",
+        "frame": 91,
+        "notes": "已对照：回程沿相同路径，腕线、握持及支撑保持；真人动作速度与5秒动画节奏不同。"
+      }
+    ]
+  },
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/db_upright_row-grips.jpg": "fd9af3f520977c05ab05e8d4e8109f6da5b6d47cf9b64bcfc672b4220fb31aab"
+  }
+}

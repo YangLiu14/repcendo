@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "a2c35e12a3141fed0f6db6e22f51302af41b65d6e6eafdd1cbc1941079faedb3",
+  "sceneSHA256": "123d6f2047a2c34ff55a313f13804c8b00cf3a18ff4a6f042c901da7330d747a",
   "frames": [
     1,
     49,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/male/seated_alternate_front_raise-review.jpg": "1c0d8b619b99e66264a460bc6810e966e7254c394147d8374e548d5bdebce515"
+    "docs/animation-library/male/seated_alternate_front_raise-review.jpg": "392ad7a66869e440df47393bf5498c4ac4b8bcda76c69d4595f1889b23779ce1"
   }
 }

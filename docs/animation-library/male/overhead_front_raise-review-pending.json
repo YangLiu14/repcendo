@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "bd5220e376d13ff033a95ff08b295046b2515d8ddbf9c70f709657c874d0a6f1",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/overhead_front_raise-review.jpg": "d46deaa2a7f82a1bb49e24de69f4d02142a8dbf929ae3dc7fcdc4621bb9001d6"
+  }
+}

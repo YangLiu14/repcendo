@@ -10439,5 +10439,12 @@
       "clearance_radius_m": 0.0155,
       "preserve_finger_thickness": false
     }
+  },
+  "shoulder_blend": {
+    "version": "shoulder-blend-1",
+    "vertices": 4596,
+    "samples": 30,
+    "maxModelDisplacement": 0.07310867472116923,
+    "requiresFullFrameAndVisualReview": true
   }
 }

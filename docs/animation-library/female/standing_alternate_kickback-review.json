@@ -1,0 +1,92 @@
+{
+  "sceneSHA256": "c89b5109e8a000afce695292aa4e6f588730771fe007615b1fbdb34abfc2e6ec",
+  "frames": [
+    1,
+    25,
+    31,
+    49,
+    61,
+    73,
+    97,
+    121,
+    145,
+    169
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看最终10个时点五视角和双手近景，对照Functional Fitness真人4.144/4.744/5.344/6.216秒与8.288秒另一侧伸展。上臂保持较贴身的固定方向，双前臂在回收低位留出髋腿空间，之前左哑铃碰腿的问题已消除；左右依次伸肘及回收，等待侧没有抢先伸展。躯干前倾、双足着地稳定，腕部和握持未突折；主镜头可分辨两侧负重的时序，远侧上臂局部遮挡由侧/背视图补充核对，衣物折痕沿用原雕塑。",
+  "evidence": {
+    "docs/animation-library/female/standing_alternate_kickback-review.jpg": "0b41bddf916b30f001882d58e3c996a9550a18dd28225f850c529bc67290b6b9",
+    "docs/animation-library/female/standing_alternate_kickback-grips.jpg": "3f262e59aed8bfa975fd1167088bc8b058e594c7f608415195a1a4cc37da1f9d"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "2200a48c47f61032490f1725048142cd9b098be64f090c8930592c3deb74cf19",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看最终10个时点五视角和双手近景，对照Functional Fitness真人4.144/4.744/5.344/6.216秒与8.288秒另一侧伸展。上臂保持较贴身的固定方向，双前臂在回收低位留出髋腿空间，之前左哑铃碰腿的问题已消除；左右依次伸肘及回收，等待侧没有抢先伸展。躯干前倾、双足着地稳定，腕部和握持未突折；主镜头可分辨两侧负重的时序，远侧上臂局部遮挡由侧/背视图补充核对，衣物折痕沿用原雕塑。",
+    "evidence": {
+      "docs/animation-library/female/standing_alternate_kickback-review.jpg": "0b41bddf916b30f001882d58e3c996a9550a18dd28225f850c529bc67290b6b9"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "4.144s",
+        "frame": 1,
+        "notes": "准备时双肘屈曲，中立握，双手和哑铃在腿侧留出间隔；髋部前倾与真人一致。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "4.744s",
+        "frame": 25,
+        "notes": "左前臂向后伸展、右臂保持屈曲；负重不擦过髋部。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "5.344s",
+        "frame": 49,
+        "notes": "左肘接近伸直，上臂不抬高，腕部沿前臂方向；对应真人峰值。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "6.216s",
+        "frame": 73,
+        "notes": "左臂回收后再换右臂；97帧双肘复位、145帧右臂峰值，未变为双臂同时动作。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-30",
+  "reviewer": "Codex: actual rendered multi-view and human-reference comparison, not professional coach certification",
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    25,
+    49,
+    73,
+    97,
+    121,
+    145,
+    169,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/standing_alternate_kickback-grips.jpg": "3f262e59aed8bfa975fd1167088bc8b058e594c7f608415195a1a4cc37da1f9d"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "9d6e5e672692a61d81c88131d67d609ac7fa72c6e2780c0a4dca850d0ee36ada",
+  "sceneSHA256": "66375f7736653d73a582092b155dae1dcfb7478e6b6bd8f1316ee8e086b4fd4a",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "Inspected all four cycle poses after female-specific lateral clearance repair. Main/front/side/back and grip views show inward palms, aligned wrists, supported dumbbells, stable upper arms and planted feet; no visible plate/thigh intersections. Existing sculpture folds retained; illustrative review, not professional biomechanical certification.",
+  "notes": "已查看五视角四阶段，立姿膝部自然微屈，小腿到踝部连续；中立握弯举手腕不折，双肘对称，肩侧无异常外鼓。",
   "evidence": {
-    "docs/animation-library/female/hammer_curl-review.jpg": "84d9470f740f74440b05f20ce06e99b3fc43cc8a6e57b4dbfd53b26a84b02715"
+    "docs/animation-library/female/hammer_curl-review.jpg": "6c079568239fa15bec278a82d0f8e82910f122d79068ed770bf2d83c3b34d9cc"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

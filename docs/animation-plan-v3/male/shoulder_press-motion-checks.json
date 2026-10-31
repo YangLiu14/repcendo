@@ -10428,13 +10428,22 @@
       "vertices": 967,
       "max_surface_adjustment_m": 0.014566597481579043,
       "shaft_radius_m": 0.014,
-      "clearance_radius_m": 0.0155
+      "clearance_radius_m": 0.0155,
+      "preserve_finger_thickness": false
     },
     "Right": {
       "vertices": 1123,
       "max_surface_adjustment_m": 0.013824910538023778,
       "shaft_radius_m": 0.014,
-      "clearance_radius_m": 0.0155
+      "clearance_radius_m": 0.0155,
+      "preserve_finger_thickness": false
     }
+  },
+  "shoulder_blend": {
+    "version": "shoulder-blend-1",
+    "vertices": 3873,
+    "samples": 30,
+    "maxModelDisplacement": 0.06445232153097397,
+    "requiresFullFrameAndVisualReview": true
   }
 }

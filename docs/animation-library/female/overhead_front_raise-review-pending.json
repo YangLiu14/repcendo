@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "7265f378c243d026ebe081b2b01cdc5178a804cae7eab72a2ba86658353b9781",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/overhead_front_raise-review.jpg": "2c960b1da0077451768d5aeaf79debc6be0ff4eb8322a84ddc604a8f468b9025"
+  }
+}

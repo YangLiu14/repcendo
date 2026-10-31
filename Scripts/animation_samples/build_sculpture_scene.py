@@ -14,6 +14,8 @@ from plan_exercises import PLAN_EXERCISES, PLAN_MUSCLES
 from plan_motions import PlanMotion
 from library_exercises import LIBRARY_EXERCISES, LIBRARY_MUSCLES
 from library_motions import LibraryMotion
+from library_motions_v6 import LibraryMotionV6
+from library_motions_v7 import LibraryMotionV7
 from frame_plan_scene import fit as fit_plan_camera
 
 ALL_EXERCISES = {**EXERCISES, **PLAN_EXERCISES, **LIBRARY_EXERCISES}
@@ -32,6 +34,9 @@ P.add_argument(
 )
 P.add_argument("--view", choices=["motion", "front", "back"], default="motion")
 args = P.parse_args(sys.argv[sys.argv.index("--") + 1 :])
+if args.view == 'motion' and args.exercise in LIBRARY_EXERCISES:
+    from motion_reference_gate import load_reference
+    load_reference(args.exercise)
 collection = (
     "animation-library" if args.exercise in LIBRARY_EXERCISES else
     "animation-plan-v3" if args.exercise in PLAN_EXERCISES else "animation-samples-v2"
@@ -268,7 +273,20 @@ for s, side in SIDES.items():
     rest_grip = rig.matrix_world @ hand_centers[side]
     grip_offsets[s] = rest_grip - head[n("Hand")]
 ankle_z = min(head["mixamorig:" + side + "Foot"].z for side in SIDES.values())
-stand_z = min(ankle_z + L[s, "thigh"] + L[s, "shin"] for s in SIDES) - 0.032
+# Solve a relaxed 6-degree knee angle with the actual hip offsets and stance.
+# A fixed 32 mm drop previously bent both knees by about 33 degrees in curls.
+standing_heights = []
+for s, side in SIDES.items():
+    delta = head["mixamorig:" + side + "UpLeg"] - hip0
+    a, b = L[s, "thigh"], L[s, "shin"]
+    reach2 = a*a + b*b + 2*a*b*math.cos(math.radians(6))
+    horizontal2 = (delta.x-s*.16)**2 + delta.y**2
+    standing_heights.append(ankle_z-delta.z+math.sqrt(reach2-horizontal2))
+stand_z = min(standing_heights)
+if args.exercise == "rdl":
+    # The hip-hinge trajectory needs its own knee-flexion reserve; the quiet
+    # standing height cannot reach its forward/backward hip offsets.
+    stand_z = min(ankle_z + L[s, "thigh"] + L[s, "shin"] for s in SIDES) - 0.032
 # Position the high bar against the actual posterior upper-trap surface.
 bar_anchor_local = (
     squat_bar_anchor(character, args.sex, scale) if args.exercise == "squat" else None
@@ -289,7 +307,7 @@ if args.exercise == "squat":
 contact_errors = []
 length_errors = []
 pose_records = []
-extension = (LibraryMotion(globals()) if args.exercise in LIBRARY_EXERCISES else
+extension = ((LibraryMotionV7(globals()) if LIBRARY_EXERCISES[args.exercise].get("audit_version") == 7 else LibraryMotionV6(globals()) if LIBRARY_EXERCISES[args.exercise].get("audit_version") == 6 else LibraryMotion(globals())) if args.exercise in LIBRARY_EXERCISES else
              PlanMotion(globals()) if args.exercise in PLAN_EXERCISES else None)
 
 
@@ -586,6 +604,9 @@ if args.view == "motion":
         bm.to_mesh(character.data)
         bm.free()
         character.data.update()
+    if extension and extension.config.get("contact_recipe") == "preserve_thickness":
+        from grip_surface import refine_cavity
+        checks["grip_surface_refinement"] = refine_cavity(character, extension.grips, extension.SIDES)
     checks["contact_corrective"] = (
         None
         if extension and extension.open
@@ -610,6 +631,22 @@ if extension and args.view == "motion":
     extension.finish()
     scene.eevee.taa_render_samples = 32
     fit_plan_camera(scene)
+# Flat presses keep their previously calibrated shoulder skinning: their
+# forward-reaching arms need different axillary clearance from overhead lifts.
+if args.view == "motion" and args.exercise not in (
+    "squat", "dead_bug", "bench", "db_bench_press", "neutral_bench_press", "single_bench_press"
+):
+    from shoulder_blend import bake as bake_shoulder_blend
+    # Forward-facing neutral grips have less axillary clearance on this male
+    # sculpture. Retain more DQ volume there rather than compressing the seam.
+    shoulder_strength = 0.5 if args.sex == "male" and args.exercise in (
+        "seated_alternate_press", "seated_neutral_press", "standing_neutral_press",
+        "single_neutral_press"
+    ) else 1.0
+    checks["shoulder_blend"] = bake_shoulder_blend(
+        scene, character, rig, strength=shoulder_strength
+    )
+    (OUT / "motion-checks.json").write_text(json.dumps(checks, indent=2) + "\n")
 if args.view == "motion" and args.exercise != "squat":
     from fit_contacts import fit_contacts
 
@@ -618,6 +655,9 @@ if args.view == "motion" and args.exercise != "squat":
     refit(scene, args.exercise)
     if extension:
         fit_plan_camera(scene)
+if args.view == "motion" and extension and extension.config.get("unilateral"):
+    from active_side_camera import aim as aim_active_side
+    aim_active_side(scene, extension.config["unilateral"])
 scene.frame_set(args.frame if args.view == "motion" else 1)
 if args.view == "motion":
     bpy.ops.file.pack_all()

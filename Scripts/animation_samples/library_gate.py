@@ -18,14 +18,14 @@ def specification_digest(name):
 
 def validator_hashes(name=None):
     version = LIBRARY_EXERCISES[name].get("audit_version", 1) if name else 1
-    if version not in (1, 3, 4, 5):
+    if version not in (1, 3, 4, 5, 6, 7):
         raise ValueError(f"Unsupported library audit version: {version}")
     suffix = f"_v{version}" if version >= 3 else ""
     result = {file: digest(HERE / file) for file in (
         "collision_audit.py", "deformation_audit.py", f"library_audit{suffix}.py", f"library_scene{suffix}.py",
     )}
-    if version == 5:
-        result["equipment-reference"] = digest(ROOT / "docs/equipment-references/batch-005.json")
+    if version >= 5:
+        result["equipment-reference"] = digest(ROOT / f"docs/equipment-references/batch-{version:03d}.json")
     return result
 
 
@@ -36,6 +36,8 @@ def paths(root, sex, name):
 
 
 def require_scene_pass(sex, name, root=ROOT, visual=True):
+    from motion_reference_gate import require_reference_pass
+    require_reference_pass(sex, name, root, visual=visual)
     from equipment_gate import require_equipment_pass
     require_equipment_pass(sex, name, root, visual=visual)
     folder, _ = paths(root, sex, name)
@@ -55,6 +57,10 @@ def require_scene_pass(sex, name, root=ROOT, visual=True):
         and audit.get("motion", {}).get("failures") == []
     ):
         raise RuntimeError(f"{sex}/{name}: missing, failed, partial or stale library checks")
+    if LIBRARY_EXERCISES[name].get("unilateral"):
+        from active_side_camera import require_report
+        camera_report = json.loads((folder / f"{name}-camera.json").read_text())
+        require_report(camera_report, scene, LIBRARY_EXERCISES[name]["unilateral"], frames)
     if visual:
         review = json.loads((folder / f"{name}-review.json").read_text())
         if not (
@@ -68,6 +74,34 @@ def require_scene_pass(sex, name, root=ROOT, visual=True):
             and all((root / p).is_file() and digest(root / p) == sha for p, sha in review["evidence"].items())
         ):
             raise RuntimeError(f"{sex}/{name}: pending, rejected or stale visual review")
+        if LIBRARY_EXERCISES[name].get("unilateral"):
+            if not (review.get("activeSideViews") == ["main"]
+                    and set(review["frames"]).issubset(review.get("activeSideFrames", []))
+                    and review.get("activeSideEvidence")
+                    and all(review["evidence"].get(p) == sha for p,sha in review["activeSideEvidence"].items())):
+                raise RuntimeError(f"{sex}/{name}: missing working-side main-view review")
+        if LIBRARY_EXERCISES[name].get("audit_version") == 7:
+            count = LIBRARY_EXERCISES[name].get("frames", 120)
+            alternating = LIBRARY_EXERCISES[name].get("alternating")
+            expected = dict(zip(("preparation", "lifting", "peak", "return"),
+                                [1, 1+count//8, 1+count//4, 1+3*count//8] if alternating
+                                else [1, 1+count//4, 1+count//2, 1+3*count//4]))
+            if {p["phase"]: p["frame"] for p in review["motionReference"]["comparisons"]} != expected:
+                raise RuntimeError(f"{sex}/{name}: reference phases do not match one full repetition")
+        if ((LIBRARY_EXERCISES[name].get("audit_version") == 5 and LIBRARY_EXERCISES[name].get("press_type") in ("flat", "incline"))
+                or (LIBRARY_EXERCISES[name].get("audit_version") in (6, 7) and LIBRARY_EXERCISES[name].get("seated"))):
+            equipment = review.get("equipmentEvidence", {})
+            if not (set(review.get("equipmentViews", [])) == {"main", "side"}
+                    and {1,31,61}.issubset(review.get("equipmentFrames", []))
+                    and equipment and all(review["evidence"].get(p) == sha for p,sha in equipment.items())):
+                raise RuntimeError(f"{sex}/{name}: missing complete equipment comparison views")
+        if LIBRARY_EXERCISES[name].get("audit_version") in (6, 7):
+            grip = review.get("gripEvidence", {})
+            sides = [LIBRARY_EXERCISES[name]["unilateral"]] if LIBRARY_EXERCISES[name].get("unilateral") else ["Left", "Right"]
+            if not (set(review.get("gripSides", [])) == set(sides)
+                    and {1,31,61}.issubset(review.get("gripFrames", []))
+                    and grip and all(review["evidence"].get(p) == sha for p,sha in grip.items())):
+                raise RuntimeError(f"{sex}/{name}: missing unobstructed grip closeups")
     return audit
 
 

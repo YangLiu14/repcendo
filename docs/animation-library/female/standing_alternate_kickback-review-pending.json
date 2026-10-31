@@ -1,0 +1,70 @@
+{
+  "sceneSHA256": "c89b5109e8a000afce695292aa4e6f588730771fe007615b1fbdb34abfc2e6ec",
+  "frames": [
+    1,
+    25,
+    31,
+    49,
+    61,
+    73,
+    97,
+    121,
+    145,
+    169
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/standing_alternate_kickback-review.jpg": "0b41bddf916b30f001882d58e3c996a9550a18dd28225f850c529bc67290b6b9"
+  },
+  "motionReference": {
+    "status": "pending",
+    "referenceSHA256": "2200a48c47f61032490f1725048142cd9b098be64f090c8930592c3deb74cf19",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "",
+    "evidence": {
+      "docs/animation-library/female/standing_alternate_kickback-review.jpg": "0b41bddf916b30f001882d58e3c996a9550a18dd28225f850c529bc67290b6b9"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "4.144s",
+        "frame": 1,
+        "notes": ""
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "4.744s",
+        "frame": 25,
+        "notes": ""
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "5.344s",
+        "frame": 49,
+        "notes": ""
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "6.216s",
+        "frame": 73,
+        "notes": ""
+      }
+    ]
+  }
+}

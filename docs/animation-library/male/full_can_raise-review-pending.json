@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "9589837887a396d8997186841a20c754002e537229e5075b5c5dca8315f48b75",
+  "sceneSHA256": "81e84cf80df1c0a680f0785bb2d01221d2aa06d323e44de34dd4aa27126901ac",
   "frames": [
     1,
     31,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/male/full_can_raise-review.jpg": "6d06bd703283500e9241625ff56a87127c8008e3fdbf51ca1df1acf777a2104b"
+    "docs/animation-library/male/full_can_raise-review.jpg": "83c467407fd27e81b38b9a3b27350379b54826e88a2c4250c96ea3b483ffea22"
   }
 }

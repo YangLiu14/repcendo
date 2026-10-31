@@ -1,0 +1,46 @@
+{
+  "sceneSHA256": "d34ffe767e833536910f95765c52349bb160c32901922e0f46546ac7ecae0dc2",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看五视角及完整主侧器械图：负重左肩、肘、腕和哑铃在主镜头近侧，下降与推起路线清楚，空闲手没有遮挡；长垫、纵梁、前后支腿和横脚均可见，与已重新查看的官方平凳照片布局一致，背部和足底接触稳定。",
+  "evidence": {
+    "docs/animation-library/female/single_bench_press-review.jpg": "43bc6704c8450c6992dc5aa48a330e944a4da6d827e3dcc6bff9b9d9cb5dbf57",
+    "docs/animation-library/female/single_bench_press-equipment.jpg": "6762cec92c3878d9e7a0d5d1a42c1c2e547bc6f4f51e7f145a344486fd948831"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/single_bench_press-review.jpg": "43bc6704c8450c6992dc5aa48a330e944a4da6d827e3dcc6bff9b9d9cb5dbf57"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/female/single_bench_press-equipment.jpg": "6762cec92c3878d9e7a0d5d1a42c1c2e547bc6f4f51e7f145a344486fd948831"
+  }
+}

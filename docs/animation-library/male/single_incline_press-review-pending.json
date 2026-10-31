@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "9085725748a418dcb91f16c15175a5960619e1ce959db025515a9cdefee6d11f",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/single_incline_press-review.jpg": "21645fbbb05820573b41b6346b52d9a0bb9d2d1f802c17ec45c3b3b5e858a216"
+  }
+}

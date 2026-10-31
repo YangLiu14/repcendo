@@ -1,0 +1,34 @@
+{
+  "sceneSHA256": "7265f378c243d026ebe081b2b01cdc5178a804cae7eab72a2ba86658353b9781",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看五视角四阶段与左右手三阶段近景：身前抬臂到过顶，双肘轻屈且腕前臂对齐；肩腋无原先侧胸鼓包，站姿及足底稳定，小腿轮廓自然。双手包握刚性对称哑铃，表面衣褶保留。",
+  "evidence": {
+    "docs/animation-library/female/overhead_front_raise-review.jpg": "2c960b1da0077451768d5aeaf79debc6be0ff4eb8322a84ddc604a8f468b9025",
+    "docs/animation-library/female/overhead_front_raise-grips.jpg": "7c90d1dbbf8547019be4fb7af1806635fb22ba1fa79b12e9bd1fadb0dd8e9ace"
+  },
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/overhead_front_raise-grips.jpg": "7c90d1dbbf8547019be4fb7af1806635fb22ba1fa79b12e9bd1fadb0dd8e9ace"
+  }
+}

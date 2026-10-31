@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "099a35b92aeb065c2093e1d715a0acc8f433d1690cdca694aeebfdba2c396df5",
+  "sceneSHA256": "e3cacf6328e60bbe88bd6ba44d4247984e3a5275a619d1e4755384576a6d997d",
   "frames": [
     1,
     49,
@@ -20,6 +20,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/male/zottman_curl-review.jpg": "66a5c27924b67384b5be5d61076354ae9f1cc97ef988fd5382dba2a524209b1d"
+    "docs/animation-library/male/zottman_curl-review.jpg": "1112d321e0c18c4e636306ee3ea9eadc235f513fc49135bb01fb77e4892a71b6"
   }
 }

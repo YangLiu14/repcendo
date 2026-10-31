@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "0c927ef6304c6b19a8ce78df0fe162471c85ace1157ee525e9670d488ba813a3",
+  "sceneSHA256": "f8cd337719da84890e8a7ece3e6d892b36c6f68143e13b138daee2297121ef35",
   "frames": [
     1,
     31,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/seated_curl-review.jpg": "1f02a58250612149618c30d7c36f8be87ae7fa14e4871bda8ab8247aba7255f2"
+    "docs/animation-library/female/seated_curl-review.jpg": "6b84b4bdb0ff59932f2786f4fce8a4ef6aad7a524338249f691c2e5bf894a37a"
   }
 }

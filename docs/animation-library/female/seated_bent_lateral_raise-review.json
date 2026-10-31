@@ -1,0 +1,46 @@
+{
+  "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看五视角四阶段和双手近景：坐姿稳定、肘维持直角、上臂从两侧抬至肩高，手腕及指部握持连续。主侧图与官方 LBR-FB 照片比较，长垫下纵梁及前后支腿/横脚完整，臀部承托和足底着地；简化配色与尺寸，无厂家标识。",
+  "evidence": {
+    "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "d3bcc845ea5090e6014d57aebb97f498a06eeb911fbd283035d6d4726ffdbef1",
+    "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "897256b4ba990af9b5c23d075d103248b97d7d26fea761aa74d26b06d1c8d671"
+  },
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "897256b4ba990af9b5c23d075d103248b97d7d26fea761aa74d26b06d1c8d671"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "d3bcc845ea5090e6014d57aebb97f498a06eeb911fbd283035d6d4726ffdbef1"
+  }
+}

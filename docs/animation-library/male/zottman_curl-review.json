@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "099a35b92aeb065c2093e1d715a0acc8f433d1690cdca694aeebfdba2c396df5",
+  "sceneSHA256": "e3cacf6328e60bbe88bd6ba44d4247984e3a5275a619d1e4755384576a6d997d",
   "frames": [
     1,
     49,
@@ -18,10 +18,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已逐张查看五视角及 73、85、97、169、181 帧的转腕证据。旋后弯举，顶部经过中立握转成旋前，再反握下放，底部复位；肩肘固定、手腕顺直、前臂轮廓连贯。全帧跳变复查通过。",
+  "notes": "实际查看所有五视角关键阶段，含佐特曼73/85/169/181旋转阶段；跨体弯举肘肩连续，佐特曼前臂旋转未扭瘪，握持和腕部稳定，站姿小腿膝踝无异常。",
   "evidence": {
-    "docs/animation-library/male/zottman_curl-review.jpg": "66a5c27924b67384b5be5d61076354ae9f1cc97ef988fd5382dba2a524209b1d"
+    "docs/animation-library/male/zottman_curl-review.jpg": "1112d321e0c18c4e636306ee3ea9eadc235f513fc49135bb01fb77e4892a71b6"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex visual review"
+  "reviewer": "Codex: actual multi-view image inspection"
 }

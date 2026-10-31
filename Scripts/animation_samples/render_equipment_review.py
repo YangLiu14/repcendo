@@ -11,12 +11,14 @@ from equipment_refit import LIBRARY_MOTIONS, MOTIONS
 ROOT = Path(__file__).resolve().parents[2]
 p = argparse.ArgumentParser()
 p.add_argument("--root", type=Path, default=ROOT)
+p.add_argument("--exercise", nargs="+", choices=list(MOTIONS)+["single_bench_press"])
+p.add_argument("--sex", choices=["male", "female"])
 a = p.parse_args(sys.argv[sys.argv.index("--") + 1 :] if "--" in sys.argv else [])
-for sex in ["male", "female"]:
-    for name in MOTIONS:
+for sex in ([a.sex] if a.sex else ["male", "female"]):
+    for name in (a.exercise or MOTIONS):
         collection = (
             "animation-library"
-            if name in LIBRARY_MOTIONS
+            if name in LIBRARY_MOTIONS or name == "single_bench_press"
             else ("animation-samples-v2" if name == "row" else "animation-plan-v3")
         )
         source = a.root / f"docs/{collection}/{sex}/{name}.blend"

@@ -1,0 +1,46 @@
+{
+  "sceneSHA256": "7a6a2682bf83d15baf3d3a0717f9b89b7b71af96bf6d6f94b38af0df71634252",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看五视角和双手三帧特写：髋部稳定贴合坐垫，打开的膝盖为双哑铃回程留出空间，上臂固定且双侧前臂同步伸展；手指贴合握柄。主侧视角的纵梁、前后支腿和横脚与已查看的 LBRFB 官方参考结构一致。",
+  "evidence": {
+    "docs/animation-library/male/seated_kickback-review.jpg": "7fb0ce5925931fc00bbef4b02959c973ad616d2b558c54069df4802d413e4657",
+    "docs/animation-library/male/seated_kickback-grips.jpg": "38c8698e59899ba58370e58d88519478da311ccfe2894c890e20a42307423352"
+  },
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/seated_kickback-grips.jpg": "38c8698e59899ba58370e58d88519478da311ccfe2894c890e20a42307423352"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/male/seated_kickback-review.jpg": "7fb0ce5925931fc00bbef4b02959c973ad616d2b558c54069df4802d413e4657"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "reviewed_on": "2026-10-30",
+  "source_url": "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf",
+  "photo_urls": [
+    "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf#page=39",
+    "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf#page=44"
+  ],
+  "models": [
+    "LBR-FB",
+    "LF-GDBLB"
+  ],
+  "photo_inspected": true,
+  "observed_structure": [
+    "平凳长垫由纵梁承托，前后两支腿连接横向落地底脚。",
+    "哑铃中央握柄与两端对称负重为刚性整体。"
+  ],
+  "simplifications": [
+    "原创颜色与人物适配尺寸；省略商标、纹理、工程尺寸。",
+    "坐姿使用平凳前端，不加靠背；单臂演示左侧一次循环后提示换侧。"
+  ],
+  "motions": [
+    "1669",
+    "1739"
+  ],
+  "evidence_note": "2026-10-30 重新打开官方目录 URL，网页读取因16MB大小限制失败；实际重新查看此前留存的官方第39、44页照片。沿用已校准平凳与哑铃结构，不新增机械机构。"
+}

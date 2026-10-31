@@ -1,0 +1,88 @@
+{
+  "sceneSHA256": "337f53ffb7c7eec692b26496ce56ad89e898e1bd9deb14ca4d16a659d08bae7b",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看女性单臂五视角四阶段与左手近景：主镜头负重侧可辨，空闲右手和双脚稳定；肩肘形体连续，峰值肘位于肩以下、腕在肘内下方，负重不进入胸前衣物。各阶段与单臂真人参考核对，未套用双臂或男性审核。",
+  "evidence": {
+    "docs/animation-library/female/single_upright_row-review.jpg": "4eab81e5004ffcae001e34e8fcc53423f96091457e9407830d5a109230a7b087",
+    "docs/animation-library/female/single_upright_row-grips.jpg": "92b31318ba3c6f5f00e621394afa3f1487ccd655277c47cb06fa62100bffdd4f"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "254dd03570f33b25809b2da7134c629a1986af7c629c1acc09b10e7e807ab623",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看女性单臂五视角四阶段与左手近景：主镜头负重侧可辨，空闲右手和双脚稳定；肩肘形体连续，峰值肘位于肩以下、腕在肘内下方，负重不进入胸前衣物。各阶段与单臂真人参考核对，未套用双臂或男性审核。",
+    "evidence": {
+      "docs/animation-library/female/single_upright_row-review.jpg": "4eab81e5004ffcae001e34e8fcc53423f96091457e9407830d5a109230a7b087"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "已对照：直立、哑铃在大腿前、正握，单臂时另一手自然垂放。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.750s",
+        "frame": 31,
+        "notes": "已对照：肘向外领动，腕在肘内下方；负重在身体前，躯干没有借力摆动。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.426s",
+        "frame": 61,
+        "notes": "已对照：采用NCSF肩高幅度，肘略低于肩、前臂内前下方，腕和负重低于肘；没有原版高举上臂折叠。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.093s",
+        "frame": 91,
+        "notes": "已对照：回程沿相同路径，腕线、握持及支撑保持；真人动作速度与5秒动画节奏不同。"
+      }
+    ]
+  },
+  "gripSides": [
+    "Left"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/single_upright_row-grips.jpg": "92b31318ba3c6f5f00e621394afa3f1487ccd655277c47cb06fa62100bffdd4f"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/single_upright_row-review.jpg": "4eab81e5004ffcae001e34e8fcc53423f96091457e9407830d5a109230a7b087"
+  }
+}

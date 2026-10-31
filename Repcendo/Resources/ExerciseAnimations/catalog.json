@@ -4,15 +4,15 @@
     "variants": {
       "male": {
         "video": "0313-male.mp4",
-        "videoSHA256": "5ad7a613f05ccb5d3a4ebeb49b2e2f41f6baa7b69ce265a70d781cbb2e90513f",
+        "videoSHA256": "c44d810fe7d388e2b26039d254f5c33c0af5228be1fcd329a8a461163b370457",
         "poster": "0313-male-poster.png",
-        "posterSHA256": "352247d99f2649119cb3e7d1ecce1513f9b109b4cd4a20363abe3eff2e9ca899"
+        "posterSHA256": "22590bd3c8931a0895489ca787121134fc4c5500c5a9a57e8002bc36b0f7c887"
       },
       "female": {
         "video": "0313-female.mp4",
-        "videoSHA256": "45f8a51ee7e260ce166cad0f345c6c97251bc72192cfde1f2c32a029e2a84d68",
+        "videoSHA256": "017b661bf0c827cef79a89a6688ee36c4a43b7049d99188f14bbcbea409917f7",
         "poster": "0313-female-poster.png",
-        "posterSHA256": "fd2c6fc7a27baa845299ab5350643bfef0dfffe1fa70f5a20563793f644f3645"
+        "posterSHA256": "1ff5f260a873deb53440b90b7f0246fda87385c0ca9a9d40aa90d4818a758e0a"
       }
     }
   },
@@ -21,15 +21,15 @@
     "variants": {
       "male": {
         "video": "0285-male.mp4",
-        "videoSHA256": "4a37c4a8d81b98ee359b6c456125ccd12ef50ab908b9fad2b7fa2102739f13f0",
+        "videoSHA256": "32f977e1bcb40247f16213ac9bca3a0b2fe2db1c7dbfbdaadce45e45ee069c0d",
         "poster": "0285-male-poster.png",
-        "posterSHA256": "b09186a354b02afda1a8f45d3550707e8fbd001f14447c9107f5ec3e1cb2dd5e"
+        "posterSHA256": "c3d13391ea8585fc89aba96ff35f70c91658324a8ce6a190e7b9dc768d0fc990"
       },
       "female": {
         "video": "0285-female.mp4",
-        "videoSHA256": "dbdfa0b07e7b7600114e64f77cabbb4d3c15fa4807648f2ed43081894405d041",
+        "videoSHA256": "2dd0d12aa19d9f355ddf328f07c26c281e6a0eb141253097644af16be21ac96e",
         "poster": "0285-female-poster.png",
-        "posterSHA256": "a55e7a225baa3baed5b69ebf785e99b67fa369b3c7758b28e8bc86a33c9fa50f"
+        "posterSHA256": "bfdc4d0ad34e7899ead6e1c99074521499a542206931ffa051bcedcea7087bbd"
       }
     }
   },
@@ -38,15 +38,15 @@
     "variants": {
       "male": {
         "video": "0310-male.mp4",
-        "videoSHA256": "4469437f81aabb90fd57d8adedf68479f202d2624ee489074ff715eb44f50d0b",
+        "videoSHA256": "a794a3f9dfba08e90c998780b8eda0edbe56f1e2d17835925effff755cdd35d9",
         "poster": "0310-male-poster.png",
-        "posterSHA256": "70e2b47f1b79ac6551c40398d665efb5ea42e5e54bacfe0356c57c07cabef67a"
+        "posterSHA256": "02228d84921f809b3ebda1ed47a0bf13a04d308c83fe77f4cc7bed61eeea41e9"
       },
       "female": {
         "video": "0310-female.mp4",
-        "videoSHA256": "e1ef17d7ef41dcd8eeed31e8ac64592966bb411e3fab6d3ff950521df25430e6",
+        "videoSHA256": "fa5d6cadd2a64bcaf3201b6577f873ca192c0cffc8ca5e7195033dfce49c3f4a",
         "poster": "0310-female-poster.png",
-        "posterSHA256": "70b790487bd7c09d9c1acc3e2bf7f6b44b2badf718b4c75cfbc284259879bc70"
+        "posterSHA256": "e610906cf0db8d40b8e78bb3b36e29d945d45d852bb3f37314110b43c5d99fbd"
       }
     }
   },
@@ -55,15 +55,15 @@
     "variants": {
       "male": {
         "video": "1678-male.mp4",
-        "videoSHA256": "a56faf7a455dd739f5bd1c2d1509f96a06f2859202a2b64fa2e92e7950ef25b3",
+        "videoSHA256": "c16890c4ba9dc3616fe51b5042eddbef9f3425f326906c0a2e85b23e0cceb81f",
         "poster": "1678-male-poster.png",
-        "posterSHA256": "b54d7df40d6d7ddc3919c57f4ab0357442f42d656802c752643ba25b1c5b6dd8"
+        "posterSHA256": "038825d608900ab25b2f70f3a69ae474f8050bd5e56a590af9439db94cbfac85"
       },
       "female": {
         "video": "1678-female.mp4",
-        "videoSHA256": "66c9c860864b58eac95f0a028309a79d9bbaf59cf8821a7ae551d49d3643f159",
+        "videoSHA256": "5f10440e4bab69b68d6153119627cc66d5d840bbb39a75e6ce8ad589093f7724",
         "poster": "1678-female-poster.png",
-        "posterSHA256": "3905bea720f52c715f976638f7e7fadbd23754406a5c0966ec047872bd87cddc"
+        "posterSHA256": "66e6378f6a01508f288f5d1bdc822d072e6b0d38d917b953d3bf30fd120f1a21"
       }
     }
   },
@@ -72,15 +72,15 @@
     "variants": {
       "male": {
         "video": "1648-male.mp4",
-        "videoSHA256": "3331a22cced8af481ca12c71c7650188b88321fc9ebb6a1872b4904a13d38b80",
+        "videoSHA256": "5d5ef55f86194f40df4951c82f26e3ae5e2be5190bdba0e3bb3cdc60e4f34a39",
         "poster": "1648-male-poster.png",
-        "posterSHA256": "d162a7e587b870acb73cfea5b4ac05a906e38ea44695f4dfca1474e5d6f0d45f"
+        "posterSHA256": "0e91d77ec037bc1de59620fb5a6f680be2bb180848bc0be0e99caf0e69ec875f"
       },
       "female": {
         "video": "1648-female.mp4",
-        "videoSHA256": "0614d8c825a8bba21813bd4025b701f5aeecc2c62856dbab979e143cb9980329",
+        "videoSHA256": "cafbbe2d0620073995aa274d7fa6cfed2d7e7ea296f29ba4effd92193a5e7e6f",
         "poster": "1648-female-poster.png",
-        "posterSHA256": "2de9a0602cca4aa683076d7a042d45a59eb87579e19c87cc2ff5472894f936fb"
+        "posterSHA256": "076de2982aa0fe86f6e27ce0ba26b9fba7005874b49e61bb9c021b854e0784c4"
       }
     }
   },
@@ -89,15 +89,15 @@
     "variants": {
       "male": {
         "video": "1677-male.mp4",
-        "videoSHA256": "a92cd4042c0e4e760c69611bc2d043f537479ef23fadb52adc2d495631daffc3",
+        "videoSHA256": "c3ca99c2a926eabfaaf70b585afc6ed9e033ec992aea3636770cb38c64dea271",
         "poster": "1677-male-poster.png",
-        "posterSHA256": "d94ab148d4f3fc4a699db00a0824b534bc358425fad871910efd06e4b4e6160a"
+        "posterSHA256": "3d6f0800ee67e2002a8e93b10b44816b6adfe5d996091500a9bc3ceab7742ffe"
       },
       "female": {
         "video": "1677-female.mp4",
-        "videoSHA256": "00f26de3e9a3457527af49c0957f35bea4d8aa31201dd5104517c370ea255022",
+        "videoSHA256": "189b9c32bf0545d82965927ae57827fce34059bf7e51fb9727c8b497ec737d87",
         "poster": "1677-female-poster.png",
-        "posterSHA256": "3306478d19e0fa414b5a0bf4d3e4779d3de1d1f36c36ac92951b7892adeb0410"
+        "posterSHA256": "40fd498023650c1e996d393eb997ab1cc847882fe64bdc679d83f5f93ce56db5"
       }
     }
   },
@@ -106,15 +106,15 @@
     "variants": {
       "male": {
         "video": "0392-male.mp4",
-        "videoSHA256": "7b615583fb38ba163a917f733f461f03bfdb0e31875948ba827a88caf545e981",
+        "videoSHA256": "64a211a039a0b437d842a09c5f7de5028c6f0d3235b0418ed19be71a51244704",
         "poster": "0392-male-poster.png",
-        "posterSHA256": "0636a213b7992e3c187047627710bbd1116f899890d72e6f674a8d5af28c74f8"
+        "posterSHA256": "43121771f792ed29f1a92c725aec92b25ac7c224b40dee55ea02a470b6f4d6ec"
       },
       "female": {
         "video": "0392-female.mp4",
-        "videoSHA256": "928632b287e07884f54e69fb8792ca1db1bab74ea4bf7532675f571abcdfa219",
+        "videoSHA256": "f27df7be1e263a08fdcb74d910c4ac6f5f403c2f17f6b4a46b7066654e979319",
         "poster": "0392-female-poster.png",
-        "posterSHA256": "c291a122b42db1df750e66da2f5c61171eaa841af7d2fa29a4791fa3ecd5786c"
+        "posterSHA256": "3dca5a02c5cf70433b757d04aa6c64e7a789ed33d02689c72db82d638592d844"
       }
     }
   },
@@ -123,15 +123,15 @@
     "variants": {
       "male": {
         "video": "0387-male.mp4",
-        "videoSHA256": "fc01bbb75cde927e8b4a8652d5033a2c3ffb71375622a493161c004335bd36a1",
+        "videoSHA256": "00bf7129212c2021ede48d0080be03908265ee0bb605cf707b93fd2aed21270d",
         "poster": "0387-male-poster.png",
-        "posterSHA256": "b700093fe519085ed4d19bd147eba8da1fe898b4c2bbd22ab0553a73b3b1088c"
+        "posterSHA256": "c1606506a4177f822e6aebdaea5b17a07781be5cb0a4e0381ccb739b60a19e9f"
       },
       "female": {
         "video": "0387-female.mp4",
-        "videoSHA256": "0875a592779824057264a9d61e40c17a74ff780c4bc82806e977dca61d446211",
+        "videoSHA256": "22b46974d5e8dca2a59af8e129920cf9c8cb11e7ecf389a7852566ad2af6042d",
         "poster": "0387-female-poster.png",
-        "posterSHA256": "be1cf3124532ae6f567b5fdba9376674855918a71dd5f0ba590ba173196508b0"
+        "posterSHA256": "550aaca7ac9531459de84426129b4e096b1aead9cced8fabe413065e00af215e"
       }
     }
   },
@@ -140,15 +140,15 @@
     "variants": {
       "male": {
         "video": "0396-male.mp4",
-        "videoSHA256": "492310df41d34a9baa6897054cbc7cc9139269440bdaa54341e1f6638ef86f4a",
+        "videoSHA256": "2ce235ef53af8253df6be1aa7308a500a2d8f716e472a983b978a9866f941f26",
         "poster": "0396-male-poster.png",
-        "posterSHA256": "32ee47bc7fba4bf4a766e6c7882f6b98997625acd2a0b2ad435f99a188293eff"
+        "posterSHA256": "6c4d1dc620c688cf0f31ccc99e141141b3bf5faa7cf9d513235444a312817f04"
       },
       "female": {
         "video": "0396-female.mp4",
-        "videoSHA256": "c13425ad79f671270705f80b109e6deb912ae902adc4667f7376ca96250de5a9",
+        "videoSHA256": "6f958fa7ea2dfb71d66d1bd77c6db3a7f8f1c44b04840e9052af202529eacded",
         "poster": "0396-female-poster.png",
-        "posterSHA256": "f400d9c15dbe1d1aec94d7e2ae4ee82f562e1689190f4e65048547d028fa10f5"
+        "posterSHA256": "0c2b42df5d2bfdcb0da870215253e6c57ad4e0187139134d77668ed7cef5db36"
       }
     }
   },
@@ -157,15 +157,15 @@
     "variants": {
       "male": {
         "video": "0429-male.mp4",
-        "videoSHA256": "ee1f28892926ac3e42c7b583764bf9769221c18186f4be7d4956cbe2b83d4fc9",
+        "videoSHA256": "fd230dc5b06b1ab0da353c01eb59491aa8116405bcf3876d1c609e30361a3e23",
         "poster": "0429-male-poster.png",
-        "posterSHA256": "de2b44df676901df13a86440027a8d77b2dbab2588814e54a7c262cafd0e9cd9"
+        "posterSHA256": "992a0db10556d12fdc27844926b0590fd8c32077348277ffa75ba7e80990f51f"
       },
       "female": {
         "video": "0429-female.mp4",
-        "videoSHA256": "bc6e71ba34f2490f2da52e2af836de5719733e0764e9c2538464babc5c6b086d",
+        "videoSHA256": "7db98a76ff7ff9edf545090b6f24a80223851c37f2ed5142267fd2ac7ac513a7",
         "poster": "0429-female-poster.png",
-        "posterSHA256": "e8e29d9e608d69a8c71ad864a77deb8c9f2d7b6996060b05770a81f5b010b8f9"
+        "posterSHA256": "b77905d7cab823eabe7886d3f360bbcad32110306bc111da4e6855d25ffd1073"
       }
     }
   },
@@ -174,15 +174,15 @@
     "variants": {
       "male": {
         "video": "0311-male.mp4",
-        "videoSHA256": "2520bab583a97c5205582fadffb894da7db084d932b56915bc4ea7628c1471a8",
+        "videoSHA256": "a6ff25ab6f870f9c7385c99954a3c212c12a187783c663cf20556efbe4c8503a",
         "poster": "0311-male-poster.png",
-        "posterSHA256": "ba5d61d7353c64c4a4e24c2a46d1dfef9f57854131945128fa59b448a124df7c"
+        "posterSHA256": "e9b60e03050a10833906e8004d05fba86e02feca03b31aca3f6bf5615392fa37"
       },
       "female": {
         "video": "0311-female.mp4",
-        "videoSHA256": "253e61cc57ad479d9a9bb077dc97313ce8edb0e2b0a7e575ef51c1f0a0fbdb2e",
+        "videoSHA256": "02d3b9e49afdc442b6b38a339dfe203f172a10c2a7dd610e93508b51196ff034",
         "poster": "0311-female-poster.png",
-        "posterSHA256": "b29632092dd906ea2c904f8fc13c4236787912256990d0a06f4c1bb9d2049dd5"
+        "posterSHA256": "7e65ed9f1f931a0c33f397e2a5c87e720da2fb84499b42de44cf5752b43cbdf9"
       }
     }
   },
@@ -191,15 +191,15 @@
     "variants": {
       "male": {
         "video": "0335-male.mp4",
-        "videoSHA256": "a256cf5c8dabd161b8699af859e79c3ddb3914befafaac3b00b07c26b9ff304c",
+        "videoSHA256": "4fc54385ef0c8dd396e88afa5230310e62759ab6ab8bdde4945d2583673d8dc8",
         "poster": "0335-male-poster.png",
-        "posterSHA256": "6173c5fe1a1c06beaa0a412a43d8949c7fcb7a196f4dd2319e6c257cc1e2814f"
+        "posterSHA256": "ada052155db144b32b04d82a096e7e28580caf8f9aabc4f349ffad7fee48590d"
       },
       "female": {
         "video": "0335-female.mp4",
-        "videoSHA256": "467ee55fa1c0b78b4131187cf312aaa41a5ff1448f357cdd46c4c0e310cf9dd8",
+        "videoSHA256": "51b8432cfe4b9f485c339c2638c2dc18618bbd4cd7f51fe27e14d5efae85ebac",
         "poster": "0335-female-poster.png",
-        "posterSHA256": "fa662cd68508fbd08b19047dcd1dbe5ebc86e6ae44030d9c24f15ef5efda2b0b"
+        "posterSHA256": "b5cfde4baa51903004be1ff06cb1a9819905a68edffee263a08294e6c4bf2b40"
       }
     }
   },
@@ -208,15 +208,15 @@
     "variants": {
       "male": {
         "video": "0289-male.mp4",
-        "videoSHA256": "482e94d6534f877dd8bfd21816eeb60e83f00b4b8c1a2c14f3173c05bf6d0d57",
+        "videoSHA256": "351939015c38924713f2f1697eb1e57d44f284d99189b105656f461c03353ee1",
         "poster": "0289-male-poster.png",
-        "posterSHA256": "1e29c1aa92a3e495452f8352f84bcb807cd860c6f30dbb770479a69160ad5d93"
+        "posterSHA256": "a6f9b400d9baba41cee68e32c316dffde59647f2de59af767c6c0769fd4c6bdd"
       },
       "female": {
         "video": "0289-female.mp4",
-        "videoSHA256": "68031592711ff5bbe87f2f72df1b4667d0de539b41767d8caaed6f53435d70ea",
+        "videoSHA256": "8aa0be3cb37d35a03d72ad0e96b5f1d219869c95e2a5fab59cdcf143d4720deb",
         "poster": "0289-female-poster.png",
-        "posterSHA256": "efc6e15e56e32a7e33a81be742cde4c11b75a303deb73dff48785984be5e6b0f"
+        "posterSHA256": "41e556f4bd5f0ca138610ae325628f39f41cde742616f3472d8e58bad3a1c772"
       }
     }
   },
@@ -225,15 +225,15 @@
     "variants": {
       "male": {
         "video": "0352-male.mp4",
-        "videoSHA256": "e0b6bdb6d366ba729d5437ee96d5231b51a90f0efa0e5f3575b91e73a9db3604",
+        "videoSHA256": "f513aa7d310b13c77c8085675f6dd4888ed2333f6ce0df1a2cc1c1796323382b",
         "poster": "0352-male-poster.png",
-        "posterSHA256": "84145d1638edad951020d2d81ba646ac74158753b76d9404fe18ca7040a9d6b7"
+        "posterSHA256": "d3981ce5b924c64d4dc42626dec190bb8aca4333365fc819d658d0905ffc2c5e"
       },
       "female": {
         "video": "0352-female.mp4",
-        "videoSHA256": "ae7cfa623c608ef45273468050cddb9bb9999ea8c882bb99716788de2d564980",
+        "videoSHA256": "ef4ea5a5aa93ba28ec47834a175c65fad452794668e3db9dca0d78dc86cfe422",
         "poster": "0352-female-poster.png",
-        "posterSHA256": "18742b1740d64e800d41893043a31a42236ebdf77c18d973eff263eb2dbff692"
+        "posterSHA256": "db38561fea7fd39641a06da00761b8d816be65271d918b3c5a11cc6b0280ba10"
       }
     }
   },
@@ -242,15 +242,15 @@
     "variants": {
       "male": {
         "video": "0321-male.mp4",
-        "videoSHA256": "535e5e34dd6beae4ce808ff099937016fd65fde1b7c7b16f80db09282217b0b5",
+        "videoSHA256": "8a78e621adc77aeefcaa0475c1d64881d6de0a086ab7d3ed399be478ba0c8846",
         "poster": "0321-male-poster.png",
-        "posterSHA256": "0bdf64cd35e6a8ba06538baa4337cc139017c6c0633692d858f3bcd28a74e6d1"
+        "posterSHA256": "31fa6b04a2931a7fcf8f17503492b77b6274fcec95a3e0310214066156269d25"
       },
       "female": {
         "video": "0321-female.mp4",
-        "videoSHA256": "7d6ad9dda56cf5d3f0d98b534f13e697355d63a0c2e32c94451351b27df38681",
+        "videoSHA256": "912629310bbbf463233ec8c4b419ee143f3e38f3c1dfc133d3e236e2756862e1",
         "poster": "0321-female-poster.png",
-        "posterSHA256": "d271ee82a571b36876e4d0f9152befb4867694c935d9dd4b62a3b790141a236b"
+        "posterSHA256": "7ee224109405a0edf3e3725985b61d8fa6a1186aa37cb3e809eab87cbbcbdb36"
       }
     }
   },
@@ -259,15 +259,15 @@
     "variants": {
       "male": {
         "video": "3545-male.mp4",
-        "videoSHA256": "24dfc36dc753ad182dc225d52e8f61d7351a6b97e2228a4eaf732b5591740fb4",
+        "videoSHA256": "ee7cbdd6e1723401b602b509a6d77c5e44fc746c90b46605aac0e849d3a56840",
         "poster": "3545-male-poster.png",
-        "posterSHA256": "ddc3a0de44296ec4b183dd2b4f694f534aba767adb8b598b1dd7afffc25925c9"
+        "posterSHA256": "cb6caef2684d436763bcb4c412f2ac4689b7bae7f6ee2501ecac4063c07cb75e"
       },
       "female": {
         "video": "3545-female.mp4",
-        "videoSHA256": "f6a9b7a3eff42f91671e04e36a76563152e98e4d97e576dad73513de11b528ba",
+        "videoSHA256": "b2574acf50eabf41fad31821c994054bcabbedfdbf2ae34b426d8e13c05de37f",
         "poster": "3545-female-poster.png",
-        "posterSHA256": "9d2b773865308a4cac1b432ef6f4e138efc4d154b0851615a41c1e3efcc1e7d8"
+        "posterSHA256": "b2295214b3c2c8c69a344467de4efbae8231059fe7dc9a13671150d01e2a349f"
       }
     }
   },
@@ -276,15 +276,15 @@
     "variants": {
       "male": {
         "video": "0388-male.mp4",
-        "videoSHA256": "8fb7de493f35afb24ad300b48254bad1dd0c1eb4661587e9466f4dbfe3641aca",
+        "videoSHA256": "d93d47f87ae1e285144e78e9788713f1ff1f086b00aee93fc092424ccb33d442",
         "poster": "0388-male-poster.png",
-        "posterSHA256": "ca0804c8a8759453c93fb60d6a65b9cae81a2ecc09c2079a8335fb2809af788e"
+        "posterSHA256": "f1a340f49dd8e57c6468d787a35942be4ae66db45008b699431d5e1eef3d6829"
       },
       "female": {
         "video": "0388-female.mp4",
-        "videoSHA256": "4d88fb51de1eedc8708476f53023fe8813401ce71d61d314dcdea811490400c8",
+        "videoSHA256": "2ac95ae56dbe2ee3b10429ae7bd0a38bf02383d5c30b6463e96691764fea3a95",
         "poster": "0388-female-poster.png",
-        "posterSHA256": "fc419599b01e36a995a96193bf55844ef7472d4212886a8357280a668c077150"
+        "posterSHA256": "1cf9d0d39be6cd55c6d0d228a94ac95ff64eedfb5b6f31760849baf126ebcb23"
       }
     }
   },
@@ -293,15 +293,15 @@
     "variants": {
       "male": {
         "video": "0404-male.mp4",
-        "videoSHA256": "7645862dd6150a6d90c7d784cb7403931cc65083252864e34e25fe55989b0814",
+        "videoSHA256": "be1e78aa4d64de0d1ad2dd34c806e21c764f22e7c22b7adfb95304f1f106a7cc",
         "poster": "0404-male-poster.png",
-        "posterSHA256": "0efabf5292f12c142790269c173550cdc5e63da741f034a01141637df43c5cae"
+        "posterSHA256": "e6092b4e4c8a04924aaf370c92127ce571f4e25e7300873e8c1a9ee9c14fa95a"
       },
       "female": {
         "video": "0404-female.mp4",
-        "videoSHA256": "55dfb23e16f90c17da93057645df0b99db880d6986cfe8f125f64cd565f28766",
+        "videoSHA256": "3117f27bde2ddff3f56bdf323b1c76aff241255e122d93ae05440528b4c8e7fe",
         "poster": "0404-female-poster.png",
-        "posterSHA256": "0666a71e943c3da76d5239520e71923bbf67cc50daf98c674a65bfe6ba1585c6"
+        "posterSHA256": "5672e2754afcf1de65743941c1a184e92713be1500bcf434419b2188a08e98b1"
       }
     }
   },
@@ -310,15 +310,15 @@
     "variants": {
       "male": {
         "video": "0426-male.mp4",
-        "videoSHA256": "95e6cf25d5a2a9c79041a3beeb8dc20f47979f95273ff16422ed78ed4cbc07b2",
+        "videoSHA256": "8fda99cb458156af4cfc01c088b7416954343e58312c19342a6a61f9e0cf6da1",
         "poster": "0426-male-poster.png",
-        "posterSHA256": "12063f195aeb893979043f2f8af8b110021b4cbe791fea6cf4d7c1d45b3a0748"
+        "posterSHA256": "540680e00e7e018eb5f39d3ddf3d36497d851ad4d0c3f44b5c8547bd430fca78"
       },
       "female": {
         "video": "0426-female.mp4",
-        "videoSHA256": "2a798f37b424da50d2c81caa0cba491b9c3c85c40ce92b3519f247299370db8b",
+        "videoSHA256": "317ffe15054f0d2bcbbe7f5c0a45c9b106dee2b3c11273aae768048ca7bd9588",
         "poster": "0426-female-poster.png",
-        "posterSHA256": "b1f4602dacb9062e4ed267ccde0450eb5919bf8799178cebb3abbf4ef9e87cb9"
+        "posterSHA256": "0d1ea7a781c5767d55d1694fa8a69a54d96179671474bc0807867906003b3878"
       }
     }
   },
@@ -327,15 +327,15 @@
     "variants": {
       "male": {
         "video": "0427-male.mp4",
-        "videoSHA256": "44486cfaa26c19b66e2899b55204fe4cfbc25b3394f93da94e855610756f61dd",
+        "videoSHA256": "ef8c85643c6fbeba5068d6a6b5ad923c0cd491fda9672a4df5852acade1af63e",
         "poster": "0427-male-poster.png",
-        "posterSHA256": "1f3411bb127c377020eb5913064770203a244dabc360152272ed9adc3db53b28"
+        "posterSHA256": "189e83237ee5d09effe7e7e175e91f61401320e3895c3de43b82ceb27479019e"
       },
       "female": {
         "video": "0427-female.mp4",
-        "videoSHA256": "f4669c09306cd2ad45d2d48abfeb2ea2611c39aaaed99326a5c42b65ab3dcd96",
+        "videoSHA256": "814b7e18b4cdd7eaa8e443479b85c3ea365fbd665dca3def42c8c1eb32521afe",
         "poster": "0427-female-poster.png",
-        "posterSHA256": "9a8d8190be8287a447b7c9aad06b3c985b2caf2971f7668f3c96db5329a495a4"
+        "posterSHA256": "755a73d0db82af001daa5e77bd887c0b95204afcdfdb4c373ade5d8681afa999"
       }
     }
   },
@@ -344,15 +344,15 @@
     "variants": {
       "male": {
         "video": "0315-male.mp4",
-        "videoSHA256": "2b42b9e4875927066034e90609bfa705d2d9ddea96bdbcc747074d4e991ca466",
+        "videoSHA256": "327da20b9b7e2f20616a12b94aabc5924cc18e17d4b90031b09457f18dcb0fe2",
         "poster": "0315-male-poster.png",
-        "posterSHA256": "ec03197e742f4ec1cd83f9b561cdc9ff6013f215dd9c12f568fa1e28179a25f1"
+        "posterSHA256": "16b506f7036a300c67fbbf9ed6923ec96b885920cdddd87a511a83630f1ba9f0"
       },
       "female": {
         "video": "0315-female.mp4",
-        "videoSHA256": "7cf0b9d7df76a841ef67ed8495fffe2bbe0c8c64a18f75068eb94bc29ba77386",
+        "videoSHA256": "ce283929376d122320fd1462bba728ea2c02ac94300de8ab03f9901e64f74620",
         "poster": "0315-female-poster.png",
-        "posterSHA256": "c8d0acb2f7f359c8cd5f0e9e47c7d5a3257530344b0fc7d7eff6473d566b648e"
+        "posterSHA256": "18a5ddd2d9eeeb13afc87fa867742cde87dc3823e791a4eb17b1d53f1b75b9c7"
       }
     }
   },
@@ -361,15 +361,15 @@
     "variants": {
       "male": {
         "video": "0320-male.mp4",
-        "videoSHA256": "ea90cce9243ecdb52dba65a081dc1c6300fe8067acdc6eda1d769e739f8ae779",
+        "videoSHA256": "6179f11b09492f9e6778d82139ce2e73136f29347bb3e576c85a39bc4aa75558",
         "poster": "0320-male-poster.png",
-        "posterSHA256": "a739d1e62cbb23254f390eff5ff86440301e49f726bb7e1fb5979bfaaed316a1"
+        "posterSHA256": "d2bd322294a35dfed5820196f518c248041253ed78a03ab11f54c7f1c2f48754"
       },
       "female": {
         "video": "0320-female.mp4",
-        "videoSHA256": "8f4200477f87db90970e8c1baf75ba658dd566761571a94a84e4833d4a129357",
+        "videoSHA256": "d7f4d672710925b5328b30d702425b178f492fb3cb6e080a3c93d8cc752a0bf0",
         "poster": "0320-female-poster.png",
-        "posterSHA256": "4398bc0c29be78dc5f2b50b41ad67b6521106c89fde91d0fed5915b09d967b1b"
+        "posterSHA256": "967d46754e5736b4f698012974e86685ff3348aa43a03b5f96d5f78dcbeda6e1"
       }
     }
   },
@@ -378,15 +378,15 @@
     "variants": {
       "male": {
         "video": "0298-male.mp4",
-        "videoSHA256": "165c79ddc04a996cbb57c771db41914734d262d52a7f48885a5105cb5b4e7c52",
+        "videoSHA256": "0060cd8325068f180cda508c7f01a9ff62e06bf9efac8b8992debdcc4bf2ec92",
         "poster": "0298-male-poster.png",
-        "posterSHA256": "2cbfe4c69d923d223d3a6618c7dfc64299029540e267666fac076ec73d3a5e3c"
+        "posterSHA256": "bc7eeba52a2252e70cca1572c1471125a71e26ef3278779a0ca4677876aa6bea"
       },
       "female": {
         "video": "0298-female.mp4",
-        "videoSHA256": "ecc14f409f73a9ec8360d7b69efd500833270f6868694669be7a14ad01b67e81",
+        "videoSHA256": "c7c35a7a85270af553ce06e5b8aea0e2570872627d195c52340b1ec8015f35bc",
         "poster": "0298-female-poster.png",
-        "posterSHA256": "d09f630ee4edf6c6b3424732d5aa174540a2e23c440976311ebda87c9f7cf8ea"
+        "posterSHA256": "dd5cd77ddc6151c115d70dc1555880b41f10b81a431ea2bacb2258fd9d854620"
       }
     }
   },
@@ -395,15 +395,15 @@
     "variants": {
       "male": {
         "video": "0439-male.mp4",
-        "videoSHA256": "0ffeae315e4c3a102a24a0e49f7279426d12f60053549efdc8ec8d2fc03871f0",
+        "videoSHA256": "fc4d98ddedb54bee405e0cb9e69a4176bfcf6460af7bf111371c3a8d55ee5b4f",
         "poster": "0439-male-poster.png",
-        "posterSHA256": "51203a1c02bb40bface9804d28c2ce3da1c4e782bfb00f91c977e53743b66b21"
+        "posterSHA256": "d2ddf6f417050f07f7c2bc51bc14c67c1b0a8bc6239dbfad8a7f0ef25ca30461"
       },
       "female": {
         "video": "0439-female.mp4",
-        "videoSHA256": "43bd01fc17544f7d2bef44f39589b63f6a0c188a30d3f6f41cd5aaa504a0707d",
+        "videoSHA256": "f0549d44d2e87897378a6a0f40bc925f762dba5ef325f9c7cae7004b912df1db",
         "poster": "0439-female-poster.png",
-        "posterSHA256": "aff5990f21a8a2195d902f22bcdc4868268cb5ba0d420d438a5ca4567cc98a07"
+        "posterSHA256": "7f2381386fedcc82c5e17bcf8dbf2864f058f3e892e0c2f34e68e9260c7f5cbc"
       }
     }
   },
@@ -412,15 +412,15 @@
     "variants": {
       "male": {
         "video": "0414-male.mp4",
-        "videoSHA256": "4f1e48b52e75962ac7608868187902213d1259a208a114bc99126bc9252cd21b",
+        "videoSHA256": "f645aaa7be3475be9a7d9ff70dc713dd79750f066a2ae52b772bec2360628b3e",
         "poster": "0414-male-poster.png",
-        "posterSHA256": "3f5a48ad2c00e412e98b2b35ede4d0d78083cfb47d081ba30d3f02d76891f4a9"
+        "posterSHA256": "8bfb013d5660f5eee913b28388aa2ec0e5f81c701e164241008e9dd71481614b"
       },
       "female": {
         "video": "0414-female.mp4",
-        "videoSHA256": "c0283410aea3280f387a339bc693a7539899f971853500e937fd42b2e7e10f54",
+        "videoSHA256": "86b7d485ef024f0124b3a5bd4cc5fcc6983e55b689ae47bef069786ef43ce248",
         "poster": "0414-female-poster.png",
-        "posterSHA256": "21133f12cbaab59f90673c30b7e930abcb24ff424dc5d5321a340463a6c0ea72"
+        "posterSHA256": "ae39b3a52319dd955957ac95e9c6bfaf43b03642a9334cd7be057604f2aeb288"
       }
     }
   },
@@ -429,15 +429,15 @@
     "variants": {
       "male": {
         "video": "0415-male.mp4",
-        "videoSHA256": "5d0f20f7672310b6e8da7e331b5848e6a2c5d84287bae1a666329b1a5b79029d",
+        "videoSHA256": "3df07d7319a2dfa333934bf61b759ffa1d19cbdf225818a2f7879e7273353569",
         "poster": "0415-male-poster.png",
-        "posterSHA256": "f012ab775264333a9393477181547b9a33a0d359d6eb7b8e7680baee9219d028"
+        "posterSHA256": "18ed7ddf701a6038ecb57ef5d69d0a49f9e381e882c67752354bc2e557375d48"
       },
       "female": {
         "video": "0415-female.mp4",
-        "videoSHA256": "29d65c1e14b381ff1a52474c3bdf3f558f2ae45b905961ac2a28eee174e193db",
+        "videoSHA256": "ab418a15a5c86d2530f3bf54456386fbc7f6d024cfa0a75da5216fc7af6fb7a9",
         "poster": "0415-female-poster.png",
-        "posterSHA256": "7d6f0d348ffc9254ff2ee0145ecf450aac6decc721596e6cb05ae9dc4bad0ecc"
+        "posterSHA256": "870d717eb1f130ae781b17c6e2f901fe220851717f64f2d72345866b0ffea751"
       }
     }
   },
@@ -446,15 +446,15 @@
     "variants": {
       "male": {
         "video": "0406-male.mp4",
-        "videoSHA256": "68b1fc5019ed1605678c29cf8420ca4381d5f890d5b6b7fe5a6aef71872ead02",
+        "videoSHA256": "5801ed1f8c953535f714c35aa78bbf0de2cf0b3476f001c3bb4489b6787783da",
         "poster": "0406-male-poster.png",
-        "posterSHA256": "747f5a51caf90dd63f07429bc1d82d0cdcea62dc097229a1e0db8f0ea74c9cc1"
+        "posterSHA256": "1c271a055b22e47de242bf2ff494b07c3b1727df1715206e5399cd853c7dfe9a"
       },
       "female": {
         "video": "0406-female.mp4",
-        "videoSHA256": "406f5f8205ada1a553267e589a3baa822b4a16bc2caa5c0e35e7d58cc4f36964",
+        "videoSHA256": "99676f1b8a3f004f1378602c0010e14a03ae2dcf4456d92bb2dc08717e276aa6",
         "poster": "0406-female-poster.png",
-        "posterSHA256": "3f27b9c5f70bd235ee281fc802ebc2dc244506dd68904b25f2c018c57c849a76"
+        "posterSHA256": "3077ff1a99e218b23197093e5f7f03e9c356a09acf3ad9787261741b0ac6ad0d"
       }
     }
   },
@@ -463,15 +463,151 @@
     "variants": {
       "male": {
         "video": "0293-male.mp4",
-        "videoSHA256": "95fa5f1f4bff9b56d9612e6c973a33cfb7cbe209f286d4c5dafe83400c12c776",
+        "videoSHA256": "99ad525c1447cd18c6fde8ae3e485bd0f7b41746aeba4c51b651e24e68ce3bc7",
         "poster": "0293-male-poster.png",
-        "posterSHA256": "d08c7935e3b7090d4f53aad75d8408d253d2e10a7f3d93c4e07907e9589a3936"
+        "posterSHA256": "286cdb97c80f15587764e75ba6df935797d733869833c5a51574a96179b0af31"
       },
       "female": {
         "video": "0293-female.mp4",
-        "videoSHA256": "6ac1212a822d980f1d185b6aa76580ab6e9ab2b861761e974b7588ca872a2866",
+        "videoSHA256": "ccdcdd6c37252800f20fe9c2c907e08dd6af2bbe5095885f1ee1ba652a3956e1",
         "poster": "0293-female-poster.png",
-        "posterSHA256": "a61c325b46cdbcda7acf84af1a6ed30453e29806a65d3f83d8d7bb9d0f8ea680"
+        "posterSHA256": "ae558d342addd7126bfff2e58fc06e35b72aa0edcc9967b7d619e260d2fcc49a"
+      }
+    }
+  },
+  "1670": {
+    "title": "单臂站姿哑铃弯举",
+    "variants": {
+      "male": {
+        "video": "1670-male.mp4",
+        "videoSHA256": "3136f794133ae84318e1cb30d91398faded421770546121c78e52c00830fdf97",
+        "poster": "1670-male-poster.png",
+        "posterSHA256": "f65ca768e467399773828f1e4c1790408ab25dfce71f8195a79d31c00cd6f001"
+      },
+      "female": {
+        "video": "1670-female.mp4",
+        "videoSHA256": "e1c8ed4cd8e6843d951b592ab530cdfbe8ece4461c32e83c67385b018da4fc73",
+        "poster": "1670-female-poster.png",
+        "posterSHA256": "7f7129d8f9a499f80c248d8bd65ca0a088f291a943bf283d22250d372832805d"
+      }
+    }
+  },
+  "1671": {
+    "title": "单臂站姿锤式弯举",
+    "variants": {
+      "male": {
+        "video": "1671-male.mp4",
+        "videoSHA256": "26a819d0a5f6e19baeabec493ab98b776cbe6cf3329ec685089302293499e10f",
+        "poster": "1671-male-poster.png",
+        "posterSHA256": "08b537fb66018504744d187d1cd3d35130f5c041d49c973c9472f133a2682add"
+      },
+      "female": {
+        "video": "1671-female.mp4",
+        "videoSHA256": "591a67e7c2ce5d54279c034dee917dba73fffa6a5aa9a910bea57b4ede9ebfc8",
+        "poster": "1671-female-poster.png",
+        "posterSHA256": "28c9ddeb03c7f8df8c2d7487ffc23df5f14eca1345005f65667bdcc51c779310"
+      }
+    }
+  },
+  "0425": {
+    "title": "单臂反握哑铃弯举",
+    "variants": {
+      "male": {
+        "video": "0425-male.mp4",
+        "videoSHA256": "5921b37b4d7c7a17deda43b518f49e8dffa2adfe5b38593a026dba380a4f1c53",
+        "poster": "0425-male-poster.png",
+        "posterSHA256": "21d48ce29bd6177582b87bc66830af604f2b90d69abb27fb7d673a190d6d0e1d"
+      },
+      "female": {
+        "video": "0425-female.mp4",
+        "videoSHA256": "cbbcc856790025675325182623d3d8f01b11b0c720f5fd8beab99b9a228552c4",
+        "poster": "0425-female-poster.png",
+        "posterSHA256": "e833baa455752800191d1a05ad258a4b2f09d8d944cca7cf260a3b96f93cb0bb"
+      }
+    }
+  },
+  "0355": {
+    "title": "单臂哑铃侧平举",
+    "variants": {
+      "male": {
+        "video": "0355-male.mp4",
+        "videoSHA256": "a20da6d32d0a35853d1b9c39e1f68e7f062c226029071276aef6f8796d88469b",
+        "poster": "0355-male-poster.png",
+        "posterSHA256": "fd97ad22bf3c8933b2f0ba5f51054112772a680d2d7905e19304eb1b8191ab36"
+      },
+      "female": {
+        "video": "0355-female.mp4",
+        "videoSHA256": "cb5708038976604be3c09ed241033d4bb60edbc232cf3b1e98c4685ea04254f9",
+        "poster": "0355-female-poster.png",
+        "posterSHA256": "b6037630e7863a2d6beca7205547c55f287845d7a19f51d499d350f8696eff37"
+      }
+    }
+  },
+  "0361": {
+    "title": "单臂站姿哑铃推举",
+    "variants": {
+      "male": {
+        "video": "0361-male.mp4",
+        "videoSHA256": "31b1e73f39db4a37cbc8b8582ee0dce80940da21264b81e959994ec6e231790d",
+        "poster": "0361-male-poster.png",
+        "posterSHA256": "c32da83a0403887252b66c7ba7319a3930b44bfba812b5e1e00b7a675b785570"
+      },
+      "female": {
+        "video": "0361-female.mp4",
+        "videoSHA256": "816d7f368189a3a0b660f7ce3e1a8df970330ef18ff8b089b395d30afae315cd",
+        "poster": "0361-female-poster.png",
+        "posterSHA256": "c23520efc9d9449bdff8e816ab216142979ff8d2e53d3865639effaa2d3717f1"
+      }
+    }
+  },
+  "0424": {
+    "title": "单臂站姿中立握推举",
+    "variants": {
+      "male": {
+        "video": "0424-male.mp4",
+        "videoSHA256": "383d412bc8d641f26e6bcbd5b7d6e1b9fd9f3dd58f11a45afd4ffb9ea622af4c",
+        "poster": "0424-male-poster.png",
+        "posterSHA256": "b980c0064df4a2cc5db97df0004450ca1394c090d6536728d4702c0a79344fa0"
+      },
+      "female": {
+        "video": "0424-female.mp4",
+        "videoSHA256": "9b4d326750265ef40ce6b02214ff4a224774e39b79faf215e5e4ee318a145ca0",
+        "poster": "0424-female-poster.png",
+        "posterSHA256": "25dcc69795b9e49f71e8e9472f3b9a942efaae1c4c7bb8220890c9e0c65cd79f"
+      }
+    }
+  },
+  "0343": {
+    "title": "单臂哑铃卧推",
+    "variants": {
+      "male": {
+        "video": "0343-male.mp4",
+        "videoSHA256": "b99865e6a5c37cf682862eb319278c381da183b4467da9b7a9a2d7452f267cb1",
+        "poster": "0343-male-poster.png",
+        "posterSHA256": "a5d708b6ce59c8cefc0f606b91ecc41f6859bfc9668ba3ba6026170df04797e6"
+      },
+      "female": {
+        "video": "0343-female.mp4",
+        "videoSHA256": "874550c71e251c3811271b53f568075421ad1e1fdbb0500713d298943549c0e4",
+        "poster": "0343-female-poster.png",
+        "posterSHA256": "c8e4145ff435be97799928d3db15b705b69dfb9825fbf9fac2636e9d3e2bfb1c"
+      }
+    }
+  },
+  "1281": {
+    "title": "单臂上斜哑铃推举",
+    "variants": {
+      "male": {
+        "video": "1281-male.mp4",
+        "videoSHA256": "a28f5461eb6a2a9be958a3851ec8f0eff2d52eda953087e113e5e29a10dde8e4",
+        "poster": "1281-male-poster.png",
+        "posterSHA256": "ea853d76f5c3e7e45fd477417caa3ded4631fab3ec6d66a3aaa6c90ca552a17c"
+      },
+      "female": {
+        "video": "1281-female.mp4",
+        "videoSHA256": "59507c056a6889467db65f4cc4e1b1e47a2dab8a4657c41a5d8e7cb0b8b5fb13",
+        "poster": "1281-female-poster.png",
+        "posterSHA256": "9b39668354c9039750b638dfb24fcf6d390a20191c39ba4dbc35cbf8c107c065"
       }
     }
   },
@@ -497,15 +633,15 @@
     "variants": {
       "male": {
         "video": "0025-male.mp4",
-        "videoSHA256": "3e8fd5591102354c07808e1da0ac1c9168e6a957afa3d7b8731bfe173a9366c9",
+        "videoSHA256": "4a82453d05fec004263f1f3713abb5c7e005c5c45f38f0fb36eeb9438955de96",
         "poster": "0025-male-poster.png",
-        "posterSHA256": "69754abf9e8f17187eaa4ffd44ae1dc02d170354c64766fcf252bb91a94cba82"
+        "posterSHA256": "f960015ba4486bf0f22e339be5a238806f96806c4b16f914abe32ec791a18a17"
       },
       "female": {
         "video": "0025-female.mp4",
-        "videoSHA256": "6e089a2daa8b7dee85cd234b80421f99ae646fb1b9e789282832b68ba9e91f25",
+        "videoSHA256": "9f73531cccc3a0e09378a879b549d9636baa595e465739f0781f54002e188d70",
         "poster": "0025-female-poster.png",
-        "posterSHA256": "1dca4eae2f332f0930714d736dc3b1ffa7033daf408a57d8310b2b5aa733e78e"
+        "posterSHA256": "4cc16be394362066f9803c37042c5cb68e87f93b2146f2bc54bd39c382e7b615"
       }
     }
   },
@@ -514,15 +650,15 @@
     "variants": {
       "male": {
         "video": "0861-male.mp4",
-        "videoSHA256": "79c1ae73c3375828716bcdcd234be965dedb890e48ff018076d3b11ff90600ce",
+        "videoSHA256": "c00ab2f040c934bd5eacacec6d71b382fd035954076ae65eba28adfe4b775474",
         "poster": "0861-male-poster.png",
-        "posterSHA256": "2d38c57854e35c232d3258661fa6c3edf64da73b43f72269537ae05fae908ac9"
+        "posterSHA256": "7069068328bdd221036183640e50f0d2eac8961653ea1b647c599462ee523a7e"
       },
       "female": {
         "video": "0861-female.mp4",
-        "videoSHA256": "4681700374ec25558d38bdfb5f4871378493cf8192631aa84acc9d114917da85",
+        "videoSHA256": "37b184dfe25e2c16f0ddead78a1476146224cb57ea790b25ad2b528c21106cd4",
         "poster": "0861-female-poster.png",
-        "posterSHA256": "6336efff26541afd3a8df8692ec57c7c717e0ce1fb154cf01d6d5df77c203596"
+        "posterSHA256": "97668976eadeb6bc2f7a4cc8e57615574ce9c5d34744a6ed25dc0c6e66f1fc67"
       }
     }
   },
@@ -531,15 +667,15 @@
     "variants": {
       "male": {
         "video": "0314-male.mp4",
-        "videoSHA256": "bebc06f2d1a85d81c30283dfe5fc4c6cbb61652f93c34e1200c32b30c01a0735",
+        "videoSHA256": "8ad36f0a6517b82b418111f27a8a099172f22e30aec3aaed3795a2fc582e2c59",
         "poster": "0314-male-poster.png",
-        "posterSHA256": "85e986e27248d595725dab90d3cba1b694f914a07d80859177808a1f28650294"
+        "posterSHA256": "b792e6a5774e4b1b958c80395ba127f003afbaeeb431563e82c218ff6f70cbd0"
       },
       "female": {
         "video": "0314-female.mp4",
-        "videoSHA256": "90c2c802f0af0bc79a258cb05a64a4bc89f8b2a389f303bf7a5d3c87f421c3d1",
+        "videoSHA256": "a7612c9511e39cf01ce68d4a3e9c79580cebfa8c458677f7245b1d0848b455d4",
         "poster": "0314-female-poster.png",
-        "posterSHA256": "71ba4bf005c62403b484314e2d9d4f91c9ea41602c5ff74e56e5abf9c6aa86c9"
+        "posterSHA256": "2e13c580d7daf58c48b7080b90cb8c6dac1ba77cf7bf1fd96a66b0176c2f79ca"
       }
     }
   },
@@ -548,15 +684,15 @@
     "variants": {
       "male": {
         "video": "0596-male.mp4",
-        "videoSHA256": "818c91e7aceceeb5e3cb7ef0bfeaf3e96237362940a1ce93404646e85645ab6d",
+        "videoSHA256": "d7c336677f100db066b17791851ad446d1e69e265a209f9f7ed34bab8e530e19",
         "poster": "0596-male-poster.png",
-        "posterSHA256": "09b0551de381b64b7f4446309d4ee8c1a900bfbb4a93a930c0219fb40d80a50d"
+        "posterSHA256": "7ea20be935d02261f70ab74e1999d3be45617d796bbac80f1073b446c08c200e"
       },
       "female": {
         "video": "0596-female.mp4",
-        "videoSHA256": "0143706a77baae3256fa3e75bf21b12e0b2b2093fa2722a2e1b38a642fd0ec27",
+        "videoSHA256": "2a018dc418240da8ada8734138b9f126339689cce1cb0590c8ad1cff5c73ffc9",
         "poster": "0596-female-poster.png",
-        "posterSHA256": "801068493ce016bacfa1ec0c33bd61bce213cfe2dbf8373fee1637cb7e157186"
+        "posterSHA256": "57ea64a61d704b1ea6e768613b6e5ae8c3e5b318925513fc4d32fef4e3896b50"
       }
     }
   },
@@ -565,15 +701,15 @@
     "variants": {
       "male": {
         "video": "0200-male.mp4",
-        "videoSHA256": "6643df217b7622a560bb2ee6eeda34ec83e9b860d7b9049aad36193b086c7d13",
+        "videoSHA256": "eaa1bc4cb5464efe288852c0b6810dcbc147a61aade8db1c4db0f7f34efd0026",
         "poster": "0200-male-poster.png",
-        "posterSHA256": "362ef1e3fbd4027305e2c9db531e3a45b3470104738431bfe60aa2deabe6f6f5"
+        "posterSHA256": "46c1a9763e8dfa55111b4d0f4156e00495f06443d8729d7a3118aef495ea0004"
       },
       "female": {
         "video": "0200-female.mp4",
-        "videoSHA256": "296a0a56cb05cef891f95aa63dfecbb1f9a1e68a214bce9cae3e368bcd86586e",
+        "videoSHA256": "972b4f12c03f7741d7b2762a234350a40c97e8050ca11535fb8a9ab9d41f601f",
         "poster": "0200-female-poster.png",
-        "posterSHA256": "2f0e0d91e5ce9f2466ad91470186c8c1c73691b1f766bd51527dc2dd886ddf64"
+        "posterSHA256": "f29fd2287fa201967c0b3165828e6612b5aa048265fd32b92645ba828f345ff3"
       }
     }
   },
@@ -582,15 +718,15 @@
     "variants": {
       "male": {
         "video": "0175-male.mp4",
-        "videoSHA256": "0ce58e28eed569b558b0bedfb229713ec5f69c212d02924243b0e79ce98afc2a",
+        "videoSHA256": "1713127d704727ed377e3a654ed31d87e174441855429c43c87a951a69a7696e",
         "poster": "0175-male-poster.png",
-        "posterSHA256": "7f0ed61132bc7e0c0322f8b3fc8331981d8f643f4e88d3dd3663b78458357350"
+        "posterSHA256": "8ebbafffd9789f8f1ff9fa287d712911768acf5d3683d8435ebf6a1f1389f317"
       },
       "female": {
         "video": "0175-female.mp4",
-        "videoSHA256": "e35d4a768da8e734b69e4b2880f520af946a9c862bab091feeae86bf05062539",
+        "videoSHA256": "1be490fc9156ffb7dd3c4e4e1c7b2d9cbb226ad2a966d49e52e9671a72eaa4b0",
         "poster": "0175-female-poster.png",
-        "posterSHA256": "09c94b6c8d5078d63023152c5ba9dc5b9082ca126d0f1db15e40c80712dfc75e"
+        "posterSHA256": "c0e6bfe9d88e82b0fb310ddb2aa8cb60357d6650a23a1d7eb96897dd83b05baa"
       }
     }
   },
@@ -599,15 +735,15 @@
     "variants": {
       "male": {
         "video": "2330-male.mp4",
-        "videoSHA256": "3b3237b23f4bf19c755349ce1a92e4047ec59de4193b8c472b103f3a92c14359",
+        "videoSHA256": "bcbe8f397abd69a2665a673d3aff0ad563d1f76eada49191af3c21af2284229c",
         "poster": "2330-male-poster.png",
-        "posterSHA256": "9a39295ee783d53b3f02dfac5c5ecce3695f6d97c3ef117f2e63525959990d05"
+        "posterSHA256": "347c032e76e6282d49d93a19addd490e03aa4f6213ba2ff8e861c204776465c6"
       },
       "female": {
         "video": "2330-female.mp4",
-        "videoSHA256": "4b44412b1da76d1fc0513e81a128bcd7f66c3663d00f75cd9cc1a707109dd777",
+        "videoSHA256": "0779fec0439417f5fbcc0dab53a34e69c830a3be97712cfbf3fb3f4a549ea3ea",
         "poster": "2330-female-poster.png",
-        "posterSHA256": "a5c372eb4bf5b51177ebff0e6ddaa5032db569ac3f1a3ce00e7029c69b0c0d13"
+        "posterSHA256": "f99e8487a506430c050a34af8366e567ad869b1824831274411471fcdbf9c515"
       }
     }
   },
@@ -616,15 +752,15 @@
     "variants": {
       "male": {
         "video": "0238-male.mp4",
-        "videoSHA256": "91dd34f35ab073d053edf492a1fe62c65cf5d6ae05957c5d88c5f0463677fab1",
+        "videoSHA256": "a9e0741c4f8e25b1ca36cb7e81fc2d75328b6d3a8e63d7cc1413550c20305cd1",
         "poster": "0238-male-poster.png",
-        "posterSHA256": "c432bbba6d304146b091194409e34d6be99ee84ca1fc1db0256e170d52025756"
+        "posterSHA256": "76065e8e4ac578cea6ec8a634022dff3c9db6691d4eaabe42fc7c485c1947ac5"
       },
       "female": {
         "video": "0238-female.mp4",
-        "videoSHA256": "f61a605835d4b48e855c8956da893fb46284dcf845d622ae7644a0d98fdfdfaf",
+        "videoSHA256": "2bd360e3d545b9e86bc6823d100f4271f367b80718c65e68ae783cfe2ee1ba29",
         "poster": "0238-female-poster.png",
-        "posterSHA256": "607adac5a1875e2e5ad6166447bbfc2120670c4a8a0646741f8382daace72729"
+        "posterSHA256": "3a859582de2affba1f685b2d256e6cbfbc6270b1726dac43c610584c60935f94"
       }
     }
   },
@@ -633,15 +769,15 @@
     "variants": {
       "male": {
         "video": "0294-male.mp4",
-        "videoSHA256": "c05294a5203b693ce53c4edc51ee4d211804a7fc74f202077adf0248f0ec34be",
+        "videoSHA256": "a00e3cd2865d2c1feb3441e899d160991464802a08feaebea762bce80be42a39",
         "poster": "0294-male-poster.png",
-        "posterSHA256": "ebde2c8bd427cf57b324b71bd1564733679a7ab5fc9a83f687643702c986794e"
+        "posterSHA256": "1c3183cc659d903d1f673a5d9000bb1f30dc56a3cf6b7302bdb2e14ac014005a"
       },
       "female": {
         "video": "0294-female.mp4",
-        "videoSHA256": "c4724dc41a7052201076d5a3478b6174c9616d3ead2fb34b75c0848e0b5cca38",
+        "videoSHA256": "0bbfb65fca88fdbe4fdb953688f39a1c394a6236839ddfd63099008ee02f8ecb",
         "poster": "0294-female-poster.png",
-        "posterSHA256": "2ff0972be28886a83d1bc8bd6870ebc931573fb90ff1e21ed69bc3aa78eb924f"
+        "posterSHA256": "6bc142cbdea277cb5d711403682fb6e9adc37a81b101d7ba929d676de2bfdb27"
       }
     }
   },
@@ -650,15 +786,15 @@
     "variants": {
       "male": {
         "video": "0739-male.mp4",
-        "videoSHA256": "f4a2f8063f8838ccdc93a0b4880bd537c2b75e89d8f5d1ee6579e72e878554fa",
+        "videoSHA256": "eb33bf10cdb6981be48231d53a72b040fe905b4f036b9ac621478937d195f8e7",
         "poster": "0739-male-poster.png",
-        "posterSHA256": "51bf004198dae5b6680e53de3c355b523db8ac6fff2fa900084246786b400d43"
+        "posterSHA256": "01aeed284e583033e57dd2ae910c31e5cf3b0539d3b5f3156cc7d0daabbbaaee"
       },
       "female": {
         "video": "0739-female.mp4",
-        "videoSHA256": "93c1b6705f93ed0b87f08ac75f792d8a20c59543e02f8484942ea4cba243f278",
+        "videoSHA256": "47021e84e48635914789138bff5fadf1b454b7940fb04056705111ba845a5a6a",
         "poster": "0739-female-poster.png",
-        "posterSHA256": "5953ec6b65f2c1cee4321c56fa81474a4b4d774d66a7bbf185f53bf02688ac6b"
+        "posterSHA256": "dd04f13a27ba1b9845ed4499cbcf74fe026bdd93e4762e3b9902112ef6c38fba"
       }
     }
   },
@@ -667,15 +803,15 @@
     "variants": {
       "male": {
         "video": "0085-male.mp4",
-        "videoSHA256": "359e778444d8b56872671d8afeafa57b71d7d44f68b34116333b769a94bdae3d",
+        "videoSHA256": "dd721805bc73ec625723af3bf36f2e6292036c432476c09e61245f4ba30e3cc6",
         "poster": "0085-male-poster.png",
-        "posterSHA256": "14cbe37fbe6fb4d7c9e137453466ea5899f405a6624507639c7f65d6053f7643"
+        "posterSHA256": "6bbc961e407c341d0241183c57689d2ebfa53a23a0fafa3ded35ca66bbbc059b"
       },
       "female": {
         "video": "0085-female.mp4",
-        "videoSHA256": "aa382df2bc3ca63fd270ccfb055b2b928e986aed1e9260c109fb43bfc2cba32f",
+        "videoSHA256": "be8dc1635a814de40c3091ced8a502e04fa5375254524351a54a8c894b5526c3",
         "poster": "0085-female-poster.png",
-        "posterSHA256": "fbc8f8b974e8e3024c5e2fc5fd3af1040901ae95f96e8303c0b3da9074bc2d9c"
+        "posterSHA256": "cebabef8a2a009d02eb9cb535b4624d2780e584a29f8b7f216404ca1cd3eb397"
       }
     }
   },
@@ -684,15 +820,15 @@
     "variants": {
       "male": {
         "video": "0599-male.mp4",
-        "videoSHA256": "9b46f67829c73cd32d48ea9131ba9df808fa7b544d517f38cad17ff22b5d2276",
+        "videoSHA256": "c696262241fb1598babb47af7879f6f3b652fb923006e566eb55468376be3269",
         "poster": "0599-male-poster.png",
-        "posterSHA256": "2441ef390a56635ed86a3ad4e9639962c197fac53a025da31f3f4ec8f67ff096"
+        "posterSHA256": "c265ba8e45e336ce2839db31de965bbca98aaa4f90e54e49cad0fba48a836df2"
       },
       "female": {
         "video": "0599-female.mp4",
-        "videoSHA256": "24fe2fdab0ba2f335b7f4ac9a48ad1267fd5ece1489a98f50ef290bdb5c54fdf",
+        "videoSHA256": "40d91eee8273801c51cd305e17736f5cb8f7a12cad100de45407d1019f36b8cd",
         "poster": "0599-female-poster.png",
-        "posterSHA256": "7d3e92231ddfb8a4a66c2616f3c1f3f1b0ea889091f211b84657c137e34348a3"
+        "posterSHA256": "87ad98eb9f1d490176d45e97a276880e9a8e4817b59c8e096a1258cb4a130696"
       }
     }
   },
@@ -701,15 +837,15 @@
     "variants": {
       "male": {
         "video": "0585-male.mp4",
-        "videoSHA256": "55dd88bbfcc6d4a39508e0fb70766220bbe9ff2dd1ce7bcd8cf5421345b171e2",
+        "videoSHA256": "79c4fe3e694456962977b2311331a6262b8e4d8e79fd4d95b7a6493e9c532f93",
         "poster": "0585-male-poster.png",
-        "posterSHA256": "e72244b0f7542d19f6211bb9e3fa03b30581e93b6aa07f690adb06f76ffebef8"
+        "posterSHA256": "438b44ae6de5f6a501566a72ea6585dc20b11553d81cdf3731234d7fcba561ae"
       },
       "female": {
         "video": "0585-female.mp4",
-        "videoSHA256": "e6535d7d5fc6f77f0c45b68969cbf00c0847318084e1731fe5b37a7543463a90",
+        "videoSHA256": "8b69ca01ff2e65c2f797c362f89926828dbb4cf907a5e3814432b2ff93a2fecc",
         "poster": "0585-female-poster.png",
-        "posterSHA256": "a8a22b24fdad9340069f5f3e8f742a6f56722c35e3f509d0ee6b6987874c403e"
+        "posterSHA256": "92c5a73be932864c311fc5653bcd88a3e1e4ca16797250dccc40256ab11f1772"
       }
     }
   },
@@ -718,15 +854,15 @@
     "variants": {
       "male": {
         "video": "0605-male.mp4",
-        "videoSHA256": "d362ced50f938d0f84d9fc7d5a09d8b22c1cfde528be6ae66b4a5d7e957c324c",
+        "videoSHA256": "4e66860fa6036c22ff09acc6cecfa4a853bc18956b68dad49a15cfdccf45b58e",
         "poster": "0605-male-poster.png",
-        "posterSHA256": "968646d82587e720232aa926474e9d9eff48517fb78cbe5c6ca990705663dc51"
+        "posterSHA256": "da06e160bd9982925ed2bba708e0935e97a94d3a892ebda1e2279942a0553e13"
       },
       "female": {
         "video": "0605-female.mp4",
-        "videoSHA256": "9030e4e691f8ea26022ecf54042bcfe9f1e63dd8c32a41d5b6897a7d0690b8ce",
+        "videoSHA256": "1d2f710e474c280806991ba48b857b844ecd81697d13fa8fe159890d81809170",
         "poster": "0605-female-poster.png",
-        "posterSHA256": "a79be9b71d13e77d0e7766ed3c51ad21abfcff80315031ffa0eb3084e8045152"
+        "posterSHA256": "97087397f02cf03476d9fe2834744356bea42eaae639271badb6a51c0a307460"
       }
     }
   },
@@ -735,15 +871,15 @@
     "variants": {
       "male": {
         "video": "0405-male.mp4",
-        "videoSHA256": "06db569cb178211bce3a24f3fa5665f51eb37eba4359e4bfe034658ed7486e51",
+        "videoSHA256": "5ad5486f318697e84a2381ac739ae58828ca02fd99fc3b2e6ffe3ff4a8af77ec",
         "poster": "0405-male-poster.png",
-        "posterSHA256": "629464247e6e303dec9f2dcf629f153e277d7b4eb8df150d86141c0d21632f0c"
+        "posterSHA256": "f076e3382fe8ebb47d0a21a78355dd9a2a99f88effe8ff8c143cb02a67f9c4b0"
       },
       "female": {
         "video": "0405-female.mp4",
-        "videoSHA256": "91edc6be0729aeda8b40c1547cc45f5ccee4c7d26a08b18b732796886eaf54eb",
+        "videoSHA256": "77387a3124ce8c0c80a067e5f6834ec8321bb77223701e53167e4c9cf70670d4",
         "poster": "0405-female-poster.png",
-        "posterSHA256": "49fb76c5b4cf191bcb91d9d1fc35c1b7243686d0b4f2dbbde6e7442c21b40d5d"
+        "posterSHA256": "b0c30b8e41e315850882ddfda7f6182f876f9057dcaa4fa68111d645afeab3a1"
       }
     }
   },
@@ -752,15 +888,15 @@
     "variants": {
       "male": {
         "video": "0334-male.mp4",
-        "videoSHA256": "9f69f373c2c6d9b778ba35ce7d99c7f0f3373db68d1fb7b1a723fffd48308061",
+        "videoSHA256": "b1012b700516d65f627c7b81f1271a3f2c2853ddb5d86fa3aecabdc37c84c4f1",
         "poster": "0334-male-poster.png",
-        "posterSHA256": "45baa72203cecde82ad6f7e7d8ca3f872dd5fe0aa48a72c916723df55de484dd"
+        "posterSHA256": "ed7116096649d4650e7c3525ba4fb24769b19330be546c6c5f22ae2dbfcda7db"
       },
       "female": {
         "video": "0334-female.mp4",
-        "videoSHA256": "459aa4636ac3142b06920acf329cd55761ceb89ced681c2c95705f0be6deaf37",
+        "videoSHA256": "2c60f946d7a6f19b7f4954cbadf39c5ab2546e77ff5c6bd9a9f012648bb227f1",
         "poster": "0334-female-poster.png",
-        "posterSHA256": "835af4425b18773e4fd9ff4a3e04d9c2f6bad27a12524929c2654939dca8bbeb"
+        "posterSHA256": "a06730e32fb4f0f82dc56831c7dc73cdd1477883c0524676839f1f4f799f47ff"
       }
     }
   },
@@ -769,15 +905,15 @@
     "variants": {
       "male": {
         "video": "0602-male.mp4",
-        "videoSHA256": "88a49b1533f24f048155f6d96356708f7e4a1732d65f9fc5fa3a73a8db68b189",
+        "videoSHA256": "43d1e162a8585c91786aa8b3c887c03e8638e88f83cbf053c227c1fb79c76c9f",
         "poster": "0602-male-poster.png",
-        "posterSHA256": "5d2821bcabf7f3885892c4f9890e7fe7fb04fd4266acac29bfe94fe68448c4d3"
+        "posterSHA256": "0865659af564cf7a35e51f3cbec39bdfb4425dcb4999f0694d139e446a51e573"
       },
       "female": {
         "video": "0602-female.mp4",
-        "videoSHA256": "0e5da14f040a6f43e2b98ce799b233d5cab46e5d534e5130649f92511d718f0a",
+        "videoSHA256": "94c6dd1236a392895cbaf5e58337b8f3361293c9e8a951766c5fcc45137f51d7",
         "poster": "0602-female-poster.png",
-        "posterSHA256": "6a2f7636bfd03914d8013d1e8805c01179a31f2d1ae2a3c1566e8777b13b86ea"
+        "posterSHA256": "2ea88a16a2682703bf4602a1e9d8a1d54c542a3f12f867c893080fb009f6f887"
       }
     }
   },
@@ -786,15 +922,15 @@
     "variants": {
       "male": {
         "video": "0872-male.mp4",
-        "videoSHA256": "cbd50e7cb6eb83ed3b5a5a0763cceb85a0eef3906dc2f2e584183e0a03f147dd",
+        "videoSHA256": "efb5e428f28c35224421215fc1882037cc04ff068e227469291bbc620ec9b4bb",
         "poster": "0872-male-poster.png",
-        "posterSHA256": "8c703e4b9be8396ca9c07a626dcf458aaa02b1d432eb3b51928870ec73d41d57"
+        "posterSHA256": "319266d7259461b31257db8baa4c551a79384bc7001914472b5902e6e9dc854a"
       },
       "female": {
         "video": "0872-female.mp4",
-        "videoSHA256": "5d550101a5dd23728b57208dfde1bac027641a330c9aa83d4db21fd3c57deb22",
+        "videoSHA256": "cb24718612d5dd1b7b5f701efac8abce1e4fb1b7fa23414ffc1e5e0aaabe67e0",
         "poster": "0872-female-poster.png",
-        "posterSHA256": "59dee42aadfb8d7cd7653e0bfc5acd473246325146d5253d11d6b823d2c54e41"
+        "posterSHA256": "11f6c439cf2c070ade05035e27b27111e9973ca758f18e19ef6e61d9bce22f00"
       }
     }
   },
@@ -803,15 +939,185 @@
     "variants": {
       "male": {
         "video": "0276-male.mp4",
-        "videoSHA256": "c29805afcde14589516927262fe8ad03653eb9547488a061cdf8ca0a63272ce3",
+        "videoSHA256": "01a75c071c78d49284a8c25cede11410fd6fcd806814c048d70e0255b9402d6d",
         "poster": "0276-male-poster.png",
-        "posterSHA256": "8304ed0eb23578a748b32afbe7f147d885c0e46d8a8e3b3b67144c46cf82f59b"
+        "posterSHA256": "4541308d95a7c71b3f91a0c8b56f1476ec31773e036ce55614a2021f18d5c6e9"
       },
       "female": {
         "video": "0276-female.mp4",
-        "videoSHA256": "69226cb7170316ad59df1d6355f7e22a8de4e283e5aea82c2bfe2f6232ebe972",
+        "videoSHA256": "f2e16eb2b81a568bcafccbd2e5bcac583ab7f052d6ff8dcfcb419448e0388cfc",
         "poster": "0276-female-poster.png",
-        "posterSHA256": "9af60c66287d02c7de86db9224f5d6ddab1177d4d576ce38c57036b4a2ff9814"
+        "posterSHA256": "ea13132e899f4583733041aa10a7d07712c1adc4e4d6416216b2ebff0ae72210"
+      }
+    }
+  },
+  "0333": {
+    "title": "站姿双臂俯身臂屈伸",
+    "variants": {
+      "male": {
+        "video": "0333-male.mp4",
+        "videoSHA256": "ddf8f2b3708f6cb0224ebdf854f182260fad87de2d5b763ba1d4d228623af6e4",
+        "poster": "0333-male-poster.png",
+        "posterSHA256": "d1a3ab81475d3eed8f42dc777ff073c31c4ed136d3acf672a907ceeae88cf839"
+      },
+      "female": {
+        "video": "0333-female.mp4",
+        "videoSHA256": "4d7c6992efb6d2e616bdee201926c7d3a0907794a09f1eb7b968727307cdb8c0",
+        "poster": "0333-female-poster.png",
+        "posterSHA256": "8d5f2c026f9b4a669cf7c4cca16d54cdfe6a18ac9d02b4c4fe961f6b346084b4"
+      }
+    }
+  },
+  "0354": {
+    "title": "站姿单臂俯身臂屈伸",
+    "variants": {
+      "male": {
+        "video": "0354-male.mp4",
+        "videoSHA256": "108c0fecd4c153139c59eb8b180940fccee2df5505c0854bf8bf1d2b7ce62882",
+        "poster": "0354-male-poster.png",
+        "posterSHA256": "4f3f6f053b8357327703bde49f3335df758245088c9441b718d30ac1113e9cf8"
+      },
+      "female": {
+        "video": "0354-female.mp4",
+        "videoSHA256": "6cffb2d03b453d30aa9df8cc26a2ead086f2cf07fd98eb2667c786fcb7a69506",
+        "poster": "0354-female-poster.png",
+        "posterSHA256": "21810b0432872eed6a00ded59ffbd3f74001181da51ed1941b4134bb7d2a9bf7"
+      }
+    }
+  },
+  "0394": {
+    "title": "坐姿双臂俯身臂屈伸",
+    "variants": {
+      "male": {
+        "video": "0394-male.mp4",
+        "videoSHA256": "34a8263e20481aa69e85eca3a5907131d8a9d12c7898c401c15f417bf954fc5f",
+        "poster": "0394-male-poster.png",
+        "posterSHA256": "00c7d94faa9f0bd93990256448c9e4ee4898a41323db5a31a657a556b265b008"
+      },
+      "female": {
+        "video": "0394-female.mp4",
+        "videoSHA256": "68d73c57e6b99d2f2070ab7cfd6d82183ae737e6700e06fc161b3d02ccf22508",
+        "poster": "0394-female-poster.png",
+        "posterSHA256": "8fc2299bd6e95df4cbf5d5bf90036d9a4be42966bfdb5036978dfdb618fe8c42"
+      }
+    }
+  },
+  "0398": {
+    "title": "坐姿单臂俯身臂屈伸",
+    "variants": {
+      "male": {
+        "video": "0398-male.mp4",
+        "videoSHA256": "3e1d7475e726b8ca2bde885f85f22dad6de91cdb5fb0a2e9b651ea6f0ab2756e",
+        "poster": "0398-male-poster.png",
+        "posterSHA256": "682a8fcbd15151606e5b433981044496d1dd37851fe0d0e465e01e4523ac4c38"
+      },
+      "female": {
+        "video": "0398-female.mp4",
+        "videoSHA256": "f42c970d002582dbfead9cbf04cc7ab30c3537484156bf5b0b06910a333cf2aa",
+        "poster": "0398-female-poster.png",
+        "posterSHA256": "05249b595c041d75115213e46678bc50731081754a78709b41456b3c89862fba"
+      }
+    }
+  },
+  "2317": {
+    "title": "坐姿屈臂侧平举",
+    "variants": {
+      "male": {
+        "video": "2317-male.mp4",
+        "videoSHA256": "03998761dfb2c1afeefd53f9c48103d5c5ba0cf7d6d0d2527e6158db6262bf82",
+        "poster": "2317-male-poster.png",
+        "posterSHA256": "54e073e1fa6df33d405971ea5fc42f0092f6df7c98b44c37a2856601d3af626d"
+      },
+      "female": {
+        "video": "2317-female.mp4",
+        "videoSHA256": "c7eeaa8eb3c7c3174f44c6bfe0a8af72236f8ae82d1c9848604400a735e93c2e",
+        "poster": "2317-female-poster.png",
+        "posterSHA256": "9fabbc434c96e271147ea602a040f34cc438b1f61027562994a6d00787dc5b2e"
+      }
+    }
+  },
+  "0419": {
+    "title": "站姿哑铃过顶前平举",
+    "variants": {
+      "male": {
+        "video": "0419-male.mp4",
+        "videoSHA256": "2924551e10e0c9779e5cf8d5e0a96a182f89965825c287bbd0ea0d2c6a802627",
+        "poster": "0419-male-poster.png",
+        "posterSHA256": "44c8bbb0ea7759188c3161245403048525ecc2371b0253fd4f346501131195a9"
+      },
+      "female": {
+        "video": "0419-female.mp4",
+        "videoSHA256": "88c823f450df90eac761a41bf16df1dda19292cb9cb617096e7fa53ce4e60cd2",
+        "poster": "0419-female-poster.png",
+        "posterSHA256": "101c19778cf28d9544c85054c217b352a5dbfbee43572a0e1c013105933cb93f"
+      }
+    }
+  },
+  "0437": {
+    "title": "双臂哑铃直立划船",
+    "variants": {
+      "male": {
+        "video": "0437-male.mp4",
+        "videoSHA256": "52bf82602226530705279a5f02465a5420dbfb007cccac3448819f573c6db52d",
+        "poster": "0437-male-poster.png",
+        "posterSHA256": "6b5679392fb1fc4f4de4cea203619d35ee172e144d29ef82bc08daecd1d8b84d"
+      },
+      "female": {
+        "video": "0437-female.mp4",
+        "videoSHA256": "9bb7fd4a8f93eccfb5b49d611a940dcebe4fd0b80371efacd559679dd2bb3236",
+        "poster": "0437-female-poster.png",
+        "posterSHA256": "3e194c55486a4399d41bca03b8114f09f64233c0d12851ce402a3dab28461eed"
+      }
+    }
+  },
+  "0363": {
+    "title": "单臂哑铃直立划船",
+    "variants": {
+      "male": {
+        "video": "0363-male.mp4",
+        "videoSHA256": "1ac58956e8ff3dd0eec26bece494b93b27ded8f5a6ffe3304a7076f9345becb9",
+        "poster": "0363-male-poster.png",
+        "posterSHA256": "9bbef675076110dc2c5ae09b9bc8fd547fb966e7fe5f0d258ae9cdcfbdacf386"
+      },
+      "female": {
+        "video": "0363-female.mp4",
+        "videoSHA256": "41216dd0df7da0f3fb3da6d14e601b3670fb4af5bf7ae85205a34b07a4f2b8e3",
+        "poster": "0363-female-poster.png",
+        "posterSHA256": "31623df19ad8d3e0ce5d1f4dac5383babc7e77e4d483fb49dfdb409fbc60d6e9"
+      }
+    }
+  },
+  "1669": {
+    "title": "坐姿单臂锤式弯举",
+    "variants": {
+      "male": {
+        "video": "1669-male.mp4",
+        "videoSHA256": "ceb62970aacc74bdf3281e4c17da0257341d03610cd87f19b58f558128fbf16b",
+        "poster": "1669-male-poster.png",
+        "posterSHA256": "0b988a328873bc8de10b1e8364e21d8f97c0cc38df950ce21e8023d1846a71ae"
+      },
+      "female": {
+        "video": "1669-female.mp4",
+        "videoSHA256": "7b5992df67fed3f619a62cbac5913548f6f24209dcbf0c6383c68d8f285dde24",
+        "poster": "1669-female-poster.png",
+        "posterSHA256": "e65407c3e4c0d7a7fd008604992e76f4a85f489d115eb8a41f8f4fff9b4c9d2c"
+      }
+    }
+  },
+  "1739": {
+    "title": "站姿交替哑铃臂屈伸",
+    "variants": {
+      "male": {
+        "video": "1739-male.mp4",
+        "videoSHA256": "2897ae4f6698205a53f4212221dbeff3495fb277efb19531518480e224102451",
+        "poster": "1739-male-poster.png",
+        "posterSHA256": "95d9d561d424fb5912cb82959426fb490f4cda626fc7dfbe1bc7aeea7620d9c5"
+      },
+      "female": {
+        "video": "1739-female.mp4",
+        "videoSHA256": "9b83927e4526ea5471d51d61225672a6db47da42d67944e7131862e7c6f7498a",
+        "poster": "1739-female-poster.png",
+        "posterSHA256": "e5a10bbb5fa0176882d51a801d260f9dc8d3e87a7cd4cd0da01700e1c46ee001"
       }
     }
   }

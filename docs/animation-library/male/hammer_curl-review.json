@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "4c8252dcc5e11a1f029554801a4ab40a561b9f061ed34e092345f128b4034bf5",
+  "sceneSHA256": "71f671086435369fd85ff85c6ec27677a79028e4dbba141118831751f570cfa1",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "Inspected all four cycle poses in main/front/side/back and equipment-visible hand closeups. Palms remain inward, fingers surround the handles, wrists follow forearms, upper arms stay fixed and feet remain planted. No visible plate/thigh intersection or new shoulder/axilla defect in these views. Source sculpture folds remain; this is illustrative motion review, not professional biomechanical certification.",
+  "notes": "已逐张查看本场景主、正、侧、背及握持四阶段图。站姿膝屈减小，小腿肌腹与踝部过渡连续；坐姿膝盖轮廓未出现尖折，足底与座面支撑合理。弯举掌向/交替侧、前举方向和握把接触清楚，肩肘轮廓无新增异常鼓包。保留雕塑细部及衣褶。",
   "evidence": {
-    "docs/animation-library/male/hammer_curl-review.jpg": "886f8e712e2d04def1dc555a869d0557662d745ec51abe6295d2c5d7866579d9"
+    "docs/animation-library/male/hammer_curl-review.jpg": "950781fa8e3967c293d0fda0ab186f6e6afeea9daedbbce74cccc97dac46d435"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "768ae7298ed049da463c3a19dca4cb1482a34d8439027bbd8bb0583a28bb68e1",
+  "sceneSHA256": "d7ad8d44482affc4bd3269cf03e1002f638eff9fd90f7da0314c9e43013b8e1f",
   "frames": [
     1,
     31,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "实际查看四阶段主镜头、正侧背及握持近景。前臂保持旋前/正握，区别于掌心向上弯举，上臂稳定、腕与前臂对齐；双侧拇指闭合、握杆可见，低位与大腿保持间距。结合 121 帧实际表面检查验收。",
+  "notes": "实际检查五视角四阶段：小腿与踝部连续，坐姿足底支撑稳定；侧平举肩腋无异常鼓包，反握弯举手腕和肘部轮廓自然，握持无脱离。",
   "evidence": {
-    "docs/animation-library/female/reverse_curl-review.jpg": "8daf68436c116fd5494164f341de73920833b98d37ed3f40d31756d963d63c94"
+    "docs/animation-library/female/reverse_curl-review.jpg": "90833d3801a6d1915ddd13494a5278fb1224a9582bcee904132aacaf5cf72506"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

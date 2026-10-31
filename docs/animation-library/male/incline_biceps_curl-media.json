@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "3446ff37a1844efa734a0a08e7582773814ec137ae1bcff9867c6bcc15c33efe",
+  "sceneSHA256": "955fa5d83bdb2147834bd332a6c8a2355c769b296bf13c6e99541cb92344df6e",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "9fd278c3039512a7f58aa00b24eae40f5c4748bd9cf604f59fa2222e7b99294c",
   "files": {
-    "incline_biceps_curl.mp4": "2b42b9e4875927066034e90609bfa705d2d9ddea96bdbcc747074d4e991ca466",
-    "incline_biceps_curl-poster.png": "ec03197e742f4ec1cd83f9b561cdc9ff6013f215dd9c12f568fa1e28179a25f1"
+    "incline_biceps_curl.mp4": "327da20b9b7e2f20616a12b94aabc5924cc18e17d4b90031b09457f18dcb0fe2",
+    "incline_biceps_curl-poster.png": "16b506f7036a300c67fbbf9ed6923ec96b885920cdddd87a511a83630f1ba9f0"
   },
   "mediaValidation": {
     "decoded": true,

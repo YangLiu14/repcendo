@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "918e8898e220787b61d8a3c7ae8b7cc4d1d131ded62d7560e7477bfe260d182e",
+  "sceneSHA256": "06b66a27f5d892464a340ab10463702db76b6dce316b535cc0d4c23f925472fc",
   "frames": [
     1,
     49,
@@ -14,9 +14,10 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已实际查看主镜头、正侧背和握持近景的四阶段图。第 49 帧侧举、97 帧回落、145 帧前举顺序正确；低位切换抬臂平面，非肩高水平转臂。掌心随抬臂向下，手腕与前臂对齐，肩部轮廓和双足稳定。结合完整 193 帧检查验收。",
+  "notes": "实际检查五视角全部关键阶段：肩胛平面抬臂及侧举转前举过程中，肩腋表面连续、前臂不扭瘪，掌向正确；站姿膝部微屈，小腿和踝部自然衔接。",
   "evidence": {
-    "docs/animation-library/male/lateral_front_raise-review.jpg": "3e197a234923ef7409cdb2e822e888eecfdcecf36ca4a4bef2647f76a1d7633b"
+    "docs/animation-library/male/lateral_front_raise-review.jpg": "c485cd098423bc5bf07073f21b2a01edffe9ff7521ae6e2aef7573dd57379696"
   },
-  "reviewer": "Codex visual inspection"
+  "reviewedAt": "2026-10-30",
+  "reviewer": "Codex: actual multi-view image inspection"
 }

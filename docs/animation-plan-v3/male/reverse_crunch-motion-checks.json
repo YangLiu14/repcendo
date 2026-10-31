@@ -10422,5 +10422,12 @@
     }
   ],
   "finger_bones": 30,
-  "contact_corrective": null
+  "contact_corrective": null,
+  "shoulder_blend": {
+    "version": "shoulder-blend-1",
+    "vertices": 3873,
+    "samples": 30,
+    "maxModelDisplacement": 0.022294588115204694,
+    "requiresFullFrameAndVisualReview": true
+  }
 }

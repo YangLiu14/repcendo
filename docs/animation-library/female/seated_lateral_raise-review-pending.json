@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "d57376f918f906dcdf519c71d4995ed7a20e366e75c18b9d14f3e7ac7b69f47d",
+  "sceneSHA256": "d2b10720b62e1f3456df60df7c54a75382d166367d1106956b15654c0c2009f9",
   "frames": [
     1,
     31,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/seated_lateral_raise-review.jpg": "1478d0031228e98f4680f7a00c2059cc374484956090a9befda6ba4d55437963"
+    "docs/animation-library/female/seated_lateral_raise-review.jpg": "ed1606ba6452be34fd8c6fc7856ac8f23153149bc3ad5cf66dbf17186d9db281"
   }
 }

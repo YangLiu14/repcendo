@@ -1,8 +1,7 @@
 {
-  "sceneSHA256": "deebd50c0f83433e8e26668ed1f143156b9032cae7dae4d73603c654d5b4c0df",
+  "sceneSHA256": "4a39c8eaaf1c3379587e1ab99e7a0e52d23e2b452001fc479a24469787c70923",
   "frames": [
     1,
-    16,
     31,
     61,
     91
@@ -17,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/seated_neutral_press-review.jpg": "74eb173eb7668c1e04132e279e04b72e968ca791288a36371012ef1dbca9046b"
+    "docs/animation-library/female/seated_neutral_press-review.jpg": "53845df04b922380986fb52594750e4f4bca90813453332c15fd6dc22a1b233c"
   }
 }

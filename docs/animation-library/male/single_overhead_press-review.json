@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "d953142c424f2d1e27fc558e6adb57b920593d22ef86dd2636ffd3e50f38de49",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看五视角的起始、中段、峰值及回程：负重左肩和手臂位于主镜头近侧，肩高到过顶的推举路径清楚，哑铃完整位于画幅内；肩腋、肘腕及握柄没有新增异常。",
+  "evidence": {
+    "docs/animation-library/male/single_overhead_press-review.jpg": "bf0cea7a0ca5da6110422374f8b347a17e028905f7fb9f58e50cf66300f3bc64"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/male/single_overhead_press-review.jpg": "bf0cea7a0ca5da6110422374f8b347a17e028905f7fb9f58e50cf66300f3bc64"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "d3bcc845ea5090e6014d57aebb97f498a06eeb911fbd283035d6d4726ffdbef1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "a675c0ac3328f90d0b874856edd13c45005dfdf976455c28826f305f0fb62a1c",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看五视角四阶段：负重左手中立握在主镜头近侧，肩高起始和过顶峰值清楚，手臂不藏在躯干后；哑铃完整留在画幅内，肩肘、腕部和空闲手保持正常。",
+  "evidence": {
+    "docs/animation-library/female/single_neutral_press-review.jpg": "54cef6583908819ec719d83bb4f72babc9d51fcb9fb2f2e79daf77fc428d2509"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/single_neutral_press-review.jpg": "54cef6583908819ec719d83bb4f72babc9d51fcb9fb2f2e79daf77fc428d2509"
+  }
+}

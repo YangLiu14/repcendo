@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "e996a2ba49d7d4a543a4c9774a8b9a11dda84989d25d803a22c069a920026aac",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看新五视角：主画面中左手负重位于近侧，掌心朝上的握持和前臂弯举从下放到峰值均清楚，肘部没有被躯干隐藏；空闲右手、站姿和握柄近景保持正常。",
+  "evidence": {
+    "docs/animation-library/male/single_curl-review.jpg": "06b3d78f0f006f628c2798f6042b6cd91fa616b2d3d95cf6809ecd2a4d15623e"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/male/single_curl-review.jpg": "06b3d78f0f006f628c2798f6042b6cd91fa616b2d3d95cf6809ecd2a4d15623e"
+  }
+}

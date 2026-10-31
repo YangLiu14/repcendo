@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "8cacd01ab597cb8571c7f9545cdde13787ac5da40da24562068eebcb4f071b95",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看新五视角：主画面的负重左手位于身体外侧，中立握从下放到竖直收缩的哑铃方向清楚，肘腕不被躯干遮挡；空闲手自然垂放，握持近景和下肢轮廓正常。",
+  "evidence": {
+    "docs/animation-library/female/single_hammer_curl-review.jpg": "630fadcd75f210eae6f9848761802bc844a463162d6e41923430aa3d1c7a9864"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/single_hammer_curl-review.jpg": "630fadcd75f210eae6f9848761802bc844a463162d6e41923430aa3d1c7a9864"
+  }
+}

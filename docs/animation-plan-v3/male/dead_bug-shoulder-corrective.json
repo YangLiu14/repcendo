@@ -1,7 +1,7 @@
 {
   "version": "greek-shoulder-volume-1",
-  "source_sha256": "507f27446223ac3b2fd7f64061ae90b511623c66ade96119d2848166dc3b429a",
-  "scene_sha256": "61e90a619d9bb637b843dfea7b6eb2f7dab9a57981083e652284be7ddc5e6791",
+  "source_sha256": "e2733ece399009e4089ea4aa891850f6b0256f51f99ae40e335d2a6f11784ed7",
+  "scene_sha256": "7592ad334550cb0080a3580df1cd7325c270909087c1043877b6cbfc42eaa3da",
   "samples": [
     1,
     9,
@@ -30,8 +30,7 @@
   ],
   "interpolated_frames": 193,
   "changed_vertices": 5467,
-  "status": "baked_requires_validation_and_visual_review",
-  "solver_sha256": "33f11dd1f9a0c34322eb79d8252b083d5f90a6f6fb3a1394dd1bf9d9e96e9015",
+  "max_iterations": 100,
   "contact_frames": [
     134,
     135,
@@ -59,5 +58,7 @@
   ],
   "max_contact_shift_m": 0.0119480015982152,
   "key_interpolation": "LINEAR",
-  "contact_solver_sha256": "b1a01638391a2f61c8d93f6377566101fc449918063abf5e2c310e6906e9a4fa"
+  "status": "baked_requires_validation_and_visual_review",
+  "solver_sha256": "a70c6e38637b36ee1312d5013e085d3760c6f03feac088ff895164191fb184cc",
+  "contact_solver_sha256": "b910b78ceb8fe2040886a0d5a759ba56ae378f7a1fb538d0cac86a5de0414a7f"
 }

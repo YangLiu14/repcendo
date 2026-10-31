@@ -1,0 +1,33 @@
+{
+  "sceneSHA256": "88dd7c9f42e37e35fb0a03409ac5d4255fe091e160a700b571dab7d4a441fd9f",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已查看新五视角：主画面近侧左臂从下放到肩高的侧举轨迹完整清楚，负重手和哑铃不被躯干遮挡；手腕与肩肘过渡正常，空闲手和下肢保持稳定。",
+  "evidence": {
+    "docs/animation-library/female/single_lateral_raise-review.jpg": "7646e8b47a78d041b1b4b76edb5406368cd4a6d6cd798473ff76f9c1ee08cd3c"
+  },
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/single_lateral_raise-review.jpg": "7646e8b47a78d041b1b4b76edb5406368cd4a6d6cd798473ff76f9c1ee08cd3c"
+  }
+}

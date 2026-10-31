@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "f5c6ccf2ebd5572a44f5239c00b8d224633ea78d8c326d2e52d4ed8e122bad7a",
+  "sceneSHA256": "1e8307de609329377407ec82e63c29166196ad842c296092906888621426eb6d",
   "frames": [
     1,
     31,
@@ -16,6 +16,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/male/incline_hammer_curl-review.jpg": "42fd187140afed0f0d236bc72840f3175ad79c35a049a1e73b63ee294be9da55"
+    "docs/animation-library/male/incline_hammer_curl-review.jpg": "79d89c2eee2c37de10329e892d5cc6404c71f906e77e5d1799fd9031c25cbdc9"
   }
 }

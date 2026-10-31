@@ -1,0 +1,12 @@
+{
+  "status": "accepted",
+  "reviewer": "Codex actual visual inspection",
+  "videoSHA256": "ceb62970aacc74bdf3281e4c17da0257341d03610cd87f19b58f558128fbf16b",
+  "evidence": {
+    "file": "seated_single_hammer_curl-playback.jpg",
+    "sha256": "4d9a250b2dbf9966363be05a6e619cf1c53323a3eccefe9fd0c490c37c55766b"
+  },
+  "sampleRate": 3,
+  "sampleCount": 15,
+  "notes": "Reviewed encoded five-second loop: seated near-side single hammer curl, stable upper arm, natural free arm, bench/feet contact, neutral grip; title, muscle panel and phase indicators visible."
+}

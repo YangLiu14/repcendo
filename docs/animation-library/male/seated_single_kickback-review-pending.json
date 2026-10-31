@@ -1,0 +1,21 @@
+{
+  "sceneSHA256": "5b8b35be29fd45a9a73c2c7325944aabdd955e02a3b4bff0a2cda81671594bf4",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/seated_single_kickback-review.jpg": "cd3cca7c4d5fb4f7c4493f913df35f2c127e2f36a084c856d080526a58f78bfa"
+  }
+}
