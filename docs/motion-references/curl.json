@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "exercise": "curl",
+  "exerciseId": "0294",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "9ece148edc18775724c9011e5606f9165072fe1da17f7441ee5e960ad23c7f4a",
+  "variant": {
+    "equipment": "two dumbbells",
+    "posture": "standing",
+    "grip": "supinated",
+    "support": "both feet on floor"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Clean Health Fitness Institute",
+      "url": "https://www.youtube.com/watch?v=8avkX72hsKI",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "6.666658s",
+      "observed": "双臂在躯干旁下垂，保持旋后握，站姿稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "8.333316s",
+      "observed": "双肘同步屈曲，上臂靠近躯干，手向肩前抬升。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "8.999984s",
+      "observed": "双铃靠近肩前、充分屈肘，上臂未转成前平举。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "9.999987s",
+      "observed": "受控伸肘回落，11.249985秒回到完整低位。"
+    }
+  ],
+  "decisions": "原0294动画上臂前抬约34°且顶部只屈肘约90°，与标准旋后弯举参考不符。采用保持上臂在躯干旁、18至110度屈肘的作者设定；适当侧向净空适配雕塑，保留正握/反握的区分。此角度为此动画规格，不是生理极限。",
+  "crossChecks": [
+    {
+      "publisher": "Mayo Clinic",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675",
+      "locator": "Biceps curl instructions",
+      "observed": "此前已读：上臂保持稳定、肘靠近身体，受控举至肩前再回落；不用身体摆动补偿。"
+    }
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31"
+}

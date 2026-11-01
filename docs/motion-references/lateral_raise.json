@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "lateral_raise",
+  "exerciseId": "0334",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "6fae8bc404fc8456d6ebe5d16f912f7e7a644293ea0a1cfa0047a78243628193",
+  "variant": {
+    "equipment": "双哑铃",
+    "posture": "站姿双臂侧平举",
+    "grip": "低位掌心向内，抬高时掌心朝下",
+    "support": "双足稳定落地"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=8aUc9snLOxU",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000秒",
+      "observed": "哑铃在身体两侧，肘微屈、手腕中立，躯干直立。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.205秒",
+      "observed": "双臂同步向侧上举，铃在肩线以下，躯干保持稳定。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "3.616秒（第二次重复）",
+      "observed": "双上臂接近水平，手略高于肘，肘保留轻屈。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.411秒（第一次回程）",
+      "observed": "哑铃沿侧方下降接近腿侧，双肩没有随躯干晃动。"
+    }
+  ],
+  "decisions": "采用站姿同步、顶端约肩高的轻屈肘侧举；允许个体携带角，避免将手臂锁为完全直线。",
+  "crossChecks": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/"
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

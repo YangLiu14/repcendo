@@ -1,8 +1,10 @@
 {
-  "sceneSHA256": "da82220cee8aae85f274fe643009be193b068e472ea72ebfa1f4db8b1df69921",
+  "sceneSHA256": "fa39f3a0c97919de3e3b4bd078ac4b445ee2c67cd1349b3ae902ed571e8879ec",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -14,10 +16,51 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "实际查看所有五视角关键阶段，含佐特曼73/85/169/181旋转阶段；跨体弯举肘肩连续，佐特曼前臂旋转未扭瘪，握持和腕部稳定，站姿小腿膝踝无异常。",
+  "notes": "实际查看男女六阶段五视角图：双手低位到胸前跨体弧线完整、左右交替等待侧保持，腕中立，手指闭合。上臂为雕塑保留约28度前外偏，较真人更前；这是明确记录的体型适配，非完全角度复制。未见明显穿模/突变，完整数值审计另行通过。",
   "evidence": {
-    "docs/animation-library/female/cross_body_hammer_curl-review.jpg": "1eba3081f20add53e283a7627d17e072964c5ec8a4462b65360b173bab3ad2de"
+    "docs/animation-library/female/cross_body_hammer_curl-review.jpg": "a9b2c9a66aea68a116bce22463f9e76f87c08b25bd69170ec91fb4b9207e1dbd"
   },
-  "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "bf148c8a8f7fd482d8c2a1212b51af8550f68735591e966e6b77e88ab268bf9c",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女六阶段五视角图：双手低位到胸前跨体弧线完整、左右交替等待侧保持，腕中立，手指闭合。上臂为雕塑保留约28度前外偏，较真人更前；这是明确记录的体型适配，非完全角度复制。未见明显穿模/突变，完整数值审计另行通过。",
+    "evidence": {
+      "docs/animation-library/female/cross_body_hammer_curl-review.jpg": "a9b2c9a66aea68a116bce22463f9e76f87c08b25bd69170ec91fb4b9207e1dbd"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "低位双肘约18度，腕在髋前外侧，躯干稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.399997s",
+        "frame": 25,
+        "notes": "左肘屈曲、铃向身体中线移动，右手保持低位。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "0.799995s",
+        "frame": 49,
+        "notes": "左手到胸前中线/略对侧、铃竖直中立握；145帧核对右侧。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "1.599994s",
+        "frame": 73,
+        "notes": "左手沿原弧线回落，97帧回低位再切换右侧。"
+      }
+    ]
+  }
 }

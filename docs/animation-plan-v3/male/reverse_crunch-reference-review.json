@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "c76272342c8d72b761fa60588c879ed52782d72028f7362c80a1489d431b1f0b",
+  "referenceSHA256": "fdc23f7194b0b522e0e65e1021d1f073604c8849ddc431a35286caaaf1a97ef2",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "male：实际查看四视角逐阶段对照板。对照PureGym四阶段。男女主视角/顶视图/侧面实际查看；骨盆后倾并离垫，头肩保持支撑，双腿屈膝同步收回，采用较小幅度。背面摄像机被底台完全遮挡，未用其空画面作为证据；侧面600px峰值另核验。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/male/reverse_crunch.jpg": "f71af2500609a1812be614ef22f78bb06240631c85b52c4b6e488fb66cdafc33"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000 s",
+      "frame": 1,
+      "notes": "屈膝仰卧，头肩贴垫。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.480 s",
+      "frame": 31,
+      "notes": "骨盆开始后倾，下背卷起。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "0.960 s",
+      "frame": 61,
+      "notes": "骨盆抬离垫，腿保持弯曲。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.000 s",
+      "frame": 91,
+      "notes": "控制骨盆回落而非甩腿。"
+    }
+  ]
+}

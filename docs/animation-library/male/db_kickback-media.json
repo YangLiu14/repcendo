@@ -1,16 +1,16 @@
 {
-  "sceneSHA256": "ed17317518da0f9a5b5a8768f6f4216071a84e869e6f6230617af4b492e94b74",
+  "sceneSHA256": "fb6f3ad5b74df4b1c356ce25cc74bf28b032c6ebaec049cae463face991c5ad6",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
-    "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+    "library_audit_v6.py": "56e1d4b82a0dc278a40aea8e6f70289450508189395dcb98ddcb2528411fc432",
     "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
     "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
   },
   "specificationSHA256": "1faa53fc08065994795ac72dea7e245e9c64b81e0481d59e9ff20f17251749b7",
   "files": {
-    "db_kickback.mp4": "ddf8f2b3708f6cb0224ebdf854f182260fad87de2d5b763ba1d4d228623af6e4",
-    "db_kickback-poster.png": "d1a3ab81475d3eed8f42dc777ff073c31c4ed136d3acf672a907ceeae88cf839"
+    "db_kickback.mp4": "50babd0b3961893b7db79659cafc4c3a9d02e0f41acc5c62a07b6d9d365062a4",
+    "db_kickback-poster.png": "7077f9e216489ef2c04bbc836a3eb75cf371611ec1f7b64408d9fa2f44da9236"
   },
   "mediaValidation": {
     "decoded": true,

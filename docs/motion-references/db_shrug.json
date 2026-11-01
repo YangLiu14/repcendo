@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "db_shrug",
+  "exerciseId": "0406",
+  "status": "reviewed",
+  "specificationSHA256": "f667316320d1bb99933a920b991239089c37bdf02af8076eeb8f16cfda706ee9",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Muscle & Strength",
+      "url": "https://www.youtube.com/watch?v=dj2Gm628kas",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "9.169160s",
+      "observed": "双手中立握、铃在大腿侧，躯干站直，头保持中立；镜头脚部未完整显示。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "9.969159s",
+      "observed": "双肩开始垂直上提，手肘基本伸直，负重随肩上升。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "12.225546s",
+      "observed": "双肩接近耳部、铃略上升，上臂没有主动弯举，躯干没有后仰。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "14.025543s",
+      "observed": "肩带下降，15.281933秒回到低位；握法与肘形基本保持。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "对照主/正/侧/背/握持图，现有动画以肩带抬升带动直臂负重，没有加入肩绕圈或弯举。真人源足底被裁切，未据此声称足底验证；项目全身镜头与现有稳定性检测核对脚部。",
+  "crossChecks": [
+    {
+      "publisher": "Muscle & Strength",
+      "url": "https://www.muscleandstrength.com/exercises/dumbbell-shrugs.html",
+      "locator": "Instructions 1–5; Tips 3–5",
+      "observed": "实际读取：体侧中立握、脊柱中立、肩带上提后缓慢降低，避免借力弹振及头颈明显前伸。"
+    }
+  ]
+}

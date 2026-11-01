@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "5a1aa6666593c221f51d5046eb44da6776410b6c582ed6278c747d92329d869b",
+  "sceneSHA256": "51a85782c080bfe058317090f0eec336c7b141c1b8c9a5ac932fd874ab6a2101",
   "frames": [
     1,
     31,
@@ -14,10 +14,54 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已查看五视角与左右手握持特写：坐姿髋部得到支撑，膝盖打开后哑铃在膝外运动，上臂固定、前臂完成伸展回程。主视角和侧视角完整显示长坐垫、纵梁、前后支腿和横向底脚，与已查看的 LBRFB 官方照片支撑布局一致。",
+  "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。坐在凳前端，双脚落地、腿距收窄，上身前倾，双肘屈曲约90度。 双侧伸肘，前臂自然向后运动，凳体与坐骨支撑稳定。 双侧接近伸直，上臂外张已收窄；凳架完整，哑铃在凳体外侧。 双肘回屈，身体仍俯身，未用坐起代偿。 工程视觉复核，非教练认证。",
   "evidence": {
-    "docs/animation-library/female/seated_kickback-review.jpg": "cb8b3224ccaf71bb60f597d8dc6d8541b01980e693451616674d9a0fa79e52cb",
-    "docs/animation-library/female/seated_kickback-grips.jpg": "286cbf81c78c9c315379613067ea878c9cc814e62071b900c9064cdb3d162d37"
+    "docs/animation-library/female/seated_kickback-review.jpg": "27b5360e54db98a1a2d0b3f39679480b01411ca8e5075f7689b8d7f83ebeb5bd",
+    "docs/animation-library/female/seated_kickback-grips.jpg": "5536b48fb416aa075d666c754f1d9048e31363424cd7f828607a10716eae9467"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "2cc69b5dff1d3621f6d742c44f8da42822ca12158b40abadd51a475c50fdeff4",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。坐在凳前端，双脚落地、腿距收窄，上身前倾，双肘屈曲约90度。 双侧伸肘，前臂自然向后运动，凳体与坐骨支撑稳定。 双侧接近伸直，上臂外张已收窄；凳架完整，哑铃在凳体外侧。 双肘回屈，身体仍俯身，未用坐起代偿。 工程视觉复核，非教练认证。",
+    "evidence": {
+      "docs/animation-library/female/seated_kickback-review.jpg": "27b5360e54db98a1a2d0b3f39679480b01411ca8e5075f7689b8d7f83ebeb5bd",
+      "docs/animation-library/female/seated_kickback-grips.jpg": "5536b48fb416aa075d666c754f1d9048e31363424cd7f828607a10716eae9467"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.999998s",
+        "frame": 1,
+        "notes": "坐在凳前端，双脚落地、腿距收窄，上身前倾，双肘屈曲约90度。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.299996s",
+        "frame": 31,
+        "notes": "双侧伸肘，前臂自然向后运动，凳体与坐骨支撑稳定。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.666664s",
+        "frame": 61,
+        "notes": "双侧接近伸直，上臂外张已收窄；凳架完整，哑铃在凳体外侧。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.333330s",
+        "frame": 91,
+        "notes": "双肘回屈，身体仍俯身，未用坐起代偿。"
+      }
+    ]
   },
   "gripSides": [
     "Left",
@@ -29,7 +73,7 @@
     61
   ],
   "gripEvidence": {
-    "docs/animation-library/female/seated_kickback-grips.jpg": "286cbf81c78c9c315379613067ea878c9cc814e62071b900c9064cdb3d162d37"
+    "docs/animation-library/female/seated_kickback-grips.jpg": "5536b48fb416aa075d666c754f1d9048e31363424cd7f828607a10716eae9467"
   },
   "equipmentViews": [
     "main",
@@ -38,9 +82,11 @@
   "equipmentFrames": [
     1,
     31,
-    61
+    61,
+    91
   ],
   "equipmentEvidence": {
-    "docs/animation-library/female/seated_kickback-review.jpg": "cb8b3224ccaf71bb60f597d8dc6d8541b01980e693451616674d9a0fa79e52cb"
+    "docs/animation-library/female/seated_kickback-review.jpg": "27b5360e54db98a1a2d0b3f39679480b01411ca8e5075f7689b8d7f83ebeb5bd",
+    "docs/animation-library/female/seated_kickback-grips.jpg": "5536b48fb416aa075d666c754f1d9048e31363424cd7f828607a10716eae9467"
   }
 }

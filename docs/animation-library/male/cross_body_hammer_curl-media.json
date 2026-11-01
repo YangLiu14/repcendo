@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "b72ea1786bca6aec6a5ca70bc4cb045ee783a0c6e9cbc26f2b5954c178628d2c",
+  "sceneSHA256": "186389a5e8a47c37d1ed46aac23ba5a7e7e0ccd6dbc0e8e8108d0dfe8f8ff478",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "2de08970c1aec64e7aa67fc73e6e4d167fa31188695dd19e7b6643d23a36b8f1",
   "files": {
-    "cross_body_hammer_curl.mp4": "0060cd8325068f180cda508c7f01a9ff62e06bf9efac8b8992debdcc4bf2ec92",
-    "cross_body_hammer_curl-poster.png": "bc7eeba52a2252e70cca1572c1471125a71e26ef3278779a0ca4677876aa6bea"
+    "cross_body_hammer_curl.mp4": "120ba3a53f4b81f41eab07d221812fb7b4f7669b8f5e5c37bb7f5dd0aff6110c",
+    "cross_body_hammer_curl-poster.png": "f59d6001254a7992b48ec4ecaf908634103e943ee0b868ee8713558c196aa99f"
   },
   "mediaValidation": {
     "decoded": true,

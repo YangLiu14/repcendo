@@ -55,9 +55,9 @@ for sex in [a.sex] if a.sex else ["male", "female"]:
                 ).hexdigest()
             },
         )
-        if name in ("cable_crunch", "dead_bug"):
-            prefix = "grip" if name == "cable_crunch" else "shoulder"
-            suffix = "grips" if name == "cable_crunch" else "shoulders"
+        if name in ("cable_crunch", "pushdown", "dead_bug"):
+            prefix = "shoulder" if name == "dead_bug" else "grip"
+            suffix = "shoulders" if name == "dead_bug" else "grips"
             sheet = Image.new("RGB", (1000, ((len(frames) + 1) // 2) * 530), "#f3f1e9")
             labels = ImageDraw.Draw(sheet)
             for i, frame in enumerate(frames):

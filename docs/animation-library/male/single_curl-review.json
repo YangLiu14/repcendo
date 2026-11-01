@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "e996a2ba49d7d4a543a4c9774a8b9a11dda84989d25d803a22c069a920026aac",
+  "sceneSHA256": "fc36eeddb0306d0e828d52495219c0f4f3543ef147a32018d6e33107504b0f77",
   "frames": [
     1,
     31,
@@ -14,10 +14,54 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已查看新五视角：主画面中左手负重位于近侧，掌心朝上的握持和前臂弯举从下放到峰值均清楚，肘部没有被躯干隐藏；空闲右手、站姿和握柄近景保持正常。",
+  "notes": "实际查看四阶段五视角板，对照ECT NATION固定旋后握单臂弯举。负重侧上臂留在身侧，肘部从近伸展到完整屈曲；非负重手自然下垂，足底与躯干稳定。近侧负重手在主视图清晰，正侧背与握持近景未见明显穿插或腕部翻转。项目左右镜像、空闲手下垂与源示范扶髋的差异按参考说明处理。",
   "evidence": {
-    "docs/animation-library/male/single_curl-review.jpg": "06b3d78f0f006f628c2798f6042b6cd91fa616b2d3d95cf6809ecd2a4d15623e"
+    "docs/animation-library/male/single_curl-review.jpg": "98abbc420a2af1ba3e5ae25794a1b0b9b77217763428df989503c89edd599515"
   },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "b4031e8f085a9c916dcf5e38c26d673579ae1184ab089343741e5127ef8368f4",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看四阶段五视角板，对照ECT NATION固定旋后握单臂弯举。负重侧上臂留在身侧，肘部从近伸展到完整屈曲；非负重手自然下垂，足底与躯干稳定。近侧负重手在主视图清晰，正侧背与握持近景未见明显穿插或腕部翻转。项目左右镜像、空闲手下垂与源示范扶髋的差异按参考说明处理。",
+    "evidence": {
+      "docs/animation-library/male/single_curl-review.jpg": "98abbc420a2af1ba3e5ae25794a1b0b9b77217763428df989503c89edd599515"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "8.760s",
+        "frame": 1,
+        "notes": "左手旋后握从髋旁起始，右手空闲。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "9.160s",
+        "frame": 31,
+        "notes": "保持上臂位置，仅屈肘把铃抬向肩前。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "9.627s",
+        "frame": 61,
+        "notes": "约110度屈肘到顶，腕与前臂保持一致。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "11.827s",
+        "frame": 91,
+        "notes": "受控伸肘沿原弧返回，空闲手与躯干稳定。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31",
   "activeSideViews": [
     "main"
   ],
@@ -28,6 +72,6 @@
     91
   ],
   "activeSideEvidence": {
-    "docs/animation-library/male/single_curl-review.jpg": "06b3d78f0f006f628c2798f6042b6cd91fa616b2d3d95cf6809ecd2a4d15623e"
+    "docs/animation-library/male/single_curl-review.jpg": "98abbc420a2af1ba3e5ae25794a1b0b9b77217763428df989503c89edd599515"
   }
 }

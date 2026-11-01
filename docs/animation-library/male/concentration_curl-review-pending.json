@@ -1,0 +1,64 @@
+{
+  "sceneSHA256": "32abe20500f0c383d19a3a4489d8299d13e4cc9df24e140c91c6364331634b24",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/concentration_curl-review.jpg": "1fe144cdf462774868a4208254b890a8251c1d968225d26c23c98150b1a505bc"
+  },
+  "motionReference": {
+    "status": "pending",
+    "referenceSHA256": "7136ca9efbaffeb9e9565a10ce5fa3b8324a763c1906addbe3ba91a73a2e5356",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "",
+    "evidence": {
+      "docs/animation-library/male/concentration_curl-review.jpg": "1fe144cdf462774868a4208254b890a8251c1d968225d26c23c98150b1a505bc"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "3.006s",
+        "frame": 1,
+        "notes": ""
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "5.006s",
+        "frame": 31,
+        "notes": ""
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "7.506s",
+        "frame": 61,
+        "notes": ""
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "9.006s",
+        "frame": 91,
+        "notes": ""
+      }
+    ]
+  }
+}

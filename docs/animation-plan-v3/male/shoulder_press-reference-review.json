@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "d10e7e792fe62620e6c0c0a3a96916c63124681619ac74c6c726a4c8bb4357af",
+  "referenceSHA256": "1196ea57d6118653ee5a5617a2ea99e6ff0521a9a9ba0fb05f281d9561645230",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "male：实际查看四视角逐阶段对照板。男女低位前臂近竖直、双铃在肩外上方；伸肘上推时肩带随动，顶端铃互不相撞；靠背、臀部、双足支撑稳定，未见肘腋突变，保留现有媒体。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/male/shoulder_press.jpg": "3f797e645b98e5a2945a4d945ebe0a95e22fcba97d22650401aa73470d6b0c21"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "2.338秒",
+      "frame": 1,
+      "notes": "对应真人低位耳侧旋前握。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "2.738秒",
+      "frame": 31,
+      "notes": "对照双臂同步上推、铃沿头两侧移动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "3.005秒",
+      "frame": 61,
+      "notes": "对照头顶软肘高位与躯干稳定。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "3.471秒",
+      "frame": 91,
+      "notes": "对照回程两肘下降、双足与靠背固定。"
+    }
+  ]
+}

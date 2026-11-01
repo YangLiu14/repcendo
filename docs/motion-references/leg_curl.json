@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exercise": "leg_curl",
+  "exerciseId": "0599",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "f926745540c2bdcab6207436579ba75e072b97e23908ef902d718243b4dd6b5d",
+  "variant": {
+    "equipment": "坐姿腿弯举机，膝上固定垫与踝后滚垫",
+    "posture": "靠背坐姿双侧同步屈膝",
+    "grip": "双手握固定把手",
+    "support": "背骨盆靠垫，大腿由压垫固定"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "NASM",
+      "url": "https://www.youtube.com/watch?v=_2Kd0d-JEUM",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:00.000",
+      "observed": "膝近伸直，小腿向前，踝后滚垫承托，双手握固定把手。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:01.792",
+      "observed": "双膝同步屈曲，小腿和滚垫沿膝轴向后下方转动，大腿不离座。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:03.482",
+      "observed": "小腿接近竖直并后收，背骨盆及大腿支点稳定。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:04.963",
+      "observed": "膝受控回伸，滚垫返回前上方，躯干不借力晃动。"
+    }
+  ],
+  "decisions": "采用坐姿双侧腿弯举；参考机型靠背更倾斜，采用相同膝轴运动和踝后受力，保留项目已按实物重制的机架。",
+  "crossChecks": [
+    {
+      "publisher": "NASM",
+      "url": "https://www.nasm.org/resource-center/exercise-library/seated-leg-curl",
+      "notes": "教学页面强调背部靠垫、膝轴对齐、双手固定和受控回伸；页面起始90°描述与其视频近伸直起点不同，以实际视频为准。"
+    }
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

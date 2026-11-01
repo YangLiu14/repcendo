@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "exercise": "incline_biceps_curl",
+  "exerciseId": "0315",
+  "status": "reviewed",
+  "specificationSHA256": "9fd278c3039512a7f58aa00b24eae40f5c4748bd9cf604f59fa2222e7b99294c",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "supinated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Periodized Strength",
+      "url": "https://www.youtube.com/watch?v=5yCc3-kBm3M",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "63.450s",
+      "observed": "正面略侧真人斜凳弯举，背靠靠垫，双臂低位掌心朝前；下缘部分裁切足部。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "64.050s",
+      "observed": "双侧同步屈肘，保持反握，铃向肩方向移动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "64.650s",
+      "observed": "峰值反握，双前臂接近竖直；真人有较多抬肘，未作为必须复制的幅度。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "66.250s",
+      "observed": "受控回落，双手仍掌心朝上；上背保持靠垫。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "以 Periodized Strength 固定反握示范匹配握法；该来源凳较直立、脚部不完整。补看 OPEX High Incline Dumbbell Curl 0/0.621/1.472/2.432秒全身示范，对照靠背与双足支撑；OPEX低位为中立握并旋转，未当固定反握依据。雕塑保持约60°斜凳、上臂稳定，肘约8–117°，不复制示范者峰值抬肘。男女五视角和原成片已实际查看，现有屈肘与回程完整，保留媒体。",
+  "crossChecks": [
+    {
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=WWeDtNbyDDk",
+      "accessedOn": "2026-10-31",
+      "observed": "实际查看全身四阶段0/0.621/1.472/2.432秒，头背靠垫、双足稳定；网页说明60度。握法从中立转反握，只用来补充支撑与靠背。"
+    },
+    {
+      "publisher": "Macros Inc",
+      "url": "https://macrosinc.net/exercises/arms/incline-dumbbell-curl/",
+      "accessedOn": "2026-10-31",
+      "observed": "实际阅读步骤1–6及提示：上臂下垂、肘不前摆、上背靠凳、完整回落。文字建议45度，作为倾角差异记录，不当唯一角度。"
+    }
+  ]
+}

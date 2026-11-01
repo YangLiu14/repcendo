@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "front_raise",
+  "exerciseId": "0310",
+  "status": "reviewed",
+  "specificationSHA256": "612a8d12b05953dcc2d4e23858acccf8c7953323e2d1bc211d76e4f75f102441",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=E-E0EqERFBg",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看完整重复及关键阶段；仅保存自写观察，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "直立双足约髋宽，双手正握，哑铃位于大腿前；双臂接近下垂。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.742s",
+      "observed": "双臂同时向前抬升，手背朝上、肘轻微弯曲，躯干保持直立。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.362s",
+      "observed": "双铃抬到约肩高，手臂朝前并基本平行；没有耸肩甩起。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.751s",
+      "observed": "双手沿原前向弧线控制下放，肘角基本保持；没有身体后仰。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用直立、双臂正握和肩高前举；动画低位预先前伸较多，需恢复接近大腿的准备位。雕塑与真人体型有差异，低位位置按真实网格校准，不从正面透视图推算精确三维角度。"
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "exercise": "squat",
+  "exerciseId": "0043",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "82ba8686bde66720bb909fe1472255d45d39a03434573b2cb6d6eb94773f17e0",
+  "variant": {
+    "equipment": "barbell",
+    "posture": "standing back squat",
+    "grip": "bilateral pronated outside shoulders",
+    "support": "both feet flat with slight toe-out"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=j-KDHkRMer0",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0s",
+      "observed": "杠铃放在上背，双手在肩外握住，双脚略宽于肩并外展。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.877876s",
+      "observed": "髋膝同步弯曲，臀部下降后移，膝盖跟随脚尖方向，足底保持接触。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.411209s",
+      "observed": "大腿下蹲到接近水平以下，胸部抬起，杠铃仍在上背而非颈部。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.877875s",
+      "observed": "从底部向上起身，髋膝同步伸展，杠铃随身体整体上升。"
+    }
+  ],
+  "decisions": "实际观察日期2026-10-31；项目保留适度深度的背蹲，重点审核足底接触、膝盖方向、上背杠位和下蹲时脊柱整体姿态，不要求复制示范者极限深度。",
+  "crossChecks": [
+    {
+      "publisher": "ACE",
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/11/back-squat/",
+      "locator": "Back Squat movement instructions",
+      "observed": "杠铃放在颈后上背，握距宽于肩；髋后坐、胸部抬起，脚压地并伸髋起身。"
+    }
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

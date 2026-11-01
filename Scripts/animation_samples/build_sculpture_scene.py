@@ -16,6 +16,8 @@ from library_exercises import LIBRARY_EXERCISES, LIBRARY_MUSCLES
 from library_motions import LibraryMotion
 from library_motions_v6 import LibraryMotionV6
 from library_motions_v7 import LibraryMotionV7
+from library_motions_v8 import LibraryMotionV8
+from library_motions_v9 import LibraryMotionV9
 from frame_plan_scene import fit as fit_plan_camera
 
 ALL_EXERCISES = {**EXERCISES, **PLAN_EXERCISES, **LIBRARY_EXERCISES}
@@ -36,6 +38,9 @@ P.add_argument("--view", choices=["motion", "front", "back"], default="motion")
 args = P.parse_args(sys.argv[sys.argv.index("--") + 1 :])
 if args.view == 'motion' and args.exercise in LIBRARY_EXERCISES:
     from motion_reference_gate import load_reference
+    load_reference(args.exercise)
+elif args.view == 'motion':
+    from plan_reference_gate import load_reference
     load_reference(args.exercise)
 collection = (
     "animation-library" if args.exercise in LIBRARY_EXERCISES else
@@ -307,7 +312,7 @@ if args.exercise == "squat":
 contact_errors = []
 length_errors = []
 pose_records = []
-extension = ((LibraryMotionV7(globals()) if LIBRARY_EXERCISES[args.exercise].get("audit_version") == 7 else LibraryMotionV6(globals()) if LIBRARY_EXERCISES[args.exercise].get("audit_version") == 6 else LibraryMotion(globals())) if args.exercise in LIBRARY_EXERCISES else
+extension = ((LibraryMotionV9(globals()) if LIBRARY_EXERCISES[args.exercise].get("audit_version") == 9 else LibraryMotionV8(globals()) if LIBRARY_EXERCISES[args.exercise].get("audit_version") == 8 else LibraryMotionV7(globals()) if LIBRARY_EXERCISES[args.exercise].get("audit_version") == 7 else LibraryMotionV6(globals()) if LIBRARY_EXERCISES[args.exercise].get("audit_version") == 6 else LibraryMotion(globals())) if args.exercise in LIBRARY_EXERCISES else
              PlanMotion(globals()) if args.exercise in PLAN_EXERCISES else None)
 
 
@@ -361,7 +366,10 @@ def pose(f):
         BAR.rotation_euler.x = -(0.20 + 0.35 * d) if args.exercise == "squat" else 0
         BAR.keyframe_insert("rotation_euler", frame=f)
     elif not static:
-        handle = Vector((0, 0.505 - 0.215 * d, 0.94 - 0.085 * d))
+        # NASM close-grip reference: extend forward, then draw to the abdomen.
+        # Account for the two meshes' arm spans without stretching either rig.
+        reach = 0.552 if args.sex == "male" else 0.543
+        handle = Vector((0, reach * (1 - d) + 0.16 * d, 0.96 - 0.175 * d))
         HANDLE.location = handle
         HANDLE.keyframe_insert("location", frame=f)
         a = handle + Vector((0, 0.09, 0.10))
@@ -406,7 +414,7 @@ def pose(f):
             ankle = Vector((s * 0.17, 0.60, 0.275))
             goal = handle + Vector((s * 0.085, 0, 0))
             hand_dir = Vector((0, 1, 0))
-            epole = Vector((s * 0.52, -0.42, 0.89))
+            epole = Vector((s * 0.51, -0.35, 0.75))
             kpole = Vector((s * 0.18, 0.25, 1.0))
             footR = rx(math.radians(25))
         knee = ik(hj, ankle, L[s, "thigh"], L[s, "shin"], kpole)
@@ -604,7 +612,8 @@ if args.view == "motion":
         bm.to_mesh(character.data)
         bm.free()
         character.data.update()
-    if extension and extension.config.get("contact_recipe") == "preserve_thickness":
+    if extension and (extension.config.get("contact_recipe") == "preserve_thickness"
+                      or (args.sex == "male" and args.exercise == "pushdown")):
         from grip_surface import refine_cavity
         checks["grip_surface_refinement"] = refine_cavity(character, extension.grips, extension.SIDES)
     checks["contact_corrective"] = (
@@ -675,6 +684,9 @@ elif args.preview or args.view != "motion":
     )
     bpy.ops.render.render(write_still=True)
 else:
+    if args.exercise not in LIBRARY_EXERCISES:
+        from plan_reference_gate import require_pass
+        require_pass(args.sex, args.exercise, root=args.output_root)
     if args.exercise != "squat":
         from collision_audit import audit_scene
         from deformation_gate import require_deformation_pass

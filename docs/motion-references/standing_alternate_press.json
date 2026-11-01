@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "standing_alternate_press",
+  "exerciseId": "0414",
+  "status": "reviewed",
+  "specificationSHA256": "1371e48a13922a07cdce5901f659957ebd1e795e958ca7931db97ff50f225b15",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Gustie Strength",
+      "url": "https://www.youtube.com/watch?v=C7tFlxDYozg",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "1.199999s",
+      "observed": "站立、两铃肩旁正握，双脚着地。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.999998s",
+      "observed": "右臂单独上推，左铃留肩旁，躯干未随之转动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "2.799997s",
+      "observed": "右臂近伸直头顶，左臂等待；视频裁掉了顶部部分铃片，肘、腕与全身仍可见。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "4.399995s",
+      "observed": "右铃接近回肩；5.599994与5.999993秒看到左侧推起、右侧回肩等待，完整换侧。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用一侧完成上推和回落后再换侧、等待侧肩旁固定。参考右侧先做，项目左侧先做是循环镜像。顶部铃片轻微裁切不用于判断器材间隙，项目五视角全物体单独检查。",
+  "crossChecks": [
+    {
+      "publisher": "[P]rehab",
+      "url": "https://theprehabguys.com/vimeo-video/alternating-overhead-press-dumbbell/",
+      "locator": "Exercise notes HOW and COMPENSATION",
+      "observed": "实际读取：站姿双铃肩前，一手推起后控制回落再换侧；等待侧稳定，避免腰部过伸和摆动借力。"
+    }
+  ]
+}

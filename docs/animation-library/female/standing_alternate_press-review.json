@@ -2,7 +2,9 @@
   "sceneSHA256": "dd05910f424c4487b453974d463dbfd5ac866bb1957b2ce066ed2540274a8224",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -16,8 +18,54 @@
   "status": "accepted",
   "notes": "实际查看五视角完整交替关键阶段：左右抬臂时肩腋轮廓连续，肘腕和握柄对齐，非工作侧稳定；腿部不随抬臂扭转，坐姿背垫及足底支撑保持。",
   "evidence": {
-    "docs/animation-library/female/standing_alternate_press-review.jpg": "6966a419862b5d3806c40fab11750ff55b80b932797c5bb23943e1474e029e25"
+    "docs/animation-library/female/standing_alternate_press-review.jpg": "de4b056238615e6d27e07cb70c0547eca55318d011d71952dd246802de55ff43",
+    "build/motion-reference-review-2026-10-31/boards/standing_alternate_press.jpg": "0c36232a4fc8a9de5da59a883cf38e3b7a58ca1717cf19ba7dfb822d201de8ba"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "e04d8881cc1d4584215968f2ba6e6eb7ad78e51f01c7c21414fc474f059283c3",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看八阶段成片与新增25/73帧后的五视角六阶段图，左右轮替、等待侧肩旁、掌心朝前及足底/躯干稳定均与真人及 Prehab 要点一致。项目较参考更慢，先左后右；保持现有视频。",
+    "evidence": {
+      "docs/animation-library/female/standing_alternate_press-review.jpg": "de4b056238615e6d27e07cb70c0547eca55318d011d71952dd246802de55ff43",
+      "build/motion-reference-review-2026-10-31/boards/standing_alternate_press.jpg": "0c36232a4fc8a9de5da59a883cf38e3b7a58ca1717cf19ba7dfb822d201de8ba"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "1.199999s",
+        "frame": 1,
+        "notes": "两侧肩旁正握，固定站姿。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.999998s",
+        "frame": 25,
+        "notes": "左侧上推、右侧等待，无腰背借力。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "2.799997s",
+        "frame": 49,
+        "notes": "左侧头顶近直；145帧检查右侧顶点。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "4.399995s",
+        "frame": 73,
+        "notes": "左侧回落，97帧复位再换侧。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

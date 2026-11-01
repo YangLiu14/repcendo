@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "5a4b5f20a927152b20de5409fea5f0817180f0b5463ff80590222aa92eb78839",
+  "sceneSHA256": "0f9a97e67f84006b77b84550deac6f811b9995caf2d589a0bb56348d8d617db5",
   "frames": [
     1,
     49,
@@ -18,10 +18,52 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "实际查看所有五视角关键阶段，含佐特曼73/85/169/181旋转阶段；跨体弯举肘肩连续，佐特曼前臂旋转未扭瘪，握持和腕部稳定，站姿小腿膝踝无异常。",
+  "notes": "实际查看八阶段五视角图，和OPEX旋后上举/顶端旋前/反握回落的完整顺序对照。上臂已回到身侧，顶端屈肘约110度，73/85/97帧展示顶端翻转，169/181帧展示底端恢复。手腕与前臂连贯，未见明显穿插、躯干摆动或肘塌陷。",
   "evidence": {
-    "docs/animation-library/female/zottman_curl-review.jpg": "0d7a726d03d4e7d22e6b956880ebf31a536ce42aa22d179300b679ce62189c1d"
+    "docs/animation-library/female/zottman_curl-review.jpg": "e68ee442ab8f1106d24c8c41f46de5cd9760147479186e217c9e932d870cd03d"
   },
-  "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "cc66696e961c7fe77edce57219df10e0a85a45a5263e93adc8c0481534be0fe7",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看八阶段五视角图，和OPEX旋后上举/顶端旋前/反握回落的完整顺序对照。上臂已回到身侧，顶端屈肘约110度，73/85/97帧展示顶端翻转，169/181帧展示底端恢复。手腕与前臂连贯，未见明显穿插、躯干摆动或肘塌陷。",
+    "evidence": {
+      "docs/animation-library/female/zottman_curl-review.jpg": "e68ee442ab8f1106d24c8c41f46de5cd9760147479186e217c9e932d870cd03d"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "双手髋旁旋后握，肘微弯。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.700s",
+        "frame": 49,
+        "notes": "旋后握屈肘，双臂同步。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.499999s",
+        "frame": 73,
+        "notes": "完整屈肘到肩前；85/97继续审核顶端转为反握。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.899998s",
+        "frame": 145,
+        "notes": "反握回落；169/181审核低位恢复握法。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31"
 }

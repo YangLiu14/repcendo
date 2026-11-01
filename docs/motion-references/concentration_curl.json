@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "exercise": "concentration_curl",
+  "exerciseId": "0297",
+  "status": "reviewed",
+  "specificationSHA256": "09fb732b1531316ced722e08aaf89d494bf6ac8d6f89bcb18452681c7528d23e",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "supinated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=Xc47YLxFftQ",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际操作公开播放器查看真人阶段，仅记录自写观察和链接/时间码，不下载、提取姿态、训练或再分发真人媒体。不声称取得第三方媒体生成许可。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "3.006s",
+      "observed": "坐凳前部，双脚分开着地、躯干前倾；左上臂抵靠左大腿内侧，旋后持铃在膝下方，右前臂搭在右大腿上，右手自然垂在内侧。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "5.006s",
+      "observed": "左前臂向上屈肘，左上臂仍抵靠大腿内侧；无躯干后摆。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "7.506s",
+      "observed": "左铃近左肩前，左前臂接近竖直，上臂接触位置未变；右前臂仍搭在右大腿，右手自然下垂。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "9.006s",
+      "observed": "左铃控制回落，保持旋后握、固定上臂和腿部支撑，双脚稳定。"
+    }
+  ],
+  "reviewer": "Codex actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01",
+  "decisions": "采用左侧近镜头负重手，完成单侧一轮，另一侧不持铃；上臂与大腿接触需要独立表面检查及多视角复核，不以骨骼坐标推定接触。 原创示范采用25–118度屈肘循环作为此角色工程包络，不是生理极限；左右腿保持落地、凳面支撑，上臂固定，空手腕部采用自然过渡并检查不超过50度的示范限制。男女上臂位置分别适配，源视频本身不提供精确关节角度。 再次实际查看9.006秒，确认空闲侧是右前臂搭腿、右手垂在内侧，采用前臂支撑而不是手掌撑腿。"
+}

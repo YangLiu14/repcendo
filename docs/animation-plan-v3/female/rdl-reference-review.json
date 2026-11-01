@@ -1,0 +1,52 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "65531af08e3370fd7ccf3406ac8ee92df903886a4df3802400650ac31093dfb5",
+  "referenceSHA256": "ae1b006abf9de32c63974b798a0cec69755e72162bd73958d5339f8e5973fea6",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女实看主正侧背及去器械人体四阶段。髋后移与躯干前倾配合、膝维持轻屈，不再明显下蹲。双臂以承重垂下为主、杠沿腿前降至膝下，肘腕未发生旧版的尖锐扭折。足底位置固定，回立不额外后仰。对照NASM持杠重复通过。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/rdl.jpg": "8543f7037bfaf0d9656499e5355252abc5e617d23458acd4288f9c6ee219d4ce",
+    "docs/animation-plan-v3/deformation-review/female/rdl.jpg": "65c9111df226a269bd42b2c0e9b75723d04b8c15cc7e0dd656bd40fbab5ec86c"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:05.706",
+      "frame": 1,
+      "notes": "持杠站姿、双足固定、膝轻屈。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:06.706",
+      "frame": 31,
+      "notes": "髋向后、躯干前倾，膝角变化较小。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:07.608",
+      "frame": 61,
+      "notes": "杠至膝下，背形保持，双臂未主动弯举。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:08.608",
+      "frame": 91,
+      "notes": "伸髋回立，杠沿腿前上升，足底不滑动。"
+    }
+  ]
+}

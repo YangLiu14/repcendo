@@ -85,7 +85,7 @@ def inspect(scene, config, frames):
             shoulder,elbow,wrist=[Vector(x) for x in positions[:3]]
             palm=(rig.matrix_world.to_3x3()@(hand.matrix@hand.bone.matrix_local.inverted()).to_3x3()@Vector((0,-1 if side=='Left' else 1,0))).normalized()
             if family=='kickback':intended=Vector((-s,0,0))
-            elif family=='bent_lateral':intended=Vector((0,0,-1))
+            elif family=='bent_lateral':intended=Vector((-s*math.cos(math.radians(elev)),0,-math.sin(math.radians(elev))))
             else:intended=Vector((0,v.z,-v.y)).normalized()
             intended=(intended-v*intended.dot(v)).normalized()
             palm_dot=palm.dot(intended)
@@ -97,13 +97,18 @@ def inspect(scene, config, frames):
             peak=f==1+scene.frame_end//2;low=f in (1,scene.frame_end+1)
             if family=='kickback':
                 if np.linalg.norm(positions[1]-first['arm:'+side][1])>1e-4:fail('kickback_elbow_moved',frame=f,side=side)
-                if u.y>-.8:fail('upper_arm_not_back',frame=f,side=side)
+                # Selected kickback references keep the humerus close to the torso.
+                # This 25-degree yaw envelope is an authored limit, not human ROM.
+                yaw=math.degrees(math.atan2(abs(u.x),-u.y))
+                if not 0<=yaw<=25:fail('kickback_upper_arm_flared',frame=f,side=side,yaw=yaw)
+                if u.y>-.9:fail('upper_arm_not_back',frame=f,side=side)
                 if (low and not 80<=flex<=100) or (peak and not 3<=flex<=16):fail('extension_range',frame=f,side=side,flex=flex)
             elif family=='bent_lateral':
                 if not 80<=flex<=100:fail('bent_arm_angle',frame=f,flex=flex)
                 if peak and not (80<=elev<=100 and abs(u.x)>.95):fail('bent_lateral_peak',frame=f)
             elif family=='overhead_raise':
                 if flex>20:fail('raise_elbow_bent',frame=f)
+                if low and elev>25:fail('overhead_raise_pre_raised_rest',frame=f,elevation=elev)
                 if peak and not (elev>155 and wrist.z>shoulder.z+.40):fail('missing_overhead_range',frame=f)
                 if f==1+scene.frame_end//4 and u.y<.8:fail('not_front_plane',frame=f)
             else:

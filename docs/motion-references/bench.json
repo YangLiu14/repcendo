@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "exercise": "bench",
+  "exerciseId": "0025",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "95a9a6b8259dbd78dd46ba46f3aa938fe6d51839ea6d7a69302415f6d5bb31b7",
+  "variant": {
+    "equipment": "barbell and flat bench",
+    "posture": "supine",
+    "grip": "bilateral pronated wider than shoulders",
+    "support": "head upper back pelvis on bench; both feet on floor"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "National Academy of Sports Medicine (NASM)",
+      "url": "https://www.youtube.com/watch?v=CayG6UYqL8g",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "2.999989s",
+      "observed": "双足平踏地面，头、上背和臀部稳定支撑，双手正握杠铃，手臂伸至胸上方。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "3.999988s",
+      "observed": "杠铃受控下落向胸部，双肘向侧下方屈曲，前臂保持接近竖直。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "4.999987s",
+      "observed": "杠铃到胸部上方低点，肩部未离凳，手腕仍在肘上方。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "5.999986s",
+      "observed": "双臂向上伸展推回，杠铃向肩上方回到起始高度；6.999985s近景确认正握和腕线。"
+    }
+  ],
+  "decisions": "保留平凳正握双臂卧推；四阶段按高位、下放、低位、推回配对。参考使用带杠架平凳，项目演示重复本身，不包含取放杠步骤。",
+  "crossChecks": [
+    {
+      "publisher": "NASM",
+      "url": "https://www.nasm.org/resource-center/exercise-library/barbell-bench-press",
+      "locator": "Steps 1–4",
+      "observed": "双脚稳定、肩胛后收，受控下放至胸上并向上推举。"
+    }
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

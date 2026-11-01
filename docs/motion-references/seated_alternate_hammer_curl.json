@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_alternate_hammer_curl",
+  "exerciseId": "1648",
+  "status": "reviewed",
+  "specificationSHA256": "21aa829e4d519aa3c24d8d12b4ae62a20e4763930aa4260abf0c9cf23044b748",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "The Queen of Lean",
+      "url": "https://www.youtube.com/watch?v=qI7fKreMp_0",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    },
+    {
+      "id": "seated_support",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=4hKyhFBeclI",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "已实际查看公开播放器的0、0.667、1.335、2.669秒双臂坐姿示范，仅补充平凳坐骨与足底支撑，不作为交替时序的证据，不下载或再分发。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "3.183s",
+      "observed": "坐姿双臂在体侧下垂，掌心相对，两铃在髋旁。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "3.683s",
+      "observed": "一侧开始屈肘，另一侧保持低位中立握；躯干保持竖直。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "4.775s",
+      "observed": "该侧哑铃接近肩前，掌心仍朝内，上臂不随哑铃抬高。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "5.441s",
+      "observed": "该侧哑铃受控下放，另一侧继续等待；6.366秒双铃回到低位，7.958秒另一侧达到高位。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用坐姿、中立握、单侧完成后换侧的时序。来源使用竖直靠背，项目使用平凳，需独立确认无靠背下躯干、坐骨和脚底稳定；来源脚部局部出框，不作为足底接触证据，补充 OPEX 坐姿双臂锤式的支撑参考。保留项目原创八秒循环，不复制示范节奏。"
+}

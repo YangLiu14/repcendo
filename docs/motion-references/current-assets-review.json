@@ -1,0 +1,2157 @@
+{
+  "schemaVersion": 1,
+  "startedOn": "2026-10-31",
+  "scope": {
+    "exercises": 66,
+    "variants": 132
+  },
+  "status": "complete",
+  "exercises": [
+    {
+      "exercise": "squat",
+      "exerciseId": "0043",
+      "title": "杠铃深蹲",
+      "collection": "samples",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/squat.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-samples-v2/male/squat.blend",
+          "sceneSHA256": "d81dce4585b29e28836a9e65aa41f19786af0fa9e9f60982f4184a75750f7f4e",
+          "video": "Repcendo/Resources/ExerciseAnimations/0043-male.mp4",
+          "videoSHA256": "b73937fb11f30468917fd49b5318577e45327a426f14682c3bf59db29bb7bc13",
+          "posterSHA256": "8d1c254f24fdae67427c607ecad0a7a33631b0caa5d6726b8636aa830a2c6dc0",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "d81dce4585b29e28836a9e65aa41f19786af0fa9e9f60982f4184a75750f7f4e",
+          "currentVideoSHA256": "b73937fb11f30468917fd49b5318577e45327a426f14682c3bf59db29bb7bc13"
+        },
+        "female": {
+          "scene": "docs/animation-samples-v2/female/squat.blend",
+          "sceneSHA256": "ad2d9ab489de91c7a705dd47c7d73b2edad74c683ae2a65bbc04d20c8739381c",
+          "video": "Repcendo/Resources/ExerciseAnimations/0043-female.mp4",
+          "videoSHA256": "06bb1b40d8441489de6aa571214dd526093226a29853f38db18c5e327bec482b",
+          "posterSHA256": "fb68b561516ed3ef85d73dc0213df6b2176c835c991143d70878b04da3789197",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "ad2d9ab489de91c7a705dd47c7d73b2edad74c683ae2a65bbc04d20c8739381c",
+          "currentVideoSHA256": "06bb1b40d8441489de6aa571214dd526093226a29853f38db18c5e327bec482b"
+        }
+      }
+    },
+    {
+      "exercise": "bench",
+      "exerciseId": "0025",
+      "title": "杠铃卧推",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/bench.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-samples-v2/male/bench.blend",
+          "sceneSHA256": "d85586410704a3806682dbe489761b39e9413e53969d6e56e7c0b8d1a40d61db",
+          "video": "Repcendo/Resources/ExerciseAnimations/0025-male.mp4",
+          "videoSHA256": "4a82453d05fec004263f1f3713abb5c7e005c5c45f38f0fb36eeb9438955de96",
+          "posterSHA256": "f960015ba4486bf0f22e339be5a238806f96806c4b16f914abe32ec791a18a17",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "d85586410704a3806682dbe489761b39e9413e53969d6e56e7c0b8d1a40d61db",
+          "currentVideoSHA256": "4a82453d05fec004263f1f3713abb5c7e005c5c45f38f0fb36eeb9438955de96"
+        },
+        "female": {
+          "scene": "docs/animation-samples-v2/female/bench.blend",
+          "sceneSHA256": "08affeab6c57f03c379a1d412d31032956bdd91e667c473f84d3ed7d7026ab09",
+          "video": "Repcendo/Resources/ExerciseAnimations/0025-female.mp4",
+          "videoSHA256": "9f73531cccc3a0e09378a879b549d9636baa595e465739f0781f54002e188d70",
+          "posterSHA256": "4cc16be394362066f9803c37042c5cb68e87f93b2146f2bc54bd39c382e7b615",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "08affeab6c57f03c379a1d412d31032956bdd91e667c473f84d3ed7d7026ab09",
+          "currentVideoSHA256": "9f73531cccc3a0e09378a879b549d9636baa595e465739f0781f54002e188d70"
+        }
+      }
+    },
+    {
+      "exercise": "row",
+      "exerciseId": "0861",
+      "title": "坐姿绳索划船",
+      "collection": "plan",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/row.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-samples-v2/male/row.blend",
+          "sceneSHA256": "4e9d0d2e22d5c04978abacd7882f66a76c636372ea2c10372b792f11c8dfdf53",
+          "video": "Repcendo/Resources/ExerciseAnimations/0861-male.mp4",
+          "videoSHA256": "c00ab2f040c934bd5eacacec6d71b382fd035954076ae65eba28adfe4b775474",
+          "posterSHA256": "7069068328bdd221036183640e50f0d2eac8961653ea1b647c599462ee523a7e",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "02cc46bdc6005c5cc5f1644e251bc9b1b9b72e88a267f2017e06db52e03daf3d",
+          "currentVideoSHA256": "7effb4c5c99cf2b2e28acf46c283ad57e719c9f92c993eec1d558af5cf553107"
+        },
+        "female": {
+          "scene": "docs/animation-samples-v2/female/row.blend",
+          "sceneSHA256": "797608dcce35fb9fc8cb8e6a454575a7d3fcf014bc752ed7a05148548840bbec",
+          "video": "Repcendo/Resources/ExerciseAnimations/0861-female.mp4",
+          "videoSHA256": "37b184dfe25e2c16f0ddead78a1476146224cb57ea790b25ad2b528c21106cd4",
+          "posterSHA256": "97668976eadeb6bc2f7a4cc8e57615574ce9c5d34744a6ed25dc0c6e66f1fc67",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "a9ee88fde6ea70441e4e52b97d9fa8213d45ed81dedf1c3c727d6b6d64772211",
+          "currentVideoSHA256": "21937044438c1ad33d389bd564390991c7f41408f629f6d74a5253ddbb444c75"
+        }
+      },
+      "initialConcern": "主镜头初查：上臂偏高，拉向胸上部，需确认0861中立握低位绳索划船的肘路径与手位。未按真人参考批准。",
+      "backup": "build/motion-reference-review-2026-10-31/before-plan-reference-repair",
+      "repairSummary": "延长起点前伸并将握把拉向腹部，保持骨盆稳定。"
+    },
+    {
+      "exercise": "incline_press",
+      "exerciseId": "0314",
+      "title": "上斜哑铃卧推",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/incline_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/incline_press.blend",
+          "sceneSHA256": "1dfe5cfb987c1f79ed08d109fb36b90c82e36d74bed56bd9ecdc02a341f7d001",
+          "video": "Repcendo/Resources/ExerciseAnimations/0314-male.mp4",
+          "videoSHA256": "8ad36f0a6517b82b418111f27a8a099172f22e30aec3aaed3795a2fc582e2c59",
+          "posterSHA256": "b792e6a5774e4b1b958c80395ba127f003afbaeeb431563e82c218ff6f70cbd0",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "1dfe5cfb987c1f79ed08d109fb36b90c82e36d74bed56bd9ecdc02a341f7d001",
+          "currentVideoSHA256": "8ad36f0a6517b82b418111f27a8a099172f22e30aec3aaed3795a2fc582e2c59"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/incline_press.blend",
+          "sceneSHA256": "006412ff6a3436e24210f7d3fc6510ab2b17ea5beaefb5fa7ae1c5a0199d8c14",
+          "video": "Repcendo/Resources/ExerciseAnimations/0314-female.mp4",
+          "videoSHA256": "a7612c9511e39cf01ce68d4a3e9c79580cebfa8c458677f7245b1d0848b455d4",
+          "posterSHA256": "2e13c580d7daf58c48b7080b90cb8c6dac1ba77cf7bf1fd96a66b0176c2f79ca",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "006412ff6a3436e24210f7d3fc6510ab2b17ea5beaefb5fa7ae1c5a0199d8c14",
+          "currentVideoSHA256": "a7612c9511e39cf01ce68d4a3e9c79580cebfa8c458677f7245b1d0848b455d4"
+        }
+      }
+    },
+    {
+      "exercise": "pec_fly",
+      "exerciseId": "0596",
+      "title": "蝴蝶机夹胸",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/pec_fly.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/pec_fly.blend",
+          "sceneSHA256": "4e03639a4d694fa4af5398d88a134c607eec869301b5bd8604ddbdee537c94ba",
+          "video": "Repcendo/Resources/ExerciseAnimations/0596-male.mp4",
+          "videoSHA256": "d7c336677f100db066b17791851ad446d1e69e265a209f9f7ed34bab8e530e19",
+          "posterSHA256": "7ea20be935d02261f70ab74e1999d3be45617d796bbac80f1073b446c08c200e",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "4e03639a4d694fa4af5398d88a134c607eec869301b5bd8604ddbdee537c94ba",
+          "currentVideoSHA256": "d7c336677f100db066b17791851ad446d1e69e265a209f9f7ed34bab8e530e19"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/pec_fly.blend",
+          "sceneSHA256": "3b0b9330ad1a88f32a26fe172100a21fd1da1ed9532cd7747a788e70c905ef1b",
+          "video": "Repcendo/Resources/ExerciseAnimations/0596-female.mp4",
+          "videoSHA256": "2a018dc418240da8ada8734138b9f126339689cce1cb0590c8ad1cff5c73ffc9",
+          "posterSHA256": "57ea64a61d704b1ea6e768613b6e5ae8c3e5b318925513fc4d32fef4e3896b50",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "3b0b9330ad1a88f32a26fe172100a21fd1da1ed9532cd7747a788e70c905ef1b",
+          "currentVideoSHA256": "2a018dc418240da8ada8734138b9f126339689cce1cb0590c8ad1cff5c73ffc9"
+        }
+      }
+    },
+    {
+      "exercise": "pushdown",
+      "exerciseId": "0200",
+      "title": "绳索三头下压",
+      "collection": "plan",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/pushdown.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/pushdown.blend",
+          "sceneSHA256": "6f537848955e57ee36ded60e912a3385e9e5244395d1979621035f6c874f7dec",
+          "video": "Repcendo/Resources/ExerciseAnimations/0200-male.mp4",
+          "videoSHA256": "eaa1bc4cb5464efe288852c0b6810dcbc147a61aade8db1c4db0f7f34efd0026",
+          "posterSHA256": "46c1a9763e8dfa55111b4d0f4156e00495f06443d8729d7a3118aef495ea0004",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "c396c720f0194d7bf0e60e66e6e0b1020fab376239309234e455b572fbc22855",
+          "currentVideoSHA256": "883a4f9ee14297a1ddac217508b1d56c74ff64d671c1a6490187650edba01917"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/pushdown.blend",
+          "sceneSHA256": "9eb53d62ea38f95dbc949c58c03c3cb4023173b5414af3b235fdeca8cc47160b",
+          "video": "Repcendo/Resources/ExerciseAnimations/0200-female.mp4",
+          "videoSHA256": "972b4f12c03f7741d7b2762a234350a40c97e8050ca11535fb8a9ab9d41f601f",
+          "posterSHA256": "f29fd2287fa201967c0b3165828e6612b5aa048265fd32b92645ba828f345ff3",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "2a39e0f4f97a1c6a8f8a947d365f482ca0fef7db20fd044225e75127dafd9b6c",
+          "currentVideoSHA256": "06d484dcf2864e3d8772a90a2b877e59492abc96869486107109cfe831314ec8"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-plan-reference-repair",
+      "repairSummary": "改为中立绳握、固定上臂与完整伸肘；细化男性食指握杆接触曲面，消除6帧约3.1毫米穿模，保留2毫米容差。"
+    },
+    {
+      "exercise": "cable_crunch",
+      "exerciseId": "0175",
+      "title": "跪姿绳索卷腹",
+      "collection": "plan",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/cable_crunch.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/cable_crunch.blend",
+          "sceneSHA256": "a76e31b32b35716f4d7eb6b7a8371bc97b50b17f1865566a5d2ee8f421d39b06",
+          "video": "Repcendo/Resources/ExerciseAnimations/0175-male.mp4",
+          "videoSHA256": "1713127d704727ed377e3a654ed31d87e174441855429c43c87a951a69a7696e",
+          "posterSHA256": "8ebbafffd9789f8f1ff9fa287d712911768acf5d3683d8435ebf6a1f1389f317",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "ebc0bb948d012ae77281bf3d921fdf7016d91d6a18ea08f39a9a149917214c37",
+          "currentVideoSHA256": "ce46ec782912ce6e89fbed45241edd6a9504023df439d91c5ef24d2c8daae122"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/cable_crunch.blend",
+          "sceneSHA256": "6e8e60d6f91e0daae05eaf34ab9c155174d76791afdbab35664437287522dab9",
+          "video": "Repcendo/Resources/ExerciseAnimations/0175-female.mp4",
+          "videoSHA256": "1be490fc9156ffb7dd3c4e4e1c7b2d9cbb226ad2a966d49e52e9671a72eaa4b0",
+          "posterSHA256": "c0e6bfe9d88e82b0fb310ddb2aa8cb60357d6650a23a1d7eb96897dd83b05baa",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "77486c3b1e77a5c0961c9984648d06958a33a5ab91fffef3606f1396e0aee91f",
+          "currentVideoSHA256": "b69f402a2fc44806e2c9abd219f6becfabdc62dd3437a37d8aa6bcb92270f17e"
+        }
+      },
+      "initialConcern": "手持绳端在脸前较远处，躯干主要俯身，需真人侧视确认卷曲与髋屈的比例及绳端手位。",
+      "backup": "build/motion-reference-review-2026-10-31/before-plan-reference-repair",
+      "repairSummary": "手保持靠近头部，增加胸椎卷曲幅度，保持骨盆和跪姿支撑稳定。"
+    },
+    {
+      "exercise": "pulldown",
+      "exerciseId": "2330",
+      "title": "高位下拉",
+      "collection": "plan",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/pulldown.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/pulldown.blend",
+          "sceneSHA256": "e306e0479ccca8dddd3ca736b362ee1bd20b1aff8c6a1d4459b44c10c46405b7",
+          "video": "Repcendo/Resources/ExerciseAnimations/2330-male.mp4",
+          "videoSHA256": "bcbe8f397abd69a2665a673d3aff0ad563d1f76eada49191af3c21af2284229c",
+          "posterSHA256": "347c032e76e6282d49d93a19addd490e03aa4f6213ba2ff8e861c204776465c6",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "2e1fed7edb8d963a0be7340edc35b2a13a25fc903e5b701cb9aa531a8a4230c1",
+          "currentVideoSHA256": "70ea339241d0fa1c64fb54dada59e02eb990312b74f4f2782efffcf30cde2c15"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/pulldown.blend",
+          "sceneSHA256": "851307697bea7e41d5857f3b8d3d149efffb69f13ddc9d4c491f2c6c4fec58c4",
+          "video": "Repcendo/Resources/ExerciseAnimations/2330-female.mp4",
+          "videoSHA256": "0779fec0439417f5fbcc0dab53a34e69c830a3be97712cfbf3fb3f4a549ea3ea",
+          "posterSHA256": "f99e8487a506430c050a34af8366e567ad869b1824831274411471fcdbf9c515",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "4f10e5a11573b8f7f58a84b98868453517b081dd9105920903669b1ac21450d3",
+          "currentVideoSHA256": "3a606b5ecd3e4cc638904f145d3b704be5c57e0796480967fc675db85c2fd356"
+        }
+      },
+      "initialConcern": "主镜头低位看似颈后，必须增加侧面确认杠在身前、肩胛与肘路径。",
+      "backup": "build/motion-reference-review-2026-10-31/before-plan-reference-repair",
+      "repairSummary": "按两侧臂长共同求解高位横杆，两肘起点约22°软伸直，消除左右行程不一致。"
+    },
+    {
+      "exercise": "straight_pulldown",
+      "exerciseId": "0238",
+      "title": "绳索直臂下拉",
+      "collection": "plan",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/straight_pulldown.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/straight_pulldown.blend",
+          "sceneSHA256": "4aa1680fd838b662859e8cd05982cd1045d40defd3a8eabd0b2240561fcf65fb",
+          "video": "Repcendo/Resources/ExerciseAnimations/0238-male.mp4",
+          "videoSHA256": "a9e0741c4f8e25b1ca36cb7e81fc2d75328b6d3a8e63d7cc1413550c20305cd1",
+          "posterSHA256": "76065e8e4ac578cea6ec8a634022dff3c9db6691d4eaabe42fc7c485c1947ac5",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "acfb0b26a7f4b68d0c89e460a75d486f80ad6b6114e6ef7557ee814bfa394cfc",
+          "currentVideoSHA256": "2ab92c7d330d065ab642f43b953c583c26acf44172e0110e5035ea3e9b9c3c87"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/straight_pulldown.blend",
+          "sceneSHA256": "0b35e874507e1170fe4efebed73046a6a538ca03691c0c478a798b197844ebf6",
+          "video": "Repcendo/Resources/ExerciseAnimations/0238-female.mp4",
+          "videoSHA256": "2bd360e3d545b9e86bc6823d100f4271f367b80718c65e68ae783cfe2ee1ba29",
+          "posterSHA256": "3a859582de2affba1f685b2d256e6cbfbc6270b1726dac43c610584c60935f94",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "bf9e282b1f11ac901133b85d32d46e80e069a51485dcf4406b28571eefbe003d",
+          "currentVideoSHA256": "3d97e9c18877b0e419d8ce9e46ccee77da08821169722d117212f7418f4acd3a"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-plan-reference-repair",
+      "repairSummary": "按两侧臂长共同求解横杆，保持约15°屈肘和稳定前倾，避免变成屈肘下拉。"
+    },
+    {
+      "exercise": "curl",
+      "exerciseId": "0294",
+      "title": "哑铃弯举",
+      "collection": "plan",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/curl.blend",
+          "sceneSHA256": "b3a3b439ea947352a99f10deebdb672a2156af00e4a096c56460d713edbffc45",
+          "video": "Repcendo/Resources/ExerciseAnimations/0294-male.mp4",
+          "videoSHA256": "a00e3cd2865d2c1feb3441e899d160991464802a08feaebea762bce80be42a39",
+          "posterSHA256": "1c3183cc659d903d1f673a5d9000bb1f30dc56a3cf6b7302bdb2e14ac014005a",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "caee7c6672f7fcc7336dd9e60304b38381f3257ba6e5d1d9087cdd736842bb0b",
+          "currentVideoSHA256": "61725a54d6d84102dada3a29ce5c2cfcc5dd23bd25bfb756215e4cfbc2af1d1f"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/curl.blend",
+          "sceneSHA256": "a492a61ea028e2733140ac525fee8dfa87f0343202d6c0b0b5f749fc9ab08de8",
+          "video": "Repcendo/Resources/ExerciseAnimations/0294-female.mp4",
+          "videoSHA256": "0bbfb65fca88fdbe4fdb953688f39a1c394a6236839ddfd63099008ee02f8ecb",
+          "posterSHA256": "6bc142cbdea277cb5d711403682fb6e9adc37a81b101d7ba929d676de2bfdb27",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "b076729044d4103f02753478d981a2681cdb78c4420cbe4f1ee3146b75062232",
+          "currentVideoSHA256": "230022de6f3f62f00a2d1e9288a043d679acdecb47b39aaa0033cc0528ab6af5"
+        }
+      },
+      "initialConcern": "低位上臂明显靠前、循环屈肘幅度小；列入旋后弯举参考修订候选。",
+      "backup": "build/motion-reference-review-2026-10-31/before-plan-reference-repair",
+      "repairSummary": "上臂靠近体侧，恢复18–110°屈肘与低位回程。"
+    },
+    {
+      "exercise": "leg_press",
+      "exerciseId": "0739",
+      "title": "45度腿举",
+      "collection": "plan",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/leg_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/leg_press.blend",
+          "sceneSHA256": "d411e85daa2d2513f2d8e4293b463377255ca13508c5dfb3db5f4fbbe4f50e0a",
+          "video": "Repcendo/Resources/ExerciseAnimations/0739-male.mp4",
+          "videoSHA256": "eb33bf10cdb6981be48231d53a72b040fe905b4f036b9ac621478937d195f8e7",
+          "posterSHA256": "01aeed284e583033e57dd2ae910c31e5cf3b0539d3b5f3156cc7d0daabbbaaee",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "10c5f6d20312a9decbb7e4f0364fe439bd838cc129b6f181269226ba52aaab62",
+          "currentVideoSHA256": "9f4fc6219009b921b720bbb5c3de6d47de0dee8207d6a57c6ec425f5df1666f4"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/leg_press.blend",
+          "sceneSHA256": "b26b8dc0e8b2ee83e68b07e67c3be7778baebcf81233919107f94b207ff5111f",
+          "video": "Repcendo/Resources/ExerciseAnimations/0739-female.mp4",
+          "videoSHA256": "47021e84e48635914789138bff5fadf1b454b7940fb04056705111ba845a5a6a",
+          "posterSHA256": "dd04f13a27ba1b9845ed4499cbcf74fe026bdd93e4762e3b9902112ef6c38fba",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "b5fbc03e8ceff09ab79d00ad42354092a7d7cbb3403d4b4af6b4974c03b2e138",
+          "currentVideoSHA256": "d32bbc9ce3dffcab8139e6a4594a2a9a9853ead91f6f0e65eed8794fad321ca7"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-plan-reference-repair",
+      "repairSummary": "按腿长求滑架顶点，改善过短行程，保持软膝、共同踏板与骨盆支撑。"
+    },
+    {
+      "exercise": "rdl",
+      "exerciseId": "0085",
+      "title": "杠铃罗马尼亚硬拉",
+      "collection": "plan",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/rdl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/rdl.blend",
+          "sceneSHA256": "953595e507e035cad70c3013b754ba15fb393ab30df6449e395a240551d01db2",
+          "video": "Repcendo/Resources/ExerciseAnimations/0085-male.mp4",
+          "videoSHA256": "dd721805bc73ec625723af3bf36f2e6292036c432476c09e61245f4ba30e3cc6",
+          "posterSHA256": "6bbc961e407c341d0241183c57689d2ebfa53a23a0fafa3ded35ca66bbbc059b",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "176f17dd27df20ef1f068a4198a8671d705a94dfbccc4612ce71514d0a31af9a",
+          "currentVideoSHA256": "9980850aa99edf94b9fb0b329e46f34fb8f03e7c98334b76b651bfc37a5199b7"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/rdl.blend",
+          "sceneSHA256": "d925340c697080a00e73dc5da4fcdcfa81d09eb751243f46343ce0365bb618ef",
+          "video": "Repcendo/Resources/ExerciseAnimations/0085-female.mp4",
+          "videoSHA256": "be8dc1635a814de40c3091ced8a502e04fa5375254524351a54a8c894b5526c3",
+          "posterSHA256": "cebabef8a2a009d02eb9cb535b4624d2780e584a29f8b7f216404ca1cd3eb397",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "65531af08e3370fd7ccf3406ac8ee92df903886a4df3802400650ac31093dfb5",
+          "currentVideoSHA256": "b42dcf3be3d7ed20043375db7df5a3310d04242c97f0e782b309d9cbed45ac0b"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-plan-reference-repair",
+      "repairSummary": "根据腿长和固定足位解算髋高，增加髋铰链，避免做成下蹲。"
+    },
+    {
+      "exercise": "leg_curl",
+      "exerciseId": "0599",
+      "title": "坐姿腿弯举",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/leg_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/leg_curl.blend",
+          "sceneSHA256": "1878778bb39948fb7098a975ee351cfa2d6c0dc480eeb98b72c116f46c5fa3da",
+          "video": "Repcendo/Resources/ExerciseAnimations/0599-male.mp4",
+          "videoSHA256": "c696262241fb1598babb47af7879f6f3b652fb923006e566eb55468376be3269",
+          "posterSHA256": "c265ba8e45e336ce2839db31de965bbca98aaa4f90e54e49cad0fba48a836df2",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "1878778bb39948fb7098a975ee351cfa2d6c0dc480eeb98b72c116f46c5fa3da",
+          "currentVideoSHA256": "c696262241fb1598babb47af7879f6f3b652fb923006e566eb55468376be3269"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/leg_curl.blend",
+          "sceneSHA256": "3a932a0cff6b4e7b8b8102dfdddebfd42e9fb6cf2e6444a533068926dcfe8d65",
+          "video": "Repcendo/Resources/ExerciseAnimations/0599-female.mp4",
+          "videoSHA256": "40d91eee8273801c51cd305e17736f5cb8f7a12cad100de45407d1019f36b8cd",
+          "posterSHA256": "87ad98eb9f1d490176d45e97a276880e9a8e4817b59c8e096a1258cb4a130696",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "3a932a0cff6b4e7b8b8102dfdddebfd42e9fb6cf2e6444a533068926dcfe8d65",
+          "currentVideoSHA256": "40d91eee8273801c51cd305e17736f5cb8f7a12cad100de45407d1019f36b8cd"
+        }
+      }
+    },
+    {
+      "exercise": "leg_extension",
+      "exerciseId": "0585",
+      "title": "坐姿腿屈伸",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/leg_extension.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/leg_extension.blend",
+          "sceneSHA256": "a32c1aa280c4d9878c3a2e725dad715ff80ae36b682637db4f20f07afc0cfa87",
+          "video": "Repcendo/Resources/ExerciseAnimations/0585-male.mp4",
+          "videoSHA256": "79c4fe3e694456962977b2311331a6262b8e4d8e79fd4d95b7a6493e9c532f93",
+          "posterSHA256": "438b44ae6de5f6a501566a72ea6585dc20b11553d81cdf3731234d7fcba561ae",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "a32c1aa280c4d9878c3a2e725dad715ff80ae36b682637db4f20f07afc0cfa87",
+          "currentVideoSHA256": "79c4fe3e694456962977b2311331a6262b8e4d8e79fd4d95b7a6493e9c532f93"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/leg_extension.blend",
+          "sceneSHA256": "666de886beab17eeb84191ec9ec58a6b6901bcf5afb7f0c1013dbdddaeb0faa2",
+          "video": "Repcendo/Resources/ExerciseAnimations/0585-female.mp4",
+          "videoSHA256": "8b69ca01ff2e65c2f797c362f89926828dbb4cf907a5e3814432b2ff93a2fecc",
+          "posterSHA256": "92c5a73be932864c311fc5653bcd88a3e1e4ca16797250dccc40256ab11f1772",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "666de886beab17eeb84191ec9ec58a6b6901bcf5afb7f0c1013dbdddaeb0faa2",
+          "currentVideoSHA256": "8b69ca01ff2e65c2f797c362f89926828dbb4cf907a5e3814432b2ff93a2fecc"
+        }
+      }
+    },
+    {
+      "exercise": "calf_raise",
+      "exerciseId": "0605",
+      "title": "器械站姿提踵",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/calf_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/calf_raise.blend",
+          "sceneSHA256": "41f4b795199e758040040fc464097795784f95d6a0de6302666fc0e1541f09c8",
+          "video": "Repcendo/Resources/ExerciseAnimations/0605-male.mp4",
+          "videoSHA256": "4e66860fa6036c22ff09acc6cecfa4a853bc18956b68dad49a15cfdccf45b58e",
+          "posterSHA256": "da06e160bd9982925ed2bba708e0935e97a94d3a892ebda1e2279942a0553e13",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "41f4b795199e758040040fc464097795784f95d6a0de6302666fc0e1541f09c8",
+          "currentVideoSHA256": "4e66860fa6036c22ff09acc6cecfa4a853bc18956b68dad49a15cfdccf45b58e"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/calf_raise.blend",
+          "sceneSHA256": "7f9400b0a80ee12312cba6ff5f3ce7d90757950ac19fb68ff06736a7d8d1d1c2",
+          "video": "Repcendo/Resources/ExerciseAnimations/0605-female.mp4",
+          "videoSHA256": "1d2f710e474c280806991ba48b857b844ecd81697d13fa8fe159890d81809170",
+          "posterSHA256": "97087397f02cf03476d9fe2834744356bea42eaae639271badb6a51c0a307460",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "7f9400b0a80ee12312cba6ff5f3ce7d90757950ac19fb68ff06736a7d8d1d1c2",
+          "currentVideoSHA256": "1d2f710e474c280806991ba48b857b844ecd81697d13fa8fe159890d81809170"
+        }
+      }
+    },
+    {
+      "exercise": "shoulder_press",
+      "exerciseId": "0405",
+      "title": "坐姿哑铃推举",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/shoulder_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/shoulder_press.blend",
+          "sceneSHA256": "d10e7e792fe62620e6c0c0a3a96916c63124681619ac74c6c726a4c8bb4357af",
+          "video": "Repcendo/Resources/ExerciseAnimations/0405-male.mp4",
+          "videoSHA256": "5ad5486f318697e84a2381ac739ae58828ca02fd99fc3b2e6ffe3ff4a8af77ec",
+          "posterSHA256": "f076e3382fe8ebb47d0a21a78355dd9a2a99f88effe8ff8c143cb02a67f9c4b0",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "d10e7e792fe62620e6c0c0a3a96916c63124681619ac74c6c726a4c8bb4357af",
+          "currentVideoSHA256": "5ad5486f318697e84a2381ac739ae58828ca02fd99fc3b2e6ffe3ff4a8af77ec"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/shoulder_press.blend",
+          "sceneSHA256": "9b75116faf638005059383526639f3319044a6ff2ca23dec1f7892b343354547",
+          "video": "Repcendo/Resources/ExerciseAnimations/0405-female.mp4",
+          "videoSHA256": "77387a3124ce8c0c80a067e5f6834ec8321bb77223701e53167e4c9cf70670d4",
+          "posterSHA256": "b0c30b8e41e315850882ddfda7f6182f876f9057dcaa4fa68111d645afeab3a1",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "9b75116faf638005059383526639f3319044a6ff2ca23dec1f7892b343354547",
+          "currentVideoSHA256": "77387a3124ce8c0c80a067e5f6834ec8321bb77223701e53167e4c9cf70670d4"
+        }
+      }
+    },
+    {
+      "exercise": "lateral_raise",
+      "exerciseId": "0334",
+      "title": "哑铃侧平举",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/lateral_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/lateral_raise.blend",
+          "sceneSHA256": "f8a1bbcbc31f82d91a127845ef4ea85bd3a8d24b4235c26c433c90c538d7f281",
+          "video": "Repcendo/Resources/ExerciseAnimations/0334-male.mp4",
+          "videoSHA256": "b1012b700516d65f627c7b81f1271a3f2c2853ddb5d86fa3aecabdc37c84c4f1",
+          "posterSHA256": "ed7116096649d4650e7c3525ba4fb24769b19330be546c6c5f22ae2dbfcda7db",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "f8a1bbcbc31f82d91a127845ef4ea85bd3a8d24b4235c26c433c90c538d7f281",
+          "currentVideoSHA256": "b1012b700516d65f627c7b81f1271a3f2c2853ddb5d86fa3aecabdc37c84c4f1"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/lateral_raise.blend",
+          "sceneSHA256": "3f44e7f1e119cc95691ac0c43971e0004b0760825582c636a9d26c2cb42fa7df",
+          "video": "Repcendo/Resources/ExerciseAnimations/0334-female.mp4",
+          "videoSHA256": "2c60f946d7a6f19b7f4954cbadf39c5ab2546e77ff5c6bd9a9f012648bb227f1",
+          "posterSHA256": "a06730e32fb4f0f82dc56831c7dc73cdd1477883c0524676839f1f4f799f47ff",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "3f44e7f1e119cc95691ac0c43971e0004b0760825582c636a9d26c2cb42fa7df",
+          "currentVideoSHA256": "2c60f946d7a6f19b7f4954cbadf39c5ab2546e77ff5c6bd9a9f012648bb227f1"
+        }
+      }
+    },
+    {
+      "exercise": "reverse_fly",
+      "exerciseId": "0602",
+      "title": "蝴蝶机反向飞鸟",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/reverse_fly.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/reverse_fly.blend",
+          "sceneSHA256": "8ba9c988b66800f0e01adbd7962dcd7e2456394e098ac96f7548b59af8643935",
+          "video": "Repcendo/Resources/ExerciseAnimations/0602-male.mp4",
+          "videoSHA256": "43d1e162a8585c91786aa8b3c887c03e8638e88f83cbf053c227c1fb79c76c9f",
+          "posterSHA256": "0865659af564cf7a35e51f3cbec39bdfb4425dcb4999f0694d139e446a51e573",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "8ba9c988b66800f0e01adbd7962dcd7e2456394e098ac96f7548b59af8643935",
+          "currentVideoSHA256": "43d1e162a8585c91786aa8b3c887c03e8638e88f83cbf053c227c1fb79c76c9f"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/reverse_fly.blend",
+          "sceneSHA256": "214e17a67f3fb6f6dcf9ff6dfceabe7865d391e7c8d93371fa31890eee50a834",
+          "video": "Repcendo/Resources/ExerciseAnimations/0602-female.mp4",
+          "videoSHA256": "94c6dd1236a392895cbaf5e58337b8f3361293c9e8a951766c5fcc45137f51d7",
+          "posterSHA256": "2ea88a16a2682703bf4602a1e9d8a1d54c542a3f12f867c893080fb009f6f887",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "214e17a67f3fb6f6dcf9ff6dfceabe7865d391e7c8d93371fa31890eee50a834",
+          "currentVideoSHA256": "94c6dd1236a392895cbaf5e58337b8f3361293c9e8a951766c5fcc45137f51d7"
+        }
+      }
+    },
+    {
+      "exercise": "reverse_crunch",
+      "exerciseId": "0872",
+      "title": "反向卷腹",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/reverse_crunch.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/reverse_crunch.blend",
+          "sceneSHA256": "c76272342c8d72b761fa60588c879ed52782d72028f7362c80a1489d431b1f0b",
+          "video": "Repcendo/Resources/ExerciseAnimations/0872-male.mp4",
+          "videoSHA256": "efb5e428f28c35224421215fc1882037cc04ff068e227469291bbc620ec9b4bb",
+          "posterSHA256": "319266d7259461b31257db8baa4c551a79384bc7001914472b5902e6e9dc854a",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "c76272342c8d72b761fa60588c879ed52782d72028f7362c80a1489d431b1f0b",
+          "currentVideoSHA256": "efb5e428f28c35224421215fc1882037cc04ff068e227469291bbc620ec9b4bb"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/reverse_crunch.blend",
+          "sceneSHA256": "fe77af38f993428714df56eec0fb268fbe6fca1d21cc3f4847e67b256c907529",
+          "video": "Repcendo/Resources/ExerciseAnimations/0872-female.mp4",
+          "videoSHA256": "cb24718612d5dd1b7b5f701efac8abce1e4fb1b7fa23414ffc1e5e0aaabe67e0",
+          "posterSHA256": "11f6c439cf2c070ade05035e27b27111e9973ca758f18e19ef6e61d9bce22f00",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "fe77af38f993428714df56eec0fb268fbe6fca1d21cc3f4847e67b256c907529",
+          "currentVideoSHA256": "cb24718612d5dd1b7b5f701efac8abce1e4fb1b7fa23414ffc1e5e0aaabe67e0"
+        }
+      }
+    },
+    {
+      "exercise": "dead_bug",
+      "exerciseId": "0276",
+      "title": "死虫式",
+      "collection": "plan",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/dead_bug.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-plan-v3/male/dead_bug.blend",
+          "sceneSHA256": "7592ad334550cb0080a3580df1cd7325c270909087c1043877b6cbfc42eaa3da",
+          "video": "Repcendo/Resources/ExerciseAnimations/0276-male.mp4",
+          "videoSHA256": "01a75c071c78d49284a8c25cede11410fd6fcd806814c048d70e0255b9402d6d",
+          "posterSHA256": "4541308d95a7c71b3f91a0c8b56f1476ec31773e036ce55614a2021f18d5c6e9",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "7592ad334550cb0080a3580df1cd7325c270909087c1043877b6cbfc42eaa3da",
+          "currentVideoSHA256": "01a75c071c78d49284a8c25cede11410fd6fcd806814c048d70e0255b9402d6d"
+        },
+        "female": {
+          "scene": "docs/animation-plan-v3/female/dead_bug.blend",
+          "sceneSHA256": "161475dbc8879fe2de06f3ddc1cc457c0b0343d80ad81e7da301da46c2cd295c",
+          "video": "Repcendo/Resources/ExerciseAnimations/0276-female.mp4",
+          "videoSHA256": "f2e16eb2b81a568bcafccbd2e5bcac583ab7f052d6ff8dcfcb419448e0388cfc",
+          "posterSHA256": "ea13132e899f4583733041aa10a7d07712c1adc4e4d6416216b2ebff0ae72210",
+          "visualReferenceStatus": "accepted_unchanged",
+          "currentSceneSHA256": "161475dbc8879fe2de06f3ddc1cc457c0b0343d80ad81e7da301da46c2cd295c",
+          "currentVideoSHA256": "f2e16eb2b81a568bcafccbd2e5bcac583ab7f052d6ff8dcfcb419448e0388cfc"
+        }
+      },
+      "initialConcern": "准备位及活动手上臂/肘部弯曲明显，需核对死虫式肘伸直和对侧时序，避免以屈肘掩盖肩部变形。"
+    },
+    {
+      "exercise": "hammer_curl",
+      "exerciseId": "0313",
+      "title": "哑铃锤式弯举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/hammer_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/hammer_curl.blend",
+          "sceneSHA256": "71f671086435369fd85ff85c6ec27677a79028e4dbba141118831751f570cfa1",
+          "video": "Repcendo/Resources/ExerciseAnimations/0313-male.mp4",
+          "videoSHA256": "c44d810fe7d388e2b26039d254f5c33c0af5228be1fcd329a8a461163b370457",
+          "posterSHA256": "22590bd3c8931a0895489ca787121134fc4c5500c5a9a57e8002bc36b0f7c887",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前成片八阶段与主/正/侧/背/握持四阶段图；与 OPEX 站姿双臂锤式参考一致：中立握、固定上臂、双侧同步，躯干足底稳定。雕塑上臂略外展以适应体型，未形成推举或外甩；保持现有视频。工程视觉复核，非教练认证。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/hammer_curl.blend",
+          "sceneSHA256": "66375f7736653d73a582092b155dae1dcfb7478e6b6bd8f1316ee8e086b4fd4a",
+          "video": "Repcendo/Resources/ExerciseAnimations/0313-female.mp4",
+          "videoSHA256": "017b661bf0c827cef79a89a6688ee36c4a43b7049d99188f14bbcbea409917f7",
+          "posterSHA256": "1ff5f260a873deb53440b90b7f0246fda87385c0ca9a9d40aa90d4818a758e0a",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前成片八阶段与主/正/侧/背/握持四阶段图；与 OPEX 站姿双臂锤式参考一致：中立握、固定上臂、双侧同步，躯干足底稳定。雕塑上臂略外展以适应体型，未形成推举或外甩；保持现有视频。工程视觉复核，非教练认证。"
+        }
+      },
+      "instructionCrossCheck": {
+        "publisher": "American Council on Exercise",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/10/hammer-curl/",
+        "accessedOn": "2026-10-31",
+        "observed": "实际阅读步骤1–3：中立握、单臂或双臂屈肘、上臂不前移、腕直、回落低位；交替时等待手维持起点。其前后站姿不作为本项目平行站姿的依据；坐姿变体仅交叉核对上肢要点。"
+      }
+    },
+    {
+      "exercise": "alternate_curl",
+      "exerciseId": "0285",
+      "title": "交替哑铃弯举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/alternate_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/alternate_curl.blend",
+          "sceneSHA256": "6d86677b4f04c8106bad7b8da828a4e6ecc7bddebb81e18d7f3304c56706bfb0",
+          "video": "Repcendo/Resources/ExerciseAnimations/0285-male.mp4",
+          "videoSHA256": "32f977e1bcb40247f16213ac9bca3a0b2fe2db1c7dbfbdaadce45e45ee069c0d",
+          "posterSHA256": "c3d13391ea8585fc89aba96ff35f70c91658324a8ce6a190e7b9dc768d0fc990",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "fc8c3b9412df2ee93c00a4e02352000b25ac2db1d27f31fe80c71245fd6f7023",
+          "currentVideoSHA256": "9b70020cb84b75b0c675bac328b83160215334e728e0c1d0daf0003589b99011"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/alternate_curl.blend",
+          "sceneSHA256": "b8eb1c34a1f8b6332faeff5935f2c849c25bbbe24fcf830907666998390f67de",
+          "video": "Repcendo/Resources/ExerciseAnimations/0285-female.mp4",
+          "videoSHA256": "2dd0d12aa19d9f355ddf328f07c26c281e6a0eb141253097644af16be21ac96e",
+          "posterSHA256": "bfdc4d0ad34e7899ead6e1c99074521499a542206931ffa051bcedcea7087bbd",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "109d822e2e57780527984bab3a53a3286852abef563893c411a0d1df800006b4",
+          "currentVideoSHA256": "906a06c83f02f71c048fc640482a1582d03d5096611b2a550b7c742a0f3f36f5"
+        }
+      },
+      "finding": "上臂过度前抬且屈肘终点不足；已按全程旋后握真人示范修订，候选场景正在审核。",
+      "backup": "build/motion-reference-review-2026-10-31/before-alternate_curl-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "上臂稳定靠体侧，修复短行程，等待侧保持低位。"
+    },
+    {
+      "exercise": "front_raise",
+      "exerciseId": "0310",
+      "title": "哑铃前平举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/front_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/front_raise.blend",
+          "sceneSHA256": "1760b358228457d4f7dadc85a82d22e2f31865e050cb8ebb56b6ece5616cbd28",
+          "video": "Repcendo/Resources/ExerciseAnimations/0310-male.mp4",
+          "videoSHA256": "a794a3f9dfba08e90c998780b8eda0edbe56f1e2d17835925effff755cdd35d9",
+          "posterSHA256": "02228d84921f809b3ebda1ed47a0bf13a04d308c83fe77f4cc7bed61eeea41e9",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "6e46357bb3a5785e4ddfb79a4fc02c36d772fc27b3b4ee7530b07a69c480d580",
+          "currentVideoSHA256": "794e02318d01216e75b7e136eaae1b42b162e89c97d38c7c7e2d8bb943dd8f8b"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/front_raise.blend",
+          "sceneSHA256": "360e9e241f5f26e688daafc330f5182acb6112dadc0d4ab830a60be968c27158",
+          "video": "Repcendo/Resources/ExerciseAnimations/0310-female.mp4",
+          "videoSHA256": "fa5d6cadd2a64bcaf3201b6577f873ca192c0cffc8ca5e7195033dfce49c3f4a",
+          "posterSHA256": "e610906cf0db8d40b8e78bb3b36e29d945d45d852bb3f37314110b43c5d99fbd",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "5039a0b66db91be1e1d0beb3739b203cfd01ebfd8c446a78cacc61489432db25",
+          "currentVideoSHA256": "58b816b8f275224da8b7e1187f2043b52707a7d8c5a81aa8570bdb2c6c04eeeb"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-front-raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正低位预抬、上举幅度及低位哑铃与腿的间隙。"
+    },
+    {
+      "exercise": "seated_hammer_curl",
+      "exerciseId": "1678",
+      "title": "坐姿哑铃锤式弯举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_hammer_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_hammer_curl.blend",
+          "sceneSHA256": "d572f7b70c4369576653aebb5e3d68fdaf78516876e5101657a01925f191a2e8",
+          "video": "Repcendo/Resources/ExerciseAnimations/1678-male.mp4",
+          "videoSHA256": "c16890c4ba9dc3616fe51b5042eddbef9f3425f326906c0a2e85b23e0cceb81f",
+          "posterSHA256": "038825d608900ab25b2f70f3a69ae474f8050bd5e56a590af9439db94cbfac85",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际对照 OPEX 坐姿双臂锤式参考与本版本成片八阶段、主/正/侧/背/握持四阶段图。掌心相对，上臂在躯干两侧基本固定，双肘同步屈曲；躯干、坐骨与脚底稳定，回程控制。现有路径与参考一致，未发现需修订的握法、时序或支撑错误，保留媒体。工程视觉对照，非教练认证。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_hammer_curl.blend",
+          "sceneSHA256": "5b2b2973148fd1482bffd2e5fc111a7180b8e8ed336dccb90dd8dce77b06124e",
+          "video": "Repcendo/Resources/ExerciseAnimations/1678-female.mp4",
+          "videoSHA256": "5f10440e4bab69b68d6153119627cc66d5d840bbb39a75e6ce8ad589093f7724",
+          "posterSHA256": "66e6378f6a01508f288f5d1bdc822d072e6b0d38d917b953d3bf30fd120f1a21",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际对照 OPEX 坐姿双臂锤式参考与本版本成片八阶段、主/正/侧/背/握持四阶段图。掌心相对，上臂在躯干两侧基本固定，双肘同步屈曲；躯干、坐骨与脚底稳定，回程控制。现有路径与参考一致，未发现需修订的握法、时序或支撑错误，保留媒体。工程视觉对照，非教练认证。"
+        }
+      },
+      "instructionCrossCheck": {
+        "publisher": "American Council on Exercise",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/10/hammer-curl/",
+        "accessedOn": "2026-10-31",
+        "observed": "实际阅读步骤1–3：中立握、单臂或双臂屈肘、上臂不前移、腕直、回落低位；交替时等待手维持起点。其前后站姿不作为本项目平行站姿的依据；坐姿变体仅交叉核对上肢要点。"
+      }
+    },
+    {
+      "exercise": "seated_alternate_hammer_curl",
+      "exerciseId": "1648",
+      "title": "坐姿交替锤式弯举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_alternate_hammer_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_alternate_hammer_curl.blend",
+          "sceneSHA256": "76d09990a84ebaab029cf58cb8caf518e4942c819f64df8a40cdce5179bf73eb",
+          "video": "Repcendo/Resources/ExerciseAnimations/1648-male.mp4",
+          "videoSHA256": "5d5ef55f86194f40df4951c82f26e3ae5e2be5190bdba0e3bb3cdc60e4f34a39",
+          "posterSHA256": "0e91d77ec037bc1de59620fb5a6f680be2bb180848bc0be0e99caf0e69ec875f",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "已实际查看八阶段成片、主/正/侧/背/握持图和精确1/25/49/73/145帧成片；对照 The Queen of Lean 的坐姿交替锤式及 OPEX 平凳坐姿支撑。单侧完成后换侧，等待手保持低位、中立握；平凳坐姿的躯干、脚底稳定。源示范有靠背，项目无靠背，已独立查看稳定性。保留媒体，工程视觉检查。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_alternate_hammer_curl.blend",
+          "sceneSHA256": "554632b399b45c47ca2050dcf27933d888756d3badbdb00c147e8fc184509c50",
+          "video": "Repcendo/Resources/ExerciseAnimations/1648-female.mp4",
+          "videoSHA256": "cafbbe2d0620073995aa274d7fa6cfed2d7e7ea296f29ba4effd92193a5e7e6f",
+          "posterSHA256": "076de2982aa0fe86f6e27ce0ba26b9fba7005874b49e61bb9c021b854e0784c4",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "已实际查看八阶段成片、主/正/侧/背/握持图和精确1/25/49/73/145帧成片；对照 The Queen of Lean 的坐姿交替锤式及 OPEX 平凳坐姿支撑。单侧完成后换侧，等待手保持低位、中立握；平凳坐姿的躯干、脚底稳定。源示范有靠背，项目无靠背，已独立查看稳定性。保留媒体，工程视觉检查。"
+        }
+      },
+      "instructionCrossCheck": {
+        "publisher": "American Council on Exercise",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/10/hammer-curl/",
+        "accessedOn": "2026-10-31",
+        "observed": "实际阅读步骤1–3：中立握、单臂或双臂屈肘、上臂不前移、腕直、回落低位；交替时等待手维持起点。其前后站姿不作为本项目平行站姿的依据；坐姿变体仅交叉核对上肢要点。"
+      }
+    },
+    {
+      "exercise": "seated_curl",
+      "exerciseId": "1677",
+      "title": "坐姿哑铃弯举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_curl.blend",
+          "sceneSHA256": "c1250d114c0c569541ff4386804b92958d7d9da05326d32211666de27c237e23",
+          "video": "Repcendo/Resources/ExerciseAnimations/1677-male.mp4",
+          "videoSHA256": "c3ca99c2a926eabfaaf70b585afc6ed9e033ec992aea3636770cb38c64dea271",
+          "posterSHA256": "3d6f0800ee67e2002a8e93b10b44816b6adfe5d996091500a9bc3ceab7742ffe",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "e4419da162c6b75e95e5adba93e775442bb5c56bde3cee0a42efa09493d67e40",
+          "currentVideoSHA256": "8226e1231b457f8b99768d7668e956ab7530053d3c16d3ff53a86962794f2159"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_curl.blend",
+          "sceneSHA256": "f8cd337719da84890e8a7ece3e6d892b36c6f68143e13b138daee2297121ef35",
+          "video": "Repcendo/Resources/ExerciseAnimations/1677-female.mp4",
+          "videoSHA256": "189b9c32bf0545d82965927ae57827fce34059bf7e51fb9727c8b497ec737d87",
+          "posterSHA256": "40fd498023650c1e996d393eb997ab1cc847882fe64bdc679d83f5f93ce56db5",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "cb52be8c265647d384a6a884d5e8a82daec26ab251c6427e61cd61c79f60abb9",
+          "currentVideoSHA256": "c245210120efe7031e2b5e08282cf0c4318872415a564efb44bcac276d9c67df"
+        }
+      },
+      "finding": "实际对照坐姿双侧旋后握示范；原低位上臂前抬、铃高于髋旁，正在修订。",
+      "backup": "build/motion-reference-review-2026-10-31/before-seated_curl-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正上臂前抬、低位回程和屈肘峰值。"
+    },
+    {
+      "exercise": "seated_front_raise",
+      "exerciseId": "0392",
+      "title": "坐姿哑铃前平举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_front_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_front_raise.blend",
+          "sceneSHA256": "522253ba0b707c1348e6528194b41051e346ca62c0fc313563e9a94260b55514",
+          "video": "Repcendo/Resources/ExerciseAnimations/0392-male.mp4",
+          "videoSHA256": "64a211a039a0b437d842a09c5f7de5028c6f0d3235b0418ed19be71a51244704",
+          "posterSHA256": "43121771f792ed29f1a92c725aec92b25ac7c224b40dee55ea02a470b6f4d6ec",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "424332f0afcf4efeaa19435f92faef2211279df45f32bc196cec523876818169",
+          "currentVideoSHA256": "1416f91a70520c6c2ed758111bf9369b8d3e02aed44d2ddebc99977225da7dbf"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_front_raise.blend",
+          "sceneSHA256": "ebefdb0fa6fdf42676e97258da8b788e791abbca90a173ef744ce0fb3c3e98b6",
+          "video": "Repcendo/Resources/ExerciseAnimations/0392-female.mp4",
+          "videoSHA256": "f27df7be1e263a08fdcb74d910c4ac6f5f403c2f17f6b4a46b7066654e979319",
+          "posterSHA256": "3dca5a02c5cf70433b757d04aa6c64e7a789ed33d02689c72db82d638592d844",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "74ce19278f317e5773f5a0f78f97abf0e509d7245d11f9e6c61c693447d31f8b",
+          "currentVideoSHA256": "7f09677b6add2ce363548f665f5c87b4fc5394b77e57b1fbeb677cd93e990810"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-front-raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正坐姿前平举起点与轨迹，消除低位碰腿。"
+    },
+    {
+      "exercise": "seated_alternate_front_raise",
+      "exerciseId": "0387",
+      "title": "坐姿交替前平举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_alternate_front_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_alternate_front_raise.blend",
+          "sceneSHA256": "123d6f2047a2c34ff55a313f13804c8b00cf3a18ff4a6f042c901da7330d747a",
+          "video": "Repcendo/Resources/ExerciseAnimations/0387-male.mp4",
+          "videoSHA256": "00bf7129212c2021ede48d0080be03908265ee0bb605cf707b93fd2aed21270d",
+          "posterSHA256": "c1606506a4177f822e6aebdaea5b17a07781be5cb0a4e0381ccb739b60a19e9f",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "7745811feb32f7fad03d1e5cb5938f5315381e533374d2390236b68260d3b3f2",
+          "currentVideoSHA256": "75366d1ef38697398e969ba027c07351700eccf8bfd5201e7024cac17852c969"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_alternate_front_raise.blend",
+          "sceneSHA256": "a5136a7be642183338079e3789d6dae96206b15ba5cb1836b1383b8e6359a309",
+          "video": "Repcendo/Resources/ExerciseAnimations/0387-female.mp4",
+          "videoSHA256": "22b46974d5e8dca2a59af8e129920cf9c8cb11e7ecf389a7852566ad2af6042d",
+          "posterSHA256": "550aaca7ac9531459de84426129b4e096b1aead9cced8fabe413065e00af215e",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "2e770cc59173ee6c9b21a480f259a6831c9f6e5e771f3ec7d751f5091674ca1d",
+          "currentVideoSHA256": "cfd22d32ec8746ade6963686b55db171bef24266ab91a5635f4e618e02f6cd79"
+        }
+      },
+      "initialConcern": "准备位上臂明显抬高/外展，与本轮双臂前平举已发现缺陷同源；需中立握交替真人来源确认。",
+      "finding": "旧低位前抬且明显外张，等待手未自然下垂至髋旁；参照实际中立握坐姿交替示范降低起始位，保留肩高峰值与原握法。",
+      "backup": "build/motion-reference-review-2026-10-31/before-seated_alternate_front_raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "等待侧自然下垂，分别完成左右侧完整前平举。"
+    },
+    {
+      "exercise": "seated_lateral_raise",
+      "exerciseId": "0396",
+      "title": "坐姿哑铃侧平举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_lateral_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_lateral_raise.blend",
+          "sceneSHA256": "ec4cffaf3607ee027387ac87b0fa648dbe36735dbb13135e7d855fc4faa395dd",
+          "video": "Repcendo/Resources/ExerciseAnimations/0396-male.mp4",
+          "videoSHA256": "2ce235ef53af8253df6be1aa7308a500a2d8f716e472a983b978a9866f941f26",
+          "posterSHA256": "6c4d1dc620c688cf0f31ccc99e141141b3bf5faa7cf9d513235444a312817f04",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看现有男女八阶段成片和五视角四阶段板，对照OPEX坐姿侧平举。坐凳及双足稳定，肘角接近固定，双铃同步侧向抬至肩高并回到髋旁；低位适度外展保留铃片间隙，侧视没有前举或上臂向后扭转。没有发现需要替换媒体的问题。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_lateral_raise.blend",
+          "sceneSHA256": "d2b10720b62e1f3456df60df7c54a75382d166367d1106956b15654c0c2009f9",
+          "video": "Repcendo/Resources/ExerciseAnimations/0396-female.mp4",
+          "videoSHA256": "6f958fa7ea2dfb71d66d1bd77c6db3a7f8f1c44b04840e9052af202529eacded",
+          "posterSHA256": "0c2b42df5d2bfdcb0da870215253e6c57ad4e0187139134d77668ed7cef5db36",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看现有男女八阶段成片和五视角四阶段板，对照OPEX坐姿侧平举。坐凳及双足稳定，肘角接近固定，双铃同步侧向抬至肩高并回到髋旁；低位适度外展保留铃片间隙，侧视没有前举或上臂向后扭转。没有发现需要替换媒体的问题。"
+        }
+      },
+      "crossCheck": {
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/",
+        "notes": "实际读ACE四步说明：肘轻弯且上下臂一起抬，腕中立，肩高附近停止、缓慢回程；ACE示范是站姿，只交叉核对上肢运动要点，坐姿支撑使用OPEX实际视频。"
+      }
+    },
+    {
+      "exercise": "reverse_curl",
+      "exerciseId": "0429",
+      "title": "哑铃反握弯举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/reverse_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/reverse_curl.blend",
+          "sceneSHA256": "972f227d04a975854a33c67e828c881de228b18ee9b7751d42e96042c59165bd",
+          "video": "Repcendo/Resources/ExerciseAnimations/0429-male.mp4",
+          "videoSHA256": "fd230dc5b06b1ab0da353c01eb59491aa8116405bcf3876d1c609e30361a3e23",
+          "posterSHA256": "992a0db10556d12fdc27844926b0590fd8c32077348277ffa75ba7e80990f51f",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "9c09230a6b43ebc15009cc48eef306709538fe54cac05a1b3e46829e85a072c6",
+          "currentVideoSHA256": "4fc3e35ec2406249258dc1266c59cb3247f9c71b04124b41be737e5a43da5d1c"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/reverse_curl.blend",
+          "sceneSHA256": "d7ad8d44482affc4bd3269cf03e1002f638eff9fd90f7da0314c9e43013b8e1f",
+          "video": "Repcendo/Resources/ExerciseAnimations/0429-female.mp4",
+          "videoSHA256": "7db98a76ff7ff9edf545090b6f24a80223851c37f2ed5142267fd2ac7ac513a7",
+          "posterSHA256": "b77905d7cab823eabe7886d3f360bbcad32110306bc111da4e6855d25ffd1073",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "5d292f77c6c5bf4ca554046165b6d2ae9ca36892b8f9173b577c602ebb583bf7",
+          "currentVideoSHA256": "2f40ab8c0b47605653df7c0b152111d7c4af770dc486dfd33f33a2dce69d2e7c"
+        }
+      },
+      "initialConcern": "低位上臂靠前，屈肘幅度偏小；需反握双臂真人来源确认。",
+      "finding": "实际对照OPEX双侧反握真人示范，修订上臂预抬与不完整屈肘行程。",
+      "backup": "build/motion-reference-review-2026-10-31/before-reverse_curl-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "反握贯穿循环，修正上臂前抬和短行程。"
+    },
+    {
+      "exercise": "full_can_raise",
+      "exerciseId": "0311",
+      "title": "哑铃拇指向上侧平举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/full_can_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/full_can_raise.blend",
+          "sceneSHA256": "81e84cf80df1c0a680f0785bb2d01221d2aa06d323e44de34dd4aa27126901ac",
+          "video": "Repcendo/Resources/ExerciseAnimations/0311-male.mp4",
+          "videoSHA256": "a6ff25ab6f870f9c7385c99954a3c212c12a187783c663cf20556efbe4c8503a",
+          "posterSHA256": "e9b60e03050a10833906e8004d05fba86e02feca03b31aca3f6bf5615392fa37",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前男女五视角四阶段及已看八阶段成片，对照The Active Life肩高拇指朝上示范。前/侧视确认是斜前方肩胛平面而非纯侧举，峰值拇指端朝上、肘微弯，双足躯干稳定，回程连续。项目选择约30度侧前方，来源约45度，均在文字交叉核对的30–45度范围；未见需要修订的动作问题。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/full_can_raise.blend",
+          "sceneSHA256": "965f05716c6442a7085ffca5fb4945bbf8e3463b45094cc3336d1994ea096e84",
+          "video": "Repcendo/Resources/ExerciseAnimations/0311-female.mp4",
+          "videoSHA256": "02d3b9e49afdc442b6b38a339dfe203f172a10c2a7dd610e93508b51196ff034",
+          "posterSHA256": "7e65ed9f1f931a0c33f397e2a5c87e720da2fb84499b42de44cf5752b43cbdf9",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前男女五视角四阶段及已看八阶段成片，对照The Active Life肩高拇指朝上示范。前/侧视确认是斜前方肩胛平面而非纯侧举，峰值拇指端朝上、肘微弯，双足躯干稳定，回程连续。项目选择约30度侧前方，来源约45度，均在文字交叉核对的30–45度范围；未见需要修订的动作问题。"
+        }
+      }
+    },
+    {
+      "exercise": "lateral_front_raise",
+      "exerciseId": "0335",
+      "title": "哑铃侧平举接前平举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/lateral_front_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/lateral_front_raise.blend",
+          "sceneSHA256": "06b66a27f5d892464a340ab10463702db76b6dce316b535cc0d4c23f925472fc",
+          "video": "Repcendo/Resources/ExerciseAnimations/0335-male.mp4",
+          "videoSHA256": "4fc54385ef0c8dd396e88afa5230310e62759ab6ab8bdde4945d2583673d8dc8",
+          "posterSHA256": "ada052155db144b32b04d82a096e7e28580caf8f9aabc4f349ffad7fee48590d",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "a71d08614d3ba7bbb8c8c947deac1b6401491bc6c1274f12f7c7160b7b718d38",
+          "currentVideoSHA256": "048470552d02b1eb603ea7db8289f7340a13f3a0872425b17a784a28d93ee86a"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/lateral_front_raise.blend",
+          "sceneSHA256": "c97de3034c011aeb3873400dbb7d419047d398bc9f05fa6e11646ed9d7a49602",
+          "video": "Repcendo/Resources/ExerciseAnimations/0335-female.mp4",
+          "videoSHA256": "51b8432cfe4b9f485c339c2638c2dc18618bbd4cd7f51fe27e14d5efae85ebac",
+          "posterSHA256": "b5cfde4baa51903004be1ff06cb1a9819905a68edffee263a08294e6c4bf2b40",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "eb7f5278e4dfd6a5d232192335f62a91b11e828ae3305d426f88e096906837d2",
+          "currentVideoSHA256": "c0368e5263ff4a455b8712e1316f9e7ecdb23dc8a5bff073db094c366a15a08a"
+        }
+      },
+      "initialConcern": "名称有歧义，项目0335文字规格明确为侧举回低位、再前举回低位，目前时序与该文字一致；不能仅凭常见同名动作改成肩高水平移动，仍需精确变体真人对照。",
+      "finding": "顺序正确，但旧低位上臂32.6度男/38.9度女外张，前举低位也预抬；降低两次重复之间的回落位置，保持分开抬举。",
+      "backup": "build/motion-reference-review-2026-10-31/before-lateral_front_raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正侧平举/前平举组合之间的回落与两种运动平面。"
+    },
+    {
+      "exercise": "db_bench_press",
+      "exerciseId": "0289",
+      "title": "哑铃卧推",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/db_bench_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/db_bench_press.blend",
+          "sceneSHA256": "ccabaa3d7fbe26770a029b67ca2c32f27510be44da14a92f36f04943e507a845",
+          "video": "Repcendo/Resources/ExerciseAnimations/0289-male.mp4",
+          "videoSHA256": "351939015c38924713f2f1697eb1e57d44f284d99189b105656f461c03353ee1",
+          "posterSHA256": "a6f9b400d9baba41cee68e32c316dffde59647f2de59af767c6c0769fd4c6bdd",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女成片八阶段与五视角四阶段。与 OPEX/ Human Kinetics 相比，正握同步上推、胸侧低位和顶点小幅靠拢一致，头背臀及足部支撑稳定；肩肘、握持未见新的变形或穿模，保留现有动画。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/db_bench_press.blend",
+          "sceneSHA256": "0cb876fd1e89f8546c75b1dca5b7d860135a44a21f10e5131111cb1b2507415e",
+          "video": "Repcendo/Resources/ExerciseAnimations/0289-female.mp4",
+          "videoSHA256": "8aa0be3cb37d35a03d72ad0e96b5f1d219869c95e2a5fab59cdcf143d4720deb",
+          "posterSHA256": "41e556f4bd5f0ca138610ae325628f39f41cde742616f3472d8e58bad3a1c772",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女成片八阶段与五视角四阶段。与 OPEX/ Human Kinetics 相比，正握同步上推、胸侧低位和顶点小幅靠拢一致，头背臀及足部支撑稳定；肩肘、握持未见新的变形或穿模，保留现有动画。"
+        }
+      }
+    },
+    {
+      "exercise": "neutral_bench_press",
+      "exerciseId": "0352",
+      "title": "中立握哑铃卧推",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/neutral_bench_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/neutral_bench_press.blend",
+          "sceneSHA256": "17f92eb046da4a7268ec4842c05fe98a7c87b63bfa720b4d71a94a86456ddb64",
+          "video": "Repcendo/Resources/ExerciseAnimations/0352-male.mp4",
+          "videoSHA256": "f513aa7d310b13c77c8085675f6dd4888ed2333f6ce0df1a2cc1c1796323382b",
+          "posterSHA256": "d3981ce5b924c64d4dc42626dec190bb8aca4333365fc819d658d0905ffc2c5e",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女成片八阶段与五视角四阶段；中立握、胸旁屈肘起点、双侧同步推伸及稳定支撑与参考一致。雕塑低位肘比 PureGym 窄肘示范更外展，仍比本项目正握版内收；不把这一差别描述为完全相同。保留当前动画。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/neutral_bench_press.blend",
+          "sceneSHA256": "e4bc334496bf511582ed6e12226c7ce52164f59f88f5f3d7f172057aab3d8c87",
+          "video": "Repcendo/Resources/ExerciseAnimations/0352-female.mp4",
+          "videoSHA256": "ef4ea5a5aa93ba28ec47834a175c65fad452794668e3db9dca0d78dc86cfe422",
+          "posterSHA256": "db38561fea7fd39641a06da00761b8d816be65271d918b3c5a11cc6b0280ba10",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女成片八阶段与五视角四阶段；中立握、胸旁屈肘起点、双侧同步推伸及稳定支撑与参考一致。雕塑低位肘比 PureGym 窄肘示范更外展，仍比本项目正握版内收；不把这一差别描述为完全相同。保留当前动画。"
+        }
+      }
+    },
+    {
+      "exercise": "incline_hammer_press",
+      "exerciseId": "0321",
+      "title": "上斜哑铃锤式推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/incline_hammer_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/incline_hammer_press.blend",
+          "sceneSHA256": "438c1c68becf3c1878524277dfd562326d96152bee5702daaba309a2d515b7f5",
+          "video": "Repcendo/Resources/ExerciseAnimations/0321-male.mp4",
+          "videoSHA256": "8a78e621adc77aeefcaa0475c1d64881d6de0a086ab7d3ed399be478ba0c8846",
+          "posterSHA256": "31fa6b04a2931a7fcf8f17503492b77b6274fcec95a3e0310214066156269d25",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女八阶段成片、五视角图及女性59/60/61顶端细查，中立握、双侧同步、斜靠背支撑和受控回胸侧一致。雕塑低位开角略宽，顶端两铃保留间距；未见新的肩肘或握持缺陷，保留原片。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/incline_hammer_press.blend",
+          "sceneSHA256": "e693bac9801619ea032373ff680a58859e78a42509cb118c4f16cef3bfdbf350",
+          "video": "Repcendo/Resources/ExerciseAnimations/0321-female.mp4",
+          "videoSHA256": "912629310bbbf463233ec8c4b419ee143f3e38f3c1dfc133d3e236e2756862e1",
+          "posterSHA256": "7ee224109405a0edf3e3725985b61d8fa6a1186aa37cb3e809eab87cbbcbdb36",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女八阶段成片、五视角图及女性59/60/61顶端细查，中立握、双侧同步、斜靠背支撑和受控回胸侧一致。雕塑低位开角略宽，顶端两铃保留间距；未见新的肩肘或握持缺陷，保留原片。"
+        }
+      }
+    },
+    {
+      "exercise": "incline_alternate_press",
+      "exerciseId": "3545",
+      "title": "上斜哑铃交替推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/incline_alternate_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/incline_alternate_press.blend",
+          "sceneSHA256": "a78e628421506a6b5d11f8a63db6c80124a4a40b6a87bbd120008b45cc0ac691",
+          "video": "Repcendo/Resources/ExerciseAnimations/3545-male.mp4",
+          "videoSHA256": "ee7cbdd6e1723401b602b509a6d77c5e44fc746c90b46605aac0e849d3a56840",
+          "posterSHA256": "cb6caef2684d436763bcb4c412f2ac4689b7bae7f6ee2501ecac4063c07cb75e",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看八阶段成片、新增25/73帧的五视角图及女性顶端细查。与 Functional Bodybuilding 低位等待上斜交替版本一致：左先完整重复，右保持胸旁，再换侧，躯干与支撑稳定；保持原片。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/incline_alternate_press.blend",
+          "sceneSHA256": "f52509bab1fe30c2824740f01db8b16f986bb34d0cfe276cfec26a37bedac1ea",
+          "video": "Repcendo/Resources/ExerciseAnimations/3545-female.mp4",
+          "videoSHA256": "b2574acf50eabf41fad31821c994054bcabbedfdbf2ae34b426d8e13c05de37f",
+          "posterSHA256": "b2295214b3c2c8c69a344467de4efbae8231059fe7dc9a13671150d01e2a349f",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看八阶段成片、新增25/73帧的五视角图及女性顶端细查。与 Functional Bodybuilding 低位等待上斜交替版本一致：左先完整重复，右保持胸旁，再换侧，躯干与支撑稳定；保持原片。"
+        }
+      }
+    },
+    {
+      "exercise": "seated_alternate_press",
+      "exerciseId": "0388",
+      "title": "坐姿哑铃交替推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_alternate_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_alternate_press.blend",
+          "sceneSHA256": "9ce94cda10c2574dda634a7a2329196ee9c3cb4b702bff67f6c9c53e13570168",
+          "video": "Repcendo/Resources/ExerciseAnimations/0388-male.mp4",
+          "videoSHA256": "d93d47f87ae1e285144e78e9788713f1ff1f086b00aee93fc092424ccb33d442",
+          "posterSHA256": "f1a340f49dd8e57c6468d787a35942be4ae66db45008b699431d5e1eef3d6829",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前六阶段五视角及成片八阶段：掌心向前、单臂推起，等待铃肩旁维持；左右依次完成上下，臀背靠凳、双足着地，躯干无明显偏移。与Live Lean实拍路径相符，项目已有靠背而源无靠背；Russ Howe说明支持直立凳变体。保留视频，非教练认证。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_alternate_press.blend",
+          "sceneSHA256": "79c8473c9dc3bd0c115877ea2c1c6f7e5f5377ed746a33bd2fe2531d3bc1ed32",
+          "video": "Repcendo/Resources/ExerciseAnimations/0388-female.mp4",
+          "videoSHA256": "2ac95ae56dbe2ee3b10429ae7bd0a38bf02383d5c30b6463e96691764fea3a95",
+          "posterSHA256": "1cf9d0d39be6cd55c6d0d228a94ac95ff64eedfb5b6f31760849baf126ebcb23",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前六阶段五视角及成片八阶段：掌心向前、单臂推起，等待铃肩旁维持；左右依次完成上下，臀背靠凳、双足着地，躯干无明显偏移。与Live Lean实拍路径相符，项目已有靠背而源无靠背；Russ Howe说明支持直立凳变体。保留视频，非教练认证。"
+        }
+      }
+    },
+    {
+      "exercise": "seated_neutral_press",
+      "exerciseId": "0404",
+      "title": "坐姿中立握哑铃推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_neutral_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_neutral_press.blend",
+          "sceneSHA256": "3c63fd03f5f661f59e8ad73d6d87184ee1e4a8a4c78a6275703aad22a469e223",
+          "video": "Repcendo/Resources/ExerciseAnimations/0404-male.mp4",
+          "videoSHA256": "be1e78aa4d64de0d1ad2dd34c806e21c764f22e7c22b7adfb95304f1f106a7cc",
+          "posterSHA256": "e6092b4e4c8a04924aaf370c92127ce571f4e25e7300873e8c1a9ee9c14fa95a",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "当前男女五视角与成片已实际查看：双侧中立握保持，铃从耳旁到头顶，上臂推起同时伸肘，下放同路，臀背和足部保持。与GettFit实拍相符；项目靠背更直立、顶端两铃保留间距。保留现有视频，工程复核非教练认证。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_neutral_press.blend",
+          "sceneSHA256": "4a39c8eaaf1c3379587e1ab99e7a0e52d23e2b452001fc479a24469787c70923",
+          "video": "Repcendo/Resources/ExerciseAnimations/0404-female.mp4",
+          "videoSHA256": "3117f27bde2ddff3f56bdf323b1c76aff241255e122d93ae05440528b4c8e7fe",
+          "posterSHA256": "5672e2754afcf1de65743941c1a184e92713be1500bcf434419b2188a08e98b1",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "当前男女五视角与成片已实际查看：双侧中立握保持，铃从耳旁到头顶，上臂推起同时伸肘，下放同路，臀背和足部保持。与GettFit实拍相符；项目靠背更直立、顶端两铃保留间距。保留现有视频，工程复核非教练认证。"
+        }
+      }
+    },
+    {
+      "exercise": "standing_overhead_press",
+      "exerciseId": "0426",
+      "title": "站姿哑铃推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/standing_overhead_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/standing_overhead_press.blend",
+          "sceneSHA256": "a495a1804e7ce15f3bdb5d9f53eb1c78dbfe479d6b45fdd30ec144d353d43855",
+          "video": "Repcendo/Resources/ExerciseAnimations/0426-male.mp4",
+          "videoSHA256": "8fda99cb458156af4cfc01c088b7416954343e58312c19342a6a61f9e0cf6da1",
+          "posterSHA256": "540680e00e7e018eb5f39d3ddf3d36497d851ad4d0c3f44b5c8547bd430fca78",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "已实际查看当前男女五视角和成片八阶段，双侧正握上推至头顶、前臂位于负重下、下放回肩旁。脚、膝髋与躯干保持，无蹲起借力；与OPEX及GettFit说明相符，保留视频。工程视觉复核，非教练认证。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/standing_overhead_press.blend",
+          "sceneSHA256": "03a80466e66f8854c9eea2be1c8537a54c015ae459ae64863a76e4dfd6bc368f",
+          "video": "Repcendo/Resources/ExerciseAnimations/0426-female.mp4",
+          "videoSHA256": "317ffe15054f0d2bcbbe7f5c0a45c9b106dee2b3c11273aae768048ca7bd9588",
+          "posterSHA256": "0d1ea7a781c5767d55d1694fa8a69a54d96179671474bc0807867906003b3878",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "已实际查看当前男女五视角和成片八阶段，双侧正握上推至头顶、前臂位于负重下、下放回肩旁。脚、膝髋与躯干保持，无蹲起借力；与OPEX及GettFit说明相符，保留视频。工程视觉复核，非教练认证。"
+        }
+      }
+    },
+    {
+      "exercise": "standing_neutral_press",
+      "exerciseId": "0427",
+      "title": "站姿中立握哑铃推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/standing_neutral_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/standing_neutral_press.blend",
+          "sceneSHA256": "d03412c1175f321df89ef1895c1221f35a5af124c5d19daab641f6cd81fd491c",
+          "video": "Repcendo/Resources/ExerciseAnimations/0427-male.mp4",
+          "videoSHA256": "ef8c85643c6fbeba5068d6a6b5ad923c0cd491fda9672a4df5852acade1af63e",
+          "posterSHA256": "189e83237ee5d09effe7e7e175e91f61401320e3895c3de43b82ceb27479019e",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前男女五视角和八阶段成片：双侧掌心相对，肩旁起点到头顶，负重在前臂上，躯干/脚固定；与OPEX和M&S要点一致。低位肘更外展已在来源说明，未观察到误握或推起借力。保留视频；工程视觉复核。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/standing_neutral_press.blend",
+          "sceneSHA256": "ebcda0b221bfa4dce0b2e2c908dd2da006c4f05b6732f3cdc16c1734812cde7c",
+          "video": "Repcendo/Resources/ExerciseAnimations/0427-female.mp4",
+          "videoSHA256": "814b7e18b4cdd7eaa8e443479b85c3ea365fbd665dca3def42c8c1eb32521afe",
+          "posterSHA256": "755a73d0db82af001daa5e77bd887c0b95204afcdfdb4c373ade5d8681afa999",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前男女五视角和八阶段成片：双侧掌心相对，肩旁起点到头顶，负重在前臂上，躯干/脚固定；与OPEX和M&S要点一致。低位肘更外展已在来源说明，未观察到误握或推起借力。保留视频；工程视觉复核。"
+        }
+      }
+    },
+    {
+      "exercise": "incline_biceps_curl",
+      "exerciseId": "0315",
+      "title": "上斜哑铃弯举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/incline_biceps_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/incline_biceps_curl.blend",
+          "sceneSHA256": "955fa5d83bdb2147834bd332a6c8a2355c769b296bf13c6e99541cb92344df6e",
+          "video": "Repcendo/Resources/ExerciseAnimations/0315-male.mp4",
+          "videoSHA256": "327da20b9b7e2f20616a12b94aabc5924cc18e17d4b90031b09457f18dcb0fe2",
+          "posterSHA256": "16b506f7036a300c67fbbf9ed6923ec96b885920cdddd87a511a83630f1ba9f0",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "已实际查看五视角和成片：双臂反握同步屈肘，肘约8–117°，上臂留在身体侧后，背靠斜凳、足底稳定。参考间握法及凳倾角差异已记录，现有中程略向外避开大腿不破坏屈肘方向。无需修改媒体。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/incline_biceps_curl.blend",
+          "sceneSHA256": "7f1e9e0104e32b1ec026683cd27af1328f0f21e1cd67bef92bd4334e3c4f851e",
+          "video": "Repcendo/Resources/ExerciseAnimations/0315-female.mp4",
+          "videoSHA256": "ce283929376d122320fd1462bba728ea2c02ac94300de8ab03f9901e64f74620",
+          "posterSHA256": "18a5ddd2d9eeeb13afc87fa867742cde87dc3823e791a4eb17b1d53f1b75b9c7",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "已实际查看五视角和成片：双臂反握同步屈肘，肘约8–117°，上臂留在身体侧后，背靠斜凳、足底稳定。参考间握法及凳倾角差异已记录，现有中程略向外避开大腿不破坏屈肘方向。无需修改媒体。"
+        }
+      }
+    },
+    {
+      "exercise": "incline_hammer_curl",
+      "exerciseId": "0320",
+      "title": "上斜锤式弯举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/incline_hammer_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/incline_hammer_curl.blend",
+          "sceneSHA256": "1e8307de609329377407ec82e63c29166196ad842c296092906888621426eb6d",
+          "video": "Repcendo/Resources/ExerciseAnimations/0320-male.mp4",
+          "videoSHA256": "6179f11b09492f9e6778d82139ce2e73136f29347bb3e576c85a39bc4aa75558",
+          "posterSHA256": "d2bd322294a35dfed5820196f518c248041253ed78a03ab11f54c7f1c2f48754",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女主/正/侧/背/握持四阶段与八阶段成片：斜凳支撑、双臂中立握、上臂下垂稳定，峰值屈肘没有抬肩，回程完整。OPEX 人体比例与本模型不同，不机械复制角度；无需修改媒体。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/incline_hammer_curl.blend",
+          "sceneSHA256": "0383c1eef7a32f4497a8e3dfe3cfe3d33ec5b9e8e3356b19788cdb6b06f39f75",
+          "video": "Repcendo/Resources/ExerciseAnimations/0320-female.mp4",
+          "videoSHA256": "d7f4d672710925b5328b30d702425b178f492fb3cb6e080a3c93d8cc752a0bf0",
+          "posterSHA256": "967d46754e5736b4f698012974e86685ff3348aa43a03b5f96d5f78dcbeda6e1",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女主/正/侧/背/握持四阶段与八阶段成片：斜凳支撑、双臂中立握、上臂下垂稳定，峰值屈肘没有抬肩，回程完整。OPEX 人体比例与本模型不同，不机械复制角度；无需修改媒体。"
+        }
+      }
+    },
+    {
+      "exercise": "cross_body_hammer_curl",
+      "exerciseId": "0298",
+      "title": "跨体锤式弯举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/cross_body_hammer_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/cross_body_hammer_curl.blend",
+          "sceneSHA256": "b72ea1786bca6aec6a5ca70bc4cb045ee783a0c6e9cbc26f2b5954c178628d2c",
+          "video": "Repcendo/Resources/ExerciseAnimations/0298-male.mp4",
+          "videoSHA256": "0060cd8325068f180cda508c7f01a9ff62e06bf9efac8b8992debdcc4bf2ec92",
+          "posterSHA256": "bc7eeba52a2252e70cca1572c1471125a71e26ef3278779a0ca4677876aa6bea",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "186389a5e8a47c37d1ed46aac23ba5a7e7e0ccd6dbc0e8e8108d0dfe8f8ff478",
+          "currentVideoSHA256": "120ba3a53f4b81f41eab07d221812fb7b4f7669b8f5e5c37bb7f5dd0aff6110c"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/cross_body_hammer_curl.blend",
+          "sceneSHA256": "da82220cee8aae85f274fe643009be193b068e472ea72ebfa1f4db8b1df69921",
+          "video": "Repcendo/Resources/ExerciseAnimations/0298-female.mp4",
+          "videoSHA256": "c7c35a7a85270af553ce06e5b8aea0e2570872627d195c52340b1ec8015f35bc",
+          "posterSHA256": "dd5cd77ddc6151c115d70dc1555880b41f10b81a431ea2bacb2258fd9d854620",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "fa39f3a0c97919de3e3b4bd078ac4b445ee2c67cd1349b3ae902ed571e8879ec",
+          "currentVideoSHA256": "da9e8adcf754918d21d72c975135df33213fd30f70db0a4ed653cf4c956717fb"
+        }
+      },
+      "finding": "等待手和上臂前抬，女性尤其明显。按Horton完整交替示范修复。",
+      "backup": "build/motion-reference-review-2026-10-31/before-cross_body_hammer_curl-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "encodedReview": {
+        "board": "build/motion-reference-review-2026-10-31/encoded/cross_body_hammer_curl.jpg",
+        "status": "actually_viewed",
+        "notes": "男女各八阶段解码成片已查看；低位、跨体顶点、左右切换符合候选五视角，未见编码异常。上臂约28度体型适配差异已在来源/审核记录说明。"
+      },
+      "repairSummary": "修正跨体轨迹与等待侧，消除女性顶端碰撞。"
+    },
+    {
+      "exercise": "zottman_curl",
+      "exerciseId": "0439",
+      "title": "佐特曼弯举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/zottman_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/zottman_curl.blend",
+          "sceneSHA256": "e3cacf6328e60bbe88bd6ba44d4247984e3a5275a619d1e4755384576a6d997d",
+          "video": "Repcendo/Resources/ExerciseAnimations/0439-male.mp4",
+          "videoSHA256": "fc4d98ddedb54bee405e0cb9e69a4176bfcf6460af7bf111371c3a8d55ee5b4f",
+          "posterSHA256": "d2ddf6f417050f07f7c2bc51bc14c67c1b0a8bc6239dbfad8a7f0ef25ca30461",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "769743411a44f249af1c25a7e091ee15efab5b0487d8dd96802b0237c46233d2",
+          "currentVideoSHA256": "f135588d4d9a4e99e40c8c645e2a25cf03e229ccb79c3680f1c5a96bf67da47d"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/zottman_curl.blend",
+          "sceneSHA256": "5a4b5f20a927152b20de5409fea5f0817180f0b5463ff80590222aa92eb78839",
+          "video": "Repcendo/Resources/ExerciseAnimations/0439-female.mp4",
+          "videoSHA256": "f0549d44d2e87897378a6a0f40bc925f762dba5ef325f9c7cae7004b912df1db",
+          "posterSHA256": "7f2381386fedcc82c5e17bcf8dbf2864f058f3e892e0c2f34e68e9260c7f5cbc",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "0f9a97e67f84006b77b84550deac6f811b9995caf2d589a0bb56348d8d617db5",
+          "currentVideoSHA256": "20a70f9b5d3d0f1eb0603e78c5fe7a4f03b3e247357ace5f78bb7a16f88e1e82"
+        }
+      },
+      "finding": "上臂前抬、峰值屈肘不足；保留顶端旋前和反握下放顺序，修正上臂与屈肘弧线。",
+      "backup": "build/motion-reference-review-2026-10-31/before-zottman_curl-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正上臂、峰值屈肘及旋后上举—顶部转掌—反握回落时序。"
+    },
+    {
+      "exercise": "standing_alternate_press",
+      "exerciseId": "0414",
+      "title": "站姿交替哑铃推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/standing_alternate_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/standing_alternate_press.blend",
+          "sceneSHA256": "6fd58b8e017711405d5825ed2b481498cae3329826c0904c60082b8c0a3f6326",
+          "video": "Repcendo/Resources/ExerciseAnimations/0414-male.mp4",
+          "videoSHA256": "f645aaa7be3475be9a7d9ff70dc713dd79750f066a2ae52b772bec2360628b3e",
+          "posterSHA256": "8bfb013d5660f5eee913b28388aa2ec0e5f81c701e164241008e9dd71481614b",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看八阶段成片与新增25/73帧后的五视角六阶段图，左右轮替、等待侧肩旁、掌心朝前及足底/躯干稳定均与真人及 Prehab 要点一致。项目较参考更慢，先左后右；保持现有视频。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/standing_alternate_press.blend",
+          "sceneSHA256": "dd05910f424c4487b453974d463dbfd5ac866bb1957b2ce066ed2540274a8224",
+          "video": "Repcendo/Resources/ExerciseAnimations/0414-female.mp4",
+          "videoSHA256": "86b7d485ef024f0124b3a5bd4cc5fcc6983e55b689ae47bef069786ef43ce248",
+          "posterSHA256": "ae39b3a52319dd955957ac95e9c6bfaf43b03642a9334cd7be057604f2aeb288",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看八阶段成片与新增25/73帧后的五视角六阶段图，左右轮替、等待侧肩旁、掌心朝前及足底/躯干稳定均与真人及 Prehab 要点一致。项目较参考更慢，先左后右；保持现有视频。"
+        }
+      }
+    },
+    {
+      "exercise": "standing_alternate_lateral_raise",
+      "exerciseId": "0415",
+      "title": "站姿交替侧平举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/standing_alternate_lateral_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/standing_alternate_lateral_raise.blend",
+          "sceneSHA256": "93352eb15c0d275e6e125cae59d13f47a17416f963ef89bfdee26c2ff9deeb21",
+          "video": "Repcendo/Resources/ExerciseAnimations/0415-male.mp4",
+          "videoSHA256": "3df07d7319a2dfa333934bf61b759ffa1d19cbdf225818a2f7879e7273353569",
+          "posterSHA256": "18ed7ddf701a6038ecb57ef5d69d0a49f9e381e882c67752354bc2e557375d48",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看六阶段五视角图（补25/73上升回落）及已有成片八阶段。与Precision站姿交替示范比对：低位手在腿侧，侧举至肩高，另一手等待于低位，回到低位后再换侧；两侧腕线稳定，躯干无明显摆动。来源平面略偏前、项目更接近侧面，幅度与交替语义一致，保留现有视频。握持近景部分主动手出框，已用清晰正/主/背视角及全帧握持报告交叉核对。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/standing_alternate_lateral_raise.blend",
+          "sceneSHA256": "0731e3c8c635d4248435112b352b5a9675db75ec82c8f6c0b5752a14fe4faeb5",
+          "video": "Repcendo/Resources/ExerciseAnimations/0415-female.mp4",
+          "videoSHA256": "ab418a15a5c86d2530f3bf54456386fbc7f6d024cfa0a75da5216fc7af6fb7a9",
+          "posterSHA256": "870d717eb1f130ae781b17c6e2f901fe220851717f64f2d72345866b0ffea751",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看六阶段五视角图（补25/73上升回落）及已有成片八阶段。与Precision站姿交替示范比对：低位手在腿侧，侧举至肩高，另一手等待于低位，回到低位后再换侧；两侧腕线稳定，躯干无明显摆动。来源平面略偏前、项目更接近侧面，幅度与交替语义一致，保留现有视频。握持近景部分主动手出框，已用清晰正/主/背视角及全帧握持报告交叉核对。"
+        }
+      }
+    },
+    {
+      "exercise": "db_shrug",
+      "exerciseId": "0406",
+      "title": "哑铃耸肩",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/db_shrug.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/db_shrug.blend",
+          "sceneSHA256": "6d3152e022a10a16043a72cd0182e3bb2154add1754c836c711b3c53626c7003",
+          "video": "Repcendo/Resources/ExerciseAnimations/0406-male.mp4",
+          "videoSHA256": "5801ed1f8c953535f714c35aa78bbf0de2cf0b3476f001c3bb4489b6787783da",
+          "posterSHA256": "1c271a055b22e47de242bf2ff494b07c3b1727df1715206e5399cd853c7dfe9a",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前男女五视角四阶段与成片八阶段，肩带垂直上提，双铃随直臂小幅升降，腕与躯干稳定；与M&S实拍及文字说明一致。保持当前动画。工程视觉复核，非教练认证。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/db_shrug.blend",
+          "sceneSHA256": "844d9a55d2157be016d1f723c4c49b0d62fc1335f209a77356ea0df53597ddb5",
+          "video": "Repcendo/Resources/ExerciseAnimations/0406-female.mp4",
+          "videoSHA256": "99676f1b8a3f004f1378602c0010e14a03ae2dcf4456d92bb2dc08717e276aa6",
+          "posterSHA256": "3077ff1a99e218b23197093e5f7f03e9c356a09acf3ad9787261741b0ac6ad0d",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看当前男女五视角四阶段与成片八阶段，肩带垂直上提，双铃随直臂小幅升降，腕与躯干稳定；与M&S实拍及文字说明一致。保持当前动画。工程视觉复核，非教练认证。"
+        }
+      }
+    },
+    {
+      "exercise": "db_bent_row",
+      "exerciseId": "0293",
+      "title": "俯身哑铃划船",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/db_bent_row.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/db_bent_row.blend",
+          "sceneSHA256": "a81cc5374e3587f0faaf9de82f69cbc302dbf48987202751b320e2c42791502f",
+          "video": "Repcendo/Resources/ExerciseAnimations/0293-male.mp4",
+          "videoSHA256": "99ad525c1447cd18c6fde8ae3e485bd0f7b41746aeba4c51b651e24e68ce3bc7",
+          "posterSHA256": "286cdb97c80f15587764e75ba6df935797d733869833c5a51574a96179b0af31",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "已实际查看当前主/正/侧/背/握持关键帧和成片八阶段：双铃靠近下肋/腰部，双肘后拉，上身髋折叠保持，双足不移动，伸肘低位不锁死。与OPEX完整重复及PureGym要点一致，保留现有动画。工程视觉检查，非教练认证。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/db_bent_row.blend",
+          "sceneSHA256": "ac54b1e1e17988e7b064112a93bd3d5d720a9f9e23107926c7f9613ebd6f126a",
+          "video": "Repcendo/Resources/ExerciseAnimations/0293-female.mp4",
+          "videoSHA256": "ccdcdd6c37252800f20fe9c2c907e08dd6af2bbe5095885f1ee1ba652a3956e1",
+          "posterSHA256": "ae558d342addd7126bfff2e58fc06e35b72aa0edcc9967b7d619e260d2fcc49a",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "已实际查看当前主/正/侧/背/握持关键帧和成片八阶段：双铃靠近下肋/腰部，双肘后拉，上身髋折叠保持，双足不移动，伸肘低位不锁死。与OPEX完整重复及PureGym要点一致，保留现有动画。工程视觉检查，非教练认证。"
+        }
+      }
+    },
+    {
+      "exercise": "single_curl",
+      "exerciseId": "1670",
+      "title": "单臂站姿哑铃弯举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_curl.blend",
+          "sceneSHA256": "e996a2ba49d7d4a543a4c9774a8b9a11dda84989d25d803a22c069a920026aac",
+          "video": "Repcendo/Resources/ExerciseAnimations/1670-male.mp4",
+          "videoSHA256": "3136f794133ae84318e1cb30d91398faded421770546121c78e52c00830fdf97",
+          "posterSHA256": "f65ca768e467399773828f1e4c1790408ab25dfce71f8195a79d31c00cd6f001",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "fc36eeddb0306d0e828d52495219c0f4f3543ef147a32018d6e33107504b0f77",
+          "currentVideoSHA256": "d83b7986fbca330ac1154dc4d0004d3a4557b5967383d264ac4b43ff28954713"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_curl.blend",
+          "sceneSHA256": "05903588a064faefcc6661926969b905f694e203cd0a6147d07a8d0bef13ed11",
+          "video": "Repcendo/Resources/ExerciseAnimations/1670-female.mp4",
+          "videoSHA256": "e1c8ed4cd8e6843d951b592ab530cdfbe8ece4461c32e83c67385b018da4fc73",
+          "posterSHA256": "7f7129d8f9a499f80c248d8bd65ca0a088f291a943bf283d22250d372832805d",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "847715e4a643bbe999222032f7781dc6162a3b1c6cc98c6f17cf42f74f4a9b74",
+          "currentVideoSHA256": "3ac819bc24a0c69ad6df7eb45c0336ff5f630e977f390350c6dd8ab6751b0a47"
+        }
+      },
+      "confirmedIssue": "上臂持续前抬约34.5°，峰值屈肘仅约90°，与实际查看的固定反握真人重复不符。",
+      "backup": "build/motion-reference-review-2026-10-31/before-single_curl-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正活动侧上臂和屈肘范围，保持空闲臂稳定并使用近侧主镜头。"
+    },
+    {
+      "exercise": "single_hammer_curl",
+      "exerciseId": "1671",
+      "title": "单臂站姿锤式弯举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_hammer_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_hammer_curl.blend",
+          "sceneSHA256": "c60dfc4a2a248eabdcf183eb38a4bd6c8e9bd599fd079edb1e7f064f3c04fd5c",
+          "video": "Repcendo/Resources/ExerciseAnimations/1671-male.mp4",
+          "videoSHA256": "26a819d0a5f6e19baeabec493ab98b776cbe6cf3329ec685089302293499e10f",
+          "posterSHA256": "08b537fb66018504744d187d1cd3d35130f5c041d49c973c9472f133a2682add",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看五视角与成片：单臂中立握、负重侧主镜头、上臂固定、完整回落，闲置手及足底稳定；与 OPEX 真人右侧示范镜像对应。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_hammer_curl.blend",
+          "sceneSHA256": "8cacd01ab597cb8571c7f9545cdde13787ac5da40da24562068eebcb4f071b95",
+          "video": "Repcendo/Resources/ExerciseAnimations/1671-female.mp4",
+          "videoSHA256": "591a67e7c2ce5d54279c034dee917dba73fffa6a5aa9a910bea57b4ede9ebfc8",
+          "posterSHA256": "28c9ddeb03c7f8df8c2d7487ffc23df5f14eca1345005f65667bdcc51c779310",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看五视角与成片：单臂中立握、负重侧主镜头、上臂固定、完整回落，闲置手及足底稳定；与 OPEX 真人右侧示范镜像对应。"
+        }
+      }
+    },
+    {
+      "exercise": "single_reverse_curl",
+      "exerciseId": "0425",
+      "title": "单臂反握哑铃弯举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_reverse_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_reverse_curl.blend",
+          "sceneSHA256": "c810f284a10528ad0d7602419d6f0a565044a862a830ada9d246391c59706be3",
+          "video": "Repcendo/Resources/ExerciseAnimations/0425-male.mp4",
+          "videoSHA256": "5921b37b4d7c7a17deda43b518f49e8dffa2adfe5b38593a026dba380a4f1c53",
+          "posterSHA256": "21d48ce29bd6177582b87bc66830af604f2b90d69abb27fb7d673a190d6d0e1d",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "2471cdb56a6962880c02b138ab6be7bae06d7f4d368073dbe59ccc943b592273",
+          "currentVideoSHA256": "299e5d53e53e6d0ee10d1641f66c1ae5a60949e5af747dce45e0687a37d5c002"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_reverse_curl.blend",
+          "sceneSHA256": "611555cc6bdabec72933d46b862b62d3a36b022511c16d0456dd965662de4c37",
+          "video": "Repcendo/Resources/ExerciseAnimations/0425-female.mp4",
+          "videoSHA256": "cbbcc856790025675325182623d3d8f01b11b0c720f5fd8beab99b9a228552c4",
+          "posterSHA256": "e833baa455752800191d1a05ad258a4b2f09d8d944cca7cf260a3b96f93cb0bb",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "1151322a054ac724b9621ca2f9bbe3dc7cadf557a03204a16437f11b8ab61600",
+          "currentVideoSHA256": "3ffe8eeb254aeca9d692a5dc073f8d93a3b4dda599c93e8dcfb7bab464f08cfe"
+        }
+      },
+      "finding": "源视频比对发现上臂全周期前抬、屈肘不足，修复至身侧完整弧线。",
+      "backup": "build/motion-reference-review-2026-10-31/before-single_reverse_curl-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正单臂反握弯举行程、上臂位置与近侧主镜头。"
+    },
+    {
+      "exercise": "single_lateral_raise",
+      "exerciseId": "0355",
+      "title": "单臂哑铃侧平举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_lateral_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_lateral_raise.blend",
+          "sceneSHA256": "6fe171f8cca0ca1573ab0c3f818814f406e21f616ee14c0fd9d108a22646ecb4",
+          "video": "Repcendo/Resources/ExerciseAnimations/0355-male.mp4",
+          "videoSHA256": "a20da6d32d0a35853d1b9c39e1f68e7f062c226029071276aef6f8796d88469b",
+          "posterSHA256": "fd97ad22bf3c8933b2f0ba5f51054112772a680d2d7905e19304eb1b8191ab36",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女各五视角四阶段图及本次成片八点初查，与OPEX左侧单臂无支撑示范比较：铃由髋旁向侧面到肩高，肘微屈、腕顺直，右手空闲稳定。主镜头处负重侧；项目躯干比真人更稳定，低位略外展。未发现需修改的轨迹或明显穿插。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_lateral_raise.blend",
+          "sceneSHA256": "88dd7c9f42e37e35fb0a03409ac5d4255fe091e160a700b571dab7d4a441fd9f",
+          "video": "Repcendo/Resources/ExerciseAnimations/0355-female.mp4",
+          "videoSHA256": "cb5708038976604be3c09ed241033d4bb60edbc232cf3b1e98c4685ea04254f9",
+          "posterSHA256": "b6037630e7863a2d6beca7205547c55f287845d7a19f51d499d350f8696eff37",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女各五视角四阶段图及本次成片八点初查，与OPEX左侧单臂无支撑示范比较：铃由髋旁向侧面到肩高，肘微屈、腕顺直，右手空闲稳定。主镜头处负重侧；项目躯干比真人更稳定，低位略外展。未发现需修改的轨迹或明显穿插。"
+        }
+      }
+    },
+    {
+      "exercise": "single_overhead_press",
+      "exerciseId": "0361",
+      "title": "单臂站姿哑铃推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_overhead_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_overhead_press.blend",
+          "sceneSHA256": "d953142c424f2d1e27fc558e6adb57b920593d22ef86dd2636ffd3e50f38de49",
+          "video": "Repcendo/Resources/ExerciseAnimations/0361-male.mp4",
+          "videoSHA256": "31b1e73f39db4a37cbc8b8582ee0dce80940da21264b81e959994ec6e231790d",
+          "posterSHA256": "c32da83a0403887252b66c7ba7319a3930b44bfba812b5e1e00b7a675b785570",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女当前八阶段成片及主/正/侧/背/握持图。对照 OPEX 左臂正握单铃推举，肩旁起、近直顶点、原路回落及另一手体侧一致；低位肘较外展是雕塑体型适配。未见新的穿模或肢体扭曲，保持当前视频。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_overhead_press.blend",
+          "sceneSHA256": "ea64cdd0524a8f23ec9bd14cf4ab4f423908a2437cab0dc16745402954022a17",
+          "video": "Repcendo/Resources/ExerciseAnimations/0361-female.mp4",
+          "videoSHA256": "816d7f368189a3a0b660f7ce3e1a8df970330ef18ff8b089b395d30afae315cd",
+          "posterSHA256": "c23520efc9d9449bdff8e816ab216142979ff8d2e53d3865639effaa2d3717f1",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女当前八阶段成片及主/正/侧/背/握持图。对照 OPEX 左臂正握单铃推举，肩旁起、近直顶点、原路回落及另一手体侧一致；低位肘较外展是雕塑体型适配。未见新的穿模或肢体扭曲，保持当前视频。"
+        }
+      }
+    },
+    {
+      "exercise": "single_neutral_press",
+      "exerciseId": "0424",
+      "title": "单臂站姿中立握推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_neutral_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_neutral_press.blend",
+          "sceneSHA256": "48babb3b64c557325bc825f692a885353e64099d51a4375cda3d81f0fdc8fbe7",
+          "video": "Repcendo/Resources/ExerciseAnimations/0424-male.mp4",
+          "videoSHA256": "383d412bc8d641f26e6bcbd5b7d6e1b9fd9f3dd58f11a45afd4ffb9ea622af4c",
+          "posterSHA256": "b980c0064df4a2cc5db97df0004450ca1394c090d6536728d4702c0a79344fa0",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "男女当前主/正/侧/背/握持图与成片已实际看：左手中立握从肩旁到头顶、空闲右手体侧稳定、脚与躯干不摆动，负重手近侧可见；与OPEX单臂示范相符。保留视频；工程视觉复核。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_neutral_press.blend",
+          "sceneSHA256": "a675c0ac3328f90d0b874856edd13c45005dfdf976455c28826f305f0fb62a1c",
+          "video": "Repcendo/Resources/ExerciseAnimations/0424-female.mp4",
+          "videoSHA256": "9b4d326750265ef40ce6b02214ff4a224774e39b79faf215e5e4ee318a145ca0",
+          "posterSHA256": "25dcc69795b9e49f71e8e9472f3b9a942efaae1c4c7bb8220890c9e0c65cd79f",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "男女当前主/正/侧/背/握持图与成片已实际看：左手中立握从肩旁到头顶、空闲右手体侧稳定、脚与躯干不摆动，负重手近侧可见；与OPEX单臂示范相符。保留视频；工程视觉复核。"
+        }
+      }
+    },
+    {
+      "exercise": "single_bench_press",
+      "exerciseId": "0343",
+      "title": "单臂哑铃卧推",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_bench_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_bench_press.blend",
+          "sceneSHA256": "54640596938f9f4bcc4c6f06151d9f6eb38b9f659c87c4a9654dd600250c9ef5",
+          "video": "Repcendo/Resources/ExerciseAnimations/0343-male.mp4",
+          "videoSHA256": "b99865e6a5c37cf682862eb319278c381da183b4467da9b7a9a2d7452f267cb1",
+          "posterSHA256": "a5d708b6ce59c8cefc0f606b91ecc41f6859bfc9668ba3ba6026170df04797e6",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女八阶段成片及五视角四阶段，与 NASM 单臂参考对照，左手独立正握推伸、胸侧回落与躯干抗旋转稳定。空闲手身侧较 NASM 腹部不同、与 OPEX 体侧版相近；低位肘更外展，已明示体型差异，保持现有视频。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_bench_press.blend",
+          "sceneSHA256": "d34ffe767e833536910f95765c52349bb160c32901922e0f46546ac7ecae0dc2",
+          "video": "Repcendo/Resources/ExerciseAnimations/0343-female.mp4",
+          "videoSHA256": "874550c71e251c3811271b53f568075421ad1e1fdbb0500713d298943549c0e4",
+          "posterSHA256": "c8e4145ff435be97799928d3db15b705b69dfb9825fbf9fac2636e9d3e2bfb1c",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女八阶段成片及五视角四阶段，与 NASM 单臂参考对照，左手独立正握推伸、胸侧回落与躯干抗旋转稳定。空闲手身侧较 NASM 腹部不同、与 OPEX 体侧版相近；低位肘更外展，已明示体型差异，保持现有视频。"
+        }
+      }
+    },
+    {
+      "exercise": "single_incline_press",
+      "exerciseId": "1281",
+      "title": "单臂上斜哑铃推举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_incline_press.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_incline_press.blend",
+          "sceneSHA256": "9085725748a418dcb91f16c15175a5960619e1ce959db025515a9cdefee6d11f",
+          "video": "Repcendo/Resources/ExerciseAnimations/1281-male.mp4",
+          "videoSHA256": "a28f5461eb6a2a9be958a3851ec8f0eff2d52eda953087e113e5e29a10dde8e4",
+          "posterSHA256": "ea853d76f5c3e7e45fd477417caa3ded4631fab3ec6d66a3aaa6c90ca552a17c",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女八阶段成片、五视角图和女性57/60/61帧细查，与 NASM 上斜单臂参考对照；左侧正握推伸、回上胸旁、躯干及支撑稳定，空闲手体侧与参考大腿位置不同但不助力。没有新的明显肩肘畸变或握持翻转，保持现有动画。"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_incline_press.blend",
+          "sceneSHA256": "890845ef6394f103d09168419e35bcb2d61b80bbec902c6a7cc4025dd4d3372a",
+          "video": "Repcendo/Resources/ExerciseAnimations/1281-female.mp4",
+          "videoSHA256": "59507c056a6889467db65f4cc4e1b1e47a2dab8a4657c41a5d8e7cb0b8b5fb13",
+          "posterSHA256": "9b39668354c9039750b638dfb24fcf6d390a20191c39ba4dbc35cbf8c107c065",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "实际查看男女八阶段成片、五视角图和女性57/60/61帧细查，与 NASM 上斜单臂参考对照；左侧正握推伸、回上胸旁、躯干及支撑稳定，空闲手体侧与参考大腿位置不同但不助力。没有新的明显肩肘畸变或握持翻转，保持现有动画。"
+        }
+      },
+      "sourceResearchNotes": [
+        {
+          "url": "https://www.youtube.com/watch?v=SnZ75pFB7Wo",
+          "observed": "0/0.749998/1.499997/2.499996/3.499995秒实际观看；OPEX侧面远侧肘低位遮挡，需补充可见肘部的上斜单臂参考。"
+        }
+      ]
+    },
+    {
+      "exercise": "db_kickback",
+      "exerciseId": "0333",
+      "title": "站姿双臂俯身臂屈伸",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/db_kickback.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/db_kickback.blend",
+          "sceneSHA256": "ed17317518da0f9a5b5a8768f6f4216071a84e869e6f6230617af4b492e94b74",
+          "video": "Repcendo/Resources/ExerciseAnimations/0333-male.mp4",
+          "videoSHA256": "ddf8f2b3708f6cb0224ebdf854f182260fad87de2d5b763ba1d4d228623af6e4",
+          "posterSHA256": "d1a3ab81475d3eed8f42dc777ff073c31c4ed136d3acf672a907ceeae88cf839",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "fb6f3ad5b74df4b1c356ce25cc74bf28b032c6ebaec049cae463face991c5ad6",
+          "currentVideoSHA256": "50babd0b3961893b7db79659cafc4c3a9d02e0f41acc5c62a07b6d9d365062a4"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/db_kickback.blend",
+          "sceneSHA256": "b4ff0483072175e6254287162887ae383e9e36b0b04cb75f517a036256ad9a67",
+          "video": "Repcendo/Resources/ExerciseAnimations/0333-female.mp4",
+          "videoSHA256": "4d7c6992efb6d2e616bdee201926c7d3a0907794a09f1eb7b968727307cdb8c0",
+          "posterSHA256": "8d5f2c026f9b4a669cf7c4cca16d54cdfe6a18ac9d02b4c4fe961f6b346084b4",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "bb4c0e3078aa2227d160888b71bd61348ffd495ee72e4c53fd76d26e73147663",
+          "currentVideoSHA256": "87814204b4f8196ccf39877c90dc905bd91c8c37a0aec16fd0bebe04af206df1"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-db_kickback-single_kickback-seated_kickback-seated_single_kickback-seated_bent_lateral_raise-overhead_front_raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "降低上臂外张，保持髋铰链并以肘伸展完成动作。"
+    },
+    {
+      "exercise": "single_kickback",
+      "exerciseId": "0354",
+      "title": "站姿单臂俯身臂屈伸",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_kickback.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_kickback.blend",
+          "sceneSHA256": "2f69f3b7fa914df0a1bb35b01972a0943a0ffee9ce5ec9f10ee8f7ef8f6af448",
+          "video": "Repcendo/Resources/ExerciseAnimations/0354-male.mp4",
+          "videoSHA256": "108c0fecd4c153139c59eb8b180940fccee2df5505c0854bf8bf1d2b7ce62882",
+          "posterSHA256": "4f3f6f053b8357327703bde49f3335df758245088c9441b718d30ac1113e9cf8",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "0e542e315f72c5d1baef6f7811aa2aaa10743f3e0931d85d880f37611d83d37a",
+          "currentVideoSHA256": "668d24ebef4f42d40d55d5098060eeeefc623599c472c03162faf9a34c67bde1"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_kickback.blend",
+          "sceneSHA256": "226700c622e04eef8fcef09249acffbeac7cc51a0e0eed972114ad782f5100fa",
+          "video": "Repcendo/Resources/ExerciseAnimations/0354-female.mp4",
+          "videoSHA256": "6cffb2d03b453d30aa9df8cc26a2ead086f2cf07fd98eb2667c786fcb7a69506",
+          "posterSHA256": "21810b0432872eed6a00ded59ffbd3f74001181da51ed1941b4134bb7d2a9bf7",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "2b94a410df91f1c3750121e0fb99bc03fa64ac910e80a0abbbad91f28c26c01a",
+          "currentVideoSHA256": "1207deb78ad12b583b802f93bafb3906056b58d99ce6d5a86dc5e1618b046453"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-db_kickback-single_kickback-seated_kickback-seated_single_kickback-seated_bent_lateral_raise-overhead_front_raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正单侧臂屈伸上臂与前臂方向、空闲侧稳定。"
+    },
+    {
+      "exercise": "seated_kickback",
+      "exerciseId": "0394",
+      "title": "坐姿双臂俯身臂屈伸",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_kickback.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_kickback.blend",
+          "sceneSHA256": "7a6a2682bf83d15baf3d3a0717f9b89b7b71af96bf6d6f94b38af0df71634252",
+          "video": "Repcendo/Resources/ExerciseAnimations/0394-male.mp4",
+          "videoSHA256": "34a8263e20481aa69e85eca3a5907131d8a9d12c7898c401c15f417bf954fc5f",
+          "posterSHA256": "00c7d94faa9f0bd93990256448c9e4ee4898a41323db5a31a657a556b265b008",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "8acd377ad175aedb3a8646b78d1ca7d03cd61426ecec90a365a6078b83eef5b0",
+          "currentVideoSHA256": "c818b93f22de184cbd432b1ebeea7a0273e33fa37c18a50df4a8d2116a77dce7"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_kickback.blend",
+          "sceneSHA256": "5a1aa6666593c221f51d5046eb44da6776410b6c582ed6278c747d92329d869b",
+          "video": "Repcendo/Resources/ExerciseAnimations/0394-female.mp4",
+          "videoSHA256": "68d73c57e6b99d2f2070ab7cfd6d82183ae737e6700e06fc161b3d02ccf22508",
+          "posterSHA256": "8fc2299bd6e95df4cbf5d5bf90036d9a4be42966bfdb5036978dfdb618fe8c42",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "51a85782c080bfe058317090f0eec336c7b141c1b8c9a5ac932fd874ab6a2101",
+          "currentVideoSHA256": "9aabc07a12aff98cfd49e37660f633ce69d1b50f527a485012a9751d9dbd34dc"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-db_kickback-single_kickback-seated_kickback-seated_single_kickback-seated_bent_lateral_raise-overhead_front_raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正坐姿腿距、上臂外张和前臂路径。"
+    },
+    {
+      "exercise": "seated_single_kickback",
+      "exerciseId": "0398",
+      "title": "坐姿单臂俯身臂屈伸",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_single_kickback.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_single_kickback.blend",
+          "sceneSHA256": "5b8b35be29fd45a9a73c2c7325944aabdd955e02a3b4bff0a2cda81671594bf4",
+          "video": "Repcendo/Resources/ExerciseAnimations/0398-male.mp4",
+          "videoSHA256": "3e1d7475e726b8ca2bde885f85f22dad6de91cdb5fb0a2e9b651ea6f0ab2756e",
+          "posterSHA256": "682a8fcbd15151606e5b433981044496d1dd37851fe0d0e465e01e4523ac4c38",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "47bf25afe15864de19aa01a3f53746a3ebfcba1786b7a41a45edd57c1bcf2684",
+          "currentVideoSHA256": "557fd62889f31609234f2fe2744e62f7210ff566bc4301164e296c048b82a3cb"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_single_kickback.blend",
+          "sceneSHA256": "75be675bacd3d93e4d36ad89ec8359b9cea61b6245a3c1947e011d279ec7e0b9",
+          "video": "Repcendo/Resources/ExerciseAnimations/0398-female.mp4",
+          "videoSHA256": "f42c970d002582dbfead9cbf04cc7ab30c3537484156bf5b0b06910a333cf2aa",
+          "posterSHA256": "05249b595c041d75115213e46678bc50731081754a78709b41456b3c89862fba",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "bfa79253e5502d439ae5d654c04ef9982f853ec40260f0001b2f5220b9b8414c",
+          "currentVideoSHA256": "5573a5b959ea6119ef11f521357b964ec1654fccb2b21402078236bd96a1e63f"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-db_kickback-single_kickback-seated_kickback-seated_single_kickback-seated_bent_lateral_raise-overhead_front_raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正坐姿单臂伸肘轨迹、腿部间隙和近侧镜头。"
+    },
+    {
+      "exercise": "seated_bent_lateral_raise",
+      "exerciseId": "2317",
+      "title": "坐姿屈臂侧平举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_bent_lateral_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_bent_lateral_raise.blend",
+          "sceneSHA256": "a27f75e4e84e564d33a40fc2b80a6f7a3829434c9aebff37ca662079f1e2855a",
+          "video": "Repcendo/Resources/ExerciseAnimations/2317-male.mp4",
+          "videoSHA256": "03998761dfb2c1afeefd53f9c48103d5c5ba0cf7d6d0d2527e6158db6262bf82",
+          "posterSHA256": "54e073e1fa6df33d405971ea5fc42f0092f6df7c98b44c37a2856601d3af626d",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "dde9c9f6e5f233e3ddb398896da6d10051692712506950744e023c47d326cbc2",
+          "currentVideoSHA256": "9c64a4b476d4537aa42ec40a2d1eee8e6a6c132868a4a7867438c83347c385a0"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_bent_lateral_raise.blend",
+          "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+          "video": "Repcendo/Resources/ExerciseAnimations/2317-female.mp4",
+          "videoSHA256": "c7eeaa8eb3c7c3174f44c6bfe0a8af72236f8ae82d1c9848604400a735e93c2e",
+          "posterSHA256": "9fabbc434c96e271147ea602a040f34cc438b1f61027562994a6d00787dc5b2e",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "353dc5e4515fcf6ce2c602eea42a707ae0e0c376647f3c9429f6a5acb1fc0f33",
+          "currentVideoSHA256": "321fed49f8f03809a81ba552885ccf0ff8d964dc2af4d772cd85fe7d7fdb1758"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-db_kickback-single_kickback-seated_kickback-seated_single_kickback-seated_bent_lateral_raise-overhead_front_raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正低位握法与抬臂过程，避免全程错误旋前。"
+    },
+    {
+      "exercise": "overhead_front_raise",
+      "exerciseId": "0419",
+      "title": "站姿哑铃过顶前平举",
+      "collection": "library",
+      "status": "repaired_and_synced",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/overhead_front_raise.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/overhead_front_raise.blend",
+          "sceneSHA256": "bd5220e376d13ff033a95ff08b295046b2515d8ddbf9c70f709657c874d0a6f1",
+          "video": "Repcendo/Resources/ExerciseAnimations/0419-male.mp4",
+          "videoSHA256": "2924551e10e0c9779e5cf8d5e0a96a182f89965825c287bbd0ea0d2c6a802627",
+          "posterSHA256": "44c8bbb0ea7759188c3161245403048525ecc2371b0253fd4f346501131195a9",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "43b5d503ae57dde89b064ddf20def41145464a4acbeffd520cd002015577d059",
+          "currentVideoSHA256": "aa3d05343a79f6707a9a83f8942989b8eb9c293e9b350ec4e34d257bed6452f7"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/overhead_front_raise.blend",
+          "sceneSHA256": "7265f378c243d026ebe081b2b01cdc5178a804cae7eab72a2ba86658353b9781",
+          "video": "Repcendo/Resources/ExerciseAnimations/0419-female.mp4",
+          "videoSHA256": "88c823f450df90eac761a41bf16df1dda19292cb9cb617096e7fa53ce4e60cd2",
+          "posterSHA256": "101c19778cf28d9544c85054c217b352a5dbfbee43572a0e1c013105933cb93f",
+          "visualReferenceStatus": "accepted_repair",
+          "currentSceneSHA256": "5e3839ccc1534d00057bf34ca97ac1f4393fea51ef3b7283b238acb306d37223",
+          "currentVideoSHA256": "780639fdc92e7c1002108977fb8258371d7700cf07dfcfd8a2f5f903bcaefc22"
+        }
+      },
+      "backup": "build/motion-reference-review-2026-10-31/before-db_kickback-single_kickback-seated_kickback-seated_single_kickback-seated_bent_lateral_raise-overhead_front_raise-repair",
+      "candidateRoot": "build/motion-reference-review-2026-10-31/candidate",
+      "repairSummary": "修正低位预抬和过顶前平举行程。"
+    },
+    {
+      "exercise": "db_upright_row",
+      "exerciseId": "0437",
+      "title": "双臂哑铃直立划船",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/db_upright_row.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/db_upright_row.blend",
+          "sceneSHA256": "fd30d2fe8884149fcf1db4064458e43ba1a7490fb801f4f7fcf523b0285f0b6b",
+          "video": "Repcendo/Resources/ExerciseAnimations/0437-male.mp4",
+          "videoSHA256": "52bf82602226530705279a5f02465a5420dbfb007cccac3448819f573c6db52d",
+          "posterSHA256": "6b5679392fb1fc4f4de4cea203619d35ee172e144d29ef82bc08daecd1d8b84d",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "重新实际查看男女五视角，双肘峰值低于肩、腕内下方、躯干足底稳定；沿用 2026-10-30 实际观看的 PureGym/NCSF 来源与已匹配场景审核。",
+          "currentVideoSHA256": "52bf82602226530705279a5f02465a5420dbfb007cccac3448819f573c6db52d"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/db_upright_row.blend",
+          "sceneSHA256": "99f158d36faaf81a65e5b4888e5716ef3728ca88f4d4fd7a76eea1ca5665fc1f",
+          "video": "Repcendo/Resources/ExerciseAnimations/0437-female.mp4",
+          "videoSHA256": "9bb7fd4a8f93eccfb5b49d611a940dcebe4fd0b80371efacd559679dd2bb3236",
+          "posterSHA256": "3e194c55486a4399d41bca03b8114f09f64233c0d12851ce402a3dab28461eed",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "重新实际查看男女五视角，双肘峰值低于肩、腕内下方、躯干足底稳定；沿用 2026-10-30 实际观看的 PureGym/NCSF 来源与已匹配场景审核。",
+          "currentVideoSHA256": "9bb7fd4a8f93eccfb5b49d611a940dcebe4fd0b80371efacd559679dd2bb3236"
+        }
+      },
+      "referenceObservationDate": "2026-10-30",
+      "recheckedOn": "2026-10-31"
+    },
+    {
+      "exercise": "single_upright_row",
+      "exerciseId": "0363",
+      "title": "单臂哑铃直立划船",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/single_upright_row.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/single_upright_row.blend",
+          "sceneSHA256": "01fed083059ed372ad9cb9a05e2dd147737e0ffb3f7d731f701bb740ffabac1d",
+          "video": "Repcendo/Resources/ExerciseAnimations/0363-male.mp4",
+          "videoSHA256": "1ac58956e8ff3dd0eec26bece494b93b27ded8f5a6ffe3304a7076f9345becb9",
+          "posterSHA256": "9bbef675076110dc2c5ae09b9bc8fd547fb966e7fe5f0d258ae9cdcfbdacf386",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "重新实际查看男女五视角，负重侧镜头完整展示手肘与铃，闲置臂稳定，肘未高于肩；沿用 2026-10-30 Functional Bodybuilding 真人四阶段。",
+          "currentVideoSHA256": "1ac58956e8ff3dd0eec26bece494b93b27ded8f5a6ffe3304a7076f9345becb9"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/single_upright_row.blend",
+          "sceneSHA256": "337f53ffb7c7eec692b26496ce56ad89e898e1bd9deb14ca4d16a659d08bae7b",
+          "video": "Repcendo/Resources/ExerciseAnimations/0363-female.mp4",
+          "videoSHA256": "41216dd0df7da0f3fb3da6d14e601b3670fb4af5bf7ae85205a34b07a4f2b8e3",
+          "posterSHA256": "31623df19ad8d3e0ce5d1f4dac5383babc7e77e4d483fb49dfdb409fbc60d6e9",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "重新实际查看男女五视角，负重侧镜头完整展示手肘与铃，闲置臂稳定，肘未高于肩；沿用 2026-10-30 Functional Bodybuilding 真人四阶段。",
+          "currentVideoSHA256": "41216dd0df7da0f3fb3da6d14e601b3670fb4af5bf7ae85205a34b07a4f2b8e3"
+        }
+      },
+      "referenceObservationDate": "2026-10-30",
+      "recheckedOn": "2026-10-31"
+    },
+    {
+      "exercise": "seated_single_hammer_curl",
+      "exerciseId": "1669",
+      "title": "坐姿单臂锤式弯举",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/seated_single_hammer_curl.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/seated_single_hammer_curl.blend",
+          "sceneSHA256": "01534d2b57ef2730c67d072f50783f417b2d20fde96569618da7cf6c0687561b",
+          "video": "Repcendo/Resources/ExerciseAnimations/1669-male.mp4",
+          "videoSHA256": "ceb62970aacc74bdf3281e4c17da0257341d03610cd87f19b58f558128fbf16b",
+          "posterSHA256": "0b988a328873bc8de10b1e8364e21d8f97c0cc38df950ce21e8023d1846a71ae",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "重新实际查看男女五视角：坐姿单侧中立握屈肘，上臂固定，另一手置于凳侧，双足稳定；沿用 2026-10-30 OPEX 真人四阶段及左右镜像差异记录。",
+          "currentVideoSHA256": "ceb62970aacc74bdf3281e4c17da0257341d03610cd87f19b58f558128fbf16b"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/seated_single_hammer_curl.blend",
+          "sceneSHA256": "169a7340f59e984b2ba3ea866e83f0aacbad377ca7009f4fe495e777215bfd5b",
+          "video": "Repcendo/Resources/ExerciseAnimations/1669-female.mp4",
+          "videoSHA256": "7b5992df67fed3f619a62cbac5913548f6f24209dcbf0c6383c68d8f285dde24",
+          "posterSHA256": "e65407c3e4c0d7a7fd008604992e76f4a85f489d115eb8a41f8f4fff9b4c9d2c",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "重新实际查看男女五视角：坐姿单侧中立握屈肘，上臂固定，另一手置于凳侧，双足稳定；沿用 2026-10-30 OPEX 真人四阶段及左右镜像差异记录。",
+          "currentVideoSHA256": "7b5992df67fed3f619a62cbac5913548f6f24209dcbf0c6383c68d8f285dde24"
+        }
+      },
+      "referenceObservationDate": "2026-10-30",
+      "recheckedOn": "2026-10-31",
+      "instructionCrossCheck": {
+        "publisher": "American Council on Exercise",
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/10/hammer-curl/",
+        "accessedOn": "2026-10-31",
+        "observed": "实际阅读步骤1–3：中立握、单臂或双臂屈肘、上臂不前移、腕直、回落低位；交替时等待手维持起点。其前后站姿不作为本项目平行站姿的依据；坐姿变体仅交叉核对上肢要点。"
+      }
+    },
+    {
+      "exercise": "standing_alternate_kickback",
+      "exerciseId": "1739",
+      "title": "站姿交替哑铃臂屈伸",
+      "collection": "library",
+      "status": "reference_checked_unchanged",
+      "initialVideoBoardViewed": true,
+      "referenceFile": "docs/motion-references/standing_alternate_kickback.json",
+      "variants": {
+        "male": {
+          "scene": "docs/animation-library/male/standing_alternate_kickback.blend",
+          "sceneSHA256": "5b230fe79877b1ab6aa9ab7d9d73f5427e3c5bdbc8b91252cdfba82b3c4923a5",
+          "video": "Repcendo/Resources/ExerciseAnimations/1739-male.mp4",
+          "videoSHA256": "2897ae4f6698205a53f4212221dbeff3495fb277efb19531518480e224102451",
+          "posterSHA256": "95d9d561d424fb5912cb82959426fb490f4cda626fc7dfbe1bc7aeea7620d9c5",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "重新实际查看男女十阶段五视角：髋屈前倾固定，上臂平行躯干，左右伸肘交替且等待侧保持屈肘；沿用 2026-10-30 Functional Fitness 真人四阶段。",
+          "currentVideoSHA256": "2897ae4f6698205a53f4212221dbeff3495fb277efb19531518480e224102451"
+        },
+        "female": {
+          "scene": "docs/animation-library/female/standing_alternate_kickback.blend",
+          "sceneSHA256": "c89b5109e8a000afce695292aa4e6f588730771fe007615b1fbdb34abfc2e6ec",
+          "video": "Repcendo/Resources/ExerciseAnimations/1739-female.mp4",
+          "videoSHA256": "9b83927e4526ea5471d51d61225672a6db47da42d67944e7131862e7c6f7498a",
+          "posterSHA256": "e5a10bbb5fa0176882d51a801d260f9dc8d3e87a7cd4cd0da01700e1c46ee001",
+          "visualReferenceStatus": "accepted_unchanged",
+          "notes": "重新实际查看男女十阶段五视角：髋屈前倾固定，上臂平行躯干，左右伸肘交替且等待侧保持屈肘；沿用 2026-10-30 Functional Fitness 真人四阶段。",
+          "currentVideoSHA256": "9b83927e4526ea5471d51d61225672a6db47da42d67944e7131862e7c6f7498a"
+        }
+      },
+      "referenceObservationDate": "2026-10-30",
+      "recheckedOn": "2026-10-31"
+    }
+  ],
+  "completedOn": "2026-11-01",
+  "summary": {
+    "status": "passed",
+    "scopeExercises": 66,
+    "repaired": 25,
+    "unchanged": 41,
+    "appExercises": 68,
+    "appVideos": 136,
+    "builtResourcesChecked": 273,
+    "httpMediaChecked": 272,
+    "planReferenceVersions": 40,
+    "libraryReferenceVersions": 96,
+    "phoneInstalled": false,
+    "unchangedSceneVariantsVerified": 82,
+    "privateFilesIgnored": 989,
+    "planAssets": "19 motions, 34 plan-only videos, 4224 alpha-boundary frames; bundle pass",
+    "handGripChecks": "plan closed-hand motions plus all 6 sample scenes passed",
+    "stableSupportAndLoop": "34 plan-only scenes passed"
+  }
+}

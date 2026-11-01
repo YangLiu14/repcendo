@@ -39,6 +39,12 @@ def blender(name):
     ]
 
 
+from plan_reference_gate import CATALOG as REFERENCE_CATALOG, load_reference
+
+if not a.dry_run:
+    for name in REFERENCE_CATALOG:
+        load_reference(name)
+
 steps = []
 if not a.from_scenes:
     steps.append(py("render_plan.py", "--bake-only", "--workers", str(a.workers)))
@@ -55,7 +61,14 @@ steps += [
     blender("verify_pec_deck.py"),
     [*blender("verify_equipment_refit.py"), "--"],
 ]
+for name in REFERENCE_CATALOG:
+    for sex in ("male", "female"):
+        steps.append([*blender("plan_reference_gate.py"), "--", "--exercise", name, "--sex", sex])
 if a.prepare_review:
+    for name in REFERENCE_CATALOG:
+        for sex in ("male", "female"):
+            steps.append([*blender("render_plan_reference_review.py"), "--", "--exercise", name, "--sex", sex])
+    steps.append(py("compose_plan_reference_review.py"))
     steps += [
         [*blender("render_deformation_review.py"), "--"],
         py("compose_deformation_review.py"),
@@ -87,5 +100,5 @@ for command in steps:
         subprocess.run(command, cwd=ROOT, check=True)
 if a.prepare_review:
     print(
-        "Review deformation-review/*.jpg and record scene-matched decisions in deformation-visual-review.json; then use --from-scenes."
+        "Review reference-review and deformation-review images against the human sources; record scene-matched reference-review.json and deformation-visual-review.json decisions; then use --from-scenes."
     )

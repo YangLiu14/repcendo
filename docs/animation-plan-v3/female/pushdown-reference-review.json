@@ -1,0 +1,53 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "2a39e0f4f97a1c6a8f8a947d365f482ca0fef7db20fd044225e75127dafd9b6c",
+  "referenceSHA256": "40c12bba2801da35be02af2c849a2d0f0eb3514ce221e393d7434fa194a3b5c1",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。修订男女全景四视图及去器械人体图已查看，最新双手特写确认相对握持、拇指朝绳端、指节连续；男手接触面细分后全循环碰撞0，未扩大2mm阈值。上臂固定，完成伸肘下压；塔架、顶滑轮和配重机构保持已核对的实物结构。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/pushdown.jpg": "9f8fd86ad0ba3c20a518ac782a3e8de797014f67f3ed5ba415cf0c28e099a5ab",
+    "docs/animation-plan-v3/deformation-review/female/pushdown.jpg": "d0f812e285bc7bf1ed52a7563d4e1160d9de3f81cc8b73088bb269e0149d9c8c",
+    "docs/animation-plan-v3/deformation-review/female/pushdown-grips.jpg": "6463700dd5376d308eb11b275284bfdefa35f37a11d698e4824e83c897e36a3c"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:00.000",
+      "frame": 1,
+      "notes": "屈肘起点、相对握绳，双足稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:04.342",
+      "frame": 31,
+      "notes": "前臂绕肘向下，上臂未随杆摆动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:01.447",
+      "frame": 61,
+      "notes": "近伸肘低位、双手在大腿外前方，腕无反扭。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:02.281",
+      "frame": 91,
+      "notes": "屈肘回到原位，躯干不借力。"
+    }
+  ]
+}

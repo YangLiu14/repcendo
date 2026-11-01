@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_hammer_curl",
+  "exerciseId": "1671",
+  "status": "reviewed",
+  "specificationSHA256": "28c0a71c17a35741f88d643a2795bcf2423971366b83e98e10e2baa95cf2e6df",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=yCDJmfP1Tr8",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "全身侧前镜头，右手中立握单铃在大腿外，闲置左手自然下垂，双足着地。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.667s",
+      "observed": "右肘屈曲，铃向肩前抬起，躯干与闲置手稳定。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.200s",
+      "observed": "单铃靠近肩前，掌心朝内，上臂未抬成前举。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.933s",
+      "observed": "铃沿原弧线下降，2.933秒完整回低位；没有换手或躯干旋转。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "单臂站姿中立握准确匹配；真人右手、本项目左手为镜像，主镜头保持负重侧。双足平行略开，与 ACE 文字的前后站姿不同；单臂稳定采用 OPEX 完整视频证据。男女五视角和成片已查看，无须修改媒体。",
+  "crossChecks": [
+    {
+      "publisher": "American Council on Exercise",
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/10/hammer-curl/",
+      "accessedOn": "2026-10-31",
+      "observed": "实际阅读步骤1–3：中立握、单臂或双臂屈肘、上臂不前移、腕直、回落低位；交替时等待手维持起点。其前后站姿不作为本项目平行站姿的依据；坐姿变体仅交叉核对上肢要点。"
+    }
+  ]
+}

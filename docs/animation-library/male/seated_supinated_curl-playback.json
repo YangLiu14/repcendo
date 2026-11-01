@@ -1,0 +1,24 @@
+{
+  "status": "accepted",
+  "reviewedAt": "2026-11-01",
+  "method": "Actual visual review of 15 frames sampled at 3 fps from the final encoded video; multi-view/grip/support evidence reviewed separately.",
+  "videoSHA256": "26b7ba7f85dffa82bf455df9b43fe55507018ce5b4c396f13a222f994facc85f",
+  "evidence": {
+    "seated_supinated_curl-playback.jpg": "33d04b74653b0b8150c027ab9362289bcd02a740fe7356e7410a9ac6a8720e28"
+  },
+  "notes": [
+    "实际查看最终编码视频3fps共15帧，覆盖准备、弯举、峰值、回程及接近循环起点；标题、肌群图、阶段条与完整器械构图正常，未见可见突变。",
+    "双臂同步、固定旋后握，上臂稳定；凳面和足底保持支撑。"
+  ],
+  "browserPlaybackStatus": "passed",
+  "browserPlayback": {
+    "currentTime": 5,
+    "duration": 5,
+    "ended": true,
+    "error": null,
+    "height": 960,
+    "paused": true,
+    "src": "http://127.0.0.1:8770/animation-library/male/seated_supinated_curl.mp4?v=26b7ba7f85df",
+    "width": 1280
+  }
+}

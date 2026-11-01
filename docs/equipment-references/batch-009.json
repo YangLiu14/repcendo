@@ -1,0 +1,26 @@
+{
+  "reviewed_on": "2026-11-01",
+  "source_url": "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf",
+  "photo_urls": [
+    "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf#page=44",
+    "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf#page=39"
+  ],
+  "models": [
+    "LF-GDBLB",
+    "LBR-FB"
+  ],
+  "photo_inspected": true,
+  "observed_structure": [
+    "中央直握柄连接两端对称负重，整只哑铃为刚性整体，无伸缩或活动机构。",
+    "平凳为长水平坐垫、纵向梁、前后端支撑与落地脚，未观察到活动靠背。"
+  ],
+  "simplifications": [
+    "沿用原创简化圆形端头、配色和人物适配尺寸；不复制商标、纹理和产品工程尺寸。",
+    "平凳使用原创简化长垫、纵梁和两端支脚，保留受力支撑关系；不复制产品纹理、标识和工程尺寸。"
+  ],
+  "motions": [
+    "0391",
+    "0297"
+  ],
+  "evidence_note": "本轮实际重新查看官方目录PDF第39页（印刷76–77）的LBR-FB平凳照片及第44页（印刷86–87）LF-GDBLB哑铃照片；本地照片不进入App。"
+}

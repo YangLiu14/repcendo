@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "db_bent_row",
+  "exerciseId": "0293",
+  "status": "reviewed",
+  "specificationSHA256": "ea930befde85d4b835ca9f6be59509fc06b7693b3b05388f1e282b54d9350c7e",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=aVH_cG4UISc",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.749997s",
+      "observed": "侧面全身，双足着地、屈膝髋折叠，双臂向下，掌心相对。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.499996s",
+      "observed": "躯干保持俯身角度，双肘朝后上方拉，哑铃靠近身体。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "2.249996s",
+      "observed": "双肘移到背后，双铃抵近腰肋，未用站起或后仰完成动作。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.999995s",
+      "observed": "双肘受控伸展，3.749994秒回到低位，膝髋及足底稳定。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "保留中立握、固定髋铰链和双肘向后划船；项目躯干略比参考高，不复制绝对个体角度。完整源重复和当前男女五视角已看，动作语义一致。",
+  "crossChecks": [
+    {
+      "publisher": "PureGym",
+      "url": "https://www.puregym.com/exercises/back/rows/dumbbell-bent-over-row/",
+      "locator": "How To, steps 1–4; Tips",
+      "observed": "实际读取：中立握、髋后移保持脊柱中立，肘向后拉至腰髋，再受控伸肘回低位。保持髋铰链，不转腕或通过站直带动负重。"
+    }
+  ]
+}

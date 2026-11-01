@@ -1,0 +1,79 @@
+{
+  "sceneSHA256": "908836e68469d7086c79508f33988571ed36c3b759faa2f1a2ee6387aaf1f049",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看男性五视角四阶段及左右手1/31/61无遮挡近景。对照OPEX 0.800/1.458/1.925/2.916秒，双手全程旋前，双臂同步，峰值未翻成普通旋后弯举。握柄随自然前臂携带角倾斜，手腕与前臂保持直线；上臂固定，肩腋/肘窝无反折，足底和躯干不动。哑铃中央柄与两端负重为刚性整体。",
+  "evidence": {
+    "docs/animation-library/male/bilateral_reverse_curl-review.jpg": "67971c0fb1e1f6481ad6d6d79dee88012217d413002e9275825041f97ea383f8",
+    "docs/animation-library/male/bilateral_reverse_curl-grips.jpg": "e08aea1c85faab7ba84a25f9d5f9b755845d2cc64f2f754ddc351e418032c6e5"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "a40cea08dc0beccd4782df1948519b795ce430f861114a30ea2c52e475169a54",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男性五视角四阶段及左右手1/31/61无遮挡近景。对照OPEX 0.800/1.458/1.925/2.916秒，双手全程旋前，双臂同步，峰值未翻成普通旋后弯举。握柄随自然前臂携带角倾斜，手腕与前臂保持直线；上臂固定，肩腋/肘窝无反折，足底和躯干不动。哑铃中央柄与两端负重为刚性整体。",
+    "evidence": {
+      "docs/animation-library/male/bilateral_reverse_curl-review.jpg": "67971c0fb1e1f6481ad6d6d79dee88012217d413002e9275825041f97ea383f8"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.800s",
+        "frame": 1,
+        "notes": "1帧为反握低位准备，掌背前向，上臂靠近躯干且哑铃与大腿分离。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.458s",
+        "frame": 31,
+        "notes": "31帧双前臂同时抬起，掌背朝上，腕线保持直线。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.925s",
+        "frame": 61,
+        "notes": "61帧对应肩前峰值，仍为反握，未翻腕为旋后握或抬上臂代偿。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.916s",
+        "frame": 91,
+        "notes": "91帧反握沿原路径下放，左右肘同步，躯干稳定。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31",
+  "reviewer": "Codex: actual rendered multi-view and human-reference comparison, not professional coach certification",
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/bilateral_reverse_curl-grips.jpg": "e08aea1c85faab7ba84a25f9d5f9b755845d2cc64f2f754ddc351e418032c6e5"
+  }
+}

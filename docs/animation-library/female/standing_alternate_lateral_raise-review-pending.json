@@ -2,7 +2,9 @@
   "sceneSHA256": "0731e3c8c635d4248435112b352b5a9675db75ec82c8f6c0b5752a14fe4faeb5",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -16,6 +18,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/standing_alternate_lateral_raise-review.jpg": "4a93d5ee575da6e00ec68eb422c7f807a807dfa0f3fd512fc002fee5e4ca6ca1"
+    "docs/animation-library/female/standing_alternate_lateral_raise-review.jpg": "abaa1feac361cfe04067932d30123498628124260db4142a54e0bedf15f8a2f7"
   }
 }

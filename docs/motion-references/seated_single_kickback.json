@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_single_kickback",
+  "exerciseId": "0398",
+  "status": "reviewed",
+  "specificationSHA256": "b838b33766e06aae49cd7928ed218aff9fb02543ec645a1a695339452a25c147",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Fit and Strong by Kasia",
+      "url": "https://www.youtube.com/watch?v=5p-6JEFp1H4",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "38.746666s",
+      "observed": "坐姿单臂左铃，中立握，肘屈曲，另一手扶大腿，双脚稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "39.413332s",
+      "observed": "左肘伸展，哑铃从腿旁向身后移动，躯干保持前倾。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "39.813331s",
+      "observed": "左臂接近伸直，铃在臀部后方，肩部没有向外甩。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "40.879997s",
+      "observed": "左前臂回落到屈肘位置，身体没有伴随旋转。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用坐姿左侧单臂、中立握、固定上臂、躯干不扭转。Kasia 的前倾较浅且空闲手扶腿；项目保留原有更深髋铰链及空闲手下垂，对照 M&S 坐姿文字和 OPEX 无支撑单臂真人。三个来源的差异明确保留，不把双侧视频当成单侧稳定性证据。收窄原35°上臂外张及过大的前臂外偏。 项目髋铰链从约75°调整为约63°，避免收窄腿距后躯干压入大腿；仍比真人浅前倾更深，符合M&S近水平的说明。",
+  "crossChecks": [
+    {
+      "publisher": "Muscle & Strength",
+      "url": "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-kickback.html",
+      "locator": "Instructions 2–8 / Tips",
+      "observed": "坐姿俯身接近水平，中立握，上臂靠近躯干并固定，只伸屈肘；其嵌入视频因访问限制未能观看，采用可访问真人视频及文字交叉对照。"
+    },
+    {
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=MQOnCts9N9c",
+      "locator": "0s / 1.083333s / 1.499997s / 2.499996s",
+      "observed": "实际查看站姿左单臂：空闲手下垂且身体不旋转，支持项目空闲臂处理；坐姿支撑仍以Kasia及M&S为准。"
+    }
+  ]
+}

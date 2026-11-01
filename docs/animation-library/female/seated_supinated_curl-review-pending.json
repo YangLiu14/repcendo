@@ -1,0 +1,64 @@
+{
+  "sceneSHA256": "a886b88d0d923d18fbde298c569dbc0132c0835ee4b8980a00ad4392a5415258",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/female/seated_supinated_curl-review.jpg": "a333d51be0d6d26272f14984a041e6139a0abc78c19aca5d8308a66c71cbccbd"
+  },
+  "motionReference": {
+    "status": "pending",
+    "referenceSHA256": "78b55a312372d724eb544211f015b05ee881cf3179a8f6b22047665d2b165e97",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "",
+    "evidence": {
+      "docs/animation-library/female/seated_supinated_curl-review.jpg": "a333d51be0d6d26272f14984a041e6139a0abc78c19aca5d8308a66c71cbccbd"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "20.707s",
+        "frame": 1,
+        "notes": ""
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "22.883s",
+        "frame": 31,
+        "notes": ""
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "25.883s",
+        "frame": 61,
+        "notes": ""
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "33.560s",
+        "frame": 91,
+        "notes": ""
+      }
+    ]
+  }
+}

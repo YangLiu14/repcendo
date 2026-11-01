@@ -1,6 +1,6 @@
 # 四日计划动作动画
 
-对应 `workout_plans/recomposition-4day-2026-10-28-v3.json` 的正式动作条目。四周复用 19 个唯一动作，男女各一版；卧推与坐姿划船保留在 v2 目录。本轮 38 个场景统一进行穿模修复、全帧检测和重新渲染。旧深蹲继续保留，因此 App 完整目录为 20 个动作、40 段视频。
+对应 `workout_plans/recomposition-4day-2026-10-28-v3.json` 的正式动作条目。四周复用 19 个唯一动作，男女各一版；卧推与坐姿划船保留在 v2 目录。本轮 38 个场景统一进行穿模修复、全帧检测和重新渲染。旧深蹲继续保留；后续各批扩充后App目前为68个动作、136段视频。2026-11-01已完成原66项真人参考复核，本计划8项动作进一步修订，其余保持媒体，见 [修订清单](../motion-references/current-assets-review.md)。
 
 | 训练日 | 动作 |
 |---|---|
@@ -31,15 +31,15 @@
 动作元数据在 `Scripts/animation_samples/plan_exercises.py`，动作轨迹和器械适配器在 `plan_motions.py`。旧三个动作的实现保持独立。
 
 ```sh
-# 完整流程；使用已安装 Pillow 的 Python。
-python3 Scripts/animation_samples/plan_pipeline.py
+# 生成审核图；实际对照并填写接受记录后再正式渲染。
+python3 Scripts/animation_samples/plan_pipeline.py --prepare-review
 # 保留手工调整的场景，只验证、渲染并导出。
 python3 Scripts/animation_samples/plan_pipeline.py --from-scenes
 
-# 单独调整一个动作时，先查看关键姿势，再跑全部帧检测。
-python3 Scripts/animation_samples/render_plan.py --bake --review --exercise leg_press
-python3 Scripts/animation_samples/validate_collisions.py --exercise leg_press
-python3 Scripts/animation_samples/render_plan.py --exercise leg_press
+# 单项场景修改后，运行全循环碰撞/形变/器械及动作参考检查。
+# 按动作分别执行 plan_reference_gate.py、render_plan_reference_review.py；
+# compose_plan_reference_review.py 仅生成pending，不自动批准。
+# 记录真实对照结果后，render_plan.py / package_plan.py / prepare_animations.py 再次校验证据。
 ```
 
 
@@ -75,4 +75,4 @@ App 的动作目录同步补齐了这批动作的中文名称，可以按「腿�
 
 夹胸、反向飞鸟的男女四版按 [Life Fitness SS-FLY 官方产品照片](https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-pectoral-fly-rear-deltoid) 的结构重新制作。顶部竖直转轴驱动横向定长摆臂与下垂握臂，补齐胸背靠垫、配重塔及底座；手部通过 IK 匹配器械圆弧。保留本项目的配色和简化形式，不是厂家尺寸/内部传动的工程复刻。
 
-`pec-deck-validation.json` 保存四版全 121 帧机构检查；`equipment-review/` 保存主镜头/侧面三阶段照片对照证据。参考记录见 [pec-deck.json](../equipment-references/pec-deck.json)。其余旧器械仍需逐项完成照片对照。
+`pec-deck-validation.json` 保存四版全 121 帧机构检查；`equipment-review/` 保存主镜头/侧面三阶段照片对照证据。参考记录见 [pec-deck.json](../equipment-references/pec-deck.json)。其余已交付器械的照片复核已完成，见设备参考目录中的审查记录。

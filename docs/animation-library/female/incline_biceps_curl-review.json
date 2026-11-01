@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际查看五视角四阶段，上斜弯举和锤式的肩部后伸无尖折，上臂位置稳定，屈肘时前臂自然且握柄连续；膝踝轮廓和足底支撑稳定。",
   "evidence": {
-    "docs/animation-library/female/incline_biceps_curl-review.jpg": "65ddd908d1a76a97b2ad79a7405c317245cc51e3e4ea7195611217a98904fdb6"
+    "docs/animation-library/female/incline_biceps_curl-review.jpg": "65ddd908d1a76a97b2ad79a7405c317245cc51e3e4ea7195611217a98904fdb6",
+    "build/motion-reference-review-2026-10-31/boards/incline_biceps_curl.jpg": "cea4598444650edbadcba78f824442caa1a93bd07ba74919a501becdea1e105b"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "9c90ff456bda56b9daaa521da1137b36e74ab67ea76226ee4903d33e904c9a18",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看五视角和成片：双臂反握同步屈肘，肘约8–117°，上臂留在身体侧后，背靠斜凳、足底稳定。参考间握法及凳倾角差异已记录，现有中程略向外避开大腿不破坏屈肘方向。无需修改媒体。",
+    "evidence": {
+      "docs/animation-library/female/incline_biceps_curl-review.jpg": "65ddd908d1a76a97b2ad79a7405c317245cc51e3e4ea7195611217a98904fdb6",
+      "build/motion-reference-review-2026-10-31/boards/incline_biceps_curl.jpg": "cea4598444650edbadcba78f824442caa1a93bd07ba74919a501becdea1e105b"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "63.450s",
+        "frame": 1,
+        "notes": "低位反握，上臂在肩下，背靠斜凳。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "64.050s",
+        "frame": 31,
+        "notes": "双臂同步屈肘，手掌朝上，肘不抬起。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "64.650s",
+        "frame": 61,
+        "notes": "双铃靠近肩前，前臂接近竖直；未模仿参考中过多抬肘。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "66.250s",
+        "frame": 91,
+        "notes": "沿原路回低位，头背与脚底支撑不变。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_alternate_front_raise",
+  "exerciseId": "0387",
+  "status": "reviewed",
+  "specificationSHA256": "b2ce1f885a173d139b0068a07a4fb5d040f01158131bd1ff0a0bfdb7687186b2",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "incharge technologies / Real Life Health",
+      "url": "https://www.youtube.com/watch?v=YFePgGTtP2I",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "22.800s",
+      "observed": "坐于平凳边缘，双脚平放，双臂自然下垂至髋旁，双掌相对。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "23.600s",
+      "observed": "一臂从髋旁向前抬起，肘保持轻微弯曲，另一臂保持低位；无旋前转换。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "24.600s",
+      "observed": "中立握维持，手臂近直，铃高于肩前；臀和双足仍支撑。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "26.600s",
+      "observed": "同侧沿原弧线下放；27.400秒接近低位，28.400至29.600另一侧同样抬起。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用坐姿、无靠背、交替中立握和髋旁低位。真人峰值略高于肩，项目按动作文字规格选择肩高，不照搬更高幅度；项目一侧完全回落后换侧，来源网页允许交叠但实际首个重复等待侧保持低位。主来源真人侧前视、镜面补充正面；Muscle & Strength 同变体文字说明交叉核对。LiveLean示范会转为旋前握，Physitrack示范举过头，两者没有作为本动作的精确轨迹。",
+  "crossChecks": [
+    {
+      "url": "https://www.muscleandstrength.com/node/4015",
+      "publisher": "Muscle & Strength",
+      "type": "instruction_text",
+      "notes": "中立握、坐凳边缘、双足支撑，肩部抬臂至平行附近，回到低位再换侧。"
+    },
+    {
+      "url": "https://www.inchargelife.com/App/ExercisePopup.aspx?ExerciseID=338",
+      "publisher": "incharge technologies",
+      "type": "publisher_embedded_demo",
+      "notes": "页面直接嵌入已观察的YFePgGTtP2I；正文要求脊柱中立、手臂自然下垂与肩高前举。"
+    }
+  ]
+}

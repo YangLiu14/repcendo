@@ -1,16 +1,16 @@
 {
-  "sceneSHA256": "a27f75e4e84e564d33a40fc2b80a6f7a3829434c9aebff37ca662079f1e2855a",
+  "sceneSHA256": "dde9c9f6e5f233e3ddb398896da6d10051692712506950744e023c47d326cbc2",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
-    "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+    "library_audit_v6.py": "56e1d4b82a0dc278a40aea8e6f70289450508189395dcb98ddcb2528411fc432",
     "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
     "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
   },
-  "specificationSHA256": "64d6a953834878faf309e1e844e74a5103d95ba0072bc7842c54a4263f2bc972",
+  "specificationSHA256": "9a96887b8e4b3b83471a87d6c4890e76e675f02cc87cf7021368d403279d724a",
   "files": {
-    "seated_bent_lateral_raise.mp4": "03998761dfb2c1afeefd53f9c48103d5c5ba0cf7d6d0d2527e6158db6262bf82",
-    "seated_bent_lateral_raise-poster.png": "54e073e1fa6df33d405971ea5fc42f0092f6df7c98b44c37a2856601d3af626d"
+    "seated_bent_lateral_raise.mp4": "9c64a4b476d4537aa42ec40a2d1eee8e6a6c132868a4a7867438c83347c385a0",
+    "seated_bent_lateral_raise-poster.png": "ffe4ac6bb7865d900c7010661d15ecdc6178efabbebb97f292e3110f6908786c"
   },
   "mediaValidation": {
     "decoded": true,

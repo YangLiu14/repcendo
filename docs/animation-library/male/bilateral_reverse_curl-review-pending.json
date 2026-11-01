@@ -1,0 +1,64 @@
+{
+  "sceneSHA256": "908836e68469d7086c79508f33988571ed36c3b759faa2f1a2ee6387aaf1f049",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "pending",
+  "notes": "",
+  "evidence": {
+    "docs/animation-library/male/bilateral_reverse_curl-review.jpg": "67971c0fb1e1f6481ad6d6d79dee88012217d413002e9275825041f97ea383f8"
+  },
+  "motionReference": {
+    "status": "pending",
+    "referenceSHA256": "a40cea08dc0beccd4782df1948519b795ce430f861114a30ea2c52e475169a54",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "",
+    "evidence": {
+      "docs/animation-library/male/bilateral_reverse_curl-review.jpg": "67971c0fb1e1f6481ad6d6d79dee88012217d413002e9275825041f97ea383f8"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.800s",
+        "frame": 1,
+        "notes": ""
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.458s",
+        "frame": 31,
+        "notes": ""
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.925s",
+        "frame": 61,
+        "notes": ""
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.916s",
+        "frame": 91,
+        "notes": ""
+      }
+    ]
+  }
+}

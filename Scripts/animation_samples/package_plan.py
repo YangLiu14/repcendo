@@ -78,14 +78,18 @@ def card(sex, name, f, config=None, build_root=None, series="PLAN SERIES / 03"):
     return im
 
 
-def package(pair):
+def package(pair, root=ROOT):
     sex, name = pair
-    require_render_pass(sex, name)
-    c = PLAN_EXERCISES[name]
-    dest = OUT / sex
+    from plan_reference_gate import require_pass
+    require_pass(sex, name, root=root)
+    require_render_pass(sex, name, root=root)
+    c = {**EXERCISES, **PLAN_EXERCISES}[name]
+    collection = "animation-plan-v3" if name in PLAN_EXERCISES else "animation-samples-v2"
+    build_root = root / "build" / collection
+    dest = root / "docs" / collection / sex
     dest.mkdir(parents=True, exist_ok=True)
     count = c.get("frames", 120)
-    card(sex, name, 1 + count // 4 if name == "dead_bug" else 61).save(
+    card(sex, name, 1 + count // 4 if name == "dead_bug" else 61, config=c, build_root=build_root).save(
         dest / f"{name}-poster.png"
     )
     args = [
@@ -120,16 +124,16 @@ def package(pair):
     ]
     with subprocess.Popen(args, stdin=subprocess.PIPE) as proc:
         for f in range(1, count + 1):
-            proc.stdin.write(card(sex, name, f).tobytes())
+            proc.stdin.write(card(sex, name, f, config=c, build_root=build_root).tobytes())
         proc.stdin.close()
         if proc.wait():
             raise RuntimeError(name)
-    diagnostics = json.loads((BUILD / sex / name / "motion-checks.json").read_text())
+    diagnostics = json.loads((build_root / sex / name / "motion-checks.json").read_text())
     diagnostics["scope"] = "Skeletal bake diagnostics; final surface/contact evidence is in collision-validation.json and hand-grip-validation.json"
     # Grip shape can receive an additional surface corrective after the bone bake.
     diagnostics.pop("contact_corrective", None)
     (dest / f"{name}-motion-checks.json").write_text(json.dumps(diagnostics, indent=2) + "\n")
-    record_media(sex, name)
+    record_media(sex, name, root=root)
     print("PACKAGED", sex, name, flush=True)
 
 

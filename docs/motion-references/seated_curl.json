@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_curl",
+  "exerciseId": "1677",
+  "status": "reviewed",
+  "specificationSHA256": "42ed5e4b42aeb9bc5f0bc34a635d19dcc64a24ae92c433395744f4912dfdce1a",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "supinated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Tom Turner (REP Fitness article embeds this demonstration)",
+      "url": "https://www.youtube.com/watch?v=r7i_ubSdcyA",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "2.250s",
+      "observed": "坐姿，双足支撑，背部靠垫；双手旋后握，铃在髋旁低位，肘接近伸展。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "3.000s",
+      "observed": "双侧同时屈肘，铃沿弧线抬升；肘仍留在躯干两侧，未随铃前举。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "3.400s",
+      "observed": "两铃接近肩前，肘明显弯曲，掌心朝上/向肩，躯干与足部稳定。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "4.500s",
+      "observed": "双铃沿原路径下降接近髋侧，手腕继续保持旋后，上臂不明显移动。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "匹配坐姿、双侧同步、全程旋后握。真人使用略倾斜靠背，项目为无靠背直立坐姿：不用其后倾角度复制躯干，结合OPEX坐姿锤式示范的直立坐凳支撑，仅借用该来源坐姿稳定性而不借用握法。当前项目低位铃过高且上臂前抬，修订为髋侧接近伸肘的起点和固定上臂弯举。项目选择肘18–110°示范范围，不是普遍人体极限。",
+  "instructionCrosscheck": {
+    "publisher": "REP Fitness",
+    "url": "https://repfitness.com/blogs/training/supinated-dumbbell-curls",
+    "accessedOn": "2026-10-31",
+    "notes": "页面解释坐姿可减少下肢借力；掌心向上并保持肘在体侧。页面引用本次实际查看的视频。"
+  },
+  "supportCrosscheck": {
+    "publisher": "OPEX Fitness",
+    "url": "https://www.youtube.com/watch?v=4hKyhFBeclI",
+    "notes": "已实际查看0/.667/1.335/2.669秒的坐姿锤式弯举；仅用于直立坐凳、双足支撑与躯干稳定，不能作为旋后握来源。"
+  }
+}

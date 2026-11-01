@@ -26,8 +26,8 @@ class LibraryMotionV6(LibraryMotion):
             return super().leg(s,d,t)
         side=self.SIDES[s];prefix='mixamorig:'+side
         hip=self.joint(prefix+'UpLeg');a,b=self.L[s,'thigh'],self.L[s,'shin']
-        ankle=Vector((s*.42,.58,self.ankle_z));footR=Matrix.Identity(4)
-        knee=self.ik(hip,ankle,a,b,hip+Vector((s*.45,1,-.2)))
+        ankle=Vector((s*.22,.58,self.ankle_z));footR=Matrix.Identity(4)
+        knee=self.ik(hip,ankle,a,b,hip+Vector((s*.15,1,-.2)))
         self.orient(prefix+'UpLeg',hip,knee,(1,0,0),self.f)
         self.orient(prefix+'Leg',knee,ankle,(1,0,0),self.f)
         self.setbone(prefix+'Foot',ankle,footR,self.f)
@@ -57,8 +57,8 @@ class LibraryMotionV6(LibraryMotion):
         shoulder=self.joint('mixamorig:'+side+'Arm')
         if c['family']=='kickback':
             # Upper arm remains beside the hinged torso; elbow alone extends.
-            u=unit((s*.70,-1,-.12))
-            clearance = 1.0 if self.seated else (.25 if self.args.sex == 'female' and s == 1 else 0)
+            u=unit((s*.35,-1,-.12))
+            clearance = .35 if self.seated and self.args.sex == 'female' else .25
             downward=Vector((s*clearance,0,-1));downward=(downward-u*downward.dot(u)).normalized()
             flex=math.radians(90-82*d)
             v=u*math.cos(flex)+downward*math.sin(flex)
@@ -67,11 +67,13 @@ class LibraryMotionV6(LibraryMotion):
             angle=.28+1.25*d
             u=unit((s*math.sin(angle),0,-math.cos(angle)))
             v=Vector((0,1,0))
-            palm=Vector((0,0,-1));axis=s*v.cross(palm)
+            palm=Vector((-s*math.cos(angle),0,-math.sin(angle)));axis=s*v.cross(palm)
         elif c['family']=='overhead_raise':
-            angle=.48+2.47*d
-            u=unit((s*.32,math.sin(angle),-math.cos(angle)))
-            v=unit((s*.16,math.sin(angle+.04),-math.cos(angle+.04)))
+            angle=.35+2.60*d
+            spread=(.25 if self.args.sex == 'female' else .13)*(1-d)+.32*d
+            u=unit((s*spread,math.sin(angle),-math.cos(angle)))
+            bend=.22*(1-d)+.04*d
+            v=unit((s*(.06+.10*d),math.sin(angle+bend),-math.cos(angle+bend)))
             axis=Vector((-s,0,0))
         elif c['family']=='upright_row':
             # Shoulder-height demonstration envelope, not a human ROM limit.

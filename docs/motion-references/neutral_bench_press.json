@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "neutral_bench_press",
+  "exerciseId": "0352",
+  "status": "reviewed",
+  "specificationSHA256": "4fe417924d14235445f95c5be397b9d2ef40e7d928a44f6d2ba139e9396b1007",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "supine",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "PureGym",
+      "url": "https://www.youtube.com/watch?v=fZuQpjhaR_M",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.999998s",
+      "observed": "平凳仰卧、双足着地，双铃掌心相对落在胸侧，肘靠近躯干。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.999996s",
+      "observed": "双侧同步向上推，掌心保持相对，腕与前臂成线。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "2.749995s",
+      "observed": "双肘近直、双铃在胸上方，头背臀与双脚稳定。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "3.499994s",
+      "observed": "双铃受控回胸侧、肘屈曲，保持中立握，随后开始下一次重复。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "保留平凳双侧中立握。项目为雕塑胸廓留出更宽的肘部通道，约40度外展；不冒充参考中非常贴身的窄肘版本，掌心相对、肘位相对正握更内收的特征保留。",
+  "crossChecks": [
+    {
+      "publisher": "Human Kinetics / Lauren R. Tapp and Joshua Wludyga",
+      "url": "https://us.humankinetics.com/blogs/excerpt/how-to-perform-a-dumbbell-bench-press",
+      "locator": "Movement Phases / Neutral-Grip Dumbbell Bench Press",
+      "observed": "实际读取中立握变体：掌心转向内；保留仰卧伸肘推起与受控回胸部的基本路径。"
+    }
+  ]
+}

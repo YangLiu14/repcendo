@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "exercise": "cable_crunch",
+  "exerciseId": "0175",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "c54cc17eb0093e1cbac447d074076dbc5c009d958d22a2fed47be7e31f0c414c",
+  "variant": {
+    "equipment": "high cable pulley and rope",
+    "posture": "kneeling facing stack",
+    "grip": "neutral rope, thumbs toward split",
+    "support": "knees and shins on floor"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Live Lean TV Daily Exercises",
+      "url": "https://www.youtube.com/watch?v=kc0PRn372lo",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "5.360689s",
+      "observed": "面对高位绳索跪姿，躯干前倾，屈肘握绳在额头前，膝胫支撑；远手略遮挡。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "5.694018s",
+      "observed": "胸廓向骨盆卷下，肘随躯干下移，髋部没有明显后坐。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "6.027353s",
+      "observed": "脊柱明显屈曲，胸廓接近水平/向下，双手仍在头前，未做下压式伸肘。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "7.360683s",
+      "observed": "胸廓缓慢抬回，手与头位置关系基本保持，膝部不挪动。"
+    }
+  ],
+  "decisions": "采用面对高位滑轮、固定骨盆、脊柱分节屈曲及头前中立握。当前模型起始近直立且终点卷曲偏浅、双手离头较远；把胸椎角度从约11–49度改为约32–69度（项目世界前倾角，非生理极限），双手前方偏移从32cm缩到22cm。真人有更深的躯干下卷，本项目按模型体型采用较保守范围。真人脚背在画面底部遮挡，足部支撑另由模型侧视图核验。",
+  "crossChecks": [
+    {
+      "publisher": "Live Lean TV",
+      "url": "https://www.youtube.com/watch?v=kc0PRn372lo",
+      "locator": "official description steps 1–5",
+      "observed": "高位滑轮，面对器械跪姿，双手在脸前屈肘；以腹部带动胸廓向骨盆，不用手臂拉重量，缓慢回程。"
+    }
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31"
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_lateral_raise",
+  "exerciseId": "0355",
+  "status": "reviewed",
+  "specificationSHA256": "7c5809ce45da54f8dbdabe28a1fc5a3fadf4e7e27e3eebfb56bcabc75d2f88d3",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=j_uuNVJl3to",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "正面全身，左手握铃垂于腿侧、右手空闲，站姿双足着地。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.374999s",
+      "observed": "左臂从侧面开始抬起，肘近伸展，另一只手留在体侧。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "0.749998s",
+      "observed": "左手肩高附近，肘微弯；源示范存在很轻微侧移，未用躯干大幅甩起。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.499996s",
+      "observed": "侧向弧线下放，2.249995秒恢复腿旁低位，空闲手与双足保持。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "与项目同为左侧负重、无扶物站姿。采用肩高终点及受控回程，项目保持躯干竖直，低位轻微外展容纳雕塑；不复制真人轻微侧移。正/侧/背及近侧镜头均已核对。",
+  "crossChecks": [
+    {
+      "publisher": "American Council on Exercise",
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/",
+      "locator": "Steps 1–4",
+      "observed": "实际读取：手在腿旁，肘微屈，侧举到肩高，躯干和腕稳定、控制回落。ACE为双侧说明，仅用于动作要点，单侧稳定另由OPEX来源验证；项目未加入ACE近峰值的额外微外旋。"
+    }
+  ]
+}

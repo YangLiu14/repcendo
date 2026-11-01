@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "972f227d04a975854a33c67e828c881de228b18ee9b7751d42e96042c59165bd",
+  "sceneSHA256": "9c09230a6b43ebc15009cc48eef306709538fe54cac05a1b3e46829e85a072c6",
   "frames": [
     1,
     31,
@@ -14,10 +14,52 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "实际检查五视角四阶段：小腿与踝部连续，坐姿足底支撑稳定；侧平举肩腋无异常鼓包，反握弯举手腕和肘部轮廓自然，握持无脱离。",
+  "notes": "实际查看male主、前、侧、背与握持四阶段图，对照OPEX反握示范。双侧固定旋前握、上臂靠近体侧，侧视没有旧版明显前抬；峰值肘充分弯曲，腕与前臂连贯，双足及躯干稳定；未见铃片进入腿部或肩胸。项目采用18–110度屈肘及小幅外展以适配雕塑。",
   "evidence": {
-    "docs/animation-library/male/reverse_curl-review.jpg": "1bcd2d4b50ea6ff0cbf9c1e8055561216a5a568eac2beee6809e2135122b259b"
+    "docs/animation-library/male/reverse_curl-review.jpg": "b333846228b91064c0834713effe6c19c1b612147a8f446dc4fe13770252431c"
   },
-  "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "a755764b1f7d1c618628bc8db47814d1b9e3d68532b9a6079e860ad0f821d86b",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看male主、前、侧、背与握持四阶段图，对照OPEX反握示范。双侧固定旋前握、上臂靠近体侧，侧视没有旧版明显前抬；峰值肘充分弯曲，腕与前臂连贯，双足及躯干稳定；未见铃片进入腿部或肩胸。项目采用18–110度屈肘及小幅外展以适配雕塑。",
+    "evidence": {
+      "docs/animation-library/male/reverse_curl-review.jpg": "b333846228b91064c0834713effe6c19c1b612147a8f446dc4fe13770252431c"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.820s",
+        "frame": 1,
+        "notes": "双铃在腿外低位，手背朝前，肘近伸展。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.458s",
+        "frame": 31,
+        "notes": "双前臂同步屈肘，手背保持上方、上臂稳定。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.925s",
+        "frame": 61,
+        "notes": "肘充分屈曲，双铃到肩前下方，未变为抬肘推举。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.916s",
+        "frame": 91,
+        "notes": "旋前握保持，双臂沿原路径受控下降。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31"
 }

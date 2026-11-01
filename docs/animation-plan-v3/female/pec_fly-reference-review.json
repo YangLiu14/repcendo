@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "3b0b9330ad1a88f32a26fe172100a21fd1da1ed9532cd7747a788e70c905ef1b",
+  "referenceSHA256": "f0ee158ce65c0de6d9c69f6a49f56cee7bcb8dcf351ce2c4d727b6ea2dd2841f",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女四视图与YMCA实物示范对照：胸高双臂内收，肘维持轻弯，顶端两把接近且不相撞，回程沿顶轴圆弧；坐垫、背垫及双足支撑稳定，保留现有视频。来源放松手指，项目闭合握把，不改变肩部水平内收类型。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/pec_fly.jpg": "9c47a6e51fdc6b15fe3b21b395d30a54da83c1bf86b8ae06458582ef81db2d0c"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "137.453秒",
+      "frame": 1,
+      "notes": "打开起点与胸高双臂对应。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "138.453秒",
+      "frame": 31,
+      "notes": "上臂同步向前内收，未变成肘屈伸推胸。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "139.253秒",
+      "frame": 61,
+      "notes": "两握把在胸前靠近，腕肘保持连续。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "140.453秒",
+      "frame": 91,
+      "notes": "沿同一圆弧打开，身体保持坐姿。"
+    }
+  ]
+}

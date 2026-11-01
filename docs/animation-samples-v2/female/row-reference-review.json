@@ -1,0 +1,52 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "a9ee88fde6ea70441e4e52b97d9fa8213d45ed81dedf1c3c727d6b6d64772211",
+  "referenceSHA256": "ad6114c265fccb3abcd71cc6033067cc0191093b5c511920bd591a626d999ad2",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女实看最新四视角及去器械人体四阶段。起点双臂向前伸、轻屈肘，手把回拉至腹前，肩带随拉回并有轻微躯干角度变化，骨盆不平移；中立握和足底斜踏板支撑持续。正视塔架遮挡由去器械人体正视补足。器械主侧图与LF2025第48页低位绳索站照片对应：坐凳、成对倾斜踏板、低位出线、独立配重塔。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/row.jpg": "23c67dc356befa1932d8c08a01d113b94fb0249348d92eebcffeba58f251b627",
+    "docs/animation-plan-v3/deformation-review/female/row.jpg": "4845ab7d988aafd5459ab33fd0cb6de71d5fb572bf1e12e6f75cd0e48cf4d7eb"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0s",
+      "frame": 1,
+      "notes": "双臂向前伸展、掌心相对，双脚稳定踩板。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.416661s",
+      "frame": 31,
+      "notes": "屈肘向后拉，握把逐渐下降至腹部高度。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "2.05622s",
+      "frame": 61,
+      "notes": "手把在腹前，双肘位于躯干侧后，未抬成拉向胸部。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "3.666659s",
+      "frame": 91,
+      "notes": "受控向前伸臂，肩带前移但骨盆与踏板接触稳定。"
+    }
+  ]
+}

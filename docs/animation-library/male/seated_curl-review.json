@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "c1250d114c0c569541ff4386804b92958d7d9da05326d32211666de27c237e23",
+  "sceneSHA256": "e4419da162c6b75e95e5adba93e775442bb5c56bde3cee0a42efa09493d67e40",
   "frames": [
     1,
     31,
@@ -14,10 +14,52 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "实际查看四阶段五视角：坐姿膝部没有尖折，小腿后侧到踝部轮廓连续，双脚与座面位置稳定；弯举的肘部、掌向和交替侧清楚，肩带未见新增塌陷或侧胸鼓包，手掌保持包覆握柄。保留原雕塑衣褶。",
+  "notes": "实际查看male主/前/侧/背/握持四阶段。侧视上臂向前预抬已减少，低位双铃回到髋旁，峰值肘充分屈曲；正视为大腿留适度间隙，无可见挤入凳面或大腿。臀部坐凳、双足及躯干稳定。真人有略倾斜靠背，项目为直立无靠背坐姿，仅采用握法和固定上臂弧线，并用已观察OPEX坐姿来源补支撑关系。",
   "evidence": {
-    "docs/animation-library/male/seated_curl-review.jpg": "7eb9523934e2620ddfb345ff48ee082b4abed920897f463d1f8f013ce3a1185b"
+    "docs/animation-library/male/seated_curl-review.jpg": "cb4fe8b1cb5ee506f3938127aa76b1ceace0a856a3aea3ab47b9bc1746bfb3c9"
   },
-  "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "c098db848c8e3a6296574893c707d0e98993234fe27f6de04c4b54cbf4fe21e7",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看male主/前/侧/背/握持四阶段。侧视上臂向前预抬已减少，低位双铃回到髋旁，峰值肘充分屈曲；正视为大腿留适度间隙，无可见挤入凳面或大腿。臀部坐凳、双足及躯干稳定。真人有略倾斜靠背，项目为直立无靠背坐姿，仅采用握法和固定上臂弧线，并用已观察OPEX坐姿来源补支撑关系。",
+    "evidence": {
+      "docs/animation-library/male/seated_curl-review.jpg": "cb4fe8b1cb5ee506f3938127aa76b1ceace0a856a3aea3ab47b9bc1746bfb3c9"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "2.250s",
+        "frame": 1,
+        "notes": "双手旋后，铃在髋旁低位，肘接近伸展。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "3.000s",
+        "frame": 31,
+        "notes": "双前臂同步上举，上臂固定于体侧。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "3.400s",
+        "frame": 61,
+        "notes": "肘充分屈曲，铃接近肩前，躯干不后仰。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "4.500s",
+        "frame": 91,
+        "notes": "双侧沿原弧线回落，旋后握与足底支撑保持。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31"
 }

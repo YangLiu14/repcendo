@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "exercise": "standing_overhead_press",
+  "exerciseId": "0426",
+  "status": "reviewed",
+  "specificationSHA256": "efb063ac581079870e1d173688b43c370d029a0f86b69f27011eb55212d69f0f",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=OM23fjJB3-0",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "全身站立、双足固定，铃在肩旁，双手正握，肘在铃下方。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.666665s",
+      "observed": "双臂同时向上推，肘伸展，膝髋未下蹲借力。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.333331s",
+      "observed": "双臂伸直，铃到头顶，躯干维持站立，2秒附近仍在顶点。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "3.333329s",
+      "observed": "双肘回屈、铃控制下放；4.333328秒回到肩旁。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "现有站姿正握双侧同时推举与OPEX一致，保留肩旁起点、头顶终点及固定双足；项目顶端双铃不碰撞并保持略微分开，不复制真人相碰。",
+  "crossChecks": [
+    {
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=OM23fjJB3-0",
+      "locator": "Publisher video description",
+      "observed": "实际读取官方说明：站立，双铃从肩部沿竖直方向上推至伸展，随后回肩位。"
+    },
+    {
+      "publisher": "Mike Gettier / GettFit",
+      "url": "https://www.gettfit.com/exercise-database/shoulders/dumbbell-shoulder-press/",
+      "locator": "Exercise Instructions",
+      "observed": "实际读取：站姿推举保持核心与腰背，不通过腰部过伸完成；慢放回耳旁肩高。"
+    }
+  ]
+}

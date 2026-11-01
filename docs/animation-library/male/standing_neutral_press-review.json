@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际检查五视角四阶段：站姿膝部微屈、足底稳定，小腿不再球状外鼓；推举顶端侧胸与上臂衔接连续，肘部没有塌陷，掌向和中立握区别正确。",
   "evidence": {
-    "docs/animation-library/male/standing_neutral_press-review.jpg": "4a552e913bc8dbe1a0ceda5ffe366b4d91cb40541bcd55103b773a4ac4ed5c8a"
+    "docs/animation-library/male/standing_neutral_press-review.jpg": "4a552e913bc8dbe1a0ceda5ffe366b4d91cb40541bcd55103b773a4ac4ed5c8a",
+    "build/motion-reference-review-2026-10-31/boards/standing_neutral_press.jpg": "c19212ebc064591c0bf823cf5eac235a9821b0757441bf6ecff97a56cb052fea"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "dc4f82deb6a6f7b6b9b105dff1a4ff848f836421b7d046d8317664d123e2fbaf",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看当前男女五视角和八阶段成片：双侧掌心相对，肩旁起点到头顶，负重在前臂上，躯干/脚固定；与OPEX和M&S要点一致。低位肘更外展已在来源说明，未观察到误握或推起借力。保留视频；工程视觉复核。",
+    "evidence": {
+      "docs/animation-library/male/standing_neutral_press-review.jpg": "4a552e913bc8dbe1a0ceda5ffe366b4d91cb40541bcd55103b773a4ac4ed5c8a",
+      "build/motion-reference-review-2026-10-31/boards/standing_neutral_press.jpg": "c19212ebc064591c0bf823cf5eac235a9821b0757441bf6ecff97a56cb052fea"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "中立握、肩旁低位，双足固定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.799998s",
+        "frame": 31,
+        "notes": "同时伸肘上推，不后仰。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.599997s",
+        "frame": 61,
+        "notes": "头顶近伸直、两铃有间距。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "3.399995s",
+        "frame": 91,
+        "notes": "双侧同路径下放回肩旁。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

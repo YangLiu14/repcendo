@@ -1,0 +1,24 @@
+{
+  "sceneSHA256": "a886b88d0d923d18fbde298c569dbc0132c0835ee4b8980a00ad4392a5415258",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v9.py": "e5bc15565f4ca58041ca1f3e51a3a71dfbf391010ef0b64eaea64e0fba634409",
+    "library_scene_v9.py": "c584b7e376571288fc317f6f4ea0c9fa39558815381e0a5ae3e2b7fd490f6284",
+    "equipment-reference": "28b971849ee96725ce7b6e021cdd169b322191a3282533ddfff89805bfb0a330"
+  },
+  "specificationSHA256": "cdf9a47fab798bde64f021027e4a2cffa0bea8899456f1deaebaf3782d37e836",
+  "files": {
+    "seated_supinated_curl.mp4": "1cfddc78f7c78e651dcc52c3f9162968ac92966bda32a12ed891af330aec7b42",
+    "seated_supinated_curl-poster.png": "c4ec571f91474d2f109beaf520d1eb2ef7c49ec825e858a3b9c31de91616af55"
+  },
+  "mediaValidation": {
+    "decoded": true,
+    "frames": 120,
+    "clippedFrames": [],
+    "codec": "h264",
+    "width": 1280,
+    "height": 960,
+    "fps": 24
+  }
+}

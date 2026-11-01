@@ -2,9 +2,11 @@
   "sceneSHA256": "f52509bab1fe30c2824740f01db8b16f986bb34d0cfe276cfec26a37bedac1ea",
   "frames": [
     1,
+    25,
     47,
     48,
     49,
+    73,
     97,
     145
   ],
@@ -18,6 +20,6 @@
   "status": "pending",
   "notes": "",
   "evidence": {
-    "docs/animation-library/female/incline_alternate_press-review.jpg": "cac62e78dd5ab6a268e45c71a219eb5367be428b986436c805cfadcf04b5bb51"
+    "docs/animation-library/female/incline_alternate_press-review.jpg": "6bd9e5a11f5c5fdfee475df2f7b2a75e5d8a52324eeab6b806ed67718c549daf"
   }
 }

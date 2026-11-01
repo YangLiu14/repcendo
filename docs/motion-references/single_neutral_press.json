@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_neutral_press",
+  "exerciseId": "0424",
+  "status": "reviewed",
+  "specificationSHA256": "4b022aa2e4da6de52f98fda282de90ec247e9c60d939c48ea39c874f3231a5b9",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=GHVfxRFhoII",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "全身站立，左手单铃肩旁中立握，右手空闲垂下，脚固定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.799998s",
+      "observed": "左侧推起，前臂负重对齐，另一侧手不帮忙。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.599996s",
+      "observed": "左手伸至头顶，肘近直；没有明显侧弯或下肢蹬地。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "3.199994s",
+      "observed": "左肘屈曲控制铃回落，3.999993秒回肩旁；空闲手保持。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "同为左侧单手中立握、空闲手体侧、站姿稳定。项目低位肘略更外展，保留肩旁起点与近侧镜头可见性。",
+  "crossChecks": [
+    {
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=GHVfxRFhoII",
+      "locator": "Publisher video description",
+      "observed": "实际读取官方说明：单手中立握从肩旁竖直推至手臂伸展。"
+    },
+    {
+      "publisher": "Mike Gettier / GettFit",
+      "url": "https://www.gettfit.com/exercise-database/shoulders/dumbbell-shoulder-press/",
+      "locator": "Exercise Instructions",
+      "observed": "中立握掌心向内；站姿保持躯干、控制回肩位。本条只补充握法与躯干要点，单侧稳定由OPEX单臂视频验证。"
+    }
+  ]
+}

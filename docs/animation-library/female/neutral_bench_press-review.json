@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际查看五视角四阶段：平卧姿保留原肩部变形方式后，上臂与胸廓分离清晰、肩部无塌陷；背髋支撑、足底与膝踝轮廓稳定，肘腕握持连续。",
   "evidence": {
-    "docs/animation-library/female/neutral_bench_press-review.jpg": "2da63b3234c59839c61086cf146e72656e2ba6b88399ef1ce7842ccdc8691655"
+    "docs/animation-library/female/neutral_bench_press-review.jpg": "2da63b3234c59839c61086cf146e72656e2ba6b88399ef1ce7842ccdc8691655",
+    "build/motion-reference-review-2026-10-31/boards/neutral_bench_press.jpg": "b2105a3b53b715ac7be37edb428825b15e93efaa43d7d22ad6f8ad4a53ef4bc9"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "2f404757956d795038b96d8665a802e8ba8b5b56bbc46472004c3cc1c3d66ca0",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女成片八阶段与五视角四阶段；中立握、胸旁屈肘起点、双侧同步推伸及稳定支撑与参考一致。雕塑低位肘比 PureGym 窄肘示范更外展，仍比本项目正握版内收；不把这一差别描述为完全相同。保留当前动画。",
+    "evidence": {
+      "docs/animation-library/female/neutral_bench_press-review.jpg": "2da63b3234c59839c61086cf146e72656e2ba6b88399ef1ce7842ccdc8691655",
+      "build/motion-reference-review-2026-10-31/boards/neutral_bench_press.jpg": "b2105a3b53b715ac7be37edb428825b15e93efaa43d7d22ad6f8ad4a53ef4bc9"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.999998s",
+        "frame": 1,
+        "notes": "中立握胸旁，双足、臀与头背稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.999996s",
+        "frame": 31,
+        "notes": "双侧同步伸肘上推，掌心相对。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "2.749995s",
+        "frame": 61,
+        "notes": "胸上方近直，保留哑铃间隙。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "3.499994s",
+        "frame": 91,
+        "notes": "沿原路回胸侧，不离凳借力。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

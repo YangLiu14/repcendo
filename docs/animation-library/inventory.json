@@ -6,17 +6,17 @@
   "summary": {
     "exerciseCount": 1324,
     "requiredVariants": 2648,
-    "implementedExercises": 66,
-    "bundledExercises": 66,
+    "implementedExercises": 70,
+    "bundledExercises": 70,
     "statuses": {
-      "current_checks_passed": 65,
+      "current_checks_passed": 69,
       "legacy_review_required": 1,
-      "not_implemented": 1258
+      "not_implemented": 1254
     },
     "variantStatuses": {
-      "current_checks_passed": 130,
+      "current_checks_passed": 138,
       "legacy_review_required": 2,
-      "not_implemented": 2516
+      "not_implemented": 2508
     }
   },
   "equipmentGroups": [
@@ -70,8 +70,8 @@
       "equipment": "dumbbell",
       "total": 294,
       "statuses": {
-        "current_checks_passed": 50,
-        "not_implemented": 244
+        "current_checks_passed": 54,
+        "not_implemented": 240
       }
     },
     {
@@ -806,6 +806,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 454560,
           "status": "current_checks_passed"
         },
@@ -820,6 +821,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 441287,
           "status": "current_checks_passed"
         }
@@ -1326,6 +1328,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 473076,
           "status": "legacy_review_required"
         },
@@ -1338,6 +1341,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 454603,
           "status": "legacy_review_required"
         }
@@ -2474,7 +2478,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/rdl.blend",
-          "sceneSHA256": "953595e507e035cad70c3013b754ba15fb393ab30df6449e395a240551d01db2",
+          "sceneSHA256": "176f17dd27df20ef1f068a4198a8671d705a94dfbccc4612ce71514d0a31af9a",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -2483,12 +2487,13 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 468448,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 469120,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/rdl.blend",
-          "sceneSHA256": "d925340c697080a00e73dc5da4fcdcfa81d09eb751243f46343ce0365bb618ef",
+          "sceneSHA256": "65531af08e3370fd7ccf3406ac8ee92df903886a4df3802400650ac31093dfb5",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -2497,7 +2502,8 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 460595,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 461445,
           "status": "current_checks_passed"
         }
       },
@@ -4528,7 +4534,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/cable_crunch.blend",
-          "sceneSHA256": "a76e31b32b35716f4d7eb6b7a8371bc97b50b17f1865566a5d2ee8f421d39b06",
+          "sceneSHA256": "ebc0bb948d012ae77281bf3d921fdf7016d91d6a18ea08f39a9a149917214c37",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -4537,12 +4543,13 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 439478,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 441406,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/cable_crunch.blend",
-          "sceneSHA256": "6e8e60d6f91e0daae05eaf34ab9c155174d76791afdbab35664437287522dab9",
+          "sceneSHA256": "77486c3b1e77a5c0961c9984648d06958a33a5ab91fffef3606f1396e0aee91f",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -4551,7 +4558,8 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 422630,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 424568,
           "status": "current_checks_passed"
         }
       },
@@ -5172,7 +5180,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/pushdown.blend",
-          "sceneSHA256": "6f537848955e57ee36ded60e912a3385e9e5244395d1979621035f6c874f7dec",
+          "sceneSHA256": "c396c720f0194d7bf0e60e66e6e0b1020fab376239309234e455b572fbc22855",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -5181,12 +5189,13 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 410623,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 429939,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/pushdown.blend",
-          "sceneSHA256": "9eb53d62ea38f95dbc949c58c03c3cb4023173b5414af3b235fdeca8cc47160b",
+          "sceneSHA256": "2a39e0f4f97a1c6a8f8a947d365f482ca0fef7db20fd044225e75127dafd9b6c",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -5195,7 +5204,8 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 399681,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 417283,
           "status": "current_checks_passed"
         }
       },
@@ -6246,7 +6256,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/straight_pulldown.blend",
-          "sceneSHA256": "4aa1680fd838b662859e8cd05982cd1045d40defd3a8eabd0b2240561fcf65fb",
+          "sceneSHA256": "acfb0b26a7f4b68d0c89e460a75d486f80ad6b6114e6ef7557ee814bfa394cfc",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -6255,12 +6265,13 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 398791,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 410449,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/straight_pulldown.blend",
-          "sceneSHA256": "0b35e874507e1170fe4efebed73046a6a538ca03691c0c478a798b197844ebf6",
+          "sceneSHA256": "bf9e282b1f11ac901133b85d32d46e80e069a51485dcf4406b28571eefbe003d",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -6269,7 +6280,8 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 386990,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 396898,
           "status": "current_checks_passed"
         }
       },
@@ -6888,6 +6900,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 569519,
           "status": "current_checks_passed"
         },
@@ -6902,6 +6915,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 547226,
           "status": "current_checks_passed"
         }
@@ -7064,26 +7078,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/alternate_curl.blend",
-          "sceneSHA256": "6d86677b4f04c8106bad7b8da828a4e6ecc7bddebb81e18d7f3304c56706bfb0",
+          "sceneSHA256": "fc8c3b9412df2ee93c00a4e02352000b25ac2db1d27f31fe80c71245fd6f7023",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 400623,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 406101,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/alternate_curl.blend",
-          "sceneSHA256": "b8eb1c34a1f8b6332faeff5935f2c849c25bbbe24fcf830907666998390f67de",
+          "sceneSHA256": "109d822e2e57780527984bab3a53a3286852abef563893c411a0d1df800006b4",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 398236,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 403569,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -7196,7 +7210,7 @@
           },
           "issues": [],
           "bundledBytes": 446623,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -7208,7 +7222,7 @@
           },
           "issues": [],
           "bundledBytes": 427012,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -7324,7 +7338,7 @@
           },
           "issues": [],
           "bundledBytes": 407315,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -7336,7 +7350,7 @@
           },
           "issues": [],
           "bundledBytes": 384073,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -7363,7 +7377,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/curl.blend",
-          "sceneSHA256": "b3a3b439ea947352a99f10deebdb672a2156af00e4a096c56460d713edbffc45",
+          "sceneSHA256": "caee7c6672f7fcc7336dd9e60304b38381f3257ba6e5d1d9087cdd736842bb0b",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -7372,12 +7386,13 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 384442,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 393269,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/curl.blend",
-          "sceneSHA256": "a492a61ea028e2733140ac525fee8dfa87f0343202d6c0b0b5f749fc9ab08de8",
+          "sceneSHA256": "b076729044d4103f02753478d981a2681cdb78c4420cbe4f1ee3146b75062232",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -7386,7 +7401,8 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 381508,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 389545,
           "status": "current_checks_passed"
         }
       },
@@ -7465,18 +7481,36 @@
         "吸气，慢慢将哑铃放回起始位置。",
         "重复所需的重复次数，然后换臂。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "concentration_curl",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/concentration_curl.blend",
+          "sceneSHA256": "32abe20500f0c383d19a3a4489d8299d13e4cc9df24e140c91c6364331634b24",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 400415,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/concentration_curl.blend",
+          "sceneSHA256": "d0aac68c8d6a7a99deb87ac5db6cf870efb0a2c5a323d9fabc94f8380b641a87",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 389345,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0298",
@@ -7500,26 +7534,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/cross_body_hammer_curl.blend",
-          "sceneSHA256": "b72ea1786bca6aec6a5ca70bc4cb045ee783a0c6e9cbc26f2b5954c178628d2c",
+          "sceneSHA256": "186389a5e8a47c37d1ed46aac23ba5a7e7e0ccd6dbc0e8e8108d0dfe8f8ff478",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 421159,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 418748,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/cross_body_hammer_curl.blend",
-          "sceneSHA256": "da82220cee8aae85f274fe643009be193b068e472ea72ebfa1f4db8b1df69921",
+          "sceneSHA256": "fa39f3a0c97919de3e3b4bd078ac4b445ee2c67cd1349b3ae902ed571e8879ec",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 420293,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 412777,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -7844,26 +7878,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/front_raise.blend",
-          "sceneSHA256": "1760b358228457d4f7dadc85a82d22e2f31865e050cb8ebb56b6ece5616cbd28",
+          "sceneSHA256": "6e46357bb3a5785e4ddfb79a4fc02c36d772fc27b3b4ee7530b07a69c480d580",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 400076,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 401687,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/front_raise.blend",
-          "sceneSHA256": "360e9e241f5f26e688daafc330f5182acb6112dadc0d4ab830a60be968c27158",
+          "sceneSHA256": "5039a0b66db91be1e1d0beb3739b203cfd01ebfd8c446a78cacc61489432db25",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 398464,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 399693,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -7895,7 +7929,7 @@
           },
           "issues": [],
           "bundledBytes": 416907,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -7907,7 +7941,7 @@
           },
           "issues": [],
           "bundledBytes": 408400,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -7970,7 +8004,7 @@
           },
           "issues": [],
           "bundledBytes": 408548,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -7982,7 +8016,7 @@
           },
           "issues": [],
           "bundledBytes": 402810,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -8018,6 +8052,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 467623,
           "status": "current_checks_passed"
         },
@@ -8032,6 +8067,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 450018,
           "status": "current_checks_passed"
         }
@@ -8066,7 +8102,7 @@
           },
           "issues": [],
           "bundledBytes": 435238,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -8078,7 +8114,7 @@
           },
           "issues": [],
           "bundledBytes": 420371,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -8227,7 +8263,7 @@
           },
           "issues": [],
           "bundledBytes": 437843,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -8239,7 +8275,7 @@
           },
           "issues": [],
           "bundledBytes": 423424,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -8272,7 +8308,7 @@
           },
           "issues": [],
           "bundledBytes": 444131,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -8284,7 +8320,7 @@
           },
           "issues": [],
           "bundledBytes": 421502,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -8616,26 +8652,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/db_kickback.blend",
-          "sceneSHA256": "ed17317518da0f9a5b5a8768f6f4216071a84e869e6f6230617af4b492e94b74",
+          "sceneSHA256": "fb6f3ad5b74df4b1c356ce25cc74bf28b032c6ebaec049cae463face991c5ad6",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 393809,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 389156,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/db_kickback.blend",
-          "sceneSHA256": "b4ff0483072175e6254287162887ae383e9e36b0b04cb75f517a036256ad9a67",
+          "sceneSHA256": "bb4c0e3078aa2227d160888b71bd61348ffd495ee72e4c53fd76d26e73147663",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 377607,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 375512,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -8670,6 +8706,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 395044,
           "status": "current_checks_passed"
         },
@@ -8684,6 +8721,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 392133,
           "status": "current_checks_passed"
         }
@@ -8712,26 +8750,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/lateral_front_raise.blend",
-          "sceneSHA256": "06b66a27f5d892464a340ab10463702db76b6dce316b535cc0d4c23f925472fc",
+          "sceneSHA256": "a71d08614d3ba7bbb8c8c947deac1b6401491bc6c1274f12f7c7160b7b718d38",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 500956,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 506929,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/lateral_front_raise.blend",
-          "sceneSHA256": "c97de3034c011aeb3873400dbb7d419047d398bc9f05fa6e11646ed9d7a49602",
+          "sceneSHA256": "eb7f5278e4dfd6a5d232192335f62a91b11e828ae3305d426f88e096906837d2",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 491965,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 493355,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -8952,7 +8990,7 @@
           },
           "issues": [],
           "bundledBytes": 401917,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -8964,7 +9002,7 @@
           },
           "issues": [],
           "bundledBytes": 392384,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -9213,7 +9251,7 @@
           },
           "issues": [],
           "bundledBytes": 440345,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -9225,7 +9263,7 @@
           },
           "issues": [],
           "bundledBytes": 420148,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -9280,26 +9318,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/single_kickback.blend",
-          "sceneSHA256": "2f69f3b7fa914df0a1bb35b01972a0943a0ffee9ce5ec9f10ee8f7ef8f6af448",
+          "sceneSHA256": "0e542e315f72c5d1baef6f7811aa2aaa10743f3e0931d85d880f37611d83d37a",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 377243,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 375161,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/single_kickback.blend",
-          "sceneSHA256": "226700c622e04eef8fcef09249acffbeac7cc51a0e0eed972114ad782f5100fa",
+          "sceneSHA256": "2b94a410df91f1c3750121e0fb99bc03fa64ac910e80a0abbbad91f28c26c01a",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 361907,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 360454,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -9333,7 +9371,7 @@
           },
           "issues": [],
           "bundledBytes": 359810,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -9345,7 +9383,7 @@
           },
           "issues": [],
           "bundledBytes": 356228,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -9488,7 +9526,7 @@
           },
           "issues": [],
           "bundledBytes": 324364,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -9500,7 +9538,7 @@
           },
           "issues": [],
           "bundledBytes": 312617,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -10091,18 +10129,36 @@
         "吸气并慢慢开始将哑铃放回起始位置。",
         "重复所需的重复次数。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "bilateral_reverse_curl",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/bilateral_reverse_curl.blend",
+          "sceneSHA256": "908836e68469d7086c79508f33988571ed36c3b759faa2f1a2ee6387aaf1f049",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 409541,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/bilateral_reverse_curl.blend",
+          "sceneSHA256": "b1ba8c1f534a0bf8219da4333d08ee28e7037888299c2f6ef13b68a79062defe",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 406210,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0383",
@@ -10238,26 +10294,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_alternate_front_raise.blend",
-          "sceneSHA256": "123d6f2047a2c34ff55a313f13804c8b00cf3a18ff4a6f042c901da7330d747a",
+          "sceneSHA256": "7745811feb32f7fad03d1e5cb5938f5315381e533374d2390236b68260d3b3f2",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 471271,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 484048,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_alternate_front_raise.blend",
-          "sceneSHA256": "a5136a7be642183338079e3789d6dae96206b15ba5cb1836b1383b8e6359a309",
+          "sceneSHA256": "2e770cc59173ee6c9b21a480f259a6831c9f6e5e771f3ec7d751f5091674ca1d",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 450566,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 461760,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -10291,7 +10347,7 @@
           },
           "issues": [],
           "bundledBytes": 428496,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -10303,7 +10359,7 @@
           },
           "issues": [],
           "bundledBytes": 413637,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -10379,18 +10435,36 @@
         "在顶部停顿片刻，然后吸气，慢慢将哑铃放回起始位置。",
         "重复所需的重复次数。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "seated_supinated_curl",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/seated_supinated_curl.blend",
+          "sceneSHA256": "5ef9fed034a781daef6a44275da37b7797d1e57e6872a8de04d66ffe1035ab84",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 452448,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/seated_supinated_curl.blend",
+          "sceneSHA256": "a886b88d0d923d18fbde298c569dbc0132c0835ee4b8980a00ad4392a5415258",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 433117,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0392",
@@ -10411,26 +10485,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_front_raise.blend",
-          "sceneSHA256": "522253ba0b707c1348e6528194b41051e346ca62c0fc313563e9a94260b55514",
+          "sceneSHA256": "424332f0afcf4efeaa19435f92faef2211279df45f32bc196cec523876818169",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 450086,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 462948,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_front_raise.blend",
-          "sceneSHA256": "ebefdb0fa6fdf42676e97258da8b788e791abbca90a173ef744ce0fb3c3e98b6",
+          "sceneSHA256": "74ce19278f317e5773f5a0f78f97abf0e509d7245d11f9e6c61c693447d31f8b",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 428674,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 439924,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -10484,26 +10558,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_kickback.blend",
-          "sceneSHA256": "7a6a2682bf83d15baf3d3a0717f9b89b7b71af96bf6d6f94b38af0df71634252",
+          "sceneSHA256": "8acd377ad175aedb3a8646b78d1ca7d03cd61426ecec90a365a6078b83eef5b0",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 429956,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 414477,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_kickback.blend",
-          "sceneSHA256": "5a1aa6666593c221f51d5046eb44da6776410b6c582ed6278c747d92329d869b",
+          "sceneSHA256": "51a85782c080bfe058317090f0eec336c7b141c1b8c9a5ac932fd874ab6a2101",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 414133,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 402326,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -10562,7 +10636,7 @@
           },
           "issues": [],
           "bundledBytes": 431804,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -10574,7 +10648,7 @@
           },
           "issues": [],
           "bundledBytes": 414467,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -10627,26 +10701,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_single_kickback.blend",
-          "sceneSHA256": "5b8b35be29fd45a9a73c2c7325944aabdd955e02a3b4bff0a2cda81671594bf4",
+          "sceneSHA256": "47bf25afe15864de19aa01a3f53746a3ebfcba1786b7a41a45edd57c1bcf2684",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 398387,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 401765,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_single_kickback.blend",
-          "sceneSHA256": "75be675bacd3d93e4d36ad89ec8359b9cea61b6245a3c1947e011d279ec7e0b9",
+          "sceneSHA256": "bfa79253e5502d439ae5d654c04ef9982f853ec40260f0001b2f5220b9b8414c",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 382801,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 385528,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -10815,7 +10889,7 @@
           },
           "issues": [],
           "bundledBytes": 417132,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -10827,7 +10901,7 @@
           },
           "issues": [],
           "bundledBytes": 400153,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -10862,6 +10936,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 419899,
           "status": "current_checks_passed"
         },
@@ -10876,6 +10951,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 405940,
           "status": "current_checks_passed"
         }
@@ -10909,7 +10985,7 @@
           },
           "issues": [],
           "bundledBytes": 360023,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -10921,7 +10997,7 @@
           },
           "issues": [],
           "bundledBytes": 357149,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -11116,7 +11192,7 @@
           },
           "issues": [],
           "bundledBytes": 353367,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -11128,7 +11204,7 @@
           },
           "issues": [],
           "bundledBytes": 344196,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -11163,7 +11239,7 @@
           },
           "issues": [],
           "bundledBytes": 411673,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -11175,7 +11251,7 @@
           },
           "issues": [],
           "bundledBytes": 411686,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -11196,18 +11272,36 @@
         "吸气并慢慢开始将哑铃放回起始位置。",
         "重复所需的重复次数。"
       ],
-      "motion": null,
-      "status": "not_implemented",
-      "bundled": false,
+      "motion": "standing_supinated_curl",
+      "status": "current_checks_passed",
+      "bundled": true,
       "variants": {
         "male": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/male/standing_supinated_curl.blend",
+          "sceneSHA256": "4fae131890b8d905d12ea1cea1ff2871acef4f4d357d4db0c90ce6c0a5472d05",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 401668,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         },
         "female": {
-          "status": "not_implemented"
+          "scene": "docs/animation-library/female/standing_supinated_curl.blend",
+          "sceneSHA256": "700591d0626b23ca5474fd6fd393bc991ee43af7e59476fbb5129e8136f2d2dd",
+          "checks": {
+            "production": "passed",
+            "media": "passed"
+          },
+          "issues": [],
+          "bundledBytes": 400083,
+          "motionReferenceStatus": "reference_checked",
+          "status": "current_checks_passed"
         }
       },
-      "nextStep": "Specify motion, equipment and contacts; implement and review both characters"
+      "nextStep": "Reuse the exact reviewed scene and media; revalidate if changed"
     },
     {
       "id": "0417",
@@ -11283,26 +11377,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/overhead_front_raise.blend",
-          "sceneSHA256": "bd5220e376d13ff033a95ff08b295046b2515d8ddbf9c70f709657c874d0a6f1",
+          "sceneSHA256": "43b5d503ae57dde89b064ddf20def41145464a4acbeffd520cd002015577d059",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 388681,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 388021,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/overhead_front_raise.blend",
-          "sceneSHA256": "7265f378c243d026ebe081b2b01cdc5178a804cae7eab72a2ba86658353b9781",
+          "sceneSHA256": "5e3839ccc1534d00057bf34ca97ac1f4393fea51ef3b7283b238acb306d37223",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 378644,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 377284,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -11446,7 +11540,7 @@
           },
           "issues": [],
           "bundledBytes": 324117,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -11458,7 +11552,7 @@
           },
           "issues": [],
           "bundledBytes": 311055,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -11484,26 +11578,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/single_reverse_curl.blend",
-          "sceneSHA256": "c810f284a10528ad0d7602419d6f0a565044a862a830ada9d246391c59706be3",
+          "sceneSHA256": "2471cdb56a6962880c02b138ab6be7bae06d7f4d368073dbe59ccc943b592273",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 371752,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 375321,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/single_reverse_curl.blend",
-          "sceneSHA256": "611555cc6bdabec72933d46b862b62d3a36b022511c16d0456dd965662de4c37",
+          "sceneSHA256": "1151322a054ac724b9621ca2f9bbe3dc7cadf557a03204a16437f11b8ab61600",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 366845,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 369555,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -11535,7 +11629,7 @@
           },
           "issues": [],
           "bundledBytes": 342703,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -11547,7 +11641,7 @@
           },
           "issues": [],
           "bundledBytes": 333595,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -11579,7 +11673,7 @@
           },
           "issues": [],
           "bundledBytes": 346416,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -11591,7 +11685,7 @@
           },
           "issues": [],
           "bundledBytes": 333078,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -11646,26 +11740,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/reverse_curl.blend",
-          "sceneSHA256": "972f227d04a975854a33c67e828c881de228b18ee9b7751d42e96042c59165bd",
+          "sceneSHA256": "9c09230a6b43ebc15009cc48eef306709538fe54cac05a1b3e46829e85a072c6",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 397939,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 401506,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/reverse_curl.blend",
-          "sceneSHA256": "d7ad8d44482affc4bd3269cf03e1002f638eff9fd90f7da0314c9e43013b8e1f",
+          "sceneSHA256": "5d292f77c6c5bf4ca554046165b6d2ae9ca36892b8f9173b577c602ebb583bf7",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 393844,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 397496,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -11923,26 +12017,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/zottman_curl.blend",
-          "sceneSHA256": "e3cacf6328e60bbe88bd6ba44d4247984e3a5275a619d1e4755384576a6d997d",
+          "sceneSHA256": "769743411a44f249af1c25a7e091ee15efab5b0487d8dd96802b0237c46233d2",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 456564,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 461533,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/zottman_curl.blend",
-          "sceneSHA256": "5a4b5f20a927152b20de5409fea5f0817180f0b5463ff80590222aa92eb78839",
+          "sceneSHA256": "0f9a97e67f84006b77b84550deac6f811b9995caf2d589a0bb56348d8d617db5",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 454900,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 458748,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -14784,6 +14878,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 511943,
           "status": "current_checks_passed"
         },
@@ -14798,6 +14893,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 496546,
           "status": "current_checks_passed"
         }
@@ -15118,6 +15214,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 453155,
           "status": "current_checks_passed"
         },
@@ -15132,6 +15229,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 438081,
           "status": "current_checks_passed"
         }
@@ -15224,6 +15322,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 500708,
           "status": "current_checks_passed"
         },
@@ -15238,6 +15337,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 485912,
           "status": "current_checks_passed"
         }
@@ -15327,6 +15427,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 493413,
           "status": "current_checks_passed"
         },
@@ -15341,6 +15442,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 475267,
           "status": "current_checks_passed"
         }
@@ -15430,6 +15532,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 464488,
           "status": "current_checks_passed"
         },
@@ -15444,6 +15547,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 450681,
           "status": "current_checks_passed"
         }
@@ -17315,7 +17419,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/leg_press.blend",
-          "sceneSHA256": "d411e85daa2d2513f2d8e4293b463377255ca13508c5dfb3db5f4fbbe4f50e0a",
+          "sceneSHA256": "10c5f6d20312a9decbb7e4f0364fe439bd838cc129b6f181269226ba52aaab62",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -17324,12 +17428,13 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 475246,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 480342,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/leg_press.blend",
-          "sceneSHA256": "b26b8dc0e8b2ee83e68b07e67c3be7778baebcf81233919107f94b207ff5111f",
+          "sceneSHA256": "b5fbc03e8ceff09ab79d00ad42354092a7d7cbb3403d4b4af6b4974c03b2e138",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -17338,7 +17443,8 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 466947,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 473472,
           "status": "current_checks_passed"
         }
       },
@@ -19637,7 +19743,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-samples-v2/male/row.blend",
-          "sceneSHA256": "4e9d0d2e22d5c04978abacd7882f66a76c636372ea2c10372b792f11c8dfdf53",
+          "sceneSHA256": "02cc46bdc6005c5cc5f1644e251bc9b1b9b72e88a267f2017e06db52e03daf3d",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -19646,12 +19752,13 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 553395,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 525998,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-samples-v2/female/row.blend",
-          "sceneSHA256": "797608dcce35fb9fc8cb8e6a454575a7d3fcf014bc752ed7a05148548840bbec",
+          "sceneSHA256": "a9ee88fde6ea70441e4e52b97d9fa8213d45ed81dedf1c3c727d6b6d64772211",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -19660,7 +19767,8 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 528829,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 505578,
           "status": "current_checks_passed"
         }
       },
@@ -19943,6 +20051,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 449849,
           "status": "current_checks_passed"
         },
@@ -19957,6 +20066,7 @@
             "poster": "passed"
           },
           "issues": [],
+          "motionReferenceStatus": "reference_checked",
           "bundledBytes": 440994,
           "status": "current_checks_passed"
         }
@@ -22275,7 +22385,7 @@
           },
           "issues": [],
           "bundledBytes": 412446,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -22287,7 +22397,7 @@
           },
           "issues": [],
           "bundledBytes": 397985,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -28543,7 +28653,7 @@
           },
           "issues": [],
           "bundledBytes": 459710,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -28555,7 +28665,7 @@
           },
           "issues": [],
           "bundledBytes": 441128,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -29185,26 +29295,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/single_curl.blend",
-          "sceneSHA256": "e996a2ba49d7d4a543a4c9774a8b9a11dda84989d25d803a22c069a920026aac",
+          "sceneSHA256": "fc36eeddb0306d0e828d52495219c0f4f3543ef147a32018d6e33107504b0f77",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 365171,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 365857,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/single_curl.blend",
-          "sceneSHA256": "05903588a064faefcc6661926969b905f694e203cd0a6147d07a8d0bef13ed11",
+          "sceneSHA256": "847715e4a643bbe999222032f7781dc6162a3b1c6cc98c6f17cf42f74f4a9b74",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 359944,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 362367,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -29236,7 +29346,7 @@
           },
           "issues": [],
           "bundledBytes": 376061,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -29248,7 +29358,7 @@
           },
           "issues": [],
           "bundledBytes": 372322,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -29417,26 +29527,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_curl.blend",
-          "sceneSHA256": "c1250d114c0c569541ff4386804b92958d7d9da05326d32211666de27c237e23",
+          "sceneSHA256": "e4419da162c6b75e95e5adba93e775442bb5c56bde3cee0a42efa09493d67e40",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 425579,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 429319,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_curl.blend",
-          "sceneSHA256": "f8cd337719da84890e8a7ece3e6d892b36c6f68143e13b138daee2297121ef35",
+          "sceneSHA256": "cb52be8c265647d384a6a884d5e8a82daec26ab251c6427e61cd61c79f60abb9",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 409531,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 410173,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -29470,7 +29580,7 @@
           },
           "issues": [],
           "bundledBytes": 445097,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -29482,7 +29592,7 @@
           },
           "issues": [],
           "bundledBytes": 427196,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -32714,26 +32824,26 @@
       "variants": {
         "male": {
           "scene": "docs/animation-library/male/seated_bent_lateral_raise.blend",
-          "sceneSHA256": "a27f75e4e84e564d33a40fc2b80a6f7a3829434c9aebff37ca662079f1e2855a",
+          "sceneSHA256": "dde9c9f6e5f233e3ddb398896da6d10051692712506950744e023c47d326cbc2",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 437774,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 453202,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-library/female/seated_bent_lateral_raise.blend",
-          "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+          "sceneSHA256": "353dc5e4515fcf6ce2c602eea42a707ae0e0c376647f3c9429f6a5acb1fc0f33",
           "checks": {
             "production": "passed",
             "media": "passed"
           },
           "issues": [],
-          "bundledBytes": 418665,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "bundledBytes": 435942,
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },
@@ -32902,7 +33012,7 @@
       "variants": {
         "male": {
           "scene": "docs/animation-plan-v3/male/pulldown.blend",
-          "sceneSHA256": "e306e0479ccca8dddd3ca736b362ee1bd20b1aff8c6a1d4459b44c10c46405b7",
+          "sceneSHA256": "2e1fed7edb8d963a0be7340edc35b2a13a25fc903e5b701cb9aa531a8a4230c1",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -32911,12 +33021,13 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 417644,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 420352,
           "status": "current_checks_passed"
         },
         "female": {
           "scene": "docs/animation-plan-v3/female/pulldown.blend",
-          "sceneSHA256": "851307697bea7e41d5857f3b8d3d149efffb69f13ddc9d4c491f2c6c4fec58c4",
+          "sceneSHA256": "4f10e5a11573b8f7f58a84b98868453517b081dd9105920903669b1ac21450d3",
           "checks": {
             "collision": "passed",
             "deformationAndVisualReview": "passed",
@@ -32925,7 +33036,8 @@
             "poster": "passed"
           },
           "issues": [],
-          "bundledBytes": 408026,
+          "motionReferenceStatus": "reference_checked",
+          "bundledBytes": 410381,
           "status": "current_checks_passed"
         }
       },
@@ -37096,7 +37208,7 @@
           },
           "issues": [],
           "bundledBytes": 468286,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         },
         "female": {
@@ -37108,7 +37220,7 @@
           },
           "issues": [],
           "bundledBytes": 445850,
-          "motionReferenceStatus": "legacy_reference_review_pending",
+          "motionReferenceStatus": "reference_checked",
           "status": "current_checks_passed"
         }
       },

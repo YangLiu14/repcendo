@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_bent_lateral_raise",
+  "exerciseId": "2317",
+  "status": "reviewed",
+  "specificationSHA256": "9a96887b8e4b3b83471a87d6c4890e76e675f02cc87cf7021368d403279d724a",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "rotating"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Body Inc.",
+      "url": "https://www.youtube.com/watch?v=KSZYwDmx9cc",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "2.6s",
+      "observed": "坐姿、肘约直角，哑铃在身前，掌心相对，躯干直立。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "3.6s",
+      "observed": "上臂向两侧抬升，肘弯曲角度保持，握法随肩运动向掌心朝下过渡。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "4.0s",
+      "observed": "肘到肩高附近，前臂仍朝前，掌心朝下。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "5.0s",
+      "observed": "上臂受控回落，握法回转；6秒双手回到中立握起始位。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "原动画从起始就固定掌心朝下；改为低位中立握，随上臂侧举平滑过渡到峰值掌心向下，避免无依据的持续前臂旋前。保留90°屈肘和肩高终点。来源座椅有靠背，本项目平凳无靠背，均保持直立坐姿；来源足部部分裁切，采用其说明的双足着地。",
+  "crossChecks": [
+    {
+      "publisher": "NASM",
+      "url": "https://www.youtube.com/watch?v=21NdvM9pY9g",
+      "locator": "1.833331s / 2.666663s / 3.999996s",
+      "observed": "实际查看站姿屈肘侧平举：低位掌心相对、侧举至肩高转为向下，回程反向；站姿与坐姿支撑不同，只交叉核对上肢机制。"
+    },
+    {
+      "publisher": "Body Inc.",
+      "url": "https://www.youtube.com/watch?v=KSZYwDmx9cc",
+      "locator": "Video description steps 1–3",
+      "observed": "公开说明明确屈肘90度、中立握起始、抬至肩高时掌心朝下、保持直立。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "sceneSHA256": "4fae131890b8d905d12ea1cea1ff2871acef4f4d357d4db0c90ce6c0a5472d05",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看男性主/正/侧/背/握持四阶段和左右手1/31/61近景。对照Clean Health 7.492/8.242/9.150/9.983秒：双臂同步，掌心从前向上转为面向肩，保持旋后握；上臂不抬起、躯干和双足稳定，低位轻屈肘与自然携带角保留哑铃间隙。肘窝、肩腋和小腿轮廓连续；中央直柄/对称端头与实物参考的刚性结构一致。",
+  "evidence": {
+    "docs/animation-library/male/standing_supinated_curl-review.jpg": "16caf0badd866bfceee7ecafaae64296604b94d8090cdd90dd7a29ce5605bad4",
+    "docs/animation-library/male/standing_supinated_curl-grips.jpg": "bfded36a78be918b0747e522935b7913e29b644686c2a37083ebe04aa9a30f45"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "a8adc0ad12f4c884949c23ddfaba0f7da9a47b33b814b04378462d4c3631682d",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男性主/正/侧/背/握持四阶段和左右手1/31/61近景。对照Clean Health 7.492/8.242/9.150/9.983秒：双臂同步，掌心从前向上转为面向肩，保持旋后握；上臂不抬起、躯干和双足稳定，低位轻屈肘与自然携带角保留哑铃间隙。肘窝、肩腋和小腿轮廓连续；中央直柄/对称端头与实物参考的刚性结构一致。",
+    "evidence": {
+      "docs/animation-library/male/standing_supinated_curl-review.jpg": "16caf0badd866bfceee7ecafaae64296604b94d8090cdd90dd7a29ce5605bad4"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "7.492s",
+        "frame": 1,
+        "notes": "1帧对应低位准备；双手旋后握，哑铃位于腿外前侧，保留18度轻屈肘避免角色腿部碰撞。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "8.242s",
+        "frame": 31,
+        "notes": "31帧对应双臂同步发力，上臂留在身体两侧，腕与前臂保持直线。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "9.150s",
+        "frame": 61,
+        "notes": "61帧对应肩前收缩，未变为抬肘推举；手指闭合握柄，哑铃不进入躯干。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "9.983s",
+        "frame": 91,
+        "notes": "91帧对应同一路径受控下放，旋后握不翻转、躯干不后仰。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31",
+  "reviewer": "Codex: actual rendered multi-view and human-reference comparison, not professional coach certification",
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/standing_supinated_curl-grips.jpg": "bfded36a78be918b0747e522935b7913e29b644686c2a37083ebe04aa9a30f45"
+  }
+}

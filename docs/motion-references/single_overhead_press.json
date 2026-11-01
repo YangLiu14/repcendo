@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_overhead_press",
+  "exerciseId": "0361",
+  "status": "reviewed",
+  "specificationSHA256": "a2a61218c0a4209ceda6959099fd9f8eeb29f1e54af34a937ce8db16805f25ec",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=FUwme_oBDsA",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "全身站姿，左手肩旁正握单铃、右手自然下垂，双脚稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.799998s",
+      "observed": "左肘伸展、铃上推，躯干没有明显侧屈或蹬地。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.599997s",
+      "observed": "单臂近伸直于头顶，正握，空闲手不参与。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "3.199996s",
+      "observed": "受控屈肘回落，3.999995秒完整回到肩旁，双脚和另一手稳定。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "保留左侧单铃、正握及站姿稳定。雕塑低位肘略外展以避免体表碰撞；单侧负重不改成双侧或中立握。",
+  "crossChecks": [
+    {
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=FUwme_oBDsA",
+      "locator": "Visible publisher description",
+      "observed": "实际读到说明：站姿单铃在肩上，垂直推至手臂伸展。"
+    },
+    {
+      "publisher": "Mike Gettier / GettFit",
+      "url": "https://www.gettfit.com/exercise-database/shoulders/dumbbell-shoulder-press/",
+      "locator": "Exercise Instructions",
+      "observed": "已读站姿推举躯干收紧、不后仰与受控回肩要点；单侧稳定依据 OPEX 单臂视频。"
+    }
+  ]
+}

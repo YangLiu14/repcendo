@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "08affeab6c57f03c379a1d412d31032956bdd91e667c473f84d3ed7d7026ab09",
+  "referenceSHA256": "cdbe67a5ffd16d08f10ac6d1a01dbe53b9579c3771fdadc3db335e43b4fa8746",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女四视角与NASM杠铃卧推对应；头背骨盆及双足支撑固定、握距稳定、下放到胸上方后回推。侧面杠片遮挡的前臂由主镜头和正背视图补足。保留原视频。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/bench.jpg": "a486cc27adcbdc8b92001762960d8f4ba4190f012b78e63f1cdae7f6d8af68e0"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "2.999989s",
+      "frame": 1,
+      "notes": "高位双手托杠，躯干在凳上、双足着地。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "3.999988s",
+      "frame": 31,
+      "notes": "双肘对称屈曲，杠向胸部回落。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "4.999987s",
+      "frame": 61,
+      "notes": "杠停在胸上方，左右腕肘负重线相近。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "5.999986s",
+      "frame": 91,
+      "notes": "双肘伸展推回高位，骨盆未抬起借力。"
+    }
+  ]
+}

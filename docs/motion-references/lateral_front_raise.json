@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "lateral_front_raise",
+  "exerciseId": "0335",
+  "status": "reviewed",
+  "specificationSHA256": "ea2a4445d5193c05c24760886e895a22dd11225c158d985cee0eb19385eaf5f5",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "WatchItNow TV / Workout Guide",
+      "url": "https://www.youtube.com/watch?v=-FylaRaYCck",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "17.828s",
+      "observed": "站姿、双足稳定，前一次前举已回到低位，双肘轻弯。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "18.162s",
+      "observed": "双臂同步向侧方抬起，手背向上；不是在肩高横向扫到身前。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "18.578s",
+      "observed": "侧举抵肩高，肘角保持，躯干不后仰。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "18.994s",
+      "observed": "侧举沿原路径下放；另已看15.828低位、16.328前举峰值、17.078前举回程，确认侧举与前举为两次独立上/下。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "项目以侧举开始，来源视频以先前举再侧举呈现；循环内两种重复相同，只改变起始相位。每次先回落再换运动平面；保留现有动作规格，不改成肩高扫动。对照ForzaFit第11项文字说明及ACE侧平举、前平举要点。",
+  "crossChecks": [
+    {
+      "url": "https://www.forzafit.net/triathlon-strength-conditioning-guide",
+      "publisher": "ForzaFit Coaching",
+      "locator": "11. LATERAL & FRONT RAISE COMBO",
+      "notes": "实际读说明：侧举回起点，再前举回起点；一侧举加一前举构成一次组合重复。该页引用当前已观察的视频。"
+    }
+  ]
+}

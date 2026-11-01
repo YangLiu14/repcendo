@@ -1,0 +1,24 @@
+{
+  "status": "accepted",
+  "reviewedAt": "2026-10-31",
+  "method": "Actual visual review of 15 frames sampled at 3 fps from the final encoded video; multi-view/grip evidence reviewed separately.",
+  "videoSHA256": "4290f6c78eba6b620c52078575c1b7e68e72a27287e5e6cb8e12da107a2c09a8",
+  "evidence": {
+    "bilateral_reverse_curl-playback.jpg": "9edc7de471a02d494df1f610b4b9925171fb5de3896ee9889a816eb1f88eb8bf"
+  },
+  "notes": [
+    "全程保持反握，双臂同步屈肘，无中途翻掌，上臂稳定，手腕与前臂连续。",
+    "成片构图完整，标题、肌群示意与阶段进度正常；观察到准备、发力、峰值、回程和回到低位，未见可见突变或身体穿插。"
+  ],
+  "browserPlaybackStatus": "passed",
+  "browserPlayback": {
+    "currentTime": 5,
+    "duration": 5,
+    "ended": true,
+    "error": null,
+    "height": 960,
+    "paused": true,
+    "src": "http://127.0.0.1:8770/animation-library/male/bilateral_reverse_curl.mp4",
+    "width": 1280
+  }
+}

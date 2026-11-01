@@ -1,16 +1,16 @@
 {
-  "sceneSHA256": "7a6a2682bf83d15baf3d3a0717f9b89b7b71af96bf6d6f94b38af0df71634252",
+  "sceneSHA256": "8acd377ad175aedb3a8646b78d1ca7d03cd61426ecec90a365a6078b83eef5b0",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
-    "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+    "library_audit_v6.py": "56e1d4b82a0dc278a40aea8e6f70289450508189395dcb98ddcb2528411fc432",
     "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
     "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
   },
   "specificationSHA256": "1767560bf5f9bd5aaf9b63017480973fbcb4c35b64335ea81c43d4bcf837b2cb",
   "files": {
-    "seated_kickback.mp4": "34a8263e20481aa69e85eca3a5907131d8a9d12c7898c401c15f417bf954fc5f",
-    "seated_kickback-poster.png": "00c7d94faa9f0bd93990256448c9e4ee4898a41323db5a31a657a556b265b008"
+    "seated_kickback.mp4": "c818b93f22de184cbd432b1ebeea7a0273e33fa37c18a50df4a8d2116a77dce7",
+    "seated_kickback-poster.png": "c15e48a2496c9eb9d3e76a3dfbe0e140be18819aa7fe118ac922cd3f03b68beb"
   },
   "mediaValidation": {
     "decoded": true,

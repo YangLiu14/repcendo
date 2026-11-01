@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_alternate_press",
+  "exerciseId": "0388",
+  "status": "reviewed",
+  "specificationSHA256": "46cea600ed7d6096e3aea8f87aa349d81b5c923062843580979bc6972f36e4bb",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Live Lean TV / Brad Gouthro",
+      "url": "https://www.youtube.com/watch?v=57m3lpo9YBQ",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "12.109998s",
+      "observed": "坐姿双足着地，双铃肩旁，掌心朝前、肘屈曲；源使用无靠背平凳。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "12.709997s",
+      "observed": "右臂推高、左臂在肩旁等待，身体保持坐稳。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "13.109996s",
+      "observed": "右臂接近伸直、铃在头顶上方，另一侧仍在低位，脚及臀不动。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "13.709995s",
+      "observed": "右臂屈肘回肩旁；14.209991秒到低位、15.009990秒换左臂推至头顶。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用掌心朝前、每侧完成上下再换侧；项目左右镜像且使用已有直立靠背，支撑差异由Russ Howe的直立凳说明交叉核对。OPEX ZjWq4wTEuSI的收肘角度下握法未清楚确认；改用正面掌心朝前更清晰的Live Lean示范，不对OPEX握法作确定分类。",
+  "crossChecks": [
+    {
+      "publisher": "Russ Howe PTI",
+      "url": "https://russhowepti.com/exercises/alternating-dumbbell-shoulder-press/",
+      "locator": "Exercise Instructions 1–4",
+      "observed": "实际读取：直立凳坐姿，掌心朝前、铃在肩旁；一侧上下推，另一侧维持肩旁但不搁肩，再换侧。"
+    }
+  ]
+}

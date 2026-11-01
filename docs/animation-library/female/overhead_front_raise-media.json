@@ -1,16 +1,16 @@
 {
-  "sceneSHA256": "7265f378c243d026ebe081b2b01cdc5178a804cae7eab72a2ba86658353b9781",
+  "sceneSHA256": "5e3839ccc1534d00057bf34ca97ac1f4393fea51ef3b7283b238acb306d37223",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
-    "library_audit_v6.py": "7a72d03d494e7b0ef7d3e5e18d85bee0269e3b475ed5f8dab767520f6b223278",
+    "library_audit_v6.py": "56e1d4b82a0dc278a40aea8e6f70289450508189395dcb98ddcb2528411fc432",
     "library_scene_v6.py": "5304543bb1a2c1c6c33f66c8375db61fe55a32f1735c3e78c5655a217d9993a4",
     "equipment-reference": "5404b799040ba24173a3ef85ed9f7fc530e890a317ac59d2eca45592fd9ead38"
   },
   "specificationSHA256": "6e7d8fdcb89336d54dda4299dd9b54f680b686001e83730d4f94d0555e2cd34f",
   "files": {
-    "overhead_front_raise.mp4": "88c823f450df90eac761a41bf16df1dda19292cb9cb617096e7fa53ce4e60cd2",
-    "overhead_front_raise-poster.png": "101c19778cf28d9544c85054c217b352a5dbfbee43572a0e1c013105933cb93f"
+    "overhead_front_raise.mp4": "780639fdc92e7c1002108977fb8258371d7700cf07dfcfd8a2f5f903bcaefc22",
+    "overhead_front_raise-poster.png": "b84e628e5db74918c9294016a9bde25333328391f1a897ff272ea2381c0c275a"
   },
   "mediaValidation": {
     "decoded": true,

@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "cd1a59a4e1ccd61d0f0c661c4a61434cc51a6a57525df7e1a1bc9ed27103e144",
+  "sceneSHA256": "353dc5e4515fcf6ce2c602eea42a707ae0e0c376647f3c9429f6a5acb1fc0f33",
   "frames": [
     1,
     31,
@@ -14,10 +14,54 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "实际查看五视角四阶段和双手近景：坐姿稳定、肘维持直角、上臂从两侧抬至肩高，手腕及指部握持连续。主侧图与官方 LBR-FB 照片比较，长垫下纵梁及前后支腿/横脚完整，臀部承托和足底着地；简化配色与尺寸，无厂家标识。",
+  "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。坐直，双脚着地，肘约90度，低位掌心相对。 肘向两侧抬起，前臂随上臂旋转，腕部不折叠。 肘约肩高，掌心向下；与Body Inc及NASM的抬起阶段吻合。 肘下降同时恢复中立握，躯干保持直立。 工程视觉复核，非教练认证。",
   "evidence": {
-    "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "d3bcc845ea5090e6014d57aebb97f498a06eeb911fbd283035d6d4726ffdbef1",
-    "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "897256b4ba990af9b5c23d075d103248b97d7d26fea761aa74d26b06d1c8d671"
+    "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "9950cf37e139680ff58fae987e912142055493be89bc7551606bca6f38207ebe",
+    "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "df982c648a770fefcfd061434ae61ca3c4f4da33affd0571afb1b5e74d09fbe4"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "b4f7fc6c226be8ee3002d56dd68caef9a83c1d8cd5f808dd2f1330749aabaec6",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。坐直，双脚着地，肘约90度，低位掌心相对。 肘向两侧抬起，前臂随上臂旋转，腕部不折叠。 肘约肩高，掌心向下；与Body Inc及NASM的抬起阶段吻合。 肘下降同时恢复中立握，躯干保持直立。 工程视觉复核，非教练认证。",
+    "evidence": {
+      "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "9950cf37e139680ff58fae987e912142055493be89bc7551606bca6f38207ebe",
+      "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "df982c648a770fefcfd061434ae61ca3c4f4da33affd0571afb1b5e74d09fbe4"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "2.6s",
+        "frame": 1,
+        "notes": "坐直，双脚着地，肘约90度，低位掌心相对。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "3.6s",
+        "frame": 31,
+        "notes": "肘向两侧抬起，前臂随上臂旋转，腕部不折叠。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "4.0s",
+        "frame": 61,
+        "notes": "肘约肩高，掌心向下；与Body Inc及NASM的抬起阶段吻合。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "5.0s",
+        "frame": 91,
+        "notes": "肘下降同时恢复中立握，躯干保持直立。"
+      }
+    ]
   },
   "gripSides": [
     "Left",
@@ -29,7 +73,7 @@
     61
   ],
   "gripEvidence": {
-    "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "897256b4ba990af9b5c23d075d103248b97d7d26fea761aa74d26b06d1c8d671"
+    "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "df982c648a770fefcfd061434ae61ca3c4f4da33affd0571afb1b5e74d09fbe4"
   },
   "equipmentViews": [
     "main",
@@ -38,9 +82,11 @@
   "equipmentFrames": [
     1,
     31,
-    61
+    61,
+    91
   ],
   "equipmentEvidence": {
-    "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "d3bcc845ea5090e6014d57aebb97f498a06eeb911fbd283035d6d4726ffdbef1"
+    "docs/animation-library/female/seated_bent_lateral_raise-review.jpg": "9950cf37e139680ff58fae987e912142055493be89bc7551606bca6f38207ebe",
+    "docs/animation-library/female/seated_bent_lateral_raise-grips.jpg": "df982c648a770fefcfd061434ae61ca3c4f4da33affd0571afb1b5e74d09fbe4"
   }
 }

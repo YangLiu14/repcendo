@@ -32,6 +32,12 @@ def main():
         print(f"Bundled {len(names)} reviewed library motions; preserved existing entries.")
         return
     require_media_pass()
+    import sys
+    sys.path.insert(0, str(ROOT / "Scripts/animation_samples"))
+    from plan_reference_gate import require_pass
+    for name in {**EXERCISES, **PLAN_EXERCISES}:
+        for sex in ("male", "female"):
+            require_pass(sex, name)
     catalog = json.loads((ROOT / "Repcendo/Resources/exercises.json").read_text())
     known_ids = {item["id"] for item in catalog}
     entries = {}

@@ -611,7 +611,7 @@
   ],
   "minimumNearDepth": 0.2043624561836932,
   "passed": true,
-  "sceneSHA256": "c810f284a10528ad0d7602419d6f0a565044a862a830ada9d246391c59706be3",
+  "sceneSHA256": "2471cdb56a6962880c02b138ab6be7bae06d7f4d368073dbe59ccc943b592273",
   "validatorSHA256": "7bd8c0c7c35b126073372adc9a575bfe942bd47a48923deaa8bc3751b8dc1ed4",
   "oppositeSideRejected": true
 }

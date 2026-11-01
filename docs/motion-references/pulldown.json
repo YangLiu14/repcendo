@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "pulldown",
+  "exerciseId": "2330",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "ce4d436cc85b49cbc81b7d2e28cdf394b160f756c79d3359b210337eca55da16",
+  "variant": {
+    "equipment": "高位滑轮长杆、座垫及大腿压垫",
+    "posture": "坐姿颈前高位下拉",
+    "grip": "双手宽于肩的旋前握",
+    "support": "臀部坐垫、大腿压垫、双足地面"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "PureGym",
+      "url": "https://www.youtube.com/watch?v=JGeRYIZdojU",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000秒",
+      "observed": "双臂在头上伸展、双手宽握，骨盆坐稳且大腿在压垫下。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.833秒",
+      "observed": "肘向下外侧回收，拉杆从头前下降，躯干微后倾。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.339秒",
+      "observed": "拉杆下降至下巴/上胸前，肘在身体两侧，未绕至颈后。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.678秒",
+      "observed": "肘受控伸展，杆回到头前上方，坐姿支撑保持。"
+    }
+  ],
+  "decisions": "采用颈前宽握下拉，顶端双肘约22°软屈；依据真实骨长和掌心偏移联合求横杆高位，修复旧版男女顶端屈肘40–46°且女性左右不一致。原参考网页第3步45°前倾与实看视频不符，不采用该文字。",
+  "crossChecks": [
+    "https://www.puregym.com/exercises/back/lat-exercises/lat-pulldown/"
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

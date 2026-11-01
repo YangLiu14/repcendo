@@ -1,5 +1,6 @@
 """Missing, stale and rejected evidence must stop independent batch publication."""
 import json
+import math
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -97,6 +98,11 @@ class LibraryGateTests(unittest.TestCase):
 
     def test_unilateral_requires_own_validator_spec_and_photo_reference(self):
         name = "single_curl"
+        self.audit["motion"]["samples"] = [
+            dict(frame=f, side=side, shoulderElevationDegrees=20,
+                 elbowFlexionDegrees=18+92*math.sin(math.pi*(f-1)/120)**2, unloadedArmDrift=0)
+            for f in range(1,122) for side in ("Left", "Right")
+        ]
         self.scene.rename(self.folder/f"{name}.blend")
         self.camera_fixture(name)
         (self.folder/f"{name}-review.json").write_text(json.dumps(self.review))
@@ -198,6 +204,11 @@ class LibraryGateTests(unittest.TestCase):
 
     def test_unilateral_rejects_far_side_stale_and_missing_main_review(self):
         name = "single_curl"
+        self.audit["motion"]["samples"] = [
+            dict(frame=f, side=side, shoulderElevationDegrees=20,
+                 elbowFlexionDegrees=18+92*math.sin(math.pi*(f-1)/120)**2, unloadedArmDrift=0)
+            for f in range(1,122) for side in ("Left", "Right")
+        ]
         self.scene.rename(self.folder/f"{name}.blend")
         self.audit.update(validatorSHA256=validator_hashes(name),specificationSHA256=specification_digest(name))
         (self.folder/f"{name}-audit.json").write_text(json.dumps(self.audit))

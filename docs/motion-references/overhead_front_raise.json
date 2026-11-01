@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "overhead_front_raise",
+  "exerciseId": "0419",
+  "status": "reviewed",
+  "specificationSHA256": "6e7d8fdcb89336d54dda4299dd9b54f680b686001e83730d4f94d0555e2cd34f",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Ben Graham Fitness Solutions",
+      "url": "https://www.youtube.com/watch?v=PVo0RJ9c9jA",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0s",
+      "observed": "双铃置于大腿前，站姿直立，肘接近伸直；侧面足底完整可见。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.666664s",
+      "observed": "双臂沿前方弧线越过肩高，肘角度保持，躯干不后仰。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.333330s",
+      "observed": "两铃抬至头顶，保持直臂；29.763332–30.429997秒正面确认双侧同步和正握。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.333329s",
+      "observed": "双铃沿前方原路径回落；3.333328秒回到大腿前。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用本片双角度站姿正握过顶前平举。旧起始上臂已前举约30°，缩短了回落；改为接近大腿前的低位，保留原过顶终点与肩带配合。侧面远臂遮挡通过29–32秒正面补齐。ACE普通前平举只用于低位/躯干/肘腕的共同要求，过顶范围以Ben的实际演示及口头说明为准，不将ACE肩高终点解释为过顶建议。",
+  "crossChecks": [
+    {
+      "publisher": "ACE Fitness",
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/54/front-raise/",
+      "locator": "Steps 1–4",
+      "observed": "正握大腿前起始、轻微屈肘、保持躯干和腕稳定、受控回落。该普通前平举在肩高停止，不用于支持本变体过顶幅度。"
+    }
+  ]
+}

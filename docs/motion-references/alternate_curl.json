@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "exercise": "alternate_curl",
+  "exerciseId": "0285",
+  "status": "reviewed",
+  "specificationSHA256": "a078d86c2d3fe760d94bf654274e418cc2fe189e2a937c334b650cab0bfbf8bd",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "supinated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Dan Cornelius",
+      "url": "https://www.youtube.com/watch?v=bvM1eOeIsgc",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "双足站立，两手保持旋后握；双臂位于体侧，右侧已开始轻微屈肘。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.333s",
+      "observed": "右肘屈曲，铃向肩前抬升，右上臂仍接近躯干；左手在低位等待。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "0.833s",
+      "observed": "右铃接近肩前，右肘明显屈曲，上臂未抬成前平举；左手仍保持旋后握。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.292s",
+      "observed": "右前臂向下回落，上臂位置稳定，1.673秒接近低位并开始换另一侧。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "精确匹配站姿、全程旋后握和双侧交替；采用固定上臂与完整屈肘弧线，演示先后侧可镜像。项目旧上臂约34°前举，削弱屈肘幅度，修订为上臂靠近体侧、肘约18–110°屈曲的原创八秒循环。角度为此示范设计包络，不是人体极限。结合 Macros Inc 官方文字步骤核对保持上臂与躯干稳定；其另一个公开视频低位有旋转握法，不用于此变体握法依据。",
+  "instructionCrosscheck": {
+    "publisher": "Macros Inc",
+    "url": "https://macrosinc.net/exercises/arms/alternating-dumbbell-curl/",
+    "accessedOn": "2026-10-31",
+    "notes": "步骤要求掌心朝前、上臂留在体侧、单侧完成后换侧；作为文字交叉检查，不把其不同低位握法的视频冒充精确来源。"
+  }
+}

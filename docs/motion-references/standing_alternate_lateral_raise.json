@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "standing_alternate_lateral_raise",
+  "exerciseId": "0415",
+  "status": "reviewed",
+  "specificationSHA256": "3d667164258aeb7d144e416c73f85f5894b36de834f613b90d85fc6356394d59",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Precision / Precision Athlete movement standards",
+      "url": "https://www.youtube.com/watch?v=vtfxe4OTsTU",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "2.399996s",
+      "observed": "站姿双足着地，双手持铃于髋/大腿侧，躯干直立。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "2.669598s",
+      "observed": "右臂向侧上方抬起，左臂留低位，肘保持微弯。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "3.599993s",
+      "observed": "右手到肩高附近，肘和腕受控，左臂仍保持髋旁。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "4.199992s",
+      "observed": "右侧沿弧线回落，4.799992秒双侧低位；5.899991秒确认左侧再举至肩高。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "项目先左后右，来源先右后左；左右顺序镜像，均单侧完成再换侧。来源上举平面略偏前，项目更接近侧面，采用肩高停止、等待手低位与躯干稳定要点，不复制取铃动作。",
+  "crossChecks": [
+    {
+      "publisher": "American Council on Exercise",
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/",
+      "locator": "Steps 1–4",
+      "observed": "实际读取：侧举到肩高、肘微弯、腕中立，控制回落并保持躯干直立；交替等待方式另由Precision完整示范验证。"
+    }
+  ]
+}

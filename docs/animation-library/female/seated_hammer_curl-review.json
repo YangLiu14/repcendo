@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "已逐张查看本场景主、正、侧、背及握持四阶段图。站姿膝屈减小，小腿肌腹与踝部过渡连续；坐姿膝盖轮廓未出现尖折，足底与座面支撑合理。弯举掌向/交替侧、前举方向和握把接触清楚，肩肘轮廓无新增异常鼓包。保留雕塑细部及衣褶。",
   "evidence": {
-    "docs/animation-library/female/seated_hammer_curl-review.jpg": "ec3d7e35acc14a305843d265eb3a8ce03156e17b33d51036efe98716a84cfc1a"
+    "docs/animation-library/female/seated_hammer_curl-review.jpg": "ec3d7e35acc14a305843d265eb3a8ce03156e17b33d51036efe98716a84cfc1a",
+    "build/motion-reference-review-2026-10-31/boards/seated_hammer_curl.jpg": "c03422971cfbae13ba7965fb752900f28eba6eb83a28e77fce28c8fbd3c7b623"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "31e1d6f691db399e969fda06bd76d3f4d670cc5271687eb028bf3e273bcf41d4",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际对照 OPEX 坐姿双臂锤式参考与本版本成片八阶段、主/正/侧/背/握持四阶段图。掌心相对，上臂在躯干两侧基本固定，双肘同步屈曲；躯干、坐骨与脚底稳定，回程控制。现有路径与参考一致，未发现需修订的握法、时序或支撑错误，保留媒体。工程视觉对照，非教练认证。",
+    "evidence": {
+      "docs/animation-library/female/seated_hammer_curl-review.jpg": "ec3d7e35acc14a305843d265eb3a8ce03156e17b33d51036efe98716a84cfc1a",
+      "build/motion-reference-review-2026-10-31/boards/seated_hammer_curl.jpg": "c03422971cfbae13ba7965fb752900f28eba6eb83a28e77fce28c8fbd3c7b623"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "坐骨保持座面，双足着地；双铃在髋外侧下垂，掌心相对。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.667s",
+        "frame": 31,
+        "notes": "双肘同步屈曲，前臂向前上方运动，上臂没有抬起推举。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.335s",
+        "frame": 61,
+        "notes": "哑铃接近肩前，仍为中立握；肩、躯干和足底位置稳定。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.669s",
+        "frame": 91,
+        "notes": "沿原弧线控制下降；成片最后回到下垂准备位。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

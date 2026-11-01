@@ -1,0 +1,24 @@
+{
+  "status": "accepted",
+  "reviewedAt": "2026-10-31",
+  "method": "Actual visual review of 15 frames sampled at 3 fps from the final encoded video; multi-view/grip evidence reviewed separately.",
+  "videoSHA256": "358d3d32a766e2ee5e5e46102ddf31561872446d207cf8374e0fbd971e651ed8",
+  "evidence": {
+    "standing_supinated_curl-playback.jpg": "aad22beacab639e5dbcf81afef45e8d2941f6117f67ec8c67593f93a958707ce"
+  },
+  "notes": [
+    "全程固定旋后握法，双臂同步屈肘，上臂稳定，低位哑铃与大腿保持间距。",
+    "成片构图完整，标题、肌群示意与阶段进度正常；观察到准备、发力、峰值、回程和回到低位，未见可见突变或身体穿插。"
+  ],
+  "browserPlaybackStatus": "passed",
+  "browserPlayback": {
+    "currentTime": 5,
+    "duration": 5,
+    "ended": true,
+    "error": null,
+    "height": 960,
+    "paused": true,
+    "src": "http://127.0.0.1:8770/animation-library/female/standing_supinated_curl.mp4",
+    "width": 1280
+  }
+}

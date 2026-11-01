@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际查看五视角四阶段：中立握推举肩腋连续，无侧胸球状鼓包；单侧静止手臂自然下垂，工作侧手腕握柄稳定；坐姿膝踝轮廓及背垫支撑无新增异常。",
   "evidence": {
-    "docs/animation-library/male/seated_neutral_press-review.jpg": "50696f6d2f2f4e0bd5f7a23b8f2fab0a21fd24dc802089b591325da52a9c30df"
+    "docs/animation-library/male/seated_neutral_press-review.jpg": "50696f6d2f2f4e0bd5f7a23b8f2fab0a21fd24dc802089b591325da52a9c30df",
+    "build/motion-reference-review-2026-10-31/boards/seated_neutral_press.jpg": "82eea094811a5f1fa4dcac1ec6541d97461ae8993b4bf1b714a0d0ba2a887f2d"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "c86469a06f1d795c30d224b240b2411522e0c67a3ac1462282c6d5ec896baea8",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "当前男女五视角与成片已实际查看：双侧中立握保持，铃从耳旁到头顶，上臂推起同时伸肘，下放同路，臀背和足部保持。与GettFit实拍相符；项目靠背更直立、顶端两铃保留间距。保留现有视频，工程复核非教练认证。",
+    "evidence": {
+      "docs/animation-library/male/seated_neutral_press-review.jpg": "50696f6d2f2f4e0bd5f7a23b8f2fab0a21fd24dc802089b591325da52a9c30df",
+      "build/motion-reference-review-2026-10-31/boards/seated_neutral_press.jpg": "82eea094811a5f1fa4dcac1ec6541d97461ae8993b4bf1b714a0d0ba2a887f2d"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "2.399997s",
+        "frame": 1,
+        "notes": "耳旁中立握低位。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "2.699993s",
+        "frame": 31,
+        "notes": "双侧同步推高，前臂近竖直。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "2.999996s",
+        "frame": 61,
+        "notes": "头顶近伸肘，两铃分开有净空。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "3.599995s",
+        "frame": 91,
+        "notes": "两侧同步下放，成片回低位。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

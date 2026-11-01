@@ -1,0 +1,22 @@
+{
+  "reviewed_on": "2026-10-31",
+  "source_url": "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf",
+  "photo_urls": [
+    "https://www.lifefitness.com.au/wp-content/uploads/2025/04/LF-HS_ProductCatalogue_2025_low-res.pdf#page=44"
+  ],
+  "models": [
+    "LF-GDBLB"
+  ],
+  "photo_inspected": true,
+  "observed_structure": [
+    "中央直握柄连接两端对称负重，整只哑铃为刚性整体，无伸缩或活动机构。"
+  ],
+  "simplifications": [
+    "沿用原创简化圆形端头、配色和人物适配尺寸；不复制商标、纹理和产品工程尺寸。"
+  ],
+  "motions": [
+    "0416",
+    "0382"
+  ],
+  "evidence_note": "本次重新从官方URL下载目录并实际查看PDF第44页（印刷86–87页）的产品/使用照片。NZ旧目录URL实际下载404，未作为已查看照片；本地照片仅作结构核对，不进入App。"
+}

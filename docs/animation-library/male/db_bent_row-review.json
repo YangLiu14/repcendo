@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际检查五视角四阶段：俯身划船保留髋折叠和屈膝，肩肘拉回轮廓连续；耸肩时肩颈过渡自然，手臂不异常缩短；两动作的小腿踝部及握持均稳定。",
   "evidence": {
-    "docs/animation-library/male/db_bent_row-review.jpg": "e6c27c3392ca2d68c40601eda718b5df054eceaa4592f6e05c0d1920d520d90a"
+    "docs/animation-library/male/db_bent_row-review.jpg": "e6c27c3392ca2d68c40601eda718b5df054eceaa4592f6e05c0d1920d520d90a",
+    "build/motion-reference-review-2026-10-31/boards/db_bent_row.jpg": "f57c3de473be98c05f493f186ebea533f0dbca59abbb03a2817c89a6192dfc45"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "d7613f3cd02944f10a09a57035cae4a78b8665257d89d73d692f825a3569643a",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看当前主/正/侧/背/握持关键帧和成片八阶段：双铃靠近下肋/腰部，双肘后拉，上身髋折叠保持，双足不移动，伸肘低位不锁死。与OPEX完整重复及PureGym要点一致，保留现有动画。工程视觉检查，非教练认证。",
+    "evidence": {
+      "docs/animation-library/male/db_bent_row-review.jpg": "e6c27c3392ca2d68c40601eda718b5df054eceaa4592f6e05c0d1920d520d90a",
+      "build/motion-reference-review-2026-10-31/boards/db_bent_row.jpg": "f57c3de473be98c05f493f186ebea533f0dbca59abbb03a2817c89a6192dfc45"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.749997s",
+        "frame": 1,
+        "notes": "屈膝髋折叠、双臂下垂中立握。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.499996s",
+        "frame": 31,
+        "notes": "肘向后拉，躯干姿态保持。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "2.249996s",
+        "frame": 61,
+        "notes": "铃至腰肋附近、肘在躯干后方。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.999995s",
+        "frame": 91,
+        "notes": "双臂受控下放，成片回到低位。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

@@ -1,0 +1,5319 @@
+{
+  "sceneSHA256": "a886b88d0d923d18fbde298c569dbc0132c0835ee4b8980a00ad4392a5415258",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v9.py": "e5bc15565f4ca58041ca1f3e51a3a71dfbf391010ef0b64eaea64e0fba634409",
+    "library_scene_v9.py": "c584b7e376571288fc317f6f4ea0c9fa39558815381e0a5ae3e2b7fd490f6284",
+    "equipment-reference": "28b971849ee96725ce7b6e021cdd169b322191a3282533ddfff89805bfb0a330"
+  },
+  "specificationSHA256": "cdf9a47fab798bde64f021027e4a2cffa0bea8899456f1deaebaf3782d37e836",
+  "frames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121
+  ],
+  "collision": {
+    "hits": [],
+    "tolerance_m": 0.002,
+    "checks": {
+      "body_in_equipment": true,
+      "equipment_in_body": true,
+      "nonlocal_self_intersection": true
+    }
+  },
+  "deformation": {
+    "failures": [],
+    "metrics": {
+      "scale_error": 1.6689300537109375e-06,
+      "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
+      "frame_rotation_step_deg": 2.41349024534973
+    },
+    "frames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "weight_range": [
+      0.9999998360872269,
+      1.0000001341104507
+    ],
+    "visual_review_required": true,
+    "surface_edge_ratios": {
+      "LeftArm": {
+        "min_p05": 0.962336933690625,
+        "max_p95": 1.0556298982388097,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "LeftForeArm": {
+        "min_p05": 0.6848951261114196,
+        "max_p95": 1.5503029211400474,
+        "compressed_frame": 61,
+        "stretched_frame": 61
+      },
+      "LeftUpLeg": {
+        "min_p05": 0.8416754786931365,
+        "max_p95": 1.3203200236681394,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "LeftLeg": {
+        "min_p05": 0.7882086305145088,
+        "max_p95": 1.135086337905874,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "LeftFoot": {
+        "min_p05": 0.806613515675428,
+        "max_p95": 1.1919714989942591,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "RightArm": {
+        "min_p05": 0.9639937909179305,
+        "max_p95": 1.0549113142443114,
+        "compressed_frame": 2,
+        "stretched_frame": 4
+      },
+      "RightForeArm": {
+        "min_p05": 0.7276087965570374,
+        "max_p95": 1.5232587853788613,
+        "compressed_frame": 61,
+        "stretched_frame": 61
+      },
+      "RightUpLeg": {
+        "min_p05": 0.8298396851088208,
+        "max_p95": 1.3273211146339596,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "RightLeg": {
+        "min_p05": 0.8183584299431172,
+        "max_p95": 1.2986844351119724,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "RightFoot": {
+        "min_p05": 0.8342241444611991,
+        "max_p95": 1.2140983789174224,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      }
+    },
+    "surface_alerts": [],
+    "review_frames": [
+      1,
+      31,
+      61,
+      91
+    ]
+  },
+  "motion": {
+    "failures": [],
+    "samples": [
+      {
+        "frame": 1,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197899555683762,
+        "digitGaps": {
+          "Thumb": 0.0031978995556837617,
+          "Index": 0.005358362337052091,
+          "Middle": 0.0047172869002071235,
+          "Ring": 0.0047483194049871575,
+          "Pinky": 0.00408450557459405
+        },
+        "handDrift": 0.0,
+        "elbowFlexion": 17.999995378253757,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 1,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165883491135056,
+        "digitGaps": {
+          "Thumb": 0.0031658834911350558,
+          "Index": 0.005208784352146887,
+          "Middle": 0.0045989901421247485,
+          "Ring": 0.004716037600985953,
+          "Pinky": 0.003849498614860265
+        },
+        "handDrift": 0.0,
+        "elbowFlexion": 17.999995378253757,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 2,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197810512975593,
+        "digitGaps": {
+          "Thumb": 0.003197810512975593,
+          "Index": 0.005358422113523742,
+          "Middle": 0.0047175408275875585,
+          "Ring": 0.0047485340014512285,
+          "Pinky": 0.004084659806254802
+        },
+        "handDrift": 6.522894482668672e-07,
+        "elbowFlexion": 18.06303631674568,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 2,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001043081284,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716551757003132,
+        "digitGaps": {
+          "Thumb": 0.0031655175700313187,
+          "Index": 0.005208828317961543,
+          "Middle": 0.004598829534961662,
+          "Ring": 0.0047160738719639345,
+          "Pinky": 0.0038494658442990524
+        },
+        "handDrift": 6.30551118399225e-07,
+        "elbowFlexion": 18.06303631674568,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 3,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197882916603454,
+        "digitGaps": {
+          "Thumb": 0.0031978829166034537,
+          "Index": 0.005358196214870161,
+          "Middle": 0.0047170309204121585,
+          "Ring": 0.004748279622721318,
+          "Pinky": 0.004084389247286003
+        },
+        "handDrift": 7.296211688982349e-07,
+        "elbowFlexion": 18.252000330323252,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 3,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716570443848173,
+        "digitGaps": {
+          "Thumb": 0.00316570443848173,
+          "Index": 0.005208789994607355,
+          "Middle": 0.004598786769571742,
+          "Ring": 0.004716093415941388,
+          "Pinky": 0.003849540028349816
+        },
+        "handDrift": 6.601341729132501e-07,
+        "elbowFlexion": 18.251988377492207,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 4,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198036035633368,
+        "digitGaps": {
+          "Thumb": 0.0031980360356333674,
+          "Index": 0.005358368810851144,
+          "Middle": 0.004717285078450052,
+          "Ring": 0.004748483007301534,
+          "Pinky": 0.004084635912151005
+        },
+        "handDrift": 6.193201243560219e-07,
+        "elbowFlexion": 18.566322220832657,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 4,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165715235767452,
+        "digitGaps": {
+          "Thumb": 0.003165715235767452,
+          "Index": 0.005208813985414397,
+          "Middle": 0.004598802232917703,
+          "Ring": 0.004716035070430011,
+          "Pinky": 0.003849427629409862
+        },
+        "handDrift": 5.11755595229817e-07,
+        "elbowFlexion": 18.56633246611641,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 5,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198114050959827,
+        "digitGaps": {
+          "Thumb": 0.003198114050959827,
+          "Index": 0.005358307753231652,
+          "Middle": 0.004717004522888273,
+          "Ring": 0.004747906984022275,
+          "Pinky": 0.004084559192858798
+        },
+        "handDrift": 8.419937329076557e-07,
+        "elbowFlexion": 19.00520627123558,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 5,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165614723905417,
+        "digitGaps": {
+          "Thumb": 0.003165614723905417,
+          "Index": 0.005209034582479089,
+          "Middle": 0.004598960024999642,
+          "Ring": 0.0047158272091237016,
+          "Pinky": 0.003849643190355719
+        },
+        "handDrift": 6.528350225961327e-07,
+        "elbowFlexion": 19.005196025951825,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 6,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719794111122349,
+        "digitGaps": {
+          "Thumb": 0.0031979411112234898,
+          "Index": 0.005358443203681342,
+          "Middle": 0.004717182190854105,
+          "Ring": 0.004748114972091539,
+          "Pinky": 0.00408457866198852
+        },
+        "handDrift": 8.606916978254358e-07,
+        "elbowFlexion": 19.56739914181933,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 6,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165635190680744,
+        "digitGaps": {
+          "Thumb": 0.0031656351906807437,
+          "Index": 0.0052089316158954475,
+          "Middle": 0.004598932034808807,
+          "Ring": 0.004715856437815911,
+          "Pinky": 0.003849545732960107
+        },
+        "handDrift": 6.781193280309824e-07,
+        "elbowFlexion": 19.56739914181933,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 7,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719766829517271,
+        "digitGaps": {
+          "Thumb": 0.003197668295172708,
+          "Index": 0.005358255740166998,
+          "Middle": 0.004717066369776134,
+          "Ring": 0.0047480136175456124,
+          "Pinky": 0.004084325981665924
+        },
+        "handDrift": 8.440089160486681e-07,
+        "elbowFlexion": 20.251387945682747,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 7,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716579018499105,
+        "digitGaps": {
+          "Thumb": 0.00316579018499105,
+          "Index": 0.005208760545370438,
+          "Middle": 0.004598971063113104,
+          "Ring": 0.004715767766724286,
+          "Pinky": 0.003849478875809156
+        },
+        "handDrift": 6.419742880421768e-07,
+        "elbowFlexion": 20.2513981909665,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 8,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719774289847921,
+        "digitGaps": {
+          "Thumb": 0.0031977428984792094,
+          "Index": 0.005358292026105755,
+          "Middle": 0.004717201824799061,
+          "Ring": 0.004747991519344559,
+          "Pinky": 0.004084622796801099
+        },
+        "handDrift": 7.221187293816763e-07,
+        "elbowFlexion": 21.055292673256783,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 8,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165620050010797,
+        "digitGaps": {
+          "Thumb": 0.003165620050010797,
+          "Index": 0.00520890553447814,
+          "Middle": 0.0045989332162118,
+          "Ring": 0.004715710682957697,
+          "Pinky": 0.00384941445002363
+        },
+        "handDrift": 7.79999010338758e-07,
+        "elbowFlexion": 21.055301210993246,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 9,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197688956664188,
+        "digitGaps": {
+          "Thumb": 0.0031976889566641877,
+          "Index": 0.005358341484905842,
+          "Middle": 0.004717207408405795,
+          "Ring": 0.004748186050484495,
+          "Pinky": 0.004084452443132129
+        },
+        "handDrift": 6.958283114245753e-07,
+        "elbowFlexion": 21.976895220608483,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 9,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165697037774083,
+        "digitGaps": {
+          "Thumb": 0.0031656970377740828,
+          "Index": 0.005208706810971594,
+          "Middle": 0.004598895549203825,
+          "Ring": 0.004715751903633316,
+          "Pinky": 0.0038494006944530274
+        },
+        "handDrift": 7.494954982814024e-07,
+        "elbowFlexion": 21.976903758344946,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 10,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197830604150054,
+        "digitGaps": {
+          "Thumb": 0.0031978306041500534,
+          "Index": 0.005358292902880845,
+          "Middle": 0.004717233391809987,
+          "Ring": 0.004748142154454295,
+          "Pinky": 0.004084572543702323
+        },
+        "handDrift": 8.476635509684895e-07,
+        "elbowFlexion": 23.0136991535962,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 10,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001192092896,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165583125250815,
+        "digitGaps": {
+          "Thumb": 0.0031655831252508145,
+          "Index": 0.005208934925466225,
+          "Middle": 0.004599211275972964,
+          "Ring": 0.004715976049027395,
+          "Pinky": 0.0038495536993988205
+        },
+        "handDrift": 7.273381072505548e-07,
+        "elbowFlexion": 23.013682078123274,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 11,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171977461158711,
+        "digitGaps": {
+          "Thumb": 0.0031977461158711005,
+          "Index": 0.0053584757793597605,
+          "Middle": 0.004717177233012215,
+          "Ring": 0.004748185572425503,
+          "Pinky": 0.004084485337079854
+        },
+        "handDrift": 7.144291052820911e-07,
+        "elbowFlexion": 24.16282725503207,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 11,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165633150303537,
+        "digitGaps": {
+          "Thumb": 0.0031656331503035363,
+          "Index": 0.005209113917941129,
+          "Middle": 0.00459895787066039,
+          "Ring": 0.004715647546949172,
+          "Pinky": 0.003849483128817518
+        },
+        "handDrift": 8.668580139254316e-07,
+        "elbowFlexion": 24.16282725503207,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 12,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197858489843922,
+        "digitGaps": {
+          "Thumb": 0.003197858489843922,
+          "Index": 0.005358386477479467,
+          "Middle": 0.004717089084109264,
+          "Ring": 0.004748237705754279,
+          "Pinky": 0.004084689523007902
+        },
+        "handDrift": 7.411810351296052e-07,
+        "elbowFlexion": 25.421149590728934,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 12,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171657198253254,
+        "digitGaps": {
+          "Thumb": 0.003165719825325401,
+          "Index": 0.005208875045319259,
+          "Middle": 0.004598917236239531,
+          "Ring": 0.0047157353077115095,
+          "Pinky": 0.003849619964680447
+        },
+        "handDrift": 7.296313026618388e-07,
+        "elbowFlexion": 25.421149590728934,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 13,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197801698615834,
+        "digitGaps": {
+          "Thumb": 0.0031978016986158337,
+          "Index": 0.0053585118323075925,
+          "Middle": 0.004717366605724927,
+          "Ring": 0.004748113489507004,
+          "Pinky": 0.004084655171418252
+        },
+        "handDrift": 7.60630502812716e-07,
+        "elbowFlexion": 26.78521179251406,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 13,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165882484063144,
+        "digitGaps": {
+          "Thumb": 0.003165882484063144,
+          "Index": 0.005208514426680274,
+          "Middle": 0.0045986447122067075,
+          "Ring": 0.004715611580824992,
+          "Pinky": 0.00384948092303424
+        },
+        "handDrift": 7.444976705065147e-07,
+        "elbowFlexion": 26.78521179251406,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 14,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171978897999452,
+        "digitGaps": {
+          "Thumb": 0.003197889799945201,
+          "Index": 0.005358221577346342,
+          "Middle": 0.004717230239212842,
+          "Ring": 0.004748077206145078,
+          "Pinky": 0.004084564635106458
+        },
+        "handDrift": 6.765408660661275e-07,
+        "elbowFlexion": 28.251277746911445,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 14,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165620208762052,
+        "digitGaps": {
+          "Thumb": 0.003165620208762052,
+          "Index": 0.005209015616819456,
+          "Middle": 0.004599018211805717,
+          "Ring": 0.004715818511588801,
+          "Pinky": 0.0038495554263102572
+        },
+        "handDrift": 6.558665358677038e-07,
+        "elbowFlexion": 28.251277746911445,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 15,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197765985927087,
+        "digitGaps": {
+          "Thumb": 0.0031977659859270865,
+          "Index": 0.005358456145441155,
+          "Middle": 0.004717012008742355,
+          "Ring": 0.004748211772888101,
+          "Pinky": 0.004084705625279272
+        },
+        "handDrift": 7.981386305723033e-07,
+        "elbowFlexion": 29.815336425331004,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 15,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716588975494536,
+        "digitGaps": {
+          "Thumb": 0.0031658897549453596,
+          "Index": 0.005209041012909867,
+          "Middle": 0.004598971689711804,
+          "Ring": 0.004715806764326877,
+          "Pinky": 0.003849574801755547
+        },
+        "handDrift": 7.25830961662779e-07,
+        "elbowFlexion": 29.815322764952665,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 16,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197820307796097,
+        "digitGaps": {
+          "Thumb": 0.0031978203077960964,
+          "Index": 0.005358155813657299,
+          "Middle": 0.00471719422992181,
+          "Ring": 0.004748026873936993,
+          "Pinky": 0.004084387709970496
+        },
+        "handDrift": 8.423944028989635e-07,
+        "elbowFlexion": 31.473088223690215,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 16,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171656453759663,
+        "digitGaps": {
+          "Thumb": 0.0031656453759662997,
+          "Index": 0.005208431509445785,
+          "Middle": 0.0045989076677625095,
+          "Ring": 0.0047159037921700436,
+          "Pinky": 0.00384978030835746
+        },
+        "handDrift": 7.347012612214928e-07,
+        "elbowFlexion": 31.473081393501047,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 17,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719792253021746,
+        "digitGaps": {
+          "Thumb": 0.003197922530217461,
+          "Index": 0.005358310586007749,
+          "Middle": 0.004717261574893624,
+          "Ring": 0.0047482101136017505,
+          "Pinky": 0.0040845993446705555
+        },
+        "handDrift": 8.381808047788862e-07,
+        "elbowFlexion": 33.2199944812856,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 17,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716566552015513,
+        "digitGaps": {
+          "Thumb": 0.0031656655201551306,
+          "Index": 0.005208577711372753,
+          "Middle": 0.004598902028220371,
+          "Ring": 0.004715697061298622,
+          "Pinky": 0.0038495389758198533
+        },
+        "handDrift": 6.067563650763221e-07,
+        "elbowFlexion": 33.21998082090726,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 18,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719765916286158,
+        "digitGaps": {
+          "Thumb": 0.0031976591628615787,
+          "Index": 0.0053584681435941296,
+          "Middle": 0.004717243320241449,
+          "Ring": 0.004748167245632621,
+          "Pinky": 0.004084474195982244
+        },
+        "handDrift": 8.562030987443777e-07,
+        "elbowFlexion": 35.051260405319816,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 18,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165664509980357,
+        "digitGaps": {
+          "Thumb": 0.003165664509980357,
+          "Index": 0.0052086245948466305,
+          "Middle": 0.004599014189263525,
+          "Ring": 0.00471595876946,
+          "Pinky": 0.0038496847779629414
+        },
+        "handDrift": 6.623992138748338e-07,
+        "elbowFlexion": 35.051253575130644,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 19,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197789365881445,
+        "digitGaps": {
+          "Thumb": 0.0031977893658814444,
+          "Index": 0.0053580731180291104,
+          "Middle": 0.004717009577441476,
+          "Ring": 0.004747874756906896,
+          "Pinky": 0.004084456996887182
+        },
+        "handDrift": 8.25815628533363e-07,
+        "elbowFlexion": 36.96187605203665,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 19,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165478410609395,
+        "digitGaps": {
+          "Thumb": 0.003165478410609395,
+          "Index": 0.005208530431302377,
+          "Middle": 0.0045984455437562705,
+          "Ring": 0.004715692899000512,
+          "Pinky": 0.003849691089333628
+        },
+        "handDrift": 7.654650430773803e-07,
+        "elbowFlexion": 36.96186922184748,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 20,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171976678334772,
+        "digitGaps": {
+          "Thumb": 0.0031976678334772,
+          "Index": 0.005358501154943985,
+          "Middle": 0.00471706265861902,
+          "Ring": 0.004748340680968093,
+          "Pinky": 0.004084873492236496
+        },
+        "handDrift": 7.307233416680248e-07,
+        "elbowFlexion": 38.946606081437295,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 20,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716591653663061,
+        "digitGaps": {
+          "Thumb": 0.003165916536630611,
+          "Index": 0.00520861338081057,
+          "Middle": 0.004598496594100743,
+          "Ring": 0.004715806964303742,
+          "Pinky": 0.0038497462503882165
+        },
+        "handDrift": 7.783743448386482e-07,
+        "elbowFlexion": 38.94659242105896,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 21,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197886589950084,
+        "digitGaps": {
+          "Thumb": 0.003197886589950084,
+          "Index": 0.005357999530762396,
+          "Middle": 0.004717142676779194,
+          "Ring": 0.00474823936583788,
+          "Pinky": 0.004084526205638888
+        },
+        "handDrift": 8.764921576930155e-07,
+        "elbowFlexion": 40.999993172374914,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 21,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165816397265075,
+        "digitGaps": {
+          "Thumb": 0.003165816397265075,
+          "Index": 0.005208645435551834,
+          "Middle": 0.004598736471913735,
+          "Ring": 0.004715834267921349,
+          "Pinky": 0.0038494374654444285
+        },
+        "handDrift": 6.031903265514363e-07,
+        "elbowFlexion": 40.99998292709115,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 22,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001192092896,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197910813467217,
+        "digitGaps": {
+          "Thumb": 0.003197910813467217,
+          "Index": 0.005358266417965158,
+          "Middle": 0.004716865871357423,
+          "Ring": 0.00474815255274917,
+          "Pinky": 0.004084665501000772
+        },
+        "handDrift": 7.919824752323559e-07,
+        "elbowFlexion": 43.116436569730084,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 22,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165653852917392,
+        "digitGaps": {
+          "Thumb": 0.003165653852917392,
+          "Index": 0.005208803632916875,
+          "Middle": 0.004598689310041098,
+          "Ring": 0.0047159476671810325,
+          "Pinky": 0.003849904713438995
+        },
+        "handDrift": 8.279078362745701e-07,
+        "elbowFlexion": 43.11642290935174,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 23,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198107119155072,
+        "digitGaps": {
+          "Thumb": 0.0031981071191550716,
+          "Index": 0.0053581987753921045,
+          "Middle": 0.004717265891091548,
+          "Ring": 0.004748328166286836,
+          "Pinky": 0.004084615333582011
+        },
+        "handDrift": 9.192423727127013e-07,
+        "elbowFlexion": 45.290106707046206,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 23,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716556676591771,
+        "digitGaps": {
+          "Thumb": 0.003165566765917711,
+          "Index": 0.005208759238579065,
+          "Middle": 0.0045984414018402555,
+          "Ring": 0.004715950996214949,
+          "Pinky": 0.0038498740460224997
+        },
+        "handDrift": 9.068593100219875e-07,
+        "elbowFlexion": 45.290106707046206,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 24,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197890505692055,
+        "digitGaps": {
+          "Thumb": 0.0031978905056920543,
+          "Index": 0.005358501544890785,
+          "Middle": 0.004717252908709656,
+          "Ring": 0.004748180801581665,
+          "Pinky": 0.0040846398392802834
+        },
+        "handDrift": 9.52277953677097e-07,
+        "elbowFlexion": 47.515071565029125,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 24,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000074505806,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716564044390594,
+        "digitGaps": {
+          "Thumb": 0.003165640443905939,
+          "Index": 0.005208837517747986,
+          "Middle": 0.004598411504541941,
+          "Ring": 0.0047158090462157114,
+          "Pinky": 0.0038498765527841695
+        },
+        "handDrift": 8.739222748380667e-07,
+        "elbowFlexion": 47.51506473483995,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 25,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197961514593074,
+        "digitGaps": {
+          "Thumb": 0.003197961514593074,
+          "Index": 0.005358344591530414,
+          "Middle": 0.004717159637339893,
+          "Ring": 0.004748273611074506,
+          "Pinky": 0.004084782931272591
+        },
+        "handDrift": 7.636211314141314e-07,
+        "elbowFlexion": 49.785224954560846,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 25,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165677881854382,
+        "digitGaps": {
+          "Thumb": 0.0031656778818543816,
+          "Index": 0.005208786472436102,
+          "Middle": 0.004598681235336391,
+          "Ring": 0.0047157680679340164,
+          "Pinky": 0.003849643657131219
+        },
+        "handDrift": 7.347247883508151e-07,
+        "elbowFlexion": 49.78520787908792,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 26,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001043081284,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719811705365051,
+        "digitGaps": {
+          "Thumb": 0.0031981170536505097,
+          "Index": 0.005358275927924578,
+          "Middle": 0.0047170962514636715,
+          "Ring": 0.004748098323612409,
+          "Pinky": 0.004084324782213411
+        },
+        "handDrift": 8.255759535762932e-07,
+        "elbowFlexion": 52.0943206676454,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 26,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165631095654308,
+        "digitGaps": {
+          "Thumb": 0.0031656310956543077,
+          "Index": 0.005208619674134765,
+          "Middle": 0.004598558095088598,
+          "Ring": 0.004715476904219947,
+          "Pinky": 0.003849526398057709
+        },
+        "handDrift": 7.81665859718041e-07,
+        "elbowFlexion": 52.0943206676454,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 27,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719825694797636,
+        "digitGaps": {
+          "Thumb": 0.003198256947976359,
+          "Index": 0.0053582303299288415,
+          "Middle": 0.004717117384821204,
+          "Ring": 0.004748255751404142,
+          "Pinky": 0.004084533328194624
+        },
+        "handDrift": 6.96045527696123e-07,
+        "elbowFlexion": 54.43606468496261,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 27,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165715036367355,
+        "digitGaps": {
+          "Thumb": 0.003165715036367355,
+          "Index": 0.0052087021478861,
+          "Middle": 0.004598939311777133,
+          "Ring": 0.004715911625641127,
+          "Pinky": 0.0038497037207274026
+        },
+        "handDrift": 8.180345641659513e-07,
+        "elbowFlexion": 54.436047609489684,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 28,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719814694917413,
+        "digitGaps": {
+          "Thumb": 0.003198146949174129,
+          "Index": 0.0053583048118092825,
+          "Middle": 0.004717236378767689,
+          "Ring": 0.004748216889626676,
+          "Pinky": 0.00408456015675974
+        },
+        "handDrift": 7.110491416181132e-07,
+        "elbowFlexion": 56.8040058928414,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 28,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999031424522,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165637826457775,
+        "digitGaps": {
+          "Thumb": 0.0031656378264577744,
+          "Index": 0.0052086694383113846,
+          "Middle": 0.004598779888688025,
+          "Ring": 0.004715767764721367,
+          "Pinky": 0.003849597107720081
+        },
+        "handDrift": 7.259592389183197e-07,
+        "elbowFlexion": 56.804012723030574,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 29,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197759571952277,
+        "digitGaps": {
+          "Thumb": 0.003197759571952277,
+          "Index": 0.0053583791010056395,
+          "Middle": 0.004717161185628772,
+          "Ring": 0.004748324426316194,
+          "Pinky": 0.004084726188411181
+        },
+        "handDrift": 7.208076355338381e-07,
+        "elbowFlexion": 59.19168976251612,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 29,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000074505806,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716564813128856,
+        "digitGaps": {
+          "Thumb": 0.0031656481312885582,
+          "Index": 0.005208667101573078,
+          "Middle": 0.004598876454766759,
+          "Ring": 0.004715765894070351,
+          "Pinky": 0.0038497728832835258
+        },
+        "handDrift": 8.740858407865912e-07,
+        "elbowFlexion": 59.191682932326955,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 30,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999366700649,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719809480545965,
+        "digitGaps": {
+          "Thumb": 0.0031980948054596506,
+          "Index": 0.005358234792670379,
+          "Middle": 0.004717106682075112,
+          "Ring": 0.004748065547378473,
+          "Pinky": 0.004084660540945409
+        },
+        "handDrift": 8.362245295624072e-07,
+        "elbowFlexion": 61.59256272747813,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 30,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000521540642,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165518866587147,
+        "digitGaps": {
+          "Thumb": 0.0031655188665871466,
+          "Index": 0.005209145827962737,
+          "Middle": 0.004599078537957579,
+          "Ring": 0.004716356306752325,
+          "Pinky": 0.0038497822510881238
+        },
+        "handDrift": 8.989810833174032e-07,
+        "elbowFlexion": 61.592542236910624,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 31,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000037252903,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198105500907286,
+        "digitGaps": {
+          "Thumb": 0.003198105500907286,
+          "Index": 0.005358453620342879,
+          "Middle": 0.0047174458544882985,
+          "Ring": 0.004748353349312314,
+          "Pinky": 0.004084581061862521
+        },
+        "handDrift": 6.517853868112064e-07,
+        "elbowFlexion": 63.99999950423253,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 31,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999329447746,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165927983879874,
+        "digitGaps": {
+          "Thumb": 0.003165927983879874,
+          "Index": 0.00520878902946016,
+          "Middle": 0.004598804355233981,
+          "Ring": 0.004716050569291962,
+          "Pinky": 0.003849771733482341
+        },
+        "handDrift": 7.192483908027023e-07,
+        "elbowFlexion": 63.999992674043355,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 32,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000409781933,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719813765850797,
+        "digitGaps": {
+          "Thumb": 0.003198137658507969,
+          "Index": 0.005358439967127362,
+          "Middle": 0.004717212117222593,
+          "Ring": 0.004748357209458405,
+          "Pinky": 0.004084535144140663
+        },
+        "handDrift": 7.555478418656517e-07,
+        "elbowFlexion": 66.40745677155444,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 32,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716589852944797,
+        "digitGaps": {
+          "Thumb": 0.00316589852944797,
+          "Index": 0.0052087764516997054,
+          "Middle": 0.004598805309057879,
+          "Ring": 0.004716162118615084,
+          "Pinky": 0.0038495389760523583
+        },
+        "handDrift": 7.77623708029956e-07,
+        "elbowFlexion": 66.40742945079775,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 33,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000330619514,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719783705360758,
+        "digitGaps": {
+          "Thumb": 0.0031978370536075804,
+          "Index": 0.005358510618594074,
+          "Middle": 0.004717539627749996,
+          "Ring": 0.004748472674927824,
+          "Pinky": 0.004084757092847889
+        },
+        "handDrift": 9.271804444715555e-07,
+        "elbowFlexion": 68.80832973651644,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 33,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999948777258,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165900860283374,
+        "digitGaps": {
+          "Thumb": 0.0031659008602833733,
+          "Index": 0.005208908885519685,
+          "Middle": 0.004598862459873737,
+          "Ring": 0.0047164777088773546,
+          "Pinky": 0.0038498208057399837
+        },
+        "handDrift": 7.840686227464882e-07,
+        "elbowFlexion": 68.80828875538143,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 34,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999641440809,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198280948153663,
+        "digitGaps": {
+          "Thumb": 0.0031982809481536627,
+          "Index": 0.005358455390359651,
+          "Middle": 0.004717164871385441,
+          "Ring": 0.004748230595996947,
+          "Pinky": 0.0040845977904805635
+        },
+        "handDrift": 7.534949720147569e-07,
+        "elbowFlexion": 71.19597945524531,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 34,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000225845724,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716577140914247,
+        "digitGaps": {
+          "Thumb": 0.0031657714091424694,
+          "Index": 0.005208373758689827,
+          "Middle": 0.004598321299640705,
+          "Ring": 0.0047157747672557735,
+          "Pinky": 0.0038491901433370026
+        },
+        "handDrift": 1.1457256875600756e-06,
+        "elbowFlexion": 71.19597945524531,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 35,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000612417352,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197997830269148,
+        "digitGaps": {
+          "Thumb": 0.003197997830269148,
+          "Index": 0.005358380421616979,
+          "Middle": 0.004717138268477717,
+          "Ring": 0.004748467504483768,
+          "Pinky": 0.0040845788027767515
+        },
+        "handDrift": 6.485303934539015e-07,
+        "elbowFlexion": 73.56395822916454,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 35,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999977444531,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165700069151708,
+        "digitGaps": {
+          "Thumb": 0.0031657000691517074,
+          "Index": 0.005208916728607167,
+          "Middle": 0.004598919530905373,
+          "Ring": 0.004716103164650565,
+          "Pinky": 0.003849714854721688
+        },
+        "handDrift": 9.009509480753664e-07,
+        "elbowFlexion": 73.56393773859703,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 36,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000077765435,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197765758694323,
+        "digitGaps": {
+          "Thumb": 0.0031977657586943226,
+          "Index": 0.005358642158384086,
+          "Middle": 0.004717483677615047,
+          "Ring": 0.004748483176426699,
+          "Pinky": 0.004084596599544485
+        },
+        "handDrift": 8.093113029289479e-07,
+        "elbowFlexion": 75.90567492572508,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 36,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000022817403,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165917271628844,
+        "digitGaps": {
+          "Thumb": 0.0031659172716288434,
+          "Index": 0.005209059365731567,
+          "Middle": 0.004598726227479187,
+          "Ring": 0.0047161292027146345,
+          "Pinky": 0.0038497379512037657
+        },
+        "handDrift": 8.906006859092013e-07,
+        "elbowFlexion": 75.90568175591424,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 37,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999757856131,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719810344715529,
+        "digitGaps": {
+          "Thumb": 0.003198103447155291,
+          "Index": 0.005358376035651103,
+          "Middle": 0.004717432353639852,
+          "Ring": 0.0047486549026949185,
+          "Pinky": 0.004084860185720561
+        },
+        "handDrift": 9.138347986270466e-07,
+        "elbowFlexion": 78.21479795956631,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 37,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001238659024,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165780439446044,
+        "digitGaps": {
+          "Thumb": 0.0031657804394460438,
+          "Index": 0.005208873668165097,
+          "Middle": 0.004598672366809832,
+          "Ring": 0.004715895444340154,
+          "Pinky": 0.0038500575467401103
+        },
+        "handDrift": 8.722726811641049e-07,
+        "elbowFlexion": 78.21477746899879,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 38,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000223517418,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719807548019281,
+        "digitGaps": {
+          "Thumb": 0.003198075480192809,
+          "Index": 0.005358491887933631,
+          "Middle": 0.004717466721803334,
+          "Ring": 0.0047484196186943686,
+          "Pinky": 0.004084863239547225
+        },
+        "handDrift": 8.6372994759514e-07,
+        "elbowFlexion": 80.48494793400344,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 38,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000037252903,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165835754568794,
+        "digitGaps": {
+          "Thumb": 0.0031658357545687934,
+          "Index": 0.00520927435155326,
+          "Middle": 0.004598928763974478,
+          "Ring": 0.004716243145732305,
+          "Pinky": 0.003850169808222231
+        },
+        "handDrift": 1.0714250384604698e-06,
+        "elbowFlexion": 80.48492061324676,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 39,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999366700649,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197968652686198,
+        "digitGaps": {
+          "Thumb": 0.0031979686526861974,
+          "Index": 0.00535867104662586,
+          "Middle": 0.0047173988667469965,
+          "Ring": 0.004748529419156914,
+          "Pinky": 0.004084921264002219
+        },
+        "handDrift": 9.509854671728271e-07,
+        "elbowFlexion": 82.70988888632426,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 39,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999739229679,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716574824470553,
+        "digitGaps": {
+          "Thumb": 0.0031657482447055314,
+          "Index": 0.005208907580867046,
+          "Middle": 0.004598935553311053,
+          "Ring": 0.004716061424058773,
+          "Pinky": 0.003849964487946297
+        },
+        "handDrift": 1.0051865431410432e-06,
+        "elbowFlexion": 82.7098820561351,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 40,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999515712261,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198140103843906,
+        "digitGaps": {
+          "Thumb": 0.003198140103843906,
+          "Index": 0.00535841845699782,
+          "Middle": 0.0047170781739526765,
+          "Ring": 0.004748481710926284,
+          "Pinky": 0.0040847220681472455
+        },
+        "handDrift": 7.913646418212787e-07,
+        "elbowFlexion": 84.88358975949166,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 40,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716556140503033,
+        "digitGaps": {
+          "Thumb": 0.0031655614050303312,
+          "Index": 0.005209114577989003,
+          "Middle": 0.004599023783342248,
+          "Ring": 0.004716139772617667,
+          "Pinky": 0.0038502087121168194
+        },
+        "handDrift": 1.0551175323084502e-06,
+        "elbowFlexion": 84.8835351179783,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 41,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197970904017142,
+        "digitGaps": {
+          "Thumb": 0.003197970904017142,
+          "Index": 0.005358601596665584,
+          "Middle": 0.004717192064428282,
+          "Ring": 0.004748369408270158,
+          "Pinky": 0.004084737689605515
+        },
+        "handDrift": 8.791683343015139e-07,
+        "elbowFlexion": 87.00001266627932,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 41,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999888241291,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017166046715232322,
+        "digitGaps": {
+          "Thumb": 0.0031660467152323218,
+          "Index": 0.0052087685822553974,
+          "Middle": 0.004598686956153357,
+          "Ring": 0.004715975715130936,
+          "Pinky": 0.003848899960224675
+        },
+        "handDrift": 1.1966590940124471e-06,
+        "elbowFlexion": 86.99998534552263,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 42,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999329447746,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197761265085265,
+        "digitGaps": {
+          "Thumb": 0.003197761265085265,
+          "Index": 0.005358763439699281,
+          "Middle": 0.004717632998823747,
+          "Ring": 0.004748652014900578,
+          "Pinky": 0.004084937498150918
+        },
+        "handDrift": 9.66815017067377e-07,
+        "elbowFlexion": 89.05339975721692,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 42,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165544322214628,
+        "digitGaps": {
+          "Thumb": 0.0031655443222146275,
+          "Index": 0.0052090905151686104,
+          "Middle": 0.004598853976589016,
+          "Ring": 0.004715760015904747,
+          "Pinky": 0.003849506936049933
+        },
+        "handDrift": 8.874818102149825e-07,
+        "elbowFlexion": 89.05337926664942,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 43,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198114815405417,
+        "digitGaps": {
+          "Thumb": 0.003198114815405417,
+          "Index": 0.005358505623102859,
+          "Middle": 0.004717286563659532,
+          "Ring": 0.004748359805425066,
+          "Pinky": 0.004085089654502267
+        },
+        "handDrift": 8.231900416118329e-07,
+        "elbowFlexion": 91.03810929605007,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 43,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000819563866,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165789628272324,
+        "digitGaps": {
+          "Thumb": 0.0031657896282723235,
+          "Index": 0.005209125965075756,
+          "Middle": 0.004599128359580972,
+          "Ring": 0.004715682108333829,
+          "Pinky": 0.003849285520890448
+        },
+        "handDrift": 9.764958133960983e-07,
+        "elbowFlexion": 91.03811612623923,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 44,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719779918789805,
+        "digitGaps": {
+          "Thumb": 0.0031977991878980507,
+          "Index": 0.005358550827343203,
+          "Middle": 0.004717453995785709,
+          "Ring": 0.004748475556203011,
+          "Pinky": 0.004085086041767787
+        },
+        "handDrift": 1.0444750975348188e-06,
+        "elbowFlexion": 92.94875909371275,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 44,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999962747097,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716611681173504,
+        "digitGaps": {
+          "Thumb": 0.0031661168117350386,
+          "Index": 0.005208281397780812,
+          "Middle": 0.004598260833598223,
+          "Ring": 0.004715551559068476,
+          "Pinky": 0.0038491014587393197
+        },
+        "handDrift": 1.1737623662975175e-06,
+        "elbowFlexion": 92.94871811257774,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 45,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719763714008979,
+        "digitGaps": {
+          "Thumb": 0.0031976371400897884,
+          "Index": 0.005358408004468461,
+          "Middle": 0.004717532442133356,
+          "Ring": 0.004748669496770672,
+          "Pinky": 0.004084942156765218
+        },
+        "handDrift": 1.1794895991846966e-06,
+        "elbowFlexion": 94.7800147724632,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 45,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165590559921392,
+        "digitGaps": {
+          "Thumb": 0.0031655905599213916,
+          "Index": 0.005208545342527739,
+          "Middle": 0.004598198208693926,
+          "Ring": 0.004715328222946123,
+          "Pinky": 0.0038492949012040017
+        },
+        "handDrift": 1.1142999916101387e-06,
+        "elbowFlexion": 94.78000111208488,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 46,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719819800432569,
+        "digitGaps": {
+          "Thumb": 0.00319819800432569,
+          "Index": 0.005358492955246737,
+          "Middle": 0.004717393211254197,
+          "Ring": 0.004748169174248676,
+          "Pinky": 0.004084755551725659
+        },
+        "handDrift": 8.872852028446882e-07,
+        "elbowFlexion": 96.52693810553153,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 46,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165873459521253,
+        "digitGaps": {
+          "Thumb": 0.0031658734595212523,
+          "Index": 0.005208115249891012,
+          "Middle": 0.004598056795222382,
+          "Ring": 0.004715253431010353,
+          "Pinky": 0.0038489304354542963
+        },
+        "handDrift": 1.2117555465383463e-06,
+        "elbowFlexion": 96.52691078477484,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 47,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198071293923096,
+        "digitGaps": {
+          "Thumb": 0.003198071293923096,
+          "Index": 0.005358382664438095,
+          "Middle": 0.004717185527284331,
+          "Ring": 0.004748388308804434,
+          "Pinky": 0.004084842725107686
+        },
+        "handDrift": 9.029267918534239e-07,
+        "elbowFlexion": 98.1846728284178,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 47,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017166335106551883,
+        "digitGaps": {
+          "Thumb": 0.003166335106551883,
+          "Index": 0.005207654497596139,
+          "Middle": 0.0045980568320513285,
+          "Ring": 0.0047152053242721665,
+          "Pinky": 0.0038490413163727397
+        },
+        "handDrift": 1.3197914981136883e-06,
+        "elbowFlexion": 98.1846728284178,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 48,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198014481631958,
+        "digitGaps": {
+          "Thumb": 0.0031980144816319573,
+          "Index": 0.005358738902775989,
+          "Middle": 0.004717385591172471,
+          "Ring": 0.004748637939215003,
+          "Pinky": 0.004085016692020856
+        },
+        "handDrift": 8.985454126155915e-07,
+        "elbowFlexion": 99.74873150683737,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 48,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998509883881,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165755409776988,
+        "digitGaps": {
+          "Thumb": 0.0031657554097769876,
+          "Index": 0.005208622057672823,
+          "Middle": 0.0045986688263013695,
+          "Ring": 0.004715952854645924,
+          "Pinky": 0.003849429135837105
+        },
+        "handDrift": 1.0737815246846458e-06,
+        "elbowFlexion": 99.74870418608069,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 49,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197725574661253,
+        "digitGaps": {
+          "Thumb": 0.003197725574661253,
+          "Index": 0.005358541546670167,
+          "Middle": 0.004717591009791041,
+          "Ring": 0.004748812398418368,
+          "Pinky": 0.004084644197787113
+        },
+        "handDrift": 9.501726990887867e-07,
+        "elbowFlexion": 101.21477014047807,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 49,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165747729977712,
+        "digitGaps": {
+          "Thumb": 0.003165747729977712,
+          "Index": 0.005208353399964448,
+          "Middle": 0.004598479391215058,
+          "Ring": 0.004715843892330455,
+          "Pinky": 0.0038494995585608236
+        },
+        "handDrift": 1.048200875321573e-06,
+        "elbowFlexion": 101.21477697066724,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 50,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198115628732885,
+        "digitGaps": {
+          "Thumb": 0.003198115628732885,
+          "Index": 0.00535842752793717,
+          "Middle": 0.004717414493943339,
+          "Ring": 0.004748505340086398,
+          "Pinky": 0.004084864344944124
+        },
+        "handDrift": 9.027198695786418e-07,
+        "elbowFlexion": 102.57884087999966,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 50,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999552965164,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165757492450272,
+        "digitGaps": {
+          "Thumb": 0.0031657574924502715,
+          "Index": 0.005207874023816337,
+          "Middle": 0.004598188100448456,
+          "Ring": 0.0047152380155484255,
+          "Pinky": 0.0038487756182121278
+        },
+        "handDrift": 1.2350626334638468e-06,
+        "elbowFlexion": 102.5788340498105,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 51,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719800682496164,
+        "digitGaps": {
+          "Thumb": 0.0031980068249616387,
+          "Index": 0.005358663364785901,
+          "Middle": 0.004717600060727951,
+          "Ring": 0.00474878241216758,
+          "Pinky": 0.004085087502712427
+        },
+        "handDrift": 9.824161387796013e-07,
+        "elbowFlexion": 103.83719395154779,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 51,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165933653483945,
+        "digitGaps": {
+          "Thumb": 0.003165933653483945,
+          "Index": 0.005208333890006961,
+          "Middle": 0.004597975555766838,
+          "Ring": 0.004715453242833149,
+          "Pinky": 0.003849039230911752
+        },
+        "handDrift": 1.1934787032565422e-06,
+        "elbowFlexion": 103.83715980060194,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 52,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719782426457069,
+        "digitGaps": {
+          "Thumb": 0.0031978242645706884,
+          "Index": 0.005358705800619116,
+          "Middle": 0.004717236685113943,
+          "Ring": 0.0047483148452818775,
+          "Pinky": 0.0040847574534852455
+        },
+        "handDrift": 1.0002996307594588e-06,
+        "elbowFlexion": 104.9863118076999,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 52,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165646140667342,
+        "digitGaps": {
+          "Thumb": 0.0031656461406673417,
+          "Index": 0.0052086815700548555,
+          "Middle": 0.004598461782280289,
+          "Ring": 0.004715598031264168,
+          "Pinky": 0.0038494347282429908
+        },
+        "handDrift": 1.1709336488962737e-06,
+        "elbowFlexion": 104.98629814732156,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 53,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197696124604218,
+        "digitGaps": {
+          "Thumb": 0.0031976961246042174,
+          "Index": 0.0053583609201698894,
+          "Middle": 0.004717106571634084,
+          "Ring": 0.004748308327966735,
+          "Pinky": 0.004084946385912077
+        },
+        "handDrift": 1.0114030677167082e-06,
+        "elbowFlexion": 106.02310037276199,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 53,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165969435923894,
+        "digitGaps": {
+          "Thumb": 0.0031659694359238936,
+          "Index": 0.005208054341485762,
+          "Middle": 0.0045979166896357535,
+          "Ring": 0.00471538743114275,
+          "Pinky": 0.0038490949536219583
+        },
+        "handDrift": 1.3272175141156263e-06,
+        "elbowFlexion": 106.02310037276199,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 54,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198022380650168,
+        "digitGaps": {
+          "Thumb": 0.0031980223806501677,
+          "Index": 0.005358334647121035,
+          "Middle": 0.0047171803465679545,
+          "Ring": 0.004748204859726641,
+          "Pinky": 0.004084696099692397
+        },
+        "handDrift": 8.557152648079876e-07,
+        "elbowFlexion": 106.9446977974718,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 54,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165813459593265,
+        "digitGaps": {
+          "Thumb": 0.0031658134595932644,
+          "Index": 0.005208503373916885,
+          "Middle": 0.004598613282730405,
+          "Ring": 0.004715697806857521,
+          "Pinky": 0.0038494306185015547
+        },
+        "handDrift": 1.1453566462881351e-06,
+        "elbowFlexion": 106.94469096728264,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 55,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198099625157642,
+        "digitGaps": {
+          "Thumb": 0.003198099625157642,
+          "Index": 0.005358196536439675,
+          "Middle": 0.004717245512941377,
+          "Ring": 0.004748252336098645,
+          "Pinky": 0.004084590539912834
+        },
+        "handDrift": 1.005466920979916e-06,
+        "elbowFlexion": 107.74862472316065,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 55,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165585457488315,
+        "digitGaps": {
+          "Thumb": 0.003165585457488315,
+          "Index": 0.005208222036631812,
+          "Middle": 0.004598283132276624,
+          "Ring": 0.0047154854103125515,
+          "Pinky": 0.003849333118035163
+        },
+        "handDrift": 1.093096988352558e-06,
+        "elbowFlexion": 107.7485905722148,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 56,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197973436550103,
+        "digitGaps": {
+          "Thumb": 0.003197973436550103,
+          "Index": 0.0053585035625459704,
+          "Middle": 0.004717465955790581,
+          "Ring": 0.004748326102655022,
+          "Pinky": 0.004084920533132764
+        },
+        "handDrift": 8.564468717620128e-07,
+        "elbowFlexion": 108.43258620626739,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 56,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165804373220905,
+        "digitGaps": {
+          "Thumb": 0.003165804373220905,
+          "Index": 0.005207963856734178,
+          "Middle": 0.004597818460206753,
+          "Ring": 0.004715254715862266,
+          "Pinky": 0.0038487877171750843
+        },
+        "handDrift": 1.3889889523218222e-06,
+        "elbowFlexion": 108.4326066968349,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 57,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197790040925233,
+        "digitGaps": {
+          "Thumb": 0.0031977900409252327,
+          "Index": 0.005358698746553056,
+          "Middle": 0.004717389907912014,
+          "Ring": 0.004748527191824238,
+          "Pinky": 0.0040848724833864435
+        },
+        "handDrift": 8.509355576204446e-07,
+        "elbowFlexion": 108.99480639760782,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 57,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165805066317773,
+        "digitGaps": {
+          "Thumb": 0.003165805066317773,
+          "Index": 0.00520855189964242,
+          "Middle": 0.004598487615155673,
+          "Ring": 0.00471580998685075,
+          "Pinky": 0.003849367861765691
+        },
+        "handDrift": 1.462789593523722e-06,
+        "elbowFlexion": 108.99477907685113,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 58,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197743425411093,
+        "digitGaps": {
+          "Thumb": 0.003197743425411093,
+          "Index": 0.005358742948323088,
+          "Middle": 0.004717300389151408,
+          "Ring": 0.004748527811293235,
+          "Pinky": 0.004085143466625635
+        },
+        "handDrift": 1.0312569064426928e-06,
+        "elbowFlexion": 109.4336528819703,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 58,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716582834596541,
+        "digitGaps": {
+          "Thumb": 0.00316582834596541,
+          "Index": 0.005208595267344832,
+          "Middle": 0.004598267748158325,
+          "Ring": 0.004715551155196769,
+          "Pinky": 0.0038492609524970623
+        },
+        "handDrift": 1.111134889925927e-06,
+        "elbowFlexion": 109.43366654234865,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 59,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197962938110163,
+        "digitGaps": {
+          "Thumb": 0.003197962938110163,
+          "Index": 0.005358485464974165,
+          "Middle": 0.004717224150780781,
+          "Ring": 0.004748336488491265,
+          "Pinky": 0.0040846161453755355
+        },
+        "handDrift": 8.486640422775386e-07,
+        "elbowFlexion": 109.7479986781418,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 59,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165485225090506,
+        "digitGaps": {
+          "Thumb": 0.003165485225090506,
+          "Index": 0.005208348425765766,
+          "Middle": 0.004598259371744099,
+          "Ring": 0.004715474021882033,
+          "Pinky": 0.0038492354229737024
+        },
+        "handDrift": 1.2591840055723968e-06,
+        "elbowFlexion": 109.74799184795263,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 60,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197867023266856,
+        "digitGaps": {
+          "Thumb": 0.0031978670232668555,
+          "Index": 0.005358682694436906,
+          "Middle": 0.004717157435327602,
+          "Ring": 0.004748670020156684,
+          "Pinky": 0.004084732323387396
+        },
+        "handDrift": 9.609798048861773e-07,
+        "elbowFlexion": 109.93698318228688,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 60,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017166046135202687,
+        "digitGaps": {
+          "Thumb": 0.0031660461352026863,
+          "Index": 0.00520839274647514,
+          "Middle": 0.004598222954750547,
+          "Ring": 0.00471549381527908,
+          "Pinky": 0.003849152728499146
+        },
+        "handDrift": 1.16608631146953e-06,
+        "elbowFlexion": 109.93694903134103,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719774204363172,
+        "digitGaps": {
+          "Thumb": 0.003197742043631718,
+          "Index": 0.005358659280058993,
+          "Middle": 0.004717602795985118,
+          "Ring": 0.004748605040958446,
+          "Pinky": 0.004084917502578661
+        },
+        "handDrift": 1.0241922758545918e-06,
+        "elbowFlexion": 109.99999167738025,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 61,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165702276746613,
+        "digitGaps": {
+          "Thumb": 0.003165702276746613,
+          "Index": 0.005208684301817956,
+          "Middle": 0.00459825020391527,
+          "Ring": 0.004715620696390225,
+          "Pinky": 0.003849313317482639
+        },
+        "handDrift": 1.0767455109360963e-06,
+        "elbowFlexion": 109.99999167738025,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 62,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197867023266856,
+        "digitGaps": {
+          "Thumb": 0.0031978670232668555,
+          "Index": 0.005358682694436906,
+          "Middle": 0.004717157435327602,
+          "Ring": 0.004748670020156684,
+          "Pinky": 0.004084732323387396
+        },
+        "handDrift": 9.609798048861773e-07,
+        "elbowFlexion": 109.93698318228688,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 62,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017166046135202687,
+        "digitGaps": {
+          "Thumb": 0.0031660461352026863,
+          "Index": 0.00520839274647514,
+          "Middle": 0.004598222954750547,
+          "Ring": 0.00471549381527908,
+          "Pinky": 0.003849152728499146
+        },
+        "handDrift": 1.16608631146953e-06,
+        "elbowFlexion": 109.93694903134103,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 63,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197962938110163,
+        "digitGaps": {
+          "Thumb": 0.003197962938110163,
+          "Index": 0.005358485464974165,
+          "Middle": 0.004717224150780781,
+          "Ring": 0.004748336488491265,
+          "Pinky": 0.0040846161453755355
+        },
+        "handDrift": 8.486640422775386e-07,
+        "elbowFlexion": 109.7479986781418,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 63,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165485225090506,
+        "digitGaps": {
+          "Thumb": 0.003165485225090506,
+          "Index": 0.005208348425765766,
+          "Middle": 0.004598259371744099,
+          "Ring": 0.004715474021882033,
+          "Pinky": 0.0038492354229737024
+        },
+        "handDrift": 1.2591840055723968e-06,
+        "elbowFlexion": 109.74799184795263,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 64,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197743425411093,
+        "digitGaps": {
+          "Thumb": 0.003197743425411093,
+          "Index": 0.005358742948323088,
+          "Middle": 0.004717300389151408,
+          "Ring": 0.004748527811293235,
+          "Pinky": 0.004085143466625635
+        },
+        "handDrift": 1.0312569064426928e-06,
+        "elbowFlexion": 109.4336528819703,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 64,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716582834596541,
+        "digitGaps": {
+          "Thumb": 0.00316582834596541,
+          "Index": 0.005208595267344832,
+          "Middle": 0.004598267748158325,
+          "Ring": 0.004715551155196769,
+          "Pinky": 0.0038492609524970623
+        },
+        "handDrift": 1.111134889925927e-06,
+        "elbowFlexion": 109.43366654234865,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 65,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197790040925233,
+        "digitGaps": {
+          "Thumb": 0.0031977900409252327,
+          "Index": 0.005358698746553056,
+          "Middle": 0.004717389907912014,
+          "Ring": 0.004748527191824238,
+          "Pinky": 0.0040848724833864435
+        },
+        "handDrift": 8.509355576204446e-07,
+        "elbowFlexion": 108.99480639760782,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 65,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165805066317773,
+        "digitGaps": {
+          "Thumb": 0.003165805066317773,
+          "Index": 0.00520855189964242,
+          "Middle": 0.004598487615155673,
+          "Ring": 0.00471580998685075,
+          "Pinky": 0.003849367861765691
+        },
+        "handDrift": 1.462789593523722e-06,
+        "elbowFlexion": 108.99477907685113,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 66,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197973436550103,
+        "digitGaps": {
+          "Thumb": 0.003197973436550103,
+          "Index": 0.0053585035625459704,
+          "Middle": 0.004717465955790581,
+          "Ring": 0.004748326102655022,
+          "Pinky": 0.004084920533132764
+        },
+        "handDrift": 8.564468717620128e-07,
+        "elbowFlexion": 108.43258620626739,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 66,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165804373220905,
+        "digitGaps": {
+          "Thumb": 0.003165804373220905,
+          "Index": 0.005207963856734178,
+          "Middle": 0.004597818460206753,
+          "Ring": 0.004715254715862266,
+          "Pinky": 0.0038487877171750843
+        },
+        "handDrift": 1.3889889523218222e-06,
+        "elbowFlexion": 108.4326066968349,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 67,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198099625157642,
+        "digitGaps": {
+          "Thumb": 0.003198099625157642,
+          "Index": 0.005358196536439675,
+          "Middle": 0.004717245512941377,
+          "Ring": 0.004748252336098645,
+          "Pinky": 0.004084590539912834
+        },
+        "handDrift": 1.005466920979916e-06,
+        "elbowFlexion": 107.74862472316065,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 67,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165585457488315,
+        "digitGaps": {
+          "Thumb": 0.003165585457488315,
+          "Index": 0.005208222036631812,
+          "Middle": 0.004598283132276624,
+          "Ring": 0.0047154854103125515,
+          "Pinky": 0.003849333118035163
+        },
+        "handDrift": 1.093096988352558e-06,
+        "elbowFlexion": 107.7485905722148,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 68,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198022380650168,
+        "digitGaps": {
+          "Thumb": 0.0031980223806501677,
+          "Index": 0.005358334647121035,
+          "Middle": 0.0047171803465679545,
+          "Ring": 0.004748204859726641,
+          "Pinky": 0.004084696099692397
+        },
+        "handDrift": 8.557152648079876e-07,
+        "elbowFlexion": 106.9446977974718,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 68,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165813459593265,
+        "digitGaps": {
+          "Thumb": 0.0031658134595932644,
+          "Index": 0.005208503373916885,
+          "Middle": 0.004598613282730405,
+          "Ring": 0.004715697806857521,
+          "Pinky": 0.0038494306185015547
+        },
+        "handDrift": 1.1453566462881351e-06,
+        "elbowFlexion": 106.94469096728264,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 69,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197696124604218,
+        "digitGaps": {
+          "Thumb": 0.0031976961246042174,
+          "Index": 0.0053583609201698894,
+          "Middle": 0.004717106571634084,
+          "Ring": 0.004748308327966735,
+          "Pinky": 0.004084946385912077
+        },
+        "handDrift": 1.0114030677167082e-06,
+        "elbowFlexion": 106.02310037276199,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 69,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165969435923894,
+        "digitGaps": {
+          "Thumb": 0.0031659694359238936,
+          "Index": 0.005208054341485762,
+          "Middle": 0.0045979166896357535,
+          "Ring": 0.00471538743114275,
+          "Pinky": 0.0038490949536219583
+        },
+        "handDrift": 1.3272175141156263e-06,
+        "elbowFlexion": 106.02310037276199,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 70,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719782426457069,
+        "digitGaps": {
+          "Thumb": 0.0031978242645706884,
+          "Index": 0.005358705800619116,
+          "Middle": 0.004717236685113943,
+          "Ring": 0.0047483148452818775,
+          "Pinky": 0.0040847574534852455
+        },
+        "handDrift": 1.0002996307594588e-06,
+        "elbowFlexion": 104.9863118076999,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 70,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165646140667342,
+        "digitGaps": {
+          "Thumb": 0.0031656461406673417,
+          "Index": 0.0052086815700548555,
+          "Middle": 0.004598461782280289,
+          "Ring": 0.004715598031264168,
+          "Pinky": 0.0038494347282429908
+        },
+        "handDrift": 1.1709336488962737e-06,
+        "elbowFlexion": 104.98629814732156,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 71,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719800682496164,
+        "digitGaps": {
+          "Thumb": 0.0031980068249616387,
+          "Index": 0.005358663364785901,
+          "Middle": 0.004717600060727951,
+          "Ring": 0.00474878241216758,
+          "Pinky": 0.004085087502712427
+        },
+        "handDrift": 9.824161387796013e-07,
+        "elbowFlexion": 103.83719395154779,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 71,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165933653483945,
+        "digitGaps": {
+          "Thumb": 0.003165933653483945,
+          "Index": 0.005208333890006961,
+          "Middle": 0.004597975555766838,
+          "Ring": 0.004715453242833149,
+          "Pinky": 0.003849039230911752
+        },
+        "handDrift": 1.1934787032565422e-06,
+        "elbowFlexion": 103.83715980060194,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 72,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198115628732885,
+        "digitGaps": {
+          "Thumb": 0.003198115628732885,
+          "Index": 0.00535842752793717,
+          "Middle": 0.004717414493943339,
+          "Ring": 0.004748505340086398,
+          "Pinky": 0.004084864344944124
+        },
+        "handDrift": 9.027198695786418e-07,
+        "elbowFlexion": 102.57884087999966,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 72,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999552965164,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165757492450272,
+        "digitGaps": {
+          "Thumb": 0.0031657574924502715,
+          "Index": 0.005207874023816337,
+          "Middle": 0.004598188100448456,
+          "Ring": 0.0047152380155484255,
+          "Pinky": 0.0038487756182121278
+        },
+        "handDrift": 1.2350626334638468e-06,
+        "elbowFlexion": 102.5788340498105,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 73,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197725574661253,
+        "digitGaps": {
+          "Thumb": 0.003197725574661253,
+          "Index": 0.005358541546670167,
+          "Middle": 0.004717591009791041,
+          "Ring": 0.004748812398418368,
+          "Pinky": 0.004084644197787113
+        },
+        "handDrift": 9.501726990887867e-07,
+        "elbowFlexion": 101.21477014047807,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 73,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165747729977712,
+        "digitGaps": {
+          "Thumb": 0.003165747729977712,
+          "Index": 0.005208353399964448,
+          "Middle": 0.004598479391215058,
+          "Ring": 0.004715843892330455,
+          "Pinky": 0.0038494995585608236
+        },
+        "handDrift": 1.048200875321573e-06,
+        "elbowFlexion": 101.21477697066724,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 74,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198014481631958,
+        "digitGaps": {
+          "Thumb": 0.0031980144816319573,
+          "Index": 0.005358738902775989,
+          "Middle": 0.004717385591172471,
+          "Ring": 0.004748637939215003,
+          "Pinky": 0.004085016692020856
+        },
+        "handDrift": 8.985454126155915e-07,
+        "elbowFlexion": 99.74873150683737,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 74,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998509883881,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165755409776988,
+        "digitGaps": {
+          "Thumb": 0.0031657554097769876,
+          "Index": 0.005208622057672823,
+          "Middle": 0.0045986688263013695,
+          "Ring": 0.004715952854645924,
+          "Pinky": 0.003849429135837105
+        },
+        "handDrift": 1.0737815246846458e-06,
+        "elbowFlexion": 99.74870418608069,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 75,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198071293923096,
+        "digitGaps": {
+          "Thumb": 0.003198071293923096,
+          "Index": 0.005358382664438095,
+          "Middle": 0.004717185527284331,
+          "Ring": 0.004748388308804434,
+          "Pinky": 0.004084842725107686
+        },
+        "handDrift": 9.029267918534239e-07,
+        "elbowFlexion": 98.1846728284178,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 75,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017166335106551883,
+        "digitGaps": {
+          "Thumb": 0.003166335106551883,
+          "Index": 0.005207654497596139,
+          "Middle": 0.0045980568320513285,
+          "Ring": 0.0047152053242721665,
+          "Pinky": 0.0038490413163727397
+        },
+        "handDrift": 1.3197914981136883e-06,
+        "elbowFlexion": 98.1846728284178,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 76,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719819800432569,
+        "digitGaps": {
+          "Thumb": 0.00319819800432569,
+          "Index": 0.005358492955246737,
+          "Middle": 0.004717393211254197,
+          "Ring": 0.004748169174248676,
+          "Pinky": 0.004084755551725659
+        },
+        "handDrift": 8.872852028446882e-07,
+        "elbowFlexion": 96.52693810553153,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 76,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165873459521253,
+        "digitGaps": {
+          "Thumb": 0.0031658734595212523,
+          "Index": 0.005208115249891012,
+          "Middle": 0.004598056795222382,
+          "Ring": 0.004715253431010353,
+          "Pinky": 0.0038489304354542963
+        },
+        "handDrift": 1.2117555465383463e-06,
+        "elbowFlexion": 96.52691078477484,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 77,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719763714008979,
+        "digitGaps": {
+          "Thumb": 0.0031976371400897884,
+          "Index": 0.005358408004468461,
+          "Middle": 0.004717532442133356,
+          "Ring": 0.004748669496770672,
+          "Pinky": 0.004084942156765218
+        },
+        "handDrift": 1.1794895991846966e-06,
+        "elbowFlexion": 94.7800147724632,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 77,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165590559921392,
+        "digitGaps": {
+          "Thumb": 0.0031655905599213916,
+          "Index": 0.005208545342527739,
+          "Middle": 0.004598198208693926,
+          "Ring": 0.004715328222946123,
+          "Pinky": 0.0038492949012040017
+        },
+        "handDrift": 1.1142999916101387e-06,
+        "elbowFlexion": 94.78000111208488,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 78,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719779918789805,
+        "digitGaps": {
+          "Thumb": 0.0031977991878980507,
+          "Index": 0.005358550827343203,
+          "Middle": 0.004717453995785709,
+          "Ring": 0.004748475556203011,
+          "Pinky": 0.004085086041767787
+        },
+        "handDrift": 1.0444750975348188e-06,
+        "elbowFlexion": 92.94875909371275,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 78,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999962747097,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716611681173504,
+        "digitGaps": {
+          "Thumb": 0.0031661168117350386,
+          "Index": 0.005208281397780812,
+          "Middle": 0.004598260833598223,
+          "Ring": 0.004715551559068476,
+          "Pinky": 0.0038491014587393197
+        },
+        "handDrift": 1.1737623662975175e-06,
+        "elbowFlexion": 92.94871811257774,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 79,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198114815405417,
+        "digitGaps": {
+          "Thumb": 0.003198114815405417,
+          "Index": 0.005358505623102859,
+          "Middle": 0.004717286563659532,
+          "Ring": 0.004748359805425066,
+          "Pinky": 0.004085089654502267
+        },
+        "handDrift": 8.231900416118329e-07,
+        "elbowFlexion": 91.03810929605007,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 79,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000819563866,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165789628272324,
+        "digitGaps": {
+          "Thumb": 0.0031657896282723235,
+          "Index": 0.005209125965075756,
+          "Middle": 0.004599128359580972,
+          "Ring": 0.004715682108333829,
+          "Pinky": 0.003849285520890448
+        },
+        "handDrift": 9.764958133960983e-07,
+        "elbowFlexion": 91.03811612623923,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 80,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999329447746,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197761265085265,
+        "digitGaps": {
+          "Thumb": 0.003197761265085265,
+          "Index": 0.005358763439699281,
+          "Middle": 0.004717632998823747,
+          "Ring": 0.004748652014900578,
+          "Pinky": 0.004084937498150918
+        },
+        "handDrift": 9.66815017067377e-07,
+        "elbowFlexion": 89.05339975721692,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 80,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165544322214628,
+        "digitGaps": {
+          "Thumb": 0.0031655443222146275,
+          "Index": 0.0052090905151686104,
+          "Middle": 0.004598853976589016,
+          "Ring": 0.004715760015904747,
+          "Pinky": 0.003849506936049933
+        },
+        "handDrift": 8.874818102149825e-07,
+        "elbowFlexion": 89.05337926664942,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 81,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197970904017142,
+        "digitGaps": {
+          "Thumb": 0.003197970904017142,
+          "Index": 0.005358601596665584,
+          "Middle": 0.004717192064428282,
+          "Ring": 0.004748369408270158,
+          "Pinky": 0.004084737689605515
+        },
+        "handDrift": 8.791683343015139e-07,
+        "elbowFlexion": 87.00001266627932,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 81,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999888241291,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017166046715232322,
+        "digitGaps": {
+          "Thumb": 0.0031660467152323218,
+          "Index": 0.0052087685822553974,
+          "Middle": 0.004598686956153357,
+          "Ring": 0.004715975715130936,
+          "Pinky": 0.003848899960224675
+        },
+        "handDrift": 1.1966590940124471e-06,
+        "elbowFlexion": 86.99998534552263,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 82,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999515712261,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198140103843906,
+        "digitGaps": {
+          "Thumb": 0.003198140103843906,
+          "Index": 0.00535841845699782,
+          "Middle": 0.0047170781739526765,
+          "Ring": 0.004748481710926284,
+          "Pinky": 0.0040847220681472455
+        },
+        "handDrift": 7.913646418212787e-07,
+        "elbowFlexion": 84.88358975949166,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 82,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716556140503033,
+        "digitGaps": {
+          "Thumb": 0.0031655614050303312,
+          "Index": 0.005209114577989003,
+          "Middle": 0.004599023783342248,
+          "Ring": 0.004716139772617667,
+          "Pinky": 0.0038502087121168194
+        },
+        "handDrift": 1.0551175323084502e-06,
+        "elbowFlexion": 84.8835351179783,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 83,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999366700649,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197968652686198,
+        "digitGaps": {
+          "Thumb": 0.0031979686526861974,
+          "Index": 0.00535867104662586,
+          "Middle": 0.0047173988667469965,
+          "Ring": 0.004748529419156914,
+          "Pinky": 0.004084921264002219
+        },
+        "handDrift": 9.509854671728271e-07,
+        "elbowFlexion": 82.70988888632426,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 83,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999739229679,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716574824470553,
+        "digitGaps": {
+          "Thumb": 0.0031657482447055314,
+          "Index": 0.005208907580867046,
+          "Middle": 0.004598935553311053,
+          "Ring": 0.004716061424058773,
+          "Pinky": 0.003849964487946297
+        },
+        "handDrift": 1.0051865431410432e-06,
+        "elbowFlexion": 82.7098820561351,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 84,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000223517418,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719807548019281,
+        "digitGaps": {
+          "Thumb": 0.003198075480192809,
+          "Index": 0.005358491887933631,
+          "Middle": 0.004717466721803334,
+          "Ring": 0.0047484196186943686,
+          "Pinky": 0.004084863239547225
+        },
+        "handDrift": 8.6372994759514e-07,
+        "elbowFlexion": 80.48494793400344,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 84,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000037252903,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165835754568794,
+        "digitGaps": {
+          "Thumb": 0.0031658357545687934,
+          "Index": 0.00520927435155326,
+          "Middle": 0.004598928763974478,
+          "Ring": 0.004716243145732305,
+          "Pinky": 0.003850169808222231
+        },
+        "handDrift": 1.0714250384604698e-06,
+        "elbowFlexion": 80.48492061324676,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 85,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999757856131,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719810344715529,
+        "digitGaps": {
+          "Thumb": 0.003198103447155291,
+          "Index": 0.005358376035651103,
+          "Middle": 0.004717432353639852,
+          "Ring": 0.0047486549026949185,
+          "Pinky": 0.004084860185720561
+        },
+        "handDrift": 9.138347986270466e-07,
+        "elbowFlexion": 78.21479795956631,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 85,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001238659024,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165780439446044,
+        "digitGaps": {
+          "Thumb": 0.0031657804394460438,
+          "Index": 0.005208873668165097,
+          "Middle": 0.004598672366809832,
+          "Ring": 0.004715895444340154,
+          "Pinky": 0.0038500575467401103
+        },
+        "handDrift": 8.722726811641049e-07,
+        "elbowFlexion": 78.21477746899879,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 86,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000077765435,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197765758694323,
+        "digitGaps": {
+          "Thumb": 0.0031977657586943226,
+          "Index": 0.005358642158384086,
+          "Middle": 0.004717483677615047,
+          "Ring": 0.004748483176426699,
+          "Pinky": 0.004084596599544485
+        },
+        "handDrift": 8.093113029289479e-07,
+        "elbowFlexion": 75.90567492572508,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 86,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000022817403,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165917271628844,
+        "digitGaps": {
+          "Thumb": 0.0031659172716288434,
+          "Index": 0.005209059365731567,
+          "Middle": 0.004598726227479187,
+          "Ring": 0.0047161292027146345,
+          "Pinky": 0.0038497379512037657
+        },
+        "handDrift": 8.906006859092013e-07,
+        "elbowFlexion": 75.90568175591424,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 87,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000612417352,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197997830269148,
+        "digitGaps": {
+          "Thumb": 0.003197997830269148,
+          "Index": 0.005358380421616979,
+          "Middle": 0.004717138268477717,
+          "Ring": 0.004748467504483768,
+          "Pinky": 0.0040845788027767515
+        },
+        "handDrift": 6.485303934539015e-07,
+        "elbowFlexion": 73.56395822916454,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 87,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999977444531,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165700069151708,
+        "digitGaps": {
+          "Thumb": 0.0031657000691517074,
+          "Index": 0.005208916728607167,
+          "Middle": 0.004598919530905373,
+          "Ring": 0.004716103164650565,
+          "Pinky": 0.003849714854721688
+        },
+        "handDrift": 9.009509480753664e-07,
+        "elbowFlexion": 73.56393773859703,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 88,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999641440809,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198280948153663,
+        "digitGaps": {
+          "Thumb": 0.0031982809481536627,
+          "Index": 0.005358455390359651,
+          "Middle": 0.004717164871385441,
+          "Ring": 0.004748230595996947,
+          "Pinky": 0.0040845977904805635
+        },
+        "handDrift": 7.534949720147569e-07,
+        "elbowFlexion": 71.19597945524531,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 88,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000225845724,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716577140914247,
+        "digitGaps": {
+          "Thumb": 0.0031657714091424694,
+          "Index": 0.005208373758689827,
+          "Middle": 0.004598321299640705,
+          "Ring": 0.0047157747672557735,
+          "Pinky": 0.0038491901433370026
+        },
+        "handDrift": 1.1457256875600756e-06,
+        "elbowFlexion": 71.19597945524531,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 89,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000330619514,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719783705360758,
+        "digitGaps": {
+          "Thumb": 0.0031978370536075804,
+          "Index": 0.005358510618594074,
+          "Middle": 0.004717539627749996,
+          "Ring": 0.004748472674927824,
+          "Pinky": 0.004084757092847889
+        },
+        "handDrift": 9.271804444715555e-07,
+        "elbowFlexion": 68.80832973651644,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 89,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999948777258,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165900860283374,
+        "digitGaps": {
+          "Thumb": 0.0031659008602833733,
+          "Index": 0.005208908885519685,
+          "Middle": 0.004598862459873737,
+          "Ring": 0.0047164777088773546,
+          "Pinky": 0.0038498208057399837
+        },
+        "handDrift": 7.840686227464882e-07,
+        "elbowFlexion": 68.80828875538143,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 90,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000409781933,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719813765850797,
+        "digitGaps": {
+          "Thumb": 0.003198137658507969,
+          "Index": 0.005358439967127362,
+          "Middle": 0.004717212117222593,
+          "Ring": 0.004748357209458405,
+          "Pinky": 0.004084535144140663
+        },
+        "handDrift": 7.555478418656517e-07,
+        "elbowFlexion": 66.40745677155444,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 90,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716589852944797,
+        "digitGaps": {
+          "Thumb": 0.00316589852944797,
+          "Index": 0.0052087764516997054,
+          "Middle": 0.004598805309057879,
+          "Ring": 0.004716162118615084,
+          "Pinky": 0.0038495389760523583
+        },
+        "handDrift": 7.77623708029956e-07,
+        "elbowFlexion": 66.40742945079775,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 91,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000037252903,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198105500907286,
+        "digitGaps": {
+          "Thumb": 0.003198105500907286,
+          "Index": 0.005358453620342879,
+          "Middle": 0.0047174458544882985,
+          "Ring": 0.004748353349312314,
+          "Pinky": 0.004084581061862521
+        },
+        "handDrift": 6.517853868112064e-07,
+        "elbowFlexion": 63.99999950423253,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 91,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999329447746,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165927983879874,
+        "digitGaps": {
+          "Thumb": 0.003165927983879874,
+          "Index": 0.00520878902946016,
+          "Middle": 0.004598804355233981,
+          "Ring": 0.004716050569291962,
+          "Pinky": 0.003849771733482341
+        },
+        "handDrift": 7.192483908027023e-07,
+        "elbowFlexion": 63.999992674043355,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 92,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999366700649,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719809480545965,
+        "digitGaps": {
+          "Thumb": 0.0031980948054596506,
+          "Index": 0.005358234792670379,
+          "Middle": 0.004717106682075112,
+          "Ring": 0.004748065547378473,
+          "Pinky": 0.004084660540945409
+        },
+        "handDrift": 8.362245295624072e-07,
+        "elbowFlexion": 61.59256272747813,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 92,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000521540642,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165518866587147,
+        "digitGaps": {
+          "Thumb": 0.0031655188665871466,
+          "Index": 0.005209145827962737,
+          "Middle": 0.004599078537957579,
+          "Ring": 0.004716356306752325,
+          "Pinky": 0.0038497822510881238
+        },
+        "handDrift": 8.989810833174032e-07,
+        "elbowFlexion": 61.592542236910624,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 93,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197759571952277,
+        "digitGaps": {
+          "Thumb": 0.003197759571952277,
+          "Index": 0.0053583791010056395,
+          "Middle": 0.004717161185628772,
+          "Ring": 0.004748324426316194,
+          "Pinky": 0.004084726188411181
+        },
+        "handDrift": 7.208076355338381e-07,
+        "elbowFlexion": 59.19168976251612,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 93,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000074505806,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716564813128856,
+        "digitGaps": {
+          "Thumb": 0.0031656481312885582,
+          "Index": 0.005208667101573078,
+          "Middle": 0.004598876454766759,
+          "Ring": 0.004715765894070351,
+          "Pinky": 0.0038497728832835258
+        },
+        "handDrift": 8.740858407865912e-07,
+        "elbowFlexion": 59.191682932326955,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 94,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719814694917413,
+        "digitGaps": {
+          "Thumb": 0.003198146949174129,
+          "Index": 0.0053583048118092825,
+          "Middle": 0.004717236378767689,
+          "Ring": 0.004748216889626676,
+          "Pinky": 0.00408456015675974
+        },
+        "handDrift": 7.110491416181132e-07,
+        "elbowFlexion": 56.8040058928414,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 94,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999031424522,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165637826457775,
+        "digitGaps": {
+          "Thumb": 0.0031656378264577744,
+          "Index": 0.0052086694383113846,
+          "Middle": 0.004598779888688025,
+          "Ring": 0.004715767764721367,
+          "Pinky": 0.003849597107720081
+        },
+        "handDrift": 7.259592389183197e-07,
+        "elbowFlexion": 56.804012723030574,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 95,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719825694797636,
+        "digitGaps": {
+          "Thumb": 0.003198256947976359,
+          "Index": 0.0053582303299288415,
+          "Middle": 0.004717117384821204,
+          "Ring": 0.004748255751404142,
+          "Pinky": 0.004084533328194624
+        },
+        "handDrift": 6.96045527696123e-07,
+        "elbowFlexion": 54.43606468496261,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 95,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165715036367355,
+        "digitGaps": {
+          "Thumb": 0.003165715036367355,
+          "Index": 0.0052087021478861,
+          "Middle": 0.004598939311777133,
+          "Ring": 0.004715911625641127,
+          "Pinky": 0.0038497037207274026
+        },
+        "handDrift": 8.180345641659513e-07,
+        "elbowFlexion": 54.436047609489684,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 96,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001043081284,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719811705365051,
+        "digitGaps": {
+          "Thumb": 0.0031981170536505097,
+          "Index": 0.005358275927924578,
+          "Middle": 0.0047170962514636715,
+          "Ring": 0.004748098323612409,
+          "Pinky": 0.004084324782213411
+        },
+        "handDrift": 8.255759535762932e-07,
+        "elbowFlexion": 52.0943206676454,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 96,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165631095654308,
+        "digitGaps": {
+          "Thumb": 0.0031656310956543077,
+          "Index": 0.005208619674134765,
+          "Middle": 0.004598558095088598,
+          "Ring": 0.004715476904219947,
+          "Pinky": 0.003849526398057709
+        },
+        "handDrift": 7.81665859718041e-07,
+        "elbowFlexion": 52.0943206676454,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 97,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197961514593074,
+        "digitGaps": {
+          "Thumb": 0.003197961514593074,
+          "Index": 0.005358344591530414,
+          "Middle": 0.004717159637339893,
+          "Ring": 0.004748273611074506,
+          "Pinky": 0.004084782931272591
+        },
+        "handDrift": 7.636211314141314e-07,
+        "elbowFlexion": 49.785224954560846,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 97,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165677881854382,
+        "digitGaps": {
+          "Thumb": 0.0031656778818543816,
+          "Index": 0.005208786472436102,
+          "Middle": 0.004598681235336391,
+          "Ring": 0.0047157680679340164,
+          "Pinky": 0.003849643657131219
+        },
+        "handDrift": 7.347247883508151e-07,
+        "elbowFlexion": 49.78520787908792,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 98,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197890505692055,
+        "digitGaps": {
+          "Thumb": 0.0031978905056920543,
+          "Index": 0.005358501544890785,
+          "Middle": 0.004717252908709656,
+          "Ring": 0.004748180801581665,
+          "Pinky": 0.0040846398392802834
+        },
+        "handDrift": 9.52277953677097e-07,
+        "elbowFlexion": 47.515071565029125,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 98,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000074505806,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716564044390594,
+        "digitGaps": {
+          "Thumb": 0.003165640443905939,
+          "Index": 0.005208837517747986,
+          "Middle": 0.004598411504541941,
+          "Ring": 0.0047158090462157114,
+          "Pinky": 0.0038498765527841695
+        },
+        "handDrift": 8.739222748380667e-07,
+        "elbowFlexion": 47.51506473483995,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 99,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198107119155072,
+        "digitGaps": {
+          "Thumb": 0.0031981071191550716,
+          "Index": 0.0053581987753921045,
+          "Middle": 0.004717265891091548,
+          "Ring": 0.004748328166286836,
+          "Pinky": 0.004084615333582011
+        },
+        "handDrift": 9.192423727127013e-07,
+        "elbowFlexion": 45.290106707046206,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 99,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716556676591771,
+        "digitGaps": {
+          "Thumb": 0.003165566765917711,
+          "Index": 0.005208759238579065,
+          "Middle": 0.0045984414018402555,
+          "Ring": 0.004715950996214949,
+          "Pinky": 0.0038498740460224997
+        },
+        "handDrift": 9.068593100219875e-07,
+        "elbowFlexion": 45.290106707046206,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 100,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001192092896,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197910813467217,
+        "digitGaps": {
+          "Thumb": 0.003197910813467217,
+          "Index": 0.005358266417965158,
+          "Middle": 0.004716865871357423,
+          "Ring": 0.00474815255274917,
+          "Pinky": 0.004084665501000772
+        },
+        "handDrift": 7.919824752323559e-07,
+        "elbowFlexion": 43.116436569730084,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 100,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165653852917392,
+        "digitGaps": {
+          "Thumb": 0.003165653852917392,
+          "Index": 0.005208803632916875,
+          "Middle": 0.004598689310041098,
+          "Ring": 0.0047159476671810325,
+          "Pinky": 0.003849904713438995
+        },
+        "handDrift": 8.279078362745701e-07,
+        "elbowFlexion": 43.11642290935174,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 101,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197886589950084,
+        "digitGaps": {
+          "Thumb": 0.003197886589950084,
+          "Index": 0.005357999530762396,
+          "Middle": 0.004717142676779194,
+          "Ring": 0.00474823936583788,
+          "Pinky": 0.004084526205638888
+        },
+        "handDrift": 8.764921576930155e-07,
+        "elbowFlexion": 40.999993172374914,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 101,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165816397265075,
+        "digitGaps": {
+          "Thumb": 0.003165816397265075,
+          "Index": 0.005208645435551834,
+          "Middle": 0.004598736471913735,
+          "Ring": 0.004715834267921349,
+          "Pinky": 0.0038494374654444285
+        },
+        "handDrift": 6.031903265514363e-07,
+        "elbowFlexion": 40.99998292709115,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 102,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171976678334772,
+        "digitGaps": {
+          "Thumb": 0.0031976678334772,
+          "Index": 0.005358501154943985,
+          "Middle": 0.00471706265861902,
+          "Ring": 0.004748340680968093,
+          "Pinky": 0.004084873492236496
+        },
+        "handDrift": 7.307233416680248e-07,
+        "elbowFlexion": 38.946606081437295,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 102,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716591653663061,
+        "digitGaps": {
+          "Thumb": 0.003165916536630611,
+          "Index": 0.00520861338081057,
+          "Middle": 0.004598496594100743,
+          "Ring": 0.004715806964303742,
+          "Pinky": 0.0038497462503882165
+        },
+        "handDrift": 7.783743448386482e-07,
+        "elbowFlexion": 38.94659242105896,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 103,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197789365881445,
+        "digitGaps": {
+          "Thumb": 0.0031977893658814444,
+          "Index": 0.0053580731180291104,
+          "Middle": 0.004717009577441476,
+          "Ring": 0.004747874756906896,
+          "Pinky": 0.004084456996887182
+        },
+        "handDrift": 8.25815628533363e-07,
+        "elbowFlexion": 36.96187605203665,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 103,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165478410609395,
+        "digitGaps": {
+          "Thumb": 0.003165478410609395,
+          "Index": 0.005208530431302377,
+          "Middle": 0.0045984455437562705,
+          "Ring": 0.004715692899000512,
+          "Pinky": 0.003849691089333628
+        },
+        "handDrift": 7.654650430773803e-07,
+        "elbowFlexion": 36.96186922184748,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 104,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719765916286158,
+        "digitGaps": {
+          "Thumb": 0.0031976591628615787,
+          "Index": 0.0053584681435941296,
+          "Middle": 0.004717243320241449,
+          "Ring": 0.004748167245632621,
+          "Pinky": 0.004084474195982244
+        },
+        "handDrift": 8.562030987443777e-07,
+        "elbowFlexion": 35.051260405319816,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 104,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165664509980357,
+        "digitGaps": {
+          "Thumb": 0.003165664509980357,
+          "Index": 0.0052086245948466305,
+          "Middle": 0.004599014189263525,
+          "Ring": 0.00471595876946,
+          "Pinky": 0.0038496847779629414
+        },
+        "handDrift": 6.623992138748338e-07,
+        "elbowFlexion": 35.051253575130644,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 105,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719792253021746,
+        "digitGaps": {
+          "Thumb": 0.003197922530217461,
+          "Index": 0.005358310586007749,
+          "Middle": 0.004717261574893624,
+          "Ring": 0.0047482101136017505,
+          "Pinky": 0.0040845993446705555
+        },
+        "handDrift": 8.381808047788862e-07,
+        "elbowFlexion": 33.2199944812856,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 105,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716566552015513,
+        "digitGaps": {
+          "Thumb": 0.0031656655201551306,
+          "Index": 0.005208577711372753,
+          "Middle": 0.004598902028220371,
+          "Ring": 0.004715697061298622,
+          "Pinky": 0.0038495389758198533
+        },
+        "handDrift": 6.067563650763221e-07,
+        "elbowFlexion": 33.21998082090726,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 106,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197820307796097,
+        "digitGaps": {
+          "Thumb": 0.0031978203077960964,
+          "Index": 0.005358155813657299,
+          "Middle": 0.00471719422992181,
+          "Ring": 0.004748026873936993,
+          "Pinky": 0.004084387709970496
+        },
+        "handDrift": 8.423944028989635e-07,
+        "elbowFlexion": 31.473088223690215,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 106,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171656453759663,
+        "digitGaps": {
+          "Thumb": 0.0031656453759662997,
+          "Index": 0.005208431509445785,
+          "Middle": 0.0045989076677625095,
+          "Ring": 0.0047159037921700436,
+          "Pinky": 0.00384978030835746
+        },
+        "handDrift": 7.347012612214928e-07,
+        "elbowFlexion": 31.473081393501047,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 107,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197765985927087,
+        "digitGaps": {
+          "Thumb": 0.0031977659859270865,
+          "Index": 0.005358456145441155,
+          "Middle": 0.004717012008742355,
+          "Ring": 0.004748211772888101,
+          "Pinky": 0.004084705625279272
+        },
+        "handDrift": 7.981386305723033e-07,
+        "elbowFlexion": 29.815336425331004,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 107,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716588975494536,
+        "digitGaps": {
+          "Thumb": 0.0031658897549453596,
+          "Index": 0.005209041012909867,
+          "Middle": 0.004598971689711804,
+          "Ring": 0.004715806764326877,
+          "Pinky": 0.003849574801755547
+        },
+        "handDrift": 7.25830961662779e-07,
+        "elbowFlexion": 29.815322764952665,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 108,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171978897999452,
+        "digitGaps": {
+          "Thumb": 0.003197889799945201,
+          "Index": 0.005358221577346342,
+          "Middle": 0.004717230239212842,
+          "Ring": 0.004748077206145078,
+          "Pinky": 0.004084564635106458
+        },
+        "handDrift": 6.765408660661275e-07,
+        "elbowFlexion": 28.251277746911445,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 108,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165620208762052,
+        "digitGaps": {
+          "Thumb": 0.003165620208762052,
+          "Index": 0.005209015616819456,
+          "Middle": 0.004599018211805717,
+          "Ring": 0.004715818511588801,
+          "Pinky": 0.0038495554263102572
+        },
+        "handDrift": 6.558665358677038e-07,
+        "elbowFlexion": 28.251277746911445,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 109,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197801698615834,
+        "digitGaps": {
+          "Thumb": 0.0031978016986158337,
+          "Index": 0.0053585118323075925,
+          "Middle": 0.004717366605724927,
+          "Ring": 0.004748113489507004,
+          "Pinky": 0.004084655171418252
+        },
+        "handDrift": 7.60630502812716e-07,
+        "elbowFlexion": 26.78521179251406,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 109,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165882484063144,
+        "digitGaps": {
+          "Thumb": 0.003165882484063144,
+          "Index": 0.005208514426680274,
+          "Middle": 0.0045986447122067075,
+          "Ring": 0.004715611580824992,
+          "Pinky": 0.00384948092303424
+        },
+        "handDrift": 7.444976705065147e-07,
+        "elbowFlexion": 26.78521179251406,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 110,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197858489843922,
+        "digitGaps": {
+          "Thumb": 0.003197858489843922,
+          "Index": 0.005358386477479467,
+          "Middle": 0.004717089084109264,
+          "Ring": 0.004748237705754279,
+          "Pinky": 0.004084689523007902
+        },
+        "handDrift": 7.411810351296052e-07,
+        "elbowFlexion": 25.421149590728934,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 110,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171657198253254,
+        "digitGaps": {
+          "Thumb": 0.003165719825325401,
+          "Index": 0.005208875045319259,
+          "Middle": 0.004598917236239531,
+          "Ring": 0.0047157353077115095,
+          "Pinky": 0.003849619964680447
+        },
+        "handDrift": 7.296313026618388e-07,
+        "elbowFlexion": 25.421149590728934,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 111,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0171977461158711,
+        "digitGaps": {
+          "Thumb": 0.0031977461158711005,
+          "Index": 0.0053584757793597605,
+          "Middle": 0.004717177233012215,
+          "Ring": 0.004748185572425503,
+          "Pinky": 0.004084485337079854
+        },
+        "handDrift": 7.144291052820911e-07,
+        "elbowFlexion": 24.16282725503207,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 111,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165633150303537,
+        "digitGaps": {
+          "Thumb": 0.0031656331503035363,
+          "Index": 0.005209113917941129,
+          "Middle": 0.00459895787066039,
+          "Ring": 0.004715647546949172,
+          "Pinky": 0.003849483128817518
+        },
+        "handDrift": 8.668580139254316e-07,
+        "elbowFlexion": 24.16282725503207,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 112,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197830604150054,
+        "digitGaps": {
+          "Thumb": 0.0031978306041500534,
+          "Index": 0.005358292902880845,
+          "Middle": 0.004717233391809987,
+          "Ring": 0.004748142154454295,
+          "Pinky": 0.004084572543702323
+        },
+        "handDrift": 8.476635509684895e-07,
+        "elbowFlexion": 23.0136991535962,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 112,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001192092896,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165583125250815,
+        "digitGaps": {
+          "Thumb": 0.0031655831252508145,
+          "Index": 0.005208934925466225,
+          "Middle": 0.004599211275972964,
+          "Ring": 0.004715976049027395,
+          "Pinky": 0.0038495536993988205
+        },
+        "handDrift": 7.273381072505548e-07,
+        "elbowFlexion": 23.013682078123274,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 113,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197688956664188,
+        "digitGaps": {
+          "Thumb": 0.0031976889566641877,
+          "Index": 0.005358341484905842,
+          "Middle": 0.004717207408405795,
+          "Ring": 0.004748186050484495,
+          "Pinky": 0.004084452443132129
+        },
+        "handDrift": 6.958283114245753e-07,
+        "elbowFlexion": 21.976895220608483,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 113,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165697037774083,
+        "digitGaps": {
+          "Thumb": 0.0031656970377740828,
+          "Index": 0.005208706810971594,
+          "Middle": 0.004598895549203825,
+          "Ring": 0.004715751903633316,
+          "Pinky": 0.0038494006944530274
+        },
+        "handDrift": 7.494954982814024e-07,
+        "elbowFlexion": 21.976903758344946,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 114,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719774289847921,
+        "digitGaps": {
+          "Thumb": 0.0031977428984792094,
+          "Index": 0.005358292026105755,
+          "Middle": 0.004717201824799061,
+          "Ring": 0.004747991519344559,
+          "Pinky": 0.004084622796801099
+        },
+        "handDrift": 7.221187293816763e-07,
+        "elbowFlexion": 21.055292673256783,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 114,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165620050010797,
+        "digitGaps": {
+          "Thumb": 0.003165620050010797,
+          "Index": 0.00520890553447814,
+          "Middle": 0.0045989332162118,
+          "Ring": 0.004715710682957697,
+          "Pinky": 0.00384941445002363
+        },
+        "handDrift": 7.79999010338758e-07,
+        "elbowFlexion": 21.055301210993246,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 115,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719766829517271,
+        "digitGaps": {
+          "Thumb": 0.003197668295172708,
+          "Index": 0.005358255740166998,
+          "Middle": 0.004717066369776134,
+          "Ring": 0.0047480136175456124,
+          "Pinky": 0.004084325981665924
+        },
+        "handDrift": 8.440089160486681e-07,
+        "elbowFlexion": 20.251387945682747,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 115,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716579018499105,
+        "digitGaps": {
+          "Thumb": 0.00316579018499105,
+          "Index": 0.005208760545370438,
+          "Middle": 0.004598971063113104,
+          "Ring": 0.004715767766724286,
+          "Pinky": 0.003849478875809156
+        },
+        "handDrift": 6.419742880421768e-07,
+        "elbowFlexion": 20.2513981909665,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 116,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01719794111122349,
+        "digitGaps": {
+          "Thumb": 0.0031979411112234898,
+          "Index": 0.005358443203681342,
+          "Middle": 0.004717182190854105,
+          "Ring": 0.004748114972091539,
+          "Pinky": 0.00408457866198852
+        },
+        "handDrift": 8.606916978254358e-07,
+        "elbowFlexion": 19.56739914181933,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 116,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165635190680744,
+        "digitGaps": {
+          "Thumb": 0.0031656351906807437,
+          "Index": 0.0052089316158954475,
+          "Middle": 0.004598932034808807,
+          "Ring": 0.004715856437815911,
+          "Pinky": 0.003849545732960107
+        },
+        "handDrift": 6.781193280309824e-07,
+        "elbowFlexion": 19.56739914181933,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 117,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198114050959827,
+        "digitGaps": {
+          "Thumb": 0.003198114050959827,
+          "Index": 0.005358307753231652,
+          "Middle": 0.004717004522888273,
+          "Ring": 0.004747906984022275,
+          "Pinky": 0.004084559192858798
+        },
+        "handDrift": 8.419937329076557e-07,
+        "elbowFlexion": 19.00520627123558,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 117,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165614723905417,
+        "digitGaps": {
+          "Thumb": 0.003165614723905417,
+          "Index": 0.005209034582479089,
+          "Middle": 0.004598960024999642,
+          "Ring": 0.0047158272091237016,
+          "Pinky": 0.003849643190355719
+        },
+        "handDrift": 6.528350225961327e-07,
+        "elbowFlexion": 19.005196025951825,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 118,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017198036035633368,
+        "digitGaps": {
+          "Thumb": 0.0031980360356333674,
+          "Index": 0.005358368810851144,
+          "Middle": 0.004717285078450052,
+          "Ring": 0.004748483007301534,
+          "Pinky": 0.004084635912151005
+        },
+        "handDrift": 6.193201243560219e-07,
+        "elbowFlexion": 18.566322220832657,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 118,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165715235767452,
+        "digitGaps": {
+          "Thumb": 0.003165715235767452,
+          "Index": 0.005208813985414397,
+          "Middle": 0.004598802232917703,
+          "Ring": 0.004716035070430011,
+          "Pinky": 0.003849427629409862
+        },
+        "handDrift": 5.11755595229817e-07,
+        "elbowFlexion": 18.56633246611641,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 119,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197882916603454,
+        "digitGaps": {
+          "Thumb": 0.0031978829166034537,
+          "Index": 0.005358196214870161,
+          "Middle": 0.0047170309204121585,
+          "Ring": 0.004748279622721318,
+          "Pinky": 0.004084389247286003
+        },
+        "handDrift": 7.296211688982349e-07,
+        "elbowFlexion": 18.252000330323252,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 119,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716570443848173,
+        "digitGaps": {
+          "Thumb": 0.00316570443848173,
+          "Index": 0.005208789994607355,
+          "Middle": 0.004598786769571742,
+          "Ring": 0.004716093415941388,
+          "Pinky": 0.003849540028349816
+        },
+        "handDrift": 6.601341729132501e-07,
+        "elbowFlexion": 18.251988377492207,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 120,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197810512975593,
+        "digitGaps": {
+          "Thumb": 0.003197810512975593,
+          "Index": 0.005358422113523742,
+          "Middle": 0.0047175408275875585,
+          "Ring": 0.0047485340014512285,
+          "Pinky": 0.004084659806254802
+        },
+        "handDrift": 6.522894482668672e-07,
+        "elbowFlexion": 18.06303631674568,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 120,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001043081284,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01716551757003132,
+        "digitGaps": {
+          "Thumb": 0.0031655175700313187,
+          "Index": 0.005208828317961543,
+          "Middle": 0.004598829534961662,
+          "Ring": 0.0047160738719639345,
+          "Pinky": 0.0038494658442990524
+        },
+        "handDrift": 6.30551118399225e-07,
+        "elbowFlexion": 18.06303631674568,
+        "elevation": 24.972580332082934
+      },
+      {
+        "frame": 121,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017197912372615903,
+        "digitGaps": {
+          "Thumb": 0.0031979123726159023,
+          "Index": 0.0053583425887242814,
+          "Middle": 0.0047172614412398835,
+          "Ring": 0.004748295709866112,
+          "Pinky": 0.0040844842021660315
+        },
+        "handDrift": 8.978557917811118e-08,
+        "elbowFlexion": 17.999995378253757,
+        "elevation": 24.972587162272102
+      },
+      {
+        "frame": 121,
+        "side": "Right",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.017165904056282853,
+        "digitGaps": {
+          "Thumb": 0.0031659040562828523,
+          "Index": 0.005208769757928047,
+          "Middle": 0.004598986119939549,
+          "Ring": 0.004716028506843264,
+          "Pinky": 0.0038494842521977646
+        },
+        "handDrift": 4.106677958675807e-08,
+        "elbowFlexion": 17.999995378253757,
+        "elevation": 24.972580332082934
+      }
+    ],
+    "supportSamples": [
+      {
+        "frame": 1,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 2,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 3,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 4,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 5,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 6,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 7,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 8,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 9,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 10,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 11,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 12,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 13,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 14,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 15,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 16,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 17,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 18,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 19,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 20,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 21,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 22,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 23,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 24,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 25,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 26,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 27,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 28,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 29,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 30,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 31,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 32,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 33,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 34,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 35,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 36,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 37,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 38,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 39,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 40,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 41,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 42,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 43,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 44,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 45,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 46,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 47,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 48,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 49,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 50,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 51,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 52,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 53,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 54,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 55,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 56,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 57,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 58,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 59,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 60,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 61,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 62,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 63,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 64,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 65,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 66,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 67,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 68,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 69,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 70,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 71,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 72,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 73,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 74,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 75,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 76,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 77,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 78,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 79,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 80,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 81,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 82,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 83,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 84,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 85,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 86,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 87,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 88,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 89,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 90,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 91,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 92,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 93,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 94,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 95,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 96,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 97,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 98,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 99,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 100,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 101,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 102,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 103,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 104,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 105,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 106,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 107,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 108,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 109,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 110,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 111,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 112,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 113,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 114,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 115,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 116,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 117,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 118,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 119,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 120,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      },
+      {
+        "frame": 121,
+        "pad": "Seat cushion",
+        "gap": 0.0024999660537190493
+      }
+    ],
+    "maxFootDrift": 0,
+    "meshLoopError": 0.0
+  },
+  "status": "passed"
+}

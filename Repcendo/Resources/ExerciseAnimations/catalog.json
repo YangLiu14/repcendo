@@ -21,15 +21,15 @@
     "variants": {
       "male": {
         "video": "0285-male.mp4",
-        "videoSHA256": "32f977e1bcb40247f16213ac9bca3a0b2fe2db1c7dbfbdaadce45e45ee069c0d",
+        "videoSHA256": "9b70020cb84b75b0c675bac328b83160215334e728e0c1d0daf0003589b99011",
         "poster": "0285-male-poster.png",
-        "posterSHA256": "c3d13391ea8585fc89aba96ff35f70c91658324a8ce6a190e7b9dc768d0fc990"
+        "posterSHA256": "8af957a75b864083f5182a10b9b4b89b6679018fdd5675de07d8cd9ae6f1dc96"
       },
       "female": {
         "video": "0285-female.mp4",
-        "videoSHA256": "2dd0d12aa19d9f355ddf328f07c26c281e6a0eb141253097644af16be21ac96e",
+        "videoSHA256": "906a06c83f02f71c048fc640482a1582d03d5096611b2a550b7c742a0f3f36f5",
         "poster": "0285-female-poster.png",
-        "posterSHA256": "bfdc4d0ad34e7899ead6e1c99074521499a542206931ffa051bcedcea7087bbd"
+        "posterSHA256": "fa7c83af81b176bf786e3cb6cff59d92b05d8c50d2b363cc3ceb9a59f336a550"
       }
     }
   },
@@ -38,15 +38,15 @@
     "variants": {
       "male": {
         "video": "0310-male.mp4",
-        "videoSHA256": "a794a3f9dfba08e90c998780b8eda0edbe56f1e2d17835925effff755cdd35d9",
+        "videoSHA256": "794e02318d01216e75b7e136eaae1b42b162e89c97d38c7c7e2d8bb943dd8f8b",
         "poster": "0310-male-poster.png",
-        "posterSHA256": "02228d84921f809b3ebda1ed47a0bf13a04d308c83fe77f4cc7bed61eeea41e9"
+        "posterSHA256": "2f1c5c873c7c052e03d78b08b4c9d8285c69597648269b185c3073261f6a44fc"
       },
       "female": {
         "video": "0310-female.mp4",
-        "videoSHA256": "fa5d6cadd2a64bcaf3201b6577f873ca192c0cffc8ca5e7195033dfce49c3f4a",
+        "videoSHA256": "58b816b8f275224da8b7e1187f2043b52707a7d8c5a81aa8570bdb2c6c04eeeb",
         "poster": "0310-female-poster.png",
-        "posterSHA256": "e610906cf0db8d40b8e78bb3b36e29d945d45d852bb3f37314110b43c5d99fbd"
+        "posterSHA256": "1326d1942c71441657ed97b7948f8dafd1980ee634974bc4c4f35bb2b87b68d0"
       }
     }
   },
@@ -89,15 +89,15 @@
     "variants": {
       "male": {
         "video": "1677-male.mp4",
-        "videoSHA256": "c3ca99c2a926eabfaaf70b585afc6ed9e033ec992aea3636770cb38c64dea271",
+        "videoSHA256": "8226e1231b457f8b99768d7668e956ab7530053d3c16d3ff53a86962794f2159",
         "poster": "1677-male-poster.png",
-        "posterSHA256": "3d6f0800ee67e2002a8e93b10b44816b6adfe5d996091500a9bc3ceab7742ffe"
+        "posterSHA256": "6701d7bcb8c7e121bfe048f2ec3c6e721991288f1a9ec77cf25264d8bf0a902e"
       },
       "female": {
         "video": "1677-female.mp4",
-        "videoSHA256": "189b9c32bf0545d82965927ae57827fce34059bf7e51fb9727c8b497ec737d87",
+        "videoSHA256": "c245210120efe7031e2b5e08282cf0c4318872415a564efb44bcac276d9c67df",
         "poster": "1677-female-poster.png",
-        "posterSHA256": "40fd498023650c1e996d393eb997ab1cc847882fe64bdc679d83f5f93ce56db5"
+        "posterSHA256": "1061d37a11ae2a553af7d4c1504d4ba9e7f3d84370dc3a026da16f748b2b90be"
       }
     }
   },
@@ -106,15 +106,15 @@
     "variants": {
       "male": {
         "video": "0392-male.mp4",
-        "videoSHA256": "64a211a039a0b437d842a09c5f7de5028c6f0d3235b0418ed19be71a51244704",
+        "videoSHA256": "1416f91a70520c6c2ed758111bf9369b8d3e02aed44d2ddebc99977225da7dbf",
         "poster": "0392-male-poster.png",
-        "posterSHA256": "43121771f792ed29f1a92c725aec92b25ac7c224b40dee55ea02a470b6f4d6ec"
+        "posterSHA256": "4fed0626daa54eda3ca87c9ec372e354d0a9b4d30f328575df5d76d09c9ba06e"
       },
       "female": {
         "video": "0392-female.mp4",
-        "videoSHA256": "f27df7be1e263a08fdcb74d910c4ac6f5f403c2f17f6b4a46b7066654e979319",
+        "videoSHA256": "7f09677b6add2ce363548f665f5c87b4fc5394b77e57b1fbeb677cd93e990810",
         "poster": "0392-female-poster.png",
-        "posterSHA256": "3dca5a02c5cf70433b757d04aa6c64e7a789ed33d02689c72db82d638592d844"
+        "posterSHA256": "28fb6551628b50efb1a5678c5f7da967d46e15e5bdddc15a646a03d0c395ac59"
       }
     }
   },
@@ -123,15 +123,15 @@
     "variants": {
       "male": {
         "video": "0387-male.mp4",
-        "videoSHA256": "00bf7129212c2021ede48d0080be03908265ee0bb605cf707b93fd2aed21270d",
+        "videoSHA256": "75366d1ef38697398e969ba027c07351700eccf8bfd5201e7024cac17852c969",
         "poster": "0387-male-poster.png",
-        "posterSHA256": "c1606506a4177f822e6aebdaea5b17a07781be5cb0a4e0381ccb739b60a19e9f"
+        "posterSHA256": "2050f13e55aef26690990c81d2b4d039f06c1462265f425843f395536fa81609"
       },
       "female": {
         "video": "0387-female.mp4",
-        "videoSHA256": "22b46974d5e8dca2a59af8e129920cf9c8cb11e7ecf389a7852566ad2af6042d",
+        "videoSHA256": "cfd22d32ec8746ade6963686b55db171bef24266ab91a5635f4e618e02f6cd79",
         "poster": "0387-female-poster.png",
-        "posterSHA256": "550aaca7ac9531459de84426129b4e096b1aead9cced8fabe413065e00af215e"
+        "posterSHA256": "a395aedd3c662bd500981cd15c442651805d4b31f83c67e1d1bfdcf05bce6692"
       }
     }
   },
@@ -157,15 +157,15 @@
     "variants": {
       "male": {
         "video": "0429-male.mp4",
-        "videoSHA256": "fd230dc5b06b1ab0da353c01eb59491aa8116405bcf3876d1c609e30361a3e23",
+        "videoSHA256": "4fc3e35ec2406249258dc1266c59cb3247f9c71b04124b41be737e5a43da5d1c",
         "poster": "0429-male-poster.png",
-        "posterSHA256": "992a0db10556d12fdc27844926b0590fd8c32077348277ffa75ba7e80990f51f"
+        "posterSHA256": "c31d2827659dbcf856bfdf799a8f7316c219c0d7f46e33702fc3dcdb17e25ef3"
       },
       "female": {
         "video": "0429-female.mp4",
-        "videoSHA256": "7db98a76ff7ff9edf545090b6f24a80223851c37f2ed5142267fd2ac7ac513a7",
+        "videoSHA256": "2f40ab8c0b47605653df7c0b152111d7c4af770dc486dfd33f33a2dce69d2e7c",
         "poster": "0429-female-poster.png",
-        "posterSHA256": "b77905d7cab823eabe7886d3f360bbcad32110306bc111da4e6855d25ffd1073"
+        "posterSHA256": "8b9dcc7f84ce74aabbeecbb22a73ef90b9b6d36172478726ed7808b2b8274216"
       }
     }
   },
@@ -191,15 +191,15 @@
     "variants": {
       "male": {
         "video": "0335-male.mp4",
-        "videoSHA256": "4fc54385ef0c8dd396e88afa5230310e62759ab6ab8bdde4945d2583673d8dc8",
+        "videoSHA256": "048470552d02b1eb603ea7db8289f7340a13f3a0872425b17a784a28d93ee86a",
         "poster": "0335-male-poster.png",
-        "posterSHA256": "ada052155db144b32b04d82a096e7e28580caf8f9aabc4f349ffad7fee48590d"
+        "posterSHA256": "0b2c98ce37b88af57453a2e4ef2fc898a73658f960d7419753b8ae33cbe0e961"
       },
       "female": {
         "video": "0335-female.mp4",
-        "videoSHA256": "51b8432cfe4b9f485c339c2638c2dc18618bbd4cd7f51fe27e14d5efae85ebac",
+        "videoSHA256": "c0368e5263ff4a455b8712e1316f9e7ecdb23dc8a5bff073db094c366a15a08a",
         "poster": "0335-female-poster.png",
-        "posterSHA256": "b5cfde4baa51903004be1ff06cb1a9819905a68edffee263a08294e6c4bf2b40"
+        "posterSHA256": "87c0b58096ab55e083507c846344b34842478e3def913f76987f3e8d6ac3d788"
       }
     }
   },
@@ -378,15 +378,15 @@
     "variants": {
       "male": {
         "video": "0298-male.mp4",
-        "videoSHA256": "0060cd8325068f180cda508c7f01a9ff62e06bf9efac8b8992debdcc4bf2ec92",
+        "videoSHA256": "120ba3a53f4b81f41eab07d221812fb7b4f7669b8f5e5c37bb7f5dd0aff6110c",
         "poster": "0298-male-poster.png",
-        "posterSHA256": "bc7eeba52a2252e70cca1572c1471125a71e26ef3278779a0ca4677876aa6bea"
+        "posterSHA256": "f59d6001254a7992b48ec4ecaf908634103e943ee0b868ee8713558c196aa99f"
       },
       "female": {
         "video": "0298-female.mp4",
-        "videoSHA256": "c7c35a7a85270af553ce06e5b8aea0e2570872627d195c52340b1ec8015f35bc",
+        "videoSHA256": "da9e8adcf754918d21d72c975135df33213fd30f70db0a4ed653cf4c956717fb",
         "poster": "0298-female-poster.png",
-        "posterSHA256": "dd5cd77ddc6151c115d70dc1555880b41f10b81a431ea2bacb2258fd9d854620"
+        "posterSHA256": "fba0811c252985af045acbf9c64c717407a898238d450cbe87a44c432169ef23"
       }
     }
   },
@@ -395,15 +395,15 @@
     "variants": {
       "male": {
         "video": "0439-male.mp4",
-        "videoSHA256": "fc4d98ddedb54bee405e0cb9e69a4176bfcf6460af7bf111371c3a8d55ee5b4f",
+        "videoSHA256": "f135588d4d9a4e99e40c8c645e2a25cf03e229ccb79c3680f1c5a96bf67da47d",
         "poster": "0439-male-poster.png",
-        "posterSHA256": "d2ddf6f417050f07f7c2bc51bc14c67c1b0a8bc6239dbfad8a7f0ef25ca30461"
+        "posterSHA256": "799f187a20eeea4b4f3d7547aff67ad0c3564dedc0996ce80e0a44e4c3caad6f"
       },
       "female": {
         "video": "0439-female.mp4",
-        "videoSHA256": "f0549d44d2e87897378a6a0f40bc925f762dba5ef325f9c7cae7004b912df1db",
+        "videoSHA256": "20a70f9b5d3d0f1eb0603e78c5fe7a4f03b3e247357ace5f78bb7a16f88e1e82",
         "poster": "0439-female-poster.png",
-        "posterSHA256": "7f2381386fedcc82c5e17bcf8dbf2864f058f3e892e0c2f34e68e9260c7f5cbc"
+        "posterSHA256": "d1fd636826ec17ecaea76c5aef0f99ff6030ebfde27dc63ee908a1ede7b0dd1e"
       }
     }
   },
@@ -480,15 +480,15 @@
     "variants": {
       "male": {
         "video": "1670-male.mp4",
-        "videoSHA256": "3136f794133ae84318e1cb30d91398faded421770546121c78e52c00830fdf97",
+        "videoSHA256": "d83b7986fbca330ac1154dc4d0004d3a4557b5967383d264ac4b43ff28954713",
         "poster": "1670-male-poster.png",
-        "posterSHA256": "f65ca768e467399773828f1e4c1790408ab25dfce71f8195a79d31c00cd6f001"
+        "posterSHA256": "46dec1efa0ebad7df9ab8b9889247ff92fba062e41a470f2cace46b48df675cb"
       },
       "female": {
         "video": "1670-female.mp4",
-        "videoSHA256": "e1c8ed4cd8e6843d951b592ab530cdfbe8ece4461c32e83c67385b018da4fc73",
+        "videoSHA256": "3ac819bc24a0c69ad6df7eb45c0336ff5f630e977f390350c6dd8ab6751b0a47",
         "poster": "1670-female-poster.png",
-        "posterSHA256": "7f7129d8f9a499f80c248d8bd65ca0a088f291a943bf283d22250d372832805d"
+        "posterSHA256": "8d7f2eb2245fb2609c604dac38cb9524022c238c7ac07bc65a4e3aa1569ba6cf"
       }
     }
   },
@@ -514,15 +514,15 @@
     "variants": {
       "male": {
         "video": "0425-male.mp4",
-        "videoSHA256": "5921b37b4d7c7a17deda43b518f49e8dffa2adfe5b38593a026dba380a4f1c53",
+        "videoSHA256": "299e5d53e53e6d0ee10d1641f66c1ae5a60949e5af747dce45e0687a37d5c002",
         "poster": "0425-male-poster.png",
-        "posterSHA256": "21d48ce29bd6177582b87bc66830af604f2b90d69abb27fb7d673a190d6d0e1d"
+        "posterSHA256": "3ceb6618193980022325433f443dc907197b02fddf8506a1ac31a3151c3ac6e5"
       },
       "female": {
         "video": "0425-female.mp4",
-        "videoSHA256": "cbbcc856790025675325182623d3d8f01b11b0c720f5fd8beab99b9a228552c4",
+        "videoSHA256": "3ffe8eeb254aeca9d692a5dc073f8d93a3b4dda599c93e8dcfb7bab464f08cfe",
         "poster": "0425-female-poster.png",
-        "posterSHA256": "e833baa455752800191d1a05ad258a4b2f09d8d944cca7cf260a3b96f93cb0bb"
+        "posterSHA256": "8cfa1d1f04a2ed334a3c01a4760d3f1a1e113d98f4602dbdad27503376e53181"
       }
     }
   },
@@ -611,6 +611,210 @@
       }
     }
   },
+  "0333": {
+    "title": "站姿双臂俯身臂屈伸",
+    "variants": {
+      "male": {
+        "video": "0333-male.mp4",
+        "videoSHA256": "50babd0b3961893b7db79659cafc4c3a9d02e0f41acc5c62a07b6d9d365062a4",
+        "poster": "0333-male-poster.png",
+        "posterSHA256": "7077f9e216489ef2c04bbc836a3eb75cf371611ec1f7b64408d9fa2f44da9236"
+      },
+      "female": {
+        "video": "0333-female.mp4",
+        "videoSHA256": "87814204b4f8196ccf39877c90dc905bd91c8c37a0aec16fd0bebe04af206df1",
+        "poster": "0333-female-poster.png",
+        "posterSHA256": "35e468f05ad844ec464ba3575bd4ed3a02f3c2e4de03b70aaf84125b2f79b97c"
+      }
+    }
+  },
+  "0354": {
+    "title": "站姿单臂俯身臂屈伸",
+    "variants": {
+      "male": {
+        "video": "0354-male.mp4",
+        "videoSHA256": "668d24ebef4f42d40d55d5098060eeeefc623599c472c03162faf9a34c67bde1",
+        "poster": "0354-male-poster.png",
+        "posterSHA256": "c666b21983eac52a803efd7b03a3ba2ae5b29ab963559dc7abd767981c2d0833"
+      },
+      "female": {
+        "video": "0354-female.mp4",
+        "videoSHA256": "1207deb78ad12b583b802f93bafb3906056b58d99ce6d5a86dc5e1618b046453",
+        "poster": "0354-female-poster.png",
+        "posterSHA256": "21e69f139d760e31aa380130510794ea0a00488f9c66e5354634dafd20cfe9dd"
+      }
+    }
+  },
+  "0394": {
+    "title": "坐姿双臂俯身臂屈伸",
+    "variants": {
+      "male": {
+        "video": "0394-male.mp4",
+        "videoSHA256": "c818b93f22de184cbd432b1ebeea7a0273e33fa37c18a50df4a8d2116a77dce7",
+        "poster": "0394-male-poster.png",
+        "posterSHA256": "c15e48a2496c9eb9d3e76a3dfbe0e140be18819aa7fe118ac922cd3f03b68beb"
+      },
+      "female": {
+        "video": "0394-female.mp4",
+        "videoSHA256": "9aabc07a12aff98cfd49e37660f633ce69d1b50f527a485012a9751d9dbd34dc",
+        "poster": "0394-female-poster.png",
+        "posterSHA256": "497cee85125f751fc65859e2278f58ad04b17f992e317b29e8971e25d6d88b4b"
+      }
+    }
+  },
+  "0398": {
+    "title": "坐姿单臂俯身臂屈伸",
+    "variants": {
+      "male": {
+        "video": "0398-male.mp4",
+        "videoSHA256": "557fd62889f31609234f2fe2744e62f7210ff566bc4301164e296c048b82a3cb",
+        "poster": "0398-male-poster.png",
+        "posterSHA256": "c86fd4d6f2cac2ef7d30611b5d69f7b3c267748b60e53b79cd4d50fb29b3cafb"
+      },
+      "female": {
+        "video": "0398-female.mp4",
+        "videoSHA256": "5573a5b959ea6119ef11f521357b964ec1654fccb2b21402078236bd96a1e63f",
+        "poster": "0398-female-poster.png",
+        "posterSHA256": "7040ec1dc56aeb6610e00dfb6a998826bd8d97d019644ce92514664032a533a5"
+      }
+    }
+  },
+  "2317": {
+    "title": "坐姿屈臂侧平举",
+    "variants": {
+      "male": {
+        "video": "2317-male.mp4",
+        "videoSHA256": "9c64a4b476d4537aa42ec40a2d1eee8e6a6c132868a4a7867438c83347c385a0",
+        "poster": "2317-male-poster.png",
+        "posterSHA256": "ffe4ac6bb7865d900c7010661d15ecdc6178efabbebb97f292e3110f6908786c"
+      },
+      "female": {
+        "video": "2317-female.mp4",
+        "videoSHA256": "321fed49f8f03809a81ba552885ccf0ff8d964dc2af4d772cd85fe7d7fdb1758",
+        "poster": "2317-female-poster.png",
+        "posterSHA256": "24d845bf8e8ee2736508117dac180d168a1381089d762700f745d38da275b90c"
+      }
+    }
+  },
+  "0419": {
+    "title": "站姿哑铃过顶前平举",
+    "variants": {
+      "male": {
+        "video": "0419-male.mp4",
+        "videoSHA256": "aa3d05343a79f6707a9a83f8942989b8eb9c293e9b350ec4e34d257bed6452f7",
+        "poster": "0419-male-poster.png",
+        "posterSHA256": "55e7c0247190a317621b12cf6717163992c1f426ce1b65e2fe252f0d9137cb5e"
+      },
+      "female": {
+        "video": "0419-female.mp4",
+        "videoSHA256": "780639fdc92e7c1002108977fb8258371d7700cf07dfcfd8a2f5f903bcaefc22",
+        "poster": "0419-female-poster.png",
+        "posterSHA256": "b84e628e5db74918c9294016a9bde25333328391f1a897ff272ea2381c0c275a"
+      }
+    }
+  },
+  "0437": {
+    "title": "双臂哑铃直立划船",
+    "variants": {
+      "male": {
+        "video": "0437-male.mp4",
+        "videoSHA256": "52bf82602226530705279a5f02465a5420dbfb007cccac3448819f573c6db52d",
+        "poster": "0437-male-poster.png",
+        "posterSHA256": "6b5679392fb1fc4f4de4cea203619d35ee172e144d29ef82bc08daecd1d8b84d"
+      },
+      "female": {
+        "video": "0437-female.mp4",
+        "videoSHA256": "9bb7fd4a8f93eccfb5b49d611a940dcebe4fd0b80371efacd559679dd2bb3236",
+        "poster": "0437-female-poster.png",
+        "posterSHA256": "3e194c55486a4399d41bca03b8114f09f64233c0d12851ce402a3dab28461eed"
+      }
+    }
+  },
+  "0363": {
+    "title": "单臂哑铃直立划船",
+    "variants": {
+      "male": {
+        "video": "0363-male.mp4",
+        "videoSHA256": "1ac58956e8ff3dd0eec26bece494b93b27ded8f5a6ffe3304a7076f9345becb9",
+        "poster": "0363-male-poster.png",
+        "posterSHA256": "9bbef675076110dc2c5ae09b9bc8fd547fb966e7fe5f0d258ae9cdcfbdacf386"
+      },
+      "female": {
+        "video": "0363-female.mp4",
+        "videoSHA256": "41216dd0df7da0f3fb3da6d14e601b3670fb4af5bf7ae85205a34b07a4f2b8e3",
+        "poster": "0363-female-poster.png",
+        "posterSHA256": "31623df19ad8d3e0ce5d1f4dac5383babc7e77e4d483fb49dfdb409fbc60d6e9"
+      }
+    }
+  },
+  "1669": {
+    "title": "坐姿单臂锤式弯举",
+    "variants": {
+      "male": {
+        "video": "1669-male.mp4",
+        "videoSHA256": "ceb62970aacc74bdf3281e4c17da0257341d03610cd87f19b58f558128fbf16b",
+        "poster": "1669-male-poster.png",
+        "posterSHA256": "0b988a328873bc8de10b1e8364e21d8f97c0cc38df950ce21e8023d1846a71ae"
+      },
+      "female": {
+        "video": "1669-female.mp4",
+        "videoSHA256": "7b5992df67fed3f619a62cbac5913548f6f24209dcbf0c6383c68d8f285dde24",
+        "poster": "1669-female-poster.png",
+        "posterSHA256": "e65407c3e4c0d7a7fd008604992e76f4a85f489d115eb8a41f8f4fff9b4c9d2c"
+      }
+    }
+  },
+  "1739": {
+    "title": "站姿交替哑铃臂屈伸",
+    "variants": {
+      "male": {
+        "video": "1739-male.mp4",
+        "videoSHA256": "2897ae4f6698205a53f4212221dbeff3495fb277efb19531518480e224102451",
+        "poster": "1739-male-poster.png",
+        "posterSHA256": "95d9d561d424fb5912cb82959426fb490f4cda626fc7dfbe1bc7aeea7620d9c5"
+      },
+      "female": {
+        "video": "1739-female.mp4",
+        "videoSHA256": "9b83927e4526ea5471d51d61225672a6db47da42d67944e7131862e7c6f7498a",
+        "poster": "1739-female-poster.png",
+        "posterSHA256": "e5a10bbb5fa0176882d51a801d260f9dc8d3e87a7cd4cd0da01700e1c46ee001"
+      }
+    }
+  },
+  "0416": {
+    "title": "站姿双臂哑铃弯举",
+    "variants": {
+      "male": {
+        "video": "0416-male.mp4",
+        "videoSHA256": "228ba08ab811bb7bae76b8064fe7ed5039ec636bccfdc386dd9700715e12bf0d",
+        "poster": "0416-male-poster.png",
+        "posterSHA256": "a6f2e746968e2d4e5e921cff029c804652a0b270a4e797e78fdba3c1c64ff5a8"
+      },
+      "female": {
+        "video": "0416-female.mp4",
+        "videoSHA256": "358d3d32a766e2ee5e5e46102ddf31561872446d207cf8374e0fbd971e651ed8",
+        "poster": "0416-female-poster.png",
+        "posterSHA256": "19353ae264b1a601e8b2e70f5f1657cea763972eab451ae63f33f2f32f52295a"
+      }
+    }
+  },
+  "0382": {
+    "title": "双臂反握哑铃弯举",
+    "variants": {
+      "male": {
+        "video": "0382-male.mp4",
+        "videoSHA256": "4290f6c78eba6b620c52078575c1b7e68e72a27287e5e6cb8e12da107a2c09a8",
+        "poster": "0382-male-poster.png",
+        "posterSHA256": "d4335cc790ce2cec2c99b6f9e3af7723fd1aa4fca0b923d2dc7ee97fcd8d2ee0"
+      },
+      "female": {
+        "video": "0382-female.mp4",
+        "videoSHA256": "935c2e1a992e29c942828e9afb40992dc5d8930d4073663a8993693ffd68cee3",
+        "poster": "0382-female-poster.png",
+        "posterSHA256": "b725787ec7c496491d57ebb4e74d33dda5ceb178cb4c424c24de29ca4551530a"
+      }
+    }
+  },
   "0043": {
     "title": "杠铃深蹲",
     "variants": {
@@ -650,15 +854,15 @@
     "variants": {
       "male": {
         "video": "0861-male.mp4",
-        "videoSHA256": "c00ab2f040c934bd5eacacec6d71b382fd035954076ae65eba28adfe4b775474",
+        "videoSHA256": "7effb4c5c99cf2b2e28acf46c283ad57e719c9f92c993eec1d558af5cf553107",
         "poster": "0861-male-poster.png",
-        "posterSHA256": "7069068328bdd221036183640e50f0d2eac8961653ea1b647c599462ee523a7e"
+        "posterSHA256": "543e48dbfe51625feed0a588e8d79921c9e7dfd7effcf222606aec792fbd2833"
       },
       "female": {
         "video": "0861-female.mp4",
-        "videoSHA256": "37b184dfe25e2c16f0ddead78a1476146224cb57ea790b25ad2b528c21106cd4",
+        "videoSHA256": "21937044438c1ad33d389bd564390991c7f41408f629f6d74a5253ddbb444c75",
         "poster": "0861-female-poster.png",
-        "posterSHA256": "97668976eadeb6bc2f7a4cc8e57615574ce9c5d34744a6ed25dc0c6e66f1fc67"
+        "posterSHA256": "979fe67fa53a209ba63cb80949ec718a9d265bd9d9106ffa84f6e6a7cc1dd544"
       }
     }
   },
@@ -701,15 +905,15 @@
     "variants": {
       "male": {
         "video": "0200-male.mp4",
-        "videoSHA256": "eaa1bc4cb5464efe288852c0b6810dcbc147a61aade8db1c4db0f7f34efd0026",
+        "videoSHA256": "883a4f9ee14297a1ddac217508b1d56c74ff64d671c1a6490187650edba01917",
         "poster": "0200-male-poster.png",
-        "posterSHA256": "46c1a9763e8dfa55111b4d0f4156e00495f06443d8729d7a3118aef495ea0004"
+        "posterSHA256": "f2031d6208d398a65ad5aa5a266998be7d7685135b942bf18b0979001d72a8e9"
       },
       "female": {
         "video": "0200-female.mp4",
-        "videoSHA256": "972b4f12c03f7741d7b2762a234350a40c97e8050ca11535fb8a9ab9d41f601f",
+        "videoSHA256": "06d484dcf2864e3d8772a90a2b877e59492abc96869486107109cfe831314ec8",
         "poster": "0200-female-poster.png",
-        "posterSHA256": "f29fd2287fa201967c0b3165828e6612b5aa048265fd32b92645ba828f345ff3"
+        "posterSHA256": "c238127c374eba1ada6e504333d4ef3e657edc72f72578799029413fa39bb8ee"
       }
     }
   },
@@ -718,15 +922,15 @@
     "variants": {
       "male": {
         "video": "0175-male.mp4",
-        "videoSHA256": "1713127d704727ed377e3a654ed31d87e174441855429c43c87a951a69a7696e",
+        "videoSHA256": "ce46ec782912ce6e89fbed45241edd6a9504023df439d91c5ef24d2c8daae122",
         "poster": "0175-male-poster.png",
-        "posterSHA256": "8ebbafffd9789f8f1ff9fa287d712911768acf5d3683d8435ebf6a1f1389f317"
+        "posterSHA256": "48e24ac451df419edbc271d37b86a96a2583bb0e324fd9a7f83cf4791d56401d"
       },
       "female": {
         "video": "0175-female.mp4",
-        "videoSHA256": "1be490fc9156ffb7dd3c4e4e1c7b2d9cbb226ad2a966d49e52e9671a72eaa4b0",
+        "videoSHA256": "b69f402a2fc44806e2c9abd219f6becfabdc62dd3437a37d8aa6bcb92270f17e",
         "poster": "0175-female-poster.png",
-        "posterSHA256": "c0e6bfe9d88e82b0fb310ddb2aa8cb60357d6650a23a1d7eb96897dd83b05baa"
+        "posterSHA256": "c5b2beb374cdc01dc1901945ae22190427ed9676dcc018a2b5ac56c5ba16cbca"
       }
     }
   },
@@ -735,15 +939,15 @@
     "variants": {
       "male": {
         "video": "2330-male.mp4",
-        "videoSHA256": "bcbe8f397abd69a2665a673d3aff0ad563d1f76eada49191af3c21af2284229c",
+        "videoSHA256": "70ea339241d0fa1c64fb54dada59e02eb990312b74f4f2782efffcf30cde2c15",
         "poster": "2330-male-poster.png",
-        "posterSHA256": "347c032e76e6282d49d93a19addd490e03aa4f6213ba2ff8e861c204776465c6"
+        "posterSHA256": "52479a5b897aa1989d0d2fe680bb0622253a0f254d92a8c260f15328502bffed"
       },
       "female": {
         "video": "2330-female.mp4",
-        "videoSHA256": "0779fec0439417f5fbcc0dab53a34e69c830a3be97712cfbf3fb3f4a549ea3ea",
+        "videoSHA256": "3a606b5ecd3e4cc638904f145d3b704be5c57e0796480967fc675db85c2fd356",
         "poster": "2330-female-poster.png",
-        "posterSHA256": "f99e8487a506430c050a34af8366e567ad869b1824831274411471fcdbf9c515"
+        "posterSHA256": "60d51663ce5c2238a24ddf5ba47f500f402066faba25f43704e1230d92e1e04c"
       }
     }
   },
@@ -752,15 +956,15 @@
     "variants": {
       "male": {
         "video": "0238-male.mp4",
-        "videoSHA256": "a9e0741c4f8e25b1ca36cb7e81fc2d75328b6d3a8e63d7cc1413550c20305cd1",
+        "videoSHA256": "2ab92c7d330d065ab642f43b953c583c26acf44172e0110e5035ea3e9b9c3c87",
         "poster": "0238-male-poster.png",
-        "posterSHA256": "76065e8e4ac578cea6ec8a634022dff3c9db6691d4eaabe42fc7c485c1947ac5"
+        "posterSHA256": "a82b8fbad03e41e83e1dc37fab401f7356c47d73d060d0d2b8a2e2f665632e40"
       },
       "female": {
         "video": "0238-female.mp4",
-        "videoSHA256": "2bd360e3d545b9e86bc6823d100f4271f367b80718c65e68ae783cfe2ee1ba29",
+        "videoSHA256": "3d97e9c18877b0e419d8ce9e46ccee77da08821169722d117212f7418f4acd3a",
         "poster": "0238-female-poster.png",
-        "posterSHA256": "3a859582de2affba1f685b2d256e6cbfbc6270b1726dac43c610584c60935f94"
+        "posterSHA256": "48ab090db57d1b86ffd30ed0eab90187bfb60f6e7381cca9dc77780423f63630"
       }
     }
   },
@@ -769,15 +973,15 @@
     "variants": {
       "male": {
         "video": "0294-male.mp4",
-        "videoSHA256": "a00e3cd2865d2c1feb3441e899d160991464802a08feaebea762bce80be42a39",
+        "videoSHA256": "61725a54d6d84102dada3a29ce5c2cfcc5dd23bd25bfb756215e4cfbc2af1d1f",
         "poster": "0294-male-poster.png",
-        "posterSHA256": "1c3183cc659d903d1f673a5d9000bb1f30dc56a3cf6b7302bdb2e14ac014005a"
+        "posterSHA256": "8f4eb82e168bb7db291043e51ecdd9034be0677a99ea57ad42e242932bfcb323"
       },
       "female": {
         "video": "0294-female.mp4",
-        "videoSHA256": "0bbfb65fca88fdbe4fdb953688f39a1c394a6236839ddfd63099008ee02f8ecb",
+        "videoSHA256": "230022de6f3f62f00a2d1e9288a043d679acdecb47b39aaa0033cc0528ab6af5",
         "poster": "0294-female-poster.png",
-        "posterSHA256": "6bc142cbdea277cb5d711403682fb6e9adc37a81b101d7ba929d676de2bfdb27"
+        "posterSHA256": "039d8d5707cfda2e1b833ed34273aafeebcaf5b910c70fc195a8d96bc2e07a7a"
       }
     }
   },
@@ -786,15 +990,15 @@
     "variants": {
       "male": {
         "video": "0739-male.mp4",
-        "videoSHA256": "eb33bf10cdb6981be48231d53a72b040fe905b4f036b9ac621478937d195f8e7",
+        "videoSHA256": "9f4fc6219009b921b720bbb5c3de6d47de0dee8207d6a57c6ec425f5df1666f4",
         "poster": "0739-male-poster.png",
-        "posterSHA256": "01aeed284e583033e57dd2ae910c31e5cf3b0539d3b5f3156cc7d0daabbbaaee"
+        "posterSHA256": "f39b1e023d549ed4ca0e76eeb8438dfdc63d3e0f7af7dc11ed711aaf47fb8727"
       },
       "female": {
         "video": "0739-female.mp4",
-        "videoSHA256": "47021e84e48635914789138bff5fadf1b454b7940fb04056705111ba845a5a6a",
+        "videoSHA256": "d32bbc9ce3dffcab8139e6a4594a2a9a9853ead91f6f0e65eed8794fad321ca7",
         "poster": "0739-female-poster.png",
-        "posterSHA256": "dd04f13a27ba1b9845ed4499cbcf74fe026bdd93e4762e3b9902112ef6c38fba"
+        "posterSHA256": "bae8565565467b804353a17f8868a235f900f5121a72b665eee1c7920c7577e5"
       }
     }
   },
@@ -803,15 +1007,15 @@
     "variants": {
       "male": {
         "video": "0085-male.mp4",
-        "videoSHA256": "dd721805bc73ec625723af3bf36f2e6292036c432476c09e61245f4ba30e3cc6",
+        "videoSHA256": "9980850aa99edf94b9fb0b329e46f34fb8f03e7c98334b76b651bfc37a5199b7",
         "poster": "0085-male-poster.png",
-        "posterSHA256": "6bbc961e407c341d0241183c57689d2ebfa53a23a0fafa3ded35ca66bbbc059b"
+        "posterSHA256": "f7bfc31e804f4a393ad5834a4594efacd8ae20ec4fa37a948ac3e007b607d899"
       },
       "female": {
         "video": "0085-female.mp4",
-        "videoSHA256": "be8dc1635a814de40c3091ced8a502e04fa5375254524351a54a8c894b5526c3",
+        "videoSHA256": "b42dcf3be3d7ed20043375db7df5a3310d04242c97f0e782b309d9cbed45ac0b",
         "poster": "0085-female-poster.png",
-        "posterSHA256": "cebabef8a2a009d02eb9cb535b4624d2780e584a29f8b7f216404ca1cd3eb397"
+        "posterSHA256": "72df52a28819d942b29f86b7770a6a393f094cee9fd276735694ab74f001917d"
       }
     }
   },
@@ -951,173 +1155,37 @@
       }
     }
   },
-  "0333": {
-    "title": "站姿双臂俯身臂屈伸",
+  "0391": {
+    "title": "坐姿双臂哑铃弯举",
     "variants": {
       "male": {
-        "video": "0333-male.mp4",
-        "videoSHA256": "ddf8f2b3708f6cb0224ebdf854f182260fad87de2d5b763ba1d4d228623af6e4",
-        "poster": "0333-male-poster.png",
-        "posterSHA256": "d1a3ab81475d3eed8f42dc777ff073c31c4ed136d3acf672a907ceeae88cf839"
+        "video": "0391-male.mp4",
+        "videoSHA256": "26b7ba7f85dffa82bf455df9b43fe55507018ce5b4c396f13a222f994facc85f",
+        "poster": "0391-male-poster.png",
+        "posterSHA256": "92cc24ef2ec3b1304ce5a0e0c03a4f74e98b8f364931ccd5d81ab9803aa5c37b"
       },
       "female": {
-        "video": "0333-female.mp4",
-        "videoSHA256": "4d7c6992efb6d2e616bdee201926c7d3a0907794a09f1eb7b968727307cdb8c0",
-        "poster": "0333-female-poster.png",
-        "posterSHA256": "8d5f2c026f9b4a669cf7c4cca16d54cdfe6a18ac9d02b4c4fe961f6b346084b4"
+        "video": "0391-female.mp4",
+        "videoSHA256": "1cfddc78f7c78e651dcc52c3f9162968ac92966bda32a12ed891af330aec7b42",
+        "poster": "0391-female-poster.png",
+        "posterSHA256": "c4ec571f91474d2f109beaf520d1eb2ef7c49ec825e858a3b9c31de91616af55"
       }
     }
   },
-  "0354": {
-    "title": "站姿单臂俯身臂屈伸",
+  "0297": {
+    "title": "坐姿哑铃集中弯举",
     "variants": {
       "male": {
-        "video": "0354-male.mp4",
-        "videoSHA256": "108c0fecd4c153139c59eb8b180940fccee2df5505c0854bf8bf1d2b7ce62882",
-        "poster": "0354-male-poster.png",
-        "posterSHA256": "4f3f6f053b8357327703bde49f3335df758245088c9441b718d30ac1113e9cf8"
+        "video": "0297-male.mp4",
+        "videoSHA256": "9136fe3d95228fe37694b23a80587cf2e7bb7566aaf6eb790f3dc82c10f70860",
+        "poster": "0297-male-poster.png",
+        "posterSHA256": "37c73e5ae30fb6cfc9ce2c102d0b72896088ad099ad8722f2a7d66063c24e004"
       },
       "female": {
-        "video": "0354-female.mp4",
-        "videoSHA256": "6cffb2d03b453d30aa9df8cc26a2ead086f2cf07fd98eb2667c786fcb7a69506",
-        "poster": "0354-female-poster.png",
-        "posterSHA256": "21810b0432872eed6a00ded59ffbd3f74001181da51ed1941b4134bb7d2a9bf7"
-      }
-    }
-  },
-  "0394": {
-    "title": "坐姿双臂俯身臂屈伸",
-    "variants": {
-      "male": {
-        "video": "0394-male.mp4",
-        "videoSHA256": "34a8263e20481aa69e85eca3a5907131d8a9d12c7898c401c15f417bf954fc5f",
-        "poster": "0394-male-poster.png",
-        "posterSHA256": "00c7d94faa9f0bd93990256448c9e4ee4898a41323db5a31a657a556b265b008"
-      },
-      "female": {
-        "video": "0394-female.mp4",
-        "videoSHA256": "68d73c57e6b99d2f2070ab7cfd6d82183ae737e6700e06fc161b3d02ccf22508",
-        "poster": "0394-female-poster.png",
-        "posterSHA256": "8fc2299bd6e95df4cbf5d5bf90036d9a4be42966bfdb5036978dfdb618fe8c42"
-      }
-    }
-  },
-  "0398": {
-    "title": "坐姿单臂俯身臂屈伸",
-    "variants": {
-      "male": {
-        "video": "0398-male.mp4",
-        "videoSHA256": "3e1d7475e726b8ca2bde885f85f22dad6de91cdb5fb0a2e9b651ea6f0ab2756e",
-        "poster": "0398-male-poster.png",
-        "posterSHA256": "682a8fcbd15151606e5b433981044496d1dd37851fe0d0e465e01e4523ac4c38"
-      },
-      "female": {
-        "video": "0398-female.mp4",
-        "videoSHA256": "f42c970d002582dbfead9cbf04cc7ab30c3537484156bf5b0b06910a333cf2aa",
-        "poster": "0398-female-poster.png",
-        "posterSHA256": "05249b595c041d75115213e46678bc50731081754a78709b41456b3c89862fba"
-      }
-    }
-  },
-  "2317": {
-    "title": "坐姿屈臂侧平举",
-    "variants": {
-      "male": {
-        "video": "2317-male.mp4",
-        "videoSHA256": "03998761dfb2c1afeefd53f9c48103d5c5ba0cf7d6d0d2527e6158db6262bf82",
-        "poster": "2317-male-poster.png",
-        "posterSHA256": "54e073e1fa6df33d405971ea5fc42f0092f6df7c98b44c37a2856601d3af626d"
-      },
-      "female": {
-        "video": "2317-female.mp4",
-        "videoSHA256": "c7eeaa8eb3c7c3174f44c6bfe0a8af72236f8ae82d1c9848604400a735e93c2e",
-        "poster": "2317-female-poster.png",
-        "posterSHA256": "9fabbc434c96e271147ea602a040f34cc438b1f61027562994a6d00787dc5b2e"
-      }
-    }
-  },
-  "0419": {
-    "title": "站姿哑铃过顶前平举",
-    "variants": {
-      "male": {
-        "video": "0419-male.mp4",
-        "videoSHA256": "2924551e10e0c9779e5cf8d5e0a96a182f89965825c287bbd0ea0d2c6a802627",
-        "poster": "0419-male-poster.png",
-        "posterSHA256": "44c8bbb0ea7759188c3161245403048525ecc2371b0253fd4f346501131195a9"
-      },
-      "female": {
-        "video": "0419-female.mp4",
-        "videoSHA256": "88c823f450df90eac761a41bf16df1dda19292cb9cb617096e7fa53ce4e60cd2",
-        "poster": "0419-female-poster.png",
-        "posterSHA256": "101c19778cf28d9544c85054c217b352a5dbfbee43572a0e1c013105933cb93f"
-      }
-    }
-  },
-  "0437": {
-    "title": "双臂哑铃直立划船",
-    "variants": {
-      "male": {
-        "video": "0437-male.mp4",
-        "videoSHA256": "52bf82602226530705279a5f02465a5420dbfb007cccac3448819f573c6db52d",
-        "poster": "0437-male-poster.png",
-        "posterSHA256": "6b5679392fb1fc4f4de4cea203619d35ee172e144d29ef82bc08daecd1d8b84d"
-      },
-      "female": {
-        "video": "0437-female.mp4",
-        "videoSHA256": "9bb7fd4a8f93eccfb5b49d611a940dcebe4fd0b80371efacd559679dd2bb3236",
-        "poster": "0437-female-poster.png",
-        "posterSHA256": "3e194c55486a4399d41bca03b8114f09f64233c0d12851ce402a3dab28461eed"
-      }
-    }
-  },
-  "0363": {
-    "title": "单臂哑铃直立划船",
-    "variants": {
-      "male": {
-        "video": "0363-male.mp4",
-        "videoSHA256": "1ac58956e8ff3dd0eec26bece494b93b27ded8f5a6ffe3304a7076f9345becb9",
-        "poster": "0363-male-poster.png",
-        "posterSHA256": "9bbef675076110dc2c5ae09b9bc8fd547fb966e7fe5f0d258ae9cdcfbdacf386"
-      },
-      "female": {
-        "video": "0363-female.mp4",
-        "videoSHA256": "41216dd0df7da0f3fb3da6d14e601b3670fb4af5bf7ae85205a34b07a4f2b8e3",
-        "poster": "0363-female-poster.png",
-        "posterSHA256": "31623df19ad8d3e0ce5d1f4dac5383babc7e77e4d483fb49dfdb409fbc60d6e9"
-      }
-    }
-  },
-  "1669": {
-    "title": "坐姿单臂锤式弯举",
-    "variants": {
-      "male": {
-        "video": "1669-male.mp4",
-        "videoSHA256": "ceb62970aacc74bdf3281e4c17da0257341d03610cd87f19b58f558128fbf16b",
-        "poster": "1669-male-poster.png",
-        "posterSHA256": "0b988a328873bc8de10b1e8364e21d8f97c0cc38df950ce21e8023d1846a71ae"
-      },
-      "female": {
-        "video": "1669-female.mp4",
-        "videoSHA256": "7b5992df67fed3f619a62cbac5913548f6f24209dcbf0c6383c68d8f285dde24",
-        "poster": "1669-female-poster.png",
-        "posterSHA256": "e65407c3e4c0d7a7fd008604992e76f4a85f489d115eb8a41f8f4fff9b4c9d2c"
-      }
-    }
-  },
-  "1739": {
-    "title": "站姿交替哑铃臂屈伸",
-    "variants": {
-      "male": {
-        "video": "1739-male.mp4",
-        "videoSHA256": "2897ae4f6698205a53f4212221dbeff3495fb277efb19531518480e224102451",
-        "poster": "1739-male-poster.png",
-        "posterSHA256": "95d9d561d424fb5912cb82959426fb490f4cda626fc7dfbe1bc7aeea7620d9c5"
-      },
-      "female": {
-        "video": "1739-female.mp4",
-        "videoSHA256": "9b83927e4526ea5471d51d61225672a6db47da42d67944e7131862e7c6f7498a",
-        "poster": "1739-female-poster.png",
-        "posterSHA256": "e5a10bbb5fa0176882d51a801d260f9dc8d3e87a7cd4cd0da01700e1c46ee001"
+        "video": "0297-female.mp4",
+        "videoSHA256": "93bb93fcd9432bbab683c1d74ec94bf095c2cd3d0d823696cd2fc6937fc600e9",
+        "poster": "0297-female-poster.png",
+        "posterSHA256": "049155d84a6d87bc35e92a704c23f11b5f5bdde7268af3846460e114f4f6c149"
       }
     }
   }

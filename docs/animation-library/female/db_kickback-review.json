@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "b4ff0483072175e6254287162887ae383e9e36b0b04cb75f517a036256ad9a67",
+  "sceneSHA256": "bb4c0e3078aa2227d160888b71bd61348ffd495ee72e4c53fd76d26e73147663",
   "frames": [
     1,
     31,
@@ -14,10 +14,54 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已逐帧查看五视角及左右手三帧特写：俯身躯干和上臂稳定，前臂伸展与回收清楚，右侧回程也未穿入大腿；双手握柄、腕部和小腿轮廓自然。",
+  "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。双侧髋铰链，双脚着地；上臂靠近躯干固定，肘约90度，中立握。 双侧前臂向后伸展，肘位置不漂移，躯干不摆动。 双侧接近伸直，哑铃在身后；主/前/背视角确认外张已收窄，腕线连续。 前臂回落到身体两侧，躯干和上臂仍固定。 工程视觉复核，非教练认证。",
   "evidence": {
-    "docs/animation-library/female/db_kickback-review.jpg": "1b8e7fcfcdd446476ff28385345bb9201715913530178cb7db37b8426461d520",
-    "docs/animation-library/female/db_kickback-grips.jpg": "ac9fae39340daca62a571506201012bba3146928c3e2e8a71524687bedb7375a"
+    "docs/animation-library/female/db_kickback-review.jpg": "46a031020b9dbc4deef0acdb47d14a7ff93f6de1d2283d46e65889cf86a13680",
+    "docs/animation-library/female/db_kickback-grips.jpg": "2d08779bb72f44a99f2edbf261f15f332c229c01d1b210b7eb6b7a0097d6bd8f"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "ad95ee25a725b7446cc7bcb010c50ac51229f5e413ba9fb5a363827e35c3e8d0",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。双侧髋铰链，双脚着地；上臂靠近躯干固定，肘约90度，中立握。 双侧前臂向后伸展，肘位置不漂移，躯干不摆动。 双侧接近伸直，哑铃在身后；主/前/背视角确认外张已收窄，腕线连续。 前臂回落到身体两侧，躯干和上臂仍固定。 工程视觉复核，非教练认证。",
+    "evidence": {
+      "docs/animation-library/female/db_kickback-review.jpg": "46a031020b9dbc4deef0acdb47d14a7ff93f6de1d2283d46e65889cf86a13680",
+      "docs/animation-library/female/db_kickback-grips.jpg": "2d08779bb72f44a99f2edbf261f15f332c229c01d1b210b7eb6b7a0097d6bd8f"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "1.166666s",
+        "frame": 1,
+        "notes": "双侧髋铰链，双脚着地；上臂靠近躯干固定，肘约90度，中立握。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.666665s",
+        "frame": 31,
+        "notes": "双侧前臂向后伸展，肘位置不漂移，躯干不摆动。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "2.083332s",
+        "frame": 61,
+        "notes": "双侧接近伸直，哑铃在身后；主/前/背视角确认外张已收窄，腕线连续。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.583329s",
+        "frame": 91,
+        "notes": "前臂回落到身体两侧，躯干和上臂仍固定。"
+      }
+    ]
   },
   "gripSides": [
     "Left",
@@ -29,6 +73,6 @@
     61
   ],
   "gripEvidence": {
-    "docs/animation-library/female/db_kickback-grips.jpg": "ac9fae39340daca62a571506201012bba3146928c3e2e8a71524687bedb7375a"
+    "docs/animation-library/female/db_kickback-grips.jpg": "2d08779bb72f44a99f2edbf261f15f332c229c01d1b210b7eb6b7a0097d6bd8f"
   }
 }

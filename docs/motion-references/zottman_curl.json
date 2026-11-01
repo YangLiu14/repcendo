@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "zottman_curl",
+  "exerciseId": "0439",
+  "status": "reviewed",
+  "specificationSHA256": "3625b7476f8064bb40621df2ab89c356df0cc7faa9a8f83bfedb991d65613f55",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "rotating"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=ZXbOOIOPOi8",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "三分之四全身，双臂低位，掌心朝前，双足着地，躯干竖直。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.700s",
+      "observed": "双臂同步旋后握屈肘，上臂接近身侧，哑铃上升到腰胸之间。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.499999s",
+      "observed": "双手到肩前，肘明显屈曲；2.099999秒在顶端转为掌心朝下。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.899998s",
+      "observed": "保持反握受控下放，4.499997秒回到低位并恢复旋后握，开始下一次。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "保留上举旋后、顶端转前臂、反握回落、底端恢复的完整顺序。原动画上臂全周期约34.5度前抬且峰值屈肘仅90度，需改为上臂在侧、屈肘到肩前。双足与躯干保持稳定。",
+  "crossChecks": [
+    {
+      "publisher": "Muscle & Strength",
+      "url": "https://www.muscleandstrength.com/exercises/zottman-curl.html",
+      "locator": "Instructions 1–4; Tips 1–4",
+      "observed": "实际读取：旋后握弯举到肩，顶端旋前后缓慢回落；底端微屈肘，避免肩前移，前臂转动应平缓。"
+    }
+  ]
+}

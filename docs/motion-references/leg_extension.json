@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exercise": "leg_extension",
+  "exerciseId": "0585",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "52021df1fb35e30e661e9862546eabf0592fbfe2b8af16c0c091f04b3b308dea",
+  "variant": {
+    "equipment": "坐姿腿屈伸机，胫前滚垫",
+    "posture": "靠背坐姿双侧同步伸膝",
+    "grip": "双手握侧面固定把手",
+    "support": "背骨盆靠垫，大腿留在座面"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "PureGym",
+      "url": "https://www.youtube.com/watch?v=4ZDm5EbiFI8",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:02.696",
+      "observed": "双膝约90°，滚垫位于踝上胫前，两手握住侧把。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:03.736",
+      "observed": "双膝同步伸展，小腿带动滚垫向前上方转动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:04.044",
+      "observed": "双腿接近水平伸直，臀背及大腿支撑稳定。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:05.392",
+      "observed": "膝受控屈曲回落，滚垫跟随小腿返回，无躯干摆动。"
+    }
+  ],
+  "decisions": "采用双侧坐姿膝伸展，滚垫在胫前而非踝后；保持膝轴对齐和大腿固定，不复制品牌外观。",
+  "crossChecks": [
+    {
+      "publisher": "PureGym",
+      "url": "https://www.puregym.com/exercises/legs/quad-exercises/leg-extensions/",
+      "notes": "已阅读：膝90°准备、垫在踝上、握侧把、伸膝后控制回落。"
+    }
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际检查五视角四阶段：小腿与踝部连续，坐姿足底支撑稳定；侧平举肩腋无异常鼓包，反握弯举手腕和肘部轮廓自然，握持无脱离。",
   "evidence": {
-    "docs/animation-library/female/seated_lateral_raise-review.jpg": "ed1606ba6452be34fd8c6fc7856ac8f23153149bc3ad5cf66dbf17186d9db281"
+    "docs/animation-library/female/seated_lateral_raise-review.jpg": "ed1606ba6452be34fd8c6fc7856ac8f23153149bc3ad5cf66dbf17186d9db281",
+    "build/motion-reference-review-2026-10-31/boards/seated_lateral_raise.jpg": "3b919853aedae9b82d4fcf0d9f4572817b96fd02341d7baad88a3d72dbcc0270"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "ea1be37e5a84249338ea88c7a25450935bdf3c16f99d360f9b2286b41b45ad03",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看现有男女八阶段成片和五视角四阶段板，对照OPEX坐姿侧平举。坐凳及双足稳定，肘角接近固定，双铃同步侧向抬至肩高并回到髋旁；低位适度外展保留铃片间隙，侧视没有前举或上臂向后扭转。没有发现需要替换媒体的问题。",
+    "evidence": {
+      "docs/animation-library/female/seated_lateral_raise-review.jpg": "ed1606ba6452be34fd8c6fc7856ac8f23153149bc3ad5cf66dbf17186d9db281",
+      "build/motion-reference-review-2026-10-31/boards/seated_lateral_raise.jpg": "3b919853aedae9b82d4fcf0d9f4572817b96fd02341d7baad88a3d72dbcc0270"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.316s",
+        "frame": 1,
+        "notes": "低位双手在髋旁，保持坐凳和双足支撑；略外展为铃片留空间。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.875s",
+        "frame": 31,
+        "notes": "双侧同步向外抬臂，肘轻弯、腕线连续。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.343s",
+        "frame": 61,
+        "notes": "肩高附近停止，双侧对称，未耸肩或过顶。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "1.936s",
+        "frame": 91,
+        "notes": "原路径下放，双手回髋旁，躯干没有反向摆动。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "bd5220e376d13ff033a95ff08b295046b2515d8ddbf9c70f709657c874d0a6f1",
+  "sceneSHA256": "43b5d503ae57dde89b064ddf20def41145464a4acbeffd520cd002015577d059",
   "frames": [
     1,
     31,
@@ -14,10 +14,54 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已查看五视角和双手三阶段特写：双臂从体前经过肩高再举至头顶，肩胛随抬举转动，躯干没有后仰代偿；过顶手腕、握柄及肩部轮廓连续，下肢全程稳定。",
+  "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。双铃回到大腿前，掌心朝后，上臂预抬已降低；脚和躯干稳定。 双臂沿前方越过肩高，肘保持轻屈而非推举。 双铃越过头顶，手臂接近伸直，躯干未后仰。 双铃沿前方回落，主/侧视角确认平滑下降至大腿前方。 工程视觉复核，非教练认证。",
   "evidence": {
-    "docs/animation-library/male/overhead_front_raise-review.jpg": "d46deaa2a7f82a1bb49e24de69f4d02142a8dbf929ae3dc7fcdc4621bb9001d6",
-    "docs/animation-library/male/overhead_front_raise-grips.jpg": "bfe659e00d2245f488702db033dd1e764de0f2a8378ee887e41260dcd2eddfec"
+    "docs/animation-library/male/overhead_front_raise-review.jpg": "df5b5b13717165385694556c7e1d8762ea0df769c684b573987ae22fc2227da8",
+    "docs/animation-library/male/overhead_front_raise-grips.jpg": "a9aac3c1190603a4da71c23cb8899d593c245587b2b3e579dc88b736f32c3597"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "9c07ff9e68e8caf17216ddaadb072a564812df8e1d84f9c69b71f0262c75d73e",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。双铃回到大腿前，掌心朝后，上臂预抬已降低；脚和躯干稳定。 双臂沿前方越过肩高，肘保持轻屈而非推举。 双铃越过头顶，手臂接近伸直，躯干未后仰。 双铃沿前方回落，主/侧视角确认平滑下降至大腿前方。 工程视觉复核，非教练认证。",
+    "evidence": {
+      "docs/animation-library/male/overhead_front_raise-review.jpg": "df5b5b13717165385694556c7e1d8762ea0df769c684b573987ae22fc2227da8",
+      "docs/animation-library/male/overhead_front_raise-grips.jpg": "a9aac3c1190603a4da71c23cb8899d593c245587b2b3e579dc88b736f32c3597"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0s",
+        "frame": 1,
+        "notes": "双铃回到大腿前，掌心朝后，上臂预抬已降低；脚和躯干稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.666664s",
+        "frame": 31,
+        "notes": "双臂沿前方越过肩高，肘保持轻屈而非推举。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.333330s",
+        "frame": 61,
+        "notes": "双铃越过头顶，手臂接近伸直，躯干未后仰。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.333329s",
+        "frame": 91,
+        "notes": "双铃沿前方回落，主/侧视角确认平滑下降至大腿前方。"
+      }
+    ]
   },
   "gripSides": [
     "Left",
@@ -29,6 +73,6 @@
     61
   ],
   "gripEvidence": {
-    "docs/animation-library/male/overhead_front_raise-grips.jpg": "bfe659e00d2245f488702db033dd1e764de0f2a8378ee887e41260dcd2eddfec"
+    "docs/animation-library/male/overhead_front_raise-grips.jpg": "a9aac3c1190603a4da71c23cb8899d593c245587b2b3e579dc88b736f32c3597"
   }
 }

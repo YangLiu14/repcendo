@@ -1,0 +1,79 @@
+{
+  "sceneSHA256": "b1ba8c1f534a0bf8219da4333d08ee28e7037888299c2f6ef13b68a79062defe",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看女性五视角四阶段及双手1/31/61近景。对照OPEX反握示范，两侧在低位、发力和峰值均保持旋前握，肘不向外上方抬起；检查右侧髋腿间隙、指柄接触与前臂轮廓，未见穿模和腕反折。主画面两条负重路径可辨；人体及哑铃简化造型保持一致。",
+  "evidence": {
+    "docs/animation-library/female/bilateral_reverse_curl-review.jpg": "8293f96fcca1b82192061b470ad5a566fcb3640663c1ba36420939f3327af97c",
+    "docs/animation-library/female/bilateral_reverse_curl-grips.jpg": "b8d294dfb7646ffeca84310e0e57c0886ffa5badd365f617c2656f094a899fce"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "a40cea08dc0beccd4782df1948519b795ce430f861114a30ea2c52e475169a54",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看女性五视角四阶段及双手1/31/61近景。对照OPEX反握示范，两侧在低位、发力和峰值均保持旋前握，肘不向外上方抬起；检查右侧髋腿间隙、指柄接触与前臂轮廓，未见穿模和腕反折。主画面两条负重路径可辨；人体及哑铃简化造型保持一致。",
+    "evidence": {
+      "docs/animation-library/female/bilateral_reverse_curl-review.jpg": "8293f96fcca1b82192061b470ad5a566fcb3640663c1ba36420939f3327af97c"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.800s",
+        "frame": 1,
+        "notes": "1帧双手反握于腿外前侧，低位轻屈肘，右侧负重清晰离开大腿。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.458s",
+        "frame": 31,
+        "notes": "31帧双臂同步发力，掌背向上，肩部不耸起。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.925s",
+        "frame": 61,
+        "notes": "61帧保持反握到肩前，肘窝和腕线连续，双侧手指握住中央柄。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.916s",
+        "frame": 91,
+        "notes": "91帧双臂原路回落，无上臂摆动、翻腕或躯干旋转。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31",
+  "reviewer": "Codex: actual rendered multi-view and human-reference comparison, not professional coach certification",
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/bilateral_reverse_curl-grips.jpg": "b8d294dfb7646ffeca84310e0e57c0886ffa5badd365f617c2656f094a899fce"
+  }
+}

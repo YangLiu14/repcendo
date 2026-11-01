@@ -1,0 +1,93 @@
+{
+  "sceneSHA256": "5ef9fed034a781daef6a44275da37b7797d1e57e6872a8de04d66ffe1035ab84",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看本性别主/正/侧/背/握持四阶段及双手1/31/61近景。与Block Fitness 20.707/22.883/25.883/33.560秒对照：双臂同步，固定旋后握，上臂稳定，肩肘腕连续；双足落地、臀部接触平凳，哑铃与大腿、坐垫保留间隙。平凳采用已查看LBR-FB照片的长垫、纵梁、两端支撑；参考视频靠背接触不确定，原创平凳差异已在来源记录说明。",
+  "evidence": {
+    "docs/animation-library/male/seated_supinated_curl-review.jpg": "49ad885255b21e390108b158726289cb7547f012d4b35a353d51ad51181bba12",
+    "docs/animation-library/male/seated_supinated_curl-grips.jpg": "b44d87db82a5ce2c7ace69a2865d25dfbdc486626157ef6dc1fe195252b4bfb6"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "78b55a312372d724eb544211f015b05ee881cf3179a8f6b22047665d2b165e97",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看本性别主/正/侧/背/握持四阶段及双手1/31/61近景。与Block Fitness 20.707/22.883/25.883/33.560秒对照：双臂同步，固定旋后握，上臂稳定，肩肘腕连续；双足落地、臀部接触平凳，哑铃与大腿、坐垫保留间隙。平凳采用已查看LBR-FB照片的长垫、纵梁、两端支撑；参考视频靠背接触不确定，原创平凳差异已在来源记录说明。",
+    "evidence": {
+      "docs/animation-library/male/seated_supinated_curl-review.jpg": "49ad885255b21e390108b158726289cb7547f012d4b35a353d51ad51181bba12"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "20.707s",
+        "frame": 1,
+        "notes": "1帧双手旋后低位，轻屈肘与自然携带角为大腿留出间距，坐凳和足底稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "22.883s",
+        "frame": 31,
+        "notes": "31帧双前臂同步屈肘抬起，上臂不随哑铃抬肩，手掌向上。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "25.883s",
+        "frame": 61,
+        "notes": "61帧双铃到肩前收缩，保持旋后握及稳定腕线，未以躯干后仰代偿。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "33.560s",
+        "frame": 91,
+        "notes": "91帧沿同一路径同步下放，握法、器械刚性和凳面支撑保持不变。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-11-01",
+  "reviewer": "Codex: actual rendered multi-view and human-reference comparison, not professional coach certification",
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/male/seated_supinated_curl-grips.jpg": "b44d87db82a5ce2c7ace69a2865d25dfbdc486626157ef6dc1fe195252b4bfb6"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/male/seated_supinated_curl-review.jpg": "49ad885255b21e390108b158726289cb7547f012d4b35a353d51ad51181bba12"
+  },
+  "equipmentNotes": "对应官方LBR-FB照片：长垫、纵梁、前后支腿和落地脚连续相接；臀部贴凳、双足着地。保留支撑布局，尺寸为人物适配，未复刻工程尺寸。"
+}

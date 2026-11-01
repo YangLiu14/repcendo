@@ -2,7 +2,9 @@
   "sceneSHA256": "79c8473c9dc3bd0c115877ea2c1c6f7e5f5377ed746a33bd2fe2531d3bc1ed32",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -16,8 +18,54 @@
   "status": "accepted",
   "notes": "实际查看五视角完整交替关键阶段：左右抬臂时肩腋轮廓连续，肘腕和握柄对齐，非工作侧稳定；腿部不随抬臂扭转，坐姿背垫及足底支撑保持。",
   "evidence": {
-    "docs/animation-library/female/seated_alternate_press-review.jpg": "4031f7987436e5217d8096fee9091f580fd710ef9043bf323f994f14b94b1d39"
+    "docs/animation-library/female/seated_alternate_press-review.jpg": "1eda61187de001df98c596e3bb3f57ef55dc798a8d3922840f05f89f1f94786f",
+    "build/motion-reference-review-2026-10-31/boards/seated_alternate_press.jpg": "30b9f215def94c6c0ea5de9486195962a766268ac951272a12ab0ba545a43644"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "08f7b602707ae9799679df9293461f1fd13ae0967f64121274cd9765165cac06",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看当前六阶段五视角及成片八阶段：掌心向前、单臂推起，等待铃肩旁维持；左右依次完成上下，臀背靠凳、双足着地，躯干无明显偏移。与Live Lean实拍路径相符，项目已有靠背而源无靠背；Russ Howe说明支持直立凳变体。保留视频，非教练认证。",
+    "evidence": {
+      "docs/animation-library/female/seated_alternate_press-review.jpg": "1eda61187de001df98c596e3bb3f57ef55dc798a8d3922840f05f89f1f94786f",
+      "build/motion-reference-review-2026-10-31/boards/seated_alternate_press.jpg": "30b9f215def94c6c0ea5de9486195962a766268ac951272a12ab0ba545a43644"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "12.109998s",
+        "frame": 1,
+        "notes": "肩旁准备，正握双铃。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "12.709997s",
+        "frame": 25,
+        "notes": "一臂推高，另一臂维持肩旁。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "13.109996s",
+        "frame": 49,
+        "notes": "近伸肘头顶终点，145帧核对另一侧。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "13.709995s",
+        "frame": 73,
+        "notes": "原路径下放，97帧回肩旁后换侧。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

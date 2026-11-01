@@ -1,0 +1,52 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "b5fbc03e8ceff09ab79d00ad42354092a7d7cbb3403d4b4af6b4974c03b2e138",
+  "referenceSHA256": "aaf7f3bce0382d96b45c6015dd4504d9d50647235ad1354519758a1dc2c2aa24",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女已实看四视角和去器械人体图。顶部膝接近伸直而非原来的明显弯曲，底部约90°，与PureGym双腿滑轨参考对应。背骨盆支撑不变，双足贴板；固定导轨、滑车、挂片轴和底座与已查看LF2025第37页SPLLLP照片对应。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/leg_press.jpg": "071b72527531ec64c45b506b909f6ce4c4fbef63125c783eec620cf2f3f83bf3",
+    "docs/animation-plan-v3/deformation-review/female/leg_press.jpg": "c95d2fe1278fa2dac208ff68786df2b914b69954b25f171eb07cd421e05e2ad4"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:02.010",
+      "frame": 1,
+      "notes": "顶端双膝轻屈、双足贴板。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:03.016",
+      "frame": 31,
+      "notes": "屈髋屈膝同步下降，骨盆贴垫。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:04.021",
+      "frame": 61,
+      "notes": "底部双膝对称，足跟未离板，膝不内扣。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:05.026",
+      "frame": 91,
+      "notes": "双腿推动滑车沿45°轨道回升，背部稳定。"
+    }
+  ]
+}

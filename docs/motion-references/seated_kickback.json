@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_kickback",
+  "exerciseId": "0394",
+  "status": "reviewed",
+  "specificationSHA256": "1767560bf5f9bd5aaf9b63017480973fbcb4c35b64335ea81c43d4bcf837b2cb",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "STRONG CURVES",
+      "url": "https://www.youtube.com/watch?v=CBvULWKvLw8",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.999998s",
+      "observed": "坐在平凳前部、俯身，双手在腿外屈肘持铃，足底落地。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.299996s",
+      "observed": "双臂同时向后伸肘，肩与肘保持靠近躯干的固定位置。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.666664s",
+      "observed": "双铃在臀部后方，双肘接近伸直，上臂没有外甩成反向飞鸟。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.333330s",
+      "observed": "双铃回到腿外屈肘位，身体坐稳、足底位置不变。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用坐姿双侧同步、中立握、上臂固定的俯身臂屈伸。真实示范节奏较快，动画使用受控慢速循环。原模型35°上臂外展和45°向外的前臂低位偏差较大，计划收窄并按实际臀腿轮廓校准净空。侧面远臂部分被身体遮挡，双铃同步可见；双臂机制同时参照 OPEX 双侧站姿视频，坐姿支撑以本视频为准。",
+  "crossChecks": [
+    {
+      "publisher": "Muscle & Strength",
+      "url": "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-kickback.html",
+      "locator": "Instructions 2–8 / Tips",
+      "observed": "坐姿俯身、上臂靠近躯干，固定肘位置完成伸肘与回程。文字为单臂变体，双侧同步采用STRONG CURVES真人。"
+    }
+  ]
+}

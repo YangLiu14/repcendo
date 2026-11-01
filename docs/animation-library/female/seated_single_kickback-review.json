@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "75be675bacd3d93e4d36ad89ec8359b9cea61b6245a3c1947e011d279ec7e0b9",
+  "sceneSHA256": "bfa79253e5502d439ae5d654c04ef9982f853ec40260f0001b2f5220b9b8414c",
   "frames": [
     1,
     31,
@@ -14,10 +14,79 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已查看五视角与握持近景：负重左臂位于主镜头近侧，屈肘和伸直末端的哑铃可见，空闲手在远侧没有遮挡；坐垫接触与完整纵梁、前后支腿保持，肩肘、腿部及手腕无新增形变。",
+  "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。坐姿左侧负重；俯身约63度，腿距收窄，右臂下垂。与Kasia扶腿及较浅前倾的差异已记录。 左侧伸肘，肩部不旋转；右臂保持稳定。 左臂近伸直，主镜头可见负重手；大腿与躯干无明显挤穿。 左肘回屈至低位，足底和凳面支撑保持。 工程视觉复核，非教练认证。",
   "evidence": {
-    "docs/animation-library/female/seated_single_kickback-review.jpg": "4f59cc8dc02a9d0d3ad97f38f104d5a1ee67f2cc2f8ebdd8026fc9e3c2a72c63",
-    "docs/animation-library/female/seated_single_kickback-grips.jpg": "3a5915f0f526a5cbf7f3fa4c3c4a1b7dbc9d8df53118430d979ff289e9be4c02"
+    "docs/animation-library/female/seated_single_kickback-review.jpg": "562751f093043d817a8b93a49c2d3b3b34e05afca7ff00c71c7b96470b2701ae",
+    "docs/animation-library/female/seated_single_kickback-grips.jpg": "22f7f93af51adde8f63e6793e5946bf1caffb0509e005a198c5f07f3e11e1871"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "841db07d378a5daf30a8e936ddf5eb499e4ba35d8aec514e58d0c3b613dd40af",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女四阶段五视角及逐手1/31/61近景；与已观察真人参考逐阶段比较。坐姿左侧负重；俯身约63度，腿距收窄，右臂下垂。与Kasia扶腿及较浅前倾的差异已记录。 左侧伸肘，肩部不旋转；右臂保持稳定。 左臂近伸直，主镜头可见负重手；大腿与躯干无明显挤穿。 左肘回屈至低位，足底和凳面支撑保持。 工程视觉复核，非教练认证。",
+    "evidence": {
+      "docs/animation-library/female/seated_single_kickback-review.jpg": "562751f093043d817a8b93a49c2d3b3b34e05afca7ff00c71c7b96470b2701ae",
+      "docs/animation-library/female/seated_single_kickback-grips.jpg": "22f7f93af51adde8f63e6793e5946bf1caffb0509e005a198c5f07f3e11e1871"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "38.746666s",
+        "frame": 1,
+        "notes": "坐姿左侧负重；俯身约63度，腿距收窄，右臂下垂。与Kasia扶腿及较浅前倾的差异已记录。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "39.413332s",
+        "frame": 31,
+        "notes": "左侧伸肘，肩部不旋转；右臂保持稳定。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "39.813331s",
+        "frame": 61,
+        "notes": "左臂近伸直，主镜头可见负重手；大腿与躯干无明显挤穿。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "40.879997s",
+        "frame": 91,
+        "notes": "左肘回屈至低位，足底和凳面支撑保持。"
+      }
+    ]
+  },
+  "gripSides": [
+    "Left"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/seated_single_kickback-grips.jpg": "22f7f93af51adde8f63e6793e5946bf1caffb0509e005a198c5f07f3e11e1871"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/female/seated_single_kickback-review.jpg": "562751f093043d817a8b93a49c2d3b3b34e05afca7ff00c71c7b96470b2701ae",
+    "docs/animation-library/female/seated_single_kickback-grips.jpg": "22f7f93af51adde8f63e6793e5946bf1caffb0509e005a198c5f07f3e11e1871"
   },
   "activeSideViews": [
     "main"
@@ -29,29 +98,7 @@
     91
   ],
   "activeSideEvidence": {
-    "docs/animation-library/female/seated_single_kickback-review.jpg": "4f59cc8dc02a9d0d3ad97f38f104d5a1ee67f2cc2f8ebdd8026fc9e3c2a72c63"
-  },
-  "equipmentViews": [
-    "main",
-    "side"
-  ],
-  "equipmentFrames": [
-    1,
-    31,
-    61
-  ],
-  "equipmentEvidence": {
-    "docs/animation-library/female/seated_single_kickback-review.jpg": "4f59cc8dc02a9d0d3ad97f38f104d5a1ee67f2cc2f8ebdd8026fc9e3c2a72c63"
-  },
-  "gripSides": [
-    "Left"
-  ],
-  "gripFrames": [
-    1,
-    31,
-    61
-  ],
-  "gripEvidence": {
-    "docs/animation-library/female/seated_single_kickback-grips.jpg": "3a5915f0f526a5cbf7f3fa4c3c4a1b7dbc9d8df53118430d979ff289e9be4c02"
+    "docs/animation-library/female/seated_single_kickback-review.jpg": "562751f093043d817a8b93a49c2d3b3b34e05afca7ff00c71c7b96470b2701ae",
+    "docs/animation-library/female/seated_single_kickback-grips.jpg": "22f7f93af51adde8f63e6793e5946bf1caffb0509e005a198c5f07f3e11e1871"
   }
 }

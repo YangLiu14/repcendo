@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "hammer_curl",
+  "exerciseId": "0313",
+  "status": "reviewed",
+  "specificationSHA256": "20c354d2d4cc26118f847319bd166dac13a449b6b38f89a6cf897b5e8161e47e",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=RIEMoYL_h1Y",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.028s",
+      "observed": "站姿、双足着地；两铃在大腿外侧，掌心相对，双臂下垂。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.858s",
+      "observed": "双臂同时屈肘，中立握保持；上臂接近身体，躯干稳定。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.391s",
+      "observed": "哑铃靠近肩前，肘留在躯干侧，没有变成抬肘推举。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.783s",
+      "observed": "肘受控伸展，双铃沿原弧线回落；4.174秒观察到下一次开始前低位。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用双侧同步、中立握与固定上臂。现有男女成片八点初查与该动作语义一致，尚需五视角及完整动作复核；此来源记录不代表成片已验收。"
+}

@@ -44,8 +44,8 @@
 
 `motion_reference_gate.py` 在烘焙前核对记录，在全帧审核时生成独立报告，并在正式渲染、打包、同步时核对场景/规格/参考/检查器摘要与四阶段目视审核。`compose` 产生 pending 模板，禁止自动接受。当前直立划船专用幅度上限为选定示范的90°，同时约束屈肘、前臂方向、腕线和峰值负重位置；不推广为通用人体活动极限。
 
-`legacy-scenes.json` 的84条记录只兼容其余42个库动作的原场景与原规格，状态为历史待补参考；不允许这些动作在无参考时重新烘焙。其他19个计划动作尚未迁移到本门禁。全库精确参考覆盖仍需分批补齐。
+2026-11-01，原66项全量复核已完成：25项修订、41项保留；并行第008批两项保持不变，第009批随后另交付两项。当前50个已交付库动作全部通过参考门禁，`legacy-scenes.json` 已清空，不再允许旧场景免参考发布。
 
-本次两项 / 四版本的重制、测试与媒体交付证据见 [修复记录](../animation-library/upright-row-repair.json)。这是工程检查与实际视觉对照，不是专业教练认证。
+原19个计划动作与深蹲使用 `plan_reference_gate.py`，覆盖烘焙预检、全帧连续性及专用运动包络、四阶段画面对照、渲染、打包和App同步。`render_plan_reference_review.py` / `compose_plan_reference_review.py` 生成证据与pending模板，程序不自动批准。深蹲的参考审核已完成，但原19项专用网格碰撞/形变门禁仍不包含它。
 
-第 007 批另新增两项 / 四版本的来源记录和对照验收，见 [交付记录](../animation-library/batch-007.json)。目前合计四项 / 八版本通过新参考流程，其余历史兼容范围不变。完整制作框图及自动/人工边界见 [当前制作流程](../animation-pipeline.md#当前制作流程框图)。`library_pipeline.py references` 命令生成的是肌群正背面示意，不负责检索或审批真人参考。
+详见 [完整修订清单和验证边界](current-assets-review.md)、[逐项账本](current-assets-review.json) 与 [制作流程](../animation-pipeline.md#当前制作流程框图)。`library_pipeline.py references` 仍指肌群正背面示意，不是检索或审批真人参考。此前直立划船和各批次的交付账本保留为历史记录。

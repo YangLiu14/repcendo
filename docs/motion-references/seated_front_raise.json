@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_front_raise",
+  "exerciseId": "0392",
+  "status": "reviewed",
+  "specificationSHA256": "2baee6682a6464407296f1bd7b8d2468339726f760a259dade21fca1b85d792b",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=8gUnEDhVR9I",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看完整重复及关键阶段；仅保存自写观察，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.005s",
+      "observed": "坐于凳前端，双足落地；双臂在大腿外侧接近下垂，哑铃正握。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.012s",
+      "observed": "两手同时沿前上方抬升，肘保持轻微弯曲；躯干不后摆。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.544s",
+      "observed": "负重约在肩高，手背朝上，双臂朝前；不是向身体两侧展开。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.095s",
+      "observed": "沿原前方路径下放；2.762秒恢复腿外低位，躯干与足底保持稳定。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用坐姿、双臂、正握、腿外下垂准备位及向前抬至肩高。已交付动画低位上臂明显向两侧外展且前伸，与本参考不同，需降低起始抬臂并收窄外展；不能通过加大外展躲避大腿碰撞。参考视角为正面，需额外检查项目侧视图确认前举路径。"
+}

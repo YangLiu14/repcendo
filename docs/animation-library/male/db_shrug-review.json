@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际检查五视角四阶段：俯身划船保留髋折叠和屈膝，肩肘拉回轮廓连续；耸肩时肩颈过渡自然，手臂不异常缩短；两动作的小腿踝部及握持均稳定。",
   "evidence": {
-    "docs/animation-library/male/db_shrug-review.jpg": "e1389461f11ed905f7b0076584f58f99912fe5a9bb9485d634cd36f40095d42f"
+    "docs/animation-library/male/db_shrug-review.jpg": "e1389461f11ed905f7b0076584f58f99912fe5a9bb9485d634cd36f40095d42f",
+    "build/motion-reference-review-2026-10-31/boards/db_shrug.jpg": "fd753f6ef26e9a38dc8043cb98320f7ac1a05ee09163a4e153b76e249764ca23"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "49a3d18c7f15de8c055f0ec810b5e6632a21e26f949c4fafa578321bd9ca432c",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看当前男女五视角四阶段与成片八阶段，肩带垂直上提，双铃随直臂小幅升降，腕与躯干稳定；与M&S实拍及文字说明一致。保持当前动画。工程视觉复核，非教练认证。",
+    "evidence": {
+      "docs/animation-library/male/db_shrug-review.jpg": "e1389461f11ed905f7b0076584f58f99912fe5a9bb9485d634cd36f40095d42f",
+      "build/motion-reference-review-2026-10-31/boards/db_shrug.jpg": "fd753f6ef26e9a38dc8043cb98320f7ac1a05ee09163a4e153b76e249764ca23"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "9.169160s",
+        "frame": 1,
+        "notes": "体侧低位中立握。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "9.969159s",
+        "frame": 31,
+        "notes": "肩带上提、双铃随动。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "12.225546s",
+        "frame": 61,
+        "notes": "肩接近耳部、手肘未主动弯曲。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "14.025543s",
+        "frame": 91,
+        "notes": "肩带下落、全身保持。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

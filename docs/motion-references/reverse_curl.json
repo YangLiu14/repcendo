@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "exercise": "reverse_curl",
+  "exerciseId": "0429",
+  "status": "reviewed",
+  "specificationSHA256": "75f040b6032e29595383541522a2bdeda99072c2af7175938659daf26d391537",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=hUA-fIpM7nA",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.820s",
+      "observed": "站姿双足着地，双铃在大腿前侧，双手反握、上臂接近垂直。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.458s",
+      "observed": "双侧屈肘抬铃，上臂仍留在躯干旁；手背朝上，未翻成旋后握。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.925s",
+      "observed": "双铃到肩前，肘明显屈曲，躯干不后仰。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.916s",
+      "observed": "前臂受控下降，反握保持，上臂位置稳定。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用双臂同步固定反握；项目0429原上臂前举约34°、峰值屈肘不足，与观察不符，需降低上臂并恢复完整肘屈伸弧线。采用本示范包络，不把其角度当通用人体极限。",
+  "instructionCrosscheck": {
+    "publisher": "OPEX Fitness",
+    "url": "https://www.youtube.com/watch?v=hUA-fIpM7nA",
+    "notes": "同一第一方教练机构视频说明要求上臂静止、肘接近身体、反握抬至肩部；已阅读公开页面正文。"
+  }
+}

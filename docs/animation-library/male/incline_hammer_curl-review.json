@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际查看五视角四阶段，上斜弯举和锤式的肩部后伸无尖折，上臂位置稳定，屈肘时前臂自然且握柄连续；膝踝轮廓和足底支撑稳定。",
   "evidence": {
-    "docs/animation-library/male/incline_hammer_curl-review.jpg": "79d89c2eee2c37de10329e892d5cc6404c71f906e77e5d1799fd9031c25cbdc9"
+    "docs/animation-library/male/incline_hammer_curl-review.jpg": "79d89c2eee2c37de10329e892d5cc6404c71f906e77e5d1799fd9031c25cbdc9",
+    "build/motion-reference-review-2026-10-31/boards/incline_hammer_curl.jpg": "9e927e2a2469a198c966c45a82c25d0a3669285b2525c9930b325456e23fea26"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "cd3ad547edd17a00929096fdc44049acd42977b12ba1f458ea7805bf6f09b4d1",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女主/正/侧/背/握持四阶段与八阶段成片：斜凳支撑、双臂中立握、上臂下垂稳定，峰值屈肘没有抬肩，回程完整。OPEX 人体比例与本模型不同，不机械复制角度；无需修改媒体。",
+    "evidence": {
+      "docs/animation-library/male/incline_hammer_curl-review.jpg": "79d89c2eee2c37de10329e892d5cc6404c71f906e77e5d1799fd9031c25cbdc9",
+      "build/motion-reference-review-2026-10-31/boards/incline_hammer_curl.jpg": "9e927e2a2469a198c966c45a82c25d0a3669285b2525c9930b325456e23fea26"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.555s",
+        "frame": 1,
+        "notes": "双足着地、背靠凳，双臂下垂中立握。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.088s",
+        "frame": 31,
+        "notes": "前臂同步向前上弯举，上臂留在肩下。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.888s",
+        "frame": 61,
+        "notes": "双铃接近肩前，掌心相对，肩肘稳定。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.888s",
+        "frame": 91,
+        "notes": "沿原弧线回落，保持背靠凳与足底支撑。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

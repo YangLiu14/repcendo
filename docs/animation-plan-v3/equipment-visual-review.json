@@ -286,32 +286,42 @@
     "reviewer": "Codex: actual image inspection"
   },
   "male/leg_press": {
-    "sceneSHA256": "d411e85daa2d2513f2d8e4293b463377255ca13508c5dfb3db5f4fbbe4f50e0a",
+    "status": "accepted",
+    "sceneSHA256": "10c5f6d20312a9decbb7e4f0364fe439bd838cc129b6f181269226ba52aaab62",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "male：实际查看四视角逐阶段对照板。男女已实看四视角和去器械人体图。顶部膝接近伸直而非原来的明显弯曲，底部约90°，与PureGym双腿滑轨参考对应。背骨盆支撑不变，双足贴板；固定导轨、滑车、挂片轴和底座与已查看LF2025第37页SPLLLP照片对应。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/leg_press.jpg": "a451444f65b31eac4fe41d0133f74495be47f91cd66cbbf14882fb3e1e17f967"
-    },
-    "status": "accepted",
-    "notes": "逐图查看主侧视三关键帧：腿举脚底贴踏板、双斜轨及靠背承托保留；腿弯举大腿压垫与小腿后侧滚垫随膝转动，未见肢体穿杆。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/male/leg_press.jpg": "d19b4b85902c9a7e3d1623bd207324783b6df895438e3cecb3bf55212b401b95",
+      "docs/animation-plan-v3/deformation-review/male/leg_press.jpg": "769027b817abbbe50f0cfb7472811b4172698cc46e716d6fadca85a556321d05"
+    }
   },
   "female/leg_press": {
-    "sceneSHA256": "b26b8dc0e8b2ee83e68b07e67c3be7778baebcf81233919107f94b207ff5111f",
+    "status": "accepted",
+    "sceneSHA256": "b5fbc03e8ceff09ab79d00ad42354092a7d7cbb3403d4b4af6b4974c03b2e138",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "female：实际查看四视角逐阶段对照板。男女已实看四视角和去器械人体图。顶部膝接近伸直而非原来的明显弯曲，底部约90°，与PureGym双腿滑轨参考对应。背骨盆支撑不变，双足贴板；固定导轨、滑车、挂片轴和底座与已查看LF2025第37页SPLLLP照片对应。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/leg_press.jpg": "7dcf6c8ea538c5855b0e45cc5170b142ba9997d198f85fe276cb60e551179c8e"
-    },
-    "status": "accepted",
-    "notes": "逐图查看主侧视三关键帧：腿举脚底贴踏板、双斜轨及靠背承托保留；腿弯举大腿压垫与小腿后侧滚垫随膝转动，未见肢体穿杆。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/female/leg_press.jpg": "071b72527531ec64c45b506b909f6ce4c4fbef63125c783eec620cf2f3f83bf3",
+      "docs/animation-plan-v3/deformation-review/female/leg_press.jpg": "c95d2fe1278fa2dac208ff68786df2b914b69954b25f171eb07cd421e05e2ad4"
+    }
   },
   "male/leg_curl": {
     "sceneSHA256": "1878778bb39948fb7098a975ee351cfa2d6c0dc480eeb98b72c116f46c5fa3da",
@@ -398,143 +408,193 @@
     "reviewer": "Codex: actual image inspection"
   },
   "male/pulldown": {
-    "sceneSHA256": "e306e0479ccca8dddd3ca736b362ee1bd20b1aff8c6a1d4459b44c10c46405b7",
+    "status": "accepted",
+    "sceneSHA256": "2e1fed7edb8d963a0be7340edc35b2a13a25fc903e5b701cb9aa531a8a4230c1",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "male：实际查看四视角逐阶段对照板。对照PureGym正握宽距高位下拉四阶段。男女起点两肘软伸直约22°，拉杆降到上胸，双脚、大腿压垫与骨盆稳定；正侧背人体图未见肘腋拉伸或扭曲。主视角仍有手臂局部遮挡，由正侧图补验。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/pulldown.jpg": "758b91ade996aace6dca53bf649a73139da1ea730719b6390eee5e7ef2427cf1"
-    },
-    "status": "accepted",
-    "notes": "实际检查主侧视三关键帧；下拉坐垫和压腿支撑稳定，高滑轮绳线连贯；划船双足贴踏板、臀部坐垫承托，低滑轮绳线保持连接，肩肘腕连续。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/male/pulldown.jpg": "36b1811efd02e38e0ec2bd016b96240bbd6b7e8213220704ebccc958af1dcd90",
+      "docs/animation-plan-v3/deformation-review/male/pulldown.jpg": "9129d255564ba142ac3e649f767bd55cd2a093d6ebd030e2c1b8be71cc379f25"
+    }
   },
   "female/pulldown": {
-    "sceneSHA256": "851307697bea7e41d5857f3b8d3d149efffb69f13ddc9d4c491f2c6c4fec58c4",
+    "status": "accepted",
+    "sceneSHA256": "4f10e5a11573b8f7f58a84b98868453517b081dd9105920903669b1ac21450d3",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "female：实际查看四视角逐阶段对照板。对照PureGym正握宽距高位下拉四阶段。男女起点两肘软伸直约22°，拉杆降到上胸，双脚、大腿压垫与骨盆稳定；正侧背人体图未见肘腋拉伸或扭曲。主视角仍有手臂局部遮挡，由正侧图补验。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/pulldown.jpg": "dc156f380e9d316cc237d00c81dc394ffdf2764dad269d007317d17ba6d0756a"
-    },
-    "status": "accepted",
-    "notes": "实际检查主侧视三关键帧；下拉坐垫和压腿支撑稳定，高滑轮绳线连贯；划船双足贴踏板、臀部坐垫承托，低滑轮绳线保持连接，肩肘腕连续。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/female/pulldown.jpg": "bee1596bcf0065e064f5d0524318c8a12a33f108c160f31eb525d3f00969241b",
+      "docs/animation-plan-v3/deformation-review/female/pulldown.jpg": "0291026d30989daae8436117767438923a01d6c699a6899a6b6514e1830c1215"
+    }
   },
   "male/row": {
-    "sceneSHA256": "4e9d0d2e22d5c04978abacd7882f66a76c636372ea2c10372b792f11c8dfdf53",
+    "status": "accepted",
+    "sceneSHA256": "02cc46bdc6005c5cc5f1644e251bc9b1b9b72e88a267f2017e06db52e03daf3d",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "male：实际查看四视角逐阶段对照板。男女实看最新四视角及去器械人体四阶段。起点双臂向前伸、轻屈肘，手把回拉至腹前，肩带随拉回并有轻微躯干角度变化，骨盆不平移；中立握和足底斜踏板支撑持续。正视塔架遮挡由去器械人体正视补足。器械主侧图与LF2025第48页低位绳索站照片对应：坐凳、成对倾斜踏板、低位出线、独立配重塔。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/row.jpg": "6bbcdf40f2762f64a901b0c4efa74c13940ef3dec2ec0cb50592dd88b59b91f5"
-    },
-    "status": "accepted",
-    "notes": "实际检查主侧视三关键帧；下拉坐垫和压腿支撑稳定，高滑轮绳线连贯；划船双足贴踏板、臀部坐垫承托，低滑轮绳线保持连接，肩肘腕连续。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/male/row.jpg": "38d8ca37ed74919b07c1e0484e195db9e33e9b86352c54daf0bdd10e3650149e",
+      "docs/animation-plan-v3/deformation-review/male/row.jpg": "3f6d2619538c01be9c82ff379c2977fc6e23a89874eb160a5f1a873a0ced02b5"
+    }
   },
   "female/row": {
-    "sceneSHA256": "797608dcce35fb9fc8cb8e6a454575a7d3fcf014bc752ed7a05148548840bbec",
+    "status": "accepted",
+    "sceneSHA256": "a9ee88fde6ea70441e4e52b97d9fa8213d45ed81dedf1c3c727d6b6d64772211",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "female：实际查看四视角逐阶段对照板。男女实看最新四视角及去器械人体四阶段。起点双臂向前伸、轻屈肘，手把回拉至腹前，肩带随拉回并有轻微躯干角度变化，骨盆不平移；中立握和足底斜踏板支撑持续。正视塔架遮挡由去器械人体正视补足。器械主侧图与LF2025第48页低位绳索站照片对应：坐凳、成对倾斜踏板、低位出线、独立配重塔。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/row.jpg": "c991dba1339a1a2ab8934de291f22d102e58852e4d83d9a6cdd4d598256e08b4"
-    },
-    "status": "accepted",
-    "notes": "实际检查主侧视三关键帧；下拉坐垫和压腿支撑稳定，高滑轮绳线连贯；划船双足贴踏板、臀部坐垫承托，低滑轮绳线保持连接，肩肘腕连续。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/female/row.jpg": "23c67dc356befa1932d8c08a01d113b94fb0249348d92eebcffeba58f251b627",
+      "docs/animation-plan-v3/deformation-review/female/row.jpg": "4845ab7d988aafd5459ab33fd0cb6de71d5fb572bf1e12e6f75cd0e48cf4d7eb"
+    }
   },
   "male/straight_pulldown": {
-    "sceneSHA256": "4aa1680fd838b662859e8cd05982cd1045d40defd3a8eabd0b2240561fcf65fb",
+    "status": "accepted",
+    "sceneSHA256": "acfb0b26a7f4b68d0c89e460a75d486f80ad6b6114e6ef7557ee814bfa394cfc",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "male：实际查看四视角逐阶段对照板。男女全景及去器械人体正侧背四阶段已实际查看：固定软肘、稳定前倾、杆从头前上方下拉至大腿；两手共同横杆无斜穿，腋窝和肘部连续。正面器械遮挡由人体图补全。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/straight_pulldown.jpg": "dcbbe46ff6a541ac21c4e3f3d0446bd84079d43b2ffabd98a988544c8ec7c505"
-    },
-    "status": "accepted",
-    "notes": "实际检查主侧视三关键帧：站姿微屈膝、双脚稳定落地，高滑轮绳线连续，直臂下压和肘伸下压手柄保持握持，未见肢体与支架穿插。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/male/straight_pulldown.jpg": "2c31fa087e3e03a3e4a14ccac707539362dc05a774ee4505bc6bd250ef97e261",
+      "docs/animation-plan-v3/deformation-review/male/straight_pulldown.jpg": "edb65e152582cc16b7ced45cbfe6e766f17c56e50d4110b19729f40c7fc55922"
+    }
   },
   "female/straight_pulldown": {
-    "sceneSHA256": "0b35e874507e1170fe4efebed73046a6a538ca03691c0c478a798b197844ebf6",
+    "status": "accepted",
+    "sceneSHA256": "bf9e282b1f11ac901133b85d32d46e80e069a51485dcf4406b28571eefbe003d",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "female：实际查看四视角逐阶段对照板。男女全景及去器械人体正侧背四阶段已实际查看：固定软肘、稳定前倾、杆从头前上方下拉至大腿；两手共同横杆无斜穿，腋窝和肘部连续。正面器械遮挡由人体图补全。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/straight_pulldown.jpg": "3324bd51c114283ebfb3533e30ccada522fa8cd30b08de5834ed0f4a2c57a691"
-    },
-    "status": "accepted",
-    "notes": "实际检查主侧视三关键帧：站姿微屈膝、双脚稳定落地，高滑轮绳线连续，直臂下压和肘伸下压手柄保持握持，未见肢体与支架穿插。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/female/straight_pulldown.jpg": "d44e7ed0356332c4ef1f6e0031536ace21bb3be04ba61ca281decf1c4f2eb6fe",
+      "docs/animation-plan-v3/deformation-review/female/straight_pulldown.jpg": "ad81bfb23f3f8e7755229cc50f78cf1e651f58c72c16cd52f860d890032478a1"
+    }
   },
   "male/pushdown": {
-    "sceneSHA256": "6f537848955e57ee36ded60e912a3385e9e5244395d1979621035f6c874f7dec",
+    "status": "accepted",
+    "sceneSHA256": "c396c720f0194d7bf0e60e66e6e0b1020fab376239309234e455b572fbc22855",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "male：实际查看四视角逐阶段对照板。修订男女全景四视图及去器械人体图已查看，最新双手特写确认相对握持、拇指朝绳端、指节连续；男手接触面细分后全循环碰撞0，未扩大2mm阈值。上臂固定，完成伸肘下压；塔架、顶滑轮和配重机构保持已核对的实物结构。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/pushdown.jpg": "d4416c66bc79a177195f6431e5c431e4b9aa5a8d2069ad69d3d2e9e2f582c2c3"
-    },
-    "status": "accepted",
-    "notes": "实际检查主侧视三关键帧：站姿微屈膝、双脚稳定落地，高滑轮绳线连续，直臂下压和肘伸下压手柄保持握持，未见肢体与支架穿插。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/male/pushdown.jpg": "15025d158daa26aacda023347ec63012d749464e6efd50abf91f2034ad779fca",
+      "docs/animation-plan-v3/deformation-review/male/pushdown.jpg": "827268c9358914604f70fe609e3c966248c7240f4db2bc8516f3f336ba23dc97",
+      "docs/animation-plan-v3/deformation-review/male/pushdown-grips.jpg": "1104c711f0cb1e2d43b4b1b626609ac7509f8bd20326c6fe01d4e11949780eb6"
+    }
   },
   "female/pushdown": {
-    "sceneSHA256": "9eb53d62ea38f95dbc949c58c03c3cb4023173b5414af3b235fdeca8cc47160b",
+    "status": "accepted",
+    "sceneSHA256": "2a39e0f4f97a1c6a8f8a947d365f482ca0fef7db20fd044225e75127dafd9b6c",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "female：实际查看四视角逐阶段对照板。修订男女全景四视图及去器械人体图已查看，最新双手特写确认相对握持、拇指朝绳端、指节连续；男手接触面细分后全循环碰撞0，未扩大2mm阈值。上臂固定，完成伸肘下压；塔架、顶滑轮和配重机构保持已核对的实物结构。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/pushdown.jpg": "e24a54a0d80a960489e1aa53f65394935961795c22e50dba15df3748f7a78a62"
-    },
-    "status": "accepted",
-    "notes": "实际检查主侧视三关键帧：站姿微屈膝、双脚稳定落地，高滑轮绳线连续，直臂下压和肘伸下压手柄保持握持，未见肢体与支架穿插。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/female/pushdown.jpg": "9f8fd86ad0ba3c20a518ac782a3e8de797014f67f3ed5ba415cf0c28e099a5ab",
+      "docs/animation-plan-v3/deformation-review/female/pushdown.jpg": "d0f812e285bc7bf1ed52a7563d4e1160d9de3f81cc8b73088bb269e0149d9c8c",
+      "docs/animation-plan-v3/deformation-review/female/pushdown-grips.jpg": "6463700dd5376d308eb11b275284bfdefa35f37a11d698e4824e83c897e36a3c"
+    }
   },
   "male/cable_crunch": {
-    "sceneSHA256": "a76e31b32b35716f4d7eb6b7a8371bc97b50b17f1865566a5d2ee8f421d39b06",
+    "status": "accepted",
+    "sceneSHA256": "ebc0bb948d012ae77281bf3d921fdf7016d91d6a18ea08f39a9a149917214c37",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "male主侧图与已查看Life Fitness 2025目录高滑轮站照片对照：配重塔、顶端出线、独立底脚保留，绳索由上滑轮连接双手，人物在站前跪垫支撑。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/male/cable_crunch.jpg": "37fef63f1a56762263984a948daca7f25b704535f4e191852a7594edd7b84129"
-    },
-    "status": "accepted",
-    "notes": "实际查看主侧视三关键帧与握把近景，膝盖贴垫、绳线从高滑轮连续连接至双手，卷腹过程中肩肘腕与小腿轮廓连续。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/male/cable_crunch.jpg": "cc418370a031f5ef654136cf6a2c52f01227f64a5ad73854d946b6870bf30699"
+    }
   },
   "female/cable_crunch": {
-    "sceneSHA256": "6e8e60d6f91e0daae05eaf34ab9c155174d76791afdbab35664437287522dab9",
+    "status": "accepted",
+    "sceneSHA256": "77486c3b1e77a5c0961c9984648d06958a33a5ab91fffef3606f1396e0aee91f",
     "views": [
       "main",
       "side"
     ],
+    "frames": [
+      1,
+      31,
+      61,
+      91
+    ],
+    "notes": "female主侧图与已查看Life Fitness 2025目录高滑轮站照片对照：配重塔、顶端出线、独立底脚保留，绳索由上滑轮连接双手，人物在站前跪垫支撑。",
     "evidence": {
-      "docs/animation-plan-v3/equipment-review/female/cable_crunch.jpg": "3e99367150af5864b97ae8637cc53487279fa6e80b721ca73bd7f64f302b5ce1"
-    },
-    "status": "accepted",
-    "notes": "实际查看主侧视三关键帧与握把近景，膝盖贴垫、绳线从高滑轮连续连接至双手，卷腹过程中肩肘腕与小腿轮廓连续。",
-    "reviewedAt": "2026-10-30",
-    "reviewer": "Codex: actual image inspection"
+      "docs/animation-plan-v3/reference-review/female/cable_crunch.jpg": "c2cdbd3da5446e27c8c8e2a9554fc6f2ea95f35aa311c69b5f38eb48632eeec4"
+    }
   }
 }

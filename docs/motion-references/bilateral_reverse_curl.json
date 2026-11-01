@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "bilateral_reverse_curl",
+  "exerciseId": "0382",
+  "status": "reviewed",
+  "specificationSHA256": "992b8f861af1336f6de3b876cb5a9077adac08d7edde309a63ca014d2bae95a2",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=hUA-fIpM7nA",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际操作公开播放器查看真人阶段，仅记录自写观察和链接/时间码，不下载、提取姿态、训练或再分发真人媒体。不声称取得第三方媒体生成许可。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.800s",
+      "observed": "直立，双手反握哑铃于大腿前侧，肘接近伸直，双足稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.458s",
+      "observed": "双臂同步屈肘，上臂保持躯干侧，掌背向上，未转换成锤式握法。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.925s",
+      "observed": "哑铃至肩前，前臂上举但上臂不抬高，腕未反折；掌背仍朝向面部。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.916s",
+      "observed": "哑铃受控下放，保持反握，经腰前位置；4.374秒回到低位。"
+    }
+  ],
+  "reviewer": "Codex actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "按精确ID采用站姿双臂同步、固定上臂和全程旋前握；原创五秒循环，肘屈曲18–110度、上臂偏离垂直不超过20度，作为此示范工程包络，不是生理极限。动作与既有近似条目分别注册，不照搬旧动画验收。"
+}

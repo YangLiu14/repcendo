@@ -2,7 +2,9 @@
   "sceneSHA256": "0731e3c8c635d4248435112b352b5a9675db75ec82c8f6c0b5752a14fe4faeb5",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -16,8 +18,54 @@
   "status": "accepted",
   "notes": "实际查看五视角全部阶段：单臂及交替侧平举肩部衔接自然，抬臂至肩高无腋部异常外鼓，肘部保留轻微弯曲、手腕连续；静止侧和站立下肢稳定。",
   "evidence": {
-    "docs/animation-library/female/standing_alternate_lateral_raise-review.jpg": "4a93d5ee575da6e00ec68eb422c7f807a807dfa0f3fd512fc002fee5e4ca6ca1"
+    "docs/animation-library/female/standing_alternate_lateral_raise-review.jpg": "abaa1feac361cfe04067932d30123498628124260db4142a54e0bedf15f8a2f7",
+    "build/motion-reference-review-2026-10-31/boards/standing_alternate_lateral_raise.jpg": "1c9be75907c067a39b599e39d6febe6ce22a1cde634133f97fd1428b15ce2f36"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "b7db51818ad63146442511bf38645e37f94faceceafa9bed1c010d31ebe06566",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看六阶段五视角图（补25/73上升回落）及已有成片八阶段。与Precision站姿交替示范比对：低位手在腿侧，侧举至肩高，另一手等待于低位，回到低位后再换侧；两侧腕线稳定，躯干无明显摆动。来源平面略偏前、项目更接近侧面，幅度与交替语义一致，保留现有视频。握持近景部分主动手出框，已用清晰正/主/背视角及全帧握持报告交叉核对。",
+    "evidence": {
+      "docs/animation-library/female/standing_alternate_lateral_raise-review.jpg": "abaa1feac361cfe04067932d30123498628124260db4142a54e0bedf15f8a2f7",
+      "build/motion-reference-review-2026-10-31/boards/standing_alternate_lateral_raise.jpg": "1c9be75907c067a39b599e39d6febe6ce22a1cde634133f97fd1428b15ce2f36"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "2.399996s",
+        "frame": 1,
+        "notes": "双手腿侧等待，双足稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "2.669598s",
+        "frame": 25,
+        "notes": "左侧上举，右侧保持低位。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "3.599993s",
+        "frame": 49,
+        "notes": "左侧肩高，肘微弯，腕不折。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "4.199992s",
+        "frame": 73,
+        "notes": "左侧回落；97换侧低位、145右侧肩高已查看。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

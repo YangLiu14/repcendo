@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际检查五视角四阶段：站姿膝部微屈、足底稳定，小腿不再球状外鼓；推举顶端侧胸与上臂衔接连续，肘部没有塌陷，掌向和中立握区别正确。",
   "evidence": {
-    "docs/animation-library/female/standing_overhead_press-review.jpg": "f4fb3916db8a720e586c8edbdecadb5ee372099dd47e9a744e7ec402b456c356"
+    "docs/animation-library/female/standing_overhead_press-review.jpg": "f4fb3916db8a720e586c8edbdecadb5ee372099dd47e9a744e7ec402b456c356",
+    "build/motion-reference-review-2026-10-31/boards/standing_overhead_press.jpg": "b751aca9c7de21ac0e7f7472f577a503bafc02d399a66e5951d10050fd1bf07d"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "5401b7d325ad368a0f5d2420761f2d1f8c0d914cf5856a146426985a2869644c",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看当前男女五视角和成片八阶段，双侧正握上推至头顶、前臂位于负重下、下放回肩旁。脚、膝髋与躯干保持，无蹲起借力；与OPEX及GettFit说明相符，保留视频。工程视觉复核，非教练认证。",
+    "evidence": {
+      "docs/animation-library/female/standing_overhead_press-review.jpg": "f4fb3916db8a720e586c8edbdecadb5ee372099dd47e9a744e7ec402b456c356",
+      "build/motion-reference-review-2026-10-31/boards/standing_overhead_press.jpg": "b751aca9c7de21ac0e7f7472f577a503bafc02d399a66e5951d10050fd1bf07d"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "肩旁正握，两足固定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.666665s",
+        "frame": 31,
+        "notes": "双肘伸展向上推，身体不后仰。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.333331s",
+        "frame": 61,
+        "notes": "头顶近伸肘，腕在负重下，两铃留缝。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "3.333329s",
+        "frame": 91,
+        "notes": "沿原路下放，成片回到肩旁。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

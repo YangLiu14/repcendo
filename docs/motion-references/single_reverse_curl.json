@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_reverse_curl",
+  "exerciseId": "0425",
+  "status": "reviewed",
+  "specificationSHA256": "7903f4cfd1e928aa75c68626d3e7ac1f8b74d1f757e8266122b1627483c45b27",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=pVIB4MDykzc",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "全身三分之四视角，右手反握哑铃于大腿外侧，左手空闲下垂，双足稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.666666s",
+      "observed": "右肘屈曲，前臂将铃向前上方举起，掌心向下，上臂留在身体侧面。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.266664s",
+      "observed": "哑铃接近肩前，明显屈肘；没有把整条上臂持续向前架起。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.933329s",
+      "observed": "沿原弧线伸肘返回，下放保持反握，另一只手和躯干不参与摆动。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "项目用左侧负重镜像OPEX右侧示范。保持固定反握、单侧完整重复及空闲手下垂。原动画全周期上臂前抬约34.5度且屈肘峰值约90度，需修复为上臂在侧、完整屈伸；不更改器材。",
+  "crossChecks": [
+    {
+      "publisher": "Muscle & Strength",
+      "url": "https://www.muscleandstrength.com/exercises/standing-one-arm-dumbbell-reverse-curl.html",
+      "locator": "Instructions 1–5; Tips",
+      "observed": "站姿反握，肘留在身体侧面；受控弯举及下放，不向前抬肘或摆动。已实际读取公开教学文字。"
+    }
+  ]
+}

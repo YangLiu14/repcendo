@@ -20,7 +20,7 @@
   },
   "male/row": {
     "status": "pending",
-    "scene_sha256": "4e9d0d2e22d5c04978abacd7882f66a76c636372ea2c10372b792f11c8dfdf53",
+    "scene_sha256": "02cc46bdc6005c5cc5f1644e251bc9b1b9b72e88a267f2017e06db52e03daf3d",
     "views": [
       "front",
       "side",
@@ -34,7 +34,7 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/male/row.jpg": "1717d5d294e7184b35191d626468e4cdd537f3a9ede1df599ab3f860daefc335"
+      "docs/animation-plan-v3/deformation-review/male/row.jpg": "3f6d2619538c01be9c82ff379c2977fc6e23a89874eb160a5f1a873a0ced02b5"
     }
   },
   "male/incline_press": {
@@ -77,7 +77,7 @@
   },
   "male/pushdown": {
     "status": "pending",
-    "scene_sha256": "6f537848955e57ee36ded60e912a3385e9e5244395d1979621035f6c874f7dec",
+    "scene_sha256": "c396c720f0194d7bf0e60e66e6e0b1020fab376239309234e455b572fbc22855",
     "views": [
       "front",
       "side",
@@ -91,12 +91,13 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/male/pushdown.jpg": "3702bef6af872b686a47c661f05bdd185faa8ffe54907d03f969a3ebcb128908"
+      "docs/animation-plan-v3/deformation-review/male/pushdown.jpg": "827268c9358914604f70fe609e3c966248c7240f4db2bc8516f3f336ba23dc97",
+      "docs/animation-plan-v3/deformation-review/male/pushdown-grips.jpg": "1104c711f0cb1e2d43b4b1b626609ac7509f8bd20326c6fe01d4e11949780eb6"
     }
   },
   "male/cable_crunch": {
     "status": "pending",
-    "scene_sha256": "a76e31b32b35716f4d7eb6b7a8371bc97b50b17f1865566a5d2ee8f421d39b06",
+    "scene_sha256": "ebc0bb948d012ae77281bf3d921fdf7016d91d6a18ea08f39a9a149917214c37",
     "views": [
       "front",
       "side",
@@ -110,13 +111,13 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/male/cable_crunch.jpg": "21e3ffea260f6fd47aab952fb322b75c8588d7d4abd58269d7dd292ce3e23822",
-      "docs/animation-plan-v3/deformation-review/male/cable_crunch-grips.jpg": "043b955d7df68d67a5ac945e7b3b6fb60e5e331dd713f54101825c0a5619cac2"
+      "docs/animation-plan-v3/deformation-review/male/cable_crunch.jpg": "9551b4d0382375207cb622700570a365281e2e5da77e86b4989e4685210680b9",
+      "docs/animation-plan-v3/deformation-review/male/cable_crunch-grips.jpg": "a4f188fa794d4d865a3d0935a21e9d37ce14b768c5c4a0cfb18d8417aa16ea46"
     }
   },
   "male/pulldown": {
     "status": "pending",
-    "scene_sha256": "e306e0479ccca8dddd3ca736b362ee1bd20b1aff8c6a1d4459b44c10c46405b7",
+    "scene_sha256": "2e1fed7edb8d963a0be7340edc35b2a13a25fc903e5b701cb9aa531a8a4230c1",
     "views": [
       "front",
       "side",
@@ -130,12 +131,12 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/male/pulldown.jpg": "025bb67683fc654e06819a08a4b0586ab63931c57b70064a422a64e7eac8afb2"
+      "docs/animation-plan-v3/deformation-review/male/pulldown.jpg": "9129d255564ba142ac3e649f767bd55cd2a093d6ebd030e2c1b8be71cc379f25"
     }
   },
   "male/straight_pulldown": {
     "status": "pending",
-    "scene_sha256": "4aa1680fd838b662859e8cd05982cd1045d40defd3a8eabd0b2240561fcf65fb",
+    "scene_sha256": "acfb0b26a7f4b68d0c89e460a75d486f80ad6b6114e6ef7557ee814bfa394cfc",
     "views": [
       "front",
       "side",
@@ -149,12 +150,12 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/male/straight_pulldown.jpg": "ecd7ea024513d92d1ca4b1aae242fe1154c6cbb4264d39d50f7fb990eed96337"
+      "docs/animation-plan-v3/deformation-review/male/straight_pulldown.jpg": "edb65e152582cc16b7ced45cbfe6e766f17c56e50d4110b19729f40c7fc55922"
     }
   },
   "male/curl": {
     "status": "pending",
-    "scene_sha256": "b3a3b439ea947352a99f10deebdb672a2156af00e4a096c56460d713edbffc45",
+    "scene_sha256": "caee7c6672f7fcc7336dd9e60304b38381f3257ba6e5d1d9087cdd736842bb0b",
     "views": [
       "front",
       "side",
@@ -168,12 +169,12 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/male/curl.jpg": "1a55bbd07c138020fb64e3d3736fb6000626cfcce78e775884539e1ec6af93b0"
+      "docs/animation-plan-v3/deformation-review/male/curl.jpg": "19453a42bdf6a909d8c0b44dcf7f0a6eb57a6303b5c5d6b832a2a08588e253b1"
     }
   },
   "male/leg_press": {
     "status": "pending",
-    "scene_sha256": "d411e85daa2d2513f2d8e4293b463377255ca13508c5dfb3db5f4fbbe4f50e0a",
+    "scene_sha256": "10c5f6d20312a9decbb7e4f0364fe439bd838cc129b6f181269226ba52aaab62",
     "views": [
       "front",
       "side",
@@ -187,12 +188,12 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/male/leg_press.jpg": "183b8991636fd0b9d838e77656573ed79d7b9532b23e926fd171dfbe43a6fe16"
+      "docs/animation-plan-v3/deformation-review/male/leg_press.jpg": "769027b817abbbe50f0cfb7472811b4172698cc46e716d6fadca85a556321d05"
     }
   },
   "male/rdl": {
     "status": "pending",
-    "scene_sha256": "953595e507e035cad70c3013b754ba15fb393ab30df6449e395a240551d01db2",
+    "scene_sha256": "176f17dd27df20ef1f068a4198a8671d705a94dfbccc4612ce71514d0a31af9a",
     "views": [
       "front",
       "side",
@@ -206,7 +207,7 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/male/rdl.jpg": "2cfecb57662c68e342bcdbf27b2aac40e3519107699200f4b910ccc21a736bb3"
+      "docs/animation-plan-v3/deformation-review/male/rdl.jpg": "3e26377973c929b003c822e14fa5361ddbd4e067294ebf346267ca99c4447212"
     }
   },
   "male/leg_curl": {
@@ -383,7 +384,7 @@
   },
   "female/row": {
     "status": "pending",
-    "scene_sha256": "797608dcce35fb9fc8cb8e6a454575a7d3fcf014bc752ed7a05148548840bbec",
+    "scene_sha256": "a9ee88fde6ea70441e4e52b97d9fa8213d45ed81dedf1c3c727d6b6d64772211",
     "views": [
       "front",
       "side",
@@ -397,7 +398,7 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/female/row.jpg": "0c1fb179a5bb7154b6383a5fb7ce5af1de9c72a647eddaf109e01b8eaa771a16"
+      "docs/animation-plan-v3/deformation-review/female/row.jpg": "4845ab7d988aafd5459ab33fd0cb6de71d5fb572bf1e12e6f75cd0e48cf4d7eb"
     }
   },
   "female/incline_press": {
@@ -440,7 +441,7 @@
   },
   "female/pushdown": {
     "status": "pending",
-    "scene_sha256": "9eb53d62ea38f95dbc949c58c03c3cb4023173b5414af3b235fdeca8cc47160b",
+    "scene_sha256": "2a39e0f4f97a1c6a8f8a947d365f482ca0fef7db20fd044225e75127dafd9b6c",
     "views": [
       "front",
       "side",
@@ -454,12 +455,13 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/female/pushdown.jpg": "2a112a6ba23c950df3952c871dce1cd35643a7565c0cd5919ffc67dfa7e457b8"
+      "docs/animation-plan-v3/deformation-review/female/pushdown.jpg": "d0f812e285bc7bf1ed52a7563d4e1160d9de3f81cc8b73088bb269e0149d9c8c",
+      "docs/animation-plan-v3/deformation-review/female/pushdown-grips.jpg": "6463700dd5376d308eb11b275284bfdefa35f37a11d698e4824e83c897e36a3c"
     }
   },
   "female/cable_crunch": {
     "status": "pending",
-    "scene_sha256": "6e8e60d6f91e0daae05eaf34ab9c155174d76791afdbab35664437287522dab9",
+    "scene_sha256": "77486c3b1e77a5c0961c9984648d06958a33a5ab91fffef3606f1396e0aee91f",
     "views": [
       "front",
       "side",
@@ -473,13 +475,13 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/female/cable_crunch.jpg": "e1c2a1ef15e074989fb9e4c2b3a6c7cba4c1ec66e8dd9be125e45c5534713a39",
-      "docs/animation-plan-v3/deformation-review/female/cable_crunch-grips.jpg": "5ff8340f5978fc4de374028cdb19f752682bd2a0d1ea9533482b7cacf636bf43"
+      "docs/animation-plan-v3/deformation-review/female/cable_crunch.jpg": "69eea6ca4badd9b923571ceacffb64bc87aabe8861e5896df5809980abd6ea07",
+      "docs/animation-plan-v3/deformation-review/female/cable_crunch-grips.jpg": "e9d573906dea8e1ff902a4c3ebcdbd9579b21517aa900d29714d2dd01bd790b9"
     }
   },
   "female/pulldown": {
     "status": "pending",
-    "scene_sha256": "851307697bea7e41d5857f3b8d3d149efffb69f13ddc9d4c491f2c6c4fec58c4",
+    "scene_sha256": "4f10e5a11573b8f7f58a84b98868453517b081dd9105920903669b1ac21450d3",
     "views": [
       "front",
       "side",
@@ -493,12 +495,12 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/female/pulldown.jpg": "23137218799b5d44446020b4120671626f3703329820e753ece0decff3b2de0b"
+      "docs/animation-plan-v3/deformation-review/female/pulldown.jpg": "0291026d30989daae8436117767438923a01d6c699a6899a6b6514e1830c1215"
     }
   },
   "female/straight_pulldown": {
     "status": "pending",
-    "scene_sha256": "0b35e874507e1170fe4efebed73046a6a538ca03691c0c478a798b197844ebf6",
+    "scene_sha256": "bf9e282b1f11ac901133b85d32d46e80e069a51485dcf4406b28571eefbe003d",
     "views": [
       "front",
       "side",
@@ -512,12 +514,12 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/female/straight_pulldown.jpg": "f5c3467566e5dc151eb13685361f0fdc76533e3a4b5e677194907be5512ef2a2"
+      "docs/animation-plan-v3/deformation-review/female/straight_pulldown.jpg": "ad81bfb23f3f8e7755229cc50f78cf1e651f58c72c16cd52f860d890032478a1"
     }
   },
   "female/curl": {
     "status": "pending",
-    "scene_sha256": "a492a61ea028e2733140ac525fee8dfa87f0343202d6c0b0b5f749fc9ab08de8",
+    "scene_sha256": "b076729044d4103f02753478d981a2681cdb78c4420cbe4f1ee3146b75062232",
     "views": [
       "front",
       "side",
@@ -531,12 +533,12 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/female/curl.jpg": "83daa28124966332f8ee9a7d76d2e8f7d82d2ee53f25809e5578b4594820cce2"
+      "docs/animation-plan-v3/deformation-review/female/curl.jpg": "a631e9b1638018583716e3f73b9ab462502515c5998ada46884e019788503db3"
     }
   },
   "female/leg_press": {
     "status": "pending",
-    "scene_sha256": "b26b8dc0e8b2ee83e68b07e67c3be7778baebcf81233919107f94b207ff5111f",
+    "scene_sha256": "b5fbc03e8ceff09ab79d00ad42354092a7d7cbb3403d4b4af6b4974c03b2e138",
     "views": [
       "front",
       "side",
@@ -550,12 +552,12 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/female/leg_press.jpg": "779f8ea620ed094fff5c3bcb00f6fad87c11f0e4d1cfae1d6220bc9d100efd2f"
+      "docs/animation-plan-v3/deformation-review/female/leg_press.jpg": "c95d2fe1278fa2dac208ff68786df2b914b69954b25f171eb07cd421e05e2ad4"
     }
   },
   "female/rdl": {
     "status": "pending",
-    "scene_sha256": "d925340c697080a00e73dc5da4fcdcfa81d09eb751243f46343ce0365bb618ef",
+    "scene_sha256": "65531af08e3370fd7ccf3406ac8ee92df903886a4df3802400650ac31093dfb5",
     "views": [
       "front",
       "side",
@@ -569,7 +571,7 @@
     ],
     "notes": "",
     "evidence": {
-      "docs/animation-plan-v3/deformation-review/female/rdl.jpg": "64a05c5197ebf07c52f90b571e1b7a52a5ed8f8d98e6d222dd7defe2a0a06f1c"
+      "docs/animation-plan-v3/deformation-review/female/rdl.jpg": "65c9111df226a269bd42b2c0e9b75723d04b8c15cc7e0dd656bd40fbab5ec86c"
     }
   },
   "female/leg_curl": {

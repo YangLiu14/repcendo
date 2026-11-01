@@ -16,7 +16,8 @@
   "status": "accepted",
   "notes": "已查看新五视角：主镜头近侧的左手中立握、前臂弯举与哑铃竖直峰值均清楚，空闲手在远侧；手腕与手指特写没有新增错位，站姿和小腿轮廓保持一致。",
   "evidence": {
-    "docs/animation-library/male/single_hammer_curl-review.jpg": "6c806d9e80034ede280ef8c21d3c7f1bcd12ce9437fa867be4165893a7e8a844"
+    "docs/animation-library/male/single_hammer_curl-review.jpg": "6c806d9e80034ede280ef8c21d3c7f1bcd12ce9437fa867be4165893a7e8a844",
+    "build/motion-reference-review-2026-10-31/boards/single_hammer_curl.jpg": "cb03c988455b683205f5d295acad436f9e672e5cd933a8b1a51d0eb561b5f92e"
   },
   "activeSideViews": [
     "main"
@@ -29,5 +30,50 @@
   ],
   "activeSideEvidence": {
     "docs/animation-library/male/single_hammer_curl-review.jpg": "6c806d9e80034ede280ef8c21d3c7f1bcd12ce9437fa867be4165893a7e8a844"
-  }
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "a1ff9fcc22acde2138820f54feb05ed85ef224dcdc475b1a30b205b751309d92",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看五视角与成片：单臂中立握、负重侧主镜头、上臂固定、完整回落，闲置手及足底稳定；与 OPEX 真人右侧示范镜像对应。",
+    "evidence": {
+      "docs/animation-library/male/single_hammer_curl-review.jpg": "6c806d9e80034ede280ef8c21d3c7f1bcd12ce9437fa867be4165893a7e8a844",
+      "build/motion-reference-review-2026-10-31/boards/single_hammer_curl.jpg": "cb03c988455b683205f5d295acad436f9e672e5cd933a8b1a51d0eb561b5f92e"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "铃在左腿外，掌心朝内，另一手自然下垂。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.667s",
+        "frame": 31,
+        "notes": "屈左肘，铃向肩前，躯干不侧倾。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.200s",
+        "frame": 61,
+        "notes": "铃靠近肩，腕线顺直，上臂没有抬高。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "1.933s",
+        "frame": 91,
+        "notes": "沿同一弧线回落，闲置手与身体位置不变。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

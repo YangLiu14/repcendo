@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_neutral_press",
+  "exerciseId": "0404",
+  "status": "reviewed",
+  "specificationSHA256": "adba359d48068acb1b2a6473a2bed2f1fb9fa2a5d1dc19823acb507b07f0094a",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Mike Gettier / GettFit",
+      "url": "https://www.youtube.com/watch?v=pfZ08wab9Hc",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "2.399997s",
+      "observed": "靠背坐姿，双铃耳旁肩高，掌心相对、前臂近竖直，臀靠座。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "2.699993s",
+      "observed": "双手同时向上略向内推，握法不变，躯干保持。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "2.999996s",
+      "observed": "双臂近伸直、铃在头上靠近；画面上缘部分裁切铃片但手腕/肘可见。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "3.599995s",
+      "observed": "双肘屈曲、铃受控向外下落；4.799993秒回肩旁低位。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "保留靠背坐姿、双侧同时中立握推举。来源靠背更倾斜、顶点靠铃更近，项目保留直立凳和头顶两铃间净空；源足部和顶端铃片有裁切，项目全身/握持视角补充自身检查。",
+  "crossChecks": [
+    {
+      "publisher": "Mike Gettier / GettFit",
+      "url": "https://www.gettfit.com/exercise-database/shoulders/dumbbell-shoulder-press/",
+      "locator": "Normal & Neutral grip / Exercise Instructions",
+      "observed": "实际读取：第二视频为掌心相对；铃从耳旁上推略内收，再慢放回肩旁。站姿可用相同手臂路径但需维持核心、避免腰部过伸。"
+    }
+  ]
+}

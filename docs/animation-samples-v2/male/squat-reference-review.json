@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "d81dce4585b29e28836a9e65aa41f19786af0fa9e9f60982f4184a75750f7f4e",
+  "referenceSHA256": "b2d9ce46879814a67f4f924580f7485cfd77da09b4c3a31d69c0d2616af6ac2a",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "male：实际查看四视角逐阶段对照板。男女参考和四视角均已实际对照：杠落在上背肩后、双手外侧握持，足底维持位置，髋膝同步下降，大腿接近水平后起立。前视膝沿脚方向，没有重新出现后颈鼓包。保留原视频。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/male/squat.jpg": "7bb4b3bbcb48b21d73c0b4a86b9170ac6713ccde6c80d6e53fb5fe8c0c713401"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0s",
+      "frame": 1,
+      "notes": "站姿杠放上背，双足稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.877876s",
+      "frame": 31,
+      "notes": "屈髋屈膝下降，杠随上背移动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.411209s",
+      "frame": 61,
+      "notes": "大腿接近水平，双膝未内扣，足跟位置稳定。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.877875s",
+      "frame": 91,
+      "notes": "髋膝伸展沿原路径起立，躯干没有突然扭转。"
+    }
+  ]
+}

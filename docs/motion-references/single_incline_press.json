@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_incline_press",
+  "exerciseId": "1281",
+  "status": "reviewed",
+  "specificationSHA256": "491f7a2be64eaa676b61c77647de842cd66cc95ac075f68fab3404dec63e70c1",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "inclined",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "National Academy of Sports Medicine (NASM)",
+      "url": "https://www.youtube.com/watch?v=iJ-GwVeUuCg",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "上斜靠背支撑躯干，左手胸旁正握单铃，右手放大腿，双足着地。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.749997s",
+      "observed": "左侧伸肘上推、肩肘在斜前镜头可见，胸部没有旋转。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.499995s",
+      "observed": "左臂近伸直，重量在肩上方，背臀与脚不移位。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.999994s",
+      "observed": "铃受控回上胸旁，空闲手未参与助力，随后再次推起。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用45度左右上斜单臂正握推举；项目空闲手在体侧，NASM 在大腿，OPEX 在身侧。雕塑低位肘略较 NASM 更外展，保留体型间隙但不变成肩高90度横展。",
+  "crossChecks": [
+    {
+      "publisher": "NASM",
+      "url": "https://www.nasm.org/resource-center/exercise-library/single-arm-incline-dumbbell-chest-press",
+      "locator": "Steps 1–4 and Common Mistakes",
+      "observed": "实际读到45度靠背、双足着地、核心抗旋转，伸肘上推再受控回上胸旁。"
+    },
+    {
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=SnZ75pFB7Wo",
+      "locator": "0/0.749998/1.499997/2.499996/3.499995s public player",
+      "observed": "实际观看侧面单臂上斜重复，体侧空闲手、背臀与足底稳定；远侧低位肘遮挡，未用它单独批准肘部轨迹。"
+    }
+  ]
+}

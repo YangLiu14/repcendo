@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "incline_alternate_press",
+  "exerciseId": "3545",
+  "status": "reviewed",
+  "specificationSHA256": "fc0d7ffa11f53fec0d7acedc1075b991627a36d07d42d8b705f317bf5bb777bb",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "inclined",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Functional Bodybuilding",
+      "url": "https://www.youtube.com/watch?v=YUhAJt8xsFY",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "上斜躺靠、双足稳定，两铃都留胸旁低位，掌心朝前略斜。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.124999s",
+      "observed": "左铃先上推、右铃固定胸旁，躯干不旋转。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.666663s",
+      "observed": "左肘近直、铃到肩上方，另一侧保持低位。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.916662s",
+      "observed": "左侧回落，4.166661秒右侧开始推起；5.416660秒右侧近直，左铃留胸旁。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用 low/bottom-up alternating 变体，一侧回胸旁后才换侧。没有改用等待侧锁在顶部的 top-down 变体。参考先左、项目也先左；握轴略斜差异在正握允许方向内。",
+  "crossChecks": [
+    {
+      "publisher": "Human Kinetics",
+      "url": "https://us.humankinetics.com/blogs/excerpt/how-to-perform-a-dumbbell-bench-press",
+      "locator": "Incline and One-Arm Dumbbell Bench Press variations",
+      "observed": "实际读取45度左右上斜、保持另一手起点，单侧完成整个重复再换侧的定义；这与 bottom-up 参考匹配。"
+    }
+  ]
+}

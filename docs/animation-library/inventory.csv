@@ -250,7 +250,7 @@
 0294,dumbbell biceps curl,哑铃弯举,upper arms,dumbbell,biceps,curl,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
 0295,dumbbell clean,,upper legs,dumbbell,glutes,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0296,dumbbell close-grip press,,upper arms,dumbbell,triceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
-0297,dumbbell concentration curl,,upper arms,dumbbell,biceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
+0297,dumbbell concentration curl,,upper arms,dumbbell,biceps,concentration_curl,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
 0298,dumbbell cross body hammer curl,跨体锤式弯举,upper arms,dumbbell,biceps,cross_body_hammer_curl,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
 0299,dumbbell cuban press,,shoulders,dumbbell,delts,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0300,dumbbell deadlift,,upper legs,dumbbell,glutes,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
@@ -334,7 +334,7 @@
 0379,dumbbell rear lateral raise (support head),,shoulders,dumbbell,delts,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0380,dumbbell rear lateral raise,,shoulders,dumbbell,delts,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0381,dumbbell rear lunge,,upper legs,dumbbell,glutes,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
-0382,dumbbell revers grip biceps curl,,upper arms,dumbbell,biceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
+0382,dumbbell revers grip biceps curl,,upper arms,dumbbell,biceps,bilateral_reverse_curl,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
 0383,dumbbell reverse fly,,shoulders,dumbbell,delts,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0384,dumbbell reverse preacher curl,,upper arms,dumbbell,biceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0385,dumbbell reverse wrist curl,,lower arms,dumbbell,forearms,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
@@ -343,7 +343,7 @@
 0388,dumbbell seated alternate press,坐姿哑铃交替推举,shoulders,dumbbell,delts,seated_alternate_press,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
 0389,dumbbell seated bench extension,,upper arms,dumbbell,triceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0390,dumbbell seated biceps curl (on stability ball),,upper arms,dumbbell,biceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
-0391,dumbbell seated curl,,upper arms,dumbbell,biceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
+0391,dumbbell seated curl,,upper arms,dumbbell,biceps,seated_supinated_curl,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
 0392,dumbbell seated front raise,坐姿哑铃前平举,shoulders,dumbbell,delts,seated_front_raise,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
 0393,dumbbell seated inner biceps curl,,upper arms,dumbbell,biceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0394,dumbbell seated kickback,坐姿双臂俯身臂屈伸,upper arms,dumbbell,triceps,seated_kickback,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
@@ -367,7 +367,7 @@
 0413,dumbbell squat,,upper legs,dumbbell,glutes,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0414,dumbbell standing alternate overhead press,站姿交替哑铃推举,shoulders,dumbbell,delts,standing_alternate_press,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
 0415,dumbbell standing alternate raise,站姿交替侧平举,shoulders,dumbbell,delts,standing_alternate_lateral_raise,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
-0416,dumbbell standing biceps curl,,upper arms,dumbbell,biceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
+0416,dumbbell standing biceps curl,,upper arms,dumbbell,biceps,standing_supinated_curl,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed
 0417,dumbbell standing calf raise,,lower legs,dumbbell,calves,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0418,dumbbell standing concentration curl,,upper arms,dumbbell,biceps,,not_implemented,False,"Specify motion, equipment and contacts; implement and review both characters"
 0419,dumbbell standing front raise above head,站姿哑铃过顶前平举,shoulders,dumbbell,delts,overhead_front_raise,current_checks_passed,True,Reuse the exact reviewed scene and media; revalidate if changed

@@ -16,7 +16,8 @@
   "status": "accepted",
   "notes": "已查看新五视角：左侧负重臂从体侧抬至肩高，在主画面外侧完整可见，肩、肘、腕和哑铃没有被身体遮住；回程路径清楚，空闲手与下肢保持稳定。",
   "evidence": {
-    "docs/animation-library/male/single_lateral_raise-review.jpg": "1e4e1e2a967262cec409bc27c10e83b4bdaa2536ecf0a4c151d886ddbcaec9ee"
+    "docs/animation-library/male/single_lateral_raise-review.jpg": "1e4e1e2a967262cec409bc27c10e83b4bdaa2536ecf0a4c151d886ddbcaec9ee",
+    "build/motion-reference-review-2026-10-31/boards/single_lateral_raise.jpg": "50791e922f5b6ab8f12ae93c68a4e8c1fa3b3384a553da226d9e5bc2062552a2"
   },
   "activeSideViews": [
     "main"
@@ -29,5 +30,50 @@
   ],
   "activeSideEvidence": {
     "docs/animation-library/male/single_lateral_raise-review.jpg": "1e4e1e2a967262cec409bc27c10e83b4bdaa2536ecf0a4c151d886ddbcaec9ee"
-  }
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "dc6dd06867a0456b797cc135b51d683a70183fba6350b8a8bab1f90d42a428da",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女各五视角四阶段图及本次成片八点初查，与OPEX左侧单臂无支撑示范比较：铃由髋旁向侧面到肩高，肘微屈、腕顺直，右手空闲稳定。主镜头处负重侧；项目躯干比真人更稳定，低位略外展。未发现需修改的轨迹或明显穿插。",
+    "evidence": {
+      "docs/animation-library/male/single_lateral_raise-review.jpg": "1e4e1e2a967262cec409bc27c10e83b4bdaa2536ecf0a4c151d886ddbcaec9ee",
+      "build/motion-reference-review-2026-10-31/boards/single_lateral_raise.jpg": "50791e922f5b6ab8f12ae93c68a4e8c1fa3b3384a553da226d9e5bc2062552a2"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "左手髋旁、右手下垂，足底稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.374999s",
+        "frame": 31,
+        "notes": "向侧上方抬起，肘微屈，躯干不侧倒。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "0.749998s",
+        "frame": 61,
+        "notes": "手到肩高，腕与前臂一致。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "1.499996s",
+        "frame": 91,
+        "notes": "沿侧向弧受控回落；成片后段回到低位。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

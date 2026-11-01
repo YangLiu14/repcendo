@@ -1,0 +1,55 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "161475dbc8879fe2de06f3ddc1cc457c0b0343d80ad81e7da301da46c2cd295c",
+  "referenceSHA256": "a26d865b036fd6c6eb9826cfcaeb7159b67590959a60c5cf9c2002837f5f8267",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    25,
+    49,
+    73,
+    97,
+    121,
+    145,
+    169
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。对照Hinge Health自重对侧手腿示范。男女1/25/49/73及97/121/145/169八阶段主、顶、侧画面实际查看；左右轮换正确、腰背稳定、手脚悬空，肩腋体表连续。底台遮挡背面，未拿空图作判断。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/dead_bug.jpg": "49919c5efdf5e4f46d67c1a3185b878bdbfc1ef6ff13bd580dfee3bd26eae748"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "14.427 s",
+      "frame": 1,
+      "notes": "双手上举双膝屈曲。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "17.640 s",
+      "frame": 25,
+      "notes": "左手右腿同步向外伸出，另一对固定。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "21.640 s",
+      "frame": 49,
+      "notes": "手腿悬空，腰背不拱起。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "32.187 s",
+      "frame": 73,
+      "notes": "同一对手腿回收，后半换右手左腿。"
+    }
+  ]
+}

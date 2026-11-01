@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "db_kickback",
+  "exerciseId": "0333",
+  "status": "reviewed",
+  "specificationSHA256": "1faa53fc08065994795ac72dea7e245e9c64b81e0481d59e9ff20f17251749b7",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=m_UlDFNX4mk",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "1.166666s",
+      "observed": "站姿髋铰链、膝微屈，双臂屈肘，肘留在躯干旁；侧面可以看到中立握及足底。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.666665s",
+      "observed": "双肘同时伸展，哑铃向身后上方移动，上臂与躯干稳定。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "2.083332s",
+      "observed": "肘接近伸直，负重在身体后方，上臂贴近躯干而不是向两侧展开。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.583329s",
+      "observed": "受控屈肘回到躯干旁低位，躯干角度和双足位置保持。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用 OPEX 双侧同步髋铰链、固定上臂与中立握。原模型上臂外张约35°，导致末端类似反向飞鸟；收窄到体型所需的小幅外展，并全循环核对双铃与臀腿的接触。OPEX侧面无法精确量化外展，额外采用 ACE 上臂接近躯干的文字要求；本项目角度是动画规格而非人体极限。",
+  "crossChecks": [
+    {
+      "publisher": "ACE Fitness",
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/55/triceps-kickback/",
+      "locator": "Steps 2–4",
+      "observed": "上臂保持在躯干旁并固定，伸肘后受控回落。ACE 为单臂支撑变体，这里仅采用肘关节与上臂关系，双侧支撑采用 OPEX 真人。"
+    }
+  ]
+}

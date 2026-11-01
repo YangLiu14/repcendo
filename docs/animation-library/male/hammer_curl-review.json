@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "已逐张查看本场景主、正、侧、背及握持四阶段图。站姿膝屈减小，小腿肌腹与踝部过渡连续；坐姿膝盖轮廓未出现尖折，足底与座面支撑合理。弯举掌向/交替侧、前举方向和握把接触清楚，肩肘轮廓无新增异常鼓包。保留雕塑细部及衣褶。",
   "evidence": {
-    "docs/animation-library/male/hammer_curl-review.jpg": "950781fa8e3967c293d0fda0ab186f6e6afeea9daedbbce74cccc97dac46d435"
+    "docs/animation-library/male/hammer_curl-review.jpg": "950781fa8e3967c293d0fda0ab186f6e6afeea9daedbbce74cccc97dac46d435",
+    "build/motion-reference-review-2026-10-31/boards/hammer_curl.jpg": "73b9744ed32aa27a08bd5364517d0ab2a08cd6a72e0cf6bb3f56d805a84d084a"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "6f2dfca4bfdf48bb27815e34093e9e05fdddb0cb52694ff2ea204a96c0995573",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看当前成片八阶段与主/正/侧/背/握持四阶段图；与 OPEX 站姿双臂锤式参考一致：中立握、固定上臂、双侧同步，躯干足底稳定。雕塑上臂略外展以适应体型，未形成推举或外甩；保持现有视频。工程视觉复核，非教练认证。",
+    "evidence": {
+      "docs/animation-library/male/hammer_curl-review.jpg": "950781fa8e3967c293d0fda0ab186f6e6afeea9daedbbce74cccc97dac46d435",
+      "build/motion-reference-review-2026-10-31/boards/hammer_curl.jpg": "73b9744ed32aa27a08bd5364517d0ab2a08cd6a72e0cf6bb3f56d805a84d084a"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.028s",
+        "frame": 1,
+        "notes": "双手位于腿外下垂，中立握；足底稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.858s",
+        "frame": 31,
+        "notes": "双肘同步屈曲，上臂不前抬，负重沿前上方弧线。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.391s",
+        "frame": 61,
+        "notes": "双铃抵近肩前，腕线顺直、掌心相对，未抬肘推举。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.783s",
+        "frame": 91,
+        "notes": "沿原路径回落，躯干与上臂稳定；成片后半程回到低位。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

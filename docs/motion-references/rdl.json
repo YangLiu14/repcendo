@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exercise": "rdl",
+  "exerciseId": "0085",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "9eda9cc2561d8286f69c325eb5e5827ecf4c4b049e18c7f92c9f19a04fa67fdc",
+  "variant": {
+    "equipment": "自由杠铃",
+    "posture": "双足约髋宽站姿髋铰链",
+    "grip": "双侧旋前握，手在腿外侧",
+    "support": "双足全程固定于地面"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "NASM",
+      "url": "https://www.youtube.com/watch?v=xgusDooVfKU",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:05.706",
+      "observed": "持杠站立于大腿前，两臂自然垂直，双足稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:06.706",
+      "observed": "髋向后移，躯干整体前倾，膝略屈，杠沿腿前方下降。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:07.608",
+      "observed": "杠降至膝下，背部形状保持，肘无主动屈曲。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:08.608",
+      "observed": "伸髋回站，负重沿腿前上升，未用肘弯举杠铃。"
+    }
+  ],
+  "decisions": "采用视频真实双侧旋前握；NASM文本的neutral grip与视频不一致，不采用该措辞。选用膝下受控髋铰链，不强制所有体型同一落点；无地面起杠或放杠片段。",
+  "crossChecks": [
+    {
+      "publisher": "NASM",
+      "url": "https://www.nasm.org/resource-center/exercise-library/romanian-deadlift-barbell",
+      "notes": "已阅读：髋后移、轻屈膝、脊柱稳定、伸髋回立；其握法措辞由实际视频校正。"
+    }
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

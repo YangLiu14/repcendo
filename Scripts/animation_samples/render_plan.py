@@ -4,6 +4,7 @@ from pathlib import Path
 from plan_exercises import PLAN_EXERCISES
 from collision_gate import require_collision_pass, CATALOG
 from deformation_gate import require_deformation_pass
+from plan_reference_gate import require_pass as require_reference_pass
 
 ROOT = Path(__file__).resolve().parents[2]
 P = argparse.ArgumentParser()
@@ -98,6 +99,7 @@ def render(pair):
     if args.bake_only:
         return sex, name
     if not args.review:
+        require_reference_pass(sex, name, root=args.output_root)
         require_collision_pass(sex, name, root=args.output_root)
         require_deformation_pass(sex, name, root=args.output_root)
     digest = hashlib.sha256(scene.read_bytes()).hexdigest()

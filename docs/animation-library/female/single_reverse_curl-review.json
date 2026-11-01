@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "611555cc6bdabec72933d46b862b62d3a36b022511c16d0456dd965662de4c37",
+  "sceneSHA256": "1151322a054ac724b9621ca2f9bbe3dc7cadf557a03204a16437f11b8ab61600",
   "frames": [
     1,
     31,
@@ -14,10 +14,54 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已查看五视角四个阶段：主画面负重左手始终在近侧，反握与抬起、放下路径清楚，峰值手腕不被胸部遮住；握柄近景、空闲手及腿部轮廓保持正常。",
+  "notes": "实际查看男女各四阶段五视角板，按OPEX单臂反握弯举比对。上臂靠身侧、反握固定，屈肘到肩前，再受控回落；右手空闲下垂，躯干与足底稳定。主视图处于左负重侧，近景手腕与前臂一致，未见明显穿插或翻腕。左右镜像已记录。",
   "evidence": {
-    "docs/animation-library/female/single_reverse_curl-review.jpg": "20eca3e29b7070f4e3c1e5637602175a545d7888fbadf136fa5cd7b7bd18af40"
+    "docs/animation-library/female/single_reverse_curl-review.jpg": "5487a8fd42c628af77fa8c671b4525f36c8fa8c19577ea4ca6c2d66567228543"
   },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "22698a432599b0f5bb3879a66d27cec913ce20679789376df0411dbd1b10d636",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女各四阶段五视角板，按OPEX单臂反握弯举比对。上臂靠身侧、反握固定，屈肘到肩前，再受控回落；右手空闲下垂，躯干与足底稳定。主视图处于左负重侧，近景手腕与前臂一致，未见明显穿插或翻腕。左右镜像已记录。",
+    "evidence": {
+      "docs/animation-library/female/single_reverse_curl-review.jpg": "5487a8fd42c628af77fa8c671b4525f36c8fa8c19577ea4ca6c2d66567228543"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "左手反握髋旁，空闲手下垂。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.666666s",
+        "frame": 31,
+        "notes": "上臂固定于体侧，前臂抬起。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.266664s",
+        "frame": 61,
+        "notes": "屈肘到肩前，保持掌心朝下。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "1.933329s",
+        "frame": 91,
+        "notes": "沿原弧伸肘回落，躯干不摇摆。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31",
   "activeSideViews": [
     "main"
   ],
@@ -28,6 +72,6 @@
     91
   ],
   "activeSideEvidence": {
-    "docs/animation-library/female/single_reverse_curl-review.jpg": "20eca3e29b7070f4e3c1e5637602175a545d7888fbadf136fa5cd7b7bd18af40"
+    "docs/animation-library/female/single_reverse_curl-review.jpg": "5487a8fd42c628af77fa8c671b4525f36c8fa8c19577ea4ca6c2d66567228543"
   }
 }

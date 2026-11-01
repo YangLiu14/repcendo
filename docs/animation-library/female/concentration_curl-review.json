@@ -1,0 +1,118 @@
+{
+  "sceneSHA256": "d0aac68c8d6a7a99deb87ac5db6cf870efb0a2c5a323d9fabc94f8380b641a87",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "已实际查看最终r18主/正/侧/背/握持四阶段、左手1/31/61近景及1/31/61/91左上臂靠腿和右前臂搭腿特写。再次对照OPEX 3.006/5.006/7.506/9.006秒：左上臂靠大腿内侧，右前臂搭在另一侧大腿，空手自然下垂而非掌撑；前倾、坐凳和足底稳定。此前高抬空手肘、过度后伸腕及穿插候选已退回，当前左右支撑与腕线自然。负重左手在主视角外侧可见，全程旋后弯举；原创简化哑铃和长凳支撑布局与照片一致。",
+  "evidence": {
+    "docs/animation-library/female/concentration_curl-review.jpg": "461ba39af86d7a82b9ff9a9790756897faed6904adc2de1606755097d1f8c0ef",
+    "docs/animation-library/female/concentration_curl-grips.jpg": "c6b0f1ee2680e1f00c3b7f57430e60ee256f2f0935ce7998ba09a3bae8652352",
+    "docs/animation-library/female/concentration_curl-supports.jpg": "8be4eb848732ec654842e20d0c4be0922f25a89a02f64dbc11b65507728e88e8"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "7136ca9efbaffeb9e9565a10ce5fa3b8324a763c1906addbe3ba91a73a2e5356",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看最终r18主/正/侧/背/握持四阶段、左手1/31/61近景及1/31/61/91左上臂靠腿和右前臂搭腿特写。再次对照OPEX 3.006/5.006/7.506/9.006秒：左上臂靠大腿内侧，右前臂搭在另一侧大腿，空手自然下垂而非掌撑；前倾、坐凳和足底稳定。此前高抬空手肘、过度后伸腕及穿插候选已退回，当前左右支撑与腕线自然。负重左手在主视角外侧可见，全程旋后弯举；原创简化哑铃和长凳支撑布局与照片一致。",
+    "evidence": {
+      "docs/animation-library/female/concentration_curl-review.jpg": "461ba39af86d7a82b9ff9a9790756897faed6904adc2de1606755097d1f8c0ef"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "3.006s",
+        "frame": 1,
+        "notes": "1帧低位准备：左上臂靠大腿内侧，左手旋后，哑铃在膝前下方并与小腿分离；右前臂搭腿、空手下垂。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "5.006s",
+        "frame": 31,
+        "notes": "31帧左前臂向肩前屈肘，左上臂接触位置稳定，右侧不持铃且不随动。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "7.506s",
+        "frame": 61,
+        "notes": "61帧左铃到肩前收缩，肘窝、手腕与握持轮廓连续，上臂仍受腿部支撑，头部与负重分离。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "9.006s",
+        "frame": 91,
+        "notes": "91帧左铃原路受控下放，旋后握不翻转，两侧支撑和躯干前倾保持稳定。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-11-01",
+  "reviewer": "Codex: actual rendered multi-view and human-reference comparison, not professional coach certification",
+  "gripSides": [
+    "Left"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/concentration_curl-grips.jpg": "c6b0f1ee2680e1f00c3b7f57430e60ee256f2f0935ce7998ba09a3bae8652352"
+  },
+  "equipmentViews": [
+    "main",
+    "side"
+  ],
+  "equipmentFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "equipmentEvidence": {
+    "docs/animation-library/female/concentration_curl-review.jpg": "461ba39af86d7a82b9ff9a9790756897faed6904adc2de1606755097d1f8c0ef"
+  },
+  "equipmentNotes": "对应官方LBR-FB照片：长垫、纵梁、前后支腿和落地脚连续相接；臀部贴凳、双足着地。保留支撑布局，尺寸为人物适配，未复刻工程尺寸。",
+  "activeSideViews": [
+    "main"
+  ],
+  "activeSideFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "activeSideEvidence": {
+    "docs/animation-library/female/concentration_curl-review.jpg": "461ba39af86d7a82b9ff9a9790756897faed6904adc2de1606755097d1f8c0ef"
+  },
+  "supportViews": [
+    "left_support",
+    "right_forearm"
+  ],
+  "supportFrames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "supportEvidence": {
+    "docs/animation-library/female/concentration_curl-supports.jpg": "8be4eb848732ec654842e20d0c4be0922f25a89a02f64dbc11b65507728e88e8"
+  }
+}

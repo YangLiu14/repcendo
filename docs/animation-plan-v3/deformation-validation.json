@@ -212,7 +212,7 @@
     "metrics": {
       "scale_error": 1.6093254089355469e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 1.0339975790124891
+      "frame_rotation_step_deg": 2.654728684853172
     },
     "frames": [
       1,
@@ -344,16 +344,16 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.6186286280280071,
-        "max_p95": 1.2906574317818829,
-        "compressed_frame": 6,
-        "stretched_frame": 111
+        "min_p05": 0.5577905691016511,
+        "max_p95": 1.334141568295287,
+        "compressed_frame": 8,
+        "stretched_frame": 114
       },
       "LeftForeArm": {
-        "min_p05": 0.7414678420677073,
-        "max_p95": 1.2823325211731649,
+        "min_p05": 0.6696465598397662,
+        "max_p95": 1.3789324962573517,
         "compressed_frame": 57,
-        "stretched_frame": 55
+        "stretched_frame": 53
       },
       "LeftUpLeg": {
         "min_p05": 0.7602629018692266,
@@ -374,16 +374,16 @@
         "stretched_frame": 9
       },
       "RightArm": {
-        "min_p05": 0.6242903254880372,
-        "max_p95": 1.3249224630511267,
-        "compressed_frame": 4,
-        "stretched_frame": 8
+        "min_p05": 0.5523358561802781,
+        "max_p95": 1.388089158956524,
+        "compressed_frame": 3,
+        "stretched_frame": 10
       },
       "RightForeArm": {
-        "min_p05": 0.92087959282285,
-        "max_p95": 1.6032374600300439,
+        "min_p05": 0.8975190658039403,
+        "max_p95": 1.7570024687653032,
         "compressed_frame": 57,
-        "stretched_frame": 56
+        "stretched_frame": 57
       },
       "RightUpLeg": {
         "min_p05": 0.7983640911757532,
@@ -411,7 +411,7 @@
       61,
       91
     ],
-    "scene_sha256": "4e9d0d2e22d5c04978abacd7882f66a76c636372ea2c10372b792f11c8dfdf53",
+    "scene_sha256": "02cc46bdc6005c5cc5f1644e251bc9b1b9b72e88a267f2017e06db52e03daf3d",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
@@ -834,9 +834,9 @@
   "male/pushdown": {
     "failures": [],
     "metrics": {
-      "scale_error": 1.0132789611816406e-06,
+      "scale_error": 8.344650268554688e-07,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 1.6212001477375924
+      "frame_rotation_step_deg": 2.3029615628796445
     },
     "frames": [
       1,
@@ -968,14 +968,14 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.7668252572507083,
-        "max_p95": 1.2415926413010527,
-        "compressed_frame": 3,
-        "stretched_frame": 2
+        "min_p05": 0.8362413235411096,
+        "max_p95": 1.1651070677000948,
+        "compressed_frame": 2,
+        "stretched_frame": 3
       },
       "LeftForeArm": {
-        "min_p05": 0.8226806598923776,
-        "max_p95": 1.2470343931543404,
+        "min_p05": 0.6801770061296284,
+        "max_p95": 1.4311006753050575,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
@@ -998,15 +998,15 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.7807477232236644,
-        "max_p95": 1.207367764556015,
-        "compressed_frame": 2,
-        "stretched_frame": 4
+        "min_p05": 0.8592393185013829,
+        "max_p95": 1.1299692194216895,
+        "compressed_frame": 1,
+        "stretched_frame": 2
       },
       "RightForeArm": {
-        "min_p05": 0.8760655620465984,
-        "max_p95": 1.481924401733024,
-        "compressed_frame": 61,
+        "min_p05": 0.8916512297483488,
+        "max_p95": 1.7919211566413833,
+        "compressed_frame": 1,
         "stretched_frame": 1
       },
       "RightUpLeg": {
@@ -1035,7 +1035,7 @@
       61,
       91
     ],
-    "scene_sha256": "6f537848955e57ee36ded60e912a3385e9e5244395d1979621035f6c874f7dec",
+    "scene_sha256": "c396c720f0194d7bf0e60e66e6e0b1020fab376239309234e455b572fbc22855",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
@@ -1044,7 +1044,7 @@
     "metrics": {
       "scale_error": 1.5497207641601562e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 0.3753437076887948
+      "frame_rotation_step_deg": 0.44936871094401126
     },
     "frames": [
       1,
@@ -1176,20 +1176,20 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.6836003601912412,
-        "max_p95": 1.2087311016385678,
-        "compressed_frame": 41,
-        "stretched_frame": 63
+        "min_p05": 0.7036897466363197,
+        "max_p95": 1.1974583195343864,
+        "compressed_frame": 33,
+        "stretched_frame": 62
       },
       "LeftForeArm": {
-        "min_p05": 0.6282030320264705,
-        "max_p95": 1.518633758681033,
+        "min_p05": 0.586401335791751,
+        "max_p95": 1.6310391058580074,
         "compressed_frame": 16,
-        "stretched_frame": 58
+        "stretched_frame": 45
       },
       "LeftUpLeg": {
-        "min_p05": 0.9632117399933215,
-        "max_p95": 1.0458095987474239,
+        "min_p05": 0.9484772863464687,
+        "max_p95": 1.0684487911794445,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
@@ -1206,20 +1206,20 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.7211824193357972,
-        "max_p95": 1.1993672047563588,
-        "compressed_frame": 61,
-        "stretched_frame": 55
+        "min_p05": 0.7501957318068495,
+        "max_p95": 1.1732505713298,
+        "compressed_frame": 60,
+        "stretched_frame": 58
       },
       "RightForeArm": {
-        "min_p05": 0.8585554415717642,
-        "max_p95": 1.9509532284208482,
-        "compressed_frame": 13,
-        "stretched_frame": 20
+        "min_p05": 0.8328956656590368,
+        "max_p95": 2.10903455608074,
+        "compressed_frame": 3,
+        "stretched_frame": 45
       },
       "RightUpLeg": {
-        "min_p05": 0.9799471349106619,
-        "max_p95": 1.0301281080740488,
+        "min_p05": 0.9674024676852402,
+        "max_p95": 1.0498968366186079,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
@@ -1243,16 +1243,16 @@
       61,
       91
     ],
-    "scene_sha256": "a76e31b32b35716f4d7eb6b7a8371bc97b50b17f1865566a5d2ee8f421d39b06",
+    "scene_sha256": "ebc0bb948d012ae77281bf3d921fdf7016d91d6a18ea08f39a9a149917214c37",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
   "male/pulldown": {
     "failures": [],
     "metrics": {
-      "scale_error": 1.6093254089355469e-06,
+      "scale_error": 1.2516975402832031e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 2.796315731583186
+      "frame_rotation_step_deg": 3.360091498507086
     },
     "frames": [
       1,
@@ -1384,15 +1384,15 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.5763346228561788,
-        "max_p95": 1.3360328319885684,
-        "compressed_frame": 10,
-        "stretched_frame": 2
+        "min_p05": 0.579764694864788,
+        "max_p95": 1.354154536465671,
+        "compressed_frame": 14,
+        "stretched_frame": 1
       },
       "LeftForeArm": {
-        "min_p05": 0.6148386010491362,
-        "max_p95": 1.5490390756085677,
-        "compressed_frame": 41,
+        "min_p05": 0.6140626083548026,
+        "max_p95": 1.5533798767951403,
+        "compressed_frame": 42,
         "stretched_frame": 40
       },
       "LeftUpLeg": {
@@ -1414,15 +1414,15 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.5841871936257186,
-        "max_p95": 1.3091723873511432,
-        "compressed_frame": 11,
-        "stretched_frame": 1
+        "min_p05": 0.5781274937180654,
+        "max_p95": 1.3179791875660813,
+        "compressed_frame": 106,
+        "stretched_frame": 7
       },
       "RightForeArm": {
-        "min_p05": 0.7430344452717492,
-        "max_p95": 1.8232364671294337,
-        "compressed_frame": 28,
+        "min_p05": 0.7378389115060673,
+        "max_p95": 1.8229486155404746,
+        "compressed_frame": 30,
         "stretched_frame": 57
       },
       "RightUpLeg": {
@@ -1451,16 +1451,16 @@
       61,
       91
     ],
-    "scene_sha256": "e306e0479ccca8dddd3ca736b362ee1bd20b1aff8c6a1d4459b44c10c46405b7",
+    "scene_sha256": "2e1fed7edb8d963a0be7340edc35b2a13a25fc903e5b701cb9aa531a8a4230c1",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
   "male/straight_pulldown": {
     "failures": [],
     "metrics": {
-      "scale_error": 1.0728836059570312e-06,
+      "scale_error": 1.4901161193847656e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 4.265898806516306
+      "frame_rotation_step_deg": 1.9881254871917877
     },
     "frames": [
       1,
@@ -1592,62 +1592,62 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.5697643788856858,
-        "max_p95": 1.284534301659887,
-        "compressed_frame": 1,
-        "stretched_frame": 2
+        "min_p05": 0.556640419425989,
+        "max_p95": 1.2884284688666843,
+        "compressed_frame": 5,
+        "stretched_frame": 110
       },
       "LeftForeArm": {
-        "min_p05": 0.7201133428871112,
-        "max_p95": 1.3266100615355125,
-        "compressed_frame": 60,
+        "min_p05": 0.8175566429332242,
+        "max_p95": 1.2103557099291073,
+        "compressed_frame": 61,
         "stretched_frame": 61
       },
       "LeftUpLeg": {
-        "min_p05": 0.9183707013498172,
-        "max_p95": 1.116015530200172,
+        "min_p05": 0.8898317900038872,
+        "max_p95": 1.1735719814151147,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "LeftLeg": {
-        "min_p05": 0.8555707778477105,
-        "max_p95": 1.1021989066665676,
+        "min_p05": 0.8479894534198426,
+        "max_p95": 1.1077854237368525,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "LeftFoot": {
-        "min_p05": 0.964925803340513,
-        "max_p95": 1.0450128476546465,
+        "min_p05": 0.9604437755502192,
+        "max_p95": 1.050608826594195,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.5775295641892096,
-        "max_p95": 1.3249941235577594,
-        "compressed_frame": 1,
-        "stretched_frame": 2
+        "min_p05": 0.5795622748163669,
+        "max_p95": 1.3142970257644027,
+        "compressed_frame": 6,
+        "stretched_frame": 7
       },
       "RightForeArm": {
-        "min_p05": 0.7046424142040798,
-        "max_p95": 1.2889689526264885,
+        "min_p05": 0.8269289665854435,
+        "max_p95": 1.1669836281691304,
         "compressed_frame": 61,
-        "stretched_frame": 27
+        "stretched_frame": 61
       },
       "RightUpLeg": {
-        "min_p05": 0.9408493146365434,
-        "max_p95": 1.0743538680721627,
+        "min_p05": 0.9173137304640273,
+        "max_p95": 1.117736623344435,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "RightLeg": {
-        "min_p05": 0.9110934610402942,
-        "max_p95": 1.048980490665749,
+        "min_p05": 0.9240313928702613,
+        "max_p95": 1.0413597325577644,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "RightFoot": {
-        "min_p05": 0.9970636887692235,
-        "max_p95": 1.0222134510649437,
+        "min_p05": 0.9921192092905587,
+        "max_p95": 1.0277104136089525,
         "compressed_frame": 1,
         "stretched_frame": 1
       }
@@ -1659,16 +1659,16 @@
       61,
       91
     ],
-    "scene_sha256": "4aa1680fd838b662859e8cd05982cd1045d40defd3a8eabd0b2240561fcf65fb",
+    "scene_sha256": "acfb0b26a7f4b68d0c89e460a75d486f80ad6b6114e6ef7557ee814bfa394cfc",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
   "male/curl": {
     "failures": [],
     "metrics": {
-      "scale_error": 1.0728836059570312e-06,
+      "scale_error": 1.0132789611816406e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 2.3289854373910392
+      "frame_rotation_step_deg": 2.418997298811464
     },
     "frames": [
       1,
@@ -1800,14 +1800,14 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.7450220544121606,
-        "max_p95": 1.237887763591272,
+        "min_p05": 0.8708652507139225,
+        "max_p95": 1.1464407281422204,
         "compressed_frame": 2,
-        "stretched_frame": 4
+        "stretched_frame": 1
       },
       "LeftForeArm": {
-        "min_p05": 0.7027473814311376,
-        "max_p95": 1.4285246041553865,
+        "min_p05": 0.6332674313755314,
+        "max_p95": 1.5692147904464884,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
@@ -1830,15 +1830,15 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.7552532100872138,
-        "max_p95": 1.210950795044392,
-        "compressed_frame": 4,
+        "min_p05": 0.8914290994433719,
+        "max_p95": 1.113668618283062,
+        "compressed_frame": 2,
         "stretched_frame": 2
       },
       "RightForeArm": {
-        "min_p05": 0.8727558418919118,
-        "max_p95": 1.7684118113573635,
-        "compressed_frame": 1,
+        "min_p05": 0.7986226032914571,
+        "max_p95": 1.8569747006219197,
+        "compressed_frame": 57,
         "stretched_frame": 61
       },
       "RightUpLeg": {
@@ -1867,16 +1867,16 @@
       61,
       91
     ],
-    "scene_sha256": "b3a3b439ea947352a99f10deebdb672a2156af00e4a096c56460d713edbffc45",
+    "scene_sha256": "caee7c6672f7fcc7336dd9e60304b38381f3257ba6e5d1d9087cdd736842bb0b",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
   "male/leg_press": {
     "failures": [],
     "metrics": {
-      "scale_error": 2.2649765014648438e-06,
+      "scale_error": 2.384185791015625e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 1.3648461794357944
+      "frame_rotation_step_deg": 1.8281475157912797
     },
     "frames": [
       1,
@@ -2020,20 +2020,20 @@
         "stretched_frame": 1
       },
       "LeftUpLeg": {
-        "min_p05": 0.7389222411126601,
-        "max_p95": 1.8474153196826533,
-        "compressed_frame": 53,
+        "min_p05": 0.7388058711470357,
+        "max_p95": 1.8474243308669296,
+        "compressed_frame": 54,
         "stretched_frame": 61
       },
       "LeftLeg": {
-        "min_p05": 0.5886401325392202,
-        "max_p95": 1.387303243739309,
+        "min_p05": 0.5886453738073997,
+        "max_p95": 1.3873126194266694,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
       "LeftFoot": {
-        "min_p05": 0.7777899774074911,
-        "max_p95": 1.3236652625161962,
+        "min_p05": 0.7777818678127898,
+        "max_p95": 1.3236585769753155,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
@@ -2050,20 +2050,20 @@
         "stretched_frame": 1
       },
       "RightUpLeg": {
-        "min_p05": 0.7690605030288942,
-        "max_p95": 1.7720967542199904,
+        "min_p05": 0.7689755136783711,
+        "max_p95": 1.7720927117314922,
         "compressed_frame": 54,
         "stretched_frame": 61
       },
       "RightLeg": {
-        "min_p05": 0.5692900809359266,
-        "max_p95": 1.3080012109283314,
+        "min_p05": 0.5692860475883117,
+        "max_p95": 1.3080053627077042,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
       "RightFoot": {
-        "min_p05": 0.7613940444116986,
-        "max_p95": 1.2931911709095993,
+        "min_p05": 0.761388878935206,
+        "max_p95": 1.2932013078364395,
         "compressed_frame": 61,
         "stretched_frame": 61
       }
@@ -2075,16 +2075,16 @@
       61,
       91
     ],
-    "scene_sha256": "d411e85daa2d2513f2d8e4293b463377255ca13508c5dfb3db5f4fbbe4f50e0a",
+    "scene_sha256": "10c5f6d20312a9decbb7e4f0364fe439bd838cc129b6f181269226ba52aaab62",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
   "male/rdl": {
     "failures": [],
     "metrics": {
-      "scale_error": 1.5497207641601562e-06,
-      "elbow_axial_discontinuity_deg": 0.0,
-      "frame_rotation_step_deg": 2.132856982260946
+      "scale_error": 1.6689300537109375e-06,
+      "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
+      "frame_rotation_step_deg": 2.308054109236124
     },
     "frames": [
       1,
@@ -2216,64 +2216,64 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.5981171335814546,
-        "max_p95": 1.2513194039078122,
-        "compressed_frame": 51,
-        "stretched_frame": 63
+        "min_p05": 0.5960701053655747,
+        "max_p95": 1.2558553805607875,
+        "compressed_frame": 46,
+        "stretched_frame": 60
       },
       "LeftForeArm": {
-        "min_p05": 0.7865259328220653,
-        "max_p95": 1.2389795036986069,
+        "min_p05": 0.7865145235324139,
+        "max_p95": 1.2389853657916539,
         "compressed_frame": 1,
         "stretched_frame": 3
       },
       "LeftUpLeg": {
-        "min_p05": 0.7722497835306947,
-        "max_p95": 1.5442271961188452,
+        "min_p05": 0.7714213144091565,
+        "max_p95": 1.5518708422126148,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
       "LeftLeg": {
-        "min_p05": 0.7046610328880744,
-        "max_p95": 1.2342143890914012,
+        "min_p05": 0.7862167905864372,
+        "max_p95": 1.1574051498285838,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
       "LeftFoot": {
-        "min_p05": 0.8896576242006518,
-        "max_p95": 1.1435247830270636,
-        "compressed_frame": 18,
-        "stretched_frame": 20
+        "min_p05": 0.9291268900997508,
+        "max_p95": 1.086333991620382,
+        "compressed_frame": 1,
+        "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.6239543830565939,
-        "max_p95": 1.2990337393760414,
+        "min_p05": 0.6094066146245066,
+        "max_p95": 1.3053334422626406,
         "compressed_frame": 61,
-        "stretched_frame": 60
+        "stretched_frame": 55
       },
       "RightForeArm": {
-        "min_p05": 0.7554201478388318,
-        "max_p95": 1.164511772158367,
-        "compressed_frame": 54,
+        "min_p05": 0.7644545030167053,
+        "max_p95": 1.1601951123347465,
+        "compressed_frame": 45,
         "stretched_frame": 61
       },
       "RightUpLeg": {
-        "min_p05": 0.8041015754569609,
-        "max_p95": 1.4567173719165523,
-        "compressed_frame": 56,
+        "min_p05": 0.8078008509277755,
+        "max_p95": 1.4339474388956215,
+        "compressed_frame": 61,
         "stretched_frame": 61
       },
       "RightLeg": {
-        "min_p05": 0.7388968870111495,
-        "max_p95": 1.15793495631397,
+        "min_p05": 0.874109871286267,
+        "max_p95": 1.0705944784002515,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
       "RightFoot": {
-        "min_p05": 0.9092276764807926,
-        "max_p95": 1.1178838251946535,
-        "compressed_frame": 15,
-        "stretched_frame": 14
+        "min_p05": 0.9488257419115989,
+        "max_p95": 1.072301512521511,
+        "compressed_frame": 61,
+        "stretched_frame": 61
       }
     },
     "surface_alerts": [],
@@ -2283,7 +2283,7 @@
       61,
       91
     ],
-    "scene_sha256": "953595e507e035cad70c3013b754ba15fb393ab30df6449e395a240551d01db2",
+    "scene_sha256": "176f17dd27df20ef1f068a4198a8671d705a94dfbccc4612ce71514d0a31af9a",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
@@ -4236,7 +4236,7 @@
     "metrics": {
       "scale_error": 1.9073486328125e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 1.1218568636273019
+      "frame_rotation_step_deg": 2.979280704635372
     },
     "frames": [
       1,
@@ -4368,16 +4368,16 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.5237593672307925,
-        "max_p95": 1.63646954983814,
-        "compressed_frame": 9,
+        "min_p05": 0.4646100904126631,
+        "max_p95": 1.6843111777254425,
+        "compressed_frame": 1,
         "stretched_frame": 114
       },
       "LeftForeArm": {
-        "min_p05": 0.6667487196382585,
-        "max_p95": 1.1813288816481045,
+        "min_p05": 0.5964241445250514,
+        "max_p95": 1.2525725581034803,
         "compressed_frame": 57,
-        "stretched_frame": 57
+        "stretched_frame": 42
       },
       "LeftUpLeg": {
         "min_p05": 0.797764856698928,
@@ -4398,16 +4398,16 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.5336035595827501,
-        "max_p95": 1.7408248150690522,
-        "compressed_frame": 1,
-        "stretched_frame": 2
+        "min_p05": 0.4754579947982019,
+        "max_p95": 1.8530152692889696,
+        "compressed_frame": 4,
+        "stretched_frame": 8
       },
       "RightForeArm": {
-        "min_p05": 0.7965088508615251,
-        "max_p95": 1.3370067439001174,
+        "min_p05": 0.7558420606648946,
+        "max_p95": 1.4473361151194117,
         "compressed_frame": 57,
-        "stretched_frame": 57
+        "stretched_frame": 52
       },
       "RightUpLeg": {
         "min_p05": 0.7909836528756143,
@@ -4435,7 +4435,7 @@
       61,
       91
     ],
-    "scene_sha256": "797608dcce35fb9fc8cb8e6a454575a7d3fcf014bc752ed7a05148548840bbec",
+    "scene_sha256": "a9ee88fde6ea70441e4e52b97d9fa8213d45ed81dedf1c3c727d6b6d64772211",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
@@ -4860,7 +4860,7 @@
     "metrics": {
       "scale_error": 1.0728836059570312e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 1.6212001477375924
+      "frame_rotation_step_deg": 2.3029615628796445
     },
     "frames": [
       1,
@@ -4992,14 +4992,14 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.7615041786237225,
-        "max_p95": 1.2633500349519329,
-        "compressed_frame": 4,
+        "min_p05": 0.8313024374079213,
+        "max_p95": 1.1890570067953898,
+        "compressed_frame": 1,
         "stretched_frame": 2
       },
       "LeftForeArm": {
-        "min_p05": 0.8311010827264284,
-        "max_p95": 1.2194436561204853,
+        "min_p05": 0.713003470002864,
+        "max_p95": 1.395530891312668,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
@@ -5022,14 +5022,14 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.7912205576279573,
-        "max_p95": 1.3406669119490262,
-        "compressed_frame": 3,
-        "stretched_frame": 3
+        "min_p05": 0.8543020874309579,
+        "max_p95": 1.2380332273558385,
+        "compressed_frame": 1,
+        "stretched_frame": 2
       },
       "RightForeArm": {
-        "min_p05": 0.8538163496784095,
-        "max_p95": 1.272086479740149,
+        "min_p05": 0.7741703499847368,
+        "max_p95": 1.4376206800363474,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
@@ -5059,7 +5059,7 @@
       61,
       91
     ],
-    "scene_sha256": "9eb53d62ea38f95dbc949c58c03c3cb4023173b5414af3b235fdeca8cc47160b",
+    "scene_sha256": "2a39e0f4f97a1c6a8f8a947d365f482ca0fef7db20fd044225e75127dafd9b6c",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
@@ -5068,7 +5068,7 @@
     "metrics": {
       "scale_error": 1.430511474609375e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 0.3753437076887948
+      "frame_rotation_step_deg": 0.44936871094401126
     },
     "frames": [
       1,
@@ -5200,20 +5200,20 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.664891452534487,
-        "max_p95": 1.419952232488409,
-        "compressed_frame": 30,
+        "min_p05": 0.6994093751150692,
+        "max_p95": 1.3788990903087894,
+        "compressed_frame": 61,
         "stretched_frame": 61
       },
       "LeftForeArm": {
-        "min_p05": 0.6827728603121925,
-        "max_p95": 1.494538366351156,
-        "compressed_frame": 24,
-        "stretched_frame": 41
+        "min_p05": 0.6517193689135367,
+        "max_p95": 1.6230495011691004,
+        "compressed_frame": 16,
+        "stretched_frame": 52
       },
       "LeftUpLeg": {
-        "min_p05": 0.9709586073979803,
-        "max_p95": 1.0184310421355274,
+        "min_p05": 0.9563819878844748,
+        "max_p95": 1.0346192959563418,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
@@ -5230,20 +5230,20 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.7035303776151683,
-        "max_p95": 1.4276185055589614,
-        "compressed_frame": 46,
-        "stretched_frame": 82
+        "min_p05": 0.7566970082075949,
+        "max_p95": 1.3652124638296814,
+        "compressed_frame": 61,
+        "stretched_frame": 66
       },
       "RightForeArm": {
-        "min_p05": 0.7500835463333538,
-        "max_p95": 1.5079587761481936,
-        "compressed_frame": 4,
-        "stretched_frame": 6
+        "min_p05": 0.7105597012737518,
+        "max_p95": 1.6223534608458792,
+        "compressed_frame": 42,
+        "stretched_frame": 48
       },
       "RightUpLeg": {
-        "min_p05": 0.9607052497608252,
-        "max_p95": 1.0191496211214426,
+        "min_p05": 0.9398295973318856,
+        "max_p95": 1.0264110948820206,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
@@ -5267,7 +5267,7 @@
       61,
       91
     ],
-    "scene_sha256": "6e8e60d6f91e0daae05eaf34ab9c155174d76791afdbab35664437287522dab9",
+    "scene_sha256": "77486c3b1e77a5c0961c9984648d06958a33a5ab91fffef3606f1396e0aee91f",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
@@ -5276,7 +5276,7 @@
     "metrics": {
       "scale_error": 1.6689300537109375e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 3.631060470807124
+      "frame_rotation_step_deg": 3.331313136769472
     },
     "frames": [
       1,
@@ -5408,16 +5408,16 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.648308933431522,
-        "max_p95": 1.6087051203371445,
+        "min_p05": 0.6152392660784224,
+        "max_p95": 1.6321200140108219,
         "compressed_frame": 1,
-        "stretched_frame": 3
+        "stretched_frame": 2
       },
       "LeftForeArm": {
-        "min_p05": 0.6852564392747051,
-        "max_p95": 1.5980081652789517,
-        "compressed_frame": 46,
-        "stretched_frame": 36
+        "min_p05": 0.6884610654780089,
+        "max_p95": 1.591966482470606,
+        "compressed_frame": 47,
+        "stretched_frame": 39
       },
       "LeftUpLeg": {
         "min_p05": 0.8416754786931365,
@@ -5438,16 +5438,16 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.5615127102195726,
-        "max_p95": 1.5676650317338525,
+        "min_p05": 0.5681257516434718,
+        "max_p95": 1.5507617244312295,
         "compressed_frame": 1,
-        "stretched_frame": 2
+        "stretched_frame": 1
       },
       "RightForeArm": {
-        "min_p05": 0.7056149860981841,
-        "max_p95": 1.4752303766840682,
-        "compressed_frame": 35,
-        "stretched_frame": 45
+        "min_p05": 0.6971482306855259,
+        "max_p95": 1.4878001408129056,
+        "compressed_frame": 33,
+        "stretched_frame": 44
       },
       "RightUpLeg": {
         "min_p05": 0.8298396851088208,
@@ -5475,16 +5475,16 @@
       61,
       91
     ],
-    "scene_sha256": "851307697bea7e41d5857f3b8d3d149efffb69f13ddc9d4c491f2c6c4fec58c4",
+    "scene_sha256": "4f10e5a11573b8f7f58a84b98868453517b081dd9105920903669b1ac21450d3",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
   "female/straight_pulldown": {
     "failures": [],
     "metrics": {
-      "scale_error": 1.3113021850585938e-06,
+      "scale_error": 1.0728836059570312e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 4.6776665790274565
+      "frame_rotation_step_deg": 1.958375744488151
     },
     "frames": [
       1,
@@ -5616,62 +5616,62 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.4491352962408327,
-        "max_p95": 1.6408406840952086,
-        "compressed_frame": 1,
-        "stretched_frame": 2
+        "min_p05": 0.4397280128347068,
+        "max_p95": 1.696772576508714,
+        "compressed_frame": 15,
+        "stretched_frame": 6
       },
       "LeftForeArm": {
-        "min_p05": 0.6919496872188727,
-        "max_p95": 1.279351783215833,
-        "compressed_frame": 57,
-        "stretched_frame": 61
+        "min_p05": 0.8255943369456166,
+        "max_p95": 1.1763818183467765,
+        "compressed_frame": 61,
+        "stretched_frame": 60
       },
       "LeftUpLeg": {
-        "min_p05": 0.9352512705197327,
-        "max_p95": 1.07086624121254,
+        "min_p05": 0.9089533994349146,
+        "max_p95": 1.119601004633965,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "LeftLeg": {
-        "min_p05": 0.8842905742992463,
-        "max_p95": 1.0682400270420047,
+        "min_p05": 0.8923638740866672,
+        "max_p95": 1.0628132455557842,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "LeftFoot": {
-        "min_p05": 0.9925795450693348,
-        "max_p95": 1.0364344246229582,
+        "min_p05": 0.994663944947479,
+        "max_p95": 1.0337576821138788,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.48206702680552765,
-        "max_p95": 1.7323437402960171,
-        "compressed_frame": 1,
-        "stretched_frame": 1
+        "min_p05": 0.45192911947724346,
+        "max_p95": 1.776743205269092,
+        "compressed_frame": 8,
+        "stretched_frame": 2
       },
       "RightForeArm": {
-        "min_p05": 0.7589283467168381,
-        "max_p95": 1.2660028538299073,
+        "min_p05": 0.8556433640692339,
+        "max_p95": 1.146972205171147,
         "compressed_frame": 61,
-        "stretched_frame": 53
+        "stretched_frame": 61
       },
       "RightUpLeg": {
-        "min_p05": 0.9299868472291862,
-        "max_p95": 1.0912358426213895,
+        "min_p05": 0.9019377891332386,
+        "max_p95": 1.1461138790904737,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "RightLeg": {
-        "min_p05": 0.888237480370722,
-        "max_p95": 1.1946643069336544,
+        "min_p05": 0.8844617449531682,
+        "max_p95": 1.1999545815267254,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "RightFoot": {
-        "min_p05": 0.961232826221759,
-        "max_p95": 1.0514109206146722,
+        "min_p05": 0.9584344565884045,
+        "max_p95": 1.053374047530953,
         "compressed_frame": 1,
         "stretched_frame": 1
       }
@@ -5683,16 +5683,16 @@
       61,
       91
     ],
-    "scene_sha256": "0b35e874507e1170fe4efebed73046a6a538ca03691c0c478a798b197844ebf6",
+    "scene_sha256": "bf9e282b1f11ac901133b85d32d46e80e069a51485dcf4406b28571eefbe003d",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
   "female/curl": {
     "failures": [],
     "metrics": {
-      "scale_error": 1.1920928955078125e-06,
+      "scale_error": 1.3113021850585938e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 2.3289854373910392
+      "frame_rotation_step_deg": 2.416731170110901
     },
     "frames": [
       1,
@@ -5824,14 +5824,14 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.7331600978212214,
-        "max_p95": 1.2951050717634263,
-        "compressed_frame": 1,
-        "stretched_frame": 1
+        "min_p05": 0.8671734361679081,
+        "max_p95": 1.147249091865675,
+        "compressed_frame": 4,
+        "stretched_frame": 2
       },
       "LeftForeArm": {
-        "min_p05": 0.7242101925544142,
-        "max_p95": 1.3879445880449977,
+        "min_p05": 0.6876238269831721,
+        "max_p95": 1.560993143399124,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
@@ -5854,14 +5854,14 @@
         "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.7616926060307188,
-        "max_p95": 1.3704672753027678,
+        "min_p05": 0.8879513104789942,
+        "max_p95": 1.1869304421245683,
         "compressed_frame": 4,
-        "stretched_frame": 1
+        "stretched_frame": 4
       },
       "RightForeArm": {
-        "min_p05": 0.779908691165335,
-        "max_p95": 1.4192289060017498,
+        "min_p05": 0.7188888900775824,
+        "max_p95": 1.5225171477164474,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
@@ -5891,16 +5891,16 @@
       61,
       91
     ],
-    "scene_sha256": "a492a61ea028e2733140ac525fee8dfa87f0343202d6c0b0b5f749fc9ab08de8",
+    "scene_sha256": "b076729044d4103f02753478d981a2681cdb78c4420cbe4f1ee3146b75062232",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
   "female/leg_press": {
     "failures": [],
     "metrics": {
-      "scale_error": 2.9802322387695312e-06,
+      "scale_error": 3.0994415283203125e-06,
       "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
-      "frame_rotation_step_deg": 1.33586493973549
+      "frame_rotation_step_deg": 1.8511229914987333
     },
     "frames": [
       1,
@@ -6044,20 +6044,20 @@
         "stretched_frame": 1
       },
       "LeftUpLeg": {
-        "min_p05": 0.7694277637090652,
-        "max_p95": 1.8702599926880843,
-        "compressed_frame": 51,
+        "min_p05": 0.7695074044477335,
+        "max_p95": 1.870259616352921,
+        "compressed_frame": 52,
         "stretched_frame": 61
       },
       "LeftLeg": {
-        "min_p05": 0.5539057066113795,
-        "max_p95": 1.3778873169089112,
+        "min_p05": 0.5539043725546751,
+        "max_p95": 1.3778931066264928,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
       "LeftFoot": {
-        "min_p05": 0.8615490462921027,
-        "max_p95": 1.28555489954261,
+        "min_p05": 0.8615485213540887,
+        "max_p95": 1.2855563530470915,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
@@ -6074,20 +6074,20 @@
         "stretched_frame": 1
       },
       "RightUpLeg": {
-        "min_p05": 0.757513232199352,
-        "max_p95": 1.817284202857661,
-        "compressed_frame": 60,
+        "min_p05": 0.7575127269029752,
+        "max_p95": 1.8172842778872986,
+        "compressed_frame": 61,
         "stretched_frame": 61
       },
       "RightLeg": {
-        "min_p05": 0.6520984981614137,
-        "max_p95": 1.6373371027243786,
+        "min_p05": 0.6521016519128346,
+        "max_p95": 1.6373377593985237,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
       "RightFoot": {
-        "min_p05": 0.8019367454756821,
-        "max_p95": 1.2499106561230013,
+        "min_p05": 0.8019525872466414,
+        "max_p95": 1.2499140310761712,
         "compressed_frame": 61,
         "stretched_frame": 61
       }
@@ -6099,16 +6099,16 @@
       61,
       91
     ],
-    "scene_sha256": "b26b8dc0e8b2ee83e68b07e67c3be7778baebcf81233919107f94b207ff5111f",
+    "scene_sha256": "b5fbc03e8ceff09ab79d00ad42354092a7d7cbb3403d4b4af6b4974c03b2e138",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },
   "female/rdl": {
     "failures": [],
     "metrics": {
-      "scale_error": 1.9073486328125e-06,
-      "elbow_axial_discontinuity_deg": 0.0,
-      "frame_rotation_step_deg": 2.130286696698906
+      "scale_error": 1.7881393432617188e-06,
+      "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
+      "frame_rotation_step_deg": 2.26215417079658
     },
     "frames": [
       1,
@@ -6240,64 +6240,64 @@
     "visual_review_required": true,
     "surface_edge_ratios": {
       "LeftArm": {
-        "min_p05": 0.4933825105411621,
-        "max_p95": 1.5907032294405297,
+        "min_p05": 0.4719683815974414,
+        "max_p95": 1.6205324455821664,
         "compressed_frame": 61,
         "stretched_frame": 60
       },
       "LeftForeArm": {
-        "min_p05": 0.7871339686682464,
-        "max_p95": 1.2023347734019285,
+        "min_p05": 0.7708829617692627,
+        "max_p95": 1.2057124026069965,
         "compressed_frame": 61,
-        "stretched_frame": 3
+        "stretched_frame": 46
       },
       "LeftUpLeg": {
-        "min_p05": 0.8030561466301107,
-        "max_p95": 1.5216646255238264,
-        "compressed_frame": 61,
+        "min_p05": 0.8058996380754792,
+        "max_p95": 1.4942877341298997,
+        "compressed_frame": 55,
         "stretched_frame": 61
       },
       "LeftLeg": {
-        "min_p05": 0.7066041935673486,
-        "max_p95": 1.2058541639411662,
+        "min_p05": 0.8499698550572956,
+        "max_p95": 1.0904487067922883,
         "compressed_frame": 61,
-        "stretched_frame": 61
+        "stretched_frame": 60
       },
       "LeftFoot": {
-        "min_p05": 0.9362641015017921,
-        "max_p95": 1.1251331739654105,
-        "compressed_frame": 15,
-        "stretched_frame": 17
+        "min_p05": 0.9649062367325767,
+        "max_p95": 1.0761686473777652,
+        "compressed_frame": 1,
+        "stretched_frame": 1
       },
       "RightArm": {
-        "min_p05": 0.5419983773448216,
-        "max_p95": 1.6312641418443363,
-        "compressed_frame": 57,
+        "min_p05": 0.5270438704624055,
+        "max_p95": 1.6602255791835387,
+        "compressed_frame": 60,
         "stretched_frame": 61
       },
       "RightForeArm": {
-        "min_p05": 0.8035752280693647,
-        "max_p95": 1.1953597772671436,
+        "min_p05": 0.8035715087714717,
+        "max_p95": 1.1953703909393363,
         "compressed_frame": 1,
         "stretched_frame": 1
       },
       "RightUpLeg": {
-        "min_p05": 0.7974145669151904,
-        "max_p95": 1.5100538017493055,
+        "min_p05": 0.7969784770059821,
+        "max_p95": 1.4997273887540223,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
       "RightLeg": {
-        "min_p05": 0.7666046261726636,
-        "max_p95": 1.387861459922131,
+        "min_p05": 0.8433842862355884,
+        "max_p95": 1.2578110962735258,
         "compressed_frame": 61,
         "stretched_frame": 61
       },
       "RightFoot": {
-        "min_p05": 0.8936923615042406,
-        "max_p95": 1.1201903060365341,
-        "compressed_frame": 18,
-        "stretched_frame": 18
+        "min_p05": 0.9292763650252254,
+        "max_p95": 1.0806538271856552,
+        "compressed_frame": 1,
+        "stretched_frame": 1
       }
     },
     "surface_alerts": [],
@@ -6307,7 +6307,7 @@
       61,
       91
     ],
-    "scene_sha256": "d925340c697080a00e73dc5da4fcdcfa81d09eb751243f46343ce0365bb618ef",
+    "scene_sha256": "65531af08e3370fd7ccf3406ac8ee92df903886a4df3802400650ac31093dfb5",
     "validator_sha256": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
     "status": "automated_checks_passed"
   },

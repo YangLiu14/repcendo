@@ -2,7 +2,9 @@
   "sceneSHA256": "a78e628421506a6b5d11f8a63db6c80124a4a40b6a87bbd120008b45cc0ac691",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -16,8 +18,54 @@
   "status": "accepted",
   "notes": "实际检查五视角及额外顶端临界帧：上斜中立/交替推举的肩腋轮廓顺畅，肘部无反折，手腕握持稳定，腿部支撑无跳动。女性额外59/60与47/48帧已查看。",
   "evidence": {
-    "docs/animation-library/male/incline_alternate_press-review.jpg": "9e801e87053498aba4e8e831c16d1e0604fa664c04a14734b74992b11c5bc784"
+    "docs/animation-library/male/incline_alternate_press-review.jpg": "3ef8e483a396b008d229ee0b8c4df870a7f36c2b076dfd918a4b4ab6be70566a",
+    "build/motion-reference-review-2026-10-31/boards/incline_alternate_press.jpg": "1219d5410b8f49070bdddf295513898c112866a7bf8f952cfe9ab25662be0521"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "d6457f3fda60dcf82461078d8425be11cdb6bc4d1d66100c1cfd51c1bdeed753",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看八阶段成片、新增25/73帧的五视角图及女性顶端细查。与 Functional Bodybuilding 低位等待上斜交替版本一致：左先完整重复，右保持胸旁，再换侧，躯干与支撑稳定；保持原片。",
+    "evidence": {
+      "docs/animation-library/male/incline_alternate_press-review.jpg": "3ef8e483a396b008d229ee0b8c4df870a7f36c2b076dfd918a4b4ab6be70566a",
+      "build/motion-reference-review-2026-10-31/boards/incline_alternate_press.jpg": "1219d5410b8f49070bdddf295513898c112866a7bf8f952cfe9ab25662be0521"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "两铃胸旁、正握、上斜支撑。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "1.124999s",
+        "frame": 25,
+        "notes": "左铃推起、右铃胸旁等待。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.666663s",
+        "frame": 49,
+        "notes": "左肘近直；145帧另查右侧顶点。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.916662s",
+        "frame": 73,
+        "notes": "左铃回落，97帧低位换侧，躯干不扭转。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

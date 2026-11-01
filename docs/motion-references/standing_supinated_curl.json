@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "standing_supinated_curl",
+  "exerciseId": "0416",
+  "status": "reviewed",
+  "specificationSHA256": "5a8ad57075544cc76ef6035f819468fa215093a1a9bbc46b77eb0f06d62d879f",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "supinated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Clean Health",
+      "url": "https://www.youtube.com/watch?v=8avkX72hsKI",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际操作公开播放器查看真人阶段，仅记录自写观察和链接/时间码，不下载、提取姿态、训练或再分发真人媒体。不声称取得第三方媒体生成许可。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "7.492s",
+      "observed": "双足着地直立，双手持铃在身侧偏前，掌心朝前，上臂靠近躯干。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "8.242s",
+      "observed": "双臂同步屈肘，手掌随前臂转向上方；上臂未随哑铃抬起。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "9.150s",
+      "observed": "哑铃接近肩前，上臂仍沿躯干，手腕保持直线，躯干不后仰。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "9.983s",
+      "observed": "双前臂同时下放，经接近水平位置回到低位，全程保持旋后握。"
+    }
+  ],
+  "reviewer": "Codex actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "按精确ID采用站姿双臂同步、固定上臂和全程旋后握；原创五秒循环，肘屈曲18–110度、上臂偏离垂直不超过20度，作为此示范工程包络，不是生理极限。动作与既有近似条目分别注册，不照搬旧动画验收。"
+}

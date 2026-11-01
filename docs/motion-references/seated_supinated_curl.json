@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_supinated_curl",
+  "exerciseId": "0391",
+  "status": "reviewed",
+  "specificationSHA256": "cdf9a47fab798bde64f021027e4a2cffa0bea8899456f1deaebaf3782d37e836",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "supinated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Block Fitness",
+      "url": "https://www.youtube.com/watch?v=E99qpA3nUrQ",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际操作公开播放器查看真人阶段，仅记录自写观察和链接/时间码，不下载、提取姿态、训练或再分发真人媒体。不声称取得第三方媒体生成许可。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "20.707s",
+      "observed": "坐于凳前部，双脚着地，双臂在身体两侧，双手旋后握铃。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "22.883s",
+      "observed": "双前臂同步屈肘抬起，上臂保持身体两侧，掌心随前臂朝上。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "25.883s",
+      "observed": "双铃接近肩前，上臂仍位于躯干两侧，未抬肩或后仰借力。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "33.560s",
+      "observed": "双铃同步返回大腿外侧低位，保持旋后握，躯干与双脚稳定。"
+    }
+  ],
+  "reviewer": "Codex actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01",
+  "decisions": "采用精确0391双臂同步固定旋后握。视频可见靠背在人物后方，但不能仅凭单视角证明是否接触；本条按上游无靠背要求与OPEX坐凳支持姿势采用平凳，不能声称复刻全部器械。18–110度为示范工程包络，上臂外展约25度用于大腿与哑铃间隙，不是生理极限。"
+}

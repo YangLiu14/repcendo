@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "incline_hammer_curl",
+  "exerciseId": "0320",
+  "status": "reviewed",
+  "specificationSHA256": "e28ad2d78f2ad392aef2edb4f834dbe8a21c06e37eb2495d390b87e4a2847482",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=1Z6XiaBxwHQ",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.555s",
+      "observed": "全身侧前方：躯干靠斜凳、双足着地，双臂自然垂在肩下，掌心相对。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.088s",
+      "observed": "双臂同时屈肘，铃沿前上弧线，上臂留在身体侧后。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.888s",
+      "observed": "双铃靠近肩前，掌心相对，肘低于肩、背部保持靠垫。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.888s",
+      "observed": "铃沿原弧线回落；3.555秒再次全垂，足底和躯干无借力。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用 OPEX 的双侧同步、中立握、斜凳支撑与固定上臂；雕塑凳约60°，与视频可见较陡靠背一致，Macros Inc 文字约45°仅为另一倾角示范。男女现有五视角与完整成片已实际查看，没有将屈肘变为抬肩，保留现有媒体。",
+  "crossChecks": [
+    {
+      "publisher": "Macros Inc",
+      "url": "https://macrosinc.net/exercises/arms/incline-dumbbell-hammer-curl/",
+      "accessedOn": "2026-10-31",
+      "observed": "实际阅读步骤1–6及动作提示：背靠斜凳、双臂下垂、中立握、肘不前漂、受控回落。仅文字交叉核对，未观看该页面的演示。"
+    }
+  ]
+}

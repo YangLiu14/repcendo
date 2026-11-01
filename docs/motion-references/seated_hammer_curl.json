@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_hammer_curl",
+  "exerciseId": "1678",
+  "status": "reviewed",
+  "specificationSHA256": "0a5e430b8a7aab77feb19157aefaa57724dc609c0711c3f30fe84e4e48f016c4",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=4hKyhFBeclI",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "坐于凳前部，足底着地；双手在大腿外下垂，中立握，躯干直立。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.667s",
+      "observed": "双臂同步屈肘，哑铃沿躯干两侧的前上方弧线移动，肘留在身旁。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.335s",
+      "observed": "双铃到达肩前，掌心继续相对；没有后仰或抬起上臂。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.669s",
+      "observed": "两肘伸展，铃回落到腿外；足底与躯干保持稳定。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用坐姿、双侧同步和中立握；上臂稳定，双足和臀部支撑。初查现有男女八帧成片的握法和时序一致；不把这份来源记录当作模型通过全部视觉验收。"
+}

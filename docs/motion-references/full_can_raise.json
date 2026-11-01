@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "exercise": "full_can_raise",
+  "exerciseId": "0311",
+  "status": "reviewed",
+  "specificationSHA256": "9ec1f17aaf1fa1cd3195e07f46a29a676e1bc31ae3d959b25f2021c2287dda18",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "thumbs_up"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "The Active Life",
+      "url": "https://www.youtube.com/watch?v=N3P7rp7bCYc",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "9.172s",
+      "observed": "站姿双足支撑，双铃下垂体侧，掌心朝内/斜前，肘近伸展。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "10.479s",
+      "observed": "双臂沿介于前举与侧举之间的斜前方抬起，拇指端朝上，肘微弯。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "12.229s",
+      "observed": "双手抵肩高，铃杆近竖直，拇指朝上，躯干不后仰、双足不变。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "14.104s",
+      "observed": "双臂沿相同斜平面受控下降，15.286秒低位；腕线稳定。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用拇指朝上、肩胛平面、双侧同步肩高抬臂。真人讲解约45度侧前方，项目选择30度侧前方（OrthoBethesda文字说明30–45度）；这是项目示范选择，不是通用生理限制。BSR的135度举高示范已查看但没有用作本项目肩高峰值。",
+  "crossChecks": [
+    {
+      "url": "https://www.orthobethesda.com/blog/the-supraspinatus/amp/",
+      "publisher": "OrthoBethesda / Jim Norris PT DPT",
+      "notes": "实际阅读Full Can Raise分节：体侧低位、肩胛平面约30–45度、拇指朝上、肩高停止和受控回落。仅用作动作运动学交叉核对。"
+    }
+  ]
+}

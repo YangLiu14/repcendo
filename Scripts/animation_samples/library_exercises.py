@@ -215,10 +215,10 @@ LIBRARY_EXERCISES.update({
         family="kickback", grip="neutral", seated=True, torso_angle=-1.10, batch="006", audit_version=6),
     "seated_single_kickback": entry("0398", "坐姿单臂俯身臂屈伸", "SEATED SINGLE ARM KICKBACK",
         [("肱三头肌", "俯身稳定，完成后换侧")], ["准备", "伸肘", "收缩", "回收"],
-        family="kickback", grip="neutral", seated=True, torso_angle=-1.30, unilateral="Left", batch="006", audit_version=6),
+        family="kickback", grip="neutral", seated=True, torso_angle=-1.10, unilateral="Left", batch="006", audit_version=6),
     "seated_bent_lateral_raise": entry("2317", "坐姿屈臂侧平举", "SEATED BENT ARM LATERAL RAISE",
         [("三角肌中束", "肘约直角，向侧面抬臂")], ["准备", "侧举", "肩高", "下放"],
-        family="bent_lateral", grip="pronated", seated=True, torso_angle=0, batch="006", audit_version=6),
+        family="bent_lateral", grip="rotating", seated=True, torso_angle=0, batch="006", audit_version=6),
     "overhead_front_raise": entry("0419", "站姿哑铃过顶前平举", "FRONT RAISE ABOVE HEAD",
         [("三角肌前束", "沿前方抬至头顶，躯干稳定")], ["准备", "前举", "过顶", "下放"],
         family="overhead_raise", grip="pronated", batch="006", audit_version=6),
@@ -239,6 +239,27 @@ LIBRARY_EXERCISES.update({
         [("肱三头肌", "上臂固定，左右依次伸肘")], ["左臂伸肘", "左臂回收", "右臂伸肘", "右臂回收"],
         family="kickback", grip="neutral", torso_angle=-1.10, hip_offset=(0,-.15,-.08), alternating=True,
         frames=192, batch="007", audit_version=7),
+})
+
+# Batch 008: exact standing supinated/pronated bilateral variants.
+LIBRARY_EXERCISES.update({
+    "standing_supinated_curl": entry("0416", "站姿双臂哑铃弯举", "STANDING DUMBBELL BICEPS CURL",
+        [("肱二头肌", "掌心向前，上臂固定，双臂同步")], ["准备", "弯举", "收缩", "下放"],
+        family="curl", grip="supinated", batch="008", audit_version=8),
+    "bilateral_reverse_curl": entry("0382", "双臂反握哑铃弯举", "DUMBBELL REVERSE GRIP BICEPS CURL",
+        [("屈肘肌群", "全程反握，保持手腕稳定")], ["准备", "弯举", "收缩", "下放"],
+        family="curl", grip="pronated", batch="008", audit_version=8),
+})
+
+# Batch 009: seated fixed-supination and thigh-supported unilateral curls.
+LIBRARY_EXERCISES.update({
+    "seated_supinated_curl": entry("0391", "坐姿双臂哑铃弯举", "SEATED DUMBBELL BICEPS CURL",
+        [("肱二头肌", "掌心向前，上臂固定，双臂同步")], ["准备", "弯举", "收缩", "下放"],
+        family="curl", grip="supinated", seated=True, batch="009", audit_version=9),
+    "concentration_curl": entry("0297", "坐姿哑铃集中弯举", "DUMBBELL CONCENTRATION CURL",
+        [("肱二头肌", "上臂贴靠大腿内侧，稳定屈肘")], ["准备", "弯举", "收缩", "下放"],
+        family="curl", grip="supinated", seated=True, unilateral="Left", thigh_support=True,
+        torso_angle=-1.0, torso_angle_offset_by_sex={"female":0}, head_angle_offset_by_sex={"male":.35,"female":.35}, batch="009", audit_version=9),
 })
 
 for config in LIBRARY_EXERCISES.values():

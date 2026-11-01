@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "006412ff6a3436e24210f7d3fc6510ab2b17ea5beaefb5fa7ae1c5a0199d8c14",
+  "referenceSHA256": "574e419bd291c9ca46aa7dee9487e204065e299146ac23d38685b06bbb8b63e8",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女四视角均符合NASM双哑铃上斜推举路径；项目凳倾角较参考小，采用已校核机型，不更改动作变体。顶部保留少量肘屈曲，哑铃内收、底部肘在负重下；头背骨盆及双足稳定。保留原视频。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/incline_press.jpg": "6cb3b29246e30c9d848f254db55fb45f618e3a544386b53af13b88311834ae2d"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:00.999",
+      "frame": 61,
+      "notes": "双哑铃位于肩胸两侧，肘在负重下方。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:01.803",
+      "frame": 91,
+      "notes": "双臂同步上推并适度内收。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:02.440",
+      "frame": 1,
+      "notes": "顶部负重在胸上方、双肩未过分耸起。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:03.130",
+      "frame": 31,
+      "notes": "同步屈肘受控下降，背和骨盆维持支撑。"
+    }
+  ]
+}

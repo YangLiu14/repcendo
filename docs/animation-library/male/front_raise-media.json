@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "1760b358228457d4f7dadc85a82d22e2f31865e050cb8ebb56b6ece5616cbd28",
+  "sceneSHA256": "6e46357bb3a5785e4ddfb79a4fc02c36d772fc27b3b4ee7530b07a69c480d580",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "612a8d12b05953dcc2d4e23858acccf8c7953323e2d1bc211d76e4f75f102441",
   "files": {
-    "front_raise.mp4": "a794a3f9dfba08e90c998780b8eda0edbe56f1e2d17835925effff755cdd35d9",
-    "front_raise-poster.png": "02228d84921f809b3ebda1ed47a0bf13a04d308c83fe77f4cc7bed61eeea41e9"
+    "front_raise.mp4": "794e02318d01216e75b7e136eaae1b42b162e89c97d38c7c7e2d8bb943dd8f8b",
+    "front_raise-poster.png": "2f1c5c873c7c052e03d78b08b4c9d8285c69597648269b185c3073261f6a44fc"
   },
   "mediaValidation": {
     "decoded": true,

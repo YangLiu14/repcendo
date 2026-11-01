@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "b8eb1c34a1f8b6332faeff5935f2c849c25bbbe24fcf830907666998390f67de",
+  "sceneSHA256": "109d822e2e57780527984bab3a53a3286852abef563893c411a0d1df800006b4",
   "validatorSHA256": {
     "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
     "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
@@ -8,8 +8,8 @@
   },
   "specificationSHA256": "a078d86c2d3fe760d94bf654274e418cc2fe189e2a937c334b650cab0bfbf8bd",
   "files": {
-    "alternate_curl.mp4": "2dd0d12aa19d9f355ddf328f07c26c281e6a0eb141253097644af16be21ac96e",
-    "alternate_curl-poster.png": "bfdc4d0ad34e7899ead6e1c99074521499a542206931ffa051bcedcea7087bbd"
+    "alternate_curl.mp4": "906a06c83f02f71c048fc640482a1582d03d5096611b2a550b7c742a0f3f36f5",
+    "alternate_curl-poster.png": "fa7c83af81b176bf786e3cb6cff59d92b05d8c50d2b363cc3ceb9a59f336a550"
   },
   "mediaValidation": {
     "decoded": true,

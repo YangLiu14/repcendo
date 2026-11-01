@@ -17,7 +17,8 @@
   "notes": "已查看五视角及补拍主侧器械图：负重左肩、肘腕和哑铃位于主镜头近侧，起始屈肘、推起峰值及回程都清楚；背垫、坐垫、后方支撑和底架完整可见，保留既有照片校准结构，背部和足底接触稳定。",
   "evidence": {
     "docs/animation-library/male/single_incline_press-review.jpg": "21645fbbb05820573b41b6346b52d9a0bb9d2d1f802c17ec45c3b3b5e858a216",
-    "docs/animation-library/male/single_incline_press-equipment.jpg": "e4f46c60b1d8fa1cbe8c0bb1f4cdd72e056375a53b40bb1dcc9f75e6a7269706"
+    "docs/animation-library/male/single_incline_press-equipment.jpg": "e4f46c60b1d8fa1cbe8c0bb1f4cdd72e056375a53b40bb1dcc9f75e6a7269706",
+    "build/motion-reference-review-2026-10-31/boards/single_incline_press.jpg": "b36e6c4d3569c36c139daa8aceb1a5d981da68d7a68c7e8dbd256a0953a07227"
   },
   "activeSideViews": [
     "main"
@@ -42,5 +43,51 @@
   ],
   "equipmentEvidence": {
     "docs/animation-library/male/single_incline_press-equipment.jpg": "e4f46c60b1d8fa1cbe8c0bb1f4cdd72e056375a53b40bb1dcc9f75e6a7269706"
-  }
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "56bc7753956bbba7ac7892b05d4a15144a296bea36b44565d35e00d373d96848",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女八阶段成片、五视角图和女性57/60/61帧细查，与 NASM 上斜单臂参考对照；左侧正握推伸、回上胸旁、躯干及支撑稳定，空闲手体侧与参考大腿位置不同但不助力。没有新的明显肩肘畸变或握持翻转，保持现有动画。",
+    "evidence": {
+      "docs/animation-library/male/single_incline_press-review.jpg": "21645fbbb05820573b41b6346b52d9a0bb9d2d1f802c17ec45c3b3b5e858a216",
+      "docs/animation-library/male/single_incline_press-equipment.jpg": "e4f46c60b1d8fa1cbe8c0bb1f4cdd72e056375a53b40bb1dcc9f75e6a7269706",
+      "build/motion-reference-review-2026-10-31/boards/single_incline_press.jpg": "b36e6c4d3569c36c139daa8aceb1a5d981da68d7a68c7e8dbd256a0953a07227"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "左手胸旁正握，斜靠背/坐面/双脚支撑。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.749997s",
+        "frame": 31,
+        "notes": "左侧上推，肩肘不突变，空闲手稳定。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.499995s",
+        "frame": 61,
+        "notes": "左肘近直、铃在肩上方，躯干不旋转。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.999994s",
+        "frame": 91,
+        "notes": "控制回上胸旁，未移动靠背或脚。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

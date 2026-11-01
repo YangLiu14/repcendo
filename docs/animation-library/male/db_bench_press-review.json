@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际查看五视角四阶段：平卧姿保留原肩部变形方式后，上臂与胸廓分离清晰、肩部无塌陷；背髋支撑、足底与膝踝轮廓稳定，肘腕握持连续。",
   "evidence": {
-    "docs/animation-library/male/db_bench_press-review.jpg": "6de561b17a6628cfc04a0269b2a98ab9fbc913fc2de59052d618a3fc215054aa"
+    "docs/animation-library/male/db_bench_press-review.jpg": "6de561b17a6628cfc04a0269b2a98ab9fbc913fc2de59052d618a3fc215054aa",
+    "build/motion-reference-review-2026-10-31/boards/db_bench_press.jpg": "449d0c1b68fd418fa0df96e85bab92cc17ce39fccd2cc345548acf18821cf7f7"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "ff30693aa30d49d083eaeccf9c4f0af3a9d0be0b8f1cdf304515933e04bb496b",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女成片八阶段与五视角四阶段。与 OPEX/ Human Kinetics 相比，正握同步上推、胸侧低位和顶点小幅靠拢一致，头背臀及足部支撑稳定；肩肘、握持未见新的变形或穿模，保留现有动画。",
+    "evidence": {
+      "docs/animation-library/male/db_bench_press-review.jpg": "6de561b17a6628cfc04a0269b2a98ab9fbc913fc2de59052d618a3fc215054aa",
+      "build/motion-reference-review-2026-10-31/boards/db_bench_press.jpg": "449d0c1b68fd418fa0df96e85bab92cc17ce39fccd2cc345548acf18821cf7f7"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "仰卧胸旁正握屈肘，头背臀及足底有支撑。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.399999s",
+        "frame": 31,
+        "notes": "双侧同步上推，铃在前臂延长线上。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "0.799999s",
+        "frame": 61,
+        "notes": "双肘近直、铃不过度相撞。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "2.399998s",
+        "frame": 91,
+        "notes": "双侧同步回胸旁，身体不离凳借力。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

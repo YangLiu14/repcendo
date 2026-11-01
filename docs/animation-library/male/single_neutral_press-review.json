@@ -16,7 +16,8 @@
   "status": "accepted",
   "notes": "已实际查看新五视角：中立握的负重左手在主镜头外侧，前臂到过顶的推举路径清楚，空闲右手在远侧；肩腋、肘腕和手指握持无新增异常，头顶哑铃没有裁切。",
   "evidence": {
-    "docs/animation-library/male/single_neutral_press-review.jpg": "b9f07fa4f227b82bc7cca9a182cb9e86fedaf9e22a8c05ca23b95bc33c2633b5"
+    "docs/animation-library/male/single_neutral_press-review.jpg": "b9f07fa4f227b82bc7cca9a182cb9e86fedaf9e22a8c05ca23b95bc33c2633b5",
+    "build/motion-reference-review-2026-10-31/boards/single_neutral_press.jpg": "c896bb0f7fd48306e4389837b1bec840835067f0ae9d3b44928ad225015ca071"
   },
   "activeSideViews": [
     "main"
@@ -29,5 +30,50 @@
   ],
   "activeSideEvidence": {
     "docs/animation-library/male/single_neutral_press-review.jpg": "b9f07fa4f227b82bc7cca9a182cb9e86fedaf9e22a8c05ca23b95bc33c2633b5"
-  }
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "b356ac803961e5a82da6102e04e533eecc5bca57270c57f65c5c46afb918d273",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "男女当前主/正/侧/背/握持图与成片已实际看：左手中立握从肩旁到头顶、空闲右手体侧稳定、脚与躯干不摆动，负重手近侧可见；与OPEX单臂示范相符。保留视频；工程视觉复核。",
+    "evidence": {
+      "docs/animation-library/male/single_neutral_press-review.jpg": "b9f07fa4f227b82bc7cca9a182cb9e86fedaf9e22a8c05ca23b95bc33c2633b5",
+      "build/motion-reference-review-2026-10-31/boards/single_neutral_press.jpg": "c896bb0f7fd48306e4389837b1bec840835067f0ae9d3b44928ad225015ca071"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "左手肩旁准备，右手空闲。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.799998s",
+        "frame": 31,
+        "notes": "单臂上推，另一侧保持。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.599996s",
+        "frame": 61,
+        "notes": "伸肘头顶终点，无躯干侧倾。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "3.199994s",
+        "frame": 91,
+        "notes": "原路径回落，成片回肩旁。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

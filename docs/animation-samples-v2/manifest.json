@@ -89,36 +89,36 @@
   "review_status": "Visual motion prototypes; no professional movement review yet.",
   "files": {
     "female/bench-poster.png": {
-      "bytes": 288872,
-      "sha256": "1dca4eae2f332f0930714d736dc3b1ffa7033daf408a57d8310b2b5aa733e78e"
+      "bytes": 288532,
+      "sha256": "4cc16be394362066f9803c37042c5cb68e87f93b2146f2bc54bd39c382e7b615"
     },
     "female/bench.blend": {
-      "bytes": 16215658,
-      "sha256": "f6ced8c721f07dea231a9ee0b7e9d3896e9732f063615faf32ae00c6c5227f3b"
+      "bytes": 16216077,
+      "sha256": "08affeab6c57f03c379a1d412d31032956bdd91e667c473f84d3ed7d7026ab09"
     },
     "female/bench.gif": {
-      "bytes": 1460981,
-      "sha256": "494c211ae2ba76a609cb975d56716b5f3a44860c673edcbbd5bea0391621972c"
+      "bytes": 1515094,
+      "sha256": "540c8121f36d47ecbed03aa3cf871923979515c9742bcd15d745e636b56f3632"
     },
     "female/bench.mp4": {
-      "bytes": 152953,
-      "sha256": "6e089a2daa8b7dee85cd234b80421f99ae646fb1b9e789282832b68ba9e91f25"
+      "bytes": 152755,
+      "sha256": "9f73531cccc3a0e09378a879b549d9636baa595e465739f0781f54002e188d70"
     },
     "female/row-poster.png": {
-      "bytes": 357491,
-      "sha256": "6336efff26541afd3a8df8692ec57c7c717e0ce1fb154cf01d6d5df77c203596"
+      "bytes": 345903,
+      "sha256": "979fe67fa53a209ba63cb80949ec718a9d265bd9d9106ffa84f6e6a7cc1dd544"
     },
     "female/row.blend": {
-      "bytes": 16347128,
-      "sha256": "4f7d4c8e37aa9520b0e94637937946881cffe3192b8d56f6b3a1b597657bd831"
+      "bytes": 21994605,
+      "sha256": "a9ee88fde6ea70441e4e52b97d9fa8213d45ed81dedf1c3c727d6b6d64772211"
     },
     "female/row.gif": {
-      "bytes": 1753355,
-      "sha256": "9e44c8c6cc68945769698d9e33a82e06e4a0404cab480d5e11fcc572aab4024f"
+      "bytes": 1710325,
+      "sha256": "998ed23bb251ae497b9619c5c7516b987a0b4b5cdd495b8da7fb09638f8c2338"
     },
     "female/row.mp4": {
-      "bytes": 172170,
-      "sha256": "4681700374ec25558d38bdfb5f4871378493cf8192631aa84acc9d114917da85"
+      "bytes": 159675,
+      "sha256": "21937044438c1ad33d389bd564390991c7f41408f629f6d74a5253ddbb444c75"
     },
     "female/squat-poster.png": {
       "bytes": 257648,
@@ -193,36 +193,36 @@
       "sha256": "c8e9d4c32ba0a56cb44938671eff8ef295626d42cada9385bee176f6edab6930"
     },
     "male/bench-poster.png": {
-      "bytes": 294612,
-      "sha256": "69754abf9e8f17187eaa4ffd44ae1dc02d170354c64766fcf252bb91a94cba82"
+      "bytes": 293820,
+      "sha256": "f960015ba4486bf0f22e339be5a238806f96806c4b16f914abe32ec791a18a17"
     },
     "male/bench.blend": {
-      "bytes": 16689084,
-      "sha256": "81548a622de5d1af452e2e5f2529fee56fc73594e227da07b54c80cbb0c3802a"
+      "bytes": 16689373,
+      "sha256": "d85586410704a3806682dbe489761b39e9413e53969d6e56e7c0b8d1a40d61db"
     },
     "male/bench.gif": {
-      "bytes": 1557599,
-      "sha256": "c7238db062b4b2f30e4198b4255ca2f8391c157edfafec40628e32044feb98a9"
+      "bytes": 1576517,
+      "sha256": "0c20fd504e94ecca7376b5e60411e1316eeac5172cec2c1cb51dceafc76445ca"
     },
     "male/bench.mp4": {
-      "bytes": 160662,
-      "sha256": "3e8fd5591102354c07808e1da0ac1c9168e6a957afa3d7b8731bfe173a9366c9"
+      "bytes": 160740,
+      "sha256": "4a82453d05fec004263f1f3713abb5c7e005c5c45f38f0fb36eeb9438955de96"
     },
     "male/row-poster.png": {
-      "bytes": 370448,
-      "sha256": "2d38c57854e35c232d3258661fa6c3edf64da73b43f72269537ae05fae908ac9"
+      "bytes": 355605,
+      "sha256": "543e48dbfe51625feed0a588e8d79921c9e7dfd7effcf222606aec792fbd2833"
     },
     "male/row.blend": {
-      "bytes": 16349363,
-      "sha256": "f924706a6258afbb78e3c7834f8c4d6363cb36f5d8097697a8ed777efaf0a8d4"
+      "bytes": 20965349,
+      "sha256": "02cc46bdc6005c5cc5f1644e251bc9b1b9b72e88a267f2017e06db52e03daf3d"
     },
     "male/row.gif": {
-      "bytes": 1892709,
-      "sha256": "854c841675c3a0f9e4f0ab47175d544f4c05dccfe33823afba0d60ff0777d0b0"
+      "bytes": 1998378,
+      "sha256": "126ba77bcd5e9a4d617afe7bd881b119e04743edfe2028fd2b5de7c6e6070c0a"
     },
     "male/row.mp4": {
-      "bytes": 185467,
-      "sha256": "79c1ae73c3375828716bcdcd234be965dedb890e48ff018076d3b11ff90600ce"
+      "bytes": 170393,
+      "sha256": "7effb4c5c99cf2b2e28acf46c283ad57e719c9f92c993eec1d558af5cf553107"
     },
     "male/squat-poster.png": {
       "bytes": 267329,

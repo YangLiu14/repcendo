@@ -16,8 +16,54 @@
   "status": "accepted",
   "notes": "实际检查五视角全部关键阶段：肩胛平面抬臂及侧举转前举过程中，肩腋表面连续、前臂不扭瘪，掌向正确；站姿膝部微屈，小腿和踝部自然衔接。",
   "evidence": {
-    "docs/animation-library/male/full_can_raise-review.jpg": "83c467407fd27e81b38b9a3b27350379b54826e88a2c4250c96ea3b483ffea22"
+    "docs/animation-library/male/full_can_raise-review.jpg": "83c467407fd27e81b38b9a3b27350379b54826e88a2c4250c96ea3b483ffea22",
+    "build/motion-reference-review-2026-10-31/boards/full_can_raise.jpg": "10cc5e6cd22671f0ff498cbaf511c37d2e73539743ee1b918997dca59940fcae"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "3b550c8d9298aaeadf526517e1f94ff5135f381dc2ccca513ed305085712ef15",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看当前男女五视角四阶段及已看八阶段成片，对照The Active Life肩高拇指朝上示范。前/侧视确认是斜前方肩胛平面而非纯侧举，峰值拇指端朝上、肘微弯，双足躯干稳定，回程连续。项目选择约30度侧前方，来源约45度，均在文字交叉核对的30–45度范围；未见需要修订的动作问题。",
+    "evidence": {
+      "docs/animation-library/male/full_can_raise-review.jpg": "83c467407fd27e81b38b9a3b27350379b54826e88a2c4250c96ea3b483ffea22",
+      "build/motion-reference-review-2026-10-31/boards/full_can_raise.jpg": "10cc5e6cd22671f0ff498cbaf511c37d2e73539743ee1b918997dca59940fcae"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "9.172s",
+        "frame": 1,
+        "notes": "双铃低位体侧，手臂略外展留器械间隙。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "10.479s",
+        "frame": 31,
+        "notes": "双臂同步沿斜前方抬起，拇指端朝上。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "12.229s",
+        "frame": 61,
+        "notes": "肩高停止，肘轻弯、腕保持连续，没有过顶。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "14.104s",
+        "frame": 91,
+        "notes": "沿原路径回落，双足和躯干保持稳定。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

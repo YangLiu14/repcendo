@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "cross_body_hammer_curl",
+  "exerciseId": "0298",
+  "status": "reviewed",
+  "specificationSHA256": "2de08970c1aec64e7aa67fc73e6e4d167fa31188695dd19e7b6643d23a36b8f1",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Horton Barbell / Coach Ryan Horton, CSCS",
+      "url": "https://www.youtube.com/watch?v=7MrzVaPM0Uw",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "正面全身，双手中立握自然垂于髋旁，双足着地，躯干直立。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.399997s",
+      "observed": "右前臂屈曲跨向左胸，拇指一端抬起，等待侧仍垂于髋旁。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "0.799995s",
+      "observed": "右铃靠近左胸/肩前，肘贴近身体，铃轴接近竖直，躯干无明显旋转。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.599994s",
+      "observed": "右前臂伸展下放，2.199996秒回低位，3.199995秒左侧举至对侧胸前。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用固定上臂、左右交替、跨向对侧胸部的中立握弯举。雕塑为胸部及握持留出净空，上臂保持约28度轻微前外偏，未完全复刻真人近垂直上臂；女性屈肘峰值102度、男性110度。相比旧版减少上臂前抬，低位肘角约18度。保留此明确的体型适配差异，不把无穿模等同于真人角度一致。",
+  "crossChecks": [
+    {
+      "publisher": "Horton Barbell",
+      "url": "https://www.youtube.com/watch?v=7MrzVaPM0Uw",
+      "locator": "Publisher description: Step-by-Step Instructions and Tips",
+      "observed": "实际读取发布者教学说明：中立握、肘在身侧，向对侧肩弯举，受控回程，不摆动/转动躯干，腕稳定。"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "b076729044d4103f02753478d981a2681cdb78c4420cbe4f1ee3146b75062232",
+  "referenceSHA256": "4ee59b9b5b76b063051b579e2c9f4ddbfed7f552fa3aecee2e72b915aa9efc7a",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female版本实际查看全景四视图、正侧背去器械人体图；动作与Clean Health四阶段对应。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/curl.jpg": "8a57ff973990d745bd47ddf55b1d252efba72020a090fd385314f4736ec8cb2f",
+    "docs/animation-plan-v3/deformation-review/female/curl.jpg": "a631e9b1638018583716e3f73b9ab462502515c5998ada46884e019788503db3"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "6.666658s",
+      "frame": 1,
+      "notes": "低位双臂伸展，旋后握，上臂在躯干旁且足底稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "8.333316s",
+      "frame": 31,
+      "notes": "双肘同步屈曲，侧视上臂没有随铃前摆。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "8.999984s",
+      "frame": 61,
+      "notes": "哑铃上举至肩前，肘屈曲充分，未挤入胸部。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "9.999987s",
+      "frame": 91,
+      "notes": "沿同一路径受控回落，双侧同步，肩躯干位置稳定。"
+    }
+  ]
+}

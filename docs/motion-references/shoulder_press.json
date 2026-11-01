@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "shoulder_press",
+  "exerciseId": "0405",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "9e4436b368ec8e9a26e92370674aaa45267c96ad0258b249582cd7db67322a6e",
+  "variant": {
+    "equipment": "双哑铃与近直立靠背凳",
+    "posture": "坐姿双臂推举",
+    "grip": "掌心朝前，腕在肘上方",
+    "support": "臀部和背部靠凳，双足落地"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "GettFit",
+      "url": "https://www.youtube.com/watch?v=wJFOnmqwt94",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "2.338秒",
+      "observed": "低位肘约肩高、哑铃在耳侧，背部贴靠背。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "2.738秒",
+      "observed": "双肘向上伸，哑铃在头两侧上移并轻收拢。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "3.005秒",
+      "observed": "双手头顶上方，肘仍微弯，双铃不碰撞，躯干不后仰。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "3.471秒",
+      "observed": "两肘向侧下方回落，背部与坐姿支撑保持。"
+    }
+  ],
+  "decisions": "采用坐姿旋前握同步推举；观察视频选定软肘顶端，不要求肘过伸。先前裁切未显示铃顶的截图不作高位证据。",
+  "crossChecks": [
+    "https://www.gettfit.com/exercise-database/shoulders/dumbbell-shoulder-press/"
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

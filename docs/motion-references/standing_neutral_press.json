@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "standing_neutral_press",
+  "exerciseId": "0427",
+  "status": "reviewed",
+  "specificationSHA256": "f87c1f5dab15e5e5e23772d12acd1e42ac9b1c7c635a216e409d7a7ecf7908e0",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=LZImFJfg12Q",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "站立双足着地，掌心相对、铃在肩前旁，肘较收拢。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.799998s",
+      "observed": "双侧同时向上推，前臂在负重下，膝髋保持。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.599997s",
+      "observed": "双肘伸直，铃举至头顶，上身不借力后仰。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "3.399995s",
+      "observed": "沿原方向回落，4.399994秒回到肩前旁低位。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "保留站姿双侧中立握、前臂向上、肩旁到头顶。项目低位比OPEX更外展，肘约肩高以下；M&S肩高起点说明支持该选定版本。无蹲起借力，未将坐姿来源替代站姿稳定依据。",
+  "crossChecks": [
+    {
+      "publisher": "Muscle & Strength",
+      "url": "https://cdn.muscleandstrength.com/exercises/standing-palms-in-dumbbell-press.html",
+      "locator": "Instructions 1–5 / Tips",
+      "observed": "实际读取：肩宽站姿、中立握，铃举至肩高，伸肘向上推再受控回到起点。公开嵌入播放器未加载出可观看画面，真人依据使用OPEX。"
+    }
+  ]
+}

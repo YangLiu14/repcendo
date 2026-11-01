@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "exercise": "incline_hammer_press",
+  "exerciseId": "0321",
+  "status": "reviewed",
+  "specificationSHA256": "530c31fa87968bcefe011d617d43e30b7fcd6168da78b4c5cb74f791e375c1f3",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "inclined",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Dylan Harris / Fit Status Personal Training",
+      "url": "https://www.youtube.com/watch?v=PeBZA6wwRzs",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "10.519997s",
+      "observed": "约45度上斜凳，两铃在胸侧，掌心相对，双脚与背臀保持支撑。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "11.019996s",
+      "observed": "双侧开始同步伸肘，哑铃仍维持中立握。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "11.519996s",
+      "observed": "双臂近直，双铃到达肩上方，未把中立握转成正握。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "12.519995s",
+      "observed": "顶端后开始控制回落；13.519994秒低位回胸侧。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "保留约45度上斜、中立握及双侧同步。项目低位肘比示范略外展以留体型间隙，未形成正握式宽肘姿态。",
+  "crossChecks": [
+    {
+      "publisher": "Dylan Harris",
+      "url": "https://www.youtube.com/watch?v=PeBZA6wwRzs",
+      "locator": "Publisher description",
+      "observed": "实际读取45度靠背、双足平放、核心稳定、肘内收、中立握推起与受控回落。"
+    },
+    {
+      "publisher": "Human Kinetics",
+      "url": "https://us.humankinetics.com/blogs/excerpt/how-to-perform-a-dumbbell-bench-press",
+      "locator": "Incline Dumbbell Bench Press and Neutral-Grip modification",
+      "observed": "已读上斜约45度、回上胸旁及中立握掌心向内的共同要点。"
+    }
+  ]
+}

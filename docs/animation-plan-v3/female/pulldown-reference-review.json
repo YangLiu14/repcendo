@@ -1,0 +1,52 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "4f10e5a11573b8f7f58a84b98868453517b081dd9105920903669b1ac21450d3",
+  "referenceSHA256": "d084703185f853b00071dd7e6e1450afc053ea01defed83f0e090911e994af56",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。对照PureGym正握宽距高位下拉四阶段。男女起点两肘软伸直约22°，拉杆降到上胸，双脚、大腿压垫与骨盆稳定；正侧背人体图未见肘腋拉伸或扭曲。主视角仍有手臂局部遮挡，由正侧图补验。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/pulldown.jpg": "bee1596bcf0065e064f5d0524318c8a12a33f108c160f31eb525d3f00969241b",
+    "docs/animation-plan-v3/deformation-review/female/pulldown.jpg": "0291026d30989daae8436117767438923a01d6c699a6899a6b6514e1830c1215"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000秒",
+      "frame": 1,
+      "notes": "高位双手等高，软肘而非一侧明显屈曲。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.833秒",
+      "frame": 31,
+      "notes": "双肘向下移动，躯干不过度后仰。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.339秒",
+      "frame": 61,
+      "notes": "拉杆至上胸，左右肘均屈曲。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.678秒",
+      "frame": 91,
+      "notes": "控制回升，骨盆不离凳。"
+    }
+  ]
+}

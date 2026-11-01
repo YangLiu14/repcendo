@@ -1,0 +1,79 @@
+{
+  "sceneSHA256": "700591d0626b23ca5474fd6fd393bc991ee43af7e59476fbb5129e8136f2d2dd",
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back",
+    "grip"
+  ],
+  "status": "accepted",
+  "notes": "实际查看女性五视角四阶段和左右手1/31/61近景。与Clean Health女性示范对照，双臂同步旋后弯举，上臂稳定且前臂路径可辨。重点复核此前右腿低位碰撞现已消除，左侧同样保持间隙；腕线、肩腋与双足支撑正常。保留原创衣褶和简化哑铃，中央握柄与对称端头没有伸缩。",
+  "evidence": {
+    "docs/animation-library/female/standing_supinated_curl-review.jpg": "a64334de01982e9a0f28dbee10587d01e5b30c5cfdabdf972137cab6eb5e7b30",
+    "docs/animation-library/female/standing_supinated_curl-grips.jpg": "242a42c412a2469f8c4946e6e3bc480627fdebe6b74ac51ad2a47ae2fab76169"
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "a8adc0ad12f4c884949c23ddfaba0f7da9a47b33b814b04378462d4c3631682d",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看女性五视角四阶段和左右手1/31/61近景。与Clean Health女性示范对照，双臂同步旋后弯举，上臂稳定且前臂路径可辨。重点复核此前右腿低位碰撞现已消除，左侧同样保持间隙；腕线、肩腋与双足支撑正常。保留原创衣褶和简化哑铃，中央握柄与对称端头没有伸缩。",
+    "evidence": {
+      "docs/animation-library/female/standing_supinated_curl-review.jpg": "a64334de01982e9a0f28dbee10587d01e5b30c5cfdabdf972137cab6eb5e7b30"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "7.492s",
+        "frame": 1,
+        "notes": "1帧为掌心前向的轻屈肘低位，右侧哑铃与大腿分离，双足稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "8.242s",
+        "frame": 31,
+        "notes": "31帧双肘同步屈曲、上臂未随动，前臂掌面向上。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "9.150s",
+        "frame": 61,
+        "notes": "61帧到肩前收缩，肩肘腕连续，双手持铃未穿入胸侧。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "9.983s",
+        "frame": 91,
+        "notes": "91帧沿同一路径下降，未转成锤式握法，衣褶及肩腋未出现新的挤压。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31",
+  "reviewer": "Codex: actual rendered multi-view and human-reference comparison, not professional coach certification",
+  "gripSides": [
+    "Left",
+    "Right"
+  ],
+  "gripFrames": [
+    1,
+    31,
+    61
+  ],
+  "gripEvidence": {
+    "docs/animation-library/female/standing_supinated_curl-grips.jpg": "242a42c412a2469f8c4946e6e3bc480627fdebe6b74ac51ad2a47ae2fab76169"
+  }
+}

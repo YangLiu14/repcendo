@@ -1,0 +1,24 @@
+{
+  "status": "accepted",
+  "reviewedAt": "2026-11-01",
+  "method": "Actual visual review of 15 frames sampled at 3 fps from the final encoded video; multi-view/grip/support evidence reviewed separately.",
+  "videoSHA256": "9136fe3d95228fe37694b23a80587cf2e7bb7566aaf6eb790f3dc82c10f70860",
+  "evidence": {
+    "concentration_curl-playback.jpg": "8861ff527775fe0ec692353d63504f87c9a13e96b77043d00f62d5ac571a953e"
+  },
+  "notes": [
+    "实际查看最终编码视频3fps共15帧，覆盖准备、弯举、峰值、回程及接近循环起点；标题、肌群图、阶段条与完整器械构图正常，未见可见突变。",
+    "左侧外侧手全程可见，左上臂靠腿、右前臂搭腿及空手下垂保持稳定，低位哑铃与小腿分离。"
+  ],
+  "browserPlaybackStatus": "passed",
+  "browserPlayback": {
+    "currentTime": 5,
+    "duration": 5,
+    "ended": true,
+    "error": null,
+    "height": 960,
+    "paused": true,
+    "src": "http://127.0.0.1:8770/animation-library/male/concentration_curl.mp4?v=9136fe3d9522",
+    "width": 1280
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "214e17a67f3fb6f6dcf9ff6dfceabe7865d391e7c8d93371fa31890eee50a834",
+  "referenceSHA256": "3b0e414303506b8b97b546a670795f053791b09a25dd2b75e4f773d913d21acd",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女主/背视角显示双臂水平外展，肘角较稳定，顶端不强行后拉；侧视确认胸垫、座垫和双足位置连续，握把与顶轴摆臂连接成立。未见手臂扭转或支撑失联，保留现有视频。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/reverse_fly.jpg": "5795c80806dce2adb2739a8797629ecebe19f3ece207c01d29edf068f5737d5f"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "190.379秒",
+      "frame": 1,
+      "notes": "前伸双臂握竖把，胸前有固定靠垫。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "191.046秒",
+      "frame": 31,
+      "notes": "双臂同步水平外展，躯干保持面向器械。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "191.979秒",
+      "frame": 61,
+      "notes": "接近肩线停止，肩胛随动而不耸肩。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "192.979秒",
+      "frame": 91,
+      "notes": "原弧线回到胸前，膝足与坐位保持。"
+    }
+  ]
+}

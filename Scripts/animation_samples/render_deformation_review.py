@@ -94,7 +94,7 @@ for sex in [a.sex] if a.sex else ["male", "female"]:
                 bpy.ops.render.render(write_still=True)
         # Isolated-body views cannot establish whether the hands face the rope
         # correctly. Keep the equipment visible in a separate close-up series.
-        if name == "cable_crunch":
+        if name in ("cable_crunch", "pushdown"):
             for o in s.objects:
                 o.hide_render = visibility[o.name]
             rig = next(o for o in s.objects if o.type == "ARMATURE")

@@ -1,8 +1,10 @@
 {
-  "sceneSHA256": "123d6f2047a2c34ff55a313f13804c8b00cf3a18ff4a6f042c901da7330d747a",
+  "sceneSHA256": "7745811feb32f7fad03d1e5cb5938f5315381e533374d2390236b68260d3b3f2",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -14,10 +16,52 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已实际查看全部五视角四阶段。坐姿下肢轮廓连贯，膝盖、踝部无新增尖折，足底与座面支撑稳定。前举至肩高时肩腋无异常外鼓，双臂/交替时序与掌向可辨，手腕和握持保持连续。原衣褶保留。",
+  "notes": "实际查看male六阶段五视角板（1/25/49/73/97/145），对照incharge真人中立握坐姿交替前平举。低位与等待手现在落在髋旁，侧视消除旧前抬；抬臂期间铃片从大腿外侧通过再收向身前，峰值肩高、拇指朝上、肘微弯。两侧分别完整重复，躯干与双足/坐凳支撑稳定，主及近景未见明显穿插或腕部翻转。",
   "evidence": {
-    "docs/animation-library/male/seated_alternate_front_raise-review.jpg": "392ad7a66869e440df47393bf5498c4ac4b8bcda76c69d4595f1889b23779ce1"
+    "docs/animation-library/male/seated_alternate_front_raise-review.jpg": "d71e8bff5380059a6d885cd1245ab2ad5e7c2268bb86f1965a0388dff21fc5a2"
   },
-  "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "fe7d40b7e8a9291f3c845a2ced110b06e64c3ab9602415b363a60465081ac824",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看male六阶段五视角板（1/25/49/73/97/145），对照incharge真人中立握坐姿交替前平举。低位与等待手现在落在髋旁，侧视消除旧前抬；抬臂期间铃片从大腿外侧通过再收向身前，峰值肩高、拇指朝上、肘微弯。两侧分别完整重复，躯干与双足/坐凳支撑稳定，主及近景未见明显穿插或腕部翻转。",
+    "evidence": {
+      "docs/animation-library/male/seated_alternate_front_raise-review.jpg": "d71e8bff5380059a6d885cd1245ab2ad5e7c2268bb86f1965a0388dff21fc5a2"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "22.800s",
+        "frame": 1,
+        "notes": "双手低位髋旁、中立握，坐凳与足底稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "23.600s",
+        "frame": 25,
+        "notes": "左臂从腿外向前抬，右侧仍垂于髋旁。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "24.600s",
+        "frame": 49,
+        "notes": "左手肩高停止，肘微弯、拇指向上，等待手不跟随抬起。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "26.600s",
+        "frame": 73,
+        "notes": "左侧沿原路下放；另核对97换侧低位、145右侧峰值。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31"
 }

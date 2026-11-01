@@ -1,0 +1,52 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "bf9e282b1f11ac901133b85d32d46e80e069a51485dcf4406b28571eefbe003d",
+  "referenceSHA256": "ec0ce0a9bdb3a383b7e23080128241da1976a5f47ae9a02db4e03427edde847a",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女全景及去器械人体正侧背四阶段已实际查看：固定软肘、稳定前倾、杆从头前上方下拉至大腿；两手共同横杆无斜穿，腋窝和肘部连续。正面器械遮挡由人体图补全。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/straight_pulldown.jpg": "d44e7ed0356332c4ef1f6e0031536ace21bb3be04ba61ca281decf1c4f2eb6fe",
+    "docs/animation-plan-v3/deformation-review/female/straight_pulldown.jpg": "ad81bfb23f3f8e7755229cc50f78cf1e651f58c72c16cd52f860d890032478a1"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "3.216秒",
+      "frame": 1,
+      "notes": "软肘高位，足底稳定，肩上举。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "4.288秒",
+      "frame": 31,
+      "notes": "两上臂向下摆，肘不再随动弯曲。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.072秒（前一次重复）",
+      "frame": 61,
+      "notes": "横杆位于大腿前，肩伸展、躯干稳定。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.144秒（前一次回程）",
+      "frame": 91,
+      "notes": "沿原弧线受控返回，双手没有在杆上滑动。"
+    }
+  ]
+}

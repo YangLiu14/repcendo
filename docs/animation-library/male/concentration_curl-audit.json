@@ -1,0 +1,4351 @@
+{
+  "sceneSHA256": "32abe20500f0c383d19a3a4489d8299d13e4cc9df24e140c91c6364331634b24",
+  "validatorSHA256": {
+    "collision_audit.py": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
+    "deformation_audit.py": "27b9f6dfa442c6835bd04523cea68bea11a29d1723a537d141248d1abe27ada0",
+    "library_audit_v9.py": "e5bc15565f4ca58041ca1f3e51a3a71dfbf391010ef0b64eaea64e0fba634409",
+    "library_scene_v9.py": "c584b7e376571288fc317f6f4ea0c9fa39558815381e0a5ae3e2b7fd490f6284",
+    "equipment-reference": "28b971849ee96725ce7b6e021cdd169b322191a3282533ddfff89805bfb0a330"
+  },
+  "specificationSHA256": "09fb732b1531316ced722e08aaf89d494bf6ac8d6f89bcb18452681c7528d23e",
+  "frames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121
+  ],
+  "collision": {
+    "hits": [],
+    "tolerance_m": 0.002,
+    "checks": {
+      "body_in_equipment": true,
+      "equipment_in_body": true,
+      "nonlocal_self_intersection": true
+    }
+  },
+  "deformation": {
+    "failures": [],
+    "metrics": {
+      "scale_error": 2.682209014892578e-06,
+      "elbow_axial_discontinuity_deg": 1.730284401098934e-05,
+      "frame_rotation_step_deg": 2.437371574895856
+    },
+    "frames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "weight_range": [
+      0.9999998435378075,
+      1.0000000894069672
+    ],
+    "visual_review_required": true,
+    "surface_edge_ratios": {
+      "LeftArm": {
+        "min_p05": 0.5729205177504607,
+        "max_p95": 1.29147843582778,
+        "compressed_frame": 1,
+        "stretched_frame": 3
+      },
+      "LeftForeArm": {
+        "min_p05": 0.6233631644577765,
+        "max_p95": 1.5672393633836461,
+        "compressed_frame": 61,
+        "stretched_frame": 61
+      },
+      "LeftUpLeg": {
+        "min_p05": 0.7352623771216434,
+        "max_p95": 1.9890750402482216,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "LeftLeg": {
+        "min_p05": 0.617376090250842,
+        "max_p95": 1.3357607097478619,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "LeftFoot": {
+        "min_p05": 0.9871357502722024,
+        "max_p95": 1.021427080238806,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "RightArm": {
+        "min_p05": 0.81590587665626,
+        "max_p95": 1.1131759014497729,
+        "compressed_frame": 3,
+        "stretched_frame": 1
+      },
+      "RightForeArm": {
+        "min_p05": 0.8677084295461506,
+        "max_p95": 2.006367375998324,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "RightUpLeg": {
+        "min_p05": 0.7609466941634545,
+        "max_p95": 1.9017902340653516,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "RightLeg": {
+        "min_p05": 0.6164746598871862,
+        "max_p95": 1.2756252124597054,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      },
+      "RightFoot": {
+        "min_p05": 0.9889149784738696,
+        "max_p95": 1.0314227074543616,
+        "compressed_frame": 1,
+        "stretched_frame": 1
+      }
+    },
+    "surface_alerts": [],
+    "review_frames": [
+      1,
+      31,
+      61,
+      91
+    ]
+  },
+  "motion": {
+    "failures": [],
+    "samples": [
+      {
+        "frame": 1,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733348676991516,
+        "digitGaps": {
+          "Thumb": 0.003291467096597474,
+          "Index": 0.0017333486769915158,
+          "Middle": 0.002727053482680082,
+          "Ring": 0.0036835702006901196,
+          "Pinky": 0.004064202774361704
+        },
+        "handDrift": 0.0,
+        "elbowFlexion": 24.999979635938438,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 2,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733463971815576,
+        "digitGaps": {
+          "Thumb": 0.0032917959062906694,
+          "Index": 0.0017334639718155753,
+          "Middle": 0.0027275709798469158,
+          "Ring": 0.0036837698572562434,
+          "Pinky": 0.004064409105412168
+        },
+        "handDrift": 7.553456737163808e-07,
+        "elbowFlexion": 25.063717253725706,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 3,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998509883881,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573363192177282,
+        "digitGaps": {
+          "Thumb": 0.0032915165802560754,
+          "Index": 0.001733631921772819,
+          "Middle": 0.0027274580697353844,
+          "Ring": 0.0036837453429781706,
+          "Pinky": 0.00406432852894951
+        },
+        "handDrift": 6.986330262063223e-07,
+        "elbowFlexion": 25.254725201412406,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 4,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573378218010315,
+        "digitGaps": {
+          "Thumb": 0.003291586308146072,
+          "Index": 0.001733782180103149,
+          "Middle": 0.002727454591787552,
+          "Ring": 0.00368394555474018,
+          "Pinky": 0.004064327975975371
+        },
+        "handDrift": 9.204174193943621e-07,
+        "elbowFlexion": 25.57247413933786,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 5,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733530674986732,
+        "digitGaps": {
+          "Thumb": 0.0032917544806085382,
+          "Index": 0.001733530674986732,
+          "Middle": 0.0027273086653976392,
+          "Ring": 0.003683783481139272,
+          "Pinky": 0.004064419948727879
+        },
+        "handDrift": 7.581008921611325e-07,
+        "elbowFlexion": 26.016112001403112,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 6,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573347077167699,
+        "digitGaps": {
+          "Thumb": 0.0032916023647831093,
+          "Index": 0.0017334707716769888,
+          "Middle": 0.002727604917818682,
+          "Ring": 0.003683694779907149,
+          "Pinky": 0.004064231096915382
+        },
+        "handDrift": 8.12645666560154e-07,
+        "elbowFlexion": 26.58443496676695,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 7,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733574609071245,
+        "digitGaps": {
+          "Thumb": 0.0032917423155498,
+          "Index": 0.0017335746090712447,
+          "Middle": 0.0027274921725904764,
+          "Ring": 0.0036837991653871065,
+          "Pinky": 0.0040646450642516565
+        },
+        "handDrift": 1.0500015488054206e-06,
+        "elbowFlexion": 27.275860139089218,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 8,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733578430664558,
+        "digitGaps": {
+          "Thumb": 0.0032917240697784306,
+          "Index": 0.0017335784306645573,
+          "Middle": 0.002727706753299598,
+          "Ring": 0.003683906523356194,
+          "Pinky": 0.0040643843467093235
+        },
+        "handDrift": 9.781900965626978e-07,
+        "elbowFlexion": 28.08850580125358,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 9,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733368631777243,
+        "digitGaps": {
+          "Thumb": 0.0032917846504394426,
+          "Index": 0.0017333686317772424,
+          "Middle": 0.002726993838195869,
+          "Ring": 0.0036835976993151182,
+          "Pinky": 0.004064247960311957
+        },
+        "handDrift": 8.231994128199975e-07,
+        "elbowFlexion": 29.02011799083393,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 10,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733583206292503,
+        "digitGaps": {
+          "Thumb": 0.003291388636733743,
+          "Index": 0.0017335832062925025,
+          "Middle": 0.002727639846948309,
+          "Ring": 0.003684051150735319,
+          "Pinky": 0.00406463317615933
+        },
+        "handDrift": 9.397616280124379e-07,
+        "elbowFlexion": 30.068179783121124,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 11,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733635829247278,
+        "digitGaps": {
+          "Thumb": 0.0032917084738086928,
+          "Index": 0.0017336358292472775,
+          "Middle": 0.0027276372456150316,
+          "Ring": 0.0036839860168772134,
+          "Pinky": 0.0040644655987396635
+        },
+        "handDrift": 1.1180502233450117e-06,
+        "elbowFlexion": 31.22980371564353,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 12,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733711313023657,
+        "digitGaps": {
+          "Thumb": 0.003291616660266136,
+          "Index": 0.0017337113130236562,
+          "Middle": 0.0027273706855041723,
+          "Ring": 0.0036838846670480627,
+          "Pinky": 0.004064439422483268
+        },
+        "handDrift": 9.938226935342863e-07,
+        "elbowFlexion": 32.50180009005876,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 13,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733751098747046,
+        "digitGaps": {
+          "Thumb": 0.0032914138655601322,
+          "Index": 0.0017337510987470457,
+          "Middle": 0.0027275005043215523,
+          "Ring": 0.0036838741606866118,
+          "Pinky": 0.0040643597009306105
+        },
+        "handDrift": 1.1659588987416236e-06,
+        "elbowFlexion": 33.88068550989011,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 14,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573368184517107,
+        "digitGaps": {
+          "Thumb": 0.003291367675582855,
+          "Index": 0.001733681845171071,
+          "Middle": 0.0027274555358762723,
+          "Ring": 0.00368393891103023,
+          "Pinky": 0.004064433844433826
+        },
+        "handDrift": 1.0390612697334712e-06,
+        "elbowFlexion": 35.36270678618864,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 15,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733628052672796,
+        "digitGaps": {
+          "Thumb": 0.0032915401674375438,
+          "Index": 0.0017336280526727959,
+          "Middle": 0.0027272923822178313,
+          "Ring": 0.003683934472057169,
+          "Pinky": 0.004064595739273634
+        },
+        "handDrift": 9.010533974625288e-07,
+        "elbowFlexion": 36.94374189979027,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 16,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733649082979015,
+        "digitGaps": {
+          "Thumb": 0.003291339399289531,
+          "Index": 0.0017336490829790146,
+          "Middle": 0.002727268986371786,
+          "Ring": 0.003683907384449259,
+          "Pinky": 0.004064417324770997
+        },
+        "handDrift": 9.309610777290739e-07,
+        "elbowFlexion": 38.61952198246372,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 17,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573349648747797,
+        "digitGaps": {
+          "Thumb": 0.003291755143150084,
+          "Index": 0.0017334964874779705,
+          "Middle": 0.002727473618854179,
+          "Ring": 0.003683597959704023,
+          "Pinky": 0.00406450246809833
+        },
+        "handDrift": 9.44635261973449e-07,
+        "elbowFlexion": 40.385412750857164,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 18,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998509883881,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573342922337488,
+        "digitGaps": {
+          "Thumb": 0.0032916207794498695,
+          "Index": 0.001733429223374881,
+          "Middle": 0.002727367112276254,
+          "Ring": 0.003683864604939224,
+          "Pinky": 0.004064368418118863
+        },
+        "handDrift": 1.1365615268235393e-06,
+        "elbowFlexion": 42.23658184613279,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 19,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733220919639752,
+        "digitGaps": {
+          "Thumb": 0.0032912882129227366,
+          "Index": 0.001733220919639752,
+          "Middle": 0.002727329071827005,
+          "Ring": 0.0036838261627452924,
+          "Pinky": 0.0040645249889595305
+        },
+        "handDrift": 1.0443937731427052e-06,
+        "elbowFlexion": 44.16796126792647,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 20,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733585692807278,
+        "digitGaps": {
+          "Thumb": 0.0032915662682404655,
+          "Index": 0.0017335856928072779,
+          "Middle": 0.0027274849134801254,
+          "Ring": 0.0036837404319084496,
+          "Pinky": 0.004064592893201
+        },
+        "handDrift": 1.1209057946008532e-06,
+        "elbowFlexion": 46.17427128000977,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 21,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733382834275056,
+        "digitGaps": {
+          "Thumb": 0.0032913813890086945,
+          "Index": 0.0017333828342750556,
+          "Middle": 0.0027271116948871053,
+          "Ring": 0.0036838946394931998,
+          "Pinky": 0.004064596584081237
+        },
+        "handDrift": 9.155167982513421e-07,
+        "elbowFlexion": 48.24997942915498,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 22,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573329156218946,
+        "digitGaps": {
+          "Thumb": 0.003291276020923344,
+          "Index": 0.0017332915621894613,
+          "Middle": 0.00272736609213675,
+          "Ring": 0.003683741826908076,
+          "Pinky": 0.004064498525414484
+        },
+        "handDrift": 1.0724998631950022e-06,
+        "elbowFlexion": 50.38941324325642,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 23,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733429538231584,
+        "digitGaps": {
+          "Thumb": 0.0032915079039222365,
+          "Index": 0.0017334295382315842,
+          "Middle": 0.002727186181386525,
+          "Ring": 0.003684167674338301,
+          "Pinky": 0.004064545323768822
+        },
+        "handDrift": 1.078107396148139e-06,
+        "elbowFlexion": 52.586722665289955,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 24,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733305751371204,
+        "digitGaps": {
+          "Thumb": 0.003291637459771289,
+          "Index": 0.001733305751371204,
+          "Middle": 0.0027269543346496016,
+          "Ring": 0.0036839241478975344,
+          "Pinky": 0.00406458482520647
+        },
+        "handDrift": 1.055268938194345e-06,
+        "elbowFlexion": 54.83588688350223,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 25,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001043081284,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733418921166947,
+        "digitGaps": {
+          "Thumb": 0.0032912265029989268,
+          "Index": 0.001733418921166947,
+          "Middle": 0.0027272259231449266,
+          "Ring": 0.0036840519245586716,
+          "Pinky": 0.004064578887862871
+        },
+        "handDrift": 1.0151120846477877e-06,
+        "elbowFlexion": 57.13069042574853,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 26,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0157332025141543,
+        "digitGaps": {
+          "Thumb": 0.003291559028122037,
+          "Index": 0.0017332025141543004,
+          "Middle": 0.0027270211772949474,
+          "Ring": 0.0036837706061382067,
+          "Pinky": 0.004064497303545649
+        },
+        "handDrift": 1.0988159165468774e-06,
+        "elbowFlexion": 59.464897329316635,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 27,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573351785954902,
+        "digitGaps": {
+          "Thumb": 0.0032915905206080277,
+          "Index": 0.001733517859549021,
+          "Middle": 0.002727271525125424,
+          "Ring": 0.00368384066513929,
+          "Pinky": 0.004064652040742812
+        },
+        "handDrift": 1.0142093326641695e-06,
+        "elbowFlexion": 61.83208380129214,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 28,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999478459358,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573329388676704,
+        "digitGaps": {
+          "Thumb": 0.0032914246264180522,
+          "Index": 0.0017332938867670403,
+          "Middle": 0.0027272208720836074,
+          "Ring": 0.003683878686593022,
+          "Pinky": 0.004064648268341157
+        },
+        "handDrift": 1.0325207781051274e-06,
+        "elbowFlexion": 64.2257714072473,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 29,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0157333186374245,
+        "digitGaps": {
+          "Thumb": 0.0032914370886316362,
+          "Index": 0.0017333186374245014,
+          "Middle": 0.002727083036697499,
+          "Ring": 0.0036839222142426627,
+          "Pinky": 0.004064658567154876
+        },
+        "handDrift": 1.1621170194704259e-06,
+        "elbowFlexion": 66.63941682595724,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 30,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000856816769,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733324511562334,
+        "digitGaps": {
+          "Thumb": 0.0032915730444606998,
+          "Index": 0.0017333245115623338,
+          "Middle": 0.0027271110281887733,
+          "Ring": 0.0036838155358270095,
+          "Pinky": 0.0040646622017628965
+        },
+        "handDrift": 1.1147036229661625e-06,
+        "elbowFlexion": 69.0663606229812,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 31,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001266598701,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573306955641386,
+        "digitGaps": {
+          "Thumb": 0.0032916866710505244,
+          "Index": 0.0017330695564138614,
+          "Middle": 0.0027269827545753234,
+          "Ring": 0.0036839027701082907,
+          "Pinky": 0.00406460799702813
+        },
+        "handDrift": 1.1817329475755373e-06,
+        "elbowFlexion": 71.49999117520258,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 32,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733280892079947,
+        "digitGaps": {
+          "Thumb": 0.0032912119486121338,
+          "Index": 0.0017332808920799466,
+          "Middle": 0.0027270691634877827,
+          "Ring": 0.0036839542451946785,
+          "Pinky": 0.004064653160035269
+        },
+        "handDrift": 1.0564060727671804e-06,
+        "elbowFlexion": 73.93360123685646,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 33,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000024214387,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733562531323048,
+        "digitGaps": {
+          "Thumb": 0.003291450752891811,
+          "Index": 0.0017335625313230473,
+          "Middle": 0.0027271626486949484,
+          "Ring": 0.0036838044610470275,
+          "Pinky": 0.004064398020785261
+        },
+        "handDrift": 1.232386645615572e-06,
+        "elbowFlexion": 76.36055186406958,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 34,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000637955964,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573320448701922,
+        "digitGaps": {
+          "Thumb": 0.0032915093405307353,
+          "Index": 0.0017332044870192204,
+          "Middle": 0.002726997036193569,
+          "Ring": 0.0036836813467067114,
+          "Pinky": 0.004064527081214514
+        },
+        "handDrift": 1.1566309503905736e-06,
+        "elbowFlexion": 78.77419045259035,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 35,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999846331775,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733299364048204,
+        "digitGaps": {
+          "Thumb": 0.0032915341088232807,
+          "Index": 0.0017332993640482037,
+          "Middle": 0.002727135114852475,
+          "Ring": 0.003683828813408936,
+          "Pinky": 0.004064659134818278
+        },
+        "handDrift": 1.1531563363951678e-06,
+        "elbowFlexion": 81.16787805854551,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 36,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000555191946,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733055017392365,
+        "digitGaps": {
+          "Thumb": 0.0032914279851447275,
+          "Index": 0.0017330550173923643,
+          "Middle": 0.0027267307866530605,
+          "Ring": 0.0036837853090563224,
+          "Pinky": 0.0040642082770251785
+        },
+        "handDrift": 1.2231407915136607e-06,
+        "elbowFlexion": 83.53505087014268,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 37,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000421423465,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733138464807384,
+        "digitGaps": {
+          "Thumb": 0.0032914758639266076,
+          "Index": 0.001733138464807384,
+          "Middle": 0.002726925419572217,
+          "Ring": 0.0036837599818494767,
+          "Pinky": 0.0040648348068936194
+        },
+        "handDrift": 1.3360123344399104e-06,
+        "elbowFlexion": 85.86928167937288,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 38,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000870786607,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733036343286343,
+        "digitGaps": {
+          "Thumb": 0.003291517082444158,
+          "Index": 0.0017330363432863424,
+          "Middle": 0.0027268209224585466,
+          "Ring": 0.0036833300756087695,
+          "Pinky": 0.004064380086389858
+        },
+        "handDrift": 1.2627301612820288e-06,
+        "elbowFlexion": 88.1641022970921,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 39,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999776482582,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733212786566766,
+        "digitGaps": {
+          "Thumb": 0.0032918174379870744,
+          "Index": 0.0017332127865667662,
+          "Middle": 0.00272700899017376,
+          "Ring": 0.0036837113230372472,
+          "Pinky": 0.004064229183004182
+        },
+        "handDrift": 1.2110567509101659e-06,
+        "elbowFlexion": 90.4132357794531,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 40,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573283758329042,
+        "digitGaps": {
+          "Thumb": 0.003291386213825789,
+          "Index": 0.0017328375832904187,
+          "Middle": 0.002726657069824558,
+          "Ring": 0.0036836231633835103,
+          "Pinky": 0.0040643526213012485
+        },
+        "handDrift": 1.1649943146056296e-06,
+        "elbowFlexion": 92.6105554467704,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 41,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999962747097,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573309054778931,
+        "digitGaps": {
+          "Thumb": 0.003291436464476079,
+          "Index": 0.0017330905477893083,
+          "Middle": 0.0027271222457061536,
+          "Ring": 0.003684001614801655,
+          "Pinky": 0.004064895925820723
+        },
+        "handDrift": 1.401780124558848e-06,
+        "elbowFlexion": 94.74996877030432,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 42,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000100582838,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733127377619956,
+        "digitGaps": {
+          "Thumb": 0.003291341804154106,
+          "Index": 0.0017331273776199554,
+          "Middle": 0.0027270835552216325,
+          "Ring": 0.003683917435371232,
+          "Pinky": 0.004064597466883124
+        },
+        "handDrift": 1.2527729344199456e-06,
+        "elbowFlexion": 96.82570424020622,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 43,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733020985096696,
+        "digitGaps": {
+          "Thumb": 0.0032916829388586633,
+          "Index": 0.0017330209850966952,
+          "Middle": 0.0027267215862952932,
+          "Ring": 0.00368367341915553,
+          "Pinky": 0.00406430512872411
+        },
+        "handDrift": 1.3396903778805024e-06,
+        "elbowFlexion": 98.83200400700576,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 44,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999552965164,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573284943719493,
+        "digitGaps": {
+          "Thumb": 0.0032914634969249176,
+          "Index": 0.0017328494371949294,
+          "Middle": 0.002726930171470252,
+          "Ring": 0.003683423258067269,
+          "Pinky": 0.004064156155962463
+        },
+        "handDrift": 1.3265232194275424e-06,
+        "elbowFlexion": 100.76339708917779,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 45,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732910771605865,
+        "digitGaps": {
+          "Thumb": 0.003291596231701754,
+          "Index": 0.001732910771605865,
+          "Middle": 0.0027268677768327605,
+          "Ring": 0.0036835912798914936,
+          "Pinky": 0.00406444441350595
+        },
+        "handDrift": 1.3370679312786384e-06,
+        "elbowFlexion": 102.61456276935883,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 46,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732606042563654,
+        "digitGaps": {
+          "Thumb": 0.003291640047031223,
+          "Index": 0.0017326060425636534,
+          "Middle": 0.002726730158192593,
+          "Ring": 0.0036835748943352484,
+          "Pinky": 0.004064191307676173
+        },
+        "handDrift": 1.5633923608343397e-06,
+        "elbowFlexion": 104.38047402831977,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 47,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733109680126527,
+        "digitGaps": {
+          "Thumb": 0.0032915921312251465,
+          "Index": 0.0017331096801265263,
+          "Middle": 0.0027268231803730617,
+          "Ring": 0.0036837173856539545,
+          "Pinky": 0.004064098765258881
+        },
+        "handDrift": 1.310587687131716e-06,
+        "elbowFlexion": 106.05622679023655,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 48,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573286035608704,
+        "digitGaps": {
+          "Thumb": 0.0032916218655336203,
+          "Index": 0.0017328603560870393,
+          "Middle": 0.0027267662130571312,
+          "Ring": 0.003683706673098556,
+          "Pinky": 0.00406445825543396
+        },
+        "handDrift": 1.3731094843596582e-06,
+        "elbowFlexion": 107.6372789793111,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 49,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573284864709993,
+        "digitGaps": {
+          "Thumb": 0.0032913737525713336,
+          "Index": 0.0017328486470999296,
+          "Middle": 0.0027266344285341703,
+          "Ring": 0.0036834266381724125,
+          "Pinky": 0.004064107683003864
+        },
+        "handDrift": 1.2603169620786931e-06,
+        "elbowFlexion": 109.11927976504214,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 50,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999552965164,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732844565447608,
+        "digitGaps": {
+          "Thumb": 0.0032916433238906733,
+          "Index": 0.0017328445654476079,
+          "Middle": 0.0027266793163049103,
+          "Ring": 0.0036834007921653176,
+          "Pinky": 0.004064265319518751
+        },
+        "handDrift": 1.4547133657077724e-06,
+        "elbowFlexion": 110.49817201506265,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 51,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733066155821793,
+        "digitGaps": {
+          "Thumb": 0.0032916650821791845,
+          "Index": 0.001733066155821793,
+          "Middle": 0.0027270099313977895,
+          "Ring": 0.0036832808277774496,
+          "Pinky": 0.004064374999417886
+        },
+        "handDrift": 1.367304351795881e-06,
+        "elbowFlexion": 111.77017180457246,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 52,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732759085661303,
+        "digitGaps": {
+          "Thumb": 0.003291368638235115,
+          "Index": 0.001732759085661303,
+          "Middle": 0.0027269047761721895,
+          "Ring": 0.003683282763543341,
+          "Pinky": 0.004064015334620948
+        },
+        "handDrift": 1.444191359184009e-06,
+        "elbowFlexion": 112.9318093974732,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 53,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732866558271785,
+        "digitGaps": {
+          "Thumb": 0.003291537737164075,
+          "Index": 0.0017328665582717843,
+          "Middle": 0.0027268147559878445,
+          "Ring": 0.003683454628201752,
+          "Pinky": 0.004063937198523394
+        },
+        "handDrift": 1.3309956653879234e-06,
+        "elbowFlexion": 113.97987460485498,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 54,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732891717175713,
+        "digitGaps": {
+          "Thumb": 0.003291519906885013,
+          "Index": 0.0017328917171757132,
+          "Middle": 0.002726851237694854,
+          "Ring": 0.003683670434448059,
+          "Pinky": 0.004064107384658762
+        },
+        "handDrift": 1.5007032842088988e-06,
+        "elbowFlexion": 114.9114714265097,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 55,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732728522145332,
+        "digitGaps": {
+          "Thumb": 0.003291691816254919,
+          "Index": 0.0017327285221453315,
+          "Middle": 0.0027267258303730977,
+          "Ring": 0.003683185596317957,
+          "Pinky": 0.004064025371391609
+        },
+        "handDrift": 1.4592697815463478e-06,
+        "elbowFlexion": 115.72412733395782,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 56,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573280527164735,
+        "digitGaps": {
+          "Thumb": 0.0032916689883563163,
+          "Index": 0.0017328052716473492,
+          "Middle": 0.002726975792036722,
+          "Ring": 0.003683502333954739,
+          "Pinky": 0.004064128790292288
+        },
+        "handDrift": 1.4344098374400459e-06,
+        "elbowFlexion": 116.41557470439488,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 57,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733143925909333,
+        "digitGaps": {
+          "Thumb": 0.0032916111418621174,
+          "Index": 0.001733143925909333,
+          "Middle": 0.002726889259679918,
+          "Ring": 0.0036837818965271534,
+          "Pinky": 0.004064404449880701
+        },
+        "handDrift": 1.2330503104937565e-06,
+        "elbowFlexion": 116.98386010371829,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 58,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001192092896,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732787758809205,
+        "digitGaps": {
+          "Thumb": 0.0032918596967962416,
+          "Index": 0.0017327877588092042,
+          "Middle": 0.002726748226671098,
+          "Ring": 0.0036832934499261335,
+          "Pinky": 0.00406368658479127
+        },
+        "handDrift": 1.574020457368511e-06,
+        "elbowFlexion": 117.4275082110673,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 59,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0157331730104864,
+        "digitGaps": {
+          "Thumb": 0.0032916053364110635,
+          "Index": 0.0017331730104863993,
+          "Middle": 0.0027268919364061995,
+          "Ring": 0.0036836743554112105,
+          "Pinky": 0.004064400488725523
+        },
+        "handDrift": 1.3560800114810508e-06,
+        "elbowFlexion": 117.74528959239132,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 60,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733115596221033,
+        "digitGaps": {
+          "Thumb": 0.003291594505753148,
+          "Index": 0.001733115596221033,
+          "Middle": 0.002726874467186011,
+          "Ring": 0.00368395058343198,
+          "Pinky": 0.004064305269502964
+        },
+        "handDrift": 1.2905077371559089e-06,
+        "elbowFlexion": 117.93627534196321,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 61,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732707456024394,
+        "digitGaps": {
+          "Thumb": 0.0032918240364029853,
+          "Index": 0.0017327074560243936,
+          "Middle": 0.0027265150481341465,
+          "Ring": 0.003683503698279666,
+          "Pinky": 0.00406400748303482
+        },
+        "handDrift": 1.5334476288072194e-06,
+        "elbowFlexion": 118.00001466729776,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 62,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733115596221033,
+        "digitGaps": {
+          "Thumb": 0.003291594505753148,
+          "Index": 0.001733115596221033,
+          "Middle": 0.002726874467186011,
+          "Ring": 0.00368395058343198,
+          "Pinky": 0.004064305269502964
+        },
+        "handDrift": 1.2905077371559089e-06,
+        "elbowFlexion": 117.93627534196321,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 63,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0157331730104864,
+        "digitGaps": {
+          "Thumb": 0.0032916053364110635,
+          "Index": 0.0017331730104863993,
+          "Middle": 0.0027268919364061995,
+          "Ring": 0.0036836743554112105,
+          "Pinky": 0.004064400488725523
+        },
+        "handDrift": 1.3560800114810508e-06,
+        "elbowFlexion": 117.74528959239132,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 64,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001192092896,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732787758809205,
+        "digitGaps": {
+          "Thumb": 0.0032918596967962416,
+          "Index": 0.0017327877588092042,
+          "Middle": 0.002726748226671098,
+          "Ring": 0.0036832934499261335,
+          "Pinky": 0.00406368658479127
+        },
+        "handDrift": 1.574020457368511e-06,
+        "elbowFlexion": 117.4275082110673,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 65,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733143925909333,
+        "digitGaps": {
+          "Thumb": 0.0032916111418621174,
+          "Index": 0.001733143925909333,
+          "Middle": 0.002726889259679918,
+          "Ring": 0.0036837818965271534,
+          "Pinky": 0.004064404449880701
+        },
+        "handDrift": 1.2330503104937565e-06,
+        "elbowFlexion": 116.98386010371829,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 66,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573280527164735,
+        "digitGaps": {
+          "Thumb": 0.0032916689883563163,
+          "Index": 0.0017328052716473492,
+          "Middle": 0.002726975792036722,
+          "Ring": 0.003683502333954739,
+          "Pinky": 0.004064128790292288
+        },
+        "handDrift": 1.4344098374400459e-06,
+        "elbowFlexion": 116.41557470439488,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 67,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732728522145332,
+        "digitGaps": {
+          "Thumb": 0.003291691816254919,
+          "Index": 0.0017327285221453315,
+          "Middle": 0.0027267258303730977,
+          "Ring": 0.003683185596317957,
+          "Pinky": 0.004064025371391609
+        },
+        "handDrift": 1.4592697815463478e-06,
+        "elbowFlexion": 115.72412733395782,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 68,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732891717175713,
+        "digitGaps": {
+          "Thumb": 0.003291519906885013,
+          "Index": 0.0017328917171757132,
+          "Middle": 0.002726851237694854,
+          "Ring": 0.003683670434448059,
+          "Pinky": 0.004064107384658762
+        },
+        "handDrift": 1.5007032842088988e-06,
+        "elbowFlexion": 114.9114714265097,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 69,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732866558271785,
+        "digitGaps": {
+          "Thumb": 0.003291537737164075,
+          "Index": 0.0017328665582717843,
+          "Middle": 0.0027268147559878445,
+          "Ring": 0.003683454628201752,
+          "Pinky": 0.004063937198523394
+        },
+        "handDrift": 1.3309956653879234e-06,
+        "elbowFlexion": 113.97987460485498,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 70,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732759085661303,
+        "digitGaps": {
+          "Thumb": 0.003291368638235115,
+          "Index": 0.001732759085661303,
+          "Middle": 0.0027269047761721895,
+          "Ring": 0.003683282763543341,
+          "Pinky": 0.004064015334620948
+        },
+        "handDrift": 1.444191359184009e-06,
+        "elbowFlexion": 112.9318093974732,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 71,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733066155821793,
+        "digitGaps": {
+          "Thumb": 0.0032916650821791845,
+          "Index": 0.001733066155821793,
+          "Middle": 0.0027270099313977895,
+          "Ring": 0.0036832808277774496,
+          "Pinky": 0.004064374999417886
+        },
+        "handDrift": 1.367304351795881e-06,
+        "elbowFlexion": 111.77017180457246,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 72,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999552965164,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732844565447608,
+        "digitGaps": {
+          "Thumb": 0.0032916433238906733,
+          "Index": 0.0017328445654476079,
+          "Middle": 0.0027266793163049103,
+          "Ring": 0.0036834007921653176,
+          "Pinky": 0.004064265319518751
+        },
+        "handDrift": 1.4547133657077724e-06,
+        "elbowFlexion": 110.49817201506265,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 73,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573284864709993,
+        "digitGaps": {
+          "Thumb": 0.0032913737525713336,
+          "Index": 0.0017328486470999296,
+          "Middle": 0.0027266344285341703,
+          "Ring": 0.0036834266381724125,
+          "Pinky": 0.004064107683003864
+        },
+        "handDrift": 1.2603169620786931e-06,
+        "elbowFlexion": 109.11927976504214,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 74,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573286035608704,
+        "digitGaps": {
+          "Thumb": 0.0032916218655336203,
+          "Index": 0.0017328603560870393,
+          "Middle": 0.0027267662130571312,
+          "Ring": 0.003683706673098556,
+          "Pinky": 0.00406445825543396
+        },
+        "handDrift": 1.3731094843596582e-06,
+        "elbowFlexion": 107.6372789793111,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 75,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733109680126527,
+        "digitGaps": {
+          "Thumb": 0.0032915921312251465,
+          "Index": 0.0017331096801265263,
+          "Middle": 0.0027268231803730617,
+          "Ring": 0.0036837173856539545,
+          "Pinky": 0.004064098765258881
+        },
+        "handDrift": 1.310587687131716e-06,
+        "elbowFlexion": 106.05622679023655,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 76,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732606042563654,
+        "digitGaps": {
+          "Thumb": 0.003291640047031223,
+          "Index": 0.0017326060425636534,
+          "Middle": 0.002726730158192593,
+          "Ring": 0.0036835748943352484,
+          "Pinky": 0.004064191307676173
+        },
+        "handDrift": 1.5633923608343397e-06,
+        "elbowFlexion": 104.38047402831977,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 77,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015732910771605865,
+        "digitGaps": {
+          "Thumb": 0.003291596231701754,
+          "Index": 0.001732910771605865,
+          "Middle": 0.0027268677768327605,
+          "Ring": 0.0036835912798914936,
+          "Pinky": 0.00406444441350595
+        },
+        "handDrift": 1.3370679312786384e-06,
+        "elbowFlexion": 102.61456276935883,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 78,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999552965164,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573284943719493,
+        "digitGaps": {
+          "Thumb": 0.0032914634969249176,
+          "Index": 0.0017328494371949294,
+          "Middle": 0.002726930171470252,
+          "Ring": 0.003683423258067269,
+          "Pinky": 0.004064156155962463
+        },
+        "handDrift": 1.3265232194275424e-06,
+        "elbowFlexion": 100.76339708917779,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 79,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733020985096696,
+        "digitGaps": {
+          "Thumb": 0.0032916829388586633,
+          "Index": 0.0017330209850966952,
+          "Middle": 0.0027267215862952932,
+          "Ring": 0.00368367341915553,
+          "Pinky": 0.00406430512872411
+        },
+        "handDrift": 1.3396903778805024e-06,
+        "elbowFlexion": 98.83200400700576,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 80,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000100582838,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733127377619956,
+        "digitGaps": {
+          "Thumb": 0.003291341804154106,
+          "Index": 0.0017331273776199554,
+          "Middle": 0.0027270835552216325,
+          "Ring": 0.003683917435371232,
+          "Pinky": 0.004064597466883124
+        },
+        "handDrift": 1.2527729344199456e-06,
+        "elbowFlexion": 96.82570424020622,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 81,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999962747097,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573309054778931,
+        "digitGaps": {
+          "Thumb": 0.003291436464476079,
+          "Index": 0.0017330905477893083,
+          "Middle": 0.0027271222457061536,
+          "Ring": 0.003684001614801655,
+          "Pinky": 0.004064895925820723
+        },
+        "handDrift": 1.401780124558848e-06,
+        "elbowFlexion": 94.74996877030432,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 82,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000149011612,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573283758329042,
+        "digitGaps": {
+          "Thumb": 0.003291386213825789,
+          "Index": 0.0017328375832904187,
+          "Middle": 0.002726657069824558,
+          "Ring": 0.0036836231633835103,
+          "Pinky": 0.0040643526213012485
+        },
+        "handDrift": 1.1649943146056296e-06,
+        "elbowFlexion": 92.6105554467704,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 83,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999776482582,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733212786566766,
+        "digitGaps": {
+          "Thumb": 0.0032918174379870744,
+          "Index": 0.0017332127865667662,
+          "Middle": 0.00272700899017376,
+          "Ring": 0.0036837113230372472,
+          "Pinky": 0.004064229183004182
+        },
+        "handDrift": 1.2110567509101659e-06,
+        "elbowFlexion": 90.4132357794531,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 84,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000870786607,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733036343286343,
+        "digitGaps": {
+          "Thumb": 0.003291517082444158,
+          "Index": 0.0017330363432863424,
+          "Middle": 0.0027268209224585466,
+          "Ring": 0.0036833300756087695,
+          "Pinky": 0.004064380086389858
+        },
+        "handDrift": 1.2627301612820288e-06,
+        "elbowFlexion": 88.1641022970921,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 85,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000421423465,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733138464807384,
+        "digitGaps": {
+          "Thumb": 0.0032914758639266076,
+          "Index": 0.001733138464807384,
+          "Middle": 0.002726925419572217,
+          "Ring": 0.0036837599818494767,
+          "Pinky": 0.0040648348068936194
+        },
+        "handDrift": 1.3360123344399104e-06,
+        "elbowFlexion": 85.86928167937288,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 86,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000555191946,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733055017392365,
+        "digitGaps": {
+          "Thumb": 0.0032914279851447275,
+          "Index": 0.0017330550173923643,
+          "Middle": 0.0027267307866530605,
+          "Ring": 0.0036837853090563224,
+          "Pinky": 0.0040642082770251785
+        },
+        "handDrift": 1.2231407915136607e-06,
+        "elbowFlexion": 83.53505087014268,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 87,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999846331775,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733299364048204,
+        "digitGaps": {
+          "Thumb": 0.0032915341088232807,
+          "Index": 0.0017332993640482037,
+          "Middle": 0.002727135114852475,
+          "Ring": 0.003683828813408936,
+          "Pinky": 0.004064659134818278
+        },
+        "handDrift": 1.1531563363951678e-06,
+        "elbowFlexion": 81.16787805854551,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 88,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000637955964,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573320448701922,
+        "digitGaps": {
+          "Thumb": 0.0032915093405307353,
+          "Index": 0.0017332044870192204,
+          "Middle": 0.002726997036193569,
+          "Ring": 0.0036836813467067114,
+          "Pinky": 0.004064527081214514
+        },
+        "handDrift": 1.1566309503905736e-06,
+        "elbowFlexion": 78.77419045259035,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 89,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.000000024214387,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733562531323048,
+        "digitGaps": {
+          "Thumb": 0.003291450752891811,
+          "Index": 0.0017335625313230473,
+          "Middle": 0.0027271626486949484,
+          "Ring": 0.0036838044610470275,
+          "Pinky": 0.004064398020785261
+        },
+        "handDrift": 1.232386645615572e-06,
+        "elbowFlexion": 76.36055186406958,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 90,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000447034836,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733280892079947,
+        "digitGaps": {
+          "Thumb": 0.0032912119486121338,
+          "Index": 0.0017332808920799466,
+          "Middle": 0.0027270691634877827,
+          "Ring": 0.0036839542451946785,
+          "Pinky": 0.004064653160035269
+        },
+        "handDrift": 1.0564060727671804e-06,
+        "elbowFlexion": 73.93360123685646,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 91,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001266598701,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573306955641386,
+        "digitGaps": {
+          "Thumb": 0.0032916866710505244,
+          "Index": 0.0017330695564138614,
+          "Middle": 0.0027269827545753234,
+          "Ring": 0.0036839027701082907,
+          "Pinky": 0.00406460799702813
+        },
+        "handDrift": 1.1817329475755373e-06,
+        "elbowFlexion": 71.49999117520258,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 92,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000856816769,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733324511562334,
+        "digitGaps": {
+          "Thumb": 0.0032915730444606998,
+          "Index": 0.0017333245115623338,
+          "Middle": 0.0027271110281887733,
+          "Ring": 0.0036838155358270095,
+          "Pinky": 0.0040646622017628965
+        },
+        "handDrift": 1.1147036229661625e-06,
+        "elbowFlexion": 69.0663606229812,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 93,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999925494194,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0157333186374245,
+        "digitGaps": {
+          "Thumb": 0.0032914370886316362,
+          "Index": 0.0017333186374245014,
+          "Middle": 0.002727083036697499,
+          "Ring": 0.0036839222142426627,
+          "Pinky": 0.004064658567154876
+        },
+        "handDrift": 1.1621170194704259e-06,
+        "elbowFlexion": 66.63941682595724,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 94,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999478459358,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573329388676704,
+        "digitGaps": {
+          "Thumb": 0.0032914246264180522,
+          "Index": 0.0017332938867670403,
+          "Middle": 0.0027272208720836074,
+          "Ring": 0.003683878686593022,
+          "Pinky": 0.004064648268341157
+        },
+        "handDrift": 1.0325207781051274e-06,
+        "elbowFlexion": 64.2257714072473,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 95,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573351785954902,
+        "digitGaps": {
+          "Thumb": 0.0032915905206080277,
+          "Index": 0.001733517859549021,
+          "Middle": 0.002727271525125424,
+          "Ring": 0.00368384066513929,
+          "Pinky": 0.004064652040742812
+        },
+        "handDrift": 1.0142093326641695e-06,
+        "elbowFlexion": 61.83208380129214,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 96,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999850988388,
+        "sectors": 12,
+        "minSurfaceRadius": 0.0157332025141543,
+        "digitGaps": {
+          "Thumb": 0.003291559028122037,
+          "Index": 0.0017332025141543004,
+          "Middle": 0.0027270211772949474,
+          "Ring": 0.0036837706061382067,
+          "Pinky": 0.004064497303545649
+        },
+        "handDrift": 1.0988159165468774e-06,
+        "elbowFlexion": 59.464897329316635,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 97,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000001043081284,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733418921166947,
+        "digitGaps": {
+          "Thumb": 0.0032912265029989268,
+          "Index": 0.001733418921166947,
+          "Middle": 0.0027272259231449266,
+          "Ring": 0.0036840519245586716,
+          "Pinky": 0.004064578887862871
+        },
+        "handDrift": 1.0151120846477877e-06,
+        "elbowFlexion": 57.13069042574853,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 98,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733305751371204,
+        "digitGaps": {
+          "Thumb": 0.003291637459771289,
+          "Index": 0.001733305751371204,
+          "Middle": 0.0027269543346496016,
+          "Ring": 0.0036839241478975344,
+          "Pinky": 0.00406458482520647
+        },
+        "handDrift": 1.055268938194345e-06,
+        "elbowFlexion": 54.83588688350223,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 99,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733429538231584,
+        "digitGaps": {
+          "Thumb": 0.0032915079039222365,
+          "Index": 0.0017334295382315842,
+          "Middle": 0.002727186181386525,
+          "Ring": 0.003684167674338301,
+          "Pinky": 0.004064545323768822
+        },
+        "handDrift": 1.078107396148139e-06,
+        "elbowFlexion": 52.586722665289955,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 100,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573329156218946,
+        "digitGaps": {
+          "Thumb": 0.003291276020923344,
+          "Index": 0.0017332915621894613,
+          "Middle": 0.00272736609213675,
+          "Ring": 0.003683741826908076,
+          "Pinky": 0.004064498525414484
+        },
+        "handDrift": 1.0724998631950022e-06,
+        "elbowFlexion": 50.38941324325642,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 101,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733382834275056,
+        "digitGaps": {
+          "Thumb": 0.0032913813890086945,
+          "Index": 0.0017333828342750556,
+          "Middle": 0.0027271116948871053,
+          "Ring": 0.0036838946394931998,
+          "Pinky": 0.004064596584081237
+        },
+        "handDrift": 9.155167982513421e-07,
+        "elbowFlexion": 48.24997942915498,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 102,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733585692807278,
+        "digitGaps": {
+          "Thumb": 0.0032915662682404655,
+          "Index": 0.0017335856928072779,
+          "Middle": 0.0027274849134801254,
+          "Ring": 0.0036837404319084496,
+          "Pinky": 0.004064592893201
+        },
+        "handDrift": 1.1209057946008532e-06,
+        "elbowFlexion": 46.17427128000977,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 103,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733220919639752,
+        "digitGaps": {
+          "Thumb": 0.0032912882129227366,
+          "Index": 0.001733220919639752,
+          "Middle": 0.002727329071827005,
+          "Ring": 0.0036838261627452924,
+          "Pinky": 0.0040645249889595305
+        },
+        "handDrift": 1.0443937731427052e-06,
+        "elbowFlexion": 44.16796126792647,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 104,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998509883881,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573342922337488,
+        "digitGaps": {
+          "Thumb": 0.0032916207794498695,
+          "Index": 0.001733429223374881,
+          "Middle": 0.002727367112276254,
+          "Ring": 0.003683864604939224,
+          "Pinky": 0.004064368418118863
+        },
+        "handDrift": 1.1365615268235393e-06,
+        "elbowFlexion": 42.23658184613279,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 105,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998807907104,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573349648747797,
+        "digitGaps": {
+          "Thumb": 0.003291755143150084,
+          "Index": 0.0017334964874779705,
+          "Middle": 0.002727473618854179,
+          "Ring": 0.003683597959704023,
+          "Pinky": 0.00406450246809833
+        },
+        "handDrift": 9.44635261973449e-07,
+        "elbowFlexion": 40.385412750857164,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 106,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733649082979015,
+        "digitGaps": {
+          "Thumb": 0.003291339399289531,
+          "Index": 0.0017336490829790146,
+          "Middle": 0.002727268986371786,
+          "Ring": 0.003683907384449259,
+          "Pinky": 0.004064417324770997
+        },
+        "handDrift": 9.309610777290739e-07,
+        "elbowFlexion": 38.61952198246372,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 107,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733628052672796,
+        "digitGaps": {
+          "Thumb": 0.0032915401674375438,
+          "Index": 0.0017336280526727959,
+          "Middle": 0.0027272923822178313,
+          "Ring": 0.003683934472057169,
+          "Pinky": 0.004064595739273634
+        },
+        "handDrift": 9.010533974625288e-07,
+        "elbowFlexion": 36.94374189979027,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 108,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573368184517107,
+        "digitGaps": {
+          "Thumb": 0.003291367675582855,
+          "Index": 0.001733681845171071,
+          "Middle": 0.0027274555358762723,
+          "Ring": 0.00368393891103023,
+          "Pinky": 0.004064433844433826
+        },
+        "handDrift": 1.0390612697334712e-06,
+        "elbowFlexion": 35.36270678618864,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 109,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733751098747046,
+        "digitGaps": {
+          "Thumb": 0.0032914138655601322,
+          "Index": 0.0017337510987470457,
+          "Middle": 0.0027275005043215523,
+          "Ring": 0.0036838741606866118,
+          "Pinky": 0.0040643597009306105
+        },
+        "handDrift": 1.1659588987416236e-06,
+        "elbowFlexion": 33.88068550989011,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 110,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999403953552,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733711313023657,
+        "digitGaps": {
+          "Thumb": 0.003291616660266136,
+          "Index": 0.0017337113130236562,
+          "Middle": 0.0027273706855041723,
+          "Ring": 0.0036838846670480627,
+          "Pinky": 0.004064439422483268
+        },
+        "handDrift": 9.938226935342863e-07,
+        "elbowFlexion": 32.50180009005876,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 111,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733635829247278,
+        "digitGaps": {
+          "Thumb": 0.0032917084738086928,
+          "Index": 0.0017336358292472775,
+          "Middle": 0.0027276372456150316,
+          "Ring": 0.0036839860168772134,
+          "Pinky": 0.0040644655987396635
+        },
+        "handDrift": 1.1180502233450117e-06,
+        "elbowFlexion": 31.22980371564353,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 112,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733583206292503,
+        "digitGaps": {
+          "Thumb": 0.003291388636733743,
+          "Index": 0.0017335832062925025,
+          "Middle": 0.002727639846948309,
+          "Ring": 0.003684051150735319,
+          "Pinky": 0.00406463317615933
+        },
+        "handDrift": 9.397616280124379e-07,
+        "elbowFlexion": 30.068179783121124,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 113,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000596046448,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733368631777243,
+        "digitGaps": {
+          "Thumb": 0.0032917846504394426,
+          "Index": 0.0017333686317772424,
+          "Middle": 0.002726993838195869,
+          "Ring": 0.0036835976993151182,
+          "Pinky": 0.004064247960311957
+        },
+        "handDrift": 8.231994128199975e-07,
+        "elbowFlexion": 29.02011799083393,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 114,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999701976776,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733578430664558,
+        "digitGaps": {
+          "Thumb": 0.0032917240697784306,
+          "Index": 0.0017335784306645573,
+          "Middle": 0.002727706753299598,
+          "Ring": 0.003683906523356194,
+          "Pinky": 0.0040643843467093235
+        },
+        "handDrift": 9.781900965626978e-07,
+        "elbowFlexion": 28.08850580125358,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 115,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733574609071245,
+        "digitGaps": {
+          "Thumb": 0.0032917423155498,
+          "Index": 0.0017335746090712447,
+          "Middle": 0.0027274921725904764,
+          "Ring": 0.0036837991653871065,
+          "Pinky": 0.0040646450642516565
+        },
+        "handDrift": 1.0500015488054206e-06,
+        "elbowFlexion": 27.275860139089218,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 116,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000298023224,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573347077167699,
+        "digitGaps": {
+          "Thumb": 0.0032916023647831093,
+          "Index": 0.0017334707716769888,
+          "Middle": 0.002727604917818682,
+          "Ring": 0.003683694779907149,
+          "Pinky": 0.004064231096915382
+        },
+        "handDrift": 8.12645666560154e-07,
+        "elbowFlexion": 26.58443496676695,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 117,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999999105930328,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733530674986732,
+        "digitGaps": {
+          "Thumb": 0.0032917544806085382,
+          "Index": 0.001733530674986732,
+          "Middle": 0.0027273086653976392,
+          "Ring": 0.003683783481139272,
+          "Pinky": 0.004064419948727879
+        },
+        "handDrift": 7.581008921611325e-07,
+        "elbowFlexion": 26.016112001403112,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 118,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573378218010315,
+        "digitGaps": {
+          "Thumb": 0.003291586308146072,
+          "Index": 0.001733782180103149,
+          "Middle": 0.002727454591787552,
+          "Ring": 0.00368394555474018,
+          "Pinky": 0.004064327975975371
+        },
+        "handDrift": 9.204174193943621e-07,
+        "elbowFlexion": 25.57247413933786,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 119,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 0.9999998509883881,
+        "sectors": 12,
+        "minSurfaceRadius": 0.01573363192177282,
+        "digitGaps": {
+          "Thumb": 0.0032915165802560754,
+          "Index": 0.001733631921772819,
+          "Middle": 0.0027274580697353844,
+          "Ring": 0.0036837453429781706,
+          "Pinky": 0.00406432852894951
+        },
+        "handDrift": 6.986330262063223e-07,
+        "elbowFlexion": 25.254725201412406,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 120,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733463971815576,
+        "digitGaps": {
+          "Thumb": 0.0032917959062906694,
+          "Index": 0.0017334639718155753,
+          "Middle": 0.0027275709798469158,
+          "Ring": 0.0036837698572562434,
+          "Pinky": 0.004064409105412168
+        },
+        "handDrift": 7.553456737163808e-07,
+        "elbowFlexion": 25.063717253725706,
+        "elevation": 7.641415006603396
+      },
+      {
+        "frame": 121,
+        "side": "Left",
+        "wristBend": 0.0,
+        "palmIntentDot": 1.0000000894069672,
+        "sectors": 12,
+        "minSurfaceRadius": 0.015733275530794733,
+        "digitGaps": {
+          "Thumb": 0.003291527235243513,
+          "Index": 0.0017332755307947322,
+          "Middle": 0.002726976741087869,
+          "Ring": 0.0036835203343430333,
+          "Pinky": 0.004064157460289026
+        },
+        "handDrift": 8.30080157201535e-08,
+        "elbowFlexion": 24.999979635938438,
+        "elevation": 7.641415006603396
+      }
+    ],
+    "supportSamples": [
+      {
+        "frame": 1,
+        "contact": "Left arm to thigh",
+        "gap": 0.007000349251211558
+      },
+      {
+        "frame": 1,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 1,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 2,
+        "contact": "Left arm to thigh",
+        "gap": 0.007018809336847643
+      },
+      {
+        "frame": 2,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 2,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 3,
+        "contact": "Left arm to thigh",
+        "gap": 0.0070751758679275575
+      },
+      {
+        "frame": 3,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 3,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 4,
+        "contact": "Left arm to thigh",
+        "gap": 0.007173291465409931
+      },
+      {
+        "frame": 4,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 4,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 5,
+        "contact": "Left arm to thigh",
+        "gap": 0.0073187555153913925
+      },
+      {
+        "frame": 5,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 5,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 6,
+        "contact": "Left arm to thigh",
+        "gap": 0.007518746770198922
+      },
+      {
+        "frame": 6,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 6,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 7,
+        "contact": "Left arm to thigh",
+        "gap": 0.007781234823699994
+      },
+      {
+        "frame": 7,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 7,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 8,
+        "contact": "Left arm to thigh",
+        "gap": 0.008114028727130577
+      },
+      {
+        "frame": 8,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 8,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 9,
+        "contact": "Left arm to thigh",
+        "gap": 0.007868756866292157
+      },
+      {
+        "frame": 9,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 9,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 10,
+        "contact": "Left arm to thigh",
+        "gap": 0.007547639400795134
+      },
+      {
+        "frame": 10,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 10,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 11,
+        "contact": "Left arm to thigh",
+        "gap": 0.007240668701870314
+      },
+      {
+        "frame": 11,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 11,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 12,
+        "contact": "Left arm to thigh",
+        "gap": 0.006971418277990162
+      },
+      {
+        "frame": 12,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 12,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 13,
+        "contact": "Left arm to thigh",
+        "gap": 0.006767818128427461
+      },
+      {
+        "frame": 13,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 13,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 14,
+        "contact": "Left arm to thigh",
+        "gap": 0.006661185233985909
+      },
+      {
+        "frame": 14,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 14,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 15,
+        "contact": "Left arm to thigh",
+        "gap": 0.006681424740962484
+      },
+      {
+        "frame": 15,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 15,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 16,
+        "contact": "Left arm to thigh",
+        "gap": 0.006853018056282576
+      },
+      {
+        "frame": 16,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 16,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 17,
+        "contact": "Left arm to thigh",
+        "gap": 0.00718853813366667
+      },
+      {
+        "frame": 17,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 17,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 18,
+        "contact": "Left arm to thigh",
+        "gap": 0.00768879911502194
+      },
+      {
+        "frame": 18,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 18,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 19,
+        "contact": "Left arm to thigh",
+        "gap": 0.008032554692999273
+      },
+      {
+        "frame": 19,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 19,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 20,
+        "contact": "Left arm to thigh",
+        "gap": 0.007331504085276225
+      },
+      {
+        "frame": 20,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 20,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 21,
+        "contact": "Left arm to thigh",
+        "gap": 0.006727348868687017
+      },
+      {
+        "frame": 21,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 21,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 22,
+        "contact": "Left arm to thigh",
+        "gap": 0.00627215730076914
+      },
+      {
+        "frame": 22,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 22,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 23,
+        "contact": "Left arm to thigh",
+        "gap": 0.006022016789226595
+      },
+      {
+        "frame": 23,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 23,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 24,
+        "contact": "Left arm to thigh",
+        "gap": 0.005998614168081749
+      },
+      {
+        "frame": 24,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 24,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 25,
+        "contact": "Left arm to thigh",
+        "gap": 0.005799051391024101
+      },
+      {
+        "frame": 25,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 25,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 26,
+        "contact": "Left arm to thigh",
+        "gap": 0.00579285084305278
+      },
+      {
+        "frame": 26,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 26,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 27,
+        "contact": "Left arm to thigh",
+        "gap": 0.005990188019432128
+      },
+      {
+        "frame": 27,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 27,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 28,
+        "contact": "Left arm to thigh",
+        "gap": 0.006379614561810183
+      },
+      {
+        "frame": 28,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 28,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 29,
+        "contact": "Left arm to thigh",
+        "gap": 0.006888115104457652
+      },
+      {
+        "frame": 29,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 29,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 30,
+        "contact": "Left arm to thigh",
+        "gap": 0.006419321177410296
+      },
+      {
+        "frame": 30,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 30,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 31,
+        "contact": "Left arm to thigh",
+        "gap": 0.006178912619575305
+      },
+      {
+        "frame": 31,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 31,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 32,
+        "contact": "Left arm to thigh",
+        "gap": 0.005912382974683279
+      },
+      {
+        "frame": 32,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 32,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 33,
+        "contact": "Left arm to thigh",
+        "gap": 0.004854003192695519
+      },
+      {
+        "frame": 33,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 33,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 34,
+        "contact": "Left arm to thigh",
+        "gap": 0.0038575642367216353
+      },
+      {
+        "frame": 34,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 34,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 35,
+        "contact": "Left arm to thigh",
+        "gap": 0.0029812219600261454
+      },
+      {
+        "frame": 35,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 35,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 36,
+        "contact": "Left arm to thigh",
+        "gap": 0.002350801305720796
+      },
+      {
+        "frame": 36,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 36,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 37,
+        "contact": "Left arm to thigh",
+        "gap": 0.002171382286478239
+      },
+      {
+        "frame": 37,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 37,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 38,
+        "contact": "Left arm to thigh",
+        "gap": 0.0025181105886308668
+      },
+      {
+        "frame": 38,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 38,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 39,
+        "contact": "Left arm to thigh",
+        "gap": 0.003204458997965881
+      },
+      {
+        "frame": 39,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 39,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 40,
+        "contact": "Left arm to thigh",
+        "gap": 0.00404192031991927
+      },
+      {
+        "frame": 40,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 40,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 41,
+        "contact": "Left arm to thigh",
+        "gap": 0.004936260061461396
+      },
+      {
+        "frame": 41,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 41,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 42,
+        "contact": "Left arm to thigh",
+        "gap": 0.005844054897786272
+      },
+      {
+        "frame": 42,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 42,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 43,
+        "contact": "Left arm to thigh",
+        "gap": 0.006429082640829931
+      },
+      {
+        "frame": 43,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 43,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 44,
+        "contact": "Left arm to thigh",
+        "gap": 0.006094177513145668
+      },
+      {
+        "frame": 44,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 44,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 45,
+        "contact": "Left arm to thigh",
+        "gap": 0.005836603875461259
+      },
+      {
+        "frame": 45,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 45,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 46,
+        "contact": "Left arm to thigh",
+        "gap": 0.0056564020856531925
+      },
+      {
+        "frame": 46,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 46,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 47,
+        "contact": "Left arm to thigh",
+        "gap": 0.005503782476963047
+      },
+      {
+        "frame": 47,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 47,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 48,
+        "contact": "Left arm to thigh",
+        "gap": 0.00521904778297683
+      },
+      {
+        "frame": 48,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 48,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 49,
+        "contact": "Left arm to thigh",
+        "gap": 0.005038421730909461
+      },
+      {
+        "frame": 49,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 49,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 50,
+        "contact": "Left arm to thigh",
+        "gap": 0.004953142696108332
+      },
+      {
+        "frame": 50,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 50,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 51,
+        "contact": "Left arm to thigh",
+        "gap": 0.00494908906335516
+      },
+      {
+        "frame": 51,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 51,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 52,
+        "contact": "Left arm to thigh",
+        "gap": 0.005008038076597428
+      },
+      {
+        "frame": 52,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 52,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 53,
+        "contact": "Left arm to thigh",
+        "gap": 0.005110710676397867
+      },
+      {
+        "frame": 53,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 53,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 54,
+        "contact": "Left arm to thigh",
+        "gap": 0.005239125364018816
+      },
+      {
+        "frame": 54,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 54,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 55,
+        "contact": "Left arm to thigh",
+        "gap": 0.005377662970754271
+      },
+      {
+        "frame": 55,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 55,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 56,
+        "contact": "Left arm to thigh",
+        "gap": 0.005513430063683989
+      },
+      {
+        "frame": 56,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 56,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 57,
+        "contact": "Left arm to thigh",
+        "gap": 0.005636569183845701
+      },
+      {
+        "frame": 57,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 57,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 58,
+        "contact": "Left arm to thigh",
+        "gap": 0.005739295760862837
+      },
+      {
+        "frame": 58,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 58,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 59,
+        "contact": "Left arm to thigh",
+        "gap": 0.005816246560715213
+      },
+      {
+        "frame": 59,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 59,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 60,
+        "contact": "Left arm to thigh",
+        "gap": 0.005864006294041145
+      },
+      {
+        "frame": 60,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 60,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 61,
+        "contact": "Left arm to thigh",
+        "gap": 0.005871829575659596
+      },
+      {
+        "frame": 61,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 61,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 62,
+        "contact": "Left arm to thigh",
+        "gap": 0.005864006294041145
+      },
+      {
+        "frame": 62,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 62,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 63,
+        "contact": "Left arm to thigh",
+        "gap": 0.005816246560715213
+      },
+      {
+        "frame": 63,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 63,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 64,
+        "contact": "Left arm to thigh",
+        "gap": 0.005739295760862837
+      },
+      {
+        "frame": 64,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 64,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 65,
+        "contact": "Left arm to thigh",
+        "gap": 0.005636569183845701
+      },
+      {
+        "frame": 65,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 65,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 66,
+        "contact": "Left arm to thigh",
+        "gap": 0.005513430063683989
+      },
+      {
+        "frame": 66,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 66,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 67,
+        "contact": "Left arm to thigh",
+        "gap": 0.005377662970754271
+      },
+      {
+        "frame": 67,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 67,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 68,
+        "contact": "Left arm to thigh",
+        "gap": 0.005239125364018816
+      },
+      {
+        "frame": 68,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 68,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 69,
+        "contact": "Left arm to thigh",
+        "gap": 0.005110710676397867
+      },
+      {
+        "frame": 69,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 69,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 70,
+        "contact": "Left arm to thigh",
+        "gap": 0.005008038076597428
+      },
+      {
+        "frame": 70,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 70,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 71,
+        "contact": "Left arm to thigh",
+        "gap": 0.00494908906335516
+      },
+      {
+        "frame": 71,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 71,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 72,
+        "contact": "Left arm to thigh",
+        "gap": 0.004953142696108332
+      },
+      {
+        "frame": 72,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 72,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 73,
+        "contact": "Left arm to thigh",
+        "gap": 0.005038421730909461
+      },
+      {
+        "frame": 73,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 73,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 74,
+        "contact": "Left arm to thigh",
+        "gap": 0.00521904778297683
+      },
+      {
+        "frame": 74,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 74,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 75,
+        "contact": "Left arm to thigh",
+        "gap": 0.005503782476963047
+      },
+      {
+        "frame": 75,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 75,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 76,
+        "contact": "Left arm to thigh",
+        "gap": 0.0056564020856531925
+      },
+      {
+        "frame": 76,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 76,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 77,
+        "contact": "Left arm to thigh",
+        "gap": 0.005836603875461259
+      },
+      {
+        "frame": 77,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 77,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 78,
+        "contact": "Left arm to thigh",
+        "gap": 0.006094177513145668
+      },
+      {
+        "frame": 78,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 78,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 79,
+        "contact": "Left arm to thigh",
+        "gap": 0.006429082640829931
+      },
+      {
+        "frame": 79,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 79,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 80,
+        "contact": "Left arm to thigh",
+        "gap": 0.005844054897786272
+      },
+      {
+        "frame": 80,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 80,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 81,
+        "contact": "Left arm to thigh",
+        "gap": 0.004936260061461396
+      },
+      {
+        "frame": 81,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 81,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 82,
+        "contact": "Left arm to thigh",
+        "gap": 0.00404192031991927
+      },
+      {
+        "frame": 82,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 82,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 83,
+        "contact": "Left arm to thigh",
+        "gap": 0.003204458997965881
+      },
+      {
+        "frame": 83,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 83,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 84,
+        "contact": "Left arm to thigh",
+        "gap": 0.0025181105886308668
+      },
+      {
+        "frame": 84,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 84,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 85,
+        "contact": "Left arm to thigh",
+        "gap": 0.002171382286478239
+      },
+      {
+        "frame": 85,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 85,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 86,
+        "contact": "Left arm to thigh",
+        "gap": 0.002350801305720796
+      },
+      {
+        "frame": 86,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 86,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 87,
+        "contact": "Left arm to thigh",
+        "gap": 0.0029812219600261454
+      },
+      {
+        "frame": 87,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 87,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 88,
+        "contact": "Left arm to thigh",
+        "gap": 0.0038575642367216353
+      },
+      {
+        "frame": 88,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 88,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 89,
+        "contact": "Left arm to thigh",
+        "gap": 0.004854003192695519
+      },
+      {
+        "frame": 89,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 89,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 90,
+        "contact": "Left arm to thigh",
+        "gap": 0.005912382974683279
+      },
+      {
+        "frame": 90,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 90,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 91,
+        "contact": "Left arm to thigh",
+        "gap": 0.006178912619575305
+      },
+      {
+        "frame": 91,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 91,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 92,
+        "contact": "Left arm to thigh",
+        "gap": 0.006419321177410296
+      },
+      {
+        "frame": 92,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 92,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 93,
+        "contact": "Left arm to thigh",
+        "gap": 0.006888115104457652
+      },
+      {
+        "frame": 93,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 93,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 94,
+        "contact": "Left arm to thigh",
+        "gap": 0.006379614561810183
+      },
+      {
+        "frame": 94,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 94,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 95,
+        "contact": "Left arm to thigh",
+        "gap": 0.005990188019432128
+      },
+      {
+        "frame": 95,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 95,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 96,
+        "contact": "Left arm to thigh",
+        "gap": 0.00579285084305278
+      },
+      {
+        "frame": 96,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 96,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 97,
+        "contact": "Left arm to thigh",
+        "gap": 0.005799051391024101
+      },
+      {
+        "frame": 97,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 97,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 98,
+        "contact": "Left arm to thigh",
+        "gap": 0.005998614168081749
+      },
+      {
+        "frame": 98,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 98,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 99,
+        "contact": "Left arm to thigh",
+        "gap": 0.006022016789226595
+      },
+      {
+        "frame": 99,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 99,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 100,
+        "contact": "Left arm to thigh",
+        "gap": 0.00627215730076914
+      },
+      {
+        "frame": 100,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 100,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 101,
+        "contact": "Left arm to thigh",
+        "gap": 0.006727348868687017
+      },
+      {
+        "frame": 101,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 101,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 102,
+        "contact": "Left arm to thigh",
+        "gap": 0.007331504085276225
+      },
+      {
+        "frame": 102,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 102,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 103,
+        "contact": "Left arm to thigh",
+        "gap": 0.008032554692999273
+      },
+      {
+        "frame": 103,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 103,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 104,
+        "contact": "Left arm to thigh",
+        "gap": 0.00768879911502194
+      },
+      {
+        "frame": 104,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 104,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 105,
+        "contact": "Left arm to thigh",
+        "gap": 0.00718853813366667
+      },
+      {
+        "frame": 105,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 105,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 106,
+        "contact": "Left arm to thigh",
+        "gap": 0.006853018056282576
+      },
+      {
+        "frame": 106,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 106,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 107,
+        "contact": "Left arm to thigh",
+        "gap": 0.006681424740962484
+      },
+      {
+        "frame": 107,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 107,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 108,
+        "contact": "Left arm to thigh",
+        "gap": 0.006661185233985909
+      },
+      {
+        "frame": 108,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 108,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 109,
+        "contact": "Left arm to thigh",
+        "gap": 0.006767818128427461
+      },
+      {
+        "frame": 109,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 109,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 110,
+        "contact": "Left arm to thigh",
+        "gap": 0.006971418277990162
+      },
+      {
+        "frame": 110,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 110,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 111,
+        "contact": "Left arm to thigh",
+        "gap": 0.007240668701870314
+      },
+      {
+        "frame": 111,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 111,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 112,
+        "contact": "Left arm to thigh",
+        "gap": 0.007547639400795134
+      },
+      {
+        "frame": 112,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 112,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 113,
+        "contact": "Left arm to thigh",
+        "gap": 0.007868756866292157
+      },
+      {
+        "frame": 113,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 113,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 114,
+        "contact": "Left arm to thigh",
+        "gap": 0.008114028727130577
+      },
+      {
+        "frame": 114,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 114,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 115,
+        "contact": "Left arm to thigh",
+        "gap": 0.007781234823699994
+      },
+      {
+        "frame": 115,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 115,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 116,
+        "contact": "Left arm to thigh",
+        "gap": 0.007518746770198922
+      },
+      {
+        "frame": 116,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 116,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 117,
+        "contact": "Left arm to thigh",
+        "gap": 0.0073187555153913925
+      },
+      {
+        "frame": 117,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 117,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 118,
+        "contact": "Left arm to thigh",
+        "gap": 0.007173291465409931
+      },
+      {
+        "frame": 118,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 118,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 119,
+        "contact": "Left arm to thigh",
+        "gap": 0.0070751758679275575
+      },
+      {
+        "frame": 119,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 119,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 120,
+        "contact": "Left arm to thigh",
+        "gap": 0.007018809336847643
+      },
+      {
+        "frame": 120,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 120,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      },
+      {
+        "frame": 121,
+        "contact": "Left arm to thigh",
+        "gap": 0.007000349251211558
+      },
+      {
+        "frame": 121,
+        "contact": "Right arm to thigh",
+        "gap": 0.003684883315673926
+      },
+      {
+        "frame": 121,
+        "pad": "Seat cushion",
+        "gap": 0.0024999572725725727
+      }
+    ],
+    "maxFootDrift": 0,
+    "meshLoopError": 0.0
+  },
+  "status": "passed"
+}

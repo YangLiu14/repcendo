@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "reverse_crunch",
+  "exerciseId": "0872",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "16b9ec00248558fed26830917a276f3a765b6d405186c9011898c5c38e8718e9",
+  "variant": {
+    "equipment": "地垫、自重",
+    "posture": "仰卧屈膝反向卷腹",
+    "grip": "双手放体侧",
+    "support": "头肩及上背支撑，骨盆卷起"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "PureGym",
+      "url": "https://www.youtube.com/watch?v=XY8KzdDcMFg",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000 s",
+      "observed": "屈髋屈膝约90°，肩头贴垫，手掌放体侧。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.480 s",
+      "observed": "膝向胸方向移动，尾骨与下背逐渐离垫。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "0.960 s",
+      "observed": "骨盆后倾卷起，肩上背继续支撑；示范者比项目卷得更高。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.000 s",
+      "observed": "下背和骨盆控制回落，腿仍弯曲，并非摆腿坐起。"
+    }
+  ],
+  "decisions": "项目保留较小骨盆卷起幅度，约18°后倾并抬离垫；应能区分骨盆卷曲和只动髋屈肌。头肩不主动抬起。来源是侧面，双腿重叠；项目补看顶视图确认双腿对称。",
+  "crossChecks": [
+    "https://www.puregym.com/exercises/abs/reverse-crunches/"
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

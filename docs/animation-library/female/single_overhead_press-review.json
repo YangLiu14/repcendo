@@ -16,7 +16,8 @@
   "status": "accepted",
   "notes": "已查看五视角四阶段：负重左臂处于主画面近侧，肩高起始、过顶峰值及回程可辨，肩肘没有被身体遮住；哑铃保留完整画幅边界，手腕和握柄连续。",
   "evidence": {
-    "docs/animation-library/female/single_overhead_press-review.jpg": "b0a1ca56368bf772c26a158576e0fc6d5aa4dac4161f4eb2a195957c9f497c55"
+    "docs/animation-library/female/single_overhead_press-review.jpg": "b0a1ca56368bf772c26a158576e0fc6d5aa4dac4161f4eb2a195957c9f497c55",
+    "build/motion-reference-review-2026-10-31/boards/single_overhead_press.jpg": "9e9e8fd2981e8e3b362cc2cef753e19d981732a30dc71a5a756e6a6409bd4dba"
   },
   "activeSideViews": [
     "main"
@@ -29,5 +30,50 @@
   ],
   "activeSideEvidence": {
     "docs/animation-library/female/single_overhead_press-review.jpg": "b0a1ca56368bf772c26a158576e0fc6d5aa4dac4161f4eb2a195957c9f497c55"
-  }
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "d478301896f86bbbe8f83c82bd13cd17e0c1936f0fc34871f5e23b61b138eed8",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女当前八阶段成片及主/正/侧/背/握持图。对照 OPEX 左臂正握单铃推举，肩旁起、近直顶点、原路回落及另一手体侧一致；低位肘较外展是雕塑体型适配。未见新的穿模或肢体扭曲，保持当前视频。",
+    "evidence": {
+      "docs/animation-library/female/single_overhead_press-review.jpg": "b0a1ca56368bf772c26a158576e0fc6d5aa4dac4161f4eb2a195957c9f497c55",
+      "build/motion-reference-review-2026-10-31/boards/single_overhead_press.jpg": "9e9e8fd2981e8e3b362cc2cef753e19d981732a30dc71a5a756e6a6409bd4dba"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "左手肩旁正握，右手下垂；双足稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.799998s",
+        "frame": 31,
+        "notes": "左臂上推，前臂对准铃；无蹬腿借力。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.599997s",
+        "frame": 61,
+        "notes": "左臂近直头顶，躯干稳定。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "3.199996s",
+        "frame": 91,
+        "notes": "铃回落肩旁，循环末回准备位。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

@@ -1,8 +1,8 @@
 {
-  "sceneSHA256": "b26b8dc0e8b2ee83e68b07e67c3be7778baebcf81233919107f94b207ff5111f",
+  "sceneSHA256": "b5fbc03e8ceff09ab79d00ad42354092a7d7cbb3403d4b4af6b4974c03b2e138",
   "validatorSHA256": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
   "files": {
-    "leg_press.mp4": "47021e84e48635914789138bff5fadf1b454b7940fb04056705111ba845a5a6a",
-    "leg_press-poster.png": "dd04f13a27ba1b9845ed4499cbcf74fe026bdd93e4762e3b9902112ef6c38fba"
+    "leg_press.mp4": "d32bbc9ce3dffcab8139e6a4594a2a9a9853ead91f6f0e65eed8794fad321ca7",
+    "leg_press-poster.png": "bae8565565467b804353a17f8868a235f900f5121a72b665eee1c7920c7577e5"
   }
 }

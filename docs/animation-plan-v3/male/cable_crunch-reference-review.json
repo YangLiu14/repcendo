@@ -1,0 +1,53 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "ebc0bb948d012ae77281bf3d921fdf7016d91d6a18ea08f39a9a149917214c37",
+  "referenceSHA256": "3e90ce3c13df5aeaa8c1495a643520c2b024ec054c616bafe08ec0f2e390f6eb",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "male版本实际查看全景四视图、正侧背去器械人体图及双手近景；器械正面遮挡由人体单独图补充。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/male/cable_crunch.jpg": "cc418370a031f5ef654136cf6a2c52f01227f64a5ad73854d946b6870bf30699",
+    "docs/animation-plan-v3/deformation-review/male/cable_crunch.jpg": "9551b4d0382375207cb622700570a365281e2e5da77e86b4989e4685210680b9",
+    "docs/animation-plan-v3/deformation-review/male/cable_crunch-grips.jpg": "a4f188fa794d4d865a3d0935a21e9d37ce14b768c5c4a0cfb18d8417aa16ea46"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "5.360689s",
+      "frame": 1,
+      "notes": "面向高滑轮跪姿，双手在额前相对握，躯干已有轻度前倾。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "5.694018s",
+      "frame": 31,
+      "notes": "胸廓向骨盆卷曲，双手随头部下降；不是双臂下拉。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "6.027353s",
+      "frame": 61,
+      "notes": "胸廓进一步卷下，髋膝支点保持，拇指朝上、掌心相向，腕前臂无反拧。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "7.360683s",
+      "frame": 91,
+      "notes": "胸廓受控回升，握持与头部距离保持，髋膝位置稳定。"
+    }
+  ]
+}

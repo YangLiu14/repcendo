@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_kickback",
+  "exerciseId": "0354",
+  "status": "reviewed",
+  "specificationSHA256": "f1fedf3f58e6d4a8aadfdd3c1cd57757dc8e4a6d5d9fd7ff9245a3086c9b5286",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "neutral"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=MQOnCts9N9c",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0s",
+      "observed": "站姿俯身，左手单铃中立握，右手自然下垂，双足着地。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.083333s",
+      "observed": "固定上臂、伸肘向身后推出，空闲手与躯干不跟随负重摆动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.499997s",
+      "observed": "左肘接近伸直，铃位于躯干后方，保持髋铰链。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.499996s",
+      "observed": "左前臂回落至屈肘低位，身体支撑不变。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用左侧单臂、空闲手自然垂放、站姿髋铰链、固定上臂伸肘；收窄旧35°外张轨迹。来源为负重侧侧面，采用 ACE 上臂靠近躯干的文字补充。保留雕塑体型的有限净空，不靠加大外张规避穿模。",
+  "crossChecks": [
+    {
+      "publisher": "ACE Fitness",
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/55/triceps-kickback/",
+      "locator": "Steps 2–4",
+      "observed": "上臂固定且靠近躯干，屈肘约直角起始，受控伸肘与回落。ACE 空闲手扶腿及分腿站姿与此无支撑变体不同，支撑和空闲臂采用 OPEX 真人。"
+    }
+  ]
+}

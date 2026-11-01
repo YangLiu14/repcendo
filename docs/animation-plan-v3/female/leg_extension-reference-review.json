@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "666de886beab17eeb84191ec9ec58a6b6901bcf5afb7f0c1013dbdddaeb0faa2",
+  "referenceSHA256": "966842ea30240493cf3eb46ce4e91ede967365e023dbb31e36dcbdf88245ab4b",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女四视角显示双膝同步从约90°伸至近水平，胫前滚垫随膝轴运动。大腿骨盆靠垫稳定、双手侧把支撑保持；与PureGym四阶段一致，保留原媒体。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/leg_extension.jpg": "f91e45ee9ede784029a37a0f72271b1d5dee0b812f37a051cd289467f1905907"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:02.696",
+      "frame": 1,
+      "notes": "屈膝坐姿，滚垫在胫前、双手侧把稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:03.736",
+      "frame": 31,
+      "notes": "双膝同步伸展，滚垫前上转动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:04.044",
+      "frame": 61,
+      "notes": "近水平伸腿，骨盆和大腿没有抬离坐面。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:05.392",
+      "frame": 91,
+      "notes": "沿同一路径屈膝回落、背部位置稳定。"
+    }
+  ]
+}

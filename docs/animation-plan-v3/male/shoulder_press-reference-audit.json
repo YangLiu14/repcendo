@@ -1,0 +1,1585 @@
+{
+  "status": "passed",
+  "sceneSHA256": "d10e7e792fe62620e6c0c0a3a96916c63124681619ac74c6c726a4c8bb4357af",
+  "referenceSHA256": "1196ea57d6118653ee5a5617a2ea99e6ff0521a9a9ba0fb05f281d9561645230",
+  "specificationSHA256": "9e4436b368ec8e9a26e92370674aaa45267c96ad0258b249582cd7db67322a6e",
+  "checkerSHA256": "ac68a8922ca4a79083d0b9b35191ae1281cd14c1decb77c1fa7aa635a95cf31b",
+  "frames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121
+  ],
+  "samples": [
+    {
+      "frame": 1,
+      "side": "Left",
+      "shoulderElevationDegrees": 81.42673539789982,
+      "elbowFlexionDegrees": 100.77452346733573
+    },
+    {
+      "frame": 1,
+      "side": "Right",
+      "shoulderElevationDegrees": 81.42680369979152,
+      "elbowFlexionDegrees": 100.77444833525486
+    },
+    {
+      "frame": 2,
+      "side": "Left",
+      "shoulderElevationDegrees": 81.47768860910811,
+      "elbowFlexionDegrees": 100.72358391650577
+    },
+    {
+      "frame": 2,
+      "side": "Right",
+      "shoulderElevationDegrees": 81.47768860910811,
+      "elbowFlexionDegrees": 100.72361123726246
+    },
+    {
+      "frame": 3,
+      "side": "Left",
+      "shoulderElevationDegrees": 81.63032967667957,
+      "elbowFlexionDegrees": 100.57104530177187
+    },
+    {
+      "frame": 3,
+      "side": "Right",
+      "shoulderElevationDegrees": 81.63024088422036,
+      "elbowFlexionDegrees": 100.5711545847986
+    },
+    {
+      "frame": 4,
+      "side": "Left",
+      "shoulderElevationDegrees": 81.88413267604807,
+      "elbowFlexionDegrees": 100.31737207599761
+    },
+    {
+      "frame": 4,
+      "side": "Right",
+      "shoulderElevationDegrees": 81.88412584585889,
+      "elbowFlexionDegrees": 100.31737890618678
+    },
+    {
+      "frame": 5,
+      "side": "Left",
+      "shoulderElevationDegrees": 82.23851704113417,
+      "elbowFlexionDegrees": 99.96315163545158
+    },
+    {
+      "frame": 5,
+      "side": "Right",
+      "shoulderElevationDegrees": 82.23857168264753,
+      "elbowFlexionDegrees": 99.96311748450573
+    },
+    {
+      "frame": 6,
+      "side": "Left",
+      "shoulderElevationDegrees": 82.69263582848082,
+      "elbowFlexionDegrees": 99.50925824434755
+    },
+    {
+      "frame": 6,
+      "side": "Right",
+      "shoulderElevationDegrees": 82.69260850772413,
+      "elbowFlexionDegrees": 99.50927873491506
+    },
+    {
+      "frame": 7,
+      "side": "Left",
+      "shoulderElevationDegrees": 83.2449795662814,
+      "elbowFlexionDegrees": 98.95718771411376
+    },
+    {
+      "frame": 7,
+      "side": "Right",
+      "shoulderElevationDegrees": 83.24501371722725,
+      "elbowFlexionDegrees": 98.95714673297874
+    },
+    {
+      "frame": 8,
+      "side": "Left",
+      "shoulderElevationDegrees": 83.89423685821531,
+      "elbowFlexionDegrees": 98.30819679955749
+    },
+    {
+      "frame": 8,
+      "side": "Right",
+      "shoulderElevationDegrees": 83.89427100916116,
+      "elbowFlexionDegrees": 98.30818996936831
+    },
+    {
+      "frame": 9,
+      "side": "Left",
+      "shoulderElevationDegrees": 84.63857038339579,
+      "elbowFlexionDegrees": 97.56417063288966
+    },
+    {
+      "frame": 9,
+      "side": "Right",
+      "shoulderElevationDegrees": 84.63850891169326,
+      "elbowFlexionDegrees": 97.56426625553804
+    },
+    {
+      "frame": 10,
+      "side": "Left",
+      "shoulderElevationDegrees": 85.47589693412598,
+      "elbowFlexionDegrees": 96.72719242180713
+    },
+    {
+      "frame": 10,
+      "side": "Right",
+      "shoulderElevationDegrees": 85.47588327374766,
+      "elbowFlexionDegrees": 96.72722657275297
+    },
+    {
+      "frame": 11,
+      "side": "Left",
+      "shoulderElevationDegrees": 86.40397620835816,
+      "elbowFlexionDegrees": 95.7994478268443
+    },
+    {
+      "frame": 11,
+      "side": "Right",
+      "shoulderElevationDegrees": 86.40400352911483,
+      "elbowFlexionDegrees": 95.79946148722263
+    },
+    {
+      "frame": 12,
+      "side": "Left",
+      "shoulderElevationDegrees": 87.42023322477517,
+      "elbowFlexionDegrees": 94.78357330102078
+    },
+    {
+      "frame": 12,
+      "side": "Right",
+      "shoulderElevationDegrees": 87.42023322477517,
+      "elbowFlexionDegrees": 94.78357330102078
+    },
+    {
+      "frame": 13,
+      "side": "Left",
+      "shoulderElevationDegrees": 88.52188809638487,
+      "elbowFlexionDegrees": 93.68224627849125
+    },
+    {
+      "frame": 13,
+      "side": "Right",
+      "shoulderElevationDegrees": 88.52189492657405,
+      "elbowFlexionDegrees": 93.68225310868043
+    },
+    {
+      "frame": 14,
+      "side": "Left",
+      "shoulderElevationDegrees": 89.70592870976327,
+      "elbowFlexionDegrees": 92.49855400476054
+    },
+    {
+      "frame": 14,
+      "side": "Right",
+      "shoulderElevationDegrees": 89.70595603051994,
+      "elbowFlexionDegrees": 92.49852668400385
+    },
+    {
+      "frame": 15,
+      "side": "Left",
+      "shoulderElevationDegrees": 90.96912438543293,
+      "elbowFlexionDegrees": 91.23567934798186
+    },
+    {
+      "frame": 15,
+      "side": "Right",
+      "shoulderElevationDegrees": 90.96915853637879,
+      "elbowFlexionDegrees": 91.23565885741435
+    },
+    {
+      "frame": 16,
+      "side": "Left",
+      "shoulderElevationDegrees": 92.30799172691718,
+      "elbowFlexionDegrees": 89.89709887444276
+    },
+    {
+      "frame": 16,
+      "side": "Right",
+      "shoulderElevationDegrees": 92.3080327080522,
+      "elbowFlexionDegrees": 89.89707838387524
+    },
+    {
+      "frame": 17,
+      "side": "Left",
+      "shoulderElevationDegrees": 93.71884926225334,
+      "elbowFlexionDegrees": 88.4864872259167
+    },
+    {
+      "frame": 17,
+      "side": "Right",
+      "shoulderElevationDegrees": 93.71878779055082,
+      "elbowFlexionDegrees": 88.48656235799757
+    },
+    {
+      "frame": 18,
+      "side": "Left",
+      "shoulderElevationDegrees": 95.19781744399289,
+      "elbowFlexionDegrees": 87.00770345928476
+    },
+    {
+      "frame": 18,
+      "side": "Right",
+      "shoulderElevationDegrees": 95.19781744399289,
+      "elbowFlexionDegrees": 87.00768296871725
+    },
+    {
+      "frame": 19,
+      "side": "Left",
+      "shoulderElevationDegrees": 96.74090061147135,
+      "elbowFlexionDegrees": 85.46477055596804
+    },
+    {
+      "frame": 19,
+      "side": "Right",
+      "shoulderElevationDegrees": 96.74089378128217,
+      "elbowFlexionDegrees": 85.46478421634637
+    },
+    {
+      "frame": 20,
+      "side": "Left",
+      "shoulderElevationDegrees": 98.34377525494408,
+      "elbowFlexionDegrees": 83.861964214387
+    },
+    {
+      "frame": 20,
+      "side": "Right",
+      "shoulderElevationDegrees": 98.34376842475491,
+      "elbowFlexionDegrees": 83.86198470495451
+    },
+    {
+      "frame": 21,
+      "side": "Left",
+      "shoulderElevationDegrees": 100.0020495627748,
+      "elbowFlexionDegrees": 82.20369673674546
+    },
+    {
+      "frame": 21,
+      "side": "Right",
+      "shoulderElevationDegrees": 100.00201541182895,
+      "elbowFlexionDegrees": 82.20374454806964
+    },
+    {
+      "frame": 22,
+      "side": "Left",
+      "shoulderElevationDegrees": 101.7112087799221,
+      "elbowFlexionDegrees": 80.49446921770644
+    },
+    {
+      "frame": 22,
+      "side": "Right",
+      "shoulderElevationDegrees": 101.71119511954377,
+      "elbowFlexionDegrees": 80.49447604789562
+    },
+    {
+      "frame": 23,
+      "side": "Left",
+      "shoulderElevationDegrees": 103.46649226453452,
+      "elbowFlexionDegrees": 78.73902180855396
+    },
+    {
+      "frame": 23,
+      "side": "Right",
+      "shoulderElevationDegrees": 103.46650592491285,
+      "elbowFlexionDegrees": 78.73900814817561
+    },
+    {
+      "frame": 24,
+      "side": "Left",
+      "shoulderElevationDegrees": 105.2631666955172,
+      "elbowFlexionDegrees": 76.9420673398153
+    },
+    {
+      "frame": 24,
+      "side": "Right",
+      "shoulderElevationDegrees": 105.26317352570638,
+      "elbowFlexionDegrees": 76.94210149076115
+    },
+    {
+      "frame": 25,
+      "side": "Left",
+      "shoulderElevationDegrees": 107.09628701591107,
+      "elbowFlexionDegrees": 75.10860550996293
+    },
+    {
+      "frame": 25,
+      "side": "Right",
+      "shoulderElevationDegrees": 107.09630750647858,
+      "elbowFlexionDegrees": 75.10859184958458
+    },
+    {
+      "frame": 26,
+      "side": "Left",
+      "shoulderElevationDegrees": 108.96073058383863,
+      "elbowFlexionDegrees": 73.24364967784763
+    },
+    {
+      "frame": 26,
+      "side": "Right",
+      "shoulderElevationDegrees": 108.96066911213609,
+      "elbowFlexionDegrees": 73.24370431936099
+    },
+    {
+      "frame": 27,
+      "side": "Left",
+      "shoulderElevationDegrees": 110.85138158761151,
+      "elbowFlexionDegrees": 71.35242493818446
+    },
+    {
+      "frame": 27,
+      "side": "Right",
+      "shoulderElevationDegrees": 110.85134743666566,
+      "elbowFlexionDegrees": 71.35247274950865
+    },
+    {
+      "frame": 28,
+      "side": "Left",
+      "shoulderElevationDegrees": 112.76309689478472,
+      "elbowFlexionDegrees": 69.43993781963503
+    },
+    {
+      "frame": 28,
+      "side": "Right",
+      "shoulderElevationDegrees": 112.76305591364971,
+      "elbowFlexionDegrees": 69.44003344228341
+    },
+    {
+      "frame": 29,
+      "side": "Left",
+      "shoulderElevationDegrees": 114.69055578799481,
+      "elbowFlexionDegrees": 67.51161832258953
+    },
+    {
+      "frame": 29,
+      "side": "Right",
+      "shoulderElevationDegrees": 114.69048748610311,
+      "elbowFlexionDegrees": 67.51170028485956
+    },
+    {
+      "frame": 30,
+      "side": "Left",
+      "shoulderElevationDegrees": 116.62848536120252,
+      "elbowFlexionDegrees": 65.57267788138465
+    },
+    {
+      "frame": 30,
+      "side": "Right",
+      "shoulderElevationDegrees": 116.62849902158086,
+      "elbowFlexionDegrees": 65.57265056062796
+    },
+    {
+      "frame": 31,
+      "side": "Left",
+      "shoulderElevationDegrees": 118.57156489704444,
+      "elbowFlexionDegrees": 63.628416722816326
+    },
+    {
+      "frame": 31,
+      "side": "Right",
+      "shoulderElevationDegrees": 118.57152391590941,
+      "elbowFlexionDegrees": 63.628444043573005
+    },
+    {
+      "frame": 32,
+      "side": "Left",
+      "shoulderElevationDegrees": 120.51433024418452,
+      "elbowFlexionDegrees": 61.68428533784223
+    },
+    {
+      "frame": 32,
+      "side": "Right",
+      "shoulderElevationDegrees": 120.5143575649412,
+      "elbowFlexionDegrees": 61.68430582840975
+    },
+    {
+      "frame": 33,
+      "side": "Left",
+      "shoulderElevationDegrees": 122.45157679847524,
+      "elbowFlexionDegrees": 59.74553614193412
+    },
+    {
+      "frame": 33,
+      "side": "Right",
+      "shoulderElevationDegrees": 122.4515631380969,
+      "elbowFlexionDegrees": 59.74551565136661
+    },
+    {
+      "frame": 34,
+      "side": "Left",
+      "shoulderElevationDegrees": 124.37790871047227,
+      "elbowFlexionDegrees": 57.81748985245541
+    },
+    {
+      "frame": 34,
+      "side": "Right",
+      "shoulderElevationDegrees": 124.3778813897156,
+      "elbowFlexionDegrees": 57.81755132415794
+    },
+    {
+      "frame": 35,
+      "side": "Left",
+      "shoulderElevationDegrees": 126.2880257533797,
+      "elbowFlexionDegrees": 55.905491092431646
+    },
+    {
+      "frame": 35,
+      "side": "Right",
+      "shoulderElevationDegrees": 126.28801209300136,
+      "elbowFlexionDegrees": 55.905446696202034
+    },
+    {
+      "frame": 36,
+      "side": "Left",
+      "shoulderElevationDegrees": 128.17655939850988,
+      "elbowFlexionDegrees": 54.01484008865875
+    },
+    {
+      "frame": 36,
+      "side": "Right",
+      "shoulderElevationDegrees": 128.17657305888824,
+      "elbowFlexionDegrees": 54.01481276790207
+    },
+    {
+      "frame": 37,
+      "side": "Left",
+      "shoulderElevationDegrees": 130.03849628701204,
+      "elbowFlexionDegrees": 52.1505331245146
+    },
+    {
+      "frame": 37,
+      "side": "Right",
+      "shoulderElevationDegrees": 130.0384826266337,
+      "elbowFlexionDegrees": 52.150598011311715
+    },
+    {
+      "frame": 38,
+      "side": "Left",
+      "shoulderElevationDegrees": 131.8685498524686,
+      "elbowFlexionDegrees": 50.31800020038935
+    },
+    {
+      "frame": 38,
+      "side": "Right",
+      "shoulderElevationDegrees": 131.8685225317119,
+      "elbowFlexionDegrees": 50.31800703057852
+    },
+    {
+      "frame": 39,
+      "side": "Left",
+      "shoulderElevationDegrees": 133.66172039640705,
+      "elbowFlexionDegrees": 48.52206001474244
+    },
+    {
+      "frame": 39,
+      "side": "Right",
+      "shoulderElevationDegrees": 133.66172039640705,
+      "elbowFlexionDegrees": 48.52203610908035
+    },
+    {
+      "frame": 40,
+      "side": "Left",
+      "shoulderElevationDegrees": 135.41310384300337,
+      "elbowFlexionDegrees": 46.76767470000589
+    },
+    {
+      "frame": 40,
+      "side": "Right",
+      "shoulderElevationDegrees": 135.41310384300337,
+      "elbowFlexionDegrees": 46.76767470000589
+    },
+    {
+      "frame": 41,
+      "side": "Left",
+      "shoulderElevationDegrees": 137.11785075794685,
+      "elbowFlexionDegrees": 45.05970735086875
+    },
+    {
+      "frame": 41,
+      "side": "Right",
+      "shoulderElevationDegrees": 137.11785075794685,
+      "elbowFlexionDegrees": 45.0597175961525
+    },
+    {
+      "frame": 42,
+      "side": "Left",
+      "shoulderElevationDegrees": 138.77126197108853,
+      "elbowFlexionDegrees": 43.40283323181789
+    },
+    {
+      "frame": 42,
+      "side": "Right",
+      "shoulderElevationDegrees": 138.77120732957516,
+      "elbowFlexionDegrees": 43.402922024277096
+    },
+    {
+      "frame": 43,
+      "side": "Left",
+      "shoulderElevationDegrees": 140.36874759530613,
+      "elbowFlexionDegrees": 41.801696871488915
+    },
+    {
+      "frame": 43,
+      "side": "Right",
+      "shoulderElevationDegrees": 140.36872027454945,
+      "elbowFlexionDegrees": 41.801727607340176
+    },
+    {
+      "frame": 44,
+      "side": "Left",
+      "shoulderElevationDegrees": 141.90600461142256,
+      "elbowFlexionDegrees": 40.2604954211268
+    },
+    {
+      "frame": 44,
+      "side": "Right",
+      "shoulderElevationDegrees": 141.90600461142256,
+      "elbowFlexionDegrees": 40.26052615697807
+    },
+    {
+      "frame": 45,
+      "side": "Left",
+      "shoulderElevationDegrees": 143.37877098139572,
+      "elbowFlexionDegrees": 38.783637767840794
+    },
+    {
+      "frame": 45,
+      "side": "Right",
+      "shoulderElevationDegrees": 143.37878464177408,
+      "elbowFlexionDegrees": 38.7835899565166
+    },
+    {
+      "frame": 46,
+      "side": "Left",
+      "shoulderElevationDegrees": 144.78303055399365,
+      "elbowFlexionDegrees": 37.375054685498235
+    },
+    {
+      "frame": 46,
+      "side": "Right",
+      "shoulderElevationDegrees": 144.78303055399365,
+      "elbowFlexionDegrees": 37.37503077983614
+    },
+    {
+      "frame": 47,
+      "side": "Left",
+      "shoulderElevationDegrees": 146.11497208365952,
+      "elbowFlexionDegrees": 36.03860523098018
+    },
+    {
+      "frame": 47,
+      "side": "Right",
+      "shoulderElevationDegrees": 146.11498574403785,
+      "elbowFlexionDegrees": 36.03857108003433
+    },
+    {
+      "frame": 48,
+      "side": "Left",
+      "shoulderElevationDegrees": 147.3709209286198,
+      "elbowFlexionDegrees": 34.778011857384286
+    },
+    {
+      "frame": 48,
+      "side": "Right",
+      "shoulderElevationDegrees": 147.3709209286198,
+      "elbowFlexionDegrees": 34.77798795172219
+    },
+    {
+      "frame": 49,
+      "side": "Left",
+      "shoulderElevationDegrees": 148.54751663580288,
+      "elbowFlexionDegrees": 33.59667599891722
+    },
+    {
+      "frame": 49,
+      "side": "Right",
+      "shoulderElevationDegrees": 148.54750297542455,
+      "elbowFlexionDegrees": 33.5967033196739
+    },
+    {
+      "frame": 50,
+      "side": "Left",
+      "shoulderElevationDegrees": 149.6416446389472,
+      "elbowFlexionDegrees": 32.49776686335387
+    },
+    {
+      "frame": 50,
+      "side": "Right",
+      "shoulderElevationDegrees": 149.6416446389472,
+      "elbowFlexionDegrees": 32.49773954259719
+    },
+    {
+      "frame": 51,
+      "side": "Left",
+      "shoulderElevationDegrees": 150.6503269755747,
+      "elbowFlexionDegrees": 31.484330715064058
+    },
+    {
+      "frame": 51,
+      "side": "Right",
+      "shoulderElevationDegrees": 150.6503269755747,
+      "elbowFlexionDegrees": 31.48429314902362
+    },
+    {
+      "frame": 52,
+      "side": "Left",
+      "shoulderElevationDegrees": 151.57089987190903,
+      "elbowFlexionDegrees": 30.559004007067408
+    },
+    {
+      "frame": 52,
+      "side": "Right",
+      "shoulderElevationDegrees": 151.57091353228736,
+      "elbowFlexionDegrees": 30.55903815801326
+    },
+    {
+      "frame": 53,
+      "side": "Left",
+      "shoulderElevationDegrees": 152.40097276174066,
+      "elbowFlexionDegrees": 29.72440270181604
+    },
+    {
+      "frame": 53,
+      "side": "Right",
+      "shoulderElevationDegrees": 152.40100008249735,
+      "elbowFlexionDegrees": 29.724382211248532
+    },
+    {
+      "frame": 54,
+      "side": "Left",
+      "shoulderElevationDegrees": 153.1383736449136,
+      "elbowFlexionDegrees": 28.982698799466018
+    },
+    {
+      "frame": 54,
+      "side": "Right",
+      "shoulderElevationDegrees": 153.1383736449136,
+      "elbowFlexionDegrees": 28.982678308898507
+    },
+    {
+      "frame": 55,
+      "side": "Left",
+      "shoulderElevationDegrees": 153.7812310495952,
+      "elbowFlexionDegrees": 28.335808168079524
+    },
+    {
+      "frame": 55,
+      "side": "Right",
+      "shoulderElevationDegrees": 153.78121738921683,
+      "elbowFlexionDegrees": 28.335850856761837
+    },
+    {
+      "frame": 56,
+      "side": "Left",
+      "shoulderElevationDegrees": 154.32789207000633,
+      "elbowFlexionDegrees": 27.78562277005666
+    },
+    {
+      "frame": 56,
+      "side": "Right",
+      "shoulderElevationDegrees": 154.32789207000633,
+      "elbowFlexionDegrees": 27.785615939867487
+    },
+    {
+      "frame": 57,
+      "side": "Left",
+      "shoulderElevationDegrees": 154.77704530982638,
+      "elbowFlexionDegrees": 27.33342326586679
+    },
+    {
+      "frame": 57,
+      "side": "Right",
+      "shoulderElevationDegrees": 154.77700432869133,
+      "elbowFlexionDegrees": 27.333430096055963
+    },
+    {
+      "frame": 58,
+      "side": "Left",
+      "shoulderElevationDegrees": 155.12748865576137,
+      "elbowFlexionDegrees": 26.980486900884724
+    },
+    {
+      "frame": 58,
+      "side": "Right",
+      "shoulderElevationDegrees": 155.12748865576137,
+      "elbowFlexionDegrees": 26.980480070695553
+    },
+    {
+      "frame": 59,
+      "side": "Left",
+      "shoulderElevationDegrees": 155.37840248511097,
+      "elbowFlexionDegrees": 26.727749411026743
+    },
+    {
+      "frame": 59,
+      "side": "Right",
+      "shoulderElevationDegrees": 155.37838882473264,
+      "elbowFlexionDegrees": 26.727771609141545
+    },
+    {
+      "frame": 60,
+      "side": "Left",
+      "shoulderElevationDegrees": 155.52924038274153,
+      "elbowFlexionDegrees": 26.575803315203345
+    },
+    {
+      "frame": 60,
+      "side": "Right",
+      "shoulderElevationDegrees": 155.52922672236318,
+      "elbowFlexionDegrees": 26.575803315203345
+    },
+    {
+      "frame": 61,
+      "side": "Left",
+      "shoulderElevationDegrees": 155.57952423541116,
+      "elbowFlexionDegrees": 26.52510965118351
+    },
+    {
+      "frame": 61,
+      "side": "Right",
+      "shoulderElevationDegrees": 155.57951057503283,
+      "elbowFlexionDegrees": 26.52516258514958
+    },
+    {
+      "frame": 62,
+      "side": "Left",
+      "shoulderElevationDegrees": 155.52924038274153,
+      "elbowFlexionDegrees": 26.575803315203345
+    },
+    {
+      "frame": 62,
+      "side": "Right",
+      "shoulderElevationDegrees": 155.52922672236318,
+      "elbowFlexionDegrees": 26.575803315203345
+    },
+    {
+      "frame": 63,
+      "side": "Left",
+      "shoulderElevationDegrees": 155.37840248511097,
+      "elbowFlexionDegrees": 26.727749411026743
+    },
+    {
+      "frame": 63,
+      "side": "Right",
+      "shoulderElevationDegrees": 155.37838882473264,
+      "elbowFlexionDegrees": 26.727771609141545
+    },
+    {
+      "frame": 64,
+      "side": "Left",
+      "shoulderElevationDegrees": 155.12748865576137,
+      "elbowFlexionDegrees": 26.980486900884724
+    },
+    {
+      "frame": 64,
+      "side": "Right",
+      "shoulderElevationDegrees": 155.12748865576137,
+      "elbowFlexionDegrees": 26.980480070695553
+    },
+    {
+      "frame": 65,
+      "side": "Left",
+      "shoulderElevationDegrees": 154.77704530982638,
+      "elbowFlexionDegrees": 27.33342326586679
+    },
+    {
+      "frame": 65,
+      "side": "Right",
+      "shoulderElevationDegrees": 154.77700432869133,
+      "elbowFlexionDegrees": 27.333430096055963
+    },
+    {
+      "frame": 66,
+      "side": "Left",
+      "shoulderElevationDegrees": 154.32789207000633,
+      "elbowFlexionDegrees": 27.78562277005666
+    },
+    {
+      "frame": 66,
+      "side": "Right",
+      "shoulderElevationDegrees": 154.32789207000633,
+      "elbowFlexionDegrees": 27.785615939867487
+    },
+    {
+      "frame": 67,
+      "side": "Left",
+      "shoulderElevationDegrees": 153.7812310495952,
+      "elbowFlexionDegrees": 28.335808168079524
+    },
+    {
+      "frame": 67,
+      "side": "Right",
+      "shoulderElevationDegrees": 153.78121738921683,
+      "elbowFlexionDegrees": 28.335850856761837
+    },
+    {
+      "frame": 68,
+      "side": "Left",
+      "shoulderElevationDegrees": 153.1383736449136,
+      "elbowFlexionDegrees": 28.982698799466018
+    },
+    {
+      "frame": 68,
+      "side": "Right",
+      "shoulderElevationDegrees": 153.1383736449136,
+      "elbowFlexionDegrees": 28.982678308898507
+    },
+    {
+      "frame": 69,
+      "side": "Left",
+      "shoulderElevationDegrees": 152.40097276174066,
+      "elbowFlexionDegrees": 29.72440270181604
+    },
+    {
+      "frame": 69,
+      "side": "Right",
+      "shoulderElevationDegrees": 152.40100008249735,
+      "elbowFlexionDegrees": 29.724382211248532
+    },
+    {
+      "frame": 70,
+      "side": "Left",
+      "shoulderElevationDegrees": 151.57089987190903,
+      "elbowFlexionDegrees": 30.559004007067408
+    },
+    {
+      "frame": 70,
+      "side": "Right",
+      "shoulderElevationDegrees": 151.57091353228736,
+      "elbowFlexionDegrees": 30.55903815801326
+    },
+    {
+      "frame": 71,
+      "side": "Left",
+      "shoulderElevationDegrees": 150.6503269755747,
+      "elbowFlexionDegrees": 31.484330715064058
+    },
+    {
+      "frame": 71,
+      "side": "Right",
+      "shoulderElevationDegrees": 150.6503269755747,
+      "elbowFlexionDegrees": 31.48429314902362
+    },
+    {
+      "frame": 72,
+      "side": "Left",
+      "shoulderElevationDegrees": 149.6416446389472,
+      "elbowFlexionDegrees": 32.49776686335387
+    },
+    {
+      "frame": 72,
+      "side": "Right",
+      "shoulderElevationDegrees": 149.6416446389472,
+      "elbowFlexionDegrees": 32.49773954259719
+    },
+    {
+      "frame": 73,
+      "side": "Left",
+      "shoulderElevationDegrees": 148.54751663580288,
+      "elbowFlexionDegrees": 33.59667599891722
+    },
+    {
+      "frame": 73,
+      "side": "Right",
+      "shoulderElevationDegrees": 148.54750297542455,
+      "elbowFlexionDegrees": 33.5967033196739
+    },
+    {
+      "frame": 74,
+      "side": "Left",
+      "shoulderElevationDegrees": 147.3709209286198,
+      "elbowFlexionDegrees": 34.778011857384286
+    },
+    {
+      "frame": 74,
+      "side": "Right",
+      "shoulderElevationDegrees": 147.3709209286198,
+      "elbowFlexionDegrees": 34.77798795172219
+    },
+    {
+      "frame": 75,
+      "side": "Left",
+      "shoulderElevationDegrees": 146.11497208365952,
+      "elbowFlexionDegrees": 36.03860523098018
+    },
+    {
+      "frame": 75,
+      "side": "Right",
+      "shoulderElevationDegrees": 146.11498574403785,
+      "elbowFlexionDegrees": 36.03857108003433
+    },
+    {
+      "frame": 76,
+      "side": "Left",
+      "shoulderElevationDegrees": 144.78303055399365,
+      "elbowFlexionDegrees": 37.375054685498235
+    },
+    {
+      "frame": 76,
+      "side": "Right",
+      "shoulderElevationDegrees": 144.78303055399365,
+      "elbowFlexionDegrees": 37.37503077983614
+    },
+    {
+      "frame": 77,
+      "side": "Left",
+      "shoulderElevationDegrees": 143.37877098139572,
+      "elbowFlexionDegrees": 38.783637767840794
+    },
+    {
+      "frame": 77,
+      "side": "Right",
+      "shoulderElevationDegrees": 143.37878464177408,
+      "elbowFlexionDegrees": 38.7835899565166
+    },
+    {
+      "frame": 78,
+      "side": "Left",
+      "shoulderElevationDegrees": 141.90600461142256,
+      "elbowFlexionDegrees": 40.2604954211268
+    },
+    {
+      "frame": 78,
+      "side": "Right",
+      "shoulderElevationDegrees": 141.90600461142256,
+      "elbowFlexionDegrees": 40.26052615697807
+    },
+    {
+      "frame": 79,
+      "side": "Left",
+      "shoulderElevationDegrees": 140.36874759530613,
+      "elbowFlexionDegrees": 41.801696871488915
+    },
+    {
+      "frame": 79,
+      "side": "Right",
+      "shoulderElevationDegrees": 140.36872027454945,
+      "elbowFlexionDegrees": 41.801727607340176
+    },
+    {
+      "frame": 80,
+      "side": "Left",
+      "shoulderElevationDegrees": 138.77126197108853,
+      "elbowFlexionDegrees": 43.40283323181789
+    },
+    {
+      "frame": 80,
+      "side": "Right",
+      "shoulderElevationDegrees": 138.77120732957516,
+      "elbowFlexionDegrees": 43.402922024277096
+    },
+    {
+      "frame": 81,
+      "side": "Left",
+      "shoulderElevationDegrees": 137.11785075794685,
+      "elbowFlexionDegrees": 45.05970735086875
+    },
+    {
+      "frame": 81,
+      "side": "Right",
+      "shoulderElevationDegrees": 137.11785075794685,
+      "elbowFlexionDegrees": 45.0597175961525
+    },
+    {
+      "frame": 82,
+      "side": "Left",
+      "shoulderElevationDegrees": 135.41310384300337,
+      "elbowFlexionDegrees": 46.76767470000589
+    },
+    {
+      "frame": 82,
+      "side": "Right",
+      "shoulderElevationDegrees": 135.41310384300337,
+      "elbowFlexionDegrees": 46.76767470000589
+    },
+    {
+      "frame": 83,
+      "side": "Left",
+      "shoulderElevationDegrees": 133.66172039640705,
+      "elbowFlexionDegrees": 48.52206001474244
+    },
+    {
+      "frame": 83,
+      "side": "Right",
+      "shoulderElevationDegrees": 133.66172039640705,
+      "elbowFlexionDegrees": 48.52203610908035
+    },
+    {
+      "frame": 84,
+      "side": "Left",
+      "shoulderElevationDegrees": 131.8685498524686,
+      "elbowFlexionDegrees": 50.31800020038935
+    },
+    {
+      "frame": 84,
+      "side": "Right",
+      "shoulderElevationDegrees": 131.8685225317119,
+      "elbowFlexionDegrees": 50.31800703057852
+    },
+    {
+      "frame": 85,
+      "side": "Left",
+      "shoulderElevationDegrees": 130.03849628701204,
+      "elbowFlexionDegrees": 52.1505331245146
+    },
+    {
+      "frame": 85,
+      "side": "Right",
+      "shoulderElevationDegrees": 130.0384826266337,
+      "elbowFlexionDegrees": 52.150598011311715
+    },
+    {
+      "frame": 86,
+      "side": "Left",
+      "shoulderElevationDegrees": 128.17655939850988,
+      "elbowFlexionDegrees": 54.01484008865875
+    },
+    {
+      "frame": 86,
+      "side": "Right",
+      "shoulderElevationDegrees": 128.17657305888824,
+      "elbowFlexionDegrees": 54.01481276790207
+    },
+    {
+      "frame": 87,
+      "side": "Left",
+      "shoulderElevationDegrees": 126.2880257533797,
+      "elbowFlexionDegrees": 55.905491092431646
+    },
+    {
+      "frame": 87,
+      "side": "Right",
+      "shoulderElevationDegrees": 126.28801209300136,
+      "elbowFlexionDegrees": 55.905446696202034
+    },
+    {
+      "frame": 88,
+      "side": "Left",
+      "shoulderElevationDegrees": 124.37790871047227,
+      "elbowFlexionDegrees": 57.81748985245541
+    },
+    {
+      "frame": 88,
+      "side": "Right",
+      "shoulderElevationDegrees": 124.3778813897156,
+      "elbowFlexionDegrees": 57.81755132415794
+    },
+    {
+      "frame": 89,
+      "side": "Left",
+      "shoulderElevationDegrees": 122.45157679847524,
+      "elbowFlexionDegrees": 59.74553614193412
+    },
+    {
+      "frame": 89,
+      "side": "Right",
+      "shoulderElevationDegrees": 122.4515631380969,
+      "elbowFlexionDegrees": 59.74551565136661
+    },
+    {
+      "frame": 90,
+      "side": "Left",
+      "shoulderElevationDegrees": 120.51433024418452,
+      "elbowFlexionDegrees": 61.68428533784223
+    },
+    {
+      "frame": 90,
+      "side": "Right",
+      "shoulderElevationDegrees": 120.5143575649412,
+      "elbowFlexionDegrees": 61.68430582840975
+    },
+    {
+      "frame": 91,
+      "side": "Left",
+      "shoulderElevationDegrees": 118.57156489704444,
+      "elbowFlexionDegrees": 63.628416722816326
+    },
+    {
+      "frame": 91,
+      "side": "Right",
+      "shoulderElevationDegrees": 118.57152391590941,
+      "elbowFlexionDegrees": 63.628444043573005
+    },
+    {
+      "frame": 92,
+      "side": "Left",
+      "shoulderElevationDegrees": 116.62848536120252,
+      "elbowFlexionDegrees": 65.57267788138465
+    },
+    {
+      "frame": 92,
+      "side": "Right",
+      "shoulderElevationDegrees": 116.62849902158086,
+      "elbowFlexionDegrees": 65.57265056062796
+    },
+    {
+      "frame": 93,
+      "side": "Left",
+      "shoulderElevationDegrees": 114.69055578799481,
+      "elbowFlexionDegrees": 67.51161832258953
+    },
+    {
+      "frame": 93,
+      "side": "Right",
+      "shoulderElevationDegrees": 114.69048748610311,
+      "elbowFlexionDegrees": 67.51170028485956
+    },
+    {
+      "frame": 94,
+      "side": "Left",
+      "shoulderElevationDegrees": 112.76309689478472,
+      "elbowFlexionDegrees": 69.43993781963503
+    },
+    {
+      "frame": 94,
+      "side": "Right",
+      "shoulderElevationDegrees": 112.76305591364971,
+      "elbowFlexionDegrees": 69.44003344228341
+    },
+    {
+      "frame": 95,
+      "side": "Left",
+      "shoulderElevationDegrees": 110.85138158761151,
+      "elbowFlexionDegrees": 71.35242493818446
+    },
+    {
+      "frame": 95,
+      "side": "Right",
+      "shoulderElevationDegrees": 110.85134743666566,
+      "elbowFlexionDegrees": 71.35247274950865
+    },
+    {
+      "frame": 96,
+      "side": "Left",
+      "shoulderElevationDegrees": 108.96073058383863,
+      "elbowFlexionDegrees": 73.24364967784763
+    },
+    {
+      "frame": 96,
+      "side": "Right",
+      "shoulderElevationDegrees": 108.96066911213609,
+      "elbowFlexionDegrees": 73.24370431936099
+    },
+    {
+      "frame": 97,
+      "side": "Left",
+      "shoulderElevationDegrees": 107.09628701591107,
+      "elbowFlexionDegrees": 75.10860550996293
+    },
+    {
+      "frame": 97,
+      "side": "Right",
+      "shoulderElevationDegrees": 107.09630750647858,
+      "elbowFlexionDegrees": 75.10859184958458
+    },
+    {
+      "frame": 98,
+      "side": "Left",
+      "shoulderElevationDegrees": 105.2631666955172,
+      "elbowFlexionDegrees": 76.9420673398153
+    },
+    {
+      "frame": 98,
+      "side": "Right",
+      "shoulderElevationDegrees": 105.26317352570638,
+      "elbowFlexionDegrees": 76.94210149076115
+    },
+    {
+      "frame": 99,
+      "side": "Left",
+      "shoulderElevationDegrees": 103.46649226453452,
+      "elbowFlexionDegrees": 78.73902180855396
+    },
+    {
+      "frame": 99,
+      "side": "Right",
+      "shoulderElevationDegrees": 103.46650592491285,
+      "elbowFlexionDegrees": 78.73900814817561
+    },
+    {
+      "frame": 100,
+      "side": "Left",
+      "shoulderElevationDegrees": 101.7112087799221,
+      "elbowFlexionDegrees": 80.49446921770644
+    },
+    {
+      "frame": 100,
+      "side": "Right",
+      "shoulderElevationDegrees": 101.71119511954377,
+      "elbowFlexionDegrees": 80.49447604789562
+    },
+    {
+      "frame": 101,
+      "side": "Left",
+      "shoulderElevationDegrees": 100.0020495627748,
+      "elbowFlexionDegrees": 82.20369673674546
+    },
+    {
+      "frame": 101,
+      "side": "Right",
+      "shoulderElevationDegrees": 100.00201541182895,
+      "elbowFlexionDegrees": 82.20374454806964
+    },
+    {
+      "frame": 102,
+      "side": "Left",
+      "shoulderElevationDegrees": 98.34377525494408,
+      "elbowFlexionDegrees": 83.861964214387
+    },
+    {
+      "frame": 102,
+      "side": "Right",
+      "shoulderElevationDegrees": 98.34376842475491,
+      "elbowFlexionDegrees": 83.86198470495451
+    },
+    {
+      "frame": 103,
+      "side": "Left",
+      "shoulderElevationDegrees": 96.74090061147135,
+      "elbowFlexionDegrees": 85.46477055596804
+    },
+    {
+      "frame": 103,
+      "side": "Right",
+      "shoulderElevationDegrees": 96.74089378128217,
+      "elbowFlexionDegrees": 85.46478421634637
+    },
+    {
+      "frame": 104,
+      "side": "Left",
+      "shoulderElevationDegrees": 95.19781744399289,
+      "elbowFlexionDegrees": 87.00770345928476
+    },
+    {
+      "frame": 104,
+      "side": "Right",
+      "shoulderElevationDegrees": 95.19781744399289,
+      "elbowFlexionDegrees": 87.00768296871725
+    },
+    {
+      "frame": 105,
+      "side": "Left",
+      "shoulderElevationDegrees": 93.71884926225334,
+      "elbowFlexionDegrees": 88.4864872259167
+    },
+    {
+      "frame": 105,
+      "side": "Right",
+      "shoulderElevationDegrees": 93.71878779055082,
+      "elbowFlexionDegrees": 88.48656235799757
+    },
+    {
+      "frame": 106,
+      "side": "Left",
+      "shoulderElevationDegrees": 92.30799172691718,
+      "elbowFlexionDegrees": 89.89709887444276
+    },
+    {
+      "frame": 106,
+      "side": "Right",
+      "shoulderElevationDegrees": 92.3080327080522,
+      "elbowFlexionDegrees": 89.89707838387524
+    },
+    {
+      "frame": 107,
+      "side": "Left",
+      "shoulderElevationDegrees": 90.96912438543293,
+      "elbowFlexionDegrees": 91.23567934798186
+    },
+    {
+      "frame": 107,
+      "side": "Right",
+      "shoulderElevationDegrees": 90.96915853637879,
+      "elbowFlexionDegrees": 91.23565885741435
+    },
+    {
+      "frame": 108,
+      "side": "Left",
+      "shoulderElevationDegrees": 89.70592870976327,
+      "elbowFlexionDegrees": 92.49855400476054
+    },
+    {
+      "frame": 108,
+      "side": "Right",
+      "shoulderElevationDegrees": 89.70595603051994,
+      "elbowFlexionDegrees": 92.49852668400385
+    },
+    {
+      "frame": 109,
+      "side": "Left",
+      "shoulderElevationDegrees": 88.52188809638487,
+      "elbowFlexionDegrees": 93.68224627849125
+    },
+    {
+      "frame": 109,
+      "side": "Right",
+      "shoulderElevationDegrees": 88.52189492657405,
+      "elbowFlexionDegrees": 93.68225310868043
+    },
+    {
+      "frame": 110,
+      "side": "Left",
+      "shoulderElevationDegrees": 87.42023322477517,
+      "elbowFlexionDegrees": 94.78357330102078
+    },
+    {
+      "frame": 110,
+      "side": "Right",
+      "shoulderElevationDegrees": 87.42023322477517,
+      "elbowFlexionDegrees": 94.78357330102078
+    },
+    {
+      "frame": 111,
+      "side": "Left",
+      "shoulderElevationDegrees": 86.40397620835816,
+      "elbowFlexionDegrees": 95.7994478268443
+    },
+    {
+      "frame": 111,
+      "side": "Right",
+      "shoulderElevationDegrees": 86.40400352911483,
+      "elbowFlexionDegrees": 95.79946148722263
+    },
+    {
+      "frame": 112,
+      "side": "Left",
+      "shoulderElevationDegrees": 85.47589693412598,
+      "elbowFlexionDegrees": 96.72719242180713
+    },
+    {
+      "frame": 112,
+      "side": "Right",
+      "shoulderElevationDegrees": 85.47588327374766,
+      "elbowFlexionDegrees": 96.72722657275297
+    },
+    {
+      "frame": 113,
+      "side": "Left",
+      "shoulderElevationDegrees": 84.63857038339579,
+      "elbowFlexionDegrees": 97.56417063288966
+    },
+    {
+      "frame": 113,
+      "side": "Right",
+      "shoulderElevationDegrees": 84.63850891169326,
+      "elbowFlexionDegrees": 97.56426625553804
+    },
+    {
+      "frame": 114,
+      "side": "Left",
+      "shoulderElevationDegrees": 83.89423685821531,
+      "elbowFlexionDegrees": 98.30819679955749
+    },
+    {
+      "frame": 114,
+      "side": "Right",
+      "shoulderElevationDegrees": 83.89427100916116,
+      "elbowFlexionDegrees": 98.30818996936831
+    },
+    {
+      "frame": 115,
+      "side": "Left",
+      "shoulderElevationDegrees": 83.2449795662814,
+      "elbowFlexionDegrees": 98.95718771411376
+    },
+    {
+      "frame": 115,
+      "side": "Right",
+      "shoulderElevationDegrees": 83.24501371722725,
+      "elbowFlexionDegrees": 98.95714673297874
+    },
+    {
+      "frame": 116,
+      "side": "Left",
+      "shoulderElevationDegrees": 82.69263582848082,
+      "elbowFlexionDegrees": 99.50925824434755
+    },
+    {
+      "frame": 116,
+      "side": "Right",
+      "shoulderElevationDegrees": 82.69260850772413,
+      "elbowFlexionDegrees": 99.50927873491506
+    },
+    {
+      "frame": 117,
+      "side": "Left",
+      "shoulderElevationDegrees": 82.23851704113417,
+      "elbowFlexionDegrees": 99.96315163545158
+    },
+    {
+      "frame": 117,
+      "side": "Right",
+      "shoulderElevationDegrees": 82.23857168264753,
+      "elbowFlexionDegrees": 99.96311748450573
+    },
+    {
+      "frame": 118,
+      "side": "Left",
+      "shoulderElevationDegrees": 81.88413267604807,
+      "elbowFlexionDegrees": 100.31737207599761
+    },
+    {
+      "frame": 118,
+      "side": "Right",
+      "shoulderElevationDegrees": 81.88412584585889,
+      "elbowFlexionDegrees": 100.31737890618678
+    },
+    {
+      "frame": 119,
+      "side": "Left",
+      "shoulderElevationDegrees": 81.63032967667957,
+      "elbowFlexionDegrees": 100.57104530177187
+    },
+    {
+      "frame": 119,
+      "side": "Right",
+      "shoulderElevationDegrees": 81.63024088422036,
+      "elbowFlexionDegrees": 100.5711545847986
+    },
+    {
+      "frame": 120,
+      "side": "Left",
+      "shoulderElevationDegrees": 81.47768860910811,
+      "elbowFlexionDegrees": 100.72358391650577
+    },
+    {
+      "frame": 120,
+      "side": "Right",
+      "shoulderElevationDegrees": 81.47768860910811,
+      "elbowFlexionDegrees": 100.72361123726246
+    },
+    {
+      "frame": 121,
+      "side": "Left",
+      "shoulderElevationDegrees": 81.42673539789982,
+      "elbowFlexionDegrees": 100.77452346733573
+    },
+    {
+      "frame": 121,
+      "side": "Right",
+      "shoulderElevationDegrees": 81.42680369979152,
+      "elbowFlexionDegrees": 100.77444833525486
+    }
+  ],
+  "failures": []
+}

@@ -2,7 +2,9 @@
   "sceneSHA256": "554632b399b45c47ca2050dcf27933d888756d3badbdb00c147e8fc184509c50",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -16,8 +18,67 @@
   "status": "accepted",
   "notes": "实际查看四阶段五视角：坐姿膝部没有尖折，小腿后侧到踝部轮廓连续，双脚与座面位置稳定；弯举的肘部、掌向和交替侧清楚，肩带未见新增塌陷或侧胸鼓包，手掌保持包覆握柄。保留原雕塑衣褶。",
   "evidence": {
-    "docs/animation-library/female/seated_alternate_hammer_curl-review.jpg": "7eb289bda1750090b114b5fa32c5b1a434417548f51ca944110466b8f83679a7"
+    "docs/animation-library/female/seated_alternate_hammer_curl-review.jpg": "7eb289bda1750090b114b5fa32c5b1a434417548f51ca944110466b8f83679a7",
+    "build/motion-reference-review-2026-10-31/phases/seated_alternate_hammer_curl.jpg": "6a6cef385d60f2351b8ed5516c8adbbf7f60a83b13e7780c60fb888d10c949a5",
+    "build/motion-reference-review-2026-10-31/boards/seated_alternate_hammer_curl.jpg": "69f7305e634138a487f257b328763b4994f5c983d6576ce962fbe42b013c3e0f"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "encodedPhaseEvidence": {
+    "path": "build/motion-reference-review-2026-10-31/phases/seated_alternate_hammer_curl.jpg",
+    "sha256": "6a6cef385d60f2351b8ed5516c8adbbf7f60a83b13e7780c60fb888d10c949a5",
+    "frames": [
+      1,
+      25,
+      49,
+      73,
+      145
+    ]
+  },
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "5839c51eeab7bc7fde063cc8684f4baa9f55fcb9d1ca8f5383821819103e5e99",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看八阶段成片、主/正/侧/背/握持图和精确1/25/49/73/145帧成片；对照 The Queen of Lean 的坐姿交替锤式及 OPEX 平凳坐姿支撑。单侧完成后换侧，等待手保持低位、中立握；平凳坐姿的躯干、脚底稳定。源示范有靠背，项目无靠背，已独立查看稳定性。保留媒体，工程视觉检查。",
+    "evidence": {
+      "docs/animation-library/female/seated_alternate_hammer_curl-review.jpg": "7eb289bda1750090b114b5fa32c5b1a434417548f51ca944110466b8f83679a7",
+      "build/motion-reference-review-2026-10-31/phases/seated_alternate_hammer_curl.jpg": "6a6cef385d60f2351b8ed5516c8adbbf7f60a83b13e7780c60fb888d10c949a5",
+      "build/motion-reference-review-2026-10-31/boards/seated_alternate_hammer_curl.jpg": "69f7305e634138a487f257b328763b4994f5c983d6576ce962fbe42b013c3e0f"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "3.183s",
+        "frame": 1,
+        "notes": "双臂在髋外下垂，中立握；座面、足底保持接触。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "3.683s",
+        "frame": 25,
+        "notes": "左侧屈肘，右侧保持低位；躯干不随手旋转。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "4.775s",
+        "frame": 49,
+        "notes": "左侧接近肩前，掌心朝内，上臂基本固定。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "5.441s",
+        "frame": 73,
+        "notes": "左侧沿原路径回落；第97帧回到起始后换右侧，第145帧右侧峰值。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

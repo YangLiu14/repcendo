@@ -1,8 +1,8 @@
 {
-  "sceneSHA256": "b3a3b439ea947352a99f10deebdb672a2156af00e4a096c56460d713edbffc45",
+  "sceneSHA256": "caee7c6672f7fcc7336dd9e60304b38381f3257ba6e5d1d9087cdd736842bb0b",
   "validatorSHA256": "6468cae34d345a5f52c90f4fc51f95a9bf813918fb755c28bb71433e090cb655",
   "files": {
-    "curl.mp4": "a00e3cd2865d2c1feb3441e899d160991464802a08feaebea762bce80be42a39",
-    "curl-poster.png": "1c3183cc659d903d1f673a5d9000bb1f30dc56a3cf6b7302bdb2e14ac014005a"
+    "curl.mp4": "61725a54d6d84102dada3a29ce5c2cfcc5dd23bd25bfb756215e4cfbc2af1d1f",
+    "curl-poster.png": "8f4eb82e168bb7db291043e51ecdd9034be0677a99ea57ad42e242932bfcb323"
   }
 }

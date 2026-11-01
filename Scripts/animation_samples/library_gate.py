@@ -18,7 +18,7 @@ def specification_digest(name):
 
 def validator_hashes(name=None):
     version = LIBRARY_EXERCISES[name].get("audit_version", 1) if name else 1
-    if version not in (1, 3, 4, 5, 6, 7):
+    if version not in (1, 3, 4, 5, 6, 7, 8, 9):
         raise ValueError(f"Unsupported library audit version: {version}")
     suffix = f"_v{version}" if version >= 3 else ""
     result = {file: digest(HERE / file) for file in (
@@ -57,6 +57,47 @@ def require_scene_pass(sex, name, root=ROOT, visual=True):
         and audit.get("motion", {}).get("failures") == []
     ):
         raise RuntimeError(f"{sex}/{name}: missing, failed, partial or stale library checks")
+    from reference_motion_constraints import FRONT_RAISES, front_raise_violations
+    from motion_reference_gate import is_legacy
+    if name in FRONT_RAISES and not is_legacy(sex, name, scene):
+        failures = front_raise_violations(name, audit["motion"].get("samples", []), frames)
+        if failures:
+            raise RuntimeError(f"{sex}/{name}: front-raise reference mismatch: {failures[:4]}")
+    if name == "alternate_curl" and not is_legacy(sex, name, scene):
+        from reference_motion_constraints import alternate_curl_violations
+        failures = alternate_curl_violations(audit["motion"].get("samples", []), frames)
+        if failures:
+            raise RuntimeError(f"{sex}/{name}: alternating curl reference mismatch: {failures[:4]}")
+    if name == "seated_alternate_front_raise" and not is_legacy(sex, name, scene):
+        from reference_motion_constraints import seated_alternate_raise_violations
+        failures = seated_alternate_raise_violations(audit["motion"].get("samples", []), frames)
+        if failures:
+            raise RuntimeError(f"{sex}/{name}: alternating raise reference mismatch: {failures[:4]}")
+    if name in {"seated_curl", "reverse_curl"} and not is_legacy(sex, name, scene):
+        from reference_motion_constraints import bilateral_curl_violations
+        failures = bilateral_curl_violations(name, audit["motion"].get("samples", []), frames)
+        if failures:
+            raise RuntimeError(f"{sex}/{name}: bilateral curl reference mismatch: {failures[:4]}")
+    if name in {"single_curl", "single_reverse_curl"} and not is_legacy(sex, name, scene):
+        from reference_motion_constraints import single_curl_violations
+        failures = single_curl_violations(audit["motion"].get("samples", []), frames)
+        if failures:
+            raise RuntimeError(f"{sex}/{name}: single curl reference mismatch: {failures[:4]}")
+    if name == "zottman_curl" and not is_legacy(sex, name, scene):
+        from reference_motion_constraints import zottman_curl_violations
+        failures = zottman_curl_violations(audit["motion"].get("samples", []), frames)
+        if failures:
+            raise RuntimeError(f"{sex}/{name}: Zottman curl reference mismatch: {failures[:4]}")
+    if name == "cross_body_hammer_curl" and not is_legacy(sex, name, scene):
+        from reference_motion_constraints import cross_body_curl_violations
+        failures = cross_body_curl_violations(audit["motion"].get("samples", []), frames)
+        if failures:
+            raise RuntimeError(f"{sex}/{name}: cross-body curl reference mismatch: {failures[:4]}")
+    if name == "lateral_front_raise" and not is_legacy(sex, name, scene):
+        from reference_motion_constraints import lateral_front_raise_violations
+        failures = lateral_front_raise_violations(audit["motion"].get("samples", []), frames)
+        if failures:
+            raise RuntimeError(f"{sex}/{name}: combination raise reference mismatch: {failures[:4]}")
     if LIBRARY_EXERCISES[name].get("unilateral"):
         from active_side_camera import require_report
         camera_report = json.loads((folder / f"{name}-camera.json").read_text())
@@ -80,7 +121,7 @@ def require_scene_pass(sex, name, root=ROOT, visual=True):
                     and review.get("activeSideEvidence")
                     and all(review["evidence"].get(p) == sha for p,sha in review["activeSideEvidence"].items())):
                 raise RuntimeError(f"{sex}/{name}: missing working-side main-view review")
-        if LIBRARY_EXERCISES[name].get("audit_version") == 7:
+        if LIBRARY_EXERCISES[name].get("audit_version") in (7, 8, 9):
             count = LIBRARY_EXERCISES[name].get("frames", 120)
             alternating = LIBRARY_EXERCISES[name].get("alternating")
             expected = dict(zip(("preparation", "lifting", "peak", "return"),
@@ -89,19 +130,25 @@ def require_scene_pass(sex, name, root=ROOT, visual=True):
             if {p["phase"]: p["frame"] for p in review["motionReference"]["comparisons"]} != expected:
                 raise RuntimeError(f"{sex}/{name}: reference phases do not match one full repetition")
         if ((LIBRARY_EXERCISES[name].get("audit_version") == 5 and LIBRARY_EXERCISES[name].get("press_type") in ("flat", "incline"))
-                or (LIBRARY_EXERCISES[name].get("audit_version") in (6, 7) and LIBRARY_EXERCISES[name].get("seated"))):
+                or (LIBRARY_EXERCISES[name].get("audit_version") in (6, 7, 8, 9) and LIBRARY_EXERCISES[name].get("seated"))):
             equipment = review.get("equipmentEvidence", {})
             if not (set(review.get("equipmentViews", [])) == {"main", "side"}
                     and {1,31,61}.issubset(review.get("equipmentFrames", []))
                     and equipment and all(review["evidence"].get(p) == sha for p,sha in equipment.items())):
                 raise RuntimeError(f"{sex}/{name}: missing complete equipment comparison views")
-        if LIBRARY_EXERCISES[name].get("audit_version") in (6, 7):
+        if LIBRARY_EXERCISES[name].get("audit_version") in (6, 7, 8, 9):
             grip = review.get("gripEvidence", {})
             sides = [LIBRARY_EXERCISES[name]["unilateral"]] if LIBRARY_EXERCISES[name].get("unilateral") else ["Left", "Right"]
             if not (set(review.get("gripSides", [])) == set(sides)
                     and {1,31,61}.issubset(review.get("gripFrames", []))
                     and grip and all(review["evidence"].get(p) == sha for p,sha in grip.items())):
                 raise RuntimeError(f"{sex}/{name}: missing unobstructed grip closeups")
+        if LIBRARY_EXERCISES[name].get("thigh_support"):
+            support = review.get("supportEvidence", {})
+            if not (set(review.get("supportViews", [])) == {"left_support", "right_forearm"}
+                    and {1,31,61,91}.issubset(review.get("supportFrames", []))
+                    and support and all(review["evidence"].get(p) == sha for p,sha in support.items())):
+                raise RuntimeError(f"{sex}/{name}: missing arm/thigh support closeups")
     return audit
 
 

@@ -1,8 +1,10 @@
 {
-  "sceneSHA256": "06b66a27f5d892464a340ab10463702db76b6dce316b535cc0d4c23f925472fc",
+  "sceneSHA256": "a71d08614d3ba7bbb8c8c947deac1b6401491bc6c1274f12f7c7160b7b718d38",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -14,10 +16,51 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "实际检查五视角全部关键阶段：肩胛平面抬臂及侧举转前举过程中，肩腋表面连续、前臂不扭瘪，掌向正确；站姿膝部微屈，小腿和踝部自然衔接。",
+  "notes": "实际查看五视角六阶段：已降低两种抬举的回落位置，双铃在身体两侧/大腿前安全返回；侧举、前举均止于肩高，肘轻微弯曲，足底与躯干稳定，握持连续。保留侧举一次再前举一次的顺序。",
   "evidence": {
-    "docs/animation-library/male/lateral_front_raise-review.jpg": "c485cd098423bc5bf07073f21b2a01edffe9ff7521ae6e2aef7573dd57379696"
+    "docs/animation-library/male/lateral_front_raise-review.jpg": "b4532ea24ec013a1de33e77b763d58b13a1449877c2394f0643bd3a8a1d83de3"
   },
-  "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "3e1cf2267653de65fe6b80cea76b6b8b48af4666f3d1d8d12bdfd295ddc765df",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看五视角六阶段：已降低两种抬举的回落位置，双铃在身体两侧/大腿前安全返回；侧举、前举均止于肩高，肘轻微弯曲，足底与躯干稳定，握持连续。保留侧举一次再前举一次的顺序。 对照 WatchItNow TV 真人17.828–18.994秒侧举及15.828–17.078秒前举；视频前举先开始，仅循环起始点不同。",
+    "evidence": {
+      "docs/animation-library/male/lateral_front_raise-review.jpg": "b4532ea24ec013a1de33e77b763d58b13a1449877c2394f0643bd3a8a1d83de3"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "17.828s",
+        "frame": 1,
+        "notes": "双手在大腿旁低位，保持轻微屈肘。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "18.162s",
+        "frame": 25,
+        "notes": "双臂同步向侧上抬起，躯干不摇摆。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "18.578s",
+        "frame": 49,
+        "notes": "侧举至肩高；145帧前举同样肩高，未变成过头动作。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "18.994s",
+        "frame": 73,
+        "notes": "侧举沿原路径回落；97帧两铃回低位后切换前举平面。"
+      }
+    ]
+  }
 }

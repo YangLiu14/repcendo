@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_curl",
+  "exerciseId": "1670",
+  "status": "reviewed",
+  "specificationSHA256": "853f6f7a3c3f8f5dcc2fa13cfcb94632df60d3aca4246aadcddf9aaf93f7fb2c",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "standing",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "supinated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "ECT NATION",
+      "url": "https://www.youtube.com/watch?v=74qC_TVP8yo",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "8.760s",
+      "observed": "站姿单右手持铃，掌心朝前，肘在身体侧，另一手放髋部；画面裁掉脚。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "9.160s",
+      "observed": "固定反握屈肘，铃在肩前方向上升，肘没有持续前抬。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "9.627s",
+      "observed": "铃靠近肩前，屈肘充分，躯干稳定；长暂停为教学解说。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "11.827s",
+      "observed": "反握受控回落，12.627和13.427秒观察到回至低位。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "本项目左手为真人右手镜像；采用反握与完整屈肘路径。ECT另一手在髋上、脚部裁切，用 OPEX 单臂视频4bz679Lefm0的0/.800/1.400/2.200/3.000秒全身观察补充闲置手自然下垂与足底支撑；OPEX会旋转握法，不用其低位握法。原男女动画上臂始终前抬约34.5°且屈肘峰值仅约90°，需要修复至上臂靠侧、充分屈肘；此记录不批准候选。",
+  "crossChecks": [
+    {
+      "publisher": "Mayo Clinic",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675",
+      "accessedOn": "2026-10-31",
+      "observed": "实际阅读教学文本：掌心朝上，肘靠身体、腕线顺直、不摆动上臂，受控屈肘和回落。仅文字交叉核对。"
+    },
+    {
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=4bz679Lefm0",
+      "accessedOn": "2026-10-31",
+      "observed": "实际查看0/.800/1.400/2.200/3.000秒全身单臂示范；右臂负重，另一手下垂、足底稳定；旋转握法不作为固定反握依据。"
+    }
+  ]
+}

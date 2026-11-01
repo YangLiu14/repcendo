@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exercise": "seated_lateral_raise",
+  "exerciseId": "0396",
+  "status": "reviewed",
+  "specificationSHA256": "907f377b0d63b7cd6639850a50057ea2101cc7b661133980aa5159a19a28295d",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "seated",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=TiG5Un0pLdA",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.316s",
+      "observed": "平凳坐姿，双足落地，双手下垂在腿外，躯干直立。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.875s",
+      "observed": "双臂同时向侧面上抬，肘保持轻弯，躯干未摆动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.343s",
+      "observed": "两臂接近肩高，手背向上，腕未翻折；真人略高于水平。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "1.936s",
+      "observed": "双臂沿侧向弧线下落，2.800秒回到低位，肩带和足底稳定。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "采用无靠背坐姿、双臂同步侧向抬至肩高及受控回程。项目低位保留约25度外展以容纳雕塑与铃片，手仍处在髋旁；峰值限制在肩高附近。与原先前平举的前抬低位不同，这里没有把铃维持在大腿前方。"
+}

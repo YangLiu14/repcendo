@@ -1,5 +1,5 @@
 {
-  "sceneSHA256": "360e9e241f5f26e688daafc330f5182acb6112dadc0d4ab830a60be968c27158",
+  "sceneSHA256": "5039a0b66db91be1e1d0beb3739b203cfd01ebfd8c446a78cacc61489432db25",
   "frames": [
     1,
     31,
@@ -14,10 +14,52 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已逐张查看本场景主、正、侧、背及握持四阶段图。站姿膝屈减小，小腿肌腹与踝部过渡连续；坐姿膝盖轮廓未出现尖折，足底与座面支撑合理。弯举掌向/交替侧、前举方向和握把接触清楚，肩肘轮廓无新增异常鼓包。保留雕塑细部及衣褶。",
+  "notes": "已实际查看男女各自的主/正/侧/背/握持四阶段图，并对照 OPEX 站姿真人参考。低位上臂不再预抬至约28–31度，现为21–24度，肘保留轻微弯曲以适应雕塑大腿与铃片；正握、肩高峰值、稳定躯干与足底保持，侧视图可辨完整前举弧线。未发现新的肩腋折叠或握持反向。 女性衣褶与肩臂过渡连续，未见拉长侧胸。",
   "evidence": {
-    "docs/animation-library/female/front_raise-review.jpg": "629289bf25d117b72f555b2cac4d7f1baee0a30945b58305351d59f6054b31be"
+    "docs/animation-library/female/front_raise-review.jpg": "90b6c7c70f899fe1406d8cf1aca6079c8097f4f1c05f0a96b2c91acb3f159154"
   },
-  "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "39b157f09e825c3e73cacc7b4d103c099e71a84e98885310a4b397a95923200b",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "已实际查看男女各自的主/正/侧/背/握持四阶段图，并对照 OPEX 站姿真人参考。低位上臂不再预抬至约28–31度，现为21–24度，肘保留轻微弯曲以适应雕塑大腿与铃片；正握、肩高峰值、稳定躯干与足底保持，侧视图可辨完整前举弧线。未发现新的肩腋折叠或握持反向。 女性衣褶与肩臂过渡连续，未见拉长侧胸。",
+    "evidence": {
+      "docs/animation-library/female/front_raise-review.jpg": "90b6c7c70f899fe1406d8cf1aca6079c8097f4f1c05f0a96b2c91acb3f159154"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "低位正握，手位接近大腿前/外侧；躯干与足底稳定。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.742s",
+        "frame": 31,
+        "notes": "双臂向前抬升；肘微屈，手背方向保持。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "1.362s",
+        "frame": 61,
+        "notes": "到达肩高，臂朝前而非侧展；手腕与前臂顺直。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "1.751s",
+        "frame": 91,
+        "notes": "沿原路径受控回落，无身体后摆或支撑滑动。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31"
 }

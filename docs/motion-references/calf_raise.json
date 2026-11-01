@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "exercise": "calf_raise",
+  "exerciseId": "0605",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "8e16aa4781dcca254640341720dd3e3712038742317aedad797fc77fa749364d",
+  "variant": {
+    "equipment": "肩垫式站姿提踵机及前脚掌踏台",
+    "posture": "双腿接近伸直站姿，双侧提踵",
+    "grip": "双手握稳定把手",
+    "support": "前脚掌留在踏台，肩垫承托负重"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "Physitrack / PhysioTools",
+      "url": "https://us.physitrack.com/home-exercise-video/standing-calf-raise-in-a-machine",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:01.018",
+      "observed": "后斜视全身可见，前脚掌在台阶，双脚跟处于低位，膝近直、肩垫压在双肩。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:01.999",
+      "observed": "双脚跟同步上提，身体和肩垫上移，膝部角度没有明显改变。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:02.979",
+      "observed": "踮脚高位，前脚掌继续贴台阶，躯干保持竖直，双肩同时承力。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:04.007",
+      "observed": "脚跟受控下落，肩垫随身体回落，双足和膝未左右倒转。"
+    }
+  ],
+  "decisions": "采用肩垫机双侧提踵；参考手柄位于面前，项目手柄较低但同为稳定握持。参考机架与项目已核查HS-SC简化滑车不同，不据此改器械机构。项目采用足底接近平至跖屈的保守行程，不复刻示范者最大背屈。",
+  "crossChecks": [
+    {
+      "publisher": "Physitrack",
+      "url": "https://us.physitrack.com/home-exercise-video/standing-calf-raise-in-a-machine",
+      "notes": "已阅读页面：肩垫按身高调整、前脚掌支撑、髋膝趾对齐、膝不反张、脚跟受控下放后踮起。"
+    }
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}

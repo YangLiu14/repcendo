@@ -281,9 +281,23 @@ class PlanMotion:
         if n in ("leg_curl", "leg_extension"):
             hip.z = 0.69
         if n in ("rdl", "straight_pulldown", "pushdown"):
-            angle = -0.85 * d if n == "rdl" else -0.10
+            angle = -1.05 * d if n == "rdl" else -0.10
+            if n == "straight_pulldown":
+                angle = -0.30
             hip.y = 0.07 - 0.25 * d if n == "rdl" else -0.03
             hip.z -= 0.08 * d if n == "rdl" else 0.01
+            if n == "rdl":
+                # Keep the selected reference's soft knee during the hip hinge.
+                # Solve pelvis height from fixed foot positions and actual bone
+                # lengths; lowering the pelvis by an arbitrary amount made a squat.
+                heights = []
+                for sign, side in self.SIDES.items():
+                    offset = self.rx(angle) @ (self.head["mixamorig:" + side + "UpLeg"] - self.hip0)
+                    a, b = self.L[sign, "thigh"], self.L[sign, "shin"]
+                    distance2 = a*a + b*b + 2*a*b*math.cos(math.radians(18 + 6*d))
+                    dx, dy = hip.x + offset.x - sign*.16, hip.y + offset.y
+                    heights.append(self.ankle_z + math.sqrt(distance2-dx*dx-dy*dy) - offset.z)
+                hip.z = min(heights)
         if self.floor:
             hip = Vector((0, 0.10, 0.20 if self.args.sex == "male" else 0.19))
             angle = math.pi / 2
@@ -302,9 +316,9 @@ class PlanMotion:
             angles["mixamorig:" + part] = angle + head_offset
         if n == "cable_crunch":
             for bone, a in [
-                ("Spine", -0.10 - 0.20 * d),
-                ("Spine1", -0.15 - 0.40 * d),
-                ("Spine2", -0.20 - 0.65 * d),
+                ("Spine", -0.30 - 0.20 * d),
+                ("Spine1", -0.45 - 0.35 * d),
+                ("Spine2", -0.55 - 0.65 * d),
             ]:
                 angles["mixamorig:" + bone] = a
             for bone in (
@@ -314,7 +328,7 @@ class PlanMotion:
                 "LeftShoulder",
                 "RightShoulder",
             ):
-                angles["mixamorig:" + bone] = -0.20 - 0.65 * d
+                angles["mixamorig:" + bone] = -0.55 - 0.65 * d
         if n == "reverse_crunch":
             for bone, a in [
                 ("Hips", angle + 0.32 * d),
@@ -388,7 +402,21 @@ class PlanMotion:
                 self.joint("mixamorig:LeftUpLeg") + self.joint("mixamorig:RightUpLeg")
             ) / 2
             reach = min(self.L[k, "thigh"] + self.L[k, "shin"] for k in self.SIDES)
-            ankle = hips + unit((0, 1, 1)) * reach * (0.92 - 0.24 * d)
+            axis = unit((0, 1, 1))
+            # Solve a shared sled endpoint for both leg lengths. Keep a soft
+            # knee at the top instead of the previous visibly shortened press.
+            endpoints = []
+            for k in self.SIDES:
+                joint = self.joint("mixamorig:" + self.SIDES[k] + "UpLeg")
+                origin = hips.copy()
+                origin.x = k * 0.23
+                delta = origin - joint
+                thigh, shin = self.L[k, "thigh"], self.L[k, "shin"]
+                distance2 = thigh**2 + shin**2 + 2 * thigh * shin * math.cos(math.radians(20))
+                along = delta.dot(axis)
+                endpoints.append(-along + math.sqrt(distance2 - delta.length_squared + along**2))
+            travel = min(endpoints) * (1 - d) + reach * 0.68 * d
+            ankle = hips + axis * travel
             ankle.x = s * 0.23
             knee = self.ik(hip, ankle, a, b, hip + Vector((s * 0.30, 0.2, 1)))
             footR = self.rx(3 * math.pi / 4)
@@ -449,6 +477,32 @@ class PlanMotion:
         basis = Matrix((x, y, z)).transposed().to_4x4()
         return basis @ self.rot_inv, basis
 
+    def bar_center_for_elbow(self, half_width, direction, flexion, nominal):
+        """Intersect both arm-reach spheres for a horizontal, fixed-width bar.
+
+        Each sculpture has slightly asymmetric limb lengths and palm offsets.
+        A shared guessed reach bends one elbow much farther than the other.
+        The nearest point on the intersection preserves both lengths and grips.
+        """
+        centers, radii = [], []
+        for sign, side in self.SIDES.items():
+            rotation, _ = self.hand_rotation((-sign, 0, 0), direction)
+            centers.append(self.joint("mixamorig:" + side + "Arm")
+                           + rotation @ self.grip_offsets[sign]
+                           - Vector((sign * half_width, 0, 0)))
+            a, b = self.L[sign, "upper"], self.L[sign, "fore"]
+            radii.append(math.sqrt(a*a + b*b + 2*a*b*math.cos(flexion)))
+        delta = centers[1] - centers[0]
+        distance, axis = delta.length, delta.normalized()
+        along = (radii[0]**2 - radii[1]**2 + distance**2) / (2*distance)
+        radius2 = radii[0]**2 - along**2
+        if radius2 <= 0:
+            raise ValueError("Bar grip span is incompatible with the selected elbow angle")
+        center = centers[0] + axis * along
+        projected = Vector(nominal) - center
+        projected -= axis * projected.dot(axis)
+        return center + projected.normalized() * math.sqrt(radius2)
+
     def arm(self, s, d, t):
         side = self.SIDES[s]
         p = "mixamorig:" + side
@@ -493,40 +547,37 @@ class PlanMotion:
             handdir = Vector((0, 0, 1))
             pole = shoulder + Vector((s * 0.5, 0.15, -0.25))
         elif n == "pulldown":
-            target = Vector(
-                (s * 0.40, shoulders.y + 0.20, shoulders.z + 0.49 - 0.53 * d)
-            )
             handdir = Vector((0, 0, 1))
+            high = self.bar_center_for_elbow(.40, handdir, math.radians(22),
+                                            shoulders + Vector((0, .20, .55)))
+            low = Vector((0, shoulders.y + .20, shoulders.z - .04))
+            target = high.lerp(low, d) + Vector((s * .40, 0, 0))
             pole = shoulder + Vector((s * 0.5, 0.02, -0.35))
-        elif n in ("rdl", "straight_pulldown"):
-            if n == "rdl":
-                handdir = Vector((0, 0, -1))
-                heights = []
-                for sign, other in self.SIDES.items():
-                    sh = self.joint("mixamorig:" + other + "Arm")
-                    rotation, _ = self.hand_rotation((-sign, 0, 0), handdir)
-                    offset = rotation @ self.grip_offsets[sign]
-                    dx = sign * 0.27 - offset.x - sh.x
-                    dy = 0.25 - offset.y - sh.y
-                    reach = self.L[sign, "upper"] + self.L[sign, "fore"] - 0.008
-                    heights.append(
-                        sh.z - math.sqrt(reach * reach - dx * dx - dy * dy) + offset.z
-                    )
-                target = Vector((s * 0.27, 0.25, max(heights)))
-            else:
-                angle = 1.82 - 1.42 * d
-                reach = (
-                    min(self.L[k, "upper"] + self.L[k, "fore"] for k in self.SIDES)
-                    * 0.96
-                    + 0.06
+        elif n == "straight_pulldown":
+            angle = 1.85 - 1.60 * d
+            handdir = Vector((0, math.sin(angle), -math.cos(angle)))
+            center = self.bar_center_for_elbow(.28, handdir, math.radians(15),
+                                              shoulders + handdir * .64)
+            target = center + Vector((s * .28, 0, 0))
+            pole = shoulder + Vector((s * .45, .40, -.25))
+        elif n == "rdl":
+            handdir = Vector((0, 0, -1))
+            heights = []
+            for sign, other in self.SIDES.items():
+                sh = self.joint("mixamorig:" + other + "Arm")
+                rotation, _ = self.hand_rotation((-sign, 0, 0), handdir)
+                offset = rotation @ self.grip_offsets[sign]
+                dx = sign * 0.27 - offset.x - sh.x
+                dy = 0.25 - offset.y - sh.y
+                reach = self.L[sign, "upper"] + self.L[sign, "fore"] - 0.008
+                heights.append(
+                    sh.z - math.sqrt(reach * reach - dx * dx - dy * dy) + offset.z
                 )
-                handdir = Vector((0, math.sin(angle), -math.cos(angle)))
-                target = shoulders + handdir * reach
-                target.x = s * 0.22
+            target = Vector((s * 0.27, 0.25, max(heights)))
             pole = shoulder + Vector((s * 0.25, 0.45, -0.25))
         elif n == "cable_crunch":
             head = self.body["mixamorig:Head"][0]
-            target = head + self.R @ Vector((s * 0.22, 0.32, 0.08))
+            target = head + self.R @ Vector((s * 0.22, 0.22, 0.08))
             # Neutral rope grip: shaft/thumb side up, palms facing each other.
             # Pointing the hand up around a forward shaft inverted the grip
             # and forced the forearms to compensate by almost half a turn.
@@ -551,14 +602,20 @@ class PlanMotion:
             pole = shoulder + Vector((s * 0.3, 0.10, -0.32))
         else:
             if n == "curl":
-                u = unit((s * 0.12, 0.65, -1))
-                angle = 0.65 + 1.55 * d
-                v = unit((0, math.sin(angle), -math.cos(angle)))
+                u = unit((s * .25, .25, -1))
+                forward = Vector((s * .55, 1, 0))
+                forward = (forward - u * forward.dot(u)).normalized()
+                flexion = math.radians(18 + 92 * d)
+                v = u * math.cos(flexion) + forward * math.sin(flexion)
                 axis = Vector((s, 0, 0))
             elif n == "pushdown":
-                u = unit((s * 0.08, 0.42, -1))
-                angle = 1.48 - 1.08 * d
-                v = unit((0, math.sin(angle), -math.cos(angle)))
+                u = unit((s * .25, .25, -1))
+                forward = Vector((0, 1, .25))
+                forward = (forward - u * forward.dot(u)).normalized()
+                flexion = math.radians(100 - 88 * d)
+                v = u * math.cos(flexion) + forward * math.sin(flexion)
+                # Rope grip stays neutral; its thumb side follows the cable.
+                axis = Vector((0, -v.z, v.y))
             elif n == "lateral_raise":
                 angle = 0.32 + 1.19 * d
                 u = unit((s * math.sin(angle), 0.07, -math.cos(angle)))

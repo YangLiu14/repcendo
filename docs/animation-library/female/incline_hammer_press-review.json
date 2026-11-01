@@ -18,8 +18,54 @@
   "status": "accepted",
   "notes": "实际检查五视角及额外顶端临界帧：上斜中立/交替推举的肩腋轮廓顺畅，肘部无反折，手腕握持稳定，腿部支撑无跳动。女性额外59/60与47/48帧已查看。",
   "evidence": {
-    "docs/animation-library/female/incline_hammer_press-review.jpg": "9c9ce5a10637771785abd50e70624a9514a39f7ee3a157dd71fb37b9a61c583d"
+    "docs/animation-library/female/incline_hammer_press-review.jpg": "9c9ce5a10637771785abd50e70624a9514a39f7ee3a157dd71fb37b9a61c583d",
+    "build/motion-reference-review-2026-10-31/boards/incline_hammer_press.jpg": "e7c0309667e56a3242ecbe7d0f825ae0e32ca0e62afd0a16442a3b648324f5e3"
   },
   "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "reviewer": "Codex: actual multi-view image inspection",
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "d03c3dd227eb79340e790590c66db445d79a3a6a7f6a813c579473ff3e4396d4",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看男女八阶段成片、五视角图及女性59/60/61顶端细查，中立握、双侧同步、斜靠背支撑和受控回胸侧一致。雕塑低位开角略宽，顶端两铃保留间距；未见新的肩肘或握持缺陷，保留原片。",
+    "evidence": {
+      "docs/animation-library/female/incline_hammer_press-review.jpg": "9c9ce5a10637771785abd50e70624a9514a39f7ee3a157dd71fb37b9a61c583d",
+      "build/motion-reference-review-2026-10-31/boards/incline_hammer_press.jpg": "e7c0309667e56a3242ecbe7d0f825ae0e32ca0e62afd0a16442a3b648324f5e3"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "10.519997s",
+        "frame": 1,
+        "notes": "中立握胸旁准备，身体靠斜凳。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "11.019996s",
+        "frame": 31,
+        "notes": "双侧同步伸肘上推，掌心相对。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "11.519996s",
+        "frame": 61,
+        "notes": "双臂近直、哑铃不交叠，躯干稳定。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "12.519995s",
+        "frame": 91,
+        "notes": "双侧沿原路回落胸旁，足部不变。"
+      }
+    ]
+  },
+  "motionReferenceReviewedOn": "2026-10-31"
 }

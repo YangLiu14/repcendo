@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "7f9400b0a80ee12312cba6ff5f3ce7d90757950ac19fb68ff06736a7d8d1d1c2",
+  "referenceSHA256": "2eb5fe163f3d4158718dc7763bb41a80a02f183dbf282ddcece1f6c41ee03796",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女已实看主、正、侧、背四阶段。前脚掌保持踏台，脚跟抬起时肩垫和躯干一起上移，膝部角度稳定，下降回原位；与Physitrack同类肩垫机示范一致。保留已说明的较保守踝行程与低位手柄，媒体无需更改。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/calf_raise.jpg": "1c10deeb059cae6282e0321f68d1f820b70fb7aec72c1657d05b84694752c2e5"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:01.018",
+      "frame": 1,
+      "notes": "双足在踏台上，肩垫承托，双膝近直。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:01.999",
+      "frame": 31,
+      "notes": "脚跟上提，前脚掌保持接触，身体向上移动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:02.979",
+      "frame": 61,
+      "notes": "双侧踮脚最高，膝不通过下蹲借力。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:04.007",
+      "frame": 91,
+      "notes": "脚跟控制下降，双肩与手柄接触稳定。"
+    }
+  ]
+}

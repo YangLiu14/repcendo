@@ -61,7 +61,7 @@ def require_collision_pass(sex=None, exercise=None, report=None, root=None):
     return evidence
 
 
-def record_media(sex, name):
+def record_media(sex, name, root=ROOT):
     if name == "squat":
         return
     try:
@@ -69,12 +69,12 @@ def record_media(sex, name):
     except ImportError:
         from deformation_gate import require_deformation_pass
 
-    require_deformation_pass(sex, name)
-    r = require_collision_pass(sex, name)[sex + "/" + name]
+    require_deformation_pass(sex, name, root=root)
+    r = require_collision_pass(sex, name, root=root)[sex + "/" + name]
     collection = (
         "animation-plan-v3" if name in PLAN_EXERCISES else "animation-samples-v2"
     )
-    folder = ROOT / f"docs/{collection}/{sex}"
+    folder = root / f"docs/{collection}/{sex}"
     stamp = dict(
         sceneSHA256=r["sceneSHA256"], validatorSHA256=validator_digest(), files={}
     )
@@ -84,7 +84,7 @@ def record_media(sex, name):
     (folder / f"{name}-media.json").write_text(json.dumps(stamp, indent=2) + "\n")
 
 
-def require_render_pass(sex, name):
+def require_render_pass(sex, name, root=ROOT):
     if name == "squat":
         return
     try:
@@ -92,12 +92,12 @@ def require_render_pass(sex, name):
     except ImportError:
         from deformation_gate import require_deformation_pass
 
-    require_deformation_pass(sex, name)
-    r = require_collision_pass(sex, name)[sex + "/" + name]
+    require_deformation_pass(sex, name, root=root)
+    r = require_collision_pass(sex, name, root=root)[sex + "/" + name]
     collection = (
         "animation-plan-v3" if name in PLAN_EXERCISES else "animation-samples-v2"
     )
-    folder = ROOT / f"build/{collection}/{sex}/{name}"
+    folder = root / f"build/{collection}/{sex}/{name}"
     assert (
         json.loads((folder / "render-source.json").read_text())["sha256"]
         == r["sceneSHA256"]

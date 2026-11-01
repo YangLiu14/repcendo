@@ -76,6 +76,8 @@ def command(args):
 
 def package(sex, name, preview):
     if not preview:
+        from plan_reference_gate import require_pass
+        require_pass(sex, name)
         require_render_pass(sex, name)
     folder = BUILD / sex / name
     dest = OUT / sex

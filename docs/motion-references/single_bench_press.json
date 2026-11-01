@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "exercise": "single_bench_press",
+  "exerciseId": "0343",
+  "status": "reviewed",
+  "specificationSHA256": "5b7d6bc1bc0d979c23ef6fbe25991688d06955a8dff38721f953dc679fb0b545",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "supine",
+    "loadedSides": [
+      "Left"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "National Academy of Sports Medicine (NASM)",
+      "url": "https://www.youtube.com/watch?v=qFTnmyC-nf4",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "平凳仰卧、左手正握单铃胸旁，右手空闲放在腹部，双足稳定。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.499999s",
+      "observed": "左肘开始伸展，铃由胸旁向上；另一手不帮助，躯干不转动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "1.249997s",
+      "observed": "左臂近伸直、胸上方顶点，头背臀保持支撑。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.999996s",
+      "observed": "左侧控制回落，3.999995秒回低位；无躯干侧滚。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "NASM 斜前镜头较 OPEX 纯侧镜头更能辨识上臂走向。保留左侧单铃正握、稳定支撑；空闲手由参考腹部改为身侧不抓凳，是项目展示差异，不参与助力。低位肘外展略宽于 NASM 文本约45度要点，保留本项目约62度通道，未呈90度水平外张。",
+  "crossChecks": [
+    {
+      "publisher": "NASM",
+      "url": "https://www.nasm.org/resource-center/exercise-library/single-arm-dumbbell-chest-press",
+      "locator": "Steps 1–4, Common Mistakes",
+      "observed": "实际读取单铃卧推支撑、约45度肘位、核心抗旋转、受控回胸位。项目低位开角稍宽，明示为差异。"
+    },
+    {
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=q3cXdiyY7-Q",
+      "locator": "0 / 0.624998 / 1.249997 / 3.124996 / 4.374995s actual public player",
+      "observed": "实际观看单铃卧推，空闲手在体侧；远侧低位肘被躯干遮挡，只用于补充空闲手和支撑，不用于低位关节核验。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "1878778bb39948fb7098a975ee351cfa2d6c0dc480eeb98b72c116f46c5fa3da",
+  "referenceSHA256": "1d9e5d13fdadb5d900f49d9fc596b21bb43c9e55296d8829d8cf1bbebbdeb95b",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "male：实际查看四视角逐阶段对照板。男女均保留现有视频。与NASM坐姿膝轴动作一致；项目采用较直立的已核查机型，骨盆、背、膝上垫及双手支撑保持。侧图可见踝后滚垫随小腿下转、回伸；无足部异常拉长。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/male/leg_curl.jpg": "b863a83eb3d0425d92356a5df526856cc30c7757dcd7cd3867cc9d5525abc09d"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:00.000",
+      "frame": 1,
+      "notes": "近伸膝向前准备，踝后滚垫承托。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:01.792",
+      "frame": 31,
+      "notes": "双膝向下后方屈曲，大腿不抬离压垫。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:03.482",
+      "frame": 61,
+      "notes": "小腿接近竖直，骨盆和背部稳定。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:04.963",
+      "frame": 91,
+      "notes": "同路径向前回伸，滚垫随踝移动。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exercise": "db_bench_press",
+  "exerciseId": "0289",
+  "status": "reviewed",
+  "specificationSHA256": "069fd14e66102e213073ad3747354997e45e2fc65d829c9eae66791226f8bca3",
+  "profile": "visual_reference_v1",
+  "variant": {
+    "equipment": "dumbbell",
+    "posture": "supine",
+    "loadedSides": [
+      "Left",
+      "Right"
+    ],
+    "grip": "pronated"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=ZaDlbm8E8Tg",
+      "kind": "human_video",
+      "accessedOn": "2026-10-31",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器查看重复及关键阶段；仅保存自写观察和链接，不下载、提取姿态或再分发媒体。媒体生成许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000s",
+      "observed": "仰卧平凳、头背及臀受支撑、双脚着地；双铃胸旁正握，屈肘。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "0.399999s",
+      "observed": "双侧同时伸肘向上，前臂在铃下方、胸肩稳定。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "0.799999s",
+      "observed": "双臂接近伸直，铃靠近但不交叠，身体保持凳上。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.399998s",
+      "observed": "双肘受控屈曲、双铃沿原路回胸侧；2.999997秒回到完整低位。"
+    }
+  ],
+  "reviewer": "Codex: actual public-player phase observation; not certified coach review",
+  "reviewedOn": "2026-10-31",
+  "decisions": "保留平凳双侧同步正握卧推。项目按雕塑体型保留两铃安全间隙，起点肘不低于参考示范，不添加极限肩伸展。",
+  "crossChecks": [
+    {
+      "publisher": "Human Kinetics / Lauren R. Tapp and Joshua Wludyga",
+      "url": "https://us.humankinetics.com/blogs/excerpt/how-to-perform-a-dumbbell-bench-press",
+      "locator": "Beginning Position, Movement Phases and Teaching Cues",
+      "observed": "实际读取：仰卧、双足着地、正握；伸肘上推、受控回胸旁，顶点双手稍靠近。"
+    }
+  ]
+}

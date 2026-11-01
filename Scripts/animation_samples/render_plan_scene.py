@@ -13,7 +13,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 if not a.review:
     from collision_gate import require_collision_pass
     from deformation_gate import require_deformation_pass
+    from plan_reference_gate import require_pass
 
+    require_pass(s["sex"], s["exercise"], root=a.root)
     require_collision_pass(s["sex"], s["exercise"], root=a.root)
     require_deformation_pass(s["sex"], s["exercise"], root=a.root)
 folder = a.output / ("review" if a.review else "frames")

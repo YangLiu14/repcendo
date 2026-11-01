@@ -1,8 +1,10 @@
 {
-  "sceneSHA256": "b8eb1c34a1f8b6332faeff5935f2c849c25bbbe24fcf830907666998390f67de",
+  "sceneSHA256": "109d822e2e57780527984bab3a53a3286852abef563893c411a0d1df800006b4",
   "frames": [
     1,
+    25,
     49,
+    73,
     97,
     145
   ],
@@ -14,10 +16,52 @@
     "grip"
   ],
   "status": "accepted",
-  "notes": "已逐张查看本场景主、正、侧、背及握持四阶段图。站姿膝屈减小，小腿肌腹与踝部过渡连续；坐姿膝盖轮廓未出现尖折，足底与座面支撑合理。弯举掌向/交替侧、前举方向和握把接触清楚，肩肘轮廓无新增异常鼓包。保留雕塑细部及衣褶。",
+  "notes": "实际查看 female 六阶段五视图；上臂靠近体侧且稳定，前臂绕肘屈伸，旋后握持无可见脱离。1/25/49/73对应左侧完整重复，97换侧低位、145右侧峰值。与真人0/.333/.833/1.292秒比较，先后侧镜像，节奏放慢；侧视躯干不摆动，脚底稳定。工程视觉复核，不是教练认证。",
   "evidence": {
-    "docs/animation-library/female/alternate_curl-review.jpg": "4de766d15b87148815ec978f5a2c11e82b4d2141fa68c37796b335ca8bead94b"
+    "docs/animation-library/female/alternate_curl-review.jpg": "4186476207f627e8dc677b313be54b0e6c25f73186b24b2dc01f7d928aed6837"
   },
-  "reviewedAt": "2026-10-30",
-  "reviewer": "Codex: actual multi-view image inspection"
+  "motionReference": {
+    "status": "accepted",
+    "referenceSHA256": "3b8965d602864c6b755190f0fbde56e3e87c7103e15fcd9e002b69d090ffff39",
+    "views": [
+      "main",
+      "front",
+      "side"
+    ],
+    "notes": "实际查看 female 六阶段五视图；上臂靠近体侧且稳定，前臂绕肘屈伸，旋后握持无可见脱离。1/25/49/73对应左侧完整重复，97换侧低位、145右侧峰值。与真人0/.333/.833/1.292秒比较，先后侧镜像，节奏放慢；侧视躯干不摆动，脚底稳定。工程视觉复核，不是教练认证。",
+    "evidence": {
+      "docs/animation-library/female/alternate_curl-review.jpg": "4186476207f627e8dc677b313be54b0e6c25f73186b24b2dc01f7d928aed6837"
+    },
+    "comparisons": [
+      {
+        "phase": "preparation",
+        "sourceId": "demonstration",
+        "locator": "0.000s",
+        "frame": 1,
+        "notes": "低位上臂贴近体侧，双手旋后握，等待侧放低。"
+      },
+      {
+        "phase": "lifting",
+        "sourceId": "demonstration",
+        "locator": "0.333s",
+        "frame": 25,
+        "notes": "左前臂向上旋转，左上臂保持，另一侧低位等待。"
+      },
+      {
+        "phase": "peak",
+        "sourceId": "demonstration",
+        "locator": "0.833s",
+        "frame": 49,
+        "notes": "肘明显屈曲、铃接近肩前，上臂没有变成前平举。"
+      },
+      {
+        "phase": "return",
+        "sourceId": "demonstration",
+        "locator": "1.292s",
+        "frame": 73,
+        "notes": "前臂沿同一路径下放；补充97与145帧确认换侧与另一侧收缩。"
+      }
+    ]
+  },
+  "reviewedOn": "2026-10-31"
 }

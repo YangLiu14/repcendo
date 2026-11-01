@@ -1,0 +1,51 @@
+{
+  "status": "accepted",
+  "sceneSHA256": "3f44e7f1e119cc95691ac0c43971e0004b0760825582c636a9d26c2cb42fa7df",
+  "referenceSHA256": "96dfffb1b74ec169165b8483407e2eee209dc8a6cdd8316aa55cd76ea6d560f6",
+  "views": [
+    "main",
+    "front",
+    "side",
+    "back"
+  ],
+  "frames": [
+    1,
+    31,
+    61,
+    91
+  ],
+  "notes": "female：实际查看四视角逐阶段对照板。男女四视角显示低位在腿外侧、顶端约肩高，肘保留轻屈、掌心方向随臂抬起自然变化；双肩、骨盆、足底稳定，腋窝和肘无明显挤拉。保留原视频。",
+  "evidence": {
+    "docs/animation-plan-v3/reference-review/female/lateral_raise.jpg": "42321d747ecf29fe90c2fec363fd3a4c76b31d1e880f84313a017cd54760af0d"
+  },
+  "comparisons": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "0.000秒",
+      "frame": 1,
+      "notes": "低位与OPEX腿侧双铃对应。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "1.205秒",
+      "frame": 31,
+      "notes": "同步向侧上举，躯干不借力摆动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "3.616秒（第二次重复）",
+      "frame": 61,
+      "notes": "上臂接近水平、手腕不显著折弯。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "2.411秒（第一次回程）",
+      "frame": 91,
+      "notes": "双铃沿原路径回到侧下方。"
+    }
+  ]
+}

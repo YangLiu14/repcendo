@@ -73,6 +73,13 @@ def inspect_variant(root, motion, sex, bundled):
     }
     if not scene.is_file():
         result["issues"].append("Missing editable source scene")
+    from plan_reference_gate import require_pass as require_plan_reference_pass
+    try:
+        require_plan_reference_pass(sex, motion, root)
+        result["motionReferenceStatus"] = "reference_checked"
+    except (RuntimeError, OSError, ValueError, KeyError) as error:
+        result["motionReferenceStatus"] = "blocked"
+        result["issues"].append(str(error))
     if motion == "squat":
         # The current gates intentionally skip squat; skipping is not a pass.
         result["checks"]["currentProductionGate"] = "legacy_not_covered"

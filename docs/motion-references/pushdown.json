@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "exercise": "pushdown",
+  "exerciseId": "0200",
+  "status": "reviewed",
+  "profile": "plan_visual_reference_v1",
+  "specificationSHA256": "8305c639abdf4d1d40f5719ec108e469ebb4728cc241a2d27f7471061c5e629b",
+  "variant": {
+    "equipment": "高位绳索站及双端绳把",
+    "posture": "双足站姿，双臂同步伸肘",
+    "grip": "双手中立握绳把，拇指侧朝绳索来源",
+    "support": "双足固定地面、躯干稳定"
+  },
+  "sources": [
+    {
+      "id": "demonstration",
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=y6EdXBdL75A",
+      "kind": "human_video",
+      "accessedOn": "2026-11-01",
+      "use": {
+        "mode": "public_player_observation",
+        "redistributeMedia": false,
+        "notes": "实际通过公开播放器观察动作阶段；只记录链接与自写笔记，不下载、提取姿态或再分发视频，媒体派生许可未确认。"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "phase": "preparation",
+      "sourceId": "demonstration",
+      "locator": "00:00.000",
+      "observed": "面向滑轮站，两手在胸前中立握绳，肘屈曲，上臂靠近身体。"
+    },
+    {
+      "phase": "lifting",
+      "sourceId": "demonstration",
+      "locator": "00:04.342",
+      "observed": "示范第二次下压的中段，肘逐步伸展，前臂下转，上臂未大幅前后摆动。"
+    },
+    {
+      "phase": "peak",
+      "sourceId": "demonstration",
+      "locator": "00:01.447",
+      "observed": "第一次下压到底，肘接近伸直，两手在大腿前侧，掌心仍相对。"
+    },
+    {
+      "phase": "return",
+      "sourceId": "demonstration",
+      "locator": "00:02.281",
+      "observed": "受控屈肘回升，躯干及双足不随绳把摆动。"
+    }
+  ],
+  "decisions": "采用OPEX双端绳把中立握；已观察PureGym LXkCrxn3caQ直杆旋前握，故仅作为上臂稳定原则交叉核对，不将其握法用于绳把版本。",
+  "crossChecks": [
+    {
+      "publisher": "PureGym",
+      "url": "https://www.puregym.com/exercises/arms-and-shoulders/tricep-extension/tricep-pushdowns/",
+      "notes": "已阅读绳/杆变体说明：上臂靠近身体、稳定肩带、伸肘下压并受控回升。"
+    },
+    {
+      "publisher": "OPEX Fitness",
+      "url": "https://www.youtube.com/watch?v=y6EdXBdL75A",
+      "notes": "原视频说明明确面向机器、肘在体侧、伸肘后返回；四阶段已实看。"
+    }
+  ],
+  "reviewer": "Codex: actual phase observation; not certified coach review",
+  "reviewedOn": "2026-11-01"
+}
